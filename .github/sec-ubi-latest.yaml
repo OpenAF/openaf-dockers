@@ -658,7 +658,7 @@
     - https://nvd.nist.gov/vuln/detail/CVE-2026-56392
     - https://www.cve.org/CVERecord?id=CVE-2026-56392
     PublishedDate: '2026-07-24T09:16:25.147Z'
-    LastModifiedDate: '2026-08-26T14:05:38.013Z'
+    LastModifiedDate: '2026-10-02T13:57:53.01Z'
   - VulnerabilityID: CVE-2023-4504
     PkgID: cups-libs@2.3.3op2-39.el9_8.x86_64
     PkgName: cups-libs
@@ -7741,6 +7741,40 @@
     - https://www.oracle.com/security-alerts/cspuaug2026.html
     PublishedDate: '2026-08-18T21:17:48.513Z'
     LastModifiedDate: '2026-08-20T13:08:14.613Z'
+  - VulnerabilityID: CVE-2026-95512
+    PkgID: java-21-openjdk-headless@21.0.12.0.8-1.2.el9.x86_64
+    PkgName: java-21-openjdk-headless
+    PkgIdentifier:
+      PURL: pkg:rpm/redhat/java-21-openjdk-headless@21.0.12.0.8-1.2.el9?arch=x86_64&distro=redhat-9.8&epoch=1
+      UID: 4ed116f73912c1b3
+    InstalledVersion: 1:21.0.12.0.8-1.2.el9
+    Status: affected
+    Layer:
+      Digest: sha256:b44ff73f1e8f0a27b2a0c9912c7aec7a087d59dd8b8f8a7c0d5b53783b2c39dc
+      DiffID: sha256:1ee49e0b9bd5b0e31fd1b934a3a76a64ea30bde0de5acfd82ce1a8591d7e5793
+    SeveritySource: redhat
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2026-95512
+    Fingerprint: sha256:8320043f0f2fd3a70706a03cb64646520cc07682193da2374516f530b593e93f
+    Title: 'freetype: FreeType: Denial of Service via repeated subroutine allocations in CID font loader'
+    Description: A flaw was found in FreeType, specifically within its CID font loader. A remote attacker could exploit this vulnerability by tricking a user into opening content that embeds or references a specially crafted CID-keyed font. This crafted font can cause repeated allocations and decryptions of subroutine data across multiple font dictionaries, leading to excessive memory and CPU consumption. This can result in a denial of service (DoS) for the application or service processing the font, potentially causing it to hang or terminate.
+    Severity: MEDIUM
+    CweIDs:
+    - CWE-400
+    VendorSeverity:
+      redhat: 2
+    CVSS:
+      redhat:
+        V3Vector: CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:U/C:N/I:N/A:H
+        V3Score: 5.5
+    References:
+    - https://access.redhat.com/errata/RHSA-2026:74952
+    - https://access.redhat.com/security/cve/CVE-2026-95512
+    - https://bugzilla.redhat.com/show_bug.cgi?id=2462295
+    - https://gitlab.freedesktop.org/freetype/freetype/-/commit/f3ca71c9900fe860849b3163a6e2c1e765b291d9
+    - https://nvd.nist.gov/vuln/detail/CVE-2026-95512
+    - https://www.cve.org/CVERecord?id=CVE-2026-95512
+    PublishedDate: '2026-10-02T09:16:45.3Z'
+    LastModifiedDate: '2026-10-02T18:44:11.27Z'
   - VulnerabilityID: CVE-2026-27171
     PkgID: java-21-openjdk-headless@21.0.12.0.8-1.2.el9.x86_64
     PkgName: java-21-openjdk-headless
@@ -20730,7 +20764,7 @@
     - https://nvd.nist.gov/vuln/detail/CVE-2026-19553
     - https://www.cve.org/CVERecord?id=CVE-2026-19553
     PublishedDate: '2026-09-30T17:16:45.88Z'
-    LastModifiedDate: '2026-10-02T01:16:44.057Z'
+    LastModifiedDate: '2026-10-03T01:17:25.09Z'
   - VulnerabilityID: CVE-2025-11468
     PkgID: python-unversioned-command@3.9.25-7.el9_8.2.noarch
     PkgName: python-unversioned-command
@@ -21344,6 +21378,7 @@
     References:
     - http://www.openwall.com/lists/oss-security/2026/09/29/40
     - https://access.redhat.com/security/cve/CVE-2026-12345
+    - https://github.com/python/cpython/commit/06ef3d43fdaf4da97af12fa694b4886092c4b970
     - https://github.com/python/cpython/commit/458e7134a5af7f86aee9d21b51cf499b41aa4420
     - https://github.com/python/cpython/commit/5c20517a4fc56683efe63a7751020db9573f538d
     - https://github.com/python/cpython/commit/e1f3590f155c6d66007e958c98c9d69316551993
@@ -21352,7 +21387,7 @@
     - https://nvd.nist.gov/vuln/detail/CVE-2026-12345
     - https://www.cve.org/CVERecord?id=CVE-2026-12345
     PublishedDate: '2026-09-29T18:17:14.707Z'
-    LastModifiedDate: '2026-09-30T23:16:59.127Z'
+    LastModifiedDate: '2026-10-03T01:17:23.86Z'
   - VulnerabilityID: CVE-2026-1502
     PkgID: python-unversioned-command@3.9.25-7.el9_8.2.noarch
     PkgName: python-unversioned-command
@@ -21478,6 +21513,7 @@
     CweIDs:
     - CWE-22
     VendorSeverity:
+      azure: 2
       bitnami: 2
       redhat: 2
     CVSS:
@@ -22523,7 +22559,7 @@
     - https://nvd.nist.gov/vuln/detail/CVE-2026-19553
     - https://www.cve.org/CVERecord?id=CVE-2026-19553
     PublishedDate: '2026-09-30T17:16:45.88Z'
-    LastModifiedDate: '2026-10-02T01:16:44.057Z'
+    LastModifiedDate: '2026-10-03T01:17:25.09Z'
   - VulnerabilityID: CVE-2025-11468
     PkgID: python3@3.9.25-7.el9_8.2.x86_64
     PkgName: python3
@@ -23137,6 +23173,7 @@
     References:
     - http://www.openwall.com/lists/oss-security/2026/09/29/40
     - https://access.redhat.com/security/cve/CVE-2026-12345
+    - https://github.com/python/cpython/commit/06ef3d43fdaf4da97af12fa694b4886092c4b970
     - https://github.com/python/cpython/commit/458e7134a5af7f86aee9d21b51cf499b41aa4420
     - https://github.com/python/cpython/commit/5c20517a4fc56683efe63a7751020db9573f538d
     - https://github.com/python/cpython/commit/e1f3590f155c6d66007e958c98c9d69316551993
@@ -23145,7 +23182,7 @@
     - https://nvd.nist.gov/vuln/detail/CVE-2026-12345
     - https://www.cve.org/CVERecord?id=CVE-2026-12345
     PublishedDate: '2026-09-29T18:17:14.707Z'
-    LastModifiedDate: '2026-09-30T23:16:59.127Z'
+    LastModifiedDate: '2026-10-03T01:17:23.86Z'
   - VulnerabilityID: CVE-2026-1502
     PkgID: python3@3.9.25-7.el9_8.2.x86_64
     PkgName: python3
@@ -23271,6 +23308,7 @@
     CweIDs:
     - CWE-22
     VendorSeverity:
+      azure: 2
       bitnami: 2
       redhat: 2
     CVSS:
@@ -24316,7 +24354,7 @@
     - https://nvd.nist.gov/vuln/detail/CVE-2026-19553
     - https://www.cve.org/CVERecord?id=CVE-2026-19553
     PublishedDate: '2026-09-30T17:16:45.88Z'
-    LastModifiedDate: '2026-10-02T01:16:44.057Z'
+    LastModifiedDate: '2026-10-03T01:17:25.09Z'
   - VulnerabilityID: CVE-2025-11468
     PkgID: python3-libs@3.9.25-7.el9_8.2.x86_64
     PkgName: python3-libs
@@ -24930,6 +24968,7 @@
     References:
     - http://www.openwall.com/lists/oss-security/2026/09/29/40
     - https://access.redhat.com/security/cve/CVE-2026-12345
+    - https://github.com/python/cpython/commit/06ef3d43fdaf4da97af12fa694b4886092c4b970
     - https://github.com/python/cpython/commit/458e7134a5af7f86aee9d21b51cf499b41aa4420
     - https://github.com/python/cpython/commit/5c20517a4fc56683efe63a7751020db9573f538d
     - https://github.com/python/cpython/commit/e1f3590f155c6d66007e958c98c9d69316551993
@@ -24938,7 +24977,7 @@
     - https://nvd.nist.gov/vuln/detail/CVE-2026-12345
     - https://www.cve.org/CVERecord?id=CVE-2026-12345
     PublishedDate: '2026-09-29T18:17:14.707Z'
-    LastModifiedDate: '2026-09-30T23:16:59.127Z'
+    LastModifiedDate: '2026-10-03T01:17:23.86Z'
   - VulnerabilityID: CVE-2026-1502
     PkgID: python3-libs@3.9.25-7.el9_8.2.x86_64
     PkgName: python3-libs
@@ -25064,6 +25103,7 @@
     CweIDs:
     - CWE-22
     VendorSeverity:
+      azure: 2
       bitnami: 2
       redhat: 2
     CVSS:
@@ -28206,18 +28246,23 @@
       Name: GitHub Security Advisory Maven
       URL: https://github.com/advisories?query=type%3Areviewed+ecosystem%3Amaven
     Fingerprint: sha256:b9ceb3834dbab0c75f7a9d26d30ce54e3e67075ead8c26a8f7292f46691882f0
-    Title: Forward-reference completion for @JsonIdentityInfo object IDs in Faste ...
+    Title: 'com.fasterxml.jackson.core/jackson-databind: Jackson-databind: Denial of Service via quadratic forward-reference completion'
     Description: Forward-reference completion for @JsonIdentityInfo object IDs in FasterXML jackson-databind performs a linear scan of the pending-reference accumulator for every resolved ID. The affected paths are CollectionDeserializer.CollectionReferringAccumulator.resolveForwardReference() and the equivalent implementation in MapDeserializer. When a document first creates N unresolved object-ID references in an identity-enabled collection or map and then defines those same IDs in reverse order, completion performs on the order of N * (N + 1) / 2 identity comparisons, so a shallow document whose size grows linearly causes quadratic CPU work during deserialization. The reporter instrumented equals() calls on the ID class and measured exactly 2,003,000 comparisons at N = 2,000, against zero comparisons in the pending-reference lookup path for an equally sized control in which every reference was already resolved. The input requires no deep nesting and no syntactically unusual JSON. Exploitation requires an application that deserializes attacker-influenced JSON into an identity-enabled collection or map. The fix replaces the repeated linear lookup with a keyed pending-reference structure.
     Severity: HIGH
     CweIDs:
     - CWE-400
     VendorSeverity:
       ghsa: 3
+      redhat: 3
     CVSS:
       ghsa:
         V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H
         V3Score: 7.5
+      redhat:
+        V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H
+        V3Score: 7.5
     References:
+    - https://access.redhat.com/security/cve/CVE-2026-91777
     - https://github.com/FasterXML/jackson-databind
     - https://github.com/FasterXML/jackson-databind/commit/37ad9b81712cbb9fb62c2d2c1813593252a24b67
     - https://github.com/FasterXML/jackson-databind/issues/6204
@@ -28229,6 +28274,7 @@
     - https://github.com/FasterXML/jackson-databind/releases/tag/jackson-databind-3.2.3
     - https://github.com/FasterXML/jackson-databind/security/advisories/GHSA-cxp5-3px4-pw24
     - https://nvd.nist.gov/vuln/detail/CVE-2026-91777
+    - https://www.cve.org/CVERecord?id=CVE-2026-91777
     PublishedDate: '2026-09-23T03:17:04.783Z'
     LastModifiedDate: '2026-09-24T20:43:32.537Z'
   - VulnerabilityID: CVE-2026-19032
