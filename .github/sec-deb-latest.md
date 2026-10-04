@@ -19793,8 +19793,8 @@
 │                       │     │                  https://github.com/FasterXML/jackson-core                     
 │                       │     │                  https://github.com/FasterXML/jackson-core/commit/731e794f62623
 │                       │     │                  aa0d86ced52490166be903fbb1d                                   
-│                       │     │                  https://nvd.nist.gov/vuln/detail/CVE-2026-13595               
-│                       │     │                                                                                
+│                       │     │                  https://github.com/FasterXML/jackson-core/commit/e7acd64cc99bd
+│                       │     │                  346704423dc2bfea1ab0a08ddff                                   
 │                       │     │                  https://github.com/FasterXML/jackson-core/issues/1649         
 │                       │     │                                                                                
 │                       │     │                  https://github.com/FasterXML/jackson-core/pull/1650           
@@ -20457,9 +20457,9 @@
                         │      │                    to execute XSS attacks in applications that attempt to
                         │      │                   sanitize input HTML before rendering. 
                         │      ├ Severity        : HIGH 
-                        │      ├ CweIDs                              
-                        │      │                  ───────────────────
-                        │      │                  GHSA-7hhh-6rmp-j9qf
+                        │      ├ CweIDs                   
+                        │      │                  ────────
+                        │      │                  CWE-1021
                         │      │                  
                         │      ├ VendorSeverity   ╭ alma       : 3 
                         │      │                  ├ amazon     : 3 
