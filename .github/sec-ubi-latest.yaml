@@ -7561,6 +7561,38 @@
     - https://www.cve.org/CVERecord?id=CVE-2026-40930
     PublishedDate: '2026-06-04T16:16:36.633Z'
     LastModifiedDate: '2026-07-22T20:10:00.127Z'
+  - VulnerabilityID: CVE-2026-49919
+    PkgID: java-21-openjdk-headless@21.0.12.0.8-1.2.el9.x86_64
+    PkgName: java-21-openjdk-headless
+    PkgIdentifier:
+      PURL: pkg:rpm/redhat/java-21-openjdk-headless@21.0.12.0.8-1.2.el9?arch=x86_64&distro=redhat-9.8&epoch=1
+      UID: 4ed116f73912c1b3
+    InstalledVersion: 1:21.0.12.0.8-1.2.el9
+    Status: affected
+    Layer:
+      Digest: sha256:b44ff73f1e8f0a27b2a0c9912c7aec7a087d59dd8b8f8a7c0d5b53783b2c39dc
+      DiffID: sha256:1ee49e0b9bd5b0e31fd1b934a3a76a64ea30bde0de5acfd82ce1a8591d7e5793
+    SeveritySource: redhat
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2026-49919
+    Fingerprint: sha256:333f22525c74f122c04e59881278a03e402a454eeac046a943588250176710ea
+    Title: 'freetype: Integer overflow in FreeType tt_face_colr_blend_layer() leads to heap buffer overflow during COLR font rendering'
+    Description: In tt_face_colr_blend_layer of ttcolr.c, there is a possible remote code execution due to an integer overflow. This could lead to local escalation of privilege with no additional execution privileges needed. User interaction is not needed for exploitation.
+    Severity: MEDIUM
+    CweIDs:
+    - CWE-190
+    VendorSeverity:
+      redhat: 2
+    CVSS:
+      redhat:
+        V3Vector: CVSS:3.1/AV:L/AC:H/PR:N/UI:R/S:U/C:L/I:L/A:H
+        V3Score: 5.8
+    References:
+    - https://access.redhat.com/security/cve/CVE-2026-49919
+    - https://nvd.nist.gov/vuln/detail/CVE-2026-49919
+    - https://source.android.com/docs/security/bulletin/2026/2026-09-01
+    - https://www.cve.org/CVERecord?id=CVE-2026-49919
+    PublishedDate: '2026-09-08T19:17:59.093Z'
+    LastModifiedDate: '2026-09-24T15:47:16.387Z'
   - VulnerabilityID: CVE-2026-60589
     VendorIDs:
     - RHSA-2026:55787
@@ -19832,10 +19864,11 @@
     References:
     - https://access.redhat.com/security/cve/CVE-2026-103111
     - https://github.com/PCRE2Project/pcre2/security/advisories/GHSA-r9hj-j2rw-4q3m
+    - https://lists.debian.org/debian-lts-announce/2026/10/msg00008.html
     - https://nvd.nist.gov/vuln/detail/CVE-2026-103111
     - https://www.cve.org/CVERecord?id=CVE-2026-103111
     PublishedDate: '2026-09-30T05:16:45.863Z'
-    LastModifiedDate: '2026-09-30T20:17:29.847Z'
+    LastModifiedDate: '2026-10-04T00:16:35.563Z'
   - VulnerabilityID: CVE-2026-86145
     PkgID: pcre2@10.40-6.el9.x86_64
     PkgName: pcre2
@@ -20138,10 +20171,11 @@
     References:
     - https://access.redhat.com/security/cve/CVE-2026-103111
     - https://github.com/PCRE2Project/pcre2/security/advisories/GHSA-r9hj-j2rw-4q3m
+    - https://lists.debian.org/debian-lts-announce/2026/10/msg00008.html
     - https://nvd.nist.gov/vuln/detail/CVE-2026-103111
     - https://www.cve.org/CVERecord?id=CVE-2026-103111
     PublishedDate: '2026-09-30T05:16:45.863Z'
-    LastModifiedDate: '2026-09-30T20:17:29.847Z'
+    LastModifiedDate: '2026-10-04T00:16:35.563Z'
   - VulnerabilityID: CVE-2026-86145
     PkgID: pcre2-syntax@10.40-6.el9.noarch
     PkgName: pcre2-syntax
