@@ -24,7 +24,8 @@
 │                       │     │                   37ed64910b 
 │                       │     ├ Title           : [Use-after-free of zlib input in `png_read_end` after
 │                       │     │                   incomplete zTXt, iTXt or iCCP decompression] 
-│                       │     ├ Description     : Description Not Available 
+│                       │     ├ Description     : Use-after-free of zlib input in `png_read_end` after
+│                       │     │                   incomplete zTXt, iTXt or iCCP decompression 
 │                       │     ╰ Severity        : UNKNOWN 
 │                       ╰ [1] ╭ VulnerabilityID : CVE-2026-58055 
 │                             ├ PkgID           : nghttp2-libs@1.69.0-r0 
@@ -80,12 +81,13 @@
 │                             ├ References                                                                     
 │                             │                  ──────────────────────────────────────────────────────────────
 │                             │                  https://access.redhat.com/errata/RHSA-2026:54662              
+│                             │                  https://access.redhat.com/errata/RHSA-2026:55804              
 │                             │                  https://access.redhat.com/security/cve/CVE-2026-58055         
 │                             │                  https://bugzilla.redhat.com/2493954                           
 │                             │                  https://bugzilla.redhat.com/show_bug.cgi?id=2493954           
 │                             │                  https://creativecommons.org/licenses/by/4.0/                  
 │                             │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-58055 
-│                             │                  https://errata.almalinux.org/9/ALSA-2026-54662.html           
+│                             │                  https://errata.almalinux.org/8/ALSA-2026-55804.html           
 │                             │                  https://errata.rockylinux.org/RLSA-2026:54662                 
 │                             │                  https://github.com/advisories/GHSA-xrr7-82jr-v58x             
 │                             │                  https://github.com/bikini/exploitarium/tree/main/nghttp2-nghtt
