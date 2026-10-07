@@ -17370,7 +17370,7 @@
 │                       │       │                  CWE-787
 │                       │       │                  
 │                       │       ├ VendorSeverity   ╭ azure : 2 
-│                       │       │                  ├ photon: 2 
+│                       │       │                  ├ photon: 3 
 │                       │       │                  ├ redhat: 2 
 │                       │       │                  ╰ ubuntu: 2 
 │                       │       ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:L/AC:H/PR:N/UI:N/S:U/C:N/I:
@@ -21031,6 +21031,8 @@
                         │      │                  2026-39821.json                                              
                         │      │                  https://ubuntu.com/security/notices/USN-8416-1               
                         │      │                                                                               
+                        │      │                  https://ubuntu.com/security/notices/USN-8883-1               
+                        │      │                                                                               
                         │      │                  https://www.cve.org/CVERecord?id=CVE-2026-39821              
                         │      │                                                                               
                         │      │                  
@@ -21763,6 +21765,8 @@
                         │      │                  2026-39821.json                                              
                         │      │                  https://ubuntu.com/security/notices/USN-8416-1               
                         │      │                                                                               
+                        │      │                  https://ubuntu.com/security/notices/USN-8883-1               
+                        │      │                                                                               
                         │      │                  https://www.cve.org/CVERecord?id=CVE-2026-39821              
                         │      │                                                                               
                         │      │                  
@@ -21804,7 +21808,7 @@
                         │      │                  CWE-61
                         │      │                  
                         │      ├ VendorSeverity   ╭ alma       : 3 
-                        │      │                  ├ amazon     : 3 
+                        │      │                  ├ amazon     : 2 
                         │      │                  ├ azure      : 3 
                         │      │                  ├ bitnami    : 3 
                         │      │                  ├ oracle-oval: 3 
@@ -22008,7 +22012,7 @@
                         │      │                  ├ amazon     : 3 
                         │      │                  ├ bitnami    : 2 
                         │      │                  ├ oracle-oval: 3 
-                        │      │                  ├ photon     : 2 
+                        │      │                  ├ photon     : 4 
                         │      │                  ├ redhat     : 3 
                         │      │                  ╰ rocky      : 3 
                         │      ├ CVSS             ╭ bitnami ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:C/C:L/I:
@@ -22182,7 +22186,7 @@
                         │      │                  ├ amazon     : 3 
                         │      │                  ├ bitnami    : 2 
                         │      │                  ├ oracle-oval: 3 
-                        │      │                  ├ photon     : 2 
+                        │      │                  ├ photon     : 3 
                         │      │                  ├ redhat     : 3 
                         │      │                  ╰ rocky      : 3 
                         │      ├ CVSS             ╭ bitnami ╭ V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:N/I:
