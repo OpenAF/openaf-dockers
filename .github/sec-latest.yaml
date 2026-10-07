@@ -90,6 +90,39 @@
     - https://www.vulncheck.com/advisories/nghttp2-nghttpx-http-request-response-smuggling-via-upgrade-request-with-content-length
     PublishedDate: '2026-06-28T02:16:32.677Z'
     LastModifiedDate: '2026-06-30T17:41:26.433Z'
+  - VulnerabilityID: CVE-2026-85091
+    PkgID: zlib@1.3.2-r0
+    PkgName: zlib
+    PkgIdentifier:
+      PURL: pkg:apk/alpine/zlib@1.3.2-r0?arch=x86_64&distro=3.24.2
+      UID: e37054a2982d6c16
+    InstalledVersion: 1.3.2-r0
+    FixedVersion: 1.3.2-r1
+    Status: fixed
+    Layer:
+      Digest: sha256:e9495d4050abfa9a70f25c7ab8ff6e555298d5c80457a5aa185bdc729d9d73e4
+      DiffID: sha256:4ca045a0c8251a271592c969c2c9b0a25fdb28a3cfe8ab4f37c3300b94911bf9
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2026-85091
+    DataSource:
+      ID: alpine
+      Name: Alpine Secdb
+      URL: https://secdb.alpinelinux.org/
+    Fingerprint: sha256:6f8d5b8c7b1ab916d664d651dff27e6caf4c5920c7644f2ecc1c2fc0da655242
+    Title: zlib versions 1.3.1.2 through 1.3.2 contain a heap buffer overflow vul ...
+    Description: zlib versions 1.3.1.2 through 1.3.2 contain a heap buffer overflow vulnerability in the gz_vacate() function when processing non-blocking gzwrite() operations with stale external buffer pointers. Attackers can trigger the overflow by calling gzprintf() or gzvprintf() after a write stall, causing an unchecked memmove() to write beyond the internal input buffer boundary.
+    Severity: MEDIUM
+    CweIDs:
+    - CWE-787
+    VendorSeverity:
+      ubuntu: 2
+    References:
+    - https://gist.github.com/thesmartshadow/e0b9481792afb7c31e86fee1ff084490
+    - https://github.com/madler/zlib
+    - https://github.com/madler/zlib/blob/v1.3.2/gzwrite.c#L393
+    - https://www.cve.org/CVERecord?id=CVE-2026-85091
+    - https://www.vulncheck.com/advisories/zlib-1.3.1.2-through-1.3.2-heap-buffer-overflow-via-gz-vacate
+    PublishedDate: '2026-09-03T13:06:20.573Z'
+    LastModifiedDate: '2026-09-09T20:41:07.123Z'
 - Target: Java
   Class: lang-pkgs
   Type: jar
