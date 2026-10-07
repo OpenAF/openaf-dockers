@@ -36,87 +36,135 @@
 │                       │                        https://www.cve.org/CVERecord?id=CVE-2026-46675               
 │                       │                                                                                      
 │                       │                        
-│                       ╰ [1] ╭ VulnerabilityID : CVE-2026-58055 
-│                             ├ PkgID           : nghttp2-libs@1.69.0-r0 
-│                             ├ PkgName         : nghttp2-libs 
-│                             ├ PkgIdentifier    ╭ PURL: pkg:apk/alpine/nghttp2-libs@1.69.0-r0?arch=x86_64&dist
-│                             │                  │       ro=3.24.2 
-│                             │                  ╰ UID : cdceee5bd778a45c 
-│                             ├ InstalledVersion: 1.69.0-r0 
-│                             ├ FixedVersion    : 1.70.0-r0 
+│                       ├ [1] ╭ VulnerabilityID : CVE-2026-58055 
+│                       │     ├ PkgID           : nghttp2-libs@1.69.0-r0 
+│                       │     ├ PkgName         : nghttp2-libs 
+│                       │     ├ PkgIdentifier    ╭ PURL: pkg:apk/alpine/nghttp2-libs@1.69.0-r0?arch=x86_64&dist
+│                       │     │                  │       ro=3.24.2 
+│                       │     │                  ╰ UID : cdceee5bd778a45c 
+│                       │     ├ InstalledVersion: 1.69.0-r0 
+│                       │     ├ FixedVersion    : 1.70.0-r0 
+│                       │     ├ Status          : fixed 
+│                       │     ├ Layer            ╭ Digest: sha256:e9495d4050abfa9a70f25c7ab8ff6e555298d5c80457a
+│                       │     │                  │         5aa185bdc729d9d73e4 
+│                       │     │                  ╰ DiffID: sha256:4ca045a0c8251a271592c969c2c9b0a25fdb28a3cfe8a
+│                       │     │                            b4f37c3300b94911bf9 
+│                       │     ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2026-58055 
+│                       │     ├ DataSource       ╭ ID  : alpine 
+│                       │     │                  ├ Name: Alpine Secdb 
+│                       │     │                  ╰ URL : https://secdb.alpinelinux.org/ 
+│                       │     ├ Fingerprint     : sha256:9c46860efdb07cf6e0a949d787532e9dfbe6b826216b6066a6e19e
+│                       │     │                   3ac38b977e 
+│                       │     ├ Title           : nghttp2: nghttp2: HTTP Request/Response Smuggling and
+│                       │     │                   Response-Queue Poisoning via ambiguous HTTP/1.1 Upgrade
+│                       │     │                   requests 
+│                       │     ├ Description     : nghttp2's nghttpx proxy through 1.69.0 forwards an HTTP/1.1
+│                       │     │                   Upgrade request that also carries a Content-Length header and
+│                       │     │                    body onto reusable keep-alive backend connections, re-adding
+│                       │     │                    the Upgrade and Connection headers while passing
+│                       │     │                   Content-Length verbatim. A backend that resolves the
+│                       │     │                   resulting ambiguous message in the attacker's favor enables
+│                       │     │                   HTTP request/response smuggling and cross-client
+│                       │     │                   response-queue poisoning. 
+│                       │     ├ Severity        : MEDIUM 
+│                       │     ├ CweIDs                  
+│                       │     │                  ───────
+│                       │     │                  CWE-444
+│                       │     │                  
+│                       │     ├ VendorSeverity   ╭ alma       : 2 
+│                       │     │                  ├ azure      : 2 
+│                       │     │                  ├ julia      : 2 
+│                       │     │                  ├ oracle-oval: 2 
+│                       │     │                  ├ redhat     : 2 
+│                       │     │                  ├ rocky      : 2 
+│                       │     │                  ╰ ubuntu     : 2 
+│                       │     ├ CVSS             ╭ julia  ╭ V3Vector : CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:C/C:L/I:L
+│                       │     │                  │        │            /A:N 
+│                       │     │                  │        ├ V40Vector: CVSS:4.0/AV:N/AC:H/AT:N/PR:N/UI:N/VC:L/V
+│                       │     │                  │        │            I:L/VA:N/SC:N/SI:L/SA:N 
+│                       │     │                  │        ├ V3Score  : 5.4 
+│                       │     │                  │        ╰ V40Score : 6.3 
+│                       │     │                  ╰ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:C/C:L/I:L/
+│                       │     │                           │           A:N 
+│                       │     │                           ╰ V3Score : 5.4 
+│                       │     ├ References                                                                     
+│                       │     │                  ──────────────────────────────────────────────────────────────
+│                       │     │                  https://access.redhat.com/errata/RHSA-2026:54662              
+│                       │     │                  https://access.redhat.com/security/cve/CVE-2026-58055         
+│                       │     │                  https://bugzilla.redhat.com/2493954                           
+│                       │     │                  https://bugzilla.redhat.com/show_bug.cgi?id=2493954           
+│                       │     │                  https://creativecommons.org/licenses/by/4.0/                  
+│                       │     │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-58055 
+│                       │     │                  https://errata.almalinux.org/9/ALSA-2026-54662.html           
+│                       │     │                  https://errata.rockylinux.org/RLSA-2026:54662                 
+│                       │     │                  https://github.com/advisories/GHSA-xrr7-82jr-v58x             
+│                       │     │                  https://github.com/bikini/exploitarium/tree/main/nghttp2-nghtt
+│                       │     │                  px-upgrade-queue-poison-poc                                   
+│                       │     │                  https://github.com/nghttp2/nghttp2/commit/ab28105c4a0197da24f8
+│                       │     │                  bfc414bc116055249e1e                                          
+│                       │     │                  https://linux.oracle.com/cve/CVE-2026-58055.html              
+│                       │     │                                                                                
+│                       │     │                  https://linux.oracle.com/errata/ELSA-2026-55804.html          
+│                       │     │                                                                                
+│                       │     │                  https://nvd.nist.gov/vuln/detail/CVE-2026-58055               
+│                       │     │                                                                                
+│                       │     │                  https://ubuntu.com/security/notices/USN-8495-1                
+│                       │     │                                                                                
+│                       │     │                  https://www.cve.org/CVERecord?id=CVE-2026-58055               
+│                       │     │                                                                                
+│                       │     │                  https://www.vulncheck.com/advisories/nghttp2-nghttpx-http-requ
+│                       │     │                  est-response-smuggling-via-upgrade-request-with-content-length
+│                       │     │                  
+│                       │     ├ PublishedDate   : 2026-06-28T02:16:32.677Z 
+│                       │     ╰ LastModifiedDate: 2026-06-30T17:41:26.433Z 
+│                       ╰ [2] ╭ VulnerabilityID : CVE-2026-85091 
+│                             ├ PkgID           : zlib@1.3.2-r0 
+│                             ├ PkgName         : zlib 
+│                             ├ PkgIdentifier    ╭ PURL: pkg:apk/alpine/zlib@1.3.2-r0?arch=x86_64&distro=3.24.2 
+│                             │                  ╰ UID : e37054a2982d6c16 
+│                             ├ InstalledVersion: 1.3.2-r0 
+│                             ├ FixedVersion    : 1.3.2-r1 
 │                             ├ Status          : fixed 
 │                             ├ Layer            ╭ Digest: sha256:e9495d4050abfa9a70f25c7ab8ff6e555298d5c80457a
 │                             │                  │         5aa185bdc729d9d73e4 
 │                             │                  ╰ DiffID: sha256:4ca045a0c8251a271592c969c2c9b0a25fdb28a3cfe8a
 │                             │                            b4f37c3300b94911bf9 
-│                             ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2026-58055 
+│                             ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2026-85091 
 │                             ├ DataSource       ╭ ID  : alpine 
 │                             │                  ├ Name: Alpine Secdb 
 │                             │                  ╰ URL : https://secdb.alpinelinux.org/ 
-│                             ├ Fingerprint     : sha256:9c46860efdb07cf6e0a949d787532e9dfbe6b826216b6066a6e19e
-│                             │                   3ac38b977e 
-│                             ├ Title           : nghttp2: nghttp2: HTTP Request/Response Smuggling and
-│                             │                   Response-Queue Poisoning via ambiguous HTTP/1.1 Upgrade
-│                             │                   requests 
-│                             ├ Description     : nghttp2's nghttpx proxy through 1.69.0 forwards an HTTP/1.1
-│                             │                   Upgrade request that also carries a Content-Length header and
-│                             │                    body onto reusable keep-alive backend connections, re-adding
-│                             │                    the Upgrade and Connection headers while passing
-│                             │                   Content-Length verbatim. A backend that resolves the
-│                             │                   resulting ambiguous message in the attacker's favor enables
-│                             │                   HTTP request/response smuggling and cross-client
-│                             │                   response-queue poisoning. 
+│                             ├ Fingerprint     : sha256:6f8d5b8c7b1ab916d664d651dff27e6caf4c5920c7644f2ecc1c2f
+│                             │                   c0da655242 
+│                             ├ Title           : zlib versions 1.3.1.2 through 1.3.2 contain a heap buffer
+│                             │                   overflow vul ... 
+│                             ├ Description     : zlib versions 1.3.1.2 through 1.3.2 contain a heap buffer
+│                             │                   overflow vulnerability in the gz_vacate() function when
+│                             │                   processing non-blocking gzwrite() operations with stale
+│                             │                   external buffer pointers. Attackers can trigger the overflow
+│                             │                   by calling gzprintf() or gzvprintf() after a write stall,
+│                             │                   causing an unchecked memmove() to write beyond the internal
+│                             │                   input buffer boundary. 
 │                             ├ Severity        : MEDIUM 
 │                             ├ CweIDs                  
 │                             │                  ───────
-│                             │                  CWE-444
+│                             │                  CWE-787
 │                             │                  
-│                             ├ VendorSeverity   ╭ alma       : 2 
-│                             │                  ├ azure      : 2 
-│                             │                  ├ julia      : 2 
-│                             │                  ├ oracle-oval: 2 
-│                             │                  ├ redhat     : 2 
-│                             │                  ├ rocky      : 2 
-│                             │                  ╰ ubuntu     : 2 
-│                             ├ CVSS             ╭ julia  ╭ V3Vector : CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:C/C:L/I:L
-│                             │                  │        │            /A:N 
-│                             │                  │        ├ V40Vector: CVSS:4.0/AV:N/AC:H/AT:N/PR:N/UI:N/VC:L/V
-│                             │                  │        │            I:L/VA:N/SC:N/SI:L/SA:N 
-│                             │                  │        ├ V3Score  : 5.4 
-│                             │                  │        ╰ V40Score : 6.3 
-│                             │                  ╰ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:C/C:L/I:L/
-│                             │                           │           A:N 
-│                             │                           ╰ V3Score : 5.4 
+│                             ├ VendorSeverity   ─ ubuntu: 2 
 │                             ├ References                                                                     
 │                             │                  ──────────────────────────────────────────────────────────────
-│                             │                  https://access.redhat.com/errata/RHSA-2026:54662              
-│                             │                  https://access.redhat.com/security/cve/CVE-2026-58055         
-│                             │                  https://bugzilla.redhat.com/2493954                           
-│                             │                  https://bugzilla.redhat.com/show_bug.cgi?id=2493954           
-│                             │                  https://creativecommons.org/licenses/by/4.0/                  
-│                             │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-58055 
-│                             │                  https://errata.almalinux.org/9/ALSA-2026-54662.html           
-│                             │                  https://errata.rockylinux.org/RLSA-2026:54662                 
-│                             │                  https://github.com/advisories/GHSA-xrr7-82jr-v58x             
-│                             │                  https://github.com/bikini/exploitarium/tree/main/nghttp2-nghtt
-│                             │                  px-upgrade-queue-poison-poc                                   
-│                             │                  https://github.com/nghttp2/nghttp2/commit/ab28105c4a0197da24f8
-│                             │                  bfc414bc116055249e1e                                          
-│                             │                  https://linux.oracle.com/cve/CVE-2026-58055.html              
+│                             │                  https://gist.github.com/thesmartshadow/e0b9481792afb7c31e86fee
+│                             │                  1ff084490                                                     
+│                             │                  https://github.com/madler/zlib                                
 │                             │                                                                                
-│                             │                  https://linux.oracle.com/errata/ELSA-2026-55804.html          
+│                             │                  https://github.com/madler/zlib/blob/v1.3.2/gzwrite.c#L393     
 │                             │                                                                                
-│                             │                  https://nvd.nist.gov/vuln/detail/CVE-2026-58055               
+│                             │                  https://www.cve.org/CVERecord?id=CVE-2026-85091               
 │                             │                                                                                
-│                             │                  https://ubuntu.com/security/notices/USN-8495-1                
-│                             │                                                                                
-│                             │                  https://www.cve.org/CVERecord?id=CVE-2026-58055               
-│                             │                                                                                
-│                             │                  https://www.vulncheck.com/advisories/nghttp2-nghttpx-http-requ
-│                             │                  est-response-smuggling-via-upgrade-request-with-content-length
+│                             │                  https://www.vulncheck.com/advisories/zlib-1.3.1.2-through-1.3.
+│                             │                  2-heap-buffer-overflow-via-gz-vacate                          
 │                             │                  
-│                             ├ PublishedDate   : 2026-06-28T02:16:32.677Z 
-│                             ╰ LastModifiedDate: 2026-06-30T17:41:26.433Z 
+│                             ├ PublishedDate   : 2026-09-03T13:06:20.573Z 
+│                             ╰ LastModifiedDate: 2026-09-09T20:41:07.123Z 
 ╰ [1] ╭ Target         : Java 
       ├ Class          : lang-pkgs 
       ├ Type           : jar 
