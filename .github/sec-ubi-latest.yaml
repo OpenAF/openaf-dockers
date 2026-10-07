@@ -1041,21 +1041,27 @@
     SeveritySource: redhat
     PrimaryURL: https://avd.aquasec.com/nvd/cve-2026-105326
     Fingerprint: sha256:b0772c93094d27fea8b6452cbe0205334cfa2fc8092c26f8828f57813af8ee90
-    Title: An argument injection flaw was found in CUPS. When email notification  ...
+    Title: 'cups: cups: argument injection in mailto notifier via notify-recipient-uri'
     Description: An argument injection flaw was found in CUPS. When email notification is configured, the CUPS scheduler accepts printer subscription requests that supply a mailto notify-recipient-uri. The mailto notifier passes the recipient address to the configured sendmail program without ensuring it cannot be interpreted as command-line options. A remote attacker who can reach the CUPS service could supply a crafted recipient value starting with "-" to influence sendmail behavior. Successful exploitation depends on the installed mail transfer agent and CUPS network exposure, and may lead to execution of attacker-controlled commands with the privileges of the CUPS service user.
     Severity: LOW
     CweIDs:
     - CWE-88
     VendorSeverity:
       redhat: 1
+    CVSS:
+      redhat:
+        V3Vector: CVSS:3.1/AV:L/AC:H/PR:L/UI:N/S:U/C:L/I:N/A:N
+        V3Score: 2.5
     References:
     - https://access.redhat.com/security/cve/CVE-2026-105326
     - https://bugzilla.redhat.com/show_bug.cgi?id=2545835
     - https://github.com/OpenPrinting/cups/commit/1244ed9
     - https://github.com/OpenPrinting/cups/commit/611d1bd
     - https://github.com/OpenPrinting/cups/security/advisories/GHSA-r4wf-366f-f6g3
+    - https://nvd.nist.gov/vuln/detail/CVE-2026-105326
+    - https://www.cve.org/CVERecord?id=CVE-2026-105326
     PublishedDate: '2026-10-05T19:17:16.393Z'
-    LastModifiedDate: '2026-10-05T19:17:16.393Z'
+    LastModifiedDate: '2026-10-06T15:17:13.45Z'
   - VulnerabilityID: CVE-2026-41079
     PkgID: cups-libs@2.3.3op2-39.el9_8.x86_64
     PkgName: cups-libs
@@ -1163,7 +1169,7 @@
     - CWE-295
     VendorSeverity:
       alma: 3
-      amazon: 2
+      amazon: 3
       azure: 3
       julia: 3
       oracle-oval: 3
@@ -2230,7 +2236,7 @@
     - CWE-201
     VendorSeverity:
       alma: 3
-      amazon: 2
+      amazon: 3
       azure: 3
       julia: 4
       oracle-oval: 3
@@ -4504,7 +4510,7 @@
       alma: 2
       azure: 2
       oracle-oval: 2
-      photon: 2
+      photon: 3
       redhat: 2
       rocky: 2
       ubuntu: 2
@@ -7171,19 +7177,26 @@
     SeveritySource: redhat
     PrimaryURL: https://avd.aquasec.com/nvd/cve-2026-105712
     Fingerprint: sha256:10170541db65e651da4e7097fd8f34dd9782cd3693dc1931d96593286693137c
-    Title: gpgtar in GnuPG before 2.5.19 can allow file overwrite via crafted dat ...
+    Title: 'gnupg2: gnupg: Arbitrary file overwrite via symlink traversal in gpgtar'
     Description: gpgtar in GnuPG before 2.5.19 can allow file overwrite via crafted data in an archive. When extracting an untrusted archive with --directory (aka -C) into an existing directory containing a pre-existing symlink, gpgtar can follow that symlink and create or overwrite a file outside the selected extraction directory. The write is limited by the extraction user's filesystem permissions. An archive extracted into a fresh empty directory does not have this risk.
     Severity: LOW
     CweIDs:
     - CWE-61
     VendorSeverity:
       redhat: 1
+    CVSS:
+      redhat:
+        V3Vector: CVSS:3.1/AV:L/AC:H/PR:N/UI:R/S:U/C:N/I:L/A:L
+        V3Score: 3.6
     References:
+    - https://access.redhat.com/security/cve/CVE-2026-105712
     - https://github.com/gpg/gnupg/commit/7a2692fe5e580ae3bbb2a47abc4baaf1af65aa88
     - https://lists.gnupg.org/pipermail/gnupg-announce/2026q2/000504.html
+    - https://nvd.nist.gov/vuln/detail/CVE-2026-105712
     - https://static.dev.gnupg.org/T8159.html
+    - https://www.cve.org/CVERecord?id=CVE-2026-105712
     PublishedDate: '2026-10-05T19:17:19.527Z'
-    LastModifiedDate: '2026-10-05T20:17:20.46Z'
+    LastModifiedDate: '2026-10-06T16:00:36.547Z'
   - VulnerabilityID: CVE-2026-24883
     PkgID: gnupg2@2.3.3-5.el9_7.x86_64
     PkgName: gnupg2
@@ -7479,7 +7492,7 @@
     CweIDs:
     - CWE-125
     VendorSeverity:
-      amazon: 3
+      amazon: 2
       azure: 2
       cbl-mariner: 2
       julia: 2
@@ -7739,7 +7752,7 @@
     - CWE-200
     VendorSeverity:
       alma: 2
-      amazon: 3
+      amazon: 2
       bitnami: 1
       oracle-oval: 2
       redhat: 2
@@ -7799,7 +7812,7 @@
     - CWE-284
     VendorSeverity:
       alma: 2
-      amazon: 3
+      amazon: 2
       bitnami: 2
       oracle-oval: 2
       redhat: 2
@@ -7859,7 +7872,7 @@
     - CWE-284
     VendorSeverity:
       alma: 2
-      amazon: 3
+      amazon: 2
       bitnami: 2
       oracle-oval: 2
       redhat: 2
@@ -7916,6 +7929,7 @@
     - CWE-400
     VendorSeverity:
       redhat: 2
+      ubuntu: 2
     CVSS:
       redhat:
         V3Vector: CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:U/C:N/I:N/A:H
@@ -7926,6 +7940,7 @@
     - https://bugzilla.redhat.com/show_bug.cgi?id=2462295
     - https://gitlab.freedesktop.org/freetype/freetype/-/commit/f3ca71c9900fe860849b3163a6e2c1e765b291d9
     - https://nvd.nist.gov/vuln/detail/CVE-2026-95512
+    - https://ubuntu.com/security/notices/USN-8881-1
     - https://www.cve.org/CVERecord?id=CVE-2026-95512
     PublishedDate: '2026-10-02T09:16:45.3Z'
     LastModifiedDate: '2026-10-06T03:17:09.75Z'
@@ -8777,7 +8792,7 @@
     - CWE-295
     VendorSeverity:
       alma: 3
-      amazon: 2
+      amazon: 3
       azure: 3
       julia: 3
       oracle-oval: 3
@@ -9844,7 +9859,7 @@
     - CWE-201
     VendorSeverity:
       alma: 3
-      amazon: 2
+      amazon: 3
       azure: 3
       julia: 4
       oracle-oval: 3
@@ -15980,7 +15995,7 @@
       azure: 2
       julia: 4
       nvd: 4
-      photon: 4
+      photon: 3
       redhat: 1
       ubuntu: 1
     CVSS:
@@ -16731,198 +16746,6 @@
     - https://www.cve.org/CVERecord?id=CVE-2026-75803
     PublishedDate: '2026-08-25T13:19:29.57Z'
     LastModifiedDate: '2026-09-11T21:17:17.823Z'
-  - VulnerabilityID: CVE-2026-2673
-    PkgID: openssl-fips-provider@3.0.7-11.el9_8.x86_64
-    PkgName: openssl-fips-provider
-    PkgIdentifier:
-      PURL: pkg:rpm/redhat/openssl-fips-provider@3.0.7-11.el9_8?arch=x86_64&distro=redhat-9.8
-      UID: c57395b80e0313dc
-    InstalledVersion: 3.0.7-11.el9_8
-    Status: affected
-    Layer:
-      Digest: sha256:b44ff73f1e8f0a27b2a0c9912c7aec7a087d59dd8b8f8a7c0d5b53783b2c39dc
-      DiffID: sha256:1ee49e0b9bd5b0e31fd1b934a3a76a64ea30bde0de5acfd82ce1a8591d7e5793
-    SeveritySource: redhat
-    PrimaryURL: https://avd.aquasec.com/nvd/cve-2026-2673
-    Fingerprint: sha256:11be24ccf6081f51081fec0659f5bf1eabbb5aff9703c01233907edaaa85ba7f
-    Title: 'openssl: OpenSSL TLS 1.3 server may choose unexpected key agreement group'
-    Description: |-
-      Issue summary: An OpenSSL TLS 1.3 server may fail to negotiate the expected
-      preferred key exchange group when its key exchange group configuration includes
-      the default by using the 'DEFAULT' keyword.
-
-      Impact summary: A less preferred key exchange may be used even when a more
-      preferred group is supported by both client and server, if the group
-      was not included among the client's initial predicated keyshares.
-      This will sometimes be the case with the new hybrid post-quantum groups,
-      if the client chooses to defer their use until specifically requested by
-      the server.
-
-      If an OpenSSL TLS 1.3 server's configuration uses the 'DEFAULT' keyword to
-      interpolate the built-in default group list into its own configuration, perhaps
-      adding or removing specific elements, then an implementation defect causes the
-      'DEFAULT' list to lose its 'tuple' structure, and all server-supported groups
-      were treated as a single sufficiently secure 'tuple', with the server not
-      sending a Hello Retry Request (HRR) even when a group in a more preferred tuple
-      was mutually supported.
-
-      As a result, the client and server might fail to negotiate a mutually supported
-      post-quantum key agreement group, such as 'X25519MLKEM768', if the client's
-      configuration results in only 'classical' groups (such as 'X25519' being the
-      only ones in the client's initial keyshare prediction).
-
-      OpenSSL 3.5 and later support a new syntax for selecting the most preferred TLS
-      1.3 key agreement group on TLS servers.  The old syntax had a single 'flat'
-      list of groups, and treated all the supported groups as sufficiently secure.
-      If any of the keyshares predicted by the client were supported by the server
-      the most preferred among these was selected, even if other groups supported by
-      the client, but not included in the list of predicted keyshares would have been
-      more preferred, if included.
-
-      The new syntax partitions the groups into distinct 'tuples' of roughly
-      equivalent security.  Within each tuple the most preferred group included among
-      the client's predicted keyshares is chosen, but if the client supports a group
-      from a more preferred tuple, but did not predict any corresponding keyshares,
-      the server will ask the client to retry the ClientHello (by issuing a Hello
-      Retry Request or HRR) with the most preferred mutually supported group.
-
-      The above works as expected when the server's configuration uses the built-in
-      default group list, or explicitly defines its own list by directly defining the
-      various desired groups and group 'tuples'.
-
-      No OpenSSL FIPS modules are affected by this issue, the code in question lies
-      outside the FIPS boundary.
-
-      OpenSSL 3.6 and 3.5 are vulnerable to this issue.
-
-      OpenSSL 3.6 users should upgrade to OpenSSL 3.6.2 once it is released.
-      OpenSSL 3.5 users should upgrade to OpenSSL 3.5.6 once it is released.
-
-      OpenSSL 3.4, 3.3, 3.0, 1.0.2 and 1.1.1 are not affected by this issue.
-    Severity: MEDIUM
-    CweIDs:
-    - CWE-757
-    VendorSeverity:
-      amazon: 1
-      julia: 2
-      redhat: 2
-      ubuntu: 1
-    CVSS:
-      julia:
-        V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:L/A:L
-        V3Score: 6.5
-      redhat:
-        V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:L/A:L
-        V3Score: 6.5
-    References:
-    - http://www.openwall.com/lists/oss-security/2026/03/13/3
-    - https://access.redhat.com/security/cve/CVE-2026-2673
-    - https://cert-portal.siemens.com/productcert/html/ssa-032379.html
-    - https://github.com/advisories/GHSA-wj64-gh9j-xm82
-    - https://github.com/openssl/openssl/commit/2157c9d81f7b0bd7dfa25b960e928ec28e8dd63f
-    - https://github.com/openssl/openssl/commit/85977e013f32ceb96aa034c0e741adddc1a05e34
-    - https://nvd.nist.gov/vuln/detail/CVE-2026-2673
-    - https://openssl-library.org/news/secadv/20260313.txt
-    - https://ubuntu.com/security/notices/USN-8155-1
-    - https://www.cve.org/CVERecord?id=CVE-2026-2673
-    PublishedDate: '2026-03-13T19:54:34.033Z'
-    LastModifiedDate: '2026-06-17T10:31:30.993Z'
-  - VulnerabilityID: CVE-2026-2673
-    PkgID: openssl-fips-provider-so@3.0.7-11.el9_8.x86_64
-    PkgName: openssl-fips-provider-so
-    PkgIdentifier:
-      PURL: pkg:rpm/redhat/openssl-fips-provider-so@3.0.7-11.el9_8?arch=x86_64&distro=redhat-9.8
-      UID: 203e1cffc2a6a15a
-    InstalledVersion: 3.0.7-11.el9_8
-    Status: affected
-    Layer:
-      Digest: sha256:b44ff73f1e8f0a27b2a0c9912c7aec7a087d59dd8b8f8a7c0d5b53783b2c39dc
-      DiffID: sha256:1ee49e0b9bd5b0e31fd1b934a3a76a64ea30bde0de5acfd82ce1a8591d7e5793
-    SeveritySource: redhat
-    PrimaryURL: https://avd.aquasec.com/nvd/cve-2026-2673
-    Fingerprint: sha256:384c7efe0fdff286a2b04627127590f3e843c3f9b980d669c159205c0544805f
-    Title: 'openssl: OpenSSL TLS 1.3 server may choose unexpected key agreement group'
-    Description: |-
-      Issue summary: An OpenSSL TLS 1.3 server may fail to negotiate the expected
-      preferred key exchange group when its key exchange group configuration includes
-      the default by using the 'DEFAULT' keyword.
-
-      Impact summary: A less preferred key exchange may be used even when a more
-      preferred group is supported by both client and server, if the group
-      was not included among the client's initial predicated keyshares.
-      This will sometimes be the case with the new hybrid post-quantum groups,
-      if the client chooses to defer their use until specifically requested by
-      the server.
-
-      If an OpenSSL TLS 1.3 server's configuration uses the 'DEFAULT' keyword to
-      interpolate the built-in default group list into its own configuration, perhaps
-      adding or removing specific elements, then an implementation defect causes the
-      'DEFAULT' list to lose its 'tuple' structure, and all server-supported groups
-      were treated as a single sufficiently secure 'tuple', with the server not
-      sending a Hello Retry Request (HRR) even when a group in a more preferred tuple
-      was mutually supported.
-
-      As a result, the client and server might fail to negotiate a mutually supported
-      post-quantum key agreement group, such as 'X25519MLKEM768', if the client's
-      configuration results in only 'classical' groups (such as 'X25519' being the
-      only ones in the client's initial keyshare prediction).
-
-      OpenSSL 3.5 and later support a new syntax for selecting the most preferred TLS
-      1.3 key agreement group on TLS servers.  The old syntax had a single 'flat'
-      list of groups, and treated all the supported groups as sufficiently secure.
-      If any of the keyshares predicted by the client were supported by the server
-      the most preferred among these was selected, even if other groups supported by
-      the client, but not included in the list of predicted keyshares would have been
-      more preferred, if included.
-
-      The new syntax partitions the groups into distinct 'tuples' of roughly
-      equivalent security.  Within each tuple the most preferred group included among
-      the client's predicted keyshares is chosen, but if the client supports a group
-      from a more preferred tuple, but did not predict any corresponding keyshares,
-      the server will ask the client to retry the ClientHello (by issuing a Hello
-      Retry Request or HRR) with the most preferred mutually supported group.
-
-      The above works as expected when the server's configuration uses the built-in
-      default group list, or explicitly defines its own list by directly defining the
-      various desired groups and group 'tuples'.
-
-      No OpenSSL FIPS modules are affected by this issue, the code in question lies
-      outside the FIPS boundary.
-
-      OpenSSL 3.6 and 3.5 are vulnerable to this issue.
-
-      OpenSSL 3.6 users should upgrade to OpenSSL 3.6.2 once it is released.
-      OpenSSL 3.5 users should upgrade to OpenSSL 3.5.6 once it is released.
-
-      OpenSSL 3.4, 3.3, 3.0, 1.0.2 and 1.1.1 are not affected by this issue.
-    Severity: MEDIUM
-    CweIDs:
-    - CWE-757
-    VendorSeverity:
-      amazon: 1
-      julia: 2
-      redhat: 2
-      ubuntu: 1
-    CVSS:
-      julia:
-        V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:L/A:L
-        V3Score: 6.5
-      redhat:
-        V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:L/A:L
-        V3Score: 6.5
-    References:
-    - http://www.openwall.com/lists/oss-security/2026/03/13/3
-    - https://access.redhat.com/security/cve/CVE-2026-2673
-    - https://cert-portal.siemens.com/productcert/html/ssa-032379.html
-    - https://github.com/advisories/GHSA-wj64-gh9j-xm82
-    - https://github.com/openssl/openssl/commit/2157c9d81f7b0bd7dfa25b960e928ec28e8dd63f
-    - https://github.com/openssl/openssl/commit/85977e013f32ceb96aa034c0e741adddc1a05e34
-    - https://nvd.nist.gov/vuln/detail/CVE-2026-2673
-    - https://openssl-library.org/news/secadv/20260313.txt
-    - https://ubuntu.com/security/notices/USN-8155-1
-    - https://www.cve.org/CVERecord?id=CVE-2026-2673
-    PublishedDate: '2026-03-13T19:54:34.033Z'
-    LastModifiedDate: '2026-06-17T10:31:30.993Z'
   - VulnerabilityID: CVE-2026-14456
     VendorIDs:
     - RHSA-2026:67165
@@ -18999,7 +18822,7 @@
       azure: 2
       julia: 4
       nvd: 4
-      photon: 4
+      photon: 3
       redhat: 1
       ubuntu: 1
     CVSS:
@@ -20869,14 +20692,14 @@
       PURL: pkg:rpm/redhat/python-unversioned-command@3.9.25-7.el9_8.2?arch=noarch&distro=redhat-9.8
       UID: 14c3a8bd129ac847
     InstalledVersion: 3.9.25-7.el9_8.2
-    Status: affected
+    Status: end_of_life
     Layer:
       Digest: sha256:b44ff73f1e8f0a27b2a0c9912c7aec7a087d59dd8b8f8a7c0d5b53783b2c39dc
       DiffID: sha256:1ee49e0b9bd5b0e31fd1b934a3a76a64ea30bde0de5acfd82ce1a8591d7e5793
     SeveritySource: redhat
     PrimaryURL: https://avd.aquasec.com/nvd/cve-2026-19445
     Fingerprint: sha256:7f5dccd4d3a2f96ae09c52e64232f077fa6b3bf993be3176becda699220e8c89
-    Title: A remote, unauthenticated TLS client can make a server crash or call t ...
+    Title: 'python: Use-after-free of a server-side SSLContext when sni_callback switches contexts'
     Description: |-
       A remote, unauthenticated TLS client can make a server crash or call
       through a freed pointer if its sni_callback assigns a different context to
@@ -20894,8 +20717,13 @@
     - CWE-416
     VendorSeverity:
       redhat: 3
+    CVSS:
+      redhat:
+        V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:H/I:H/A:H
+        V3Score: 8.1
     References:
     - http://www.openwall.com/lists/oss-security/2026/09/30/17
+    - https://access.redhat.com/security/cve/CVE-2026-19445
     - https://github.com/python/cpython/commit/34a53dce8174da2fceb12fe084a4def02a10053d
     - https://github.com/python/cpython/commit/46133cd57d309652139ada74014aca7665ac552b
     - https://github.com/python/cpython/commit/63fab143d94cafae71850831acfb52041ba44af7
@@ -20906,6 +20734,8 @@
     - https://github.com/python/cpython/issues/156293
     - https://github.com/python/cpython/pull/158504
     - https://mail.python.org/archives/list/security-announce@python.org/thread/QMQIUQB6WGGC3MI7I3WKQXOYOBDSPPS3/
+    - https://nvd.nist.gov/vuln/detail/CVE-2026-19445
+    - https://www.cve.org/CVERecord?id=CVE-2026-19445
     PublishedDate: '2026-09-30T17:16:45.72Z'
     LastModifiedDate: '2026-10-03T01:17:24.93Z'
   - VulnerabilityID: CVE-2026-19553
@@ -20995,7 +20825,7 @@
     CweIDs:
     - CWE-93
     VendorSeverity:
-      amazon: 3
+      amazon: 2
       azure: 2
       bitnami: 2
       photon: 2
@@ -21186,7 +21016,7 @@
     - CWE-93
     VendorSeverity:
       alma: 3
-      amazon: 3
+      amazon: 2
       bitnami: 2
       oracle-oval: 3
       photon: 2
@@ -21280,7 +21110,7 @@
     - CWE-416
     VendorSeverity:
       alma: 3
-      amazon: 3
+      amazon: 2
       azure: 2
       bitnami: 2
       cbl-mariner: 2
@@ -21379,7 +21209,7 @@
     - CWE-93
     VendorSeverity:
       alma: 3
-      amazon: 3
+      amazon: 2
       azure: 2
       bitnami: 2
       cbl-mariner: 2
@@ -21824,7 +21654,7 @@
     - CWE-116
     VendorSeverity:
       alma: 3
-      amazon: 3
+      amazon: 2
       azure: 2
       nvd: 3
       oracle-oval: 3
@@ -21922,7 +21752,7 @@
     - CWE-674
     VendorSeverity:
       alma: 3
-      amazon: 3
+      amazon: 2
       azure: 2
       bitnami: 3
       nvd: 3
@@ -22212,7 +22042,7 @@
     - CWE-116
     VendorSeverity:
       alma: 3
-      amazon: 2
+      amazon: 3
       bitnami: 2
       nvd: 2
       oracle-oval: 3
@@ -22623,7 +22453,7 @@
     CweIDs:
     - CWE-22
     VendorSeverity:
-      amazon: 2
+      amazon: 3
       photon: 3
       redhat: 1
     CVSS:
@@ -22714,14 +22544,14 @@
       PURL: pkg:rpm/redhat/python3@3.9.25-7.el9_8.2?arch=x86_64&distro=redhat-9.8
       UID: ce3583f8707bc504
     InstalledVersion: 3.9.25-7.el9_8.2
-    Status: affected
+    Status: end_of_life
     Layer:
       Digest: sha256:b44ff73f1e8f0a27b2a0c9912c7aec7a087d59dd8b8f8a7c0d5b53783b2c39dc
       DiffID: sha256:1ee49e0b9bd5b0e31fd1b934a3a76a64ea30bde0de5acfd82ce1a8591d7e5793
     SeveritySource: redhat
     PrimaryURL: https://avd.aquasec.com/nvd/cve-2026-19445
     Fingerprint: sha256:04615d1ab3021fc75d9d9e8d0dc3bf232d03763d7f5d07da7c50efdf309d0705
-    Title: A remote, unauthenticated TLS client can make a server crash or call t ...
+    Title: 'python: Use-after-free of a server-side SSLContext when sni_callback switches contexts'
     Description: |-
       A remote, unauthenticated TLS client can make a server crash or call
       through a freed pointer if its sni_callback assigns a different context to
@@ -22739,8 +22569,13 @@
     - CWE-416
     VendorSeverity:
       redhat: 3
+    CVSS:
+      redhat:
+        V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:H/I:H/A:H
+        V3Score: 8.1
     References:
     - http://www.openwall.com/lists/oss-security/2026/09/30/17
+    - https://access.redhat.com/security/cve/CVE-2026-19445
     - https://github.com/python/cpython/commit/34a53dce8174da2fceb12fe084a4def02a10053d
     - https://github.com/python/cpython/commit/46133cd57d309652139ada74014aca7665ac552b
     - https://github.com/python/cpython/commit/63fab143d94cafae71850831acfb52041ba44af7
@@ -22751,6 +22586,8 @@
     - https://github.com/python/cpython/issues/156293
     - https://github.com/python/cpython/pull/158504
     - https://mail.python.org/archives/list/security-announce@python.org/thread/QMQIUQB6WGGC3MI7I3WKQXOYOBDSPPS3/
+    - https://nvd.nist.gov/vuln/detail/CVE-2026-19445
+    - https://www.cve.org/CVERecord?id=CVE-2026-19445
     PublishedDate: '2026-09-30T17:16:45.72Z'
     LastModifiedDate: '2026-10-03T01:17:24.93Z'
   - VulnerabilityID: CVE-2026-19553
@@ -22840,7 +22677,7 @@
     CweIDs:
     - CWE-93
     VendorSeverity:
-      amazon: 3
+      amazon: 2
       azure: 2
       bitnami: 2
       photon: 2
@@ -23031,7 +22868,7 @@
     - CWE-93
     VendorSeverity:
       alma: 3
-      amazon: 3
+      amazon: 2
       bitnami: 2
       oracle-oval: 3
       photon: 2
@@ -23125,7 +22962,7 @@
     - CWE-416
     VendorSeverity:
       alma: 3
-      amazon: 3
+      amazon: 2
       azure: 2
       bitnami: 2
       cbl-mariner: 2
@@ -23224,7 +23061,7 @@
     - CWE-93
     VendorSeverity:
       alma: 3
-      amazon: 3
+      amazon: 2
       azure: 2
       bitnami: 2
       cbl-mariner: 2
@@ -23669,7 +23506,7 @@
     - CWE-116
     VendorSeverity:
       alma: 3
-      amazon: 3
+      amazon: 2
       azure: 2
       nvd: 3
       oracle-oval: 3
@@ -23767,7 +23604,7 @@
     - CWE-674
     VendorSeverity:
       alma: 3
-      amazon: 3
+      amazon: 2
       azure: 2
       bitnami: 3
       nvd: 3
@@ -24057,7 +23894,7 @@
     - CWE-116
     VendorSeverity:
       alma: 3
-      amazon: 2
+      amazon: 3
       bitnami: 2
       nvd: 2
       oracle-oval: 3
@@ -24468,7 +24305,7 @@
     CweIDs:
     - CWE-22
     VendorSeverity:
-      amazon: 2
+      amazon: 3
       photon: 3
       redhat: 1
     CVSS:
@@ -24559,14 +24396,14 @@
       PURL: pkg:rpm/redhat/python3-libs@3.9.25-7.el9_8.2?arch=x86_64&distro=redhat-9.8
       UID: ebd0e84ad9045a9f
     InstalledVersion: 3.9.25-7.el9_8.2
-    Status: affected
+    Status: end_of_life
     Layer:
       Digest: sha256:b44ff73f1e8f0a27b2a0c9912c7aec7a087d59dd8b8f8a7c0d5b53783b2c39dc
       DiffID: sha256:1ee49e0b9bd5b0e31fd1b934a3a76a64ea30bde0de5acfd82ce1a8591d7e5793
     SeveritySource: redhat
     PrimaryURL: https://avd.aquasec.com/nvd/cve-2026-19445
     Fingerprint: sha256:3c4529cd42bba70d275c0968edc9e8ec600432a074ccc522c50a58497d36231a
-    Title: A remote, unauthenticated TLS client can make a server crash or call t ...
+    Title: 'python: Use-after-free of a server-side SSLContext when sni_callback switches contexts'
     Description: |-
       A remote, unauthenticated TLS client can make a server crash or call
       through a freed pointer if its sni_callback assigns a different context to
@@ -24584,8 +24421,13 @@
     - CWE-416
     VendorSeverity:
       redhat: 3
+    CVSS:
+      redhat:
+        V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:H/I:H/A:H
+        V3Score: 8.1
     References:
     - http://www.openwall.com/lists/oss-security/2026/09/30/17
+    - https://access.redhat.com/security/cve/CVE-2026-19445
     - https://github.com/python/cpython/commit/34a53dce8174da2fceb12fe084a4def02a10053d
     - https://github.com/python/cpython/commit/46133cd57d309652139ada74014aca7665ac552b
     - https://github.com/python/cpython/commit/63fab143d94cafae71850831acfb52041ba44af7
@@ -24596,6 +24438,8 @@
     - https://github.com/python/cpython/issues/156293
     - https://github.com/python/cpython/pull/158504
     - https://mail.python.org/archives/list/security-announce@python.org/thread/QMQIUQB6WGGC3MI7I3WKQXOYOBDSPPS3/
+    - https://nvd.nist.gov/vuln/detail/CVE-2026-19445
+    - https://www.cve.org/CVERecord?id=CVE-2026-19445
     PublishedDate: '2026-09-30T17:16:45.72Z'
     LastModifiedDate: '2026-10-03T01:17:24.93Z'
   - VulnerabilityID: CVE-2026-19553
@@ -24685,7 +24529,7 @@
     CweIDs:
     - CWE-93
     VendorSeverity:
-      amazon: 3
+      amazon: 2
       azure: 2
       bitnami: 2
       photon: 2
@@ -24876,7 +24720,7 @@
     - CWE-93
     VendorSeverity:
       alma: 3
-      amazon: 3
+      amazon: 2
       bitnami: 2
       oracle-oval: 3
       photon: 2
@@ -24970,7 +24814,7 @@
     - CWE-416
     VendorSeverity:
       alma: 3
-      amazon: 3
+      amazon: 2
       azure: 2
       bitnami: 2
       cbl-mariner: 2
@@ -25069,7 +24913,7 @@
     - CWE-93
     VendorSeverity:
       alma: 3
-      amazon: 3
+      amazon: 2
       azure: 2
       bitnami: 2
       cbl-mariner: 2
@@ -25514,7 +25358,7 @@
     - CWE-116
     VendorSeverity:
       alma: 3
-      amazon: 3
+      amazon: 2
       azure: 2
       nvd: 3
       oracle-oval: 3
@@ -25612,7 +25456,7 @@
     - CWE-674
     VendorSeverity:
       alma: 3
-      amazon: 3
+      amazon: 2
       azure: 2
       bitnami: 3
       nvd: 3
@@ -25902,7 +25746,7 @@
     - CWE-116
     VendorSeverity:
       alma: 3
-      amazon: 2
+      amazon: 3
       bitnami: 2
       nvd: 2
       oracle-oval: 3
@@ -26313,7 +26157,7 @@
     CweIDs:
     - CWE-22
     VendorSeverity:
-      amazon: 2
+      amazon: 3
       photon: 3
       redhat: 1
     CVSS:
@@ -27650,6 +27494,7 @@
     CweIDs:
     - CWE-863
     VendorSeverity:
+      alma: 3
       oracle-oval: 3
       redhat: 3
     CVSS:
@@ -27663,7 +27508,9 @@
     - https://access.redhat.com/errata/RHSA-2026:75579
     - https://access.redhat.com/errata/RHSA-2026:75580
     - https://access.redhat.com/security/cve/CVE-2026-96512
+    - https://bugzilla.redhat.com/2539327
     - https://bugzilla.redhat.com/show_bug.cgi?id=2539327
+    - https://errata.almalinux.org/9/ALSA-2026-75571.html
     - https://github.com/sudo-project/sudo/commit/1820a349687522f51023d1ae5925125f59679a8c
     - https://linux.oracle.com/cve/CVE-2026-96512.html
     - https://linux.oracle.com/errata/ELSA-2026-75580.html
