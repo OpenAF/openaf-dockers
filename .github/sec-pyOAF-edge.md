@@ -20,8 +20,8 @@
 │                       │     ├ DataSource       ╭ ID  : alpine 
 │                       │     │                  ├ Name: Alpine Secdb 
 │                       │     │                  ╰ URL : https://secdb.alpinelinux.org/ 
-│                       │     ├ Fingerprint     : sha256:d292385f4f346b4a83db38a046edbfa86ff4410fcbe411b63b53a8
-│                       │     │                   6b809ad543 
+│                       │     ├ Fingerprint     : sha256:7062f898296bf4b42ca4850236f196d513476a0759f26c4ad3e84b
+│                       │     │                   5ab4f94596 
 │                       │     ├ Title           : [Use-after-free of zlib input in `png_read_end` after
 │                       │     │                   incomplete zTXt, iTXt or iCCP decompression] 
 │                       │     ├ Description     : [Use-after-free of zlib input in `png_read_end` after
@@ -36,87 +36,135 @@
 │                       │                        https://www.cve.org/CVERecord?id=CVE-2026-46675               
 │                       │                                                                                      
 │                       │                        
-│                       ╰ [1] ╭ VulnerabilityID : CVE-2026-58055 
-│                             ├ PkgID           : nghttp2-libs@1.69.0-r0 
-│                             ├ PkgName         : nghttp2-libs 
-│                             ├ PkgIdentifier    ╭ PURL: pkg:apk/alpine/nghttp2-libs@1.69.0-r0?arch=x86_64&dist
-│                             │                  │       ro=3.24.2 
-│                             │                  ╰ UID : cdceee5bd778a45c 
-│                             ├ InstalledVersion: 1.69.0-r0 
-│                             ├ FixedVersion    : 1.70.0-r0 
+│                       ├ [1] ╭ VulnerabilityID : CVE-2026-58055 
+│                       │     ├ PkgID           : nghttp2-libs@1.69.0-r0 
+│                       │     ├ PkgName         : nghttp2-libs 
+│                       │     ├ PkgIdentifier    ╭ PURL: pkg:apk/alpine/nghttp2-libs@1.69.0-r0?arch=x86_64&dist
+│                       │     │                  │       ro=3.24.2 
+│                       │     │                  ╰ UID : cdceee5bd778a45c 
+│                       │     ├ InstalledVersion: 1.69.0-r0 
+│                       │     ├ FixedVersion    : 1.70.0-r0 
+│                       │     ├ Status          : fixed 
+│                       │     ├ Layer            ╭ Digest: sha256:e9495d4050abfa9a70f25c7ab8ff6e555298d5c80457a
+│                       │     │                  │         5aa185bdc729d9d73e4 
+│                       │     │                  ╰ DiffID: sha256:4ca045a0c8251a271592c969c2c9b0a25fdb28a3cfe8a
+│                       │     │                            b4f37c3300b94911bf9 
+│                       │     ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2026-58055 
+│                       │     ├ DataSource       ╭ ID  : alpine 
+│                       │     │                  ├ Name: Alpine Secdb 
+│                       │     │                  ╰ URL : https://secdb.alpinelinux.org/ 
+│                       │     ├ Fingerprint     : sha256:1eae50981bd94a1e998d44a4dd7a6e87cdd4e180d5811b0eda0ecd
+│                       │     │                   8f20ecdc17 
+│                       │     ├ Title           : nghttp2: nghttp2: HTTP Request/Response Smuggling and
+│                       │     │                   Response-Queue Poisoning via ambiguous HTTP/1.1 Upgrade
+│                       │     │                   requests 
+│                       │     ├ Description     : nghttp2's nghttpx proxy through 1.69.0 forwards an HTTP/1.1
+│                       │     │                   Upgrade request that also carries a Content-Length header and
+│                       │     │                    body onto reusable keep-alive backend connections, re-adding
+│                       │     │                    the Upgrade and Connection headers while passing
+│                       │     │                   Content-Length verbatim. A backend that resolves the
+│                       │     │                   resulting ambiguous message in the attacker's favor enables
+│                       │     │                   HTTP request/response smuggling and cross-client
+│                       │     │                   response-queue poisoning. 
+│                       │     ├ Severity        : MEDIUM 
+│                       │     ├ CweIDs                  
+│                       │     │                  ───────
+│                       │     │                  CWE-444
+│                       │     │                  
+│                       │     ├ VendorSeverity   ╭ alma       : 2 
+│                       │     │                  ├ azure      : 2 
+│                       │     │                  ├ julia      : 2 
+│                       │     │                  ├ oracle-oval: 2 
+│                       │     │                  ├ redhat     : 2 
+│                       │     │                  ├ rocky      : 2 
+│                       │     │                  ╰ ubuntu     : 2 
+│                       │     ├ CVSS             ╭ julia  ╭ V3Vector : CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:C/C:L/I:L
+│                       │     │                  │        │            /A:N 
+│                       │     │                  │        ├ V40Vector: CVSS:4.0/AV:N/AC:H/AT:N/PR:N/UI:N/VC:L/V
+│                       │     │                  │        │            I:L/VA:N/SC:N/SI:L/SA:N 
+│                       │     │                  │        ├ V3Score  : 5.4 
+│                       │     │                  │        ╰ V40Score : 6.3 
+│                       │     │                  ╰ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:C/C:L/I:L/
+│                       │     │                           │           A:N 
+│                       │     │                           ╰ V3Score : 5.4 
+│                       │     ├ References                                                                     
+│                       │     │                  ──────────────────────────────────────────────────────────────
+│                       │     │                  https://access.redhat.com/errata/RHSA-2026:54662              
+│                       │     │                  https://access.redhat.com/security/cve/CVE-2026-58055         
+│                       │     │                  https://bugzilla.redhat.com/2493954                           
+│                       │     │                  https://bugzilla.redhat.com/show_bug.cgi?id=2493954           
+│                       │     │                  https://creativecommons.org/licenses/by/4.0/                  
+│                       │     │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-58055 
+│                       │     │                  https://errata.almalinux.org/9/ALSA-2026-54662.html           
+│                       │     │                  https://errata.rockylinux.org/RLSA-2026:54662                 
+│                       │     │                  https://github.com/advisories/GHSA-xrr7-82jr-v58x             
+│                       │     │                  https://github.com/bikini/exploitarium/tree/main/nghttp2-nghtt
+│                       │     │                  px-upgrade-queue-poison-poc                                   
+│                       │     │                  https://github.com/nghttp2/nghttp2/commit/ab28105c4a0197da24f8
+│                       │     │                  bfc414bc116055249e1e                                          
+│                       │     │                  https://linux.oracle.com/cve/CVE-2026-58055.html              
+│                       │     │                                                                                
+│                       │     │                  https://linux.oracle.com/errata/ELSA-2026-55804.html          
+│                       │     │                                                                                
+│                       │     │                  https://nvd.nist.gov/vuln/detail/CVE-2026-58055               
+│                       │     │                                                                                
+│                       │     │                  https://ubuntu.com/security/notices/USN-8495-1                
+│                       │     │                                                                                
+│                       │     │                  https://www.cve.org/CVERecord?id=CVE-2026-58055               
+│                       │     │                                                                                
+│                       │     │                  https://www.vulncheck.com/advisories/nghttp2-nghttpx-http-requ
+│                       │     │                  est-response-smuggling-via-upgrade-request-with-content-length
+│                       │     │                  
+│                       │     ├ PublishedDate   : 2026-06-28T02:16:32.677Z 
+│                       │     ╰ LastModifiedDate: 2026-06-30T17:41:26.433Z 
+│                       ╰ [2] ╭ VulnerabilityID : CVE-2026-85091 
+│                             ├ PkgID           : zlib@1.3.2-r0 
+│                             ├ PkgName         : zlib 
+│                             ├ PkgIdentifier    ╭ PURL: pkg:apk/alpine/zlib@1.3.2-r0?arch=x86_64&distro=3.24.2 
+│                             │                  ╰ UID : e37054a2982d6c16 
+│                             ├ InstalledVersion: 1.3.2-r0 
+│                             ├ FixedVersion    : 1.3.2-r1 
 │                             ├ Status          : fixed 
 │                             ├ Layer            ╭ Digest: sha256:e9495d4050abfa9a70f25c7ab8ff6e555298d5c80457a
 │                             │                  │         5aa185bdc729d9d73e4 
 │                             │                  ╰ DiffID: sha256:4ca045a0c8251a271592c969c2c9b0a25fdb28a3cfe8a
 │                             │                            b4f37c3300b94911bf9 
-│                             ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2026-58055 
+│                             ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2026-85091 
 │                             ├ DataSource       ╭ ID  : alpine 
 │                             │                  ├ Name: Alpine Secdb 
 │                             │                  ╰ URL : https://secdb.alpinelinux.org/ 
-│                             ├ Fingerprint     : sha256:e44412b431dd8c8ae283e032e3d0bd09cf667342e306020781959c
-│                             │                   b9aaa4649a 
-│                             ├ Title           : nghttp2: nghttp2: HTTP Request/Response Smuggling and
-│                             │                   Response-Queue Poisoning via ambiguous HTTP/1.1 Upgrade
-│                             │                   requests 
-│                             ├ Description     : nghttp2's nghttpx proxy through 1.69.0 forwards an HTTP/1.1
-│                             │                   Upgrade request that also carries a Content-Length header and
-│                             │                    body onto reusable keep-alive backend connections, re-adding
-│                             │                    the Upgrade and Connection headers while passing
-│                             │                   Content-Length verbatim. A backend that resolves the
-│                             │                   resulting ambiguous message in the attacker's favor enables
-│                             │                   HTTP request/response smuggling and cross-client
-│                             │                   response-queue poisoning. 
+│                             ├ Fingerprint     : sha256:115ee388c3860d69b8410ba6b3ee9eb6c6416b921bd7881c7fc1b6
+│                             │                   18fe50eebf 
+│                             ├ Title           : zlib versions 1.3.1.2 through 1.3.2 contain a heap buffer
+│                             │                   overflow vul ... 
+│                             ├ Description     : zlib versions 1.3.1.2 through 1.3.2 contain a heap buffer
+│                             │                   overflow vulnerability in the gz_vacate() function when
+│                             │                   processing non-blocking gzwrite() operations with stale
+│                             │                   external buffer pointers. Attackers can trigger the overflow
+│                             │                   by calling gzprintf() or gzvprintf() after a write stall,
+│                             │                   causing an unchecked memmove() to write beyond the internal
+│                             │                   input buffer boundary. 
 │                             ├ Severity        : MEDIUM 
 │                             ├ CweIDs                  
 │                             │                  ───────
-│                             │                  CWE-444
+│                             │                  CWE-787
 │                             │                  
-│                             ├ VendorSeverity   ╭ alma       : 2 
-│                             │                  ├ azure      : 2 
-│                             │                  ├ julia      : 2 
-│                             │                  ├ oracle-oval: 2 
-│                             │                  ├ redhat     : 2 
-│                             │                  ├ rocky      : 2 
-│                             │                  ╰ ubuntu     : 2 
-│                             ├ CVSS             ╭ julia  ╭ V3Vector : CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:C/C:L/I:L
-│                             │                  │        │            /A:N 
-│                             │                  │        ├ V40Vector: CVSS:4.0/AV:N/AC:H/AT:N/PR:N/UI:N/VC:L/V
-│                             │                  │        │            I:L/VA:N/SC:N/SI:L/SA:N 
-│                             │                  │        ├ V3Score  : 5.4 
-│                             │                  │        ╰ V40Score : 6.3 
-│                             │                  ╰ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:C/C:L/I:L/
-│                             │                           │           A:N 
-│                             │                           ╰ V3Score : 5.4 
+│                             ├ VendorSeverity   ─ ubuntu: 2 
 │                             ├ References                                                                     
 │                             │                  ──────────────────────────────────────────────────────────────
-│                             │                  https://access.redhat.com/errata/RHSA-2026:54662              
-│                             │                  https://access.redhat.com/security/cve/CVE-2026-58055         
-│                             │                  https://bugzilla.redhat.com/2493954                           
-│                             │                  https://bugzilla.redhat.com/show_bug.cgi?id=2493954           
-│                             │                  https://creativecommons.org/licenses/by/4.0/                  
-│                             │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-58055 
-│                             │                  https://errata.almalinux.org/9/ALSA-2026-54662.html           
-│                             │                  https://errata.rockylinux.org/RLSA-2026:54662                 
-│                             │                  https://github.com/advisories/GHSA-xrr7-82jr-v58x             
-│                             │                  https://github.com/bikini/exploitarium/tree/main/nghttp2-nghtt
-│                             │                  px-upgrade-queue-poison-poc                                   
-│                             │                  https://github.com/nghttp2/nghttp2/commit/ab28105c4a0197da24f8
-│                             │                  bfc414bc116055249e1e                                          
-│                             │                  https://linux.oracle.com/cve/CVE-2026-58055.html              
+│                             │                  https://gist.github.com/thesmartshadow/e0b9481792afb7c31e86fee
+│                             │                  1ff084490                                                     
+│                             │                  https://github.com/madler/zlib                                
 │                             │                                                                                
-│                             │                  https://linux.oracle.com/errata/ELSA-2026-55804.html          
+│                             │                  https://github.com/madler/zlib/blob/v1.3.2/gzwrite.c#L393     
 │                             │                                                                                
-│                             │                  https://nvd.nist.gov/vuln/detail/CVE-2026-58055               
+│                             │                  https://www.cve.org/CVERecord?id=CVE-2026-85091               
 │                             │                                                                                
-│                             │                  https://ubuntu.com/security/notices/USN-8495-1                
-│                             │                                                                                
-│                             │                  https://www.cve.org/CVERecord?id=CVE-2026-58055               
-│                             │                                                                                
-│                             │                  https://www.vulncheck.com/advisories/nghttp2-nghttpx-http-requ
-│                             │                  est-response-smuggling-via-upgrade-request-with-content-length
+│                             │                  https://www.vulncheck.com/advisories/zlib-1.3.1.2-through-1.3.
+│                             │                  2-heap-buffer-overflow-via-gz-vacate                          
 │                             │                  
-│                             ├ PublishedDate   : 2026-06-28T02:16:32.677Z 
-│                             ╰ LastModifiedDate: 2026-06-30T17:41:26.433Z 
+│                             ├ PublishedDate   : 2026-09-03T13:06:20.573Z 
+│                             ╰ LastModifiedDate: 2026-09-09T20:41:07.123Z 
 ╰ [1] ╭ Target         : Java 
       ├ Class          : lang-pkgs 
       ├ Type           : jar 
@@ -143,8 +191,8 @@
                         │     │                  ├ Name: GitHub Security Advisory Maven 
                         │     │                  ╰ URL : https://github.com/advisories?query=type%3Areviewed+ec
                         │     │                          osystem%3Amaven 
-                        │     ├ Fingerprint     : sha256:54e53311c54737bd3a579cdf7a06c2c71063c809c293caf4397581
-                        │     │                   3b37bb5eac 
+                        │     ├ Fingerprint     : sha256:637070782dd2d5a324952916a3ffcfc53a0ce7e2890a88dafe4b43
+                        │     │                   eb8fb4d7cf 
                         │     ├ Title           : com.fasterxml.jackson/jackson-core:
                         │     │                   tools.jackson.core/jackson-core: Jackson-core: Denial of
                         │     │                   Service via regular expression backtracking 
@@ -238,8 +286,8 @@
                         │     │                  ├ Name: GitHub Security Advisory Maven 
                         │     │                  ╰ URL : https://github.com/advisories?query=type%3Areviewed+ec
                         │     │                          osystem%3Amaven 
-                        │     ├ Fingerprint     : sha256:70694a1a366a1c0086328a13c284ba14ad7602d5f5b9cace1a059f
-                        │     │                   73818abb88 
+                        │     ├ Fingerprint     : sha256:7112650d0ecc0072d96918a92553dd1cf9277928da71ba6857c1c7
+                        │     │                   0815172cda 
                         │     ├ Title           : com.fasterxml.jackson.core/jackson-core: Jackson-core: Denial
                         │     │                    of Service via unbounded StringBuilder growth during
                         │     │                   malformed token processing 
@@ -324,8 +372,8 @@
                         │     │                  ├ Name: GitHub Security Advisory Maven 
                         │     │                  ╰ URL : https://github.com/advisories?query=type%3Areviewed+ec
                         │     │                          osystem%3Amaven 
-                        │     ├ Fingerprint     : sha256:7a2b9e0975cee1d19225b48234d3b18a9075f7b799f90b05ccc445
-                        │     │                   e1bc7cdb20 
+                        │     ├ Fingerprint     : sha256:b29e7cd121cffcaf011fa0236041c04de31ffaa3551520eed04043
+                        │     │                   4c5604bb1f 
                         │     ├ Title           : com.fasterxml.jackson.core/jackson-databind:
                         │     │                   tools.jackson.core/jackson-databind: jackson-databind: CPU
                         │     │                   Denial of Service via unbounded numeric parsing 
@@ -423,8 +471,8 @@
                         │     │                  ├ Name: GitHub Security Advisory Maven 
                         │     │                  ╰ URL : https://github.com/advisories?query=type%3Areviewed+ec
                         │     │                          osystem%3Amaven 
-                        │     ├ Fingerprint     : sha256:a7bac0883574f013a76e5146f9436a5b9e7b45fc06a19d0cfa8615
-                        │     │                   fb98aed989 
+                        │     ├ Fingerprint     : sha256:686023cc54bbc6037633f2e259d7371a5ce31a3b32a84353b85ab9
+                        │     │                   f4bc037aa9 
                         │     ├ Title           : jackson-databind: com.fasterxml.jackson/jackson-core:
                         │     │                   jackson-databind: Denial of Service via unbounded cache
                         │     │                   growth in TypeDeserializerBase 
@@ -512,8 +560,8 @@
                         │     │                  ├ Name: GitHub Security Advisory Maven 
                         │     │                  ╰ URL : https://github.com/advisories?query=type%3Areviewed+ec
                         │     │                          osystem%3Amaven 
-                        │     ├ Fingerprint     : sha256:ad60bf511672c1cb0f6cada180052e9c9f096a75f455da85385365
-                        │     │                   2310657a06 
+                        │     ├ Fingerprint     : sha256:99e78173b2409d35e1539386b06d9c9c44b952cd2987a9f3c560a3
+                        │     │                   7964723880 
                         │     ├ Title           : com.fasterxml.jackson.core/jackson-databind:
                         │     │                   Jackson-databind: Denial of Service via quadratic
                         │     │                   forward-reference completion 
@@ -604,8 +652,8 @@
                         │     │                  ├ Name: GitHub Security Advisory Maven 
                         │     │                  ╰ URL : https://github.com/advisories?query=type%3Areviewed+ec
                         │     │                          osystem%3Amaven 
-                        │     ├ Fingerprint     : sha256:f10c247e43af1c979ff7f8cf040f094481c1b9f5d157fd975f0304
-                        │     │                   bdb1eb1fd3 
+                        │     ├ Fingerprint     : sha256:a6361352f6a3c129e657ca3a92f916d0006c3b53514741f7877fd0
+                        │     │                   7071f2e839 
                         │     ├ Title           : com.fasterxml.jackson.core/jackson-databind:
                         │     │                   tools.jackson.core/jackson-databind: Jackson-databind:
                         │     │                   Uncontrolled URI scheme resolution in Path deserialization 
@@ -701,8 +749,8 @@
                               │                  ├ Name: GitHub Security Advisory Maven 
                               │                  ╰ URL : https://github.com/advisories?query=type%3Areviewed+ec
                               │                          osystem%3Amaven 
-                              ├ Fingerprint     : sha256:2f5aef95ecf392999e5546decfaf64c46d50845178e5fa08083e2b
-                              │                   2efcd0cb5b 
+                              ├ Fingerprint     : sha256:ad17f9678448ca54e54fb1737a2fd59f5c6859a13ad24e081fa1df
+                              │                   dae795921a 
                               ├ Title           : com.fasterxml.jackson.core/jackson-databind:
                               │                   tools.jackson.core/jackson-databind: jackson-databind: Path
                               │                   traversal via incomplete type validation 
