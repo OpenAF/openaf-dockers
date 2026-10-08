@@ -20,8 +20,8 @@
 │                       │     ├ DataSource       ╭ ID  : alpine 
 │                       │     │                  ├ Name: Alpine Secdb 
 │                       │     │                  ╰ URL : https://secdb.alpinelinux.org/ 
-│                       │     ├ Fingerprint     : sha256:7062f898296bf4b42ca4850236f196d513476a0759f26c4ad3e84b
-│                       │     │                   5ab4f94596 
+│                       │     ├ Fingerprint     : sha256:356e0fcd7826d1496da1f1ef20746067faa5c6b9147553b59a4148
+│                       │     │                   396ad23bfc 
 │                       │     ├ Title           : [Use-after-free of zlib input in `png_read_end` after
 │                       │     │                   incomplete zTXt, iTXt or iCCP decompression] 
 │                       │     ├ Description     : [Use-after-free of zlib input in `png_read_end` after
@@ -53,8 +53,8 @@
 │                       │     ├ DataSource       ╭ ID  : alpine 
 │                       │     │                  ├ Name: Alpine Secdb 
 │                       │     │                  ╰ URL : https://secdb.alpinelinux.org/ 
-│                       │     ├ Fingerprint     : sha256:1eae50981bd94a1e998d44a4dd7a6e87cdd4e180d5811b0eda0ecd
-│                       │     │                   8f20ecdc17 
+│                       │     ├ Fingerprint     : sha256:1cc7abe57b985dfa2ccf1898c632af9b7c2ed0c8d114bc1bf14a90
+│                       │     │                   75d16828fc 
 │                       │     ├ Title           : nghttp2: nghttp2: HTTP Request/Response Smuggling and
 │                       │     │                   Response-Queue Poisoning via ambiguous HTTP/1.1 Upgrade
 │                       │     │                   requests 
@@ -133,8 +133,8 @@
 │                             ├ DataSource       ╭ ID  : alpine 
 │                             │                  ├ Name: Alpine Secdb 
 │                             │                  ╰ URL : https://secdb.alpinelinux.org/ 
-│                             ├ Fingerprint     : sha256:115ee388c3860d69b8410ba6b3ee9eb6c6416b921bd7881c7fc1b6
-│                             │                   18fe50eebf 
+│                             ├ Fingerprint     : sha256:cb4873806b8c5ea43626964edca7d75c824d69d6c7fdb632407b6f
+│                             │                   7b8000cb78 
 │                             ├ Title           : zlib versions 1.3.1.2 through 1.3.2 contain a heap buffer
 │                             │                   overflow vul ... 
 │                             ├ Description     : zlib versions 1.3.1.2 through 1.3.2 contain a heap buffer
@@ -191,8 +191,8 @@
                         │     │                  ├ Name: GitHub Security Advisory Maven 
                         │     │                  ╰ URL : https://github.com/advisories?query=type%3Areviewed+ec
                         │     │                          osystem%3Amaven 
-                        │     ├ Fingerprint     : sha256:637070782dd2d5a324952916a3ffcfc53a0ce7e2890a88dafe4b43
-                        │     │                   eb8fb4d7cf 
+                        │     ├ Fingerprint     : sha256:7de98df93215eaa2114f8d234d85b20b32b7db2e4beed4ce5a78f0
+                        │     │                   5ee47e5c2a 
                         │     ├ Title           : com.fasterxml.jackson/jackson-core:
                         │     │                   tools.jackson.core/jackson-core: Jackson-core: Denial of
                         │     │                   Service via regular expression backtracking 
@@ -286,8 +286,8 @@
                         │     │                  ├ Name: GitHub Security Advisory Maven 
                         │     │                  ╰ URL : https://github.com/advisories?query=type%3Areviewed+ec
                         │     │                          osystem%3Amaven 
-                        │     ├ Fingerprint     : sha256:7112650d0ecc0072d96918a92553dd1cf9277928da71ba6857c1c7
-                        │     │                   0815172cda 
+                        │     ├ Fingerprint     : sha256:a5cf67282732a1964ef2ada9347388bd8b83a118e7d846f9612804
+                        │     │                   74dc4f1c89 
                         │     ├ Title           : com.fasterxml.jackson.core/jackson-core: Jackson-core: Denial
                         │     │                    of Service via unbounded StringBuilder growth during
                         │     │                   malformed token processing 
@@ -372,8 +372,8 @@
                         │     │                  ├ Name: GitHub Security Advisory Maven 
                         │     │                  ╰ URL : https://github.com/advisories?query=type%3Areviewed+ec
                         │     │                          osystem%3Amaven 
-                        │     ├ Fingerprint     : sha256:b29e7cd121cffcaf011fa0236041c04de31ffaa3551520eed04043
-                        │     │                   4c5604bb1f 
+                        │     ├ Fingerprint     : sha256:f52930a85c95a4c8b14a6f163fe1f88298b8d26544a062ffc244ad
+                        │     │                   a79e9366a2 
                         │     ├ Title           : com.fasterxml.jackson.core/jackson-databind:
                         │     │                   tools.jackson.core/jackson-databind: jackson-databind: CPU
                         │     │                   Denial of Service via unbounded numeric parsing 
@@ -471,8 +471,8 @@
                         │     │                  ├ Name: GitHub Security Advisory Maven 
                         │     │                  ╰ URL : https://github.com/advisories?query=type%3Areviewed+ec
                         │     │                          osystem%3Amaven 
-                        │     ├ Fingerprint     : sha256:686023cc54bbc6037633f2e259d7371a5ce31a3b32a84353b85ab9
-                        │     │                   f4bc037aa9 
+                        │     ├ Fingerprint     : sha256:52e1d13ab643519b94f132787d41d3926e77bbd738fc9126f53b55
+                        │     │                   8de6481e58 
                         │     ├ Title           : jackson-databind: com.fasterxml.jackson/jackson-core:
                         │     │                   jackson-databind: Denial of Service via unbounded cache
                         │     │                   growth in TypeDeserializerBase 
@@ -560,8 +560,8 @@
                         │     │                  ├ Name: GitHub Security Advisory Maven 
                         │     │                  ╰ URL : https://github.com/advisories?query=type%3Areviewed+ec
                         │     │                          osystem%3Amaven 
-                        │     ├ Fingerprint     : sha256:99e78173b2409d35e1539386b06d9c9c44b952cd2987a9f3c560a3
-                        │     │                   7964723880 
+                        │     ├ Fingerprint     : sha256:a7735610ac615f8cc245c12c364526370987a34625adb745d3b740
+                        │     │                   ac645ecfb2 
                         │     ├ Title           : com.fasterxml.jackson.core/jackson-databind:
                         │     │                   Jackson-databind: Denial of Service via quadratic
                         │     │                   forward-reference completion 
@@ -652,8 +652,8 @@
                         │     │                  ├ Name: GitHub Security Advisory Maven 
                         │     │                  ╰ URL : https://github.com/advisories?query=type%3Areviewed+ec
                         │     │                          osystem%3Amaven 
-                        │     ├ Fingerprint     : sha256:a6361352f6a3c129e657ca3a92f916d0006c3b53514741f7877fd0
-                        │     │                   7071f2e839 
+                        │     ├ Fingerprint     : sha256:b8f1033df4ea2c74e8e76175c83f593add7fba7c4c0487f11ff64e
+                        │     │                   3b313dbd34 
                         │     ├ Title           : com.fasterxml.jackson.core/jackson-databind:
                         │     │                   tools.jackson.core/jackson-databind: Jackson-databind:
                         │     │                   Uncontrolled URI scheme resolution in Path deserialization 
@@ -749,8 +749,8 @@
                               │                  ├ Name: GitHub Security Advisory Maven 
                               │                  ╰ URL : https://github.com/advisories?query=type%3Areviewed+ec
                               │                          osystem%3Amaven 
-                              ├ Fingerprint     : sha256:ad17f9678448ca54e54fb1737a2fd59f5c6859a13ad24e081fa1df
-                              │                   dae795921a 
+                              ├ Fingerprint     : sha256:f908b698e311f5b51625fa4f8fbfaa46fd719dd12df12e281b0db1
+                              │                   9c560a7f79 
                               ├ Title           : com.fasterxml.jackson.core/jackson-databind:
                               │                   tools.jackson.core/jackson-databind: jackson-databind: Path
                               │                   traversal via incomplete type validation 
