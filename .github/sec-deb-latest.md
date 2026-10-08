@@ -20678,7 +20678,7 @@
                         │      │                  https://access.redhat.com/errata/RHSA-2026:50205             
                         │      │                  https://access.redhat.com/errata/RHSA-2026:54274             
                         │      │                  https://access.redhat.com/errata/RHSA-2026:54283             
-                        │      │                  https://access.redhat.com/errata/RHSA-2026:54284             
+                        │      │                  https://nvd.nist.gov/vuln/detail/CVE-2026-91776              
                         │      │                  https://access.redhat.com/errata/RHSA-2026:54285             
                         │      │                  https://access.redhat.com/errata/RHSA-2026:54286             
                         │      │                  https://access.redhat.com/errata/RHSA-2026:54287             
