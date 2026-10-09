@@ -11,16 +11,16 @@
 │                             ├ InstalledVersion: 1.3.2-r0 
 │                             ├ FixedVersion    : 1.3.2-r1 
 │                             ├ Status          : fixed 
-│                             ├ Layer            ╭ Digest: sha256:bc9af5f2b3a938255ae038b69d3359cf3511a6a1bec60
-│                             │                  │         a18afb084734bde9e79 
-│                             │                  ╰ DiffID: sha256:b707f93a27b53d06a10aa0176c48acfe731a35c498fff
-│                             │                            7e7a56d89768a931e2d 
+│                             ├ Layer            ╭ Digest: sha256:711549acdabf8174fb6d94e3ccc9c02d4dc5d13cb26d5
+│                             │                  │         7a04aea2fe5ed5fdcf4 
+│                             │                  ╰ DiffID: sha256:06fffb181030d10c60df67fd1419b774e1dbe9554269b
+│                             │                            5f62d07d608fa6f6eb7 
 │                             ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2026-85091 
 │                             ├ DataSource       ╭ ID  : alpine 
 │                             │                  ├ Name: Alpine Secdb 
 │                             │                  ╰ URL : https://secdb.alpinelinux.org/ 
-│                             ├ Fingerprint     : sha256:e833a8959e6dcf3afc96b55207433713a89c74530407d854ec4026
-│                             │                   e735cdc2db 
+│                             ├ Fingerprint     : sha256:0992f537fa9d51f315d9f5dec7896e902eac06287bd507044b78b3
+│                             │                   3f502bc7a5 
 │                             ├ Title           : zlib versions 1.3.1.2 through 1.3.2 contain a heap buffer
 │                             │                   overflow vul ... 
 │                             ├ Description     : zlib versions 1.3.1.2 through 1.3.2 contain a heap buffer
