@@ -420,7 +420,8 @@
                         │     │                  CWE-400 
                         │     │                  CWE-1333
                         │     │                  
-                        │     ├ VendorSeverity   ╭ ghsa       : 3 
+                        │     ├ VendorSeverity   ╭ alma       : 3 
+                        │     │                  ├ ghsa       : 3 
                         │     │                  ├ oracle-oval: 3 
                         │     │                  ├ redhat     : 3 
                         │     │                  ╰ ubuntu     : 2 
@@ -432,8 +433,11 @@
                         │     │                           ╰ V3Score : 7.5 
                         │     ├ References                                                                     
                         │     │                  ──────────────────────────────────────────────────────────────
+                        │     │                  https://access.redhat.com/errata/RHSA-2026:77648              
                         │     │                  https://access.redhat.com/security/cve/CVE-2026-68497         
                         │     │                  https://advisory.echohq.com/cve/CVE-2026-68497                
+                        │     │                  https://bugzilla.redhat.com/2531964                           
+                        │     │                  https://errata.almalinux.org/10/ALSA-2026-77648.html          
                         │     │                  https://github.com/FasterXML/jackson-databind                 
                         │     │                  https://github.com/FasterXML/jackson-databind/commit/a99b7e74c
                         │     │                  8928f43f6975773a8c862c8316178bd                               
