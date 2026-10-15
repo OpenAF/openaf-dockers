@@ -849,7 +849,7 @@
 │                       │       ├ Severity        : MEDIUM 
 │                       │       ├ CweIDs                  
 │                       │       │                  ───────
-│                       │       │                  CWE-201
+│                       │       │                  CWE-405
 │                       │       ├ VendorSeverity   ╭ photon: 3 
 │                       │       │                  ├ redhat: 1 
 │                       │       │                  ╰ ubuntu: 2 
