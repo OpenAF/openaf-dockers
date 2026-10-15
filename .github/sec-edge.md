@@ -11,16 +11,16 @@
 │                             ├ InstalledVersion: 1.3.2-r0 
 │                             ├ FixedVersion    : 1.3.2-r1 
 │                             ├ Status          : fixed 
-│                             ├ Layer            ╭ Digest: sha256:df8a23416522ee8f27e15775ec6219f444cdbde717118
-│                             │                  │         1e7f6e94eec12004f0d 
-│                             │                  ╰ DiffID: sha256:286b9348280360949433489374be9ad7886a20888c55f
-│                             │                            7273420cbe566031eef 
+│                             ├ Layer            ╭ Digest: sha256:2f4109d25c1ef289802d8161e8285bdd152b4f85cdf36
+│                             │                  │         62b39af29eb303770fe 
+│                             │                  ╰ DiffID: sha256:9382625169b6cbd96cf4869c282a2e77d99b741263fd5
+│                             │                            b503fabf2e92a662278 
 │                             ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2026-85091 
 │                             ├ DataSource       ╭ ID  : alpine 
 │                             │                  ├ Name: Alpine Secdb 
 │                             │                  ╰ URL : https://secdb.alpinelinux.org/ 
-│                             ├ Fingerprint     : sha256:55676b08bf3e6e2ee82f50f042d1ce20d1287315e7ef406c4b2431
-│                             │                   0a3eca197e 
+│                             ├ Fingerprint     : sha256:19094c1f4c299c582a0687f8cdcabb7704323e30f13f12f4609aa9
+│                             │                   b5368e8652 
 │                             ├ Title           : zlib versions 1.3.1.2 through 1.3.2 contain a heap buffer
 │                             │                   overflow vul ... 
 │                             ├ Description     : zlib versions 1.3.1.2 through 1.3.2 contain a heap buffer
@@ -34,7 +34,6 @@
 │                             ├ CweIDs                  
 │                             │                  ───────
 │                             │                  CWE-787
-│                             │                  
 │                             ├ VendorSeverity   ─ ubuntu: 2 
 │                             ├ References                                                                     
 │                             │                  ──────────────────────────────────────────────────────────────
@@ -48,7 +47,6 @@
 │                             │                                                                                
 │                             │                  https://www.vulncheck.com/advisories/zlib-1.3.1.2-through-1.3.
 │                             │                  2-heap-buffer-overflow-via-gz-vacate                          
-│                             │                  
 │                             ├ PublishedDate   : 2026-09-03T13:06:20.573Z 
 │                             ╰ LastModifiedDate: 2026-09-09T20:41:07.123Z 
 ╰ [1] ╭ Target  : Java 
