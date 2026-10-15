@@ -20,8 +20,8 @@
 │                       │     ├ DataSource       ╭ ID  : alpine 
 │                       │     │                  ├ Name: Alpine Secdb 
 │                       │     │                  ╰ URL : https://secdb.alpinelinux.org/ 
-│                       │     ├ Fingerprint     : sha256:6b9b300767c88024958b334125443f8f5ce985121cc2fbb4e23be2
-│                       │     │                   5d361101c1 
+│                       │     ├ Fingerprint     : sha256:cf43492a1b992c2d2bbc9ce59867755561425da637f9a639c263f3
+│                       │     │                   77f7bc14c3 
 │                       │     ├ Title           : [Use-after-free of zlib input in `png_read_end` after
 │                       │     │                   incomplete zTXt, iTXt or iCCP decompression] 
 │                       │     ├ Description     : [Use-after-free of zlib input in `png_read_end` after
@@ -36,8 +36,6 @@
 │                       │                        https://ubuntu.com/security/notices/USN-8899-1                
 │                       │                                                                                      
 │                       │                        https://www.cve.org/CVERecord?id=CVE-2026-46675               
-│                       │                                                                                      
-│                       │                        
 │                       ├ [1] ╭ VulnerabilityID : CVE-2026-58055 
 │                       │     ├ PkgID           : nghttp2-libs@1.69.0-r0 
 │                       │     ├ PkgName         : nghttp2-libs 
@@ -55,8 +53,8 @@
 │                       │     ├ DataSource       ╭ ID  : alpine 
 │                       │     │                  ├ Name: Alpine Secdb 
 │                       │     │                  ╰ URL : https://secdb.alpinelinux.org/ 
-│                       │     ├ Fingerprint     : sha256:f2b1eb7198dc93d4e5dfe8d54fa518c0a4b891d340b2048341d1e3
-│                       │     │                   a33be342e0 
+│                       │     ├ Fingerprint     : sha256:0384c99a178f132761c72631dce552b7cf475a7d06155ac33936f5
+│                       │     │                   3d0a805030 
 │                       │     ├ Title           : nghttp2: nghttp2: HTTP Request/Response Smuggling and
 │                       │     │                   Response-Queue Poisoning via ambiguous HTTP/1.1 Upgrade
 │                       │     │                   requests 
@@ -72,7 +70,6 @@
 │                       │     ├ CweIDs                  
 │                       │     │                  ───────
 │                       │     │                  CWE-444
-│                       │     │                  
 │                       │     ├ VendorSeverity   ╭ alma       : 2 
 │                       │     │                  ├ azure      : 2 
 │                       │     │                  ├ julia      : 2 
@@ -116,7 +113,6 @@
 │                       │     │                                                                                
 │                       │     │                  https://www.vulncheck.com/advisories/nghttp2-nghttpx-http-requ
 │                       │     │                  est-response-smuggling-via-upgrade-request-with-content-length
-│                       │     │                  
 │                       │     ├ PublishedDate   : 2026-06-28T02:16:32.677Z 
 │                       │     ╰ LastModifiedDate: 2026-06-30T17:41:26.433Z 
 │                       ╰ [2] ╭ VulnerabilityID : CVE-2026-85091 
@@ -135,8 +131,8 @@
 │                             ├ DataSource       ╭ ID  : alpine 
 │                             │                  ├ Name: Alpine Secdb 
 │                             │                  ╰ URL : https://secdb.alpinelinux.org/ 
-│                             ├ Fingerprint     : sha256:1bc0fa4a056f7053149ebb78cc6eb94c31bb96378f46f7f42a73b3
-│                             │                   bb41c6d195 
+│                             ├ Fingerprint     : sha256:85e28c4aced9a80a9772eee1847b98c32f8ae3417e736d954b3dbc
+│                             │                   a5939bfe95 
 │                             ├ Title           : zlib versions 1.3.1.2 through 1.3.2 contain a heap buffer
 │                             │                   overflow vul ... 
 │                             ├ Description     : zlib versions 1.3.1.2 through 1.3.2 contain a heap buffer
@@ -150,7 +146,6 @@
 │                             ├ CweIDs                  
 │                             │                  ───────
 │                             │                  CWE-787
-│                             │                  
 │                             ├ VendorSeverity   ─ ubuntu: 2 
 │                             ├ References                                                                     
 │                             │                  ──────────────────────────────────────────────────────────────
@@ -164,7 +159,6 @@
 │                             │                                                                                
 │                             │                  https://www.vulncheck.com/advisories/zlib-1.3.1.2-through-1.3.
 │                             │                  2-heap-buffer-overflow-via-gz-vacate                          
-│                             │                  
 │                             ├ PublishedDate   : 2026-09-03T13:06:20.573Z 
 │                             ╰ LastModifiedDate: 2026-09-09T20:41:07.123Z 
 ╰ [1] ╭ Target         : Java 
@@ -175,7 +169,6 @@
                         │     ├ VendorIDs                           
                         │     │                  ───────────────────
                         │     │                  GHSA-p6pp-m3f8-5c89
-                        │     │                  
                         │     ├ PkgName         : com.fasterxml.jackson.core:jackson-core 
                         │     ├ PkgPath         : openaf/openaf.jar 
                         │     ├ PkgIdentifier    ╭ PURL: pkg:maven/com.fasterxml.jackson.core/jackson-core@2.22.1 
@@ -193,8 +186,8 @@
                         │     │                  ├ Name: GitHub Security Advisory Maven 
                         │     │                  ╰ URL : https://github.com/advisories?query=type%3Areviewed+ec
                         │     │                          osystem%3Amaven 
-                        │     ├ Fingerprint     : sha256:d12fba42e79f5a5d8ed2cb72cc9a108a832807273de1bd8c6f94f1
-                        │     │                   b1da2c9dbf 
+                        │     ├ Fingerprint     : sha256:053b59310d9215f2ff5b26a9797d5be46e2453f704f1435d437098
+                        │     │                   048f538837 
                         │     ├ Title           : com.fasterxml.jackson/jackson-core:
                         │     │                   tools.jackson.core/jackson-core: Jackson-core: Denial of
                         │     │                   Service via regular expression backtracking 
@@ -234,8 +227,8 @@
                         │     │                  ────────
                         │     │                  CWE-400 
                         │     │                  CWE-1333
-                        │     │                  
-                        │     ├ VendorSeverity   ╭ ghsa  : 3 
+                        │     ├ VendorSeverity   ╭ amazon: 3 
+                        │     │                  ├ ghsa  : 3 
                         │     │                  ╰ redhat: 2 
                         │     ├ CVSS             ╭ ghsa   ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/
                         │     │                  │        │           A:H 
@@ -266,15 +259,12 @@
                         │     │                  https://nvd.nist.gov/vuln/detail/CVE-2026-89407               
                         │     │                                                                                
                         │     │                  https://www.cve.org/CVERecord?id=CVE-2026-89407               
-                        │     │                                                                                
-                        │     │                  
                         │     ├ PublishedDate   : 2026-09-22T15:17:21.053Z 
                         │     ╰ LastModifiedDate: 2026-09-22T20:00:03.713Z 
                         ├ [1] ╭ VulnerabilityID : CVE-2026-89425 
                         │     ├ VendorIDs                           
                         │     │                  ───────────────────
                         │     │                  GHSA-7hhh-6rmp-j9qf
-                        │     │                  
                         │     ├ PkgName         : com.fasterxml.jackson.core:jackson-core 
                         │     ├ PkgPath         : openaf/openaf.jar 
                         │     ├ PkgIdentifier    ╭ PURL: pkg:maven/com.fasterxml.jackson.core/jackson-core@2.22.1 
@@ -292,8 +282,8 @@
                         │     │                  ├ Name: GitHub Security Advisory Maven 
                         │     │                  ╰ URL : https://github.com/advisories?query=type%3Areviewed+ec
                         │     │                          osystem%3Amaven 
-                        │     ├ Fingerprint     : sha256:16ed3439362ac7ba46fbc06eb02dc3c68ed7379826fbf3fb96198d
-                        │     │                   4137dc963c 
+                        │     ├ Fingerprint     : sha256:a38593cbf2328b004d2c38665d3e1b47dfaa2288ff254fd1612100
+                        │     │                   ad6d92911f 
                         │     ├ Title           : com.fasterxml.jackson.core/jackson-core: Jackson-core: Denial
                         │     │                    of Service via unbounded StringBuilder growth during
                         │     │                   malformed token processing 
@@ -325,8 +315,8 @@
                         │     │                  ───────
                         │     │                  CWE-400
                         │     │                  CWE-770
-                        │     │                  
-                        │     ├ VendorSeverity   ╭ ghsa  : 3 
+                        │     ├ VendorSeverity   ╭ amazon: 3 
+                        │     │                  ├ ghsa  : 3 
                         │     │                  ╰ redhat: 3 
                         │     ├ CVSS             ╭ ghsa   ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/
                         │     │                  │        │           A:H 
@@ -352,15 +342,12 @@
                         │     │                  https://nvd.nist.gov/vuln/detail/CVE-2026-89425               
                         │     │                                                                                
                         │     │                  https://www.cve.org/CVERecord?id=CVE-2026-89425               
-                        │     │                                                                                
-                        │     │                  
                         │     ├ PublishedDate   : 2026-09-23T03:17:04.357Z 
                         │     ╰ LastModifiedDate: 2026-09-24T20:43:32.537Z 
                         ├ [2] ╭ VulnerabilityID : CVE-2026-68497 
                         │     ├ VendorIDs                           
                         │     │                  ───────────────────
                         │     │                  GHSA-q4xh-88c3-wmh7
-                        │     │                  
                         │     ├ PkgName         : com.fasterxml.jackson.core:jackson-databind 
                         │     ├ PkgPath         : openaf/openaf.jar 
                         │     ├ PkgIdentifier    ╭ PURL: pkg:maven/com.fasterxml.jackson.core/jackson-databind@
@@ -379,8 +366,8 @@
                         │     │                  ├ Name: GitHub Security Advisory Maven 
                         │     │                  ╰ URL : https://github.com/advisories?query=type%3Areviewed+ec
                         │     │                          osystem%3Amaven 
-                        │     ├ Fingerprint     : sha256:9a208c9a75205744adef3762a7e44bddb3c1ef6144cd98ef631446
-                        │     │                   9c71436ae6 
+                        │     ├ Fingerprint     : sha256:b733277b40ac21267a0f30e9d0f069b35c5a28e3b8bbe89e8c435e
+                        │     │                   aab5e07b0d 
                         │     ├ Title           : com.fasterxml.jackson.core/jackson-databind:
                         │     │                   tools.jackson.core/jackson-databind: jackson-databind: CPU
                         │     │                   Denial of Service via unbounded numeric parsing 
@@ -419,11 +406,11 @@
                         │     │                  ────────
                         │     │                  CWE-400 
                         │     │                  CWE-1333
-                        │     │                  
                         │     ├ VendorSeverity   ╭ alma       : 3 
                         │     │                  ├ ghsa       : 3 
                         │     │                  ├ oracle-oval: 3 
                         │     │                  ├ redhat     : 3 
+                        │     │                  ├ rocky      : 3 
                         │     │                  ╰ ubuntu     : 2 
                         │     ├ CVSS             ╭ ghsa   ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/
                         │     │                  │        │           A:H 
@@ -433,11 +420,15 @@
                         │     │                           ╰ V3Score : 7.5 
                         │     ├ References                                                                     
                         │     │                  ──────────────────────────────────────────────────────────────
-                        │     │                  https://access.redhat.com/errata/RHSA-2026:77648              
+                        │     │                  https://access.redhat.com/errata/RHSA-2026:80504              
                         │     │                  https://access.redhat.com/security/cve/CVE-2026-68497         
                         │     │                  https://advisory.echohq.com/cve/CVE-2026-68497                
                         │     │                  https://bugzilla.redhat.com/2531964                           
-                        │     │                  https://errata.almalinux.org/10/ALSA-2026-77648.html          
+                        │     │                  https://bugzilla.redhat.com/show_bug.cgi?id=2531964           
+                        │     │                  https://creativecommons.org/licenses/by/4.0/                  
+                        │     │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-68497 
+                        │     │                  https://errata.almalinux.org/9/ALSA-2026-80504.html           
+                        │     │                  https://errata.rockylinux.org/RLSA-2026:80504                 
                         │     │                  https://github.com/FasterXML/jackson-databind                 
                         │     │                  https://github.com/FasterXML/jackson-databind/commit/a99b7e74c
                         │     │                  8928f43f6975773a8c862c8316178bd                               
@@ -457,20 +448,17 @@
                         │     │                  ies/GHSA-q4xh-88c3-wmh7                                       
                         │     │                  https://linux.oracle.com/cve/CVE-2026-68497.html              
                         │     │                                                                                
-                        │     │                  https://linux.oracle.com/errata/ELSA-2026-77648.html          
+                        │     │                  https://linux.oracle.com/errata/ELSA-2026-80504.html          
                         │     │                                                                                
                         │     │                  https://nvd.nist.gov/vuln/detail/CVE-2026-68497               
                         │     │                                                                                
                         │     │                  https://www.cve.org/CVERecord?id=CVE-2026-68497               
-                        │     │                                                                                
-                        │     │                  
                         │     ├ PublishedDate   : 2026-09-11T16:17:39.61Z 
                         │     ╰ LastModifiedDate: 2026-09-18T19:34:36.657Z 
                         ├ [3] ╭ VulnerabilityID : CVE-2026-91776 
                         │     ├ VendorIDs                           
                         │     │                  ───────────────────
                         │     │                  GHSA-wv8q-qhhj-9h54
-                        │     │                  
                         │     ├ PkgName         : com.fasterxml.jackson.core:jackson-databind 
                         │     ├ PkgPath         : openaf/openaf.jar 
                         │     ├ PkgIdentifier    ╭ PURL: pkg:maven/com.fasterxml.jackson.core/jackson-databind@
@@ -489,8 +477,8 @@
                         │     │                  ├ Name: GitHub Security Advisory Maven 
                         │     │                  ╰ URL : https://github.com/advisories?query=type%3Areviewed+ec
                         │     │                          osystem%3Amaven 
-                        │     ├ Fingerprint     : sha256:d40f71f64c7ed0f456e708563cb5dd1515816e3c623d44c6985fd7
-                        │     │                   53dc8f1acb 
+                        │     ├ Fingerprint     : sha256:18c2873c522c689dc93eb41f373f8e01c77936429d214cebe9882e
+                        │     │                   ef8f05ee12 
                         │     ├ Title           : jackson-databind: com.fasterxml.jackson/jackson-core:
                         │     │                   jackson-databind: Denial of Service via unbounded cache
                         │     │                   growth in TypeDeserializerBase 
@@ -519,9 +507,9 @@
                         │     ├ CweIDs                  
                         │     │                  ───────
                         │     │                  CWE-400
-                        │     │                  
                         │     ├ VendorSeverity   ╭ ghsa  : 3 
-                        │     │                  ╰ redhat: 3 
+                        │     │                  ├ redhat: 3 
+                        │     │                  ╰ ubuntu: 2 
                         │     ├ CVSS             ╭ ghsa   ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/
                         │     │                  │        │           A:H 
                         │     │                  │        ╰ V3Score : 7.5 
@@ -536,6 +524,8 @@
                         │     │                  https://github.com/FasterXML/jackson-databind/commit/2870d1d6d
                         │     │                  c1b7e1c07ee11dd5b04ab71cddbb577                               
                         │     │                  https://github.com/FasterXML/jackson-databind/issues/6203     
+                        │     │                                                                                
+                        │     │                  https://github.com/FasterXML/jackson-databind/pull/6203       
                         │     │                                                                                
                         │     │                  https://github.com/FasterXML/jackson-databind/releases/tag/jac
                         │     │                  kson-databind-2.18.11                                         
@@ -552,15 +542,12 @@
                         │     │                  https://nvd.nist.gov/vuln/detail/CVE-2026-91776               
                         │     │                                                                                
                         │     │                  https://www.cve.org/CVERecord?id=CVE-2026-91776               
-                        │     │                                                                                
-                        │     │                  
                         │     ├ PublishedDate   : 2026-09-23T03:17:04.62Z 
                         │     ╰ LastModifiedDate: 2026-09-24T20:43:32.537Z 
                         ├ [4] ╭ VulnerabilityID : CVE-2026-91777 
                         │     ├ VendorIDs                           
                         │     │                  ───────────────────
                         │     │                  GHSA-cxp5-3px4-pw24
-                        │     │                  
                         │     ├ PkgName         : com.fasterxml.jackson.core:jackson-databind 
                         │     ├ PkgPath         : openaf/openaf.jar 
                         │     ├ PkgIdentifier    ╭ PURL: pkg:maven/com.fasterxml.jackson.core/jackson-databind@
@@ -579,8 +566,8 @@
                         │     │                  ├ Name: GitHub Security Advisory Maven 
                         │     │                  ╰ URL : https://github.com/advisories?query=type%3Areviewed+ec
                         │     │                          osystem%3Amaven 
-                        │     ├ Fingerprint     : sha256:bca61bb5a514f3f71b4f1721a83a8b068d1f829864f4de68a872b1
-                        │     │                   7b91334b6e 
+                        │     ├ Fingerprint     : sha256:c2934f00241fba833ace4dcffff6afd5a210ddd3a00557e43852dc
+                        │     │                   855d2021a0 
                         │     ├ Title           : com.fasterxml.jackson.core/jackson-databind:
                         │     │                   tools.jackson.core:jackson-databind: Jackson-databind: Denial
                         │     │                    of Service via quadratic forward-reference completion 
@@ -610,7 +597,6 @@
                         │     ├ CweIDs                  
                         │     │                  ───────
                         │     │                  CWE-400
-                        │     │                  
                         │     ├ VendorSeverity   ╭ ghsa  : 3 
                         │     │                  ├ redhat: 3 
                         │     │                  ╰ ubuntu: 2 
@@ -646,15 +632,12 @@
                         │     │                  https://nvd.nist.gov/vuln/detail/CVE-2026-91777               
                         │     │                                                                                
                         │     │                  https://www.cve.org/CVERecord?id=CVE-2026-91777               
-                        │     │                                                                                
-                        │     │                  
                         │     ├ PublishedDate   : 2026-09-23T03:17:04.783Z 
                         │     ╰ LastModifiedDate: 2026-09-24T20:43:32.537Z 
                         ├ [5] ╭ VulnerabilityID : CVE-2026-19032 
                         │     ├ VendorIDs                           
                         │     │                  ───────────────────
                         │     │                  GHSA-wjgm-6hv5-3cvf
-                        │     │                  
                         │     ├ PkgName         : com.fasterxml.jackson.core:jackson-databind 
                         │     ├ PkgPath         : openaf/openaf.jar 
                         │     ├ PkgIdentifier    ╭ PURL: pkg:maven/com.fasterxml.jackson.core/jackson-databind@
@@ -673,8 +656,8 @@
                         │     │                  ├ Name: GitHub Security Advisory Maven 
                         │     │                  ╰ URL : https://github.com/advisories?query=type%3Areviewed+ec
                         │     │                          osystem%3Amaven 
-                        │     ├ Fingerprint     : sha256:a96916aee7c6b66fd0f246adcbfe0d2f0f52f7714e09a6a79c5fc1
-                        │     │                   faa113942f 
+                        │     ├ Fingerprint     : sha256:3ee1e4c2e9fa48cb27a94d75002b80e075708eda95b89460fd3d91
+                        │     │                   e6e3446a59 
                         │     ├ Title           : com.fasterxml.jackson.core/jackson-databind:
                         │     │                   tools.jackson.core/jackson-databind: Jackson-databind:
                         │     │                   Uncontrolled URI scheme resolution in Path deserialization 
@@ -707,8 +690,8 @@
                         │     │                  ───────
                         │     │                  CWE-470
                         │     │                  CWE-610
-                        │     │                  
-                        │     ├ VendorSeverity   ╭ ghsa  : 2 
+                        │     ├ VendorSeverity   ╭ amazon: 2 
+                        │     │                  ├ ghsa  : 2 
                         │     │                  ╰ redhat: 2 
                         │     ├ CVSS             ╭ ghsa   ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/
                         │     │                  │        │           A:L 
@@ -744,15 +727,12 @@
                         │     │                  https://nvd.nist.gov/vuln/detail/CVE-2026-19032               
                         │     │                                                                                
                         │     │                  https://www.cve.org/CVERecord?id=CVE-2026-19032               
-                        │     │                                                                                
-                        │     │                  
                         │     ├ PublishedDate   : 2026-09-01T04:18:00.433Z 
                         │     ╰ LastModifiedDate: 2026-09-08T19:29:32.2Z 
                         ╰ [6] ╭ VulnerabilityID : CVE-2026-83557 
                               ├ VendorIDs                           
                               │                  ───────────────────
                               │                  GHSA-gx83-3vf8-gh7j
-                              │                  
                               ├ PkgName         : com.fasterxml.jackson.core:jackson-databind 
                               ├ PkgPath         : openaf/openaf.jar 
                               ├ PkgIdentifier    ╭ PURL: pkg:maven/com.fasterxml.jackson.core/jackson-databind@
@@ -771,8 +751,8 @@
                               │                  ├ Name: GitHub Security Advisory Maven 
                               │                  ╰ URL : https://github.com/advisories?query=type%3Areviewed+ec
                               │                          osystem%3Amaven 
-                              ├ Fingerprint     : sha256:d8855080a53f1f6e095e7c48d61b04a2788dd1266c284baacef048
-                              │                   b3f3403194 
+                              ├ Fingerprint     : sha256:fc75413debc41633b4b6f966b69be3cec7285441ed55a534af96f9
+                              │                   df12c55714 
                               ├ Title           : com.fasterxml.jackson.core/jackson-databind:
                               │                   tools.jackson.core/jackson-databind: jackson-databind: Path
                               │                   traversal via incomplete type validation 
@@ -809,8 +789,8 @@
                               │                  ───────
                               │                  CWE-502
                               │                  CWE-915
-                              │                  
-                              ├ VendorSeverity   ╭ ghsa  : 2 
+                              ├ VendorSeverity   ╭ amazon: 2 
+                              │                  ├ ghsa  : 2 
                               │                  ╰ redhat: 2 
                               ├ CVSS             ╭ ghsa   ╭ V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:L/I:L/
                               │                  │        │           A:L 
@@ -847,8 +827,6 @@
                               │                  https://nvd.nist.gov/vuln/detail/CVE-2026-83557               
                               │                                                                                
                               │                  https://www.cve.org/CVERecord?id=CVE-2026-83557               
-                              │                                                                                
-                              │                  
                               ├ PublishedDate   : 2026-09-01T15:17:37.987Z 
                               ╰ LastModifiedDate: 2026-09-08T19:29:32.2Z 
 ```
