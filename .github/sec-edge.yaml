@@ -13,14 +13,14 @@
     FixedVersion: 1.3.2-r1
     Status: fixed
     Layer:
-      Digest: sha256:7fcf96175faa813cd4a31ee3ee9c828e579ea85a850a0e383d739d415a9443f2
-      DiffID: sha256:412c75ebf976fa80c4b993742732dec0016dcfe4ed29eb84ba82ddd2d6ea15ce
+      Digest: sha256:b9e91a7164c939b691b559ed9ca1ac8cc1afa4819cc9fd48a2e4a4a064b91206
+      DiffID: sha256:f0f6240634007d4d53644909aec87d4c049481173acc57373cdaf54e8b49e5f1
     PrimaryURL: https://avd.aquasec.com/nvd/cve-2026-85091
     DataSource:
       ID: alpine
       Name: Alpine Secdb
       URL: https://secdb.alpinelinux.org/
-    Fingerprint: sha256:ecbfe51ee6bdd6aad95fcee63004307885d3d144bd8f81f90971e7f1a42ff654
+    Fingerprint: sha256:87fae7958f3b1a2e0308d1e84a5683a0e9906ba39bbf562132c5508120bb7c70
     Title: zlib versions 1.3.1.2 through 1.3.2 contain a heap buffer overflow vul ...
     Description: zlib versions 1.3.1.2 through 1.3.2 contain a heap buffer overflow vulnerability in the gz_vacate() function when processing non-blocking gzwrite() operations with stale external buffer pointers. Attackers can trigger the overflow by calling gzprintf() or gzvprintf() after a write stall, causing an unchecked memmove() to write beyond the internal input buffer boundary.
     Severity: MEDIUM
