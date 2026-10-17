@@ -34,13 +34,22 @@ RUN cd /openaf\
  && sudo chmod -R u+rwx,g+rwx,o+rx,o-w /openaf/*\
  && sudo chmod a+rwx /openaf\
  && sudo chown -R openaf:0 /openaf\
- && sudo chown openaf:0 /openaf/.opack.db || true\
- && sudo chmod g+w /openaf/.opack.db || true\
+ && (sudo chown openaf:0 /openaf/.opack.db || true)\
+ && (sudo chmod g+w /openaf/.opack.db || true)\
  && /openaf/oaf --bashcompletion all > ~/.openaf_completion_bash.sh
 
 USER root
 RUN /openaf/oaf --bashcompletion all > ~/.openaf_completion_bash.sh
 USER 1000:0
+
+# Installation can report CDS generation errors without failing. Validate with
+# the generated launcher's JVM options. Recreate an unusable archive with
+# the JVM default class list, then require sharing before accepting the image.
+RUN cd /openaf\
+ && if ! OAF_JARGS="-Xshare:on" ./oaf -c 'print("CDS archive usable")'; then OAF_JARGS="-Xshare:dump" ./oaf; fi\
+ && test -s /openaf/.shared.oaf\
+ && OAF_JARGS="-Xshare:on" ./oaf -c 'print("CDS archive usable")'\
+ && chmod g+w /openaf/.shared.oaf
 
 # -------------------
 FROM scratch as final

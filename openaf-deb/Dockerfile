@@ -35,16 +35,25 @@ RUN cd /openaf\
  && rm jre.tgz\
  && jre/bin/java -jar openaf.jar --install\
  && chown -R openaf:0 /openaf\
- && chown openaf:0 /openaf/.opack.db || true\
+ && (chown openaf:0 /openaf/.opack.db || true)\
  && chmod -R u+rwx,g+rwx,o+rx,o-w /openaf/*\
  && chmod a+rwx /openaf\
  && chmod -R a+rx /openaf/.docker\
- && chmod g+w /openaf/.opack.db || true\
+ && (chmod g+w /openaf/.opack.db || true)\
  && echo "source ~/.openaf_completion_bash.sh > /dev/null 2>&1" >> /etc/bash.bashrc\
  && /openaf/oaf --bashcompletion all > ~/.openaf_completion_bash.sh
 
 USER openaf:0
 RUN /openaf/oaf --bashcompletion all > ~/.openaf_completion_bash.sh
+
+# Installation can report CDS generation errors without failing. Validate with
+# the generated launcher's JVM options. Recreate an unusable archive with
+# the JVM default class list, then require sharing before accepting the image.
+RUN cd /openaf\
+ && if ! OAF_JARGS="-Xshare:on" ./oaf -c 'print("CDS archive usable")'; then OAF_JARGS="-Xshare:dump" ./oaf; fi\
+ && test -s /openaf/.shared.oaf\
+ && OAF_JARGS="-Xshare:on" ./oaf -c 'print("CDS archive usable")'\
+ && chmod g+w /openaf/.shared.oaf
 
 # -------------------
 FROM scratch as final

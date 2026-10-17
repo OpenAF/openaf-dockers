@@ -30,11 +30,20 @@ RUN cd /openaf\
  && curl -o openaf.jar https://openaf.io/${OPENAFDIST:+$OPENAFDIST/}openaf.jar.repacked -s\
  && java -jar openaf.jar --install\
  && chown -R openaf:0 /openaf\
- && chown openaf:0 /openaf/.opack.db || true\
+ && (chown openaf:0 /openaf/.opack.db || true)\
  && chmod -R u+rwx,g+rwx,o+rx,o-w /openaf/*\
  && chmod a+rwx /openaf\
  && chmod -R a+rx /openaf/.docker\
- && chmod g+w /openaf/.opack.db || true
+ && (chmod g+w /openaf/.opack.db || true)
+
+# Installation can report CDS generation errors without failing. Validate with
+# the generated launcher's JVM options. Recreate an unusable archive with
+# the JVM default class list, then require sharing before accepting the image.
+RUN cd /openaf\
+ && if ! OAF_JARGS="-Xshare:on" ./oaf -c 'print("CDS archive usable")'; then OAF_JARGS="-Xshare:dump" ./oaf; fi\
+ && test -s /openaf/.shared.oaf\
+ && OAF_JARGS="-Xshare:on" ./oaf -c 'print("CDS archive usable")'\
+ && chmod g+w /openaf/.shared.oaf
 
 # -------------------
 FROM scratch as final
