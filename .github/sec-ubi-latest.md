@@ -374,9 +374,9 @@
 │                       │       │                   hostname/address/service resolvers/browsers that create
 │                       │       │                   those browsers internally themselves. 
 │                       │       ├ Severity        : MEDIUM 
-│                       │       ├ CweIDs                              
-│                       │       │                  ───────────────────
-│                       │       │                  GHSA-cxp5-3px4-pw24
+│                       │       ├ CweIDs                  
+│                       │       │                  ───────
+│                       │       │                  CWE-617
 │                       │       ├ VendorSeverity   ╭ azure      : 2 
 │                       │       │                  ├ cbl-mariner: 2 
 │                       │       │                  ├ redhat     : 2 
@@ -549,8 +549,7 @@
 │                       │       │                           ╰ V3Score : 6.5 
 │                       │       ├ References                                                                   
 │                       │       │                  ────────────────────────────────────────────────────────────
-│                       │       │                  https://github.com/FasterXML/jackson-databind/releases/tag/j
-│                       │       │                  ackson-databind-3.2.2                                       
+│                       │       │                  https://access.redhat.com/security/cve/CVE-2026-24401       
 │                       │       │                  https://github.com/avahi/avahi/commit/78eab31128479f06e30beb
 │                       │       │                  8c1cbf99dd921e2524                                          
 │                       │       │                  https://github.com/avahi/avahi/issues/501                   
@@ -40525,8 +40524,8 @@
                         │     │                  kson-databind-3.1.6                                           
                         │     │                  https://github.com/FasterXML/jackson-databind/releases/tag/jac
                         │     │                  kson-databind-3.2.2                                           
-                        │     │                  https://github.com/avahi/avahi/commit/78eab31128479f06e30beb8c
-                        │     │                  1cbf99dd921e2524                                              
+                        │     │                  https://github.com/FasterXML/jackson-databind/security/advisor
+                        │     │                  ies/GHSA-wjgm-6hv5-3cvf                                       
                         │     │                  https://nvd.nist.gov/vuln/detail/CVE-2026-19032               
                         │     │                                                                                
                         │     │                  https://www.cve.org/CVERecord?id=CVE-2026-19032               

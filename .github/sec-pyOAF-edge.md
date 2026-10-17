@@ -19,8 +19,8 @@
 │                             ├ DataSource       ╭ ID  : alpine 
 │                             │                  ├ Name: Alpine Secdb 
 │                             │                  ╰ URL : https://secdb.alpinelinux.org/ 
-│                             ├ Fingerprint     : sha256:8b0fbcf8b4be66cd701fb575ea8a8b114e2c37f5e5ec77d5582ac8
-│                             │                   e9fa9a3dc0 
+│                             ├ Fingerprint     : sha256:a0f0547d39c11ff8c290f2dc591b7bfe541724e69de5a1e8fef953
+│                             │                   dbc905a063 
 │                             ├ Title           : zlib versions 1.3.1.2 through 1.3.2 contain a heap buffer
 │                             │                   overflow vul ... 
 │                             ├ Description     : zlib versions 1.3.1.2 through 1.3.2 contain a heap buffer
