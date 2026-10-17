@@ -48,6 +48,14 @@ docker run --rm -ti \
   'echo "OpenAF Edge"' '&&' 'oaf -c "1 + 1"'
 ```
 
+The image removes `/openaf/openaf.jar.orig` after installation and CDS validation. If you need the original JAR, download the matching distribution and version using the bundled script:
+
+```sh
+oaf -f /openaf/getOpenAFOrigJar.js
+```
+
+Run this command inside the container; it downloads the JAR to `/openaf/openaf.jar.orig`.
+
 ## Build from source
 
 ```sh

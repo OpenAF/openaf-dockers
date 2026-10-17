@@ -43,7 +43,8 @@ RUN cd /openaf\
  && if ! OAF_JARGS="-Xshare:on" ./oaf -c 'print("CDS archive usable")'; then OAF_JARGS="-Xshare:dump" ./oaf; fi\
  && test -s /openaf/.shared.oaf\
  && OAF_JARGS="-Xshare:on" ./oaf -c 'print("CDS archive usable")'\
- && chmod g+w /openaf/.shared.oaf
+ && chmod g+w /openaf/.shared.oaf\
+ && rm -f /openaf/openaf.jar.orig
 
 # -------------------
 FROM scratch as final
