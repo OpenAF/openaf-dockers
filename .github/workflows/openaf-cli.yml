@@ -1,0 +1,31 @@
+name: OpenAF host CLI
+on:
+  push:
+    paths: ['openaf/cli/**', 'openaf/bin/**', 'openaf/tests/**', 'openaf/installOPacks.js', '.github/workflows/openaf-cli.yml']
+  pull_request:
+    paths: ['openaf/cli/**', 'openaf/bin/**', 'openaf/tests/**', 'openaf/installOPacks.js', '.github/workflows/openaf-cli.yml']
+  workflow_dispatch:
+permissions:
+  contents: read
+jobs:
+  offline:
+    strategy:
+      matrix:
+        os: [ubuntu-latest, macos-latest]
+    runs-on: ${{ matrix.os }}
+    steps:
+      - uses: actions/checkout@v4
+      - name: Install Linux shell tools
+        if: runner.os == 'Linux'
+        run: sudo apt-get update && sudo apt-get install -y zsh shellcheck
+      - name: Check generated files and syntax
+        run: |
+          sh openaf/cli/generate.sh --check
+          /bin/bash -n openaf/bin/openaf-docker.bash
+          zsh -n openaf/bin/openaf-docker.zsh
+          for source in openaf/cli/*.sh; do /bin/sh -n "$source"; done
+      - name: ShellCheck
+        if: runner.os == 'Linux'
+        run: shellcheck --shell=bash -e SC2034,SC2154 openaf/bin/openaf-docker.bash
+      - name: Offline contracts (Bash and Zsh)
+        run: python3 openaf/tests/test_cli.py

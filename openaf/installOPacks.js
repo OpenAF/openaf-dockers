@@ -18,7 +18,7 @@ if (isDef(OPACKS_DIR) && OPACKS_DIR != null) {
   if (isArray(files)) {
      files.forEach((v) => {
         if (v.isFile && v.filename.endsWith(".opack")) oPack("install " + v.canonicalPath)
-        if (v.isFolder) oPack("install " + v.canonicalPath)
+        if (v.isDirectory || v.isFolder) oPack("install " + v.canonicalPath)
      });
   }
 }

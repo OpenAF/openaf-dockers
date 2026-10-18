@@ -92,6 +92,22 @@ files:
 - openaf-ubi/getOpenAFOrigJar.js
 - openaf-ubi/entrypoint.sh
 - openaf-ubi/installOPacks.js
+- openaf/bin/openaf-docker.bash
+- openaf/bin/openaf-docker.zsh
+- openaf/cli/PLAN.md
+- openaf/cli/bootstrap.js
+- openaf/cli/bootstrap.sh
+- openaf/cli/generate.sh
+- openaf/cli/install.sh
+- openaf/cli/main.sh
+- openaf/tests/.gitignore
+- openaf/tests/VALIDATION.md
+- openaf/tests/fixtures/opacks/CLIProbe/.package.yaml
+- openaf/tests/fixtures/opacks/CLIProbe/probe.js
+- openaf/tests/fixtures/process.js
+- openaf/tests/fixtures/process.yaml
+- openaf/tests/integration.py
+- openaf/tests/test_cli.py
 filesHash:
   nAttrMon/Dockerfile: d04240b8dc79b4405f3cce3e9d612c2045a451ed
   nAttrMon/README.md: 95dcd7e1408a403e68b6842d10fea503c9ea8c11
@@ -125,7 +141,7 @@ filesHash:
   oJobRT/README.md: 735e28ab9f7d1354efe917350b16ec491444559d
   oJobRT/examples/secrets.yaml: ae36194e6661aa23f20d9c388a0445e32b379b8b
   oJobRT/examples/main.yaml: a9be6050dd9a06056677e1cb61bfee8399b8bd33
-  README.md: 08d0e96349bbfc3760107949e271e27cb5d9ca25
+  README.md: 1ea8b687635496afb0bc01a6c9863790afd67a6d
   openaf-13/Dockerfile: 746302db407dbcc6b2b0d55a9a1c7e419e46357e
   openaf-13/README.md: 3197348b0a341294d7a98bb6ffd166e9ad0b3b69
   openaf-13/entrypoint.sh: e8c1ede53563d852152f6b95d4733dc618afa7a3
@@ -144,10 +160,10 @@ filesHash:
   oJobC/entrypoint.sh: e5e3097047fcf035bdbe1e07405a4f2244457e49
   LICENSE: 7df059597099bb7dcf25d2a9aedfaf4465f72d8d
   openaf/Dockerfile: f86bcd39b4362ad8585e01d853394df5c6fe7d55
-  openaf/README.md: 07368ea69b6a24d4bbda4046606d56e913f113cf
+  openaf/README.md: 855c1bd8d5d1b7d4a67c5f6d56801603997329a9
   openaf/getOpenAFOrigJar.js: ce6cd2078c9d5c6f180d30e338da107222e54b60
   openaf/entrypoint.sh: fab2355fe7f7d8b20adfcfa924c07320437ba09c
-  openaf/installOPacks.js: 62ef9b8f1a261c8874cf82b4029763ef0ee373ae
+  openaf/installOPacks.js: 0acc92c235544241059ed2b6558ccb295e89adda
   openaf-j9/Dockerfile: 6806dae29c91c0a52791489f888bf5f669ad1191
   openaf-j9/README.md: d2cfc4d074fac0c34dd4175eaa69dc5939dd2a8e
   openaf-j9/entrypoint.sh: e8c1ede53563d852152f6b95d4733dc618afa7a3
@@ -160,3 +176,18 @@ filesHash:
   openaf-ubi/getOpenAFOrigJar.js: ce6cd2078c9d5c6f180d30e338da107222e54b60
   openaf-ubi/entrypoint.sh: 8e69a58ddd6d3dff3878d9008ac3caaf4f840f14
   openaf-ubi/installOPacks.js: 62ef9b8f1a261c8874cf82b4029763ef0ee373ae
+  openaf/bin/openaf-docker.bash: efb5241ce752022f1662e43679d466caa1e32131
+  openaf/bin/openaf-docker.zsh: fb9e2dfd8b5e6a97c08f0f6c630c065228e588f1
+  openaf/cli/PLAN.md: d52666d776089aa08787d6ad839f883c7f3fda82
+  openaf/cli/bootstrap.js: e11a5ecdf370ae5fd7546aad2441cd13872bd562
+  openaf/cli/bootstrap.sh: 2333d8388c46e7aac05201cda4e7742dabf56fc0
+  openaf/cli/generate.sh: 50e51baa9de27d61e6e826dcf5c3086dfd801239
+  openaf/cli/install.sh: 9d3e490257f97c3d45374b4036a09cc39817e169
+  openaf/cli/main.sh: 3fb9cec70c219a3e150baf4b6d3954d943a881ea
+  openaf/tests/.gitignore: c803d608f39d056ace266d1ec6a67151a80fa573
+  openaf/tests/VALIDATION.md: 747328fad4cec9d6ecbb43fc08d8afb7d1663b93
+  openaf/tests/fixtures/opacks/CLIProbe/probe.js: b7be085d0a9d4710610355e079eb3be65b86a4db
+  openaf/tests/fixtures/process.js: 043fd95239d0ac8649101053975f381a9ffda73e
+  openaf/tests/fixtures/process.yaml: 1644270beca818483f3959aa5bb80ad6ca1a442f
+  openaf/tests/integration.py: eec69f87558a5777164b1e94882ebadc0e5a5980
+  openaf/tests/test_cli.py: ea538b12023dbddbdf3cd2e7c5fdeb9b7f82716e

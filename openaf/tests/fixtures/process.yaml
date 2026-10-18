@@ -1,0 +1,10 @@
+ojobs: []
+jobs:
+  - name: process
+    exec: |
+      var value = io.readFileJSON('inputs/data.json');
+      value.processed = true;
+      io.writeFileJSON('outputs/job.json', value);
+      print(stringify(value, undefined, ''));
+todo:
+  - process

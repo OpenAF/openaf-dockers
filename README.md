@@ -19,6 +19,9 @@ This repository hosts the Dockerfiles and helper scripts that produce the offici
 
 ## Quick start
 
+For local files, scripts, pipelines, and optional command aliases, use the
+[Bash/Zsh Docker-backed host CLI](openaf/README.md#host-cli-bash-and-zsh).
+
 ```sh
 # Pull the latest stable OpenAF runtime
 docker pull openaf/openaf:latest

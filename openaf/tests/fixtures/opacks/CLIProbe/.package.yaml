@@ -1,0 +1,26 @@
+author: OpenAF
+scripts:
+  preinstall: ''
+  postinstall: ''
+  preerase: ''
+  posterase: ''
+keywords:
+- Keyword1
+- keyword2
+bugs:
+  url: URL to track bugs
+repository:
+  type: http
+  url: URL to main repository
+description: Local CLI integration test fixture
+name: CLIProbe
+main: ''
+mainJob: ''
+license: The licence description
+version: '20261018'
+dependencies: {}
+files:
+- .package.yaml
+- probe.js
+filesHash:
+  probe.js: b7be085d0a9d4710610355e079eb3be65b86a4db
