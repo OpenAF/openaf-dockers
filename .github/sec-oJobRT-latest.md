@@ -602,6 +602,8 @@
 │                       │      │                  ts/10/diffs?commit_id=16023c86070e6af9407330deea3938fcef75815b
 │                       │      │                  https://nvd.nist.gov/vuln/detail/CVE-2026-94286               
 │                       │      │                                                                                
+│                       │      │                  https://ubuntu.com/security/notices/USN-8939-1                
+│                       │      │                                                                                
 │                       │      │                  https://www.cve.org/CVERecord?id=CVE-2026-94286               
 │                       │      ├ PublishedDate   : 2026-09-28T09:17:08.463Z 
 │                       │      ╰ LastModifiedDate: 2026-09-30T13:17:26.71Z 
@@ -624,7 +626,44 @@
 │                       │      ├ Fingerprint     : sha256:8e79b1c13d76c282de262af36459aa173656fc54ef94ec66b1eeb
 │                       │      │                   ea077100aa8 
 │                       │      ╰ Severity        : UNKNOWN 
-│                       ├ [16] ╭ VulnerabilityID : CVE-2026-96512 
+│                       ├ [16] ╭ VulnerabilityID : CVE-2026-107891 
+│                       │      ├ PkgID           : musl@1.2.6-r2 
+│                       │      ├ PkgName         : musl 
+│                       │      ├ PkgIdentifier    ╭ PURL: pkg:apk/alpine/musl@1.2.6-r2?arch=x86_64&distro=3.24.2 
+│                       │      │                  ╰ UID : 1f8cb44befe503d4 
+│                       │      ├ InstalledVersion: 1.2.6-r2 
+│                       │      ├ FixedVersion    : 1.2.6-r3 
+│                       │      ├ Status          : fixed 
+│                       │      ├ Layer            ╭ Digest: sha256:cdbdeb8af7c2e6fdc7d7056c36b61be46938b2b96c23
+│                       │      │                  │         70772c2c9ce47dd20dfa 
+│                       │      │                  ╰ DiffID: sha256:7483f921077bf2164f41fdfb9fe5588e4430652971ff
+│                       │      │                            448bbddb4b955424efcf 
+│                       │      ├ DataSource       ╭ ID  : alpine 
+│                       │      │                  ├ Name: Alpine Secdb 
+│                       │      │                  ╰ URL : https://secdb.alpinelinux.org/ 
+│                       │      ├ Fingerprint     : sha256:669ed1895ea880e404ee04ca8a57d22bd6419ef9b2fea67d5cfe5
+│                       │      │                   6b52d018969 
+│                       │      ╰ Severity        : UNKNOWN 
+│                       ├ [17] ╭ VulnerabilityID : CVE-2026-107891 
+│                       │      ├ PkgID           : musl-utils@1.2.6-r2 
+│                       │      ├ PkgName         : musl-utils 
+│                       │      ├ PkgIdentifier    ╭ PURL: pkg:apk/alpine/musl-utils@1.2.6-r2?arch=x86_64&distro
+│                       │      │                  │       =3.24.2 
+│                       │      │                  ╰ UID : 4497482ec1d943e1 
+│                       │      ├ InstalledVersion: 1.2.6-r2 
+│                       │      ├ FixedVersion    : 1.2.6-r3 
+│                       │      ├ Status          : fixed 
+│                       │      ├ Layer            ╭ Digest: sha256:cdbdeb8af7c2e6fdc7d7056c36b61be46938b2b96c23
+│                       │      │                  │         70772c2c9ce47dd20dfa 
+│                       │      │                  ╰ DiffID: sha256:7483f921077bf2164f41fdfb9fe5588e4430652971ff
+│                       │      │                            448bbddb4b955424efcf 
+│                       │      ├ DataSource       ╭ ID  : alpine 
+│                       │      │                  ├ Name: Alpine Secdb 
+│                       │      │                  ╰ URL : https://secdb.alpinelinux.org/ 
+│                       │      ├ Fingerprint     : sha256:d0ce7df0bbc4295d4f953db44862f653fbf1e93c45102ab9e4672
+│                       │      │                   18e97ca1ae6 
+│                       │      ╰ Severity        : UNKNOWN 
+│                       ├ [18] ╭ VulnerabilityID : CVE-2026-96512 
 │                       │      ├ PkgID           : sudo@1.9.17_p2-r1 
 │                       │      ├ PkgName         : sudo 
 │                       │      ├ PkgIdentifier    ╭ PURL: pkg:apk/alpine/sudo@1.9.17_p2-r1?arch=x86_64&distro=3
@@ -678,13 +717,16 @@
 │                       │      │                  https://access.redhat.com/errata/RHSA-2026:75579             
 │                       │      │                  https://access.redhat.com/errata/RHSA-2026:75580             
 │                       │      │                  https://access.redhat.com/errata/RHSA-2026:82939             
+│                       │      │                  https://access.redhat.com/errata/RHSA-2026:86634             
+│                       │      │                  https://access.redhat.com/errata/RHSA-2026:86635             
+│                       │      │                  https://access.redhat.com/errata/RHSA-2026:87026             
 │                       │      │                  https://access.redhat.com/security/cve/CVE-2026-96512        
 │                       │      │                  https://bugzilla.redhat.com/2539327                          
 │                       │      │                  https://bugzilla.redhat.com/show_bug.cgi?id=2539327          
 │                       │      │                  https://creativecommons.org/licenses/by/4.0/                 
 │                       │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-96512
 │                       │      │                  https://errata.almalinux.org/8/ALSA-2026-75580.html          
-│                       │      │                  https://errata.rockylinux.org/RLSA-2026:75571                
+│                       │      │                  https://errata.rockylinux.org/RLSA-2026:75579                
 │                       │      │                  https://github.com/sudo-project/sudo/commit/1820a349687522f51
 │                       │      │                  023d1ae5925125f59679a8c                                      
 │                       │      │                  https://linux.oracle.com/cve/CVE-2026-96512.html             
@@ -697,8 +739,8 @@
 │                       │      │                                                                               
 │                       │      │                  https://www.cve.org/CVERecord?id=CVE-2026-96512              
 │                       │      ├ PublishedDate   : 2026-09-23T14:17:10.747Z 
-│                       │      ╰ LastModifiedDate: 2026-10-14T19:17:23.22Z 
-│                       ╰ [17] ╭ VulnerabilityID : CVE-2026-85091 
+│                       │      ╰ LastModifiedDate: 2026-10-21T20:17:28.187Z 
+│                       ╰ [19] ╭ VulnerabilityID : CVE-2026-85091 
 │                              ├ PkgID           : zlib@1.3.2-r0 
 │                              ├ PkgName         : zlib 
 │                              ├ PkgIdentifier    ╭ PURL: pkg:apk/alpine/zlib@1.3.2-r0?arch=x86_64&distro=3.24.2 
