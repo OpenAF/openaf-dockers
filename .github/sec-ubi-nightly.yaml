@@ -515,6 +515,43 @@
     - https://www.cve.org/CVERecord?id=CVE-2026-42250
     PublishedDate: '2026-05-28T14:16:19.89Z'
     LastModifiedDate: '2026-06-17T10:47:34.687Z'
+  - VulnerabilityID: CVE-2026-114406
+    PkgID: ca-certificates@2025.2.80_v9.0.305-91.el9.noarch
+    PkgName: ca-certificates
+    PkgIdentifier:
+      PURL: pkg:rpm/redhat/ca-certificates@2025.2.80_v9.0.305-91.el9?arch=noarch&distro=redhat-9.8
+      UID: ef08a71d184cc70a
+    InstalledVersion: 2025.2.80_v9.0.305-91.el9
+    Status: affected
+    Layer:
+      Digest: sha256:58f57add85f56d9b053d1e04c30c93098eed7d0ad0daa772a6c7a5969eabfdd2
+      DiffID: sha256:b77f2b11e30cca81a505b20b639cf38b709c3f7dfd8ba080dbb9eb007a66fb7f
+    SeveritySource: redhat
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2026-114406
+    Fingerprint: sha256:c0a6edd95d65735cc59d9879afe0831343a5def75dc1dfb58ccedaa6d011131a
+    Title: 'ca-certificates: Distrust eMudhra intermediate CA certificates due to security concerns'
+    Description: |-
+      The system certificate authority (CA) store in Red Hat products, distributed via ca-certificates RPM packages, included multiple root CA certificates of authorities, which signed intermediate CA certificates with weak private keys issued by the eMudhra certificate authority. A man-in-the-middle attacker could use this flaw to issue certificates for arbitrary host names signed by the weak intermediate CA certificates, which would be considered trusted by a TLS/SSL client using system CA store and cause such clients to connect to malicious sites.
+
+      Due to inability to only distrust specific intermediate certificates in all clients using the system CA store, root CA certificates of authorities that signed weak intermediate CA certificates are being removed.
+    Severity: CRITICAL
+    CweIDs:
+    - CWE-295
+    VendorSeverity:
+      redhat: 4
+    CVSS:
+      redhat:
+        V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:R/S:U/C:H/I:H/A:N
+        V3Score: 6.8
+    References:
+    - https://access.redhat.com/errata/RHSA-2026:86595
+    - https://access.redhat.com/security/cve/CVE-2026-114406
+    - https://access.redhat.com/security/vulnerabilities/RHSB-2026-012
+    - https://bugzilla.redhat.com/show_bug.cgi?id=2556046
+    - https://nvd.nist.gov/vuln/detail/CVE-2026-114406
+    - https://www.cve.org/CVERecord?id=CVE-2026-114406
+    PublishedDate: '2026-10-21T21:17:58.547Z'
+    LastModifiedDate: '2026-10-22T15:25:35.333Z'
   - VulnerabilityID: CVE-2026-56391
     PkgID: coreutils-single@8.32-41.el9_8.1.x86_64
     PkgName: coreutils-single
@@ -695,8 +732,12 @@
     CweIDs:
     - CWE-476
     VendorSeverity:
+      nvd: 2
       redhat: 2
     CVSS:
+      nvd:
+        V3Vector: CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:N/I:N/A:H
+        V3Score: 5.5
       redhat:
         V3Vector: CVSS:3.1/AV:L/AC:H/PR:N/UI:N/S:U/C:N/I:N/A:H
         V3Score: 5.1
@@ -706,7 +747,7 @@
     - https://nvd.nist.gov/vuln/detail/CVE-2026-107888
     - https://www.cve.org/CVERecord?id=CVE-2026-107888
     PublishedDate: '2026-10-09T05:16:44.407Z'
-    LastModifiedDate: '2026-10-15T19:17:19.34Z'
+    LastModifiedDate: '2026-10-20T20:55:06.46Z'
   - VulnerabilityID: CVE-2026-27447
     PkgID: cups-libs@2.3.3op2-39.el9_8.x86_64
     PkgName: cups-libs
@@ -978,7 +1019,7 @@
     - https://nvd.nist.gov/vuln/detail/CVE-2026-87875
     - https://www.cve.org/CVERecord?id=CVE-2026-87875
     PublishedDate: '2026-09-09T17:17:53.24Z'
-    LastModifiedDate: '2026-09-12T00:17:06.303Z'
+    LastModifiedDate: '2026-10-21T21:20:12.063Z'
   - VulnerabilityID: CVE-2021-25317
     PkgID: cups-libs@2.3.3op2-39.el9_8.x86_64
     PkgName: cups-libs
@@ -1077,8 +1118,12 @@
     CweIDs:
     - CWE-770
     VendorSeverity:
+      nvd: 2
       redhat: 1
     CVSS:
+      nvd:
+        V3Vector: CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:N/I:N/A:H
+        V3Score: 5.5
       redhat:
         V3Vector: CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:N/I:N/A:L
         V3Score: 3.3
@@ -1088,7 +1133,7 @@
     - https://nvd.nist.gov/vuln/detail/CVE-2026-107885
     - https://www.cve.org/CVERecord?id=CVE-2026-107885
     PublishedDate: '2026-10-09T04:18:04.94Z'
-    LastModifiedDate: '2026-10-09T21:17:03.713Z'
+    LastModifiedDate: '2026-10-20T20:58:50.457Z'
   - VulnerabilityID: CVE-2026-107886
     PkgID: cups-libs@2.3.3op2-39.el9_8.x86_64
     PkgName: cups-libs
@@ -1109,8 +1154,12 @@
     CweIDs:
     - CWE-415
     VendorSeverity:
+      nvd: 2
       redhat: 1
     CVSS:
+      nvd:
+        V3Vector: CVSS:3.1/AV:N/AC:L/PR:H/UI:N/S:U/C:N/I:H/A:H
+        V3Score: 6.5
       redhat:
         V3Vector: CVSS:3.1/AV:L/AC:L/PR:H/UI:N/S:U/C:N/I:N/A:L
         V3Score: 2.3
@@ -1120,7 +1169,7 @@
     - https://nvd.nist.gov/vuln/detail/CVE-2026-107886
     - https://www.cve.org/CVERecord?id=CVE-2026-107886
     PublishedDate: '2026-10-09T04:18:05.163Z'
-    LastModifiedDate: '2026-10-09T18:17:06.273Z'
+    LastModifiedDate: '2026-10-20T20:56:33.73Z'
   - VulnerabilityID: CVE-2026-107890
     PkgID: cups-libs@2.3.3op2-39.el9_8.x86_64
     PkgName: cups-libs
@@ -1141,8 +1190,12 @@
     CweIDs:
     - CWE-476
     VendorSeverity:
+      nvd: 2
       redhat: 1
     CVSS:
+      nvd:
+        V3Vector: CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:N/I:N/A:H
+        V3Score: 5.5
       redhat:
         V3Vector: CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:N/I:N/A:L
         V3Score: 3.3
@@ -1152,7 +1205,7 @@
     - https://nvd.nist.gov/vuln/detail/CVE-2026-107890
     - https://www.cve.org/CVERecord?id=CVE-2026-107890
     PublishedDate: '2026-10-09T05:16:44.73Z'
-    LastModifiedDate: '2026-10-13T17:17:18.53Z'
+    LastModifiedDate: '2026-10-20T20:53:19.57Z'
   - VulnerabilityID: CVE-2026-41079
     PkgID: cups-libs@2.3.3op2-39.el9_8.x86_64
     PkgName: cups-libs
@@ -1232,7 +1285,7 @@
     - https://nvd.nist.gov/vuln/detail/CVE-2026-87876
     - https://www.cve.org/CVERecord?id=CVE-2026-87876
     PublishedDate: '2026-09-09T17:17:53.377Z'
-    LastModifiedDate: '2026-09-21T12:17:22.543Z'
+    LastModifiedDate: '2026-10-21T21:20:12.2Z'
   - VulnerabilityID: CVE-2025-13034
     PkgID: curl-minimal@7.76.1-40.el9_8.8.x86_64
     PkgName: curl-minimal
@@ -2005,7 +2058,19 @@
     PrimaryURL: https://avd.aquasec.com/nvd/cve-2026-92388
     Fingerprint: sha256:596a2ad369c3156dbaf761c20c064cff084fdaceeb715fa1e3b0b0423cb00d9a
     Title: 'curl: curl: FTP wildcard write callback mixup'
-    Description: A flaw was found in curl. A remote malicious server can cause a Denial of Service (DoS) or memory corruption in applications that enable File Transfer Protocol (FTP) wildcard matching. When a wildcard listing operation fails, curl does not properly reset its internal callback handlers before the connection handle is reused or duplicated. An application that subsequently reuses or clones this corrupted handle may experience an immediate application crash or unsafe memory access.
+    Description: |-
+      When an FTP wildcard `LIST` operation fails, libcurl omits the restoration
+      path meant for successful listings, leaving the write callback set to the
+      internal listing parser and the write callback data pointing directly to the
+      easy handle. Subsequent reuse of this handle triggers an immediate crash, and
+      cloning it via `curl_easy_duphandle()` copies this corrupted state into the
+      duplicate. If the original handle is subsequently freed, executing a transfer
+      on the cloned handle causes a heap use-after-free read against the dangling
+      handle reference; alternatively, reusing the original or cloned handle while
+      changing only  `CURLOPT_WRITEDATA` (and omitting `CURLOPT_WRITEFUNCTION`)
+      results in type confusion, forcing the internal parser to interpret incoming
+      server response bytes into memory at the application-supplied write data
+      pointer.
     Severity: MEDIUM
     VendorSeverity:
       redhat: 2
@@ -2017,10 +2082,15 @@
     References:
     - https://access.redhat.com/security/cve/CVE-2026-92388
     - https://curl.se/docs/CVE-2026-92388.html
+    - https://curl.se/docs/CVE-2026-92388.json
+    - https://hackerone.com/reports/4022070
     - https://nvd.nist.gov/vuln/detail/CVE-2026-92388
     - https://ubuntu.com/security/notices/USN-8927-1
     - https://ubuntu.com/security/notices/USN-8927-2
+    - https://ubuntu.com/security/notices/USN-8932-1
     - https://www.cve.org/CVERecord?id=CVE-2026-92388
+    PublishedDate: '2026-10-20T21:17:21.243Z'
+    LastModifiedDate: '2026-10-22T16:57:53.407Z'
   - VulnerabilityID: CVE-2026-9545
     PkgID: curl-minimal@7.76.1-40.el9_8.8.x86_64
     PkgName: curl-minimal
@@ -3001,7 +3071,11 @@
     PrimaryURL: https://avd.aquasec.com/nvd/cve-2026-86409
     Fingerprint: sha256:740925ca0b16e4380526b06c493d5ef15e21fa6715b11cf26d8beefb70ea6d26
     Title: 'curl: curl: stale SigV4 headers sent unintended'
-    Description: A flaw was found in curl. When an application attempts to disable Amazon Web Services Signature Version 4 (AWS SigV4) authentication on a reused connection handle, curl fails to clear the setting as expected. If the application subsequently directs a request to an untrusted or attacker-controlled server using the same handle, curl unintentionally transmits the signed authorization header. This flaw allows a remote attacker to obtain access key identifiers and request signatures, leading to information disclosure.
+    Description: |-
+      Setting `CURLOPT_AWS_SIGV4` to NULL but does not disable SigV4 authentication,
+      contrary to expectations and documentation. A subsequent transfer on the same
+      handle still sends an `Authorization: AWS4-HMAC-SHA256` header to whatever URL
+      isset next, leaking state information.
     Severity: LOW
     VendorSeverity:
       redhat: 1
@@ -3013,10 +3087,15 @@
     References:
     - https://access.redhat.com/security/cve/CVE-2026-86409
     - https://curl.se/docs/CVE-2026-86409.html
+    - https://curl.se/docs/CVE-2026-86409.json
+    - https://hackerone.com/reports/3973135
     - https://nvd.nist.gov/vuln/detail/CVE-2026-86409
     - https://ubuntu.com/security/notices/USN-8927-1
     - https://ubuntu.com/security/notices/USN-8927-2
+    - https://ubuntu.com/security/notices/USN-8932-1
     - https://www.cve.org/CVERecord?id=CVE-2026-86409
+    PublishedDate: '2026-10-20T20:17:25.223Z'
+    LastModifiedDate: '2026-10-22T17:21:57.293Z'
   - VulnerabilityID: CVE-2026-86414
     PkgID: curl-minimal@7.76.1-40.el9_8.8.x86_64
     PkgName: curl-minimal
@@ -3032,7 +3111,11 @@
     PrimaryURL: https://avd.aquasec.com/nvd/cve-2026-86414
     Fingerprint: sha256:4458050f216f7babd00f37b7ad19fc661a1f6569ab82659eb32066b5b8fb61b2
     Title: 'curl: curl: leaking host credentials to HTTP proxy'
-    Description: A flaw was found in curl. A malicious or compromised HTTP proxy server can trick curl into sending authentication credentials intended for the target destination server directly to the proxy itself. When establishing a connection tunnel, if the proxy replies with an HTTP 401 Unauthorized status code instead of a proxy authentication challenge, curl mishandles the response and transmits the origin server's credentials. This issue leads to information disclosure, allowing an untrusted proxy to intercept sensitive passwords and authentication tokens.
+    Description: |-
+      An HTTP proxy can trick libcurl into sending the origin's credentials (Basic
+      password, or a Negotiate/Kerberos ticket) to the proxy itself, by answering
+      the `CONNECT` tunnel request with 401 `WWW-Authenticate:` instead of the
+      expected 407 `Proxy-Authenticate:`.
     Severity: LOW
     VendorSeverity:
       redhat: 1
@@ -3044,10 +3127,15 @@
     References:
     - https://access.redhat.com/security/cve/CVE-2026-86414
     - https://curl.se/docs/CVE-2026-86414.html
+    - https://curl.se/docs/CVE-2026-86414.json
+    - https://hackerone.com/reports/3993566
     - https://nvd.nist.gov/vuln/detail/CVE-2026-86414
     - https://ubuntu.com/security/notices/USN-8927-1
     - https://ubuntu.com/security/notices/USN-8927-2
+    - https://ubuntu.com/security/notices/USN-8932-1
     - https://www.cve.org/CVERecord?id=CVE-2026-86414
+    PublishedDate: '2026-10-20T21:17:19.947Z'
+    LastModifiedDate: '2026-10-22T16:57:53.407Z'
   - VulnerabilityID: CVE-2026-87864
     PkgID: curl-minimal@7.76.1-40.el9_8.8.x86_64
     PkgName: curl-minimal
@@ -3063,7 +3151,12 @@
     PrimaryURL: https://avd.aquasec.com/nvd/cve-2026-87864
     Fingerprint: sha256:dea5a6afbe146d08f3148fc47d32350fabf681a8ea3a59cfaae90e2eab037588
     Title: 'curl: IMAP APPEND plus CRLF conversion command injection'
-    Description: A flaw was found in curl. When curl is configured to perform carriage return and line feed (CRLF) conversion during an Internet Message Access Protocol (IMAP) append operation, it incorrectly reports the raw input size rather than the expanded byte count. Because the receiving server only reads the advertised length as message data, it interprets the remaining overflow bytes as subsequent commands. An attacker capable of supplying message data with line breaks can exploit this issue to execute unauthorized IMAP commands within an authenticated session.
+    Description: |-
+      Enabling `CURLOPT_CRLF` causes curl to advertise the raw input byte count in
+      the `IMAP APPEND {N}` literal while transmitting line-ending expanded data.
+      The server reads only $N$ bytes for the payload, causing the remaining
+      overflow bytes to be interpreted and executed as pipelined IMAP commands
+      within the authenticated session.
     Severity: LOW
     VendorSeverity:
       redhat: 1
@@ -3075,10 +3168,15 @@
     References:
     - https://access.redhat.com/security/cve/CVE-2026-87864
     - https://curl.se/docs/CVE-2026-87864.html
+    - https://curl.se/docs/CVE-2026-87864.json
+    - https://hackerone.com/reports/3972403
     - https://nvd.nist.gov/vuln/detail/CVE-2026-87864
     - https://ubuntu.com/security/notices/USN-8927-1
     - https://ubuntu.com/security/notices/USN-8927-2
+    - https://ubuntu.com/security/notices/USN-8932-1
     - https://www.cve.org/CVERecord?id=CVE-2026-87864
+    PublishedDate: '2026-10-20T21:17:20.497Z'
+    LastModifiedDate: '2026-10-22T17:21:57.293Z'
   - VulnerabilityID: CVE-2026-92389
     PkgID: curl-minimal@7.76.1-40.el9_8.8.x86_64
     PkgName: curl-minimal
@@ -3094,7 +3192,14 @@
     PrimaryURL: https://avd.aquasec.com/nvd/cve-2026-92389
     Fingerprint: sha256:152a0357da58376c7ff9c8f3da21663c7acd4b8a49ae8627bc5dd197dc017f55
     Title: 'curl: curl: TFTP direction confusion'
-    Description: A flaw was found in curl. When handling Trivial File Transfer Protocol (TFTP) transfers, a malicious server can trigger information disclosure by responding to a download request in a way that forces the client into transmit mode. Consequently, the client may unintentionally send leftover sensitive data from prior operations on a reused connection handle to the attacker's server.
+    Description: |-
+      libcurl's TFTP state machine fails to validate state transitions against the
+      requested transfer direction, accepting opening server responses for both
+      reads and writes interchangeably. A malicious TFTP server can respond to a
+      download request in a way that forces the client into transmit mode, prompting
+      libcurl to consume and transmit data from the handle's persistent
+      `CURLOPT_READDATA` pointer - including data remaining from unrelated prior
+      operations, such as an HTTP POST request executed on a reused handle.
     Severity: LOW
     VendorSeverity:
       redhat: 1
@@ -3106,10 +3211,15 @@
     References:
     - https://access.redhat.com/security/cve/CVE-2026-92389
     - https://curl.se/docs/CVE-2026-92389.html
+    - https://curl.se/docs/CVE-2026-92389.json
+    - https://hackerone.com/reports/4022568
     - https://nvd.nist.gov/vuln/detail/CVE-2026-92389
     - https://ubuntu.com/security/notices/USN-8927-1
     - https://ubuntu.com/security/notices/USN-8927-2
+    - https://ubuntu.com/security/notices/USN-8932-2
     - https://www.cve.org/CVERecord?id=CVE-2026-92389
+    PublishedDate: '2026-10-20T21:17:21.457Z'
+    LastModifiedDate: '2026-10-22T16:57:53.407Z'
   - VulnerabilityID: CVE-2026-92390
     PkgID: curl-minimal@7.76.1-40.el9_8.8.x86_64
     PkgName: curl-minimal
@@ -3125,7 +3235,14 @@
     PrimaryURL: https://avd.aquasec.com/nvd/cve-2026-92390
     Fingerprint: sha256:db16d3d223dddf02baa485f4485c4d32824355e5a9622b0d716d00250cc0bb6a
     Title: 'curl: curl: -J no-clobber guarantee bypassed with 103 early hints'
-    Description: A flaw was found in curl. When the command-line tool is executed with the remote header name option to prevent overwriting existing files, a malicious server can bypass this protection by returning an intermediate HTTP 103 (Early Hints) response or through specific header ordering. This flaw allows an attacker controlling a remote server to overwrite existing local files on the client system.
+    Description: |-
+      When invoked with `--remote-header-name` (`-J`), curl fails to preserve its
+      documented anti-clobbering protection if an intermediate 103 Early Hints
+      response precedes the final HTTP response, or if an `ETag` header is processed
+      before `Content-Disposition` under `--etag-save`. This flaw allows an HTTP(S)
+      server to overwrite an existing local file specified in the
+      `Content-Disposition` header despite the presence of the `-J` non-overwrite
+      constraint.
     Severity: LOW
     VendorSeverity:
       redhat: 1
@@ -3137,10 +3254,14 @@
     References:
     - https://access.redhat.com/security/cve/CVE-2026-92390
     - https://curl.se/docs/CVE-2026-92390.html
+    - https://curl.se/docs/CVE-2026-92390.json
+    - https://hackerone.com/reports/4023192
     - https://nvd.nist.gov/vuln/detail/CVE-2026-92390
     - https://ubuntu.com/security/notices/USN-8927-1
     - https://ubuntu.com/security/notices/USN-8927-2
     - https://www.cve.org/CVERecord?id=CVE-2026-92390
+    PublishedDate: '2026-10-20T21:17:21.703Z'
+    LastModifiedDate: '2026-10-22T17:21:57.293Z'
   - VulnerabilityID: CVE-2026-92391
     PkgID: curl-minimal@7.76.1-40.el9_8.8.x86_64
     PkgName: curl-minimal
@@ -3156,7 +3277,11 @@
     PrimaryURL: https://avd.aquasec.com/nvd/cve-2026-92391
     Fingerprint: sha256:5377c68bfacce442fbbd5a119768146b8ce5144fbffc854c6086551e224bb433
     Title: 'curl: curl: curl_mime_free stack overflow by recursion'
-    Description: A flaw was found in curl. An attacker could supply deeply nested Multipurpose Internet Mail Extensions (MIME) structures to an application utilizing the libcurl library. During memory cleanup in the curl_mime_free function, excessive recursive calls exhaust available stack memory, leading to an application crash and a Denial of Service (DoS).
+    Description: |-
+      A deeply nested multipart MIME structure constructed via the public API causes
+      a stack overflow in libcurl during normal cleanup operations. An excessive
+      recursion depth within `curl_mime_free` leads to unbounded stack frame
+      allocation during structure traversal, ultimately crashing the host process.
     Severity: LOW
     VendorSeverity:
       redhat: 1
@@ -3168,10 +3293,15 @@
     References:
     - https://access.redhat.com/security/cve/CVE-2026-92391
     - https://curl.se/docs/CVE-2026-92391.html
+    - https://curl.se/docs/CVE-2026-92391.json
+    - https://hackerone.com/reports/4024222
     - https://nvd.nist.gov/vuln/detail/CVE-2026-92391
     - https://ubuntu.com/security/notices/USN-8927-1
     - https://ubuntu.com/security/notices/USN-8927-2
+    - https://ubuntu.com/security/notices/USN-8932-1
     - https://www.cve.org/CVERecord?id=CVE-2026-92391
+    PublishedDate: '2026-10-20T21:17:21.92Z'
+    LastModifiedDate: '2026-10-22T17:21:57.293Z'
   - VulnerabilityID: CVE-2026-94266
     PkgID: curl-minimal@7.76.1-40.el9_8.8.x86_64
     PkgName: curl-minimal
@@ -3187,7 +3317,10 @@
     PrimaryURL: https://avd.aquasec.com/nvd/cve-2026-94266
     Fingerprint: sha256:242f3fca8c6341ec8dd8195f3d80e992c2e4882d4aa61c4857f53d58742a2693
     Title: 'curl: curl: password leak in CURLINFO_EFFECTIVE_URL'
-    Description: A flaw was found in curl. This vulnerability can lead to information disclosure by inadvertently revealing authentication credentials. When curl retrieves credentials from a local configuration file (such as a .netrc file), requesting the effective URL metadata can cause the returned destination address to improperly include those secret credentials. A local user may exploit this issue to view sensitive authentication tokens if an application or script queries and logs or displays the resolved URL.
+    Description: |-
+      libcurl could accidentally return a URL for `curl_easy_getinfo()`'s
+      `CURLINFO_EFFECTIVE_URL` option containing credentials, even though neither
+      the URL provided to libcurl nor the redirected URL did.
     Severity: LOW
     VendorSeverity:
       redhat: 1
@@ -3199,10 +3332,15 @@
     References:
     - https://access.redhat.com/security/cve/CVE-2026-94266
     - https://curl.se/docs/CVE-2026-94266.html
+    - https://curl.se/docs/CVE-2026-94266.json
+    - https://hackerone.com/reports/4041053
     - https://nvd.nist.gov/vuln/detail/CVE-2026-94266
     - https://ubuntu.com/security/notices/USN-8927-1
     - https://ubuntu.com/security/notices/USN-8927-2
+    - https://ubuntu.com/security/notices/USN-8932-1
     - https://www.cve.org/CVERecord?id=CVE-2026-94266
+    PublishedDate: '2026-10-20T21:17:22.29Z'
+    LastModifiedDate: '2026-10-22T16:57:53.407Z'
   - VulnerabilityID: CVE-2026-107161
     PkgID: cyrus-sasl-lib@2.1.27-22.el9.x86_64
     PkgName: cyrus-sasl-lib
@@ -3347,6 +3485,42 @@
     - https://www.vulncheck.com/advisories/libexpat-2.7.2-through-2.8.5-integer-overflow-in-expat-realloc
     PublishedDate: '2026-09-29T17:17:06.98Z'
     LastModifiedDate: '2026-09-29T21:32:59.833Z'
+  - VulnerabilityID: CVE-2026-113351
+    PkgID: expat@2.5.0-6.el9_8.5.x86_64
+    PkgName: expat
+    PkgIdentifier:
+      PURL: pkg:rpm/redhat/expat@2.5.0-6.el9_8.5?arch=x86_64&distro=redhat-9.8
+      UID: b7c7135c4322f709
+    InstalledVersion: 2.5.0-6.el9_8.5
+    Status: affected
+    Layer:
+      Digest: sha256:58f57add85f56d9b053d1e04c30c93098eed7d0ad0daa772a6c7a5969eabfdd2
+      DiffID: sha256:b77f2b11e30cca81a505b20b639cf38b709c3f7dfd8ba080dbb9eb007a66fb7f
+    SeveritySource: redhat
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2026-113351
+    Fingerprint: sha256:0a7a03e9648876411b4e90733cc3c817b401c80fe633167e3ceba7a2800943b7
+    Title: 'expat: expat: Denial of Service via improper memory tracking in XML_ParserReset'
+    Description: libexpat 2.7.2 through 2.9.0 contains a denial of service vulnerability because XML_ParserReset zeroes the direct byte count but never offsets tracked heap allocations. Attackers can submit a large XML document so later documents on the same reset parser fail with XML_ERROR_NO_MEMORY until it is recreated.
+    Severity: MEDIUM
+    CweIDs:
+    - CWE-909
+    VendorSeverity:
+      redhat: 2
+    CVSS:
+      redhat:
+        V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:N/I:N/A:H
+        V3Score: 5.9
+    References:
+    - https://access.redhat.com/security/cve/CVE-2026-113351
+    - https://github.com/libexpat/libexpat
+    - https://github.com/libexpat/libexpat/blob/a76b1174c1ea52abb639a4c69d52b630a8a106a2/expat/lib/xmlparse.c#L1560
+    - https://github.com/libexpat/libexpat/blob/a76b1174c1ea52abb639a4c69d52b630a8a106a2/expat/lib/xmlparse.c#L860-L884
+    - https://github.com/libexpat/libexpat/pull/1431
+    - https://nvd.nist.gov/vuln/detail/CVE-2026-113351
+    - https://www.cve.org/CVERecord?id=CVE-2026-113351
+    - https://www.vulncheck.com/advisories/libexpat-2.7.2-through-2.9.0-denial-of-service-via-xml-parserreset
+    PublishedDate: '2026-10-20T11:17:19.363Z'
+    LastModifiedDate: '2026-10-20T20:06:37.15Z'
   - VulnerabilityID: CVE-2026-32776
     PkgID: expat@2.5.0-6.el9_8.5.x86_64
     PkgName: expat
@@ -4374,14 +4548,32 @@
     CweIDs:
     - CWE-617
     VendorSeverity:
+      alma: 2
       redhat: 2
+      rocky: 2
     CVSS:
       redhat:
         V3Vector: CVSS:3.1/AV:A/AC:H/PR:N/UI:N/S:U/C:N/I:N/A:H
         V3Score: 5.3
     References:
     - http://www.openwall.com/lists/oss-security/2026/09/17/4
+    - https://access.redhat.com/errata/RHSA-2026:84753
     - https://access.redhat.com/security/cve/CVE-2026-8674
+    - https://bugzilla.redhat.com/2523274
+    - https://bugzilla.redhat.com/2524870
+    - https://bugzilla.redhat.com/2525256
+    - https://bugzilla.redhat.com/2536382
+    - https://bugzilla.redhat.com/show_bug.cgi?id=2523274
+    - https://bugzilla.redhat.com/show_bug.cgi?id=2524870
+    - https://bugzilla.redhat.com/show_bug.cgi?id=2525256
+    - https://bugzilla.redhat.com/show_bug.cgi?id=2536382
+    - https://creativecommons.org/licenses/by/4.0/
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-18374
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-77117
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-80489
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-8674
+    - https://errata.almalinux.org/10/ALSA-2026-84753.html
+    - https://errata.rockylinux.org/RLSA-2026:84753
     - https://joshua.hu/fuzzing-glibc-libresolv
     - https://nvd.nist.gov/vuln/detail/CVE-2026-8674
     - https://sourceware.org/bugzilla/show_bug.cgi?id=31026
@@ -4558,14 +4750,32 @@
     CweIDs:
     - CWE-617
     VendorSeverity:
+      alma: 2
       redhat: 2
+      rocky: 2
     CVSS:
       redhat:
         V3Vector: CVSS:3.1/AV:A/AC:H/PR:N/UI:N/S:U/C:N/I:N/A:H
         V3Score: 5.3
     References:
     - http://www.openwall.com/lists/oss-security/2026/09/17/4
+    - https://access.redhat.com/errata/RHSA-2026:84753
     - https://access.redhat.com/security/cve/CVE-2026-8674
+    - https://bugzilla.redhat.com/2523274
+    - https://bugzilla.redhat.com/2524870
+    - https://bugzilla.redhat.com/2525256
+    - https://bugzilla.redhat.com/2536382
+    - https://bugzilla.redhat.com/show_bug.cgi?id=2523274
+    - https://bugzilla.redhat.com/show_bug.cgi?id=2524870
+    - https://bugzilla.redhat.com/show_bug.cgi?id=2525256
+    - https://bugzilla.redhat.com/show_bug.cgi?id=2536382
+    - https://creativecommons.org/licenses/by/4.0/
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-18374
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-77117
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-80489
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-8674
+    - https://errata.almalinux.org/10/ALSA-2026-84753.html
+    - https://errata.rockylinux.org/RLSA-2026:84753
     - https://joshua.hu/fuzzing-glibc-libresolv
     - https://nvd.nist.gov/vuln/detail/CVE-2026-8674
     - https://sourceware.org/bugzilla/show_bug.cgi?id=31026
@@ -4742,14 +4952,32 @@
     CweIDs:
     - CWE-617
     VendorSeverity:
+      alma: 2
       redhat: 2
+      rocky: 2
     CVSS:
       redhat:
         V3Vector: CVSS:3.1/AV:A/AC:H/PR:N/UI:N/S:U/C:N/I:N/A:H
         V3Score: 5.3
     References:
     - http://www.openwall.com/lists/oss-security/2026/09/17/4
+    - https://access.redhat.com/errata/RHSA-2026:84753
     - https://access.redhat.com/security/cve/CVE-2026-8674
+    - https://bugzilla.redhat.com/2523274
+    - https://bugzilla.redhat.com/2524870
+    - https://bugzilla.redhat.com/2525256
+    - https://bugzilla.redhat.com/2536382
+    - https://bugzilla.redhat.com/show_bug.cgi?id=2523274
+    - https://bugzilla.redhat.com/show_bug.cgi?id=2524870
+    - https://bugzilla.redhat.com/show_bug.cgi?id=2525256
+    - https://bugzilla.redhat.com/show_bug.cgi?id=2536382
+    - https://creativecommons.org/licenses/by/4.0/
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-18374
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-77117
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-80489
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-8674
+    - https://errata.almalinux.org/10/ALSA-2026-84753.html
+    - https://errata.rockylinux.org/RLSA-2026:84753
     - https://joshua.hu/fuzzing-glibc-libresolv
     - https://nvd.nist.gov/vuln/detail/CVE-2026-8674
     - https://sourceware.org/bugzilla/show_bug.cgi?id=31026
@@ -5256,6 +5484,36 @@
     - https://www.rfc-editor.org/rfc/rfc5280#section-6.1.4
     PublishedDate: '2026-10-08T19:20:52.703Z'
     LastModifiedDate: '2026-10-19T16:17:08.487Z'
+  - VulnerabilityID: CVE-2026-91415
+    PkgID: java-21-openjdk-headless@21.0.12.1.1-1.2.el9.x86_64
+    PkgName: java-21-openjdk-headless
+    PkgIdentifier:
+      PURL: pkg:rpm/redhat/java-21-openjdk-headless@21.0.12.1.1-1.2.el9?arch=x86_64&distro=redhat-9.8&epoch=1
+      UID: 4c126643492f40d3
+    InstalledVersion: 1:21.0.12.1.1-1.2.el9
+    Status: affected
+    Layer:
+      Digest: sha256:58f57add85f56d9b053d1e04c30c93098eed7d0ad0daa772a6c7a5969eabfdd2
+      DiffID: sha256:b77f2b11e30cca81a505b20b639cf38b709c3f7dfd8ba080dbb9eb007a66fb7f
+    SeveritySource: redhat
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2026-91415
+    Fingerprint: sha256:25922a048591f50dbef040844a5246c64ade6b719521ebdc48adb79e384123f3
+    Title: 'openjdk: Enhance font rendering (Oracle CPU 2026-10)'
+    Description: 'Vulnerability in the Oracle Java SE, Oracle GraalVM for JDK, Oracle GraalVM Enterprise Edition product of Oracle Java SE (component: 2D).  Supported versions that are affected are Oracle Java SE: 8u503, 8u503-perf, 11.0.32.1, 17.0.20.1, 21.0.12.1, 25.0.4.1, 27; Oracle GraalVM for JDK: 17.0.20.1 and  21.0.12.1; Oracle GraalVM Enterprise Edition: 21.3.19.1.1. Difficult to exploit vulnerability allows unauthenticated attacker with network access via multiple protocols to compromise Oracle Java SE, Oracle GraalVM for JDK, Oracle GraalVM Enterprise Edition.  Successful attacks of this vulnerability can result in unauthorized ability to cause a hang or frequently repeatable crash (complete DOS) of Oracle Java SE, Oracle GraalVM for JDK, Oracle GraalVM Enterprise Edition as well as  unauthorized update, insert or delete access to some of Oracle Java SE, Oracle GraalVM for JDK, Oracle GraalVM Enterprise Edition accessible data and  unauthorized read access to a subset of Oracle Java SE, Oracle GraalVM for JDK, Oracle GraalVM Enterprise Edition accessible data. Note: This vulnerability can be exploited by using APIs in the specified Component, e.g., through a web service which supplies data to the APIs. This vulnerability also applies to Java deployments, typically in clients running sandboxed Java Web Start applications or sandboxed Java applets, that load and run untrusted code (e.g., code that comes from the internet) and rely on the Java sandbox for security. CVSS 3.1 Base Score 7.0 (Confidentiality, Integrity and Availability impacts).  CVSS Vector: (CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:L/I:L/A:H).'
+    Severity: HIGH
+    VendorSeverity:
+      redhat: 3
+    CVSS:
+      redhat:
+        V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:L/I:L/A:N
+        V3Score: 4.8
+    References:
+    - https://access.redhat.com/security/cve/CVE-2026-91415
+    - https://nvd.nist.gov/vuln/detail/CVE-2026-91415
+    - https://www.cve.org/CVERecord?id=CVE-2026-91415
+    - https://www.oracle.com/security-alerts/cpuoct2026.html
+    PublishedDate: '2026-10-20T22:20:44.937Z'
+    LastModifiedDate: '2026-10-21T18:44:40.02Z'
   - VulnerabilityID: CVE-2025-28164
     PkgID: java-21-openjdk-headless@21.0.12.1.1-1.2.el9.x86_64
     PkgName: java-21-openjdk-headless
@@ -5318,7 +5576,7 @@
     CweIDs:
     - CWE-125
     VendorSeverity:
-      amazon: 3
+      amazon: 2
       azure: 2
       cbl-mariner: 2
       julia: 2
@@ -5391,6 +5649,36 @@
     - https://www.openwall.com/lists/oss-security/2025/11/22/1
     PublishedDate: '2025-11-25T00:15:47.3Z'
     LastModifiedDate: '2026-10-18T20:10:00.11Z'
+  - VulnerabilityID: CVE-2026-101516
+    PkgID: java-21-openjdk-headless@21.0.12.1.1-1.2.el9.x86_64
+    PkgName: java-21-openjdk-headless
+    PkgIdentifier:
+      PURL: pkg:rpm/redhat/java-21-openjdk-headless@21.0.12.1.1-1.2.el9?arch=x86_64&distro=redhat-9.8&epoch=1
+      UID: 4c126643492f40d3
+    InstalledVersion: 1:21.0.12.1.1-1.2.el9
+    Status: affected
+    Layer:
+      Digest: sha256:58f57add85f56d9b053d1e04c30c93098eed7d0ad0daa772a6c7a5969eabfdd2
+      DiffID: sha256:b77f2b11e30cca81a505b20b639cf38b709c3f7dfd8ba080dbb9eb007a66fb7f
+    SeveritySource: redhat
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2026-101516
+    Fingerprint: sha256:466707209d32ab2d688f829977d83265fecb50589bb1c64faa1e41eb1465d43c
+    Title: 'openjdk: Enhance Certificate Constraint Checking (Oracle CPU 2026-10)'
+    Description: 'Vulnerability in the Oracle Java SE, Oracle GraalVM for JDK, Oracle GraalVM Enterprise Edition product of Oracle Java SE (component: Libraries).  Supported versions that are affected are Oracle Java SE: 8u503, 8u503-perf, 11.0.32.1, 17.0.20.1, 21.0.12.1, 25.0.4.1, 27; Oracle GraalVM for JDK: 17.0.20.1 and  21.0.12.1; Oracle GraalVM Enterprise Edition: 21.3.19.1.1. Easily exploitable vulnerability allows unauthenticated attacker with network access via multiple protocols to compromise Oracle Java SE, Oracle GraalVM for JDK, Oracle GraalVM Enterprise Edition.  Successful attacks of this vulnerability can result in  unauthorized update, insert or delete access to some of Oracle Java SE, Oracle GraalVM for JDK, Oracle GraalVM Enterprise Edition accessible data as well as  unauthorized read access to a subset of Oracle Java SE, Oracle GraalVM for JDK, Oracle GraalVM Enterprise Edition accessible data. Note: This vulnerability can be exploited by using APIs in the specified Component, e.g., through a web service which supplies data to the APIs. This vulnerability also applies to Java deployments, typically in clients running sandboxed Java Web Start applications or sandboxed Java applets, that load and run untrusted code (e.g., code that comes from the internet) and rely on the Java sandbox for security. CVSS 3.1 Base Score 6.5 (Confidentiality and Integrity impacts).  CVSS Vector: (CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:L/I:L/A:N).'
+    Severity: MEDIUM
+    VendorSeverity:
+      redhat: 2
+    CVSS:
+      redhat:
+        V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:L/I:L/A:N
+        V3Score: 6.5
+    References:
+    - https://access.redhat.com/security/cve/CVE-2026-101516
+    - https://nvd.nist.gov/vuln/detail/CVE-2026-101516
+    - https://www.cve.org/CVERecord?id=CVE-2026-101516
+    - https://www.oracle.com/security-alerts/cpuoct2026.html
+    PublishedDate: '2026-10-20T22:18:00.867Z'
+    LastModifiedDate: '2026-10-21T14:29:49.513Z'
   - VulnerabilityID: CVE-2026-22693
     PkgID: java-21-openjdk-headless@21.0.12.1.1-1.2.el9.x86_64
     PkgName: java-21-openjdk-headless
@@ -5586,6 +5874,858 @@
     - https://www.cve.org/CVERecord?id=CVE-2026-49919
     PublishedDate: '2026-09-08T19:17:59.093Z'
     LastModifiedDate: '2026-09-24T15:47:16.387Z'
+  - VulnerabilityID: CVE-2026-83374
+    PkgID: java-21-openjdk-headless@21.0.12.1.1-1.2.el9.x86_64
+    PkgName: java-21-openjdk-headless
+    PkgIdentifier:
+      PURL: pkg:rpm/redhat/java-21-openjdk-headless@21.0.12.1.1-1.2.el9?arch=x86_64&distro=redhat-9.8&epoch=1
+      UID: 4c126643492f40d3
+    InstalledVersion: 1:21.0.12.1.1-1.2.el9
+    Status: affected
+    Layer:
+      Digest: sha256:58f57add85f56d9b053d1e04c30c93098eed7d0ad0daa772a6c7a5969eabfdd2
+      DiffID: sha256:b77f2b11e30cca81a505b20b639cf38b709c3f7dfd8ba080dbb9eb007a66fb7f
+    SeveritySource: redhat
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2026-83374
+    Fingerprint: sha256:0d18c6fd8954ae9862b97908c9b6fd60a4c5434eb19c66317aaefb430eb20ce4
+    Title: 'openjdk: Enhance PKCS5 padding (Oracle CPU 2026-10)'
+    Description: 'Vulnerability in the Oracle Java SE, Oracle GraalVM for JDK, Oracle GraalVM Enterprise Edition product of Oracle Java SE (component: Security).  Supported versions that are affected are Oracle Java SE: 8u503, 8u503-perf, 11.0.32.1, 17.0.20.1, 21.0.12.1, 25.0.4.1, 27;    Oracle GraalVM for JDK: 17.0.20.1 and  21.0.12.1;   Oracle GraalVM Enterprise Edition: 21.3.19.1.1. Difficult to exploit vulnerability allows unauthenticated attacker with network access via multiple protocols to compromise Oracle Java SE, Oracle GraalVM for JDK, Oracle GraalVM Enterprise Edition.  Successful attacks of this vulnerability can result in  unauthorized creation, deletion or modification access to critical data or all Oracle Java SE, Oracle GraalVM for JDK, Oracle GraalVM Enterprise Edition accessible data. Note: This vulnerability can be exploited by using APIs in the specified Component, e.g., through a web service which supplies data to the APIs. This vulnerability also applies to Java deployments, typically in clients running sandboxed Java Web Start applications or sandboxed Java applets, that load and run untrusted code (e.g., code that comes from the internet) and rely on the Java sandbox for security. CVSS 3.1 Base Score 5.9 (Integrity impacts).  CVSS Vector: (CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:N/I:H/A:N).'
+    Severity: MEDIUM
+    VendorSeverity:
+      redhat: 2
+    CVSS:
+      redhat:
+        V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:N/I:H/A:N
+        V3Score: 5.9
+    References:
+    - https://access.redhat.com/security/cve/CVE-2026-83374
+    - https://nvd.nist.gov/vuln/detail/CVE-2026-83374
+    - https://www.cve.org/CVERecord?id=CVE-2026-83374
+    - https://www.oracle.com/security-alerts/cpuoct2026.html
+    PublishedDate: '2026-10-20T22:19:53.573Z'
+    LastModifiedDate: '2026-10-21T18:44:19.627Z'
+  - VulnerabilityID: CVE-2026-83378
+    PkgID: java-21-openjdk-headless@21.0.12.1.1-1.2.el9.x86_64
+    PkgName: java-21-openjdk-headless
+    PkgIdentifier:
+      PURL: pkg:rpm/redhat/java-21-openjdk-headless@21.0.12.1.1-1.2.el9?arch=x86_64&distro=redhat-9.8&epoch=1
+      UID: 4c126643492f40d3
+    InstalledVersion: 1:21.0.12.1.1-1.2.el9
+    Status: affected
+    Layer:
+      Digest: sha256:58f57add85f56d9b053d1e04c30c93098eed7d0ad0daa772a6c7a5969eabfdd2
+      DiffID: sha256:b77f2b11e30cca81a505b20b639cf38b709c3f7dfd8ba080dbb9eb007a66fb7f
+    SeveritySource: redhat
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2026-83378
+    Fingerprint: sha256:6dceefb086b3259f88cdebeac645f02631c1622e6371a84a3494fb44fb8cd993
+    Title: 'openjdk: Improve C2 loop transformations (Oracle CPU 2026-10)'
+    Description: 'Vulnerability in Oracle Java SE (component: Compiler).  Supported versions that are affected are Oracle Java SE: 21.0.12.1, 25.0.4.1 and  27. Difficult to exploit vulnerability allows unauthenticated attacker with network access via multiple protocols to compromise Oracle Java SE.  Successful attacks of this vulnerability can result in  unauthorized update, insert or delete access to some of Oracle Java SE accessible data as well as  unauthorized read access to a subset of Oracle Java SE accessible data. Note: This vulnerability can only be exploited by supplying data to APIs in the specified Component without using Untrusted Java Web Start applications or Untrusted Java applets, such as through a web service. CVSS 3.1 Base Score 4.8 (Confidentiality and Integrity impacts).  CVSS Vector: (CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:L/I:L/A:N).'
+    Severity: MEDIUM
+    VendorSeverity:
+      redhat: 2
+    CVSS:
+      redhat:
+        V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:N/I:L/A:N
+        V3Score: 3.7
+    References:
+    - https://access.redhat.com/security/cve/CVE-2026-83378
+    - https://nvd.nist.gov/vuln/detail/CVE-2026-83378
+    - https://www.cve.org/CVERecord?id=CVE-2026-83378
+    - https://www.oracle.com/security-alerts/cpuoct2026.html
+    PublishedDate: '2026-10-20T22:19:54.04Z'
+    LastModifiedDate: '2026-10-21T18:44:19.627Z'
+  - VulnerabilityID: CVE-2026-83380
+    PkgID: java-21-openjdk-headless@21.0.12.1.1-1.2.el9.x86_64
+    PkgName: java-21-openjdk-headless
+    PkgIdentifier:
+      PURL: pkg:rpm/redhat/java-21-openjdk-headless@21.0.12.1.1-1.2.el9?arch=x86_64&distro=redhat-9.8&epoch=1
+      UID: 4c126643492f40d3
+    InstalledVersion: 1:21.0.12.1.1-1.2.el9
+    Status: affected
+    Layer:
+      Digest: sha256:58f57add85f56d9b053d1e04c30c93098eed7d0ad0daa772a6c7a5969eabfdd2
+      DiffID: sha256:b77f2b11e30cca81a505b20b639cf38b709c3f7dfd8ba080dbb9eb007a66fb7f
+    SeveritySource: redhat
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2026-83380
+    Fingerprint: sha256:e7e6c21a1e14adb85ed653361367f85d7aaece2358cbe6e03fc3766567ad8b41
+    Title: 'openjdk: Enhance LDAP logins (Oracle CPU 2026-10)'
+    Description: 'Vulnerability in the Oracle Java SE, Oracle GraalVM for JDK, Oracle GraalVM Enterprise Edition product of Oracle Java SE (component: JAAS).  Supported versions that are affected are Oracle Java SE: 8u503, 8u503-perf, 11.0.32.1, 17.0.20.1, 21.0.12.1, 25.0.4.1, 27;    Oracle GraalVM for JDK: 17.0.20.1 and  21.0.12.1;   Oracle GraalVM Enterprise Edition: 21.3.19.1.1. Easily exploitable vulnerability allows unauthenticated attacker with network access via multiple protocols to compromise Oracle Java SE, Oracle GraalVM for JDK, Oracle GraalVM Enterprise Edition.  Successful attacks of this vulnerability can result in  unauthorized read access to a subset of Oracle Java SE, Oracle GraalVM for JDK, Oracle GraalVM Enterprise Edition accessible data. Note: This vulnerability can be exploited by using APIs in the specified Component, e.g., through a web service which supplies data to the APIs. This vulnerability also applies to Java deployments, typically in clients running sandboxed Java Web Start applications or sandboxed Java applets, that load and run untrusted code (e.g., code that comes from the internet) and rely on the Java sandbox for security. CVSS 3.1 Base Score 5.3 (Confidentiality impacts).  CVSS Vector: (CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:L/I:N/A:N).'
+    Severity: MEDIUM
+    VendorSeverity:
+      redhat: 2
+    CVSS:
+      redhat:
+        V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:L/I:N/A:N
+        V3Score: 5.3
+    References:
+    - https://access.redhat.com/security/cve/CVE-2026-83380
+    - https://nvd.nist.gov/vuln/detail/CVE-2026-83380
+    - https://www.cve.org/CVERecord?id=CVE-2026-83380
+    - https://www.oracle.com/security-alerts/cpuoct2026.html
+    PublishedDate: '2026-10-20T22:19:54.27Z'
+    LastModifiedDate: '2026-10-21T18:44:19.627Z'
+  - VulnerabilityID: CVE-2026-83381
+    PkgID: java-21-openjdk-headless@21.0.12.1.1-1.2.el9.x86_64
+    PkgName: java-21-openjdk-headless
+    PkgIdentifier:
+      PURL: pkg:rpm/redhat/java-21-openjdk-headless@21.0.12.1.1-1.2.el9?arch=x86_64&distro=redhat-9.8&epoch=1
+      UID: 4c126643492f40d3
+    InstalledVersion: 1:21.0.12.1.1-1.2.el9
+    Status: affected
+    Layer:
+      Digest: sha256:58f57add85f56d9b053d1e04c30c93098eed7d0ad0daa772a6c7a5969eabfdd2
+      DiffID: sha256:b77f2b11e30cca81a505b20b639cf38b709c3f7dfd8ba080dbb9eb007a66fb7f
+    SeveritySource: redhat
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2026-83381
+    Fingerprint: sha256:e2eeefe75bab923453a49103114511764a35c82742fe272bef8efe456dbe0d04
+    Title: 'openjdk: Enhance SASL Authentication (Oracle CPU 2026-10)'
+    Description: 'Vulnerability in Oracle Java SE (component: Security).  Supported versions that are affected are Oracle Java SE: 8u503, 8u503-perf, 11.0.32.1, 17.0.20.1, 21.0.12.1, 25.0.4.1, 27; Oracle GraalVM for JDK: 17.0.20.1 and  21.0.12.1; Oracle GraalVM Enterprise Edition: 21.3.19.1.1. Difficult to exploit vulnerability allows unauthenticated attacker with network access via multiple protocols to compromise Oracle Java SE.  Successful attacks of this vulnerability can result in  unauthorized update, insert or delete access to some of Oracle Java SE accessible data as well as  unauthorized read access to a subset of Oracle Java SE accessible data. Note: This vulnerability can be exploited by using APIs in the specified Component, e.g., through a web service which supplies data to the APIs. This vulnerability also applies to Java deployments, typically in clients running sandboxed Java Web Start applications or sandboxed Java applets, that load and run untrusted code (e.g., code that comes from the internet) and rely on the Java sandbox for security. CVSS 3.1 Base Score 4.8 (Confidentiality and Integrity impacts).  CVSS Vector: (CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:L/I:L/A:N).'
+    Severity: MEDIUM
+    VendorSeverity:
+      redhat: 2
+    CVSS:
+      redhat:
+        V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:L/I:L/A:N
+        V3Score: 4.8
+    References:
+    - https://access.redhat.com/security/cve/CVE-2026-83381
+    - https://nvd.nist.gov/vuln/detail/CVE-2026-83381
+    - https://www.cve.org/CVERecord?id=CVE-2026-83381
+    - https://www.oracle.com/security-alerts/cpuoct2026.html
+    PublishedDate: '2026-10-20T22:19:54.4Z'
+    LastModifiedDate: '2026-10-21T18:44:19.627Z'
+  - VulnerabilityID: CVE-2026-83387
+    PkgID: java-21-openjdk-headless@21.0.12.1.1-1.2.el9.x86_64
+    PkgName: java-21-openjdk-headless
+    PkgIdentifier:
+      PURL: pkg:rpm/redhat/java-21-openjdk-headless@21.0.12.1.1-1.2.el9?arch=x86_64&distro=redhat-9.8&epoch=1
+      UID: 4c126643492f40d3
+    InstalledVersion: 1:21.0.12.1.1-1.2.el9
+    Status: affected
+    Layer:
+      Digest: sha256:58f57add85f56d9b053d1e04c30c93098eed7d0ad0daa772a6c7a5969eabfdd2
+      DiffID: sha256:b77f2b11e30cca81a505b20b639cf38b709c3f7dfd8ba080dbb9eb007a66fb7f
+    SeveritySource: redhat
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2026-83387
+    Fingerprint: sha256:e8cebc29a1cd02c47b7b9feee92ac09cd63adc966378e842a569bf5713174abc
+    Title: 'openjdk: Enhance WebRowSets (Oracle CPU 2026-10)'
+    Description: 'Vulnerability in the Oracle Java SE, Oracle GraalVM for JDK, Oracle GraalVM Enterprise Edition product of Oracle Java SE (component: JDBC).  Supported versions that are affected are Oracle Java SE: 8u503, 8u503-perf, 11.0.32.1, 17.0.20.1, 21.0.12.1, 25.0.4.1, 27;    Oracle GraalVM for JDK: 17.0.20.1 and  21.0.12.1;   Oracle GraalVM Enterprise Edition: 21.3.19.1.1. Difficult to exploit vulnerability allows unauthenticated attacker with network access via multiple protocols to compromise Oracle Java SE, Oracle GraalVM for JDK, Oracle GraalVM Enterprise Edition.  Successful attacks of this vulnerability can result in  unauthorized access to critical data or complete access to all Oracle Java SE, Oracle GraalVM for JDK, Oracle GraalVM Enterprise Edition accessible data. Note: This vulnerability can be exploited by using APIs in the specified Component, e.g., through a web service which supplies data to the APIs. This vulnerability also applies to Java deployments, typically in clients running sandboxed Java Web Start applications or sandboxed Java applets, that load and run untrusted code (e.g., code that comes from the internet) and rely on the Java sandbox for security. CVSS 3.1 Base Score 5.9 (Confidentiality impacts).  CVSS Vector: (CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:H/I:N/A:N).'
+    Severity: MEDIUM
+    VendorSeverity:
+      redhat: 2
+    CVSS:
+      redhat:
+        V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:H/I:N/A:N
+        V3Score: 5.9
+    References:
+    - https://access.redhat.com/security/cve/CVE-2026-83387
+    - https://nvd.nist.gov/vuln/detail/CVE-2026-83387
+    - https://www.cve.org/CVERecord?id=CVE-2026-83387
+    - https://www.oracle.com/security-alerts/cpuoct2026.html
+    PublishedDate: '2026-10-20T22:19:55.067Z'
+    LastModifiedDate: '2026-10-21T18:44:19.627Z'
+  - VulnerabilityID: CVE-2026-83395
+    PkgID: java-21-openjdk-headless@21.0.12.1.1-1.2.el9.x86_64
+    PkgName: java-21-openjdk-headless
+    PkgIdentifier:
+      PURL: pkg:rpm/redhat/java-21-openjdk-headless@21.0.12.1.1-1.2.el9?arch=x86_64&distro=redhat-9.8&epoch=1
+      UID: 4c126643492f40d3
+    InstalledVersion: 1:21.0.12.1.1-1.2.el9
+    Status: affected
+    Layer:
+      Digest: sha256:58f57add85f56d9b053d1e04c30c93098eed7d0ad0daa772a6c7a5969eabfdd2
+      DiffID: sha256:b77f2b11e30cca81a505b20b639cf38b709c3f7dfd8ba080dbb9eb007a66fb7f
+    SeveritySource: redhat
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2026-83395
+    Fingerprint: sha256:14f43284fce9adec8c9f55234cf568d994dfa62d0892ba4d9318fc6ffeccf293
+    Title: 'openjdk: Enhance HTTP Client Response Handling (Oracle CPU 2026-10)'
+    Description: 'Vulnerability in the Oracle Java SE, Oracle GraalVM for JDK, Oracle GraalVM Enterprise Edition product of Oracle Java SE (component: Networking).  Supported versions that are affected are Oracle Java SE: 8u503, 8u503-perf, 11.0.32.1, 17.0.20.1, 21.0.12.1, 25.0.4.1, 27; Oracle GraalVM for JDK: 17.0.20.1 and  21.0.12.1; Oracle GraalVM Enterprise Edition: 21.3.19.1.1. Easily exploitable vulnerability allows unauthenticated attacker with network access via multiple protocols to compromise Oracle Java SE, Oracle GraalVM for JDK, Oracle GraalVM Enterprise Edition.  Successful attacks of this vulnerability can result in  unauthorized update, insert or delete access to some of Oracle Java SE, Oracle GraalVM for JDK, Oracle GraalVM Enterprise Edition accessible data and unauthorized ability to cause a partial denial of service (partial DOS) of Oracle Java SE, Oracle GraalVM for JDK, Oracle GraalVM Enterprise Edition. Note: This vulnerability can be exploited by using APIs in the specified Component, e.g., through a web service which supplies data to the APIs. This vulnerability also applies to Java deployments, typically in clients running sandboxed Java Web Start applications or sandboxed Java applets, that load and run untrusted code (e.g., code that comes from the internet) and rely on the Java sandbox for security. CVSS 3.1 Base Score 6.5 (Integrity and Availability impacts).  CVSS Vector: (CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:L/A:L).'
+    Severity: MEDIUM
+    VendorSeverity:
+      redhat: 2
+    CVSS:
+      redhat:
+        V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:N/I:L/A:N
+        V3Score: 3.7
+    References:
+    - https://access.redhat.com/security/cve/CVE-2026-83395
+    - https://nvd.nist.gov/vuln/detail/CVE-2026-83395
+    - https://www.cve.org/CVERecord?id=CVE-2026-83395
+    - https://www.oracle.com/security-alerts/cpuoct2026.html
+    PublishedDate: '2026-10-20T22:19:55.97Z'
+    LastModifiedDate: '2026-10-21T18:44:19.627Z'
+  - VulnerabilityID: CVE-2026-83400
+    PkgID: java-21-openjdk-headless@21.0.12.1.1-1.2.el9.x86_64
+    PkgName: java-21-openjdk-headless
+    PkgIdentifier:
+      PURL: pkg:rpm/redhat/java-21-openjdk-headless@21.0.12.1.1-1.2.el9?arch=x86_64&distro=redhat-9.8&epoch=1
+      UID: 4c126643492f40d3
+    InstalledVersion: 1:21.0.12.1.1-1.2.el9
+    Status: affected
+    Layer:
+      Digest: sha256:58f57add85f56d9b053d1e04c30c93098eed7d0ad0daa772a6c7a5969eabfdd2
+      DiffID: sha256:b77f2b11e30cca81a505b20b639cf38b709c3f7dfd8ba080dbb9eb007a66fb7f
+    SeveritySource: redhat
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2026-83400
+    Fingerprint: sha256:044d7b8d9310c7ea746b8a3a8abf8638fe479831d77c2da539bab6c5222bd973
+    Title: 'openjdk: Enhance XML Processing (Oracle CPU 2026-10)'
+    Description: 'Vulnerability in the Oracle Java SE, Oracle GraalVM for JDK, Oracle GraalVM Enterprise Edition product of Oracle Java SE (component: JAXP).  Supported versions that are affected are Oracle Java SE: 8u503, 8u503-perf, 11.0.32.1, 17.0.20.1, 21.0.12.1, 25.0.4.1, 27;    Oracle GraalVM for JDK: 17.0.20.1 and  21.0.12.1;   Oracle GraalVM Enterprise Edition: 21.3.19.1.1. Easily exploitable vulnerability allows unauthenticated attacker with network access via multiple protocols to compromise Oracle Java SE, Oracle GraalVM for JDK, Oracle GraalVM Enterprise Edition.  Successful attacks of this vulnerability can result in unauthorized ability to cause a partial denial of service (partial DOS) of Oracle Java SE, Oracle GraalVM for JDK, Oracle GraalVM Enterprise Edition. Note: This vulnerability can be exploited by using APIs in the specified Component, e.g., through a web service which supplies data to the APIs. This vulnerability also applies to Java deployments, typically in clients running sandboxed Java Web Start applications or sandboxed Java applets, that load and run untrusted code (e.g., code that comes from the internet) and rely on the Java sandbox for security. CVSS 3.1 Base Score 5.3 (Availability impacts).  CVSS Vector: (CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:L).'
+    Severity: MEDIUM
+    VendorSeverity:
+      redhat: 2
+    CVSS:
+      redhat:
+        V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:L
+        V3Score: 5.3
+    References:
+    - https://access.redhat.com/security/cve/CVE-2026-83400
+    - https://nvd.nist.gov/vuln/detail/CVE-2026-83400
+    - https://www.cve.org/CVERecord?id=CVE-2026-83400
+    - https://www.oracle.com/security-alerts/cpuoct2026.html
+    PublishedDate: '2026-10-20T22:19:56.54Z'
+    LastModifiedDate: '2026-10-21T18:44:19.627Z'
+  - VulnerabilityID: CVE-2026-87290
+    PkgID: java-21-openjdk-headless@21.0.12.1.1-1.2.el9.x86_64
+    PkgName: java-21-openjdk-headless
+    PkgIdentifier:
+      PURL: pkg:rpm/redhat/java-21-openjdk-headless@21.0.12.1.1-1.2.el9?arch=x86_64&distro=redhat-9.8&epoch=1
+      UID: 4c126643492f40d3
+    InstalledVersion: 1:21.0.12.1.1-1.2.el9
+    Status: affected
+    Layer:
+      Digest: sha256:58f57add85f56d9b053d1e04c30c93098eed7d0ad0daa772a6c7a5969eabfdd2
+      DiffID: sha256:b77f2b11e30cca81a505b20b639cf38b709c3f7dfd8ba080dbb9eb007a66fb7f
+    SeveritySource: redhat
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2026-87290
+    Fingerprint: sha256:9f0ae555bc629f5d101176dc4175d924654ab00dd376d66922d628753ff41e1e
+    Title: 'openjdk: Enhance XPath Expressions (Oracle CPU 2026-10)'
+    Description: 'Vulnerability in the Oracle Java SE, Oracle GraalVM for JDK, Oracle GraalVM Enterprise Edition product of Oracle Java SE (component: JAXP).  Supported versions that are affected are Oracle Java SE: 8u503, 8u503-perf, 11.0.32.1, 17.0.20.1, 21.0.12.1, 25.0.4.1, 27; Oracle GraalVM for JDK: 17.0.20.1 and  21.0.12.1; Oracle GraalVM Enterprise Edition: 21.3.19.1.1. Difficult to exploit vulnerability allows unauthenticated attacker with network access via multiple protocols to compromise Oracle Java SE, Oracle GraalVM for JDK, Oracle GraalVM Enterprise Edition.  Successful attacks of this vulnerability can result in  unauthorized access to critical data or complete access to all Oracle Java SE, Oracle GraalVM for JDK, Oracle GraalVM Enterprise Edition accessible data. Note: This vulnerability can be exploited by using APIs in the specified Component, e.g., through a web service which supplies data to the APIs. This vulnerability also applies to Java deployments, typically in clients running sandboxed Java Web Start applications or sandboxed Java applets, that load and run untrusted code (e.g., code that comes from the internet) and rely on the Java sandbox for security. CVSS 3.1 Base Score 5.9 (Confidentiality impacts).  CVSS Vector: (CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:H/I:N/A:N).'
+    Severity: MEDIUM
+    VendorSeverity:
+      redhat: 2
+    CVSS:
+      redhat:
+        V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:L/I:N/A:N
+        V3Score: 3.7
+    References:
+    - https://access.redhat.com/security/cve/CVE-2026-87290
+    - https://nvd.nist.gov/vuln/detail/CVE-2026-87290
+    - https://www.cve.org/CVERecord?id=CVE-2026-87290
+    - https://www.oracle.com/security-alerts/cpuoct2026.html
+    PublishedDate: '2026-10-20T22:20:05.93Z'
+    LastModifiedDate: '2026-10-21T18:44:19.627Z'
+  - VulnerabilityID: CVE-2026-87291
+    PkgID: java-21-openjdk-headless@21.0.12.1.1-1.2.el9.x86_64
+    PkgName: java-21-openjdk-headless
+    PkgIdentifier:
+      PURL: pkg:rpm/redhat/java-21-openjdk-headless@21.0.12.1.1-1.2.el9?arch=x86_64&distro=redhat-9.8&epoch=1
+      UID: 4c126643492f40d3
+    InstalledVersion: 1:21.0.12.1.1-1.2.el9
+    Status: affected
+    Layer:
+      Digest: sha256:58f57add85f56d9b053d1e04c30c93098eed7d0ad0daa772a6c7a5969eabfdd2
+      DiffID: sha256:b77f2b11e30cca81a505b20b639cf38b709c3f7dfd8ba080dbb9eb007a66fb7f
+    SeveritySource: redhat
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2026-87291
+    Fingerprint: sha256:b98cce58c933c6015097e12fafbb83ee99e53b108ae6194fcbbfc1a48edc3e01
+    Title: 'openjdk: Enhance HTTP Server (Oracle CPU 2026-10)'
+    Description: 'Vulnerability in Oracle Java SE (component: Networking).  Supported versions that are affected are Oracle Java SE: 21.0.12.1, 25.0.4.1 and  27. Easily exploitable vulnerability allows unauthenticated attacker with network access via multiple protocols to compromise Oracle Java SE.  Successful attacks of this vulnerability can result in  unauthorized read access to a subset of Oracle Java SE accessible data. Note: This vulnerability can only be exploited by supplying data to APIs in the specified Component without using Untrusted Java Web Start applications or Untrusted Java applets, such as through a web service. CVSS 3.1 Base Score 5.3 (Confidentiality impacts).  CVSS Vector: (CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:L/I:N/A:N).'
+    Severity: MEDIUM
+    VendorSeverity:
+      redhat: 2
+    CVSS:
+      redhat:
+        V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:L/I:N/A:N
+        V3Score: 5.3
+    References:
+    - https://access.redhat.com/security/cve/CVE-2026-87291
+    - https://nvd.nist.gov/vuln/detail/CVE-2026-87291
+    - https://www.cve.org/CVERecord?id=CVE-2026-87291
+    - https://www.oracle.com/security-alerts/cpuoct2026.html
+    PublishedDate: '2026-10-20T22:20:06.047Z'
+    LastModifiedDate: '2026-10-21T18:44:19.627Z'
+  - VulnerabilityID: CVE-2026-87294
+    PkgID: java-21-openjdk-headless@21.0.12.1.1-1.2.el9.x86_64
+    PkgName: java-21-openjdk-headless
+    PkgIdentifier:
+      PURL: pkg:rpm/redhat/java-21-openjdk-headless@21.0.12.1.1-1.2.el9?arch=x86_64&distro=redhat-9.8&epoch=1
+      UID: 4c126643492f40d3
+    InstalledVersion: 1:21.0.12.1.1-1.2.el9
+    Status: affected
+    Layer:
+      Digest: sha256:58f57add85f56d9b053d1e04c30c93098eed7d0ad0daa772a6c7a5969eabfdd2
+      DiffID: sha256:b77f2b11e30cca81a505b20b639cf38b709c3f7dfd8ba080dbb9eb007a66fb7f
+    SeveritySource: redhat
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2026-87294
+    Fingerprint: sha256:1f424aa5cf273c79823db0734d4d3fac670b00da517ca8df3e3ea09b06fc3cb4
+    Title: 'openjdk: Enhance Certificate Name Checks (Oracle CPU 2026-10)'
+    Description: 'Vulnerability in the Oracle Java SE, Oracle GraalVM for JDK, Oracle GraalVM Enterprise Edition product of Oracle Java SE (component: Security).  Supported versions that are affected are Oracle Java SE: 8u503, 8u503-perf, 11.0.32.1, 17.0.20.1, 21.0.12.1, 25.0.4.1, 27;    Oracle GraalVM for JDK: 17.0.20.1 and  21.0.12.1;   Oracle GraalVM Enterprise Edition: 21.3.19.1.1. Easily exploitable vulnerability allows unauthenticated attacker with network access via multiple protocols to compromise Oracle Java SE, Oracle GraalVM for JDK, Oracle GraalVM Enterprise Edition.  Successful attacks of this vulnerability can result in  unauthorized update, insert or delete access to some of Oracle Java SE, Oracle GraalVM for JDK, Oracle GraalVM Enterprise Edition accessible data as well as  unauthorized read access to a subset of Oracle Java SE, Oracle GraalVM for JDK, Oracle GraalVM Enterprise Edition accessible data. Note: This vulnerability can be exploited by using APIs in the specified Component, e.g., through a web service which supplies data to the APIs. This vulnerability also applies to Java deployments, typically in clients running sandboxed Java Web Start applications or sandboxed Java applets, that load and run untrusted code (e.g., code that comes from the internet) and rely on the Java sandbox for security. CVSS 3.1 Base Score 6.5 (Confidentiality and Integrity impacts).  CVSS Vector: (CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:L/I:L/A:N).'
+    Severity: MEDIUM
+    VendorSeverity:
+      redhat: 2
+    CVSS:
+      redhat:
+        V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:L/I:L/A:N
+        V3Score: 6.5
+    References:
+    - https://access.redhat.com/security/cve/CVE-2026-87294
+    - https://nvd.nist.gov/vuln/detail/CVE-2026-87294
+    - https://www.cve.org/CVERecord?id=CVE-2026-87294
+    - https://www.oracle.com/security-alerts/cpuoct2026.html
+    PublishedDate: '2026-10-20T22:20:06.387Z'
+    LastModifiedDate: '2026-10-21T18:44:19.627Z'
+  - VulnerabilityID: CVE-2026-91332
+    PkgID: java-21-openjdk-headless@21.0.12.1.1-1.2.el9.x86_64
+    PkgName: java-21-openjdk-headless
+    PkgIdentifier:
+      PURL: pkg:rpm/redhat/java-21-openjdk-headless@21.0.12.1.1-1.2.el9?arch=x86_64&distro=redhat-9.8&epoch=1
+      UID: 4c126643492f40d3
+    InstalledVersion: 1:21.0.12.1.1-1.2.el9
+    Status: affected
+    Layer:
+      Digest: sha256:58f57add85f56d9b053d1e04c30c93098eed7d0ad0daa772a6c7a5969eabfdd2
+      DiffID: sha256:b77f2b11e30cca81a505b20b639cf38b709c3f7dfd8ba080dbb9eb007a66fb7f
+    SeveritySource: redhat
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2026-91332
+    Fingerprint: sha256:1b93f6c0d3775af006049cd13b4138b7f08fff0696fcdf298d4ec80a3df64d37
+    Title: 'openjdk: Enhance HTTP Client (Oracle CPU 2026-10)'
+    Description: 'Vulnerability in Oracle Java SE (component: Networking).  Supported versions that are affected are Oracle Java SE: 8u503-perf, 11.0.32.1, 17.0.20.1, 21.0.12.1, 25.0.4.1, 27; Oracle GraalVM for JDK: 17.0.20.1 and  21.0.12.1; Oracle GraalVM Enterprise Edition: 21.3.19.1.1. Easily exploitable vulnerability allows unauthenticated attacker with network access via multiple protocols to compromise Oracle Java SE.  Successful attacks of this vulnerability can result in  unauthorized update, insert or delete access to some of Oracle Java SE accessible data. Note: This vulnerability can be exploited by using APIs in the specified Component, e.g., through a web service which supplies data to the APIs. This vulnerability also applies to Java deployments, typically in clients running sandboxed Java Web Start applications or sandboxed Java applets, that load and run untrusted code (e.g., code that comes from the internet) and rely on the Java sandbox for security. CVSS 3.1 Base Score 5.3 (Integrity impacts).  CVSS Vector: (CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:L/A:N).'
+    Severity: MEDIUM
+    VendorSeverity:
+      redhat: 2
+    CVSS:
+      redhat:
+        V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:L/A:N
+        V3Score: 5.3
+    References:
+    - https://access.redhat.com/security/cve/CVE-2026-91332
+    - https://nvd.nist.gov/vuln/detail/CVE-2026-91332
+    - https://www.cve.org/CVERecord?id=CVE-2026-91332
+    - https://www.oracle.com/security-alerts/cpuoct2026.html
+    PublishedDate: '2026-10-20T22:20:35.387Z'
+    LastModifiedDate: '2026-10-21T18:44:40.02Z'
+  - VulnerabilityID: CVE-2026-91373
+    PkgID: java-21-openjdk-headless@21.0.12.1.1-1.2.el9.x86_64
+    PkgName: java-21-openjdk-headless
+    PkgIdentifier:
+      PURL: pkg:rpm/redhat/java-21-openjdk-headless@21.0.12.1.1-1.2.el9?arch=x86_64&distro=redhat-9.8&epoch=1
+      UID: 4c126643492f40d3
+    InstalledVersion: 1:21.0.12.1.1-1.2.el9
+    Status: affected
+    Layer:
+      Digest: sha256:58f57add85f56d9b053d1e04c30c93098eed7d0ad0daa772a6c7a5969eabfdd2
+      DiffID: sha256:b77f2b11e30cca81a505b20b639cf38b709c3f7dfd8ba080dbb9eb007a66fb7f
+    SeveritySource: redhat
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2026-91373
+    Fingerprint: sha256:858c0d4380abb7ab556410cbfc8b58c6ea33f1b82fecb78ee1b94f924f138096
+    Title: 'openjdk: Enhance TLS handshakes (Oracle CPU 2026-10)'
+    Description: 'Vulnerability in Oracle Java SE (component: JSSE).  Supported versions that are affected are Oracle Java SE: 8u503, 8u503-perf, 11.0.32.1, 17.0.20.1, 21.0.12.1, 25.0.4.1; Oracle GraalVM for JDK: 17.0.20.1 and  21.0.12.1; Oracle GraalVM Enterprise Edition: 21.3.19.1.1. Easily exploitable vulnerability allows unauthenticated attacker with network access via TLS to compromise Oracle Java SE.  Successful attacks of this vulnerability can result in unauthorized ability to cause a partial denial of service (partial DOS) of Oracle Java SE. Note: This vulnerability can be exploited by using APIs in the specified Component, e.g., through a web service which supplies data to the APIs. This vulnerability also applies to Java deployments, typically in clients running sandboxed Java Web Start applications or sandboxed Java applets, that load and run untrusted code (e.g., code that comes from the internet) and rely on the Java sandbox for security. CVSS 3.1 Base Score 5.3 (Availability impacts).  CVSS Vector: (CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:L).'
+    Severity: MEDIUM
+    CweIDs:
+    - CWE-400
+    VendorSeverity:
+      redhat: 2
+    CVSS:
+      redhat:
+        V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:L
+        V3Score: 5.3
+    References:
+    - https://access.redhat.com/security/cve/CVE-2026-91373
+    - https://nvd.nist.gov/vuln/detail/CVE-2026-91373
+    - https://www.cve.org/CVERecord?id=CVE-2026-91373
+    - https://www.oracle.com/security-alerts/cpuoct2026.html
+    PublishedDate: '2026-10-20T22:20:40.303Z'
+    LastModifiedDate: '2026-10-21T18:45:11.277Z'
+  - VulnerabilityID: CVE-2026-91374
+    PkgID: java-21-openjdk-headless@21.0.12.1.1-1.2.el9.x86_64
+    PkgName: java-21-openjdk-headless
+    PkgIdentifier:
+      PURL: pkg:rpm/redhat/java-21-openjdk-headless@21.0.12.1.1-1.2.el9?arch=x86_64&distro=redhat-9.8&epoch=1
+      UID: 4c126643492f40d3
+    InstalledVersion: 1:21.0.12.1.1-1.2.el9
+    Status: affected
+    Layer:
+      Digest: sha256:58f57add85f56d9b053d1e04c30c93098eed7d0ad0daa772a6c7a5969eabfdd2
+      DiffID: sha256:b77f2b11e30cca81a505b20b639cf38b709c3f7dfd8ba080dbb9eb007a66fb7f
+    SeveritySource: redhat
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2026-91374
+    Fingerprint: sha256:55b1dede78310131547bfed7b3ff2c4191756649b0d5be00ad77f2d1fffb99eb
+    Title: 'openjdk: Enhance jstatd (Oracle CPU 2026-10)'
+    Description: 'Vulnerability in the Oracle Java SE, Oracle GraalVM for JDK, Oracle GraalVM Enterprise Edition product of Oracle Java SE (component: Serviceability).  Supported versions that are affected are Oracle Java SE: 8u503, 8u503-perf, 11.0.32.1, 17.0.20.1, 21.0.12.1, 25.0.4.1, 27; Oracle GraalVM for JDK: 17.0.20.1 and  21.0.12.1; Oracle GraalVM Enterprise Edition: 21.3.19.1.1. Difficult to exploit vulnerability allows unauthenticated attacker with network access via multiple protocols to compromise Oracle Java SE, Oracle GraalVM for JDK, Oracle GraalVM Enterprise Edition.  Successful attacks of this vulnerability can result in  unauthorized update, insert or delete access to some of Oracle Java SE, Oracle GraalVM for JDK, Oracle GraalVM Enterprise Edition accessible data as well as  unauthorized read access to a subset of Oracle Java SE, Oracle GraalVM for JDK, Oracle GraalVM Enterprise Edition accessible data. Note: This vulnerability can be exploited by using APIs in the specified Component, e.g., through a web service which supplies data to the APIs. This vulnerability also applies to Java deployments, typically in clients running sandboxed Java Web Start applications or sandboxed Java applets, that load and run untrusted code (e.g., code that comes from the internet) and rely on the Java sandbox for security. CVSS 3.1 Base Score 4.8 (Confidentiality and Integrity impacts).  CVSS Vector: (CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:L/I:L/A:N).'
+    Severity: MEDIUM
+    CweIDs:
+    - CWE-284
+    VendorSeverity:
+      redhat: 2
+    CVSS:
+      redhat:
+        V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:L/I:L/A:N
+        V3Score: 4.8
+    References:
+    - https://access.redhat.com/security/cve/CVE-2026-91374
+    - https://nvd.nist.gov/vuln/detail/CVE-2026-91374
+    - https://www.cve.org/CVERecord?id=CVE-2026-91374
+    - https://www.oracle.com/security-alerts/cpuoct2026.html
+    PublishedDate: '2026-10-20T22:20:40.413Z'
+    LastModifiedDate: '2026-10-21T18:45:11.277Z'
+  - VulnerabilityID: CVE-2026-91375
+    PkgID: java-21-openjdk-headless@21.0.12.1.1-1.2.el9.x86_64
+    PkgName: java-21-openjdk-headless
+    PkgIdentifier:
+      PURL: pkg:rpm/redhat/java-21-openjdk-headless@21.0.12.1.1-1.2.el9?arch=x86_64&distro=redhat-9.8&epoch=1
+      UID: 4c126643492f40d3
+    InstalledVersion: 1:21.0.12.1.1-1.2.el9
+    Status: affected
+    Layer:
+      Digest: sha256:58f57add85f56d9b053d1e04c30c93098eed7d0ad0daa772a6c7a5969eabfdd2
+      DiffID: sha256:b77f2b11e30cca81a505b20b639cf38b709c3f7dfd8ba080dbb9eb007a66fb7f
+    SeveritySource: redhat
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2026-91375
+    Fingerprint: sha256:996e29ea34a789557d68fe978dc90a664f518406df77aff2d938ee262e5803bc
+    Title: 'openjdk: Enhance jmod handling (Oracle CPU 2026-10)'
+    Description: 'Vulnerability in Oracle Java SE (component: Libraries).  Supported versions that are affected are Oracle Java SE: 8u503-perf, 11.0.32.1, 17.0.20.1, 21.0.12.1, 25.0.4.1, 27; Oracle GraalVM for JDK: 17.0.20.1 and  21.0.12.1; Oracle GraalVM Enterprise Edition: 21.3.19.1.1. Difficult to exploit vulnerability allows unauthenticated attacker with logon to the infrastructure where Oracle Java SE executes to compromise Oracle Java SE.  Successful attacks require human interaction from a person other than the attacker. Successful attacks of this vulnerability can result in  unauthorized creation, deletion or modification access to critical data or all Oracle Java SE accessible data. Note: This vulnerability can be exploited by using APIs in the specified Component, e.g., through a web service which supplies data to the APIs. This vulnerability also applies to Java deployments, typically in clients running sandboxed Java Web Start applications or sandboxed Java applets, that load and run untrusted code (e.g., code that comes from the internet) and rely on the Java sandbox for security. CVSS 3.1 Base Score 4.7 (Integrity impacts).  CVSS Vector: (CVSS:3.1/AV:L/AC:H/PR:N/UI:R/S:U/C:N/I:H/A:N).'
+    Severity: MEDIUM
+    CweIDs:
+    - CWE-863
+    VendorSeverity:
+      redhat: 2
+    CVSS:
+      redhat:
+        V3Vector: CVSS:3.1/AV:L/AC:H/PR:N/UI:R/S:U/C:N/I:H/A:N
+        V3Score: 4.7
+    References:
+    - https://access.redhat.com/security/cve/CVE-2026-91375
+    - https://nvd.nist.gov/vuln/detail/CVE-2026-91375
+    - https://www.cve.org/CVERecord?id=CVE-2026-91375
+    - https://www.oracle.com/security-alerts/cpuoct2026.html
+    PublishedDate: '2026-10-20T22:20:40.537Z'
+    LastModifiedDate: '2026-10-21T18:45:11.277Z'
+  - VulnerabilityID: CVE-2026-91379
+    PkgID: java-21-openjdk-headless@21.0.12.1.1-1.2.el9.x86_64
+    PkgName: java-21-openjdk-headless
+    PkgIdentifier:
+      PURL: pkg:rpm/redhat/java-21-openjdk-headless@21.0.12.1.1-1.2.el9?arch=x86_64&distro=redhat-9.8&epoch=1
+      UID: 4c126643492f40d3
+    InstalledVersion: 1:21.0.12.1.1-1.2.el9
+    Status: affected
+    Layer:
+      Digest: sha256:58f57add85f56d9b053d1e04c30c93098eed7d0ad0daa772a6c7a5969eabfdd2
+      DiffID: sha256:b77f2b11e30cca81a505b20b639cf38b709c3f7dfd8ba080dbb9eb007a66fb7f
+    SeveritySource: redhat
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2026-91379
+    Fingerprint: sha256:91012c65b79fa1700260b64099b366dc999545b00c68c382c2299d72d83156be
+    Title: 'openjdk: Enhance JShell (Oracle CPU 2026-10)'
+    Description: 'Vulnerability in the Oracle Java SE, Oracle GraalVM for JDK, Oracle GraalVM Enterprise Edition product of Oracle Java SE (component: JDK tools).  Supported versions that are affected are Oracle Java SE: 8u503-perf, 11.0.32.1, 17.0.20.1, 21.0.12.1, 25.0.4.1, 27; Oracle GraalVM for JDK: 17.0.20.1 and  21.0.12.1; Oracle GraalVM Enterprise Edition: 21.3.19.1.1. Difficult to exploit vulnerability allows unauthenticated attacker with logon to the infrastructure where Oracle Java SE, Oracle GraalVM for JDK, Oracle GraalVM Enterprise Edition executes to compromise Oracle Java SE, Oracle GraalVM for JDK, Oracle GraalVM Enterprise Edition.  Successful attacks require human interaction from a person other than the attacker. Successful attacks of this vulnerability can result in  unauthorized creation, deletion or modification access to critical data or all Oracle Java SE, Oracle GraalVM for JDK, Oracle GraalVM Enterprise Edition accessible data. Note: This vulnerability applies to Java deployments, typically in clients running sandboxed Java Web Start applications or sandboxed Java applets, that load and run untrusted code (e.g., code that comes from the internet) and rely on the Java sandbox for security. This vulnerability does not apply to Java deployments, typically in servers, that load and run only trusted code (e.g., code installed by an administrator). CVSS 3.1 Base Score 4.7 (Integrity impacts).  CVSS Vector: (CVSS:3.1/AV:L/AC:H/PR:N/UI:R/S:U/C:N/I:H/A:N).'
+    Severity: MEDIUM
+    CweIDs:
+    - CWE-416
+    VendorSeverity:
+      redhat: 2
+    CVSS:
+      redhat:
+        V3Vector: CVSS:3.1/AV:L/AC:H/PR:N/UI:R/S:U/C:N/I:H/A:N
+        V3Score: 4.7
+    References:
+    - https://access.redhat.com/security/cve/CVE-2026-91379
+    - https://nvd.nist.gov/vuln/detail/CVE-2026-91379
+    - https://www.cve.org/CVERecord?id=CVE-2026-91379
+    - https://www.oracle.com/security-alerts/cpuoct2026.html
+    PublishedDate: '2026-10-20T22:20:41.007Z'
+    LastModifiedDate: '2026-10-21T18:45:11.277Z'
+  - VulnerabilityID: CVE-2026-91380
+    PkgID: java-21-openjdk-headless@21.0.12.1.1-1.2.el9.x86_64
+    PkgName: java-21-openjdk-headless
+    PkgIdentifier:
+      PURL: pkg:rpm/redhat/java-21-openjdk-headless@21.0.12.1.1-1.2.el9?arch=x86_64&distro=redhat-9.8&epoch=1
+      UID: 4c126643492f40d3
+    InstalledVersion: 1:21.0.12.1.1-1.2.el9
+    Status: affected
+    Layer:
+      Digest: sha256:58f57add85f56d9b053d1e04c30c93098eed7d0ad0daa772a6c7a5969eabfdd2
+      DiffID: sha256:b77f2b11e30cca81a505b20b639cf38b709c3f7dfd8ba080dbb9eb007a66fb7f
+    SeveritySource: redhat
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2026-91380
+    Fingerprint: sha256:b4dd4babedd136dd60a15c8c6efc82beeb0a03f62d6cc3db154e5095fc7ccedd
+    Title: 'openjdk: Enhance Preferences (Oracle CPU 2026-10)'
+    Description: 'Vulnerability in the Oracle Java SE, Oracle GraalVM for JDK, Oracle GraalVM Enterprise Edition product of Oracle Java SE (component: Utility).  Supported versions that are affected are Oracle Java SE: 8u503, 8u503-perf, 11.0.32.1, 17.0.20.1, 21.0.12.1, 25.0.4.1, 27; Oracle GraalVM for JDK: 17.0.20.1 and  21.0.12.1; Oracle GraalVM Enterprise Edition: 21.3.19.1.1. Difficult to exploit vulnerability allows unauthenticated attacker with logon to the infrastructure where Oracle Java SE, Oracle GraalVM for JDK, Oracle GraalVM Enterprise Edition executes to compromise Oracle Java SE, Oracle GraalVM for JDK, Oracle GraalVM Enterprise Edition.  Successful attacks of this vulnerability can result in  unauthorized update, insert or delete access to some of Oracle Java SE, Oracle GraalVM for JDK, Oracle GraalVM Enterprise Edition accessible data as well as  unauthorized read access to a subset of Oracle Java SE, Oracle GraalVM for JDK, Oracle GraalVM Enterprise Edition accessible data. Note: This vulnerability can be exploited by using APIs in the specified Component, e.g., through a web service which supplies data to the APIs. This vulnerability also applies to Java deployments, typically in clients running sandboxed Java Web Start applications or sandboxed Java applets, that load and run untrusted code (e.g., code that comes from the internet) and rely on the Java sandbox for security. CVSS 3.1 Base Score 4.0 (Confidentiality and Integrity impacts).  CVSS Vector: (CVSS:3.1/AV:L/AC:H/PR:N/UI:N/S:U/C:L/I:L/A:N).'
+    Severity: MEDIUM
+    CweIDs:
+    - CWE-284
+    VendorSeverity:
+      redhat: 2
+    CVSS:
+      redhat:
+        V3Vector: CVSS:3.1/AV:L/AC:H/PR:N/UI:N/S:U/C:L/I:L/A:N
+        V3Score: 4
+    References:
+    - https://access.redhat.com/security/cve/CVE-2026-91380
+    - https://nvd.nist.gov/vuln/detail/CVE-2026-91380
+    - https://www.cve.org/CVERecord?id=CVE-2026-91380
+    - https://www.oracle.com/security-alerts/cpuoct2026.html
+    PublishedDate: '2026-10-20T22:20:41.13Z'
+    LastModifiedDate: '2026-10-21T18:45:11.277Z'
+  - VulnerabilityID: CVE-2026-91382
+    PkgID: java-21-openjdk-headless@21.0.12.1.1-1.2.el9.x86_64
+    PkgName: java-21-openjdk-headless
+    PkgIdentifier:
+      PURL: pkg:rpm/redhat/java-21-openjdk-headless@21.0.12.1.1-1.2.el9?arch=x86_64&distro=redhat-9.8&epoch=1
+      UID: 4c126643492f40d3
+    InstalledVersion: 1:21.0.12.1.1-1.2.el9
+    Status: affected
+    Layer:
+      Digest: sha256:58f57add85f56d9b053d1e04c30c93098eed7d0ad0daa772a6c7a5969eabfdd2
+      DiffID: sha256:b77f2b11e30cca81a505b20b639cf38b709c3f7dfd8ba080dbb9eb007a66fb7f
+    SeveritySource: redhat
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2026-91382
+    Fingerprint: sha256:f624bb062e88d24676bf848b48e64e116826aaea5d0c56cd73148b9cc6785870
+    Title: 'openjdk: Enhance Image Processing (Oracle CPU 2026-10)'
+    Description: 'Vulnerability in the Oracle Java SE, Oracle GraalVM for JDK, Oracle GraalVM Enterprise Edition product of Oracle Java SE (component: 2D).  Supported versions that are affected are Oracle Java SE: 8u503, 8u503-perf, 11.0.32.1, 17.0.20.1;    Oracle GraalVM for JDK: 17.0.20.1 and  21.0.12.1;   Oracle GraalVM Enterprise Edition: 21.3.19.1.1. Difficult to exploit vulnerability allows unauthenticated attacker with network access via multiple protocols to compromise Oracle Java SE, Oracle GraalVM for JDK, Oracle GraalVM Enterprise Edition.  Successful attacks of this vulnerability can result in  unauthorized creation, deletion or modification access to critical data or all Oracle Java SE, Oracle GraalVM for JDK, Oracle GraalVM Enterprise Edition accessible data and unauthorized ability to cause a partial denial of service (partial DOS) of Oracle Java SE, Oracle GraalVM for JDK, Oracle GraalVM Enterprise Edition. Note: This vulnerability can be exploited by using APIs in the specified Component, e.g., through a web service which supplies data to the APIs. This vulnerability also applies to Java deployments, typically in clients running sandboxed Java Web Start applications or sandboxed Java applets, that load and run untrusted code (e.g., code that comes from the internet) and rely on the Java sandbox for security. CVSS 3.1 Base Score 6.5 (Integrity and Availability impacts).  CVSS Vector: (CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:N/I:H/A:L).'
+    Severity: MEDIUM
+    CweIDs:
+    - CWE-284
+    VendorSeverity:
+      redhat: 2
+    CVSS:
+      redhat:
+        V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:N/I:H/A:L
+        V3Score: 6.5
+    References:
+    - https://access.redhat.com/security/cve/CVE-2026-91382
+    - https://nvd.nist.gov/vuln/detail/CVE-2026-91382
+    - https://www.cve.org/CVERecord?id=CVE-2026-91382
+    - https://www.oracle.com/security-alerts/cpuoct2026.html
+    PublishedDate: '2026-10-20T22:20:41.36Z'
+    LastModifiedDate: '2026-10-21T18:45:11.277Z'
+  - VulnerabilityID: CVE-2026-91394
+    PkgID: java-21-openjdk-headless@21.0.12.1.1-1.2.el9.x86_64
+    PkgName: java-21-openjdk-headless
+    PkgIdentifier:
+      PURL: pkg:rpm/redhat/java-21-openjdk-headless@21.0.12.1.1-1.2.el9?arch=x86_64&distro=redhat-9.8&epoch=1
+      UID: 4c126643492f40d3
+    InstalledVersion: 1:21.0.12.1.1-1.2.el9
+    Status: affected
+    Layer:
+      Digest: sha256:58f57add85f56d9b053d1e04c30c93098eed7d0ad0daa772a6c7a5969eabfdd2
+      DiffID: sha256:b77f2b11e30cca81a505b20b639cf38b709c3f7dfd8ba080dbb9eb007a66fb7f
+    SeveritySource: redhat
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2026-91394
+    Fingerprint: sha256:9588689bbd3685879cc7b50e447b747a4596641b80767e8bf1b7597ffa1bb3b5
+    Title: 'openjdk: Enhance HTTP client caching (Oracle CPU 2026-10)'
+    Description: 'Vulnerability in the Oracle Java SE, Oracle GraalVM for JDK product of Oracle Java SE (component: Networking).  Supported versions that are affected are Oracle Java SE: 11.0.32.1, 17.0.20.1, 21.0.12.1, 25.0.4.1, 27; Oracle GraalVM for JDK: 17.0.20.1 and  21.0.12.1. Difficult to exploit vulnerability allows unauthenticated attacker with network access via multiple protocols to compromise Oracle Java SE, Oracle GraalVM for JDK.  Successful attacks of this vulnerability can result in  unauthorized access to critical data or complete access to all Oracle Java SE, Oracle GraalVM for JDK accessible data. Note: This vulnerability can be exploited by using APIs in the specified Component, e.g., through a web service which supplies data to the APIs. This vulnerability also applies to Java deployments, typically in clients running sandboxed Java Web Start applications or sandboxed Java applets, that load and run untrusted code (e.g., code that comes from the internet) and rely on the Java sandbox for security. CVSS 3.1 Base Score 5.9 (Confidentiality impacts).  CVSS Vector: (CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:H/I:N/A:N).'
+    Severity: MEDIUM
+    VendorSeverity:
+      redhat: 2
+    CVSS:
+      redhat:
+        V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:H/I:N/A:N
+        V3Score: 5.9
+    References:
+    - https://access.redhat.com/security/cve/CVE-2026-91394
+    - https://nvd.nist.gov/vuln/detail/CVE-2026-91394
+    - https://www.cve.org/CVERecord?id=CVE-2026-91394
+    - https://www.oracle.com/security-alerts/cpuoct2026.html
+    PublishedDate: '2026-10-20T22:20:42.727Z'
+    LastModifiedDate: '2026-10-21T18:44:40.02Z'
+  - VulnerabilityID: CVE-2026-91398
+    PkgID: java-21-openjdk-headless@21.0.12.1.1-1.2.el9.x86_64
+    PkgName: java-21-openjdk-headless
+    PkgIdentifier:
+      PURL: pkg:rpm/redhat/java-21-openjdk-headless@21.0.12.1.1-1.2.el9?arch=x86_64&distro=redhat-9.8&epoch=1
+      UID: 4c126643492f40d3
+    InstalledVersion: 1:21.0.12.1.1-1.2.el9
+    Status: affected
+    Layer:
+      Digest: sha256:58f57add85f56d9b053d1e04c30c93098eed7d0ad0daa772a6c7a5969eabfdd2
+      DiffID: sha256:b77f2b11e30cca81a505b20b639cf38b709c3f7dfd8ba080dbb9eb007a66fb7f
+    SeveritySource: redhat
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2026-91398
+    Fingerprint: sha256:9692360bac7b7044ed7473ce1c81036250baaa85eecc3b730b714d31372aaf9f
+    Title: 'openjdk: Enhance SOCKS5 support (Oracle CPU 2026-10)'
+    Description: 'Vulnerability in the Oracle Java SE, Oracle GraalVM for JDK, Oracle GraalVM Enterprise Edition product of Oracle Java SE (component: Networking).  Supported versions that are affected are Oracle Java SE: 8u503, 8u503-perf, 11.0.32.1, 17.0.20.1, 21.0.12.1, 25.0.4.1, 27;    Oracle GraalVM for JDK: 17.0.20.1 and  21.0.12.1;   Oracle GraalVM Enterprise Edition: 21.3.19.1.1. Difficult to exploit vulnerability allows unauthenticated attacker with network access via SOCKS5 to compromise Oracle Java SE, Oracle GraalVM for JDK, Oracle GraalVM Enterprise Edition.  While the vulnerability is in Oracle Java SE, Oracle GraalVM for JDK, Oracle GraalVM Enterprise Edition, attacks may significantly impact additional products (scope change).  Successful attacks of this vulnerability can result in  unauthorized creation, deletion or modification access to critical data or all Oracle Java SE, Oracle GraalVM for JDK, Oracle GraalVM Enterprise Edition accessible data. Note: This vulnerability can be exploited by using APIs in the specified Component, e.g., through a web service which supplies data to the APIs. This vulnerability also applies to Java deployments, typically in clients running sandboxed Java Web Start applications or sandboxed Java applets, that load and run untrusted code (e.g., code that comes from the internet) and rely on the Java sandbox for security. CVSS 3.1 Base Score 6.8 (Integrity impacts).  CVSS Vector: (CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:C/C:N/I:H/A:N).'
+    Severity: MEDIUM
+    VendorSeverity:
+      redhat: 2
+    CVSS:
+      redhat:
+        V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:C/C:N/I:H/A:N
+        V3Score: 6.8
+    References:
+    - https://access.redhat.com/security/cve/CVE-2026-91398
+    - https://nvd.nist.gov/vuln/detail/CVE-2026-91398
+    - https://www.cve.org/CVERecord?id=CVE-2026-91398
+    - https://www.oracle.com/security-alerts/cpuoct2026.html
+    PublishedDate: '2026-10-20T22:20:43.207Z'
+    LastModifiedDate: '2026-10-21T18:44:40.02Z'
+  - VulnerabilityID: CVE-2026-91410
+    PkgID: java-21-openjdk-headless@21.0.12.1.1-1.2.el9.x86_64
+    PkgName: java-21-openjdk-headless
+    PkgIdentifier:
+      PURL: pkg:rpm/redhat/java-21-openjdk-headless@21.0.12.1.1-1.2.el9?arch=x86_64&distro=redhat-9.8&epoch=1
+      UID: 4c126643492f40d3
+    InstalledVersion: 1:21.0.12.1.1-1.2.el9
+    Status: affected
+    Layer:
+      Digest: sha256:58f57add85f56d9b053d1e04c30c93098eed7d0ad0daa772a6c7a5969eabfdd2
+      DiffID: sha256:b77f2b11e30cca81a505b20b639cf38b709c3f7dfd8ba080dbb9eb007a66fb7f
+    SeveritySource: redhat
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2026-91410
+    Fingerprint: sha256:88f7e18579a8bac7f3013ae10a587d3a7c523426c7cb3a096c3c32e1a204bf35
+    Title: 'openjdk: Enhance zipfs (Oracle CPU 2026-10)'
+    Description: 'Vulnerability in Oracle Java SE (component: Libraries).  Supported versions that are affected are Oracle Java SE: 8u503, 8u503-perf, 11.0.32.1, 17.0.20.1, 21.0.12.1, 25.0.4.1; Oracle GraalVM for JDK: 17.0.20.1 and  21.0.12.1; Oracle GraalVM Enterprise Edition: 21.3.19.1.1. Easily exploitable vulnerability allows unauthenticated attacker with network access via multiple protocols to compromise Oracle Java SE.  Successful attacks of this vulnerability can result in unauthorized ability to cause a partial denial of service (partial DOS) of Oracle Java SE. Note: This vulnerability can be exploited by using APIs in the specified Component, e.g., through a web service which supplies data to the APIs. This vulnerability also applies to Java deployments, typically in clients running sandboxed Java Web Start applications or sandboxed Java applets, that load and run untrusted code (e.g., code that comes from the internet) and rely on the Java sandbox for security. CVSS 3.1 Base Score 5.3 (Availability impacts).  CVSS Vector: (CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:L).'
+    Severity: MEDIUM
+    VendorSeverity:
+      redhat: 2
+    CVSS:
+      redhat:
+        V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:L
+        V3Score: 5.3
+    References:
+    - https://access.redhat.com/security/cve/CVE-2026-91410
+    - https://nvd.nist.gov/vuln/detail/CVE-2026-91410
+    - https://www.cve.org/CVERecord?id=CVE-2026-91410
+    - https://www.oracle.com/security-alerts/cpuoct2026.html
+    PublishedDate: '2026-10-20T22:20:44.373Z'
+    LastModifiedDate: '2026-10-21T18:44:40.02Z'
+  - VulnerabilityID: CVE-2026-91418
+    PkgID: java-21-openjdk-headless@21.0.12.1.1-1.2.el9.x86_64
+    PkgName: java-21-openjdk-headless
+    PkgIdentifier:
+      PURL: pkg:rpm/redhat/java-21-openjdk-headless@21.0.12.1.1-1.2.el9?arch=x86_64&distro=redhat-9.8&epoch=1
+      UID: 4c126643492f40d3
+    InstalledVersion: 1:21.0.12.1.1-1.2.el9
+    Status: affected
+    Layer:
+      Digest: sha256:58f57add85f56d9b053d1e04c30c93098eed7d0ad0daa772a6c7a5969eabfdd2
+      DiffID: sha256:b77f2b11e30cca81a505b20b639cf38b709c3f7dfd8ba080dbb9eb007a66fb7f
+    SeveritySource: redhat
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2026-91418
+    Fingerprint: sha256:c70393687166e70dbfdc5183ae64fae8f3d63a781f38996f79a1ebe39796f3d1
+    Title: 'openjdk: Enhance GIF loading (Oracle CPU 2026-10)'
+    Description: 'Vulnerability in the Oracle Java SE, Oracle JavaFX, Oracle GraalVM for JDK, Oracle GraalVM Enterprise Edition product of Oracle Java SE (component: ImageIO).  Supported versions that are affected are Oracle Java SE: 8u503, 8u503-perf, 11.0.32.1, 17.0.20.1, 21.0.12.1, 25.0.4.1, 27; Oracle JavaFX: 21.0.12, 25.0.4, 27; Oracle GraalVM for JDK: 17.0.20.1 and  21.0.12.1; Oracle GraalVM Enterprise Edition: 21.3.19.1.1. Easily exploitable vulnerability allows unauthenticated attacker with network access via multiple protocols to compromise Oracle Java SE, Oracle JavaFX, Oracle GraalVM for JDK, Oracle GraalVM Enterprise Edition.  Successful attacks of this vulnerability can result in unauthorized ability to cause a partial denial of service (partial DOS) of Oracle Java SE, Oracle JavaFX, Oracle GraalVM for JDK, Oracle GraalVM Enterprise Edition. Note: This vulnerability can be exploited by using APIs in the specified Component, e.g., through a web service which supplies data to the APIs. This vulnerability also applies to Java deployments, typically in clients running sandboxed Java Web Start applications or sandboxed Java applets, that load and run untrusted code (e.g., code that comes from the internet) and rely on the Java sandbox for security. CVSS 3.1 Base Score 5.3 (Availability impacts).  CVSS Vector: (CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:L).'
+    Severity: MEDIUM
+    VendorSeverity:
+      redhat: 2
+    CVSS:
+      redhat:
+        V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:L
+        V3Score: 5.3
+    References:
+    - https://access.redhat.com/security/cve/CVE-2026-91418
+    - https://nvd.nist.gov/vuln/detail/CVE-2026-91418
+    - https://www.cve.org/CVERecord?id=CVE-2026-91418
+    - https://www.oracle.com/security-alerts/cpuoct2026.html
+    PublishedDate: '2026-10-20T22:20:45.183Z'
+    LastModifiedDate: '2026-10-21T18:44:40.02Z'
+  - VulnerabilityID: CVE-2026-91451
+    PkgID: java-21-openjdk-headless@21.0.12.1.1-1.2.el9.x86_64
+    PkgName: java-21-openjdk-headless
+    PkgIdentifier:
+      PURL: pkg:rpm/redhat/java-21-openjdk-headless@21.0.12.1.1-1.2.el9?arch=x86_64&distro=redhat-9.8&epoch=1
+      UID: 4c126643492f40d3
+    InstalledVersion: 1:21.0.12.1.1-1.2.el9
+    Status: affected
+    Layer:
+      Digest: sha256:58f57add85f56d9b053d1e04c30c93098eed7d0ad0daa772a6c7a5969eabfdd2
+      DiffID: sha256:b77f2b11e30cca81a505b20b639cf38b709c3f7dfd8ba080dbb9eb007a66fb7f
+    SeveritySource: redhat
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2026-91451
+    Fingerprint: sha256:c651a5b0bb652da6e221cd6c4b2c9c7c3945d266db0430e827f04a94db578f49
+    Title: 'openjdk: Enhance HTTP server parsing (Oracle CPU 2026-10)'
+    Description: 'Vulnerability in Oracle Java SE (component: Networking).  Supported versions that are affected are Oracle Java SE: 8u503, 8u503-perf, 11.0.32.1, 17.0.20.1, 21.0.12.1, 25.0.4.1; Oracle GraalVM for JDK: 17.0.20.1 and  21.0.12.1; Oracle GraalVM Enterprise Edition: 21.3.19.1.1. Easily exploitable vulnerability allows unauthenticated attacker with network access via multiple protocols to compromise Oracle Java SE.  Successful attacks of this vulnerability can result in  unauthorized update, insert or delete access to some of Oracle Java SE accessible data. Note: This vulnerability can only be exploited by supplying data to APIs in the specified Component without using Untrusted Java Web Start applications or Untrusted Java applets, such as through a web service. CVSS 3.1 Base Score 5.3 (Integrity impacts).  CVSS Vector: (CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:L/A:N).'
+    Severity: MEDIUM
+    VendorSeverity:
+      redhat: 2
+    CVSS:
+      redhat:
+        V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:L/A:N
+        V3Score: 5.3
+    References:
+    - https://access.redhat.com/security/cve/CVE-2026-91451
+    - https://nvd.nist.gov/vuln/detail/CVE-2026-91451
+    - https://www.cve.org/CVERecord?id=CVE-2026-91451
+    - https://www.oracle.com/security-alerts/cpuoct2026.html
+    PublishedDate: '2026-10-20T22:20:48.85Z'
+    LastModifiedDate: '2026-10-21T18:44:55.49Z'
+  - VulnerabilityID: CVE-2026-91452
+    PkgID: java-21-openjdk-headless@21.0.12.1.1-1.2.el9.x86_64
+    PkgName: java-21-openjdk-headless
+    PkgIdentifier:
+      PURL: pkg:rpm/redhat/java-21-openjdk-headless@21.0.12.1.1-1.2.el9?arch=x86_64&distro=redhat-9.8&epoch=1
+      UID: 4c126643492f40d3
+    InstalledVersion: 1:21.0.12.1.1-1.2.el9
+    Status: affected
+    Layer:
+      Digest: sha256:58f57add85f56d9b053d1e04c30c93098eed7d0ad0daa772a6c7a5969eabfdd2
+      DiffID: sha256:b77f2b11e30cca81a505b20b639cf38b709c3f7dfd8ba080dbb9eb007a66fb7f
+    SeveritySource: redhat
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2026-91452
+    Fingerprint: sha256:354d209a3aeb7a187b53b8c0fa14836d5c6091cd9937b44b0fae083b288d0057
+    Title: 'openjdk: Enhance HTTP server (Oracle CPU 2026-10)'
+    Description: 'Vulnerability in the Oracle Java SE, Oracle GraalVM for JDK, Oracle GraalVM Enterprise Edition product of Oracle Java SE (component: Networking).  Supported versions that are affected are Oracle Java SE: 8u503, 8u503-perf, 11.0.32.1, 17.0.20.1, 21.0.12.1, 25.0.4.1, 27; Oracle GraalVM for JDK: 17.0.20.1 and  21.0.12.1; Oracle GraalVM Enterprise Edition: 21.3.19.1.1. Easily exploitable vulnerability allows unauthenticated attacker with network access via multiple protocols to compromise Oracle Java SE, Oracle GraalVM for JDK, Oracle GraalVM Enterprise Edition.  Successful attacks of this vulnerability can result in  unauthorized update, insert or delete access to some of Oracle Java SE, Oracle GraalVM for JDK, Oracle GraalVM Enterprise Edition accessible data. Note: This vulnerability can only be exploited by supplying data to APIs in the specified Component without using Untrusted Java Web Start applications or Untrusted Java applets, such as through a web service. CVSS 3.1 Base Score 5.3 (Integrity impacts).  CVSS Vector: (CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:L/A:N).'
+    Severity: MEDIUM
+    VendorSeverity:
+      redhat: 2
+    CVSS:
+      redhat:
+        V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:L/A:N
+        V3Score: 5.3
+    References:
+    - https://access.redhat.com/security/cve/CVE-2026-91452
+    - https://nvd.nist.gov/vuln/detail/CVE-2026-91452
+    - https://www.cve.org/CVERecord?id=CVE-2026-91452
+    - https://www.oracle.com/security-alerts/cpuoct2026.html
+    PublishedDate: '2026-10-20T22:20:48.96Z'
+    LastModifiedDate: '2026-10-21T18:44:55.49Z'
+  - VulnerabilityID: CVE-2026-91453
+    PkgID: java-21-openjdk-headless@21.0.12.1.1-1.2.el9.x86_64
+    PkgName: java-21-openjdk-headless
+    PkgIdentifier:
+      PURL: pkg:rpm/redhat/java-21-openjdk-headless@21.0.12.1.1-1.2.el9?arch=x86_64&distro=redhat-9.8&epoch=1
+      UID: 4c126643492f40d3
+    InstalledVersion: 1:21.0.12.1.1-1.2.el9
+    Status: affected
+    Layer:
+      Digest: sha256:58f57add85f56d9b053d1e04c30c93098eed7d0ad0daa772a6c7a5969eabfdd2
+      DiffID: sha256:b77f2b11e30cca81a505b20b639cf38b709c3f7dfd8ba080dbb9eb007a66fb7f
+    SeveritySource: redhat
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2026-91453
+    Fingerprint: sha256:3fc40c0866d829b2a6f758b8f5b784f69002e6038bd5f361e4655656d483a3e6
+    Title: 'openjdk: Improve HTTP headers (Oracle CPU 2026-10)'
+    Description: 'Vulnerability in the Oracle Java SE, Oracle GraalVM for JDK, Oracle GraalVM Enterprise Edition product of Oracle Java SE (component: Lightweight HTTP Server).  Supported versions that are affected are Oracle Java SE: 8u503, 8u503-perf, 11.0.32.1, 17.0.20.1, 21.0.12.1, 25.0.4.1, 27; Oracle GraalVM for JDK: 17.0.20.1 and  21.0.12.1; Oracle GraalVM Enterprise Edition: 21.3.19.1.1. Easily exploitable vulnerability allows unauthenticated attacker with network access via multiple protocols to compromise Oracle Java SE, Oracle GraalVM for JDK, Oracle GraalVM Enterprise Edition.  Successful attacks of this vulnerability can result in  unauthorized update, insert or delete access to some of Oracle Java SE, Oracle GraalVM for JDK, Oracle GraalVM Enterprise Edition accessible data. Note: This vulnerability can only be exploited by supplying data to APIs in the specified Component without using Untrusted Java Web Start applications or Untrusted Java applets, such as through a web service. CVSS 3.1 Base Score 5.3 (Integrity impacts).  CVSS Vector: (CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:L/A:N).'
+    Severity: MEDIUM
+    VendorSeverity:
+      redhat: 2
+    CVSS:
+      redhat:
+        V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:L/A:N
+        V3Score: 5.3
+    References:
+    - https://access.redhat.com/security/cve/CVE-2026-91453
+    - https://nvd.nist.gov/vuln/detail/CVE-2026-91453
+    - https://www.cve.org/CVERecord?id=CVE-2026-91453
+    - https://www.oracle.com/security-alerts/cpuoct2026.html
+    PublishedDate: '2026-10-20T22:20:49.083Z'
+    LastModifiedDate: '2026-10-21T18:44:55.49Z'
+  - VulnerabilityID: CVE-2026-91462
+    PkgID: java-21-openjdk-headless@21.0.12.1.1-1.2.el9.x86_64
+    PkgName: java-21-openjdk-headless
+    PkgIdentifier:
+      PURL: pkg:rpm/redhat/java-21-openjdk-headless@21.0.12.1.1-1.2.el9?arch=x86_64&distro=redhat-9.8&epoch=1
+      UID: 4c126643492f40d3
+    InstalledVersion: 1:21.0.12.1.1-1.2.el9
+    Status: affected
+    Layer:
+      Digest: sha256:58f57add85f56d9b053d1e04c30c93098eed7d0ad0daa772a6c7a5969eabfdd2
+      DiffID: sha256:b77f2b11e30cca81a505b20b639cf38b709c3f7dfd8ba080dbb9eb007a66fb7f
+    SeveritySource: redhat
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2026-91462
+    Fingerprint: sha256:d6ef9c0ab78081c30e82dde64cce372b8c7494985503741efbf2c662f9e4503b
+    Title: 'openjdk: Enhance krb5 tokens (Oracle CPU 2026-10)'
+    Description: 'Vulnerability in the Oracle Java SE, Oracle GraalVM for JDK, Oracle GraalVM Enterprise Edition product of Oracle Java SE (component: JGSS).  Supported versions that are affected are Oracle Java SE: 8u503, 8u503-perf, 11.0.32.1, 17.0.20.1, 21.0.12.1, 25.0.4.1, 27;    Oracle GraalVM for JDK: 17.0.20.1 and  21.0.12.1;   Oracle GraalVM Enterprise Edition: 21.3.19.1.1. Difficult to exploit vulnerability allows unauthenticated attacker with network access via multiple protocols to compromise Oracle Java SE, Oracle GraalVM for JDK, Oracle GraalVM Enterprise Edition.  Successful attacks of this vulnerability can result in  unauthorized creation, deletion or modification access to critical data or all Oracle Java SE, Oracle GraalVM for JDK, Oracle GraalVM Enterprise Edition accessible data. Note: This vulnerability can only be exploited by supplying data to APIs in the specified Component without using Untrusted Java Web Start applications or Untrusted Java applets, such as through a web service. CVSS 3.1 Base Score 5.9 (Integrity impacts).  CVSS Vector: (CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:N/I:H/A:N).'
+    Severity: MEDIUM
+    VendorSeverity:
+      redhat: 2
+    CVSS:
+      redhat:
+        V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:N/I:H/A:N
+        V3Score: 5.9
+    References:
+    - https://access.redhat.com/security/cve/CVE-2026-91462
+    - https://nvd.nist.gov/vuln/detail/CVE-2026-91462
+    - https://www.cve.org/CVERecord?id=CVE-2026-91462
+    - https://www.oracle.com/security-alerts/cpuoct2026.html
+    PublishedDate: '2026-10-20T22:20:49.857Z'
+    LastModifiedDate: '2026-10-21T18:44:55.49Z'
+  - VulnerabilityID: CVE-2026-91463
+    PkgID: java-21-openjdk-headless@21.0.12.1.1-1.2.el9.x86_64
+    PkgName: java-21-openjdk-headless
+    PkgIdentifier:
+      PURL: pkg:rpm/redhat/java-21-openjdk-headless@21.0.12.1.1-1.2.el9?arch=x86_64&distro=redhat-9.8&epoch=1
+      UID: 4c126643492f40d3
+    InstalledVersion: 1:21.0.12.1.1-1.2.el9
+    Status: affected
+    Layer:
+      Digest: sha256:58f57add85f56d9b053d1e04c30c93098eed7d0ad0daa772a6c7a5969eabfdd2
+      DiffID: sha256:b77f2b11e30cca81a505b20b639cf38b709c3f7dfd8ba080dbb9eb007a66fb7f
+    SeveritySource: redhat
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2026-91463
+    Fingerprint: sha256:3f678d89da220bca3f8aa3e8e5839cc95b540ae1f63576d16fecc26419faad43
+    Title: 'openjdk: Enhance krb5 client (Oracle CPU 2026-10)'
+    Description: 'Vulnerability in the Oracle Java SE, Oracle GraalVM for JDK, Oracle GraalVM Enterprise Edition product of Oracle Java SE (component: JGSS).  Supported versions that are affected are Oracle Java SE: 8u503, 8u503-perf, 11.0.32.1, 17.0.20.1, 21.0.12.1, 25.0.4.1, 27; Oracle GraalVM for JDK: 17.0.20.1 and  21.0.12.1; Oracle GraalVM Enterprise Edition: 21.3.19.1.1. Difficult to exploit vulnerability allows unauthenticated attacker with network access via multiple protocols to compromise Oracle Java SE, Oracle GraalVM for JDK, Oracle GraalVM Enterprise Edition.  Successful attacks require human interaction from a person other than the attacker. Successful attacks of this vulnerability can result in  unauthorized access to critical data or complete access to all Oracle Java SE, Oracle GraalVM for JDK, Oracle GraalVM Enterprise Edition accessible data. Note: This vulnerability applies to Java deployments, typically in clients running sandboxed Java Web Start applications or sandboxed Java applets, that load and run untrusted code (e.g., code that comes from the internet) and rely on the Java sandbox for security. This vulnerability does not apply to Java deployments, typically in servers, that load and run only trusted code (e.g., code installed by an administrator). CVSS 3.1 Base Score 5.3 (Confidentiality impacts).  CVSS Vector: (CVSS:3.1/AV:N/AC:H/PR:N/UI:R/S:U/C:H/I:N/A:N).'
+    Severity: MEDIUM
+    VendorSeverity:
+      redhat: 2
+    CVSS:
+      redhat:
+        V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:R/S:U/C:H/I:N/A:N
+        V3Score: 5.3
+    References:
+    - https://access.redhat.com/security/cve/CVE-2026-91463
+    - https://nvd.nist.gov/vuln/detail/CVE-2026-91463
+    - https://www.cve.org/CVERecord?id=CVE-2026-91463
+    - https://www.oracle.com/security-alerts/cpuoct2026.html
+    PublishedDate: '2026-10-20T22:20:49.977Z'
+    LastModifiedDate: '2026-10-21T18:44:55.49Z'
+  - VulnerabilityID: CVE-2026-91464
+    PkgID: java-21-openjdk-headless@21.0.12.1.1-1.2.el9.x86_64
+    PkgName: java-21-openjdk-headless
+    PkgIdentifier:
+      PURL: pkg:rpm/redhat/java-21-openjdk-headless@21.0.12.1.1-1.2.el9?arch=x86_64&distro=redhat-9.8&epoch=1
+      UID: 4c126643492f40d3
+    InstalledVersion: 1:21.0.12.1.1-1.2.el9
+    Status: affected
+    Layer:
+      Digest: sha256:58f57add85f56d9b053d1e04c30c93098eed7d0ad0daa772a6c7a5969eabfdd2
+      DiffID: sha256:b77f2b11e30cca81a505b20b639cf38b709c3f7dfd8ba080dbb9eb007a66fb7f
+    SeveritySource: redhat
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2026-91464
+    Fingerprint: sha256:2179fad508f4bfba262ab796b5c545dbff345a71dbb9729d5bd04452cfaa6bd5
+    Title: 'openjdk: Enhance Kerberos validation (Oracle CPU 2026-10)'
+    Description: 'Vulnerability in the Oracle Java SE, Oracle GraalVM for JDK, Oracle GraalVM Enterprise Edition product of Oracle Java SE (component: JGSS).  Supported versions that are affected are Oracle Java SE: 8u503, 8u503-perf, 11.0.32.1, 17.0.20.1, 21.0.12.1, 25.0.4.1, 27; Oracle GraalVM for JDK: 17.0.20.1 and  21.0.12.1; Oracle GraalVM Enterprise Edition: 21.3.19.1.1. Difficult to exploit vulnerability allows unauthenticated attacker with network access via multiple protocols to compromise Oracle Java SE, Oracle GraalVM for JDK, Oracle GraalVM Enterprise Edition.  Successful attacks require human interaction from a person other than the attacker. Successful attacks of this vulnerability can result in  unauthorized access to critical data or complete access to all Oracle Java SE, Oracle GraalVM for JDK, Oracle GraalVM Enterprise Edition accessible data. Note: This vulnerability applies to Java deployments, typically in clients running sandboxed Java Web Start applications or sandboxed Java applets, that load and run untrusted code (e.g., code that comes from the internet) and rely on the Java sandbox for security. This vulnerability does not apply to Java deployments, typically in servers, that load and run only trusted code (e.g., code installed by an administrator). CVSS 3.1 Base Score 5.3 (Confidentiality impacts).  CVSS Vector: (CVSS:3.1/AV:N/AC:H/PR:N/UI:R/S:U/C:H/I:N/A:N).'
+    Severity: MEDIUM
+    VendorSeverity:
+      redhat: 2
+    CVSS:
+      redhat:
+        V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:R/S:U/C:H/I:N/A:N
+        V3Score: 5.3
+    References:
+    - https://access.redhat.com/security/cve/CVE-2026-91464
+    - https://nvd.nist.gov/vuln/detail/CVE-2026-91464
+    - https://www.cve.org/CVERecord?id=CVE-2026-91464
+    - https://www.oracle.com/security-alerts/cpuoct2026.html
+    PublishedDate: '2026-10-20T22:20:50.1Z'
+    LastModifiedDate: '2026-10-21T18:44:55.49Z'
+  - VulnerabilityID: CVE-2026-91487
+    PkgID: java-21-openjdk-headless@21.0.12.1.1-1.2.el9.x86_64
+    PkgName: java-21-openjdk-headless
+    PkgIdentifier:
+      PURL: pkg:rpm/redhat/java-21-openjdk-headless@21.0.12.1.1-1.2.el9?arch=x86_64&distro=redhat-9.8&epoch=1
+      UID: 4c126643492f40d3
+    InstalledVersion: 1:21.0.12.1.1-1.2.el9
+    Status: affected
+    Layer:
+      Digest: sha256:58f57add85f56d9b053d1e04c30c93098eed7d0ad0daa772a6c7a5969eabfdd2
+      DiffID: sha256:b77f2b11e30cca81a505b20b639cf38b709c3f7dfd8ba080dbb9eb007a66fb7f
+    SeveritySource: redhat
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2026-91487
+    Fingerprint: sha256:d503129782e0411a8d05d9523696df9a025a35b35cb4bd0b54affa9008f7bb4c
+    Title: 'openjdk: Enhance C2 comparisons (Oracle CPU 2026-10)'
+    Description: 'Vulnerability in Oracle Java SE (component: Compiler).  Supported versions that are affected are Oracle Java SE: 8u503-perf, 11.0.32.1, 17.0.20.1, 21.0.12.1, 25.0.4.1, 27; Oracle GraalVM for JDK: 17.0.20.1 and  21.0.12.1; Oracle GraalVM Enterprise Edition: 21.3.19.1.1. Difficult to exploit vulnerability allows unauthenticated attacker with network access via multiple protocols to compromise Oracle Java SE.  Successful attacks of this vulnerability can result in  unauthorized update, insert or delete access to some of Oracle Java SE accessible data as well as  unauthorized read access to a subset of Oracle Java SE accessible data. Note: This vulnerability can only be exploited by supplying data to APIs in the specified Component without using Untrusted Java Web Start applications or Untrusted Java applets, such as through a web service. CVSS 3.1 Base Score 4.8 (Confidentiality and Integrity impacts).  CVSS Vector: (CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:L/I:L/A:N).'
+    Severity: MEDIUM
+    VendorSeverity:
+      redhat: 2
+    CVSS:
+      redhat:
+        V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:L/I:L/A:N
+        V3Score: 4.8
+    References:
+    - https://access.redhat.com/security/cve/CVE-2026-91487
+    - https://nvd.nist.gov/vuln/detail/CVE-2026-91487
+    - https://www.cve.org/CVERecord?id=CVE-2026-91487
+    - https://www.oracle.com/security-alerts/cpuoct2026.html
+    PublishedDate: '2026-10-20T22:20:53.16Z'
+    LastModifiedDate: '2026-10-21T18:44:55.49Z'
   - VulnerabilityID: CVE-2026-95512
     PkgID: java-21-openjdk-headless@21.0.12.1.1-1.2.el9.x86_64
     PkgName: java-21-openjdk-headless
@@ -5675,6 +6815,306 @@
     - https://www.cve.org/CVERecord?id=CVE-2026-27171
     PublishedDate: '2026-02-18T04:16:01.263Z'
     LastModifiedDate: '2026-06-17T10:26:47.357Z'
+  - VulnerabilityID: CVE-2026-83376
+    PkgID: java-21-openjdk-headless@21.0.12.1.1-1.2.el9.x86_64
+    PkgName: java-21-openjdk-headless
+    PkgIdentifier:
+      PURL: pkg:rpm/redhat/java-21-openjdk-headless@21.0.12.1.1-1.2.el9?arch=x86_64&distro=redhat-9.8&epoch=1
+      UID: 4c126643492f40d3
+    InstalledVersion: 1:21.0.12.1.1-1.2.el9
+    Status: affected
+    Layer:
+      Digest: sha256:58f57add85f56d9b053d1e04c30c93098eed7d0ad0daa772a6c7a5969eabfdd2
+      DiffID: sha256:b77f2b11e30cca81a505b20b639cf38b709c3f7dfd8ba080dbb9eb007a66fb7f
+    SeveritySource: redhat
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2026-83376
+    Fingerprint: sha256:8e5a815c24b2a5a779546c7355a852620e17dbe8f732981513dfe631cd64fa2c
+    Title: 'openjdk: Enhance TLS certificate handling (Oracle CPU 2026-10)'
+    Description: 'Vulnerability in the Oracle Java SE, Oracle GraalVM for JDK, Oracle GraalVM Enterprise Edition product of Oracle Java SE (component: JSSE).  Supported versions that are affected are Oracle Java SE: 8u503, 8u503-perf, 11.0.32.1, 17.0.20.1, 21.0.12.1, 25.0.4.1, 27; Oracle GraalVM for JDK: 17.0.20.1 and  21.0.12.1; Oracle GraalVM Enterprise Edition: 21.3.19.1.1. Difficult to exploit vulnerability allows unauthenticated attacker with network access via TLS to compromise Oracle Java SE, Oracle GraalVM for JDK, Oracle GraalVM Enterprise Edition.  Successful attacks of this vulnerability can result in  unauthorized update, insert or delete access to some of Oracle Java SE, Oracle GraalVM for JDK, Oracle GraalVM Enterprise Edition accessible data. Note: This vulnerability can be exploited by using APIs in the specified Component, e.g., through a web service which supplies data to the APIs. This vulnerability also applies to Java deployments, typically in clients running sandboxed Java Web Start applications or sandboxed Java applets, that load and run untrusted code (e.g., code that comes from the internet) and rely on the Java sandbox for security. CVSS 3.1 Base Score 3.7 (Integrity impacts).  CVSS Vector: (CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:N/I:L/A:N).'
+    Severity: LOW
+    VendorSeverity:
+      redhat: 1
+    CVSS:
+      redhat:
+        V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:N/I:L/A:N
+        V3Score: 3.7
+    References:
+    - https://access.redhat.com/security/cve/CVE-2026-83376
+    - https://nvd.nist.gov/vuln/detail/CVE-2026-83376
+    - https://www.cve.org/CVERecord?id=CVE-2026-83376
+    - https://www.oracle.com/security-alerts/cpuoct2026.html
+    PublishedDate: '2026-10-20T22:19:53.81Z'
+    LastModifiedDate: '2026-10-21T18:44:19.627Z'
+  - VulnerabilityID: CVE-2026-87292
+    PkgID: java-21-openjdk-headless@21.0.12.1.1-1.2.el9.x86_64
+    PkgName: java-21-openjdk-headless
+    PkgIdentifier:
+      PURL: pkg:rpm/redhat/java-21-openjdk-headless@21.0.12.1.1-1.2.el9?arch=x86_64&distro=redhat-9.8&epoch=1
+      UID: 4c126643492f40d3
+    InstalledVersion: 1:21.0.12.1.1-1.2.el9
+    Status: affected
+    Layer:
+      Digest: sha256:58f57add85f56d9b053d1e04c30c93098eed7d0ad0daa772a6c7a5969eabfdd2
+      DiffID: sha256:b77f2b11e30cca81a505b20b639cf38b709c3f7dfd8ba080dbb9eb007a66fb7f
+    SeveritySource: redhat
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2026-87292
+    Fingerprint: sha256:a6a5a6b5b4f6041ba4f36708faad1aaff195299264962aaec933af5b4676ab35
+    Title: 'openjdk: Enhance Network Clients (Oracle CPU 2026-10)'
+    Description: 'Vulnerability in the Oracle Java SE, Oracle GraalVM for JDK, Oracle GraalVM Enterprise Edition product of Oracle Java SE (component: Networking).  Supported versions that are affected are Oracle Java SE: 8u503, 8u503-perf, 11.0.32.1, 17.0.20.1, 21.0.12.1, 25.0.4.1, 27; Oracle GraalVM for JDK: 17.0.20.1 and  21.0.12.1; Oracle GraalVM Enterprise Edition: 21.3.19.1.1. Difficult to exploit vulnerability allows unauthenticated attacker with network access via multiple protocols to compromise Oracle Java SE, Oracle GraalVM for JDK, Oracle GraalVM Enterprise Edition.  Successful attacks of this vulnerability can result in  unauthorized update, insert or delete access to some of Oracle Java SE, Oracle GraalVM for JDK, Oracle GraalVM Enterprise Edition accessible data. Note: This vulnerability can be exploited by using APIs in the specified Component, e.g., through a web service which supplies data to the APIs. This vulnerability also applies to Java deployments, typically in clients running sandboxed Java Web Start applications or sandboxed Java applets, that load and run untrusted code (e.g., code that comes from the internet) and rely on the Java sandbox for security. CVSS 3.1 Base Score 3.7 (Integrity impacts).  CVSS Vector: (CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:N/I:L/A:N).'
+    Severity: LOW
+    VendorSeverity:
+      redhat: 1
+    CVSS:
+      redhat:
+        V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:N/I:L/A:N
+        V3Score: 3.7
+    References:
+    - https://access.redhat.com/security/cve/CVE-2026-87292
+    - https://nvd.nist.gov/vuln/detail/CVE-2026-87292
+    - https://www.cve.org/CVERecord?id=CVE-2026-87292
+    - https://www.oracle.com/security-alerts/cpuoct2026.html
+    PublishedDate: '2026-10-20T22:20:06.16Z'
+    LastModifiedDate: '2026-10-21T18:44:19.627Z'
+  - VulnerabilityID: CVE-2026-87367
+    PkgID: java-21-openjdk-headless@21.0.12.1.1-1.2.el9.x86_64
+    PkgName: java-21-openjdk-headless
+    PkgIdentifier:
+      PURL: pkg:rpm/redhat/java-21-openjdk-headless@21.0.12.1.1-1.2.el9?arch=x86_64&distro=redhat-9.8&epoch=1
+      UID: 4c126643492f40d3
+    InstalledVersion: 1:21.0.12.1.1-1.2.el9
+    Status: affected
+    Layer:
+      Digest: sha256:58f57add85f56d9b053d1e04c30c93098eed7d0ad0daa772a6c7a5969eabfdd2
+      DiffID: sha256:b77f2b11e30cca81a505b20b639cf38b709c3f7dfd8ba080dbb9eb007a66fb7f
+    SeveritySource: redhat
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2026-87367
+    Fingerprint: sha256:981ccaf86e3d7f30c77143c9de93c8309b8aef4cfd56b3a73534e2090fa03b75
+    Title: 'openjdk: Enhance Template Handling (Oracle CPU 2026-10)'
+    Description: 'Vulnerability in the Oracle Java SE, Oracle GraalVM for JDK, Oracle GraalVM Enterprise Edition product of Oracle Java SE (component: JAXP).  Supported versions that are affected are Oracle Java SE: 8u503, 8u503-perf, 11.0.32.1, 17.0.20.1, 21.0.12.1, 25.0.4.1, 27; Oracle GraalVM for JDK: 17.0.20.1 and  21.0.12.1; Oracle GraalVM Enterprise Edition: 21.3.19.1.1. Difficult to exploit vulnerability allows unauthenticated attacker with network access via multiple protocols to compromise Oracle Java SE, Oracle GraalVM for JDK, Oracle GraalVM Enterprise Edition.  Successful attacks of this vulnerability can result in  unauthorized update, insert or delete access to some of Oracle Java SE, Oracle GraalVM for JDK, Oracle GraalVM Enterprise Edition accessible data. Note: This vulnerability can be exploited by using APIs in the specified Component, e.g., through a web service which supplies data to the APIs. This vulnerability also applies to Java deployments, typically in clients running sandboxed Java Web Start applications or sandboxed Java applets, that load and run untrusted code (e.g., code that comes from the internet) and rely on the Java sandbox for security. CVSS 3.1 Base Score 3.7 (Integrity impacts).  CVSS Vector: (CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:N/I:L/A:N).'
+    Severity: LOW
+    VendorSeverity:
+      redhat: 1
+    CVSS:
+      redhat:
+        V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:N/I:L/A:N
+        V3Score: 3.7
+    References:
+    - https://access.redhat.com/security/cve/CVE-2026-87367
+    - https://nvd.nist.gov/vuln/detail/CVE-2026-87367
+    - https://www.cve.org/CVERecord?id=CVE-2026-87367
+    - https://www.oracle.com/security-alerts/cpuoct2026.html
+    PublishedDate: '2026-10-20T22:20:14.727Z'
+    LastModifiedDate: '2026-10-21T18:44:19.627Z'
+  - VulnerabilityID: CVE-2026-91333
+    PkgID: java-21-openjdk-headless@21.0.12.1.1-1.2.el9.x86_64
+    PkgName: java-21-openjdk-headless
+    PkgIdentifier:
+      PURL: pkg:rpm/redhat/java-21-openjdk-headless@21.0.12.1.1-1.2.el9?arch=x86_64&distro=redhat-9.8&epoch=1
+      UID: 4c126643492f40d3
+    InstalledVersion: 1:21.0.12.1.1-1.2.el9
+    Status: affected
+    Layer:
+      Digest: sha256:58f57add85f56d9b053d1e04c30c93098eed7d0ad0daa772a6c7a5969eabfdd2
+      DiffID: sha256:b77f2b11e30cca81a505b20b639cf38b709c3f7dfd8ba080dbb9eb007a66fb7f
+    SeveritySource: redhat
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2026-91333
+    Fingerprint: sha256:42058b8aae1ab3dc38aba713da3a55ea58efa3a959a46a833fc6921f9794d8fa
+    Title: 'openjdk: Improve ciphertext handling (Oracle CPU 2026-10)'
+    Description: 'Vulnerability in Oracle Java SE (component: Security).  Supported versions that are affected are Oracle Java SE: 21.0.12.1, 25.0.4.1 and  27. Difficult to exploit vulnerability allows unauthenticated attacker with network access via multiple protocols to compromise Oracle Java SE.  Successful attacks of this vulnerability can result in  unauthorized update, insert or delete access to some of Oracle Java SE accessible data. Note: This vulnerability can be exploited by using APIs in the specified Component, e.g., through a web service which supplies data to the APIs. This vulnerability also applies to Java deployments, typically in clients running sandboxed Java Web Start applications or sandboxed Java applets, that load and run untrusted code (e.g., code that comes from the internet) and rely on the Java sandbox for security. CVSS 3.1 Base Score 3.7 (Integrity impacts).  CVSS Vector: (CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:N/I:L/A:N).'
+    Severity: LOW
+    VendorSeverity:
+      redhat: 1
+    CVSS:
+      redhat:
+        V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:N/I:L/A:N
+        V3Score: 3.7
+    References:
+    - https://access.redhat.com/security/cve/CVE-2026-91333
+    - https://nvd.nist.gov/vuln/detail/CVE-2026-91333
+    - https://www.cve.org/CVERecord?id=CVE-2026-91333
+    - https://www.oracle.com/security-alerts/cpuoct2026.html
+    PublishedDate: '2026-10-20T22:20:35.51Z'
+    LastModifiedDate: '2026-10-21T18:44:40.02Z'
+  - VulnerabilityID: CVE-2026-91334
+    PkgID: java-21-openjdk-headless@21.0.12.1.1-1.2.el9.x86_64
+    PkgName: java-21-openjdk-headless
+    PkgIdentifier:
+      PURL: pkg:rpm/redhat/java-21-openjdk-headless@21.0.12.1.1-1.2.el9?arch=x86_64&distro=redhat-9.8&epoch=1
+      UID: 4c126643492f40d3
+    InstalledVersion: 1:21.0.12.1.1-1.2.el9
+    Status: affected
+    Layer:
+      Digest: sha256:58f57add85f56d9b053d1e04c30c93098eed7d0ad0daa772a6c7a5969eabfdd2
+      DiffID: sha256:b77f2b11e30cca81a505b20b639cf38b709c3f7dfd8ba080dbb9eb007a66fb7f
+    SeveritySource: redhat
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2026-91334
+    Fingerprint: sha256:81b069603a013e6b9b63b3e3e1f2e4fc163f099fd04fbd0921f23a4dc0aedf47
+    Title: 'openjdk: Enhance JPEG loading (Oracle CPU 2026-10)'
+    Description: 'Vulnerability in the Oracle Java SE, Oracle GraalVM for JDK, Oracle GraalVM Enterprise Edition product of Oracle Java SE (component: ImageIO).  Supported versions that are affected are Oracle Java SE: 8u503, 8u503-perf, 11.0.32.1, 17.0.20.1, 21.0.12.1, 25.0.4.1, 27; Oracle GraalVM for JDK: 17.0.20.1 and  21.0.12.1; Oracle GraalVM Enterprise Edition: 21.3.19.1.1. Difficult to exploit vulnerability allows unauthenticated attacker with network access via multiple protocols to compromise Oracle Java SE, Oracle GraalVM for JDK, Oracle GraalVM Enterprise Edition.  Successful attacks of this vulnerability can result in  unauthorized read access to a subset of Oracle Java SE, Oracle GraalVM for JDK, Oracle GraalVM Enterprise Edition accessible data. Note: This vulnerability can be exploited by using APIs in the specified Component, e.g., through a web service which supplies data to the APIs. This vulnerability also applies to Java deployments, typically in clients running sandboxed Java Web Start applications or sandboxed Java applets, that load and run untrusted code (e.g., code that comes from the internet) and rely on the Java sandbox for security. CVSS 3.1 Base Score 3.7 (Confidentiality impacts).  CVSS Vector: (CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:L/I:N/A:N).'
+    Severity: LOW
+    VendorSeverity:
+      redhat: 1
+    CVSS:
+      redhat:
+        V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:L/I:N/A:N
+        V3Score: 3.7
+    References:
+    - https://access.redhat.com/security/cve/CVE-2026-91334
+    - https://nvd.nist.gov/vuln/detail/CVE-2026-91334
+    - https://www.cve.org/CVERecord?id=CVE-2026-91334
+    - https://www.oracle.com/security-alerts/cpuoct2026.html
+    PublishedDate: '2026-10-20T22:20:35.63Z'
+    LastModifiedDate: '2026-10-21T18:44:40.02Z'
+  - VulnerabilityID: CVE-2026-91335
+    PkgID: java-21-openjdk-headless@21.0.12.1.1-1.2.el9.x86_64
+    PkgName: java-21-openjdk-headless
+    PkgIdentifier:
+      PURL: pkg:rpm/redhat/java-21-openjdk-headless@21.0.12.1.1-1.2.el9?arch=x86_64&distro=redhat-9.8&epoch=1
+      UID: 4c126643492f40d3
+    InstalledVersion: 1:21.0.12.1.1-1.2.el9
+    Status: affected
+    Layer:
+      Digest: sha256:58f57add85f56d9b053d1e04c30c93098eed7d0ad0daa772a6c7a5969eabfdd2
+      DiffID: sha256:b77f2b11e30cca81a505b20b639cf38b709c3f7dfd8ba080dbb9eb007a66fb7f
+    SeveritySource: redhat
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2026-91335
+    Fingerprint: sha256:91487b3c7ae0b554ce49d33ac422aa952c281b06caa43ec8c72e91ff54546640
+    Title: 'openjdk: Enhance Image Handling (Oracle CPU 2026-10)'
+    Description: 'Vulnerability in the Oracle Java SE, Oracle GraalVM for JDK, Oracle GraalVM Enterprise Edition product of Oracle Java SE (component: AWT).  Supported versions that are affected are Oracle Java SE: 8u503, 8u503-perf, 11.0.32.1, 17.0.20.1, 21.0.12.1, 25.0.4.1, 27; Oracle GraalVM for JDK: 17.0.20.1 and  21.0.12.1; Oracle GraalVM Enterprise Edition: 21.3.19.1.1. Difficult to exploit vulnerability allows low privileged attacker with network access via multiple protocols to compromise Oracle Java SE, Oracle GraalVM for JDK, Oracle GraalVM Enterprise Edition.  Successful attacks require human interaction from a person other than the attacker. Successful attacks of this vulnerability can result in  unauthorized read access to a subset of Oracle Java SE, Oracle GraalVM for JDK, Oracle GraalVM Enterprise Edition accessible data. Note: This vulnerability applies to Java deployments, typically in clients running sandboxed Java Web Start applications or sandboxed Java applets, that load and run untrusted code (e.g., code that comes from the internet) and rely on the Java sandbox for security. This vulnerability does not apply to Java deployments, typically in servers, that load and run only trusted code (e.g., code installed by an administrator). CVSS 3.1 Base Score 2.6 (Confidentiality impacts).  CVSS Vector: (CVSS:3.1/AV:N/AC:H/PR:L/UI:R/S:U/C:L/I:N/A:N).'
+    Severity: LOW
+    VendorSeverity:
+      redhat: 1
+    CVSS:
+      redhat:
+        V3Vector: CVSS:3.1/AV:N/AC:H/PR:L/UI:R/S:U/C:L/I:N/A:N
+        V3Score: 2.6
+    References:
+    - https://access.redhat.com/security/cve/CVE-2026-91335
+    - https://nvd.nist.gov/vuln/detail/CVE-2026-91335
+    - https://www.cve.org/CVERecord?id=CVE-2026-91335
+    - https://www.oracle.com/security-alerts/cpuoct2026.html
+    PublishedDate: '2026-10-20T22:20:35.757Z'
+    LastModifiedDate: '2026-10-21T18:44:40.02Z'
+  - VulnerabilityID: CVE-2026-91397
+    PkgID: java-21-openjdk-headless@21.0.12.1.1-1.2.el9.x86_64
+    PkgName: java-21-openjdk-headless
+    PkgIdentifier:
+      PURL: pkg:rpm/redhat/java-21-openjdk-headless@21.0.12.1.1-1.2.el9?arch=x86_64&distro=redhat-9.8&epoch=1
+      UID: 4c126643492f40d3
+    InstalledVersion: 1:21.0.12.1.1-1.2.el9
+    Status: affected
+    Layer:
+      Digest: sha256:58f57add85f56d9b053d1e04c30c93098eed7d0ad0daa772a6c7a5969eabfdd2
+      DiffID: sha256:b77f2b11e30cca81a505b20b639cf38b709c3f7dfd8ba080dbb9eb007a66fb7f
+    SeveritySource: redhat
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2026-91397
+    Fingerprint: sha256:a0ceae601384f40ea3797d9bef52ecbc285d93869e17ed4ec412b8763d7208f6
+    Title: 'openjdk: Enhance diagnostic sessions (Oracle CPU 2026-10)'
+    Description: 'Vulnerability in the Oracle Java SE, Oracle GraalVM for JDK, Oracle GraalVM Enterprise Edition product of Oracle Java SE (component: Serviceability).  Supported versions that are affected are Oracle Java SE: 8u503, 8u503-perf, 11.0.32.1, 17.0.20.1, 21.0.12.1, 25.0.4.1, 27; Oracle GraalVM for JDK: 17.0.20.1 and  21.0.12.1; Oracle GraalVM Enterprise Edition: 21.3.19.1.1. Difficult to exploit vulnerability allows unauthenticated attacker with logon to the infrastructure where Oracle Java SE, Oracle GraalVM for JDK, Oracle GraalVM Enterprise Edition executes to compromise Oracle Java SE, Oracle GraalVM for JDK, Oracle GraalVM Enterprise Edition.  Successful attacks require human interaction from a person other than the attacker. Successful attacks of this vulnerability can result in  unauthorized update, insert or delete access to some of Oracle Java SE, Oracle GraalVM for JDK, Oracle GraalVM Enterprise Edition accessible data and unauthorized ability to cause a partial denial of service (partial DOS) of Oracle Java SE, Oracle GraalVM for JDK, Oracle GraalVM Enterprise Edition. Note: This vulnerability can be exploited by using APIs in the specified Component, e.g., through a web service which supplies data to the APIs. This vulnerability also applies to Java deployments, typically in clients running sandboxed Java Web Start applications or sandboxed Java applets, that load and run untrusted code (e.g., code that comes from the internet) and rely on the Java sandbox for security. CVSS 3.1 Base Score 3.6 (Integrity and Availability impacts).  CVSS Vector: (CVSS:3.1/AV:L/AC:H/PR:N/UI:R/S:U/C:N/I:L/A:L).'
+    Severity: LOW
+    VendorSeverity:
+      redhat: 1
+    CVSS:
+      redhat:
+        V3Vector: CVSS:3.1/AV:L/AC:H/PR:N/UI:R/S:U/C:N/I:L/A:L
+        V3Score: 3.6
+    References:
+    - https://access.redhat.com/security/cve/CVE-2026-91397
+    - https://nvd.nist.gov/vuln/detail/CVE-2026-91397
+    - https://www.cve.org/CVERecord?id=CVE-2026-91397
+    - https://www.oracle.com/security-alerts/cpuoct2026.html
+    PublishedDate: '2026-10-20T22:20:43.083Z'
+    LastModifiedDate: '2026-10-21T18:44:40.02Z'
+  - VulnerabilityID: CVE-2026-91400
+    PkgID: java-21-openjdk-headless@21.0.12.1.1-1.2.el9.x86_64
+    PkgName: java-21-openjdk-headless
+    PkgIdentifier:
+      PURL: pkg:rpm/redhat/java-21-openjdk-headless@21.0.12.1.1-1.2.el9?arch=x86_64&distro=redhat-9.8&epoch=1
+      UID: 4c126643492f40d3
+    InstalledVersion: 1:21.0.12.1.1-1.2.el9
+    Status: affected
+    Layer:
+      Digest: sha256:58f57add85f56d9b053d1e04c30c93098eed7d0ad0daa772a6c7a5969eabfdd2
+      DiffID: sha256:b77f2b11e30cca81a505b20b639cf38b709c3f7dfd8ba080dbb9eb007a66fb7f
+    SeveritySource: redhat
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2026-91400
+    Fingerprint: sha256:4de298c9e22b0e6d74c60f238c546f03d9dd16dbcb0278a3014d270eb02eb46d
+    Title: 'openjdk: Enhance MIDI file handling (Oracle CPU 2026-10)'
+    Description: 'Vulnerability in the Oracle Java SE, Oracle GraalVM for JDK, Oracle GraalVM Enterprise Edition product of Oracle Java SE (component: Sound).  Supported versions that are affected are Oracle Java SE: 8u503, 8u503-perf, 11.0.32.1, 17.0.20.1, 21.0.12.1, 25.0.4.1, 27; Oracle GraalVM for JDK: 17.0.20.1 and  21.0.12.1; Oracle GraalVM Enterprise Edition: 21.3.19.1.1. Difficult to exploit vulnerability allows unauthenticated attacker with network access via multiple protocols to compromise Oracle Java SE, Oracle GraalVM for JDK, Oracle GraalVM Enterprise Edition.  Successful attacks require human interaction from a person other than the attacker. Successful attacks of this vulnerability can result in unauthorized ability to cause a partial denial of service (partial DOS) of Oracle Java SE, Oracle GraalVM for JDK, Oracle GraalVM Enterprise Edition. Note: This vulnerability applies to Java deployments, typically in clients running sandboxed Java Web Start applications or sandboxed Java applets, that load and run untrusted code (e.g., code that comes from the internet) and rely on the Java sandbox for security. This vulnerability does not apply to Java deployments, typically in servers, that load and run only trusted code (e.g., code installed by an administrator). CVSS 3.1 Base Score 3.1 (Availability impacts).  CVSS Vector: (CVSS:3.1/AV:N/AC:H/PR:N/UI:R/S:U/C:N/I:N/A:L).'
+    Severity: LOW
+    VendorSeverity:
+      redhat: 1
+    CVSS:
+      redhat:
+        V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:R/S:U/C:N/I:N/A:L
+        V3Score: 3.1
+    References:
+    - https://access.redhat.com/security/cve/CVE-2026-91400
+    - https://nvd.nist.gov/vuln/detail/CVE-2026-91400
+    - https://www.cve.org/CVERecord?id=CVE-2026-91400
+    - https://www.oracle.com/security-alerts/cpuoct2026.html
+    PublishedDate: '2026-10-20T22:20:43.44Z'
+    LastModifiedDate: '2026-10-21T18:44:40.02Z'
+  - VulnerabilityID: CVE-2026-91409
+    PkgID: java-21-openjdk-headless@21.0.12.1.1-1.2.el9.x86_64
+    PkgName: java-21-openjdk-headless
+    PkgIdentifier:
+      PURL: pkg:rpm/redhat/java-21-openjdk-headless@21.0.12.1.1-1.2.el9?arch=x86_64&distro=redhat-9.8&epoch=1
+      UID: 4c126643492f40d3
+    InstalledVersion: 1:21.0.12.1.1-1.2.el9
+    Status: affected
+    Layer:
+      Digest: sha256:58f57add85f56d9b053d1e04c30c93098eed7d0ad0daa772a6c7a5969eabfdd2
+      DiffID: sha256:b77f2b11e30cca81a505b20b639cf38b709c3f7dfd8ba080dbb9eb007a66fb7f
+    SeveritySource: redhat
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2026-91409
+    Fingerprint: sha256:55623ba42ec5d4c2e55c17ebcdfcd150726ff44ebf259525963f2e0287bf278d
+    Title: 'openjdk: Enhance QUIC connections (Oracle CPU 2026-10)'
+    Description: 'Vulnerability in Oracle Java SE (component: Networking).   The supported version that is affected is Oracle Java SE: 27. Difficult to exploit vulnerability allows unauthenticated attacker with network access via multiple protocols to compromise Oracle Java SE.  Successful attacks of this vulnerability can result in unauthorized ability to cause a partial denial of service (partial DOS) of Oracle Java SE. Note: This vulnerability can be exploited by using APIs in the specified Component, e.g., through a web service which supplies data to the APIs. This vulnerability also applies to Java deployments, typically in clients running sandboxed Java Web Start applications or sandboxed Java applets, that load and run untrusted code (e.g., code that comes from the internet) and rely on the Java sandbox for security. CVSS 3.1 Base Score 3.7 (Availability impacts).  CVSS Vector: (CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:N/I:N/A:L).'
+    Severity: LOW
+    VendorSeverity:
+      redhat: 1
+    CVSS:
+      redhat:
+        V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:N/I:N/A:L
+        V3Score: 3.7
+    References:
+    - https://access.redhat.com/security/cve/CVE-2026-91409
+    - https://nvd.nist.gov/vuln/detail/CVE-2026-91409
+    - https://www.cve.org/CVERecord?id=CVE-2026-91409
+    - https://www.oracle.com/security-alerts/cpuoct2026.html
+    PublishedDate: '2026-10-20T22:20:44.26Z'
+    LastModifiedDate: '2026-10-21T18:44:40.02Z'
+  - VulnerabilityID: CVE-2026-91461
+    PkgID: java-21-openjdk-headless@21.0.12.1.1-1.2.el9.x86_64
+    PkgName: java-21-openjdk-headless
+    PkgIdentifier:
+      PURL: pkg:rpm/redhat/java-21-openjdk-headless@21.0.12.1.1-1.2.el9?arch=x86_64&distro=redhat-9.8&epoch=1
+      UID: 4c126643492f40d3
+    InstalledVersion: 1:21.0.12.1.1-1.2.el9
+    Status: affected
+    Layer:
+      Digest: sha256:58f57add85f56d9b053d1e04c30c93098eed7d0ad0daa772a6c7a5969eabfdd2
+      DiffID: sha256:b77f2b11e30cca81a505b20b639cf38b709c3f7dfd8ba080dbb9eb007a66fb7f
+    SeveritySource: redhat
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2026-91461
+    Fingerprint: sha256:1accce516b088e131a11d71c78eb305540ae3ac687f5598edd26363ad7312d9e
+    Title: 'openjdk: Enhance TLS Extensions (Oracle CPU 2026-10)'
+    Description: 'Vulnerability in the Oracle Java SE, Oracle GraalVM for JDK, Oracle GraalVM Enterprise Edition product of Oracle Java SE (component: JSSE).  Supported versions that are affected are Oracle Java SE: 8u503, 8u503-perf, 11.0.32.1, 17.0.20.1, 21.0.12.1, 25.0.4.1, 27; Oracle GraalVM for JDK: 17.0.20.1 and  21.0.12.1; Oracle GraalVM Enterprise Edition: 21.3.19.1.1. Difficult to exploit vulnerability allows unauthenticated attacker with network access via TLS to compromise Oracle Java SE, Oracle GraalVM for JDK, Oracle GraalVM Enterprise Edition.  Successful attacks of this vulnerability can result in  unauthorized update, insert or delete access to some of Oracle Java SE, Oracle GraalVM for JDK, Oracle GraalVM Enterprise Edition accessible data. Note: This vulnerability can only be exploited by supplying data to APIs in the specified Component without using Untrusted Java Web Start applications or Untrusted Java applets, such as through a web service. CVSS 3.1 Base Score 3.7 (Integrity impacts).  CVSS Vector: (CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:N/I:L/A:N).'
+    Severity: LOW
+    VendorSeverity:
+      redhat: 1
+    CVSS:
+      redhat:
+        V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:N/I:L/A:N
+        V3Score: 3.7
+    References:
+    - https://access.redhat.com/security/cve/CVE-2026-91461
+    - https://nvd.nist.gov/vuln/detail/CVE-2026-91461
+    - https://www.cve.org/CVERecord?id=CVE-2026-91461
+    - https://www.oracle.com/security-alerts/cpuoct2026.html
+    PublishedDate: '2026-10-20T22:20:49.74Z'
+    LastModifiedDate: '2026-10-21T18:44:55.49Z'
   - VulnerabilityID: CVE-2026-107708
     PkgID: krb5-libs@1.21.1-10.el9_8.x86_64
     PkgName: krb5-libs
@@ -7228,7 +8668,19 @@
     PrimaryURL: https://avd.aquasec.com/nvd/cve-2026-92388
     Fingerprint: sha256:0259f984e9d505353d83008a6a12208935bdcdc29aba1ae2f849ab67ec2332f0
     Title: 'curl: curl: FTP wildcard write callback mixup'
-    Description: A flaw was found in curl. A remote malicious server can cause a Denial of Service (DoS) or memory corruption in applications that enable File Transfer Protocol (FTP) wildcard matching. When a wildcard listing operation fails, curl does not properly reset its internal callback handlers before the connection handle is reused or duplicated. An application that subsequently reuses or clones this corrupted handle may experience an immediate application crash or unsafe memory access.
+    Description: |-
+      When an FTP wildcard `LIST` operation fails, libcurl omits the restoration
+      path meant for successful listings, leaving the write callback set to the
+      internal listing parser and the write callback data pointing directly to the
+      easy handle. Subsequent reuse of this handle triggers an immediate crash, and
+      cloning it via `curl_easy_duphandle()` copies this corrupted state into the
+      duplicate. If the original handle is subsequently freed, executing a transfer
+      on the cloned handle causes a heap use-after-free read against the dangling
+      handle reference; alternatively, reusing the original or cloned handle while
+      changing only  `CURLOPT_WRITEDATA` (and omitting `CURLOPT_WRITEFUNCTION`)
+      results in type confusion, forcing the internal parser to interpret incoming
+      server response bytes into memory at the application-supplied write data
+      pointer.
     Severity: MEDIUM
     VendorSeverity:
       redhat: 2
@@ -7240,10 +8692,15 @@
     References:
     - https://access.redhat.com/security/cve/CVE-2026-92388
     - https://curl.se/docs/CVE-2026-92388.html
+    - https://curl.se/docs/CVE-2026-92388.json
+    - https://hackerone.com/reports/4022070
     - https://nvd.nist.gov/vuln/detail/CVE-2026-92388
     - https://ubuntu.com/security/notices/USN-8927-1
     - https://ubuntu.com/security/notices/USN-8927-2
+    - https://ubuntu.com/security/notices/USN-8932-1
     - https://www.cve.org/CVERecord?id=CVE-2026-92388
+    PublishedDate: '2026-10-20T21:17:21.243Z'
+    LastModifiedDate: '2026-10-22T16:57:53.407Z'
   - VulnerabilityID: CVE-2026-9545
     PkgID: libcurl-minimal@7.76.1-40.el9_8.8.x86_64
     PkgName: libcurl-minimal
@@ -8224,7 +9681,11 @@
     PrimaryURL: https://avd.aquasec.com/nvd/cve-2026-86409
     Fingerprint: sha256:a3dd68f8aee177956e7ec2b5b2cb0b2f408ab3a9c4f434be33d9feb78934185f
     Title: 'curl: curl: stale SigV4 headers sent unintended'
-    Description: A flaw was found in curl. When an application attempts to disable Amazon Web Services Signature Version 4 (AWS SigV4) authentication on a reused connection handle, curl fails to clear the setting as expected. If the application subsequently directs a request to an untrusted or attacker-controlled server using the same handle, curl unintentionally transmits the signed authorization header. This flaw allows a remote attacker to obtain access key identifiers and request signatures, leading to information disclosure.
+    Description: |-
+      Setting `CURLOPT_AWS_SIGV4` to NULL but does not disable SigV4 authentication,
+      contrary to expectations and documentation. A subsequent transfer on the same
+      handle still sends an `Authorization: AWS4-HMAC-SHA256` header to whatever URL
+      isset next, leaking state information.
     Severity: LOW
     VendorSeverity:
       redhat: 1
@@ -8236,10 +9697,15 @@
     References:
     - https://access.redhat.com/security/cve/CVE-2026-86409
     - https://curl.se/docs/CVE-2026-86409.html
+    - https://curl.se/docs/CVE-2026-86409.json
+    - https://hackerone.com/reports/3973135
     - https://nvd.nist.gov/vuln/detail/CVE-2026-86409
     - https://ubuntu.com/security/notices/USN-8927-1
     - https://ubuntu.com/security/notices/USN-8927-2
+    - https://ubuntu.com/security/notices/USN-8932-1
     - https://www.cve.org/CVERecord?id=CVE-2026-86409
+    PublishedDate: '2026-10-20T20:17:25.223Z'
+    LastModifiedDate: '2026-10-22T17:21:57.293Z'
   - VulnerabilityID: CVE-2026-86414
     PkgID: libcurl-minimal@7.76.1-40.el9_8.8.x86_64
     PkgName: libcurl-minimal
@@ -8255,7 +9721,11 @@
     PrimaryURL: https://avd.aquasec.com/nvd/cve-2026-86414
     Fingerprint: sha256:a50e763a660cebc0d733b1164eebb099fc79360f9dca9e058ee521c04e2ec442
     Title: 'curl: curl: leaking host credentials to HTTP proxy'
-    Description: A flaw was found in curl. A malicious or compromised HTTP proxy server can trick curl into sending authentication credentials intended for the target destination server directly to the proxy itself. When establishing a connection tunnel, if the proxy replies with an HTTP 401 Unauthorized status code instead of a proxy authentication challenge, curl mishandles the response and transmits the origin server's credentials. This issue leads to information disclosure, allowing an untrusted proxy to intercept sensitive passwords and authentication tokens.
+    Description: |-
+      An HTTP proxy can trick libcurl into sending the origin's credentials (Basic
+      password, or a Negotiate/Kerberos ticket) to the proxy itself, by answering
+      the `CONNECT` tunnel request with 401 `WWW-Authenticate:` instead of the
+      expected 407 `Proxy-Authenticate:`.
     Severity: LOW
     VendorSeverity:
       redhat: 1
@@ -8267,10 +9737,15 @@
     References:
     - https://access.redhat.com/security/cve/CVE-2026-86414
     - https://curl.se/docs/CVE-2026-86414.html
+    - https://curl.se/docs/CVE-2026-86414.json
+    - https://hackerone.com/reports/3993566
     - https://nvd.nist.gov/vuln/detail/CVE-2026-86414
     - https://ubuntu.com/security/notices/USN-8927-1
     - https://ubuntu.com/security/notices/USN-8927-2
+    - https://ubuntu.com/security/notices/USN-8932-1
     - https://www.cve.org/CVERecord?id=CVE-2026-86414
+    PublishedDate: '2026-10-20T21:17:19.947Z'
+    LastModifiedDate: '2026-10-22T16:57:53.407Z'
   - VulnerabilityID: CVE-2026-87864
     PkgID: libcurl-minimal@7.76.1-40.el9_8.8.x86_64
     PkgName: libcurl-minimal
@@ -8286,7 +9761,12 @@
     PrimaryURL: https://avd.aquasec.com/nvd/cve-2026-87864
     Fingerprint: sha256:78e7566d5f961c5df6a7d4589e533a09bc49e14ed2ec8182361f49ac78cd18be
     Title: 'curl: IMAP APPEND plus CRLF conversion command injection'
-    Description: A flaw was found in curl. When curl is configured to perform carriage return and line feed (CRLF) conversion during an Internet Message Access Protocol (IMAP) append operation, it incorrectly reports the raw input size rather than the expanded byte count. Because the receiving server only reads the advertised length as message data, it interprets the remaining overflow bytes as subsequent commands. An attacker capable of supplying message data with line breaks can exploit this issue to execute unauthorized IMAP commands within an authenticated session.
+    Description: |-
+      Enabling `CURLOPT_CRLF` causes curl to advertise the raw input byte count in
+      the `IMAP APPEND {N}` literal while transmitting line-ending expanded data.
+      The server reads only $N$ bytes for the payload, causing the remaining
+      overflow bytes to be interpreted and executed as pipelined IMAP commands
+      within the authenticated session.
     Severity: LOW
     VendorSeverity:
       redhat: 1
@@ -8298,10 +9778,15 @@
     References:
     - https://access.redhat.com/security/cve/CVE-2026-87864
     - https://curl.se/docs/CVE-2026-87864.html
+    - https://curl.se/docs/CVE-2026-87864.json
+    - https://hackerone.com/reports/3972403
     - https://nvd.nist.gov/vuln/detail/CVE-2026-87864
     - https://ubuntu.com/security/notices/USN-8927-1
     - https://ubuntu.com/security/notices/USN-8927-2
+    - https://ubuntu.com/security/notices/USN-8932-1
     - https://www.cve.org/CVERecord?id=CVE-2026-87864
+    PublishedDate: '2026-10-20T21:17:20.497Z'
+    LastModifiedDate: '2026-10-22T17:21:57.293Z'
   - VulnerabilityID: CVE-2026-92389
     PkgID: libcurl-minimal@7.76.1-40.el9_8.8.x86_64
     PkgName: libcurl-minimal
@@ -8317,7 +9802,14 @@
     PrimaryURL: https://avd.aquasec.com/nvd/cve-2026-92389
     Fingerprint: sha256:1dc866435b4ebb8861a00df107fb4a9afffaa594307266b0e986a8bce8df9141
     Title: 'curl: curl: TFTP direction confusion'
-    Description: A flaw was found in curl. When handling Trivial File Transfer Protocol (TFTP) transfers, a malicious server can trigger information disclosure by responding to a download request in a way that forces the client into transmit mode. Consequently, the client may unintentionally send leftover sensitive data from prior operations on a reused connection handle to the attacker's server.
+    Description: |-
+      libcurl's TFTP state machine fails to validate state transitions against the
+      requested transfer direction, accepting opening server responses for both
+      reads and writes interchangeably. A malicious TFTP server can respond to a
+      download request in a way that forces the client into transmit mode, prompting
+      libcurl to consume and transmit data from the handle's persistent
+      `CURLOPT_READDATA` pointer - including data remaining from unrelated prior
+      operations, such as an HTTP POST request executed on a reused handle.
     Severity: LOW
     VendorSeverity:
       redhat: 1
@@ -8329,10 +9821,15 @@
     References:
     - https://access.redhat.com/security/cve/CVE-2026-92389
     - https://curl.se/docs/CVE-2026-92389.html
+    - https://curl.se/docs/CVE-2026-92389.json
+    - https://hackerone.com/reports/4022568
     - https://nvd.nist.gov/vuln/detail/CVE-2026-92389
     - https://ubuntu.com/security/notices/USN-8927-1
     - https://ubuntu.com/security/notices/USN-8927-2
+    - https://ubuntu.com/security/notices/USN-8932-2
     - https://www.cve.org/CVERecord?id=CVE-2026-92389
+    PublishedDate: '2026-10-20T21:17:21.457Z'
+    LastModifiedDate: '2026-10-22T16:57:53.407Z'
   - VulnerabilityID: CVE-2026-92390
     PkgID: libcurl-minimal@7.76.1-40.el9_8.8.x86_64
     PkgName: libcurl-minimal
@@ -8348,7 +9845,14 @@
     PrimaryURL: https://avd.aquasec.com/nvd/cve-2026-92390
     Fingerprint: sha256:39d5d72d56f2dea747d509fce59493693c84b792a5aead10b9f882065ad83f7b
     Title: 'curl: curl: -J no-clobber guarantee bypassed with 103 early hints'
-    Description: A flaw was found in curl. When the command-line tool is executed with the remote header name option to prevent overwriting existing files, a malicious server can bypass this protection by returning an intermediate HTTP 103 (Early Hints) response or through specific header ordering. This flaw allows an attacker controlling a remote server to overwrite existing local files on the client system.
+    Description: |-
+      When invoked with `--remote-header-name` (`-J`), curl fails to preserve its
+      documented anti-clobbering protection if an intermediate 103 Early Hints
+      response precedes the final HTTP response, or if an `ETag` header is processed
+      before `Content-Disposition` under `--etag-save`. This flaw allows an HTTP(S)
+      server to overwrite an existing local file specified in the
+      `Content-Disposition` header despite the presence of the `-J` non-overwrite
+      constraint.
     Severity: LOW
     VendorSeverity:
       redhat: 1
@@ -8360,10 +9864,14 @@
     References:
     - https://access.redhat.com/security/cve/CVE-2026-92390
     - https://curl.se/docs/CVE-2026-92390.html
+    - https://curl.se/docs/CVE-2026-92390.json
+    - https://hackerone.com/reports/4023192
     - https://nvd.nist.gov/vuln/detail/CVE-2026-92390
     - https://ubuntu.com/security/notices/USN-8927-1
     - https://ubuntu.com/security/notices/USN-8927-2
     - https://www.cve.org/CVERecord?id=CVE-2026-92390
+    PublishedDate: '2026-10-20T21:17:21.703Z'
+    LastModifiedDate: '2026-10-22T17:21:57.293Z'
   - VulnerabilityID: CVE-2026-92391
     PkgID: libcurl-minimal@7.76.1-40.el9_8.8.x86_64
     PkgName: libcurl-minimal
@@ -8379,7 +9887,11 @@
     PrimaryURL: https://avd.aquasec.com/nvd/cve-2026-92391
     Fingerprint: sha256:9cf069c932e6156f3b03cff2d30f6072ae74ccd4073ce977c0e21e5acb275d4c
     Title: 'curl: curl: curl_mime_free stack overflow by recursion'
-    Description: A flaw was found in curl. An attacker could supply deeply nested Multipurpose Internet Mail Extensions (MIME) structures to an application utilizing the libcurl library. During memory cleanup in the curl_mime_free function, excessive recursive calls exhaust available stack memory, leading to an application crash and a Denial of Service (DoS).
+    Description: |-
+      A deeply nested multipart MIME structure constructed via the public API causes
+      a stack overflow in libcurl during normal cleanup operations. An excessive
+      recursion depth within `curl_mime_free` leads to unbounded stack frame
+      allocation during structure traversal, ultimately crashing the host process.
     Severity: LOW
     VendorSeverity:
       redhat: 1
@@ -8391,10 +9903,15 @@
     References:
     - https://access.redhat.com/security/cve/CVE-2026-92391
     - https://curl.se/docs/CVE-2026-92391.html
+    - https://curl.se/docs/CVE-2026-92391.json
+    - https://hackerone.com/reports/4024222
     - https://nvd.nist.gov/vuln/detail/CVE-2026-92391
     - https://ubuntu.com/security/notices/USN-8927-1
     - https://ubuntu.com/security/notices/USN-8927-2
+    - https://ubuntu.com/security/notices/USN-8932-1
     - https://www.cve.org/CVERecord?id=CVE-2026-92391
+    PublishedDate: '2026-10-20T21:17:21.92Z'
+    LastModifiedDate: '2026-10-22T17:21:57.293Z'
   - VulnerabilityID: CVE-2026-94266
     PkgID: libcurl-minimal@7.76.1-40.el9_8.8.x86_64
     PkgName: libcurl-minimal
@@ -8410,7 +9927,10 @@
     PrimaryURL: https://avd.aquasec.com/nvd/cve-2026-94266
     Fingerprint: sha256:acbe1419cf88e519de1fd949ea11e9da63bbaa02095f688200850cb594ad87d8
     Title: 'curl: curl: password leak in CURLINFO_EFFECTIVE_URL'
-    Description: A flaw was found in curl. This vulnerability can lead to information disclosure by inadvertently revealing authentication credentials. When curl retrieves credentials from a local configuration file (such as a .netrc file), requesting the effective URL metadata can cause the returned destination address to improperly include those secret credentials. A local user may exploit this issue to view sensitive authentication tokens if an application or script queries and logs or displays the resolved URL.
+    Description: |-
+      libcurl could accidentally return a URL for `curl_easy_getinfo()`'s
+      `CURLINFO_EFFECTIVE_URL` option containing credentials, even though neither
+      the URL provided to libcurl nor the redirected URL did.
     Severity: LOW
     VendorSeverity:
       redhat: 1
@@ -8422,10 +9942,15 @@
     References:
     - https://access.redhat.com/security/cve/CVE-2026-94266
     - https://curl.se/docs/CVE-2026-94266.html
+    - https://curl.se/docs/CVE-2026-94266.json
+    - https://hackerone.com/reports/4041053
     - https://nvd.nist.gov/vuln/detail/CVE-2026-94266
     - https://ubuntu.com/security/notices/USN-8927-1
     - https://ubuntu.com/security/notices/USN-8927-2
+    - https://ubuntu.com/security/notices/USN-8932-1
     - https://www.cve.org/CVERecord?id=CVE-2026-94266
+    PublishedDate: '2026-10-20T21:17:22.29Z'
+    LastModifiedDate: '2026-10-22T16:57:53.407Z'
   - VulnerabilityID: CVE-2026-102010
     PkgID: libgcc@11.5.0-14.el9.x86_64
     PkgName: libgcc
@@ -8633,6 +10158,102 @@
     - https://www.openwall.com/lists/oss-security/2026/04/21/1
     PublishedDate: '2026-04-23T05:16:05.897Z'
     LastModifiedDate: '2026-06-17T10:47:18.257Z'
+  - VulnerabilityID: CVE-2026-92822
+    PkgID: libmodulemd@2.13.0-2.el9.x86_64
+    PkgName: libmodulemd
+    PkgIdentifier:
+      PURL: pkg:rpm/redhat/libmodulemd@2.13.0-2.el9?arch=x86_64&distro=redhat-9.8
+      UID: d5e8637fd896b72a
+    InstalledVersion: 2.13.0-2.el9
+    Status: affected
+    Layer:
+      Digest: sha256:58f57add85f56d9b053d1e04c30c93098eed7d0ad0daa772a6c7a5969eabfdd2
+      DiffID: sha256:b77f2b11e30cca81a505b20b639cf38b709c3f7dfd8ba080dbb9eb007a66fb7f
+    SeveritySource: redhat
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2026-92822
+    Fingerprint: sha256:7acc335eb85377b6b53e7930165c71ae940c9631f730b5d4eb0811ed1dce4e8c
+    Title: 'libmodulemd: libmodulemd: unbounded recursion when parsing nested xmd YAML'
+    Description: A flaw was found in libmodulemd. When parsing module metadata, the xmd field is converted into nested GVariant values through recursive YAML mapping and sequence helpers without a recursion-depth or node-count limit. An attacker who can supply crafted modulemd YAML with deeply nested xmd content can cause stack exhaustion or excessive resource consumption, resulting in a denial of service.
+    Severity: MEDIUM
+    CweIDs:
+    - CWE-674
+    VendorSeverity:
+      redhat: 2
+    CVSS:
+      redhat:
+        V3Vector: CVSS:3.1/AV:L/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H
+        V3Score: 6.2
+    References:
+    - https://access.redhat.com/security/cve/CVE-2026-92822
+    - https://bugzilla.redhat.com/show_bug.cgi?id=2479002
+    - https://nvd.nist.gov/vuln/detail/CVE-2026-92822
+    - https://www.cve.org/CVERecord?id=CVE-2026-92822
+    PublishedDate: '2026-10-21T04:18:11.98Z'
+    LastModifiedDate: '2026-10-22T15:25:35.333Z'
+  - VulnerabilityID: CVE-2026-92823
+    PkgID: libmodulemd@2.13.0-2.el9.x86_64
+    PkgName: libmodulemd
+    PkgIdentifier:
+      PURL: pkg:rpm/redhat/libmodulemd@2.13.0-2.el9?arch=x86_64&distro=redhat-9.8
+      UID: d5e8637fd896b72a
+    InstalledVersion: 2.13.0-2.el9
+    Status: affected
+    Layer:
+      Digest: sha256:58f57add85f56d9b053d1e04c30c93098eed7d0ad0daa772a6c7a5969eabfdd2
+      DiffID: sha256:b77f2b11e30cca81a505b20b639cf38b709c3f7dfd8ba080dbb9eb007a66fb7f
+    SeveritySource: redhat
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2026-92823
+    Fingerprint: sha256:b75b6dc76689100168125557f89a035b37640f41a8a8ea46f0a2eefa1d0fa1df
+    Title: 'libmodulemd: libmodulemd: missing decompressed-size limit when parsing compressed YAML'
+    Description: A flaw was found in libmodulemd. In builds with rpmio support enabled, compressed modulemd YAML is decompressed through a custom read handler that does not enforce a cumulative decompressed-size limit before parsing. An attacker who can supply a highly compressible compressed YAML file can cause excessive CPU and memory consumption, resulting in a denial of service.
+    Severity: MEDIUM
+    CweIDs:
+    - CWE-409
+    VendorSeverity:
+      redhat: 2
+    CVSS:
+      redhat:
+        V3Vector: CVSS:3.1/AV:L/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H
+        V3Score: 6.2
+    References:
+    - https://access.redhat.com/security/cve/CVE-2026-92823
+    - https://bugzilla.redhat.com/show_bug.cgi?id=2478703
+    - https://nvd.nist.gov/vuln/detail/CVE-2026-92823
+    - https://www.cve.org/CVERecord?id=CVE-2026-92823
+    PublishedDate: '2026-10-21T04:18:12.127Z'
+    LastModifiedDate: '2026-10-22T15:25:35.333Z'
+  - VulnerabilityID: CVE-2026-92824
+    PkgID: libmodulemd@2.13.0-2.el9.x86_64
+    PkgName: libmodulemd
+    PkgIdentifier:
+      PURL: pkg:rpm/redhat/libmodulemd@2.13.0-2.el9?arch=x86_64&distro=redhat-9.8
+      UID: d5e8637fd896b72a
+    InstalledVersion: 2.13.0-2.el9
+    Status: affected
+    Layer:
+      Digest: sha256:58f57add85f56d9b053d1e04c30c93098eed7d0ad0daa772a6c7a5969eabfdd2
+      DiffID: sha256:b77f2b11e30cca81a505b20b639cf38b709c3f7dfd8ba080dbb9eb007a66fb7f
+    SeveritySource: redhat
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2026-92824
+    Fingerprint: sha256:bc61a8fc1184616e9f096b844b98895a6aeffd805e45f5812e449621dcc58d90
+    Title: 'libmodulemd: libmodulemd: out-of-bounds read when emitting rpm-map artifacts'
+    Description: A flaw was found in libmodulemd. In the module stream v2 rpm-map emission path, an inner loop incorrectly uses the count of digest algorithms as its bound instead of the number of checksums in the current digest table. Crafted modulemd v2 metadata with multiple digest types can trigger an out-of-bounds read during YAML serialization, typically causing a crash and resulting in a denial of service.
+    Severity: MEDIUM
+    CweIDs:
+    - CWE-125
+    VendorSeverity:
+      redhat: 2
+    CVSS:
+      redhat:
+        V3Vector: CVSS:3.1/AV:L/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H
+        V3Score: 6.2
+    References:
+    - https://access.redhat.com/security/cve/CVE-2026-92824
+    - https://bugzilla.redhat.com/show_bug.cgi?id=2478495
+    - https://nvd.nist.gov/vuln/detail/CVE-2026-92824
+    - https://www.cve.org/CVERecord?id=CVE-2026-92824
+    PublishedDate: '2026-10-21T04:18:12.263Z'
+    LastModifiedDate: '2026-10-22T15:25:35.333Z'
   - VulnerabilityID: CVE-2026-53613
     PkgID: libmount@2.37.4-25.el9.x86_64
     PkgName: libmount
@@ -9060,7 +10681,7 @@
     - https://nvd.nist.gov/vuln/detail/CVE-2026-82327
     - https://www.cve.org/CVERecord?id=CVE-2026-82327
     PublishedDate: '2026-08-28T16:18:34.067Z'
-    LastModifiedDate: '2026-08-28T20:20:21.063Z'
+    LastModifiedDate: '2026-10-21T21:19:17.353Z'
   - VulnerabilityID: CVE-2026-9149
     PkgID: libsolv@0.7.24-6.el9_8.x86_64
     PkgName: libsolv
@@ -12000,71 +13621,6 @@
     - https://www.cve.org/CVERecord?id=CVE-2026-42765
     PublishedDate: '2026-06-09T17:17:07.843Z'
     LastModifiedDate: '2026-07-23T08:10:00.137Z'
-  - VulnerabilityID: CVE-2026-75803
-    PkgID: openssl@3.5.8-2.el9_8.x86_64
-    PkgName: openssl
-    PkgIdentifier:
-      PURL: pkg:rpm/redhat/openssl@3.5.8-2.el9_8?arch=x86_64&distro=redhat-9.8&epoch=1
-      UID: 8d8e5404b4b3c913
-    InstalledVersion: 1:3.5.8-2.el9_8
-    Status: affected
-    Layer:
-      Digest: sha256:58f57add85f56d9b053d1e04c30c93098eed7d0ad0daa772a6c7a5969eabfdd2
-      DiffID: sha256:b77f2b11e30cca81a505b20b639cf38b709c3f7dfd8ba080dbb9eb007a66fb7f
-    SeveritySource: redhat
-    PrimaryURL: https://avd.aquasec.com/nvd/cve-2026-75803
-    Fingerprint: sha256:3e213c0c01fd754f815442d2bf69a5cd52f6c1841938dccf9bb7815f808fb6b6
-    Title: 'openssl: openssl: AEAD forgeries possible with empty ciphertext in EVP_Cipher()'
-    Description: |-
-      Issue summary: ChaCha20-Poly1305 and AES-OCB decryption with an empty
-      ciphertext can report success without verifying the supplied authentication
-      tag when the operation is finalized by calling the EVP_Cipher() function.
-
-      Impact summary: Applications calling EVP_Cipher() on an empty ciphertext and
-      expecting the call to check the AEAD tag may accept forged messages.
-
-      CWE: CWE-354 (Improper Validation of Integrity Check Value)
-
-      Description: The EVP_Cipher() API call for AEAD ciphers behaves like a one
-      shot encryption and decryption call. It also verifies the AEAD tag after the
-      decryption operation. However for AES-OCB and ChaCha20-Poly1305 ciphers
-      it skipped the AEAD tag verification when an empty ciphertext was passed to
-      the function. The callers of this function might believe that a successful
-      return indicates a valid AEAD tag for these ciphers, even when that has not
-      truly been validated in this case.
-
-      FIPS impact: no
-      The FIPS modules in 4.0, 3.6, 3.5, 3.4, and 3.0 are not affected by this CVE
-      as the affected algorithms are not FIPS approved and thus not implemented
-      in the FIPS module.
-    Severity: LOW
-    CweIDs:
-    - CWE-354
-    VendorSeverity:
-      amazon: 3
-      azure: 2
-      photon: 4
-      redhat: 1
-      ubuntu: 1
-    CVSS:
-      redhat:
-        V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:N/I:L/A:N
-        V3Score: 3.7
-    References:
-    - https://access.redhat.com/security/cve/CVE-2026-75803
-    - https://github.com/openssl/openssl/commit/119ab9555dc62275bbd71f6f49529b1a44feba42
-    - https://github.com/openssl/openssl/commit/3621257986e27e540bf96a11570929a6e5a9e05b
-    - https://github.com/openssl/openssl/commit/6c7aa6f8f6449b7fe0137ee8be65fcd239bd7d6a
-    - https://github.com/openssl/openssl/commit/bdeb0cd994d915342787f117ee75044f0dc36f34
-    - https://github.com/openssl/openssl/commit/bf95f5f772e9362f87b25cfa2f8cb15d984865b9
-    - https://nvd.nist.gov/vuln/detail/CVE-2026-75803
-    - https://openssl-library.org/news/secadv/20260825.txt
-    - https://ubuntu.com/security/notices/USN-8678-1
-    - https://ubuntu.com/security/notices/USN-8678-3
-    - https://ubuntu.com/security/notices/USN-8865-1
-    - https://www.cve.org/CVERecord?id=CVE-2026-75803
-    PublishedDate: '2026-08-25T13:19:29.57Z'
-    LastModifiedDate: '2026-09-11T21:17:17.823Z'
   - VulnerabilityID: CVE-2026-42772
     PkgID: openssl-libs@3.5.8-2.el9_8.x86_64
     PkgName: openssl-libs
@@ -13662,71 +15218,6 @@
     - https://www.cve.org/CVERecord?id=CVE-2026-42765
     PublishedDate: '2026-06-09T17:17:07.843Z'
     LastModifiedDate: '2026-07-23T08:10:00.137Z'
-  - VulnerabilityID: CVE-2026-75803
-    PkgID: openssl-libs@3.5.8-2.el9_8.x86_64
-    PkgName: openssl-libs
-    PkgIdentifier:
-      PURL: pkg:rpm/redhat/openssl-libs@3.5.8-2.el9_8?arch=x86_64&distro=redhat-9.8&epoch=1
-      UID: bf2dc8826e159f58
-    InstalledVersion: 1:3.5.8-2.el9_8
-    Status: affected
-    Layer:
-      Digest: sha256:58f57add85f56d9b053d1e04c30c93098eed7d0ad0daa772a6c7a5969eabfdd2
-      DiffID: sha256:b77f2b11e30cca81a505b20b639cf38b709c3f7dfd8ba080dbb9eb007a66fb7f
-    SeveritySource: redhat
-    PrimaryURL: https://avd.aquasec.com/nvd/cve-2026-75803
-    Fingerprint: sha256:934ee392e75f147b7c52ea3b7a23e1f361bbae2bbf1b9c4f24b1f82994d58683
-    Title: 'openssl: openssl: AEAD forgeries possible with empty ciphertext in EVP_Cipher()'
-    Description: |-
-      Issue summary: ChaCha20-Poly1305 and AES-OCB decryption with an empty
-      ciphertext can report success without verifying the supplied authentication
-      tag when the operation is finalized by calling the EVP_Cipher() function.
-
-      Impact summary: Applications calling EVP_Cipher() on an empty ciphertext and
-      expecting the call to check the AEAD tag may accept forged messages.
-
-      CWE: CWE-354 (Improper Validation of Integrity Check Value)
-
-      Description: The EVP_Cipher() API call for AEAD ciphers behaves like a one
-      shot encryption and decryption call. It also verifies the AEAD tag after the
-      decryption operation. However for AES-OCB and ChaCha20-Poly1305 ciphers
-      it skipped the AEAD tag verification when an empty ciphertext was passed to
-      the function. The callers of this function might believe that a successful
-      return indicates a valid AEAD tag for these ciphers, even when that has not
-      truly been validated in this case.
-
-      FIPS impact: no
-      The FIPS modules in 4.0, 3.6, 3.5, 3.4, and 3.0 are not affected by this CVE
-      as the affected algorithms are not FIPS approved and thus not implemented
-      in the FIPS module.
-    Severity: LOW
-    CweIDs:
-    - CWE-354
-    VendorSeverity:
-      amazon: 3
-      azure: 2
-      photon: 4
-      redhat: 1
-      ubuntu: 1
-    CVSS:
-      redhat:
-        V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:N/I:L/A:N
-        V3Score: 3.7
-    References:
-    - https://access.redhat.com/security/cve/CVE-2026-75803
-    - https://github.com/openssl/openssl/commit/119ab9555dc62275bbd71f6f49529b1a44feba42
-    - https://github.com/openssl/openssl/commit/3621257986e27e540bf96a11570929a6e5a9e05b
-    - https://github.com/openssl/openssl/commit/6c7aa6f8f6449b7fe0137ee8be65fcd239bd7d6a
-    - https://github.com/openssl/openssl/commit/bdeb0cd994d915342787f117ee75044f0dc36f34
-    - https://github.com/openssl/openssl/commit/bf95f5f772e9362f87b25cfa2f8cb15d984865b9
-    - https://nvd.nist.gov/vuln/detail/CVE-2026-75803
-    - https://openssl-library.org/news/secadv/20260825.txt
-    - https://ubuntu.com/security/notices/USN-8678-1
-    - https://ubuntu.com/security/notices/USN-8678-3
-    - https://ubuntu.com/security/notices/USN-8865-1
-    - https://www.cve.org/CVERecord?id=CVE-2026-75803
-    PublishedDate: '2026-08-25T13:19:29.57Z'
-    LastModifiedDate: '2026-09-11T21:17:17.823Z'
   - VulnerabilityID: CVE-2026-12610
     PkgID: pam@1.5.1-28.el9_8.1.x86_64
     PkgName: pam
@@ -14081,7 +15572,7 @@
       PURL: pkg:rpm/redhat/python-unversioned-command@3.9.25-7.el9_8.3?arch=noarch&distro=redhat-9.8
       UID: a0671bc328bf1aa0
     InstalledVersion: 3.9.25-7.el9_8.3
-    Status: end_of_life
+    Status: affected
     Layer:
       Digest: sha256:58f57add85f56d9b053d1e04c30c93098eed7d0ad0daa772a6c7a5969eabfdd2
       DiffID: sha256:b77f2b11e30cca81a505b20b639cf38b709c3f7dfd8ba080dbb9eb007a66fb7f
@@ -14121,8 +15612,9 @@
     References:
     - http://www.openwall.com/lists/oss-security/2026/09/30/17
     - https://access.redhat.com/errata/RHSA-2026:77021
-    - https://access.redhat.com/errata/RHSA-2026:77028
+    - https://access.redhat.com/errata/RHSA-2026:85239
     - https://access.redhat.com/security/cve/CVE-2026-19445
+    - https://bugzilla.redhat.com/2543492
     - https://bugzilla.redhat.com/2544127
     - https://bugzilla.redhat.com/2544138
     - https://bugzilla.redhat.com/show_bug.cgi?id=2544127
@@ -14130,7 +15622,7 @@
     - https://creativecommons.org/licenses/by/4.0/
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-19445
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-19553
-    - https://errata.almalinux.org/8/ALSA-2026-77028.html
+    - https://errata.almalinux.org/8/ALSA-2026-85239.html
     - https://errata.rockylinux.org/RLSA-2026:77021
     - https://github.com/python/cpython/commit/34a53dce8174da2fceb12fe084a4def02a10053d
     - https://github.com/python/cpython/commit/46133cd57d309652139ada74014aca7665ac552b
@@ -14142,7 +15634,7 @@
     - https://github.com/python/cpython/issues/156293
     - https://github.com/python/cpython/pull/158504
     - https://linux.oracle.com/cve/CVE-2026-19445.html
-    - https://linux.oracle.com/errata/ELSA-2026-77028.html
+    - https://linux.oracle.com/errata/ELSA-2026-85239.html
     - https://mail.python.org/archives/list/security-announce@python.org/thread/QMQIUQB6WGGC3MI7I3WKQXOYOBDSPPS3/
     - https://nvd.nist.gov/vuln/detail/CVE-2026-19445
     - https://www.cve.org/CVERecord?id=CVE-2026-19445
@@ -14155,7 +15647,7 @@
       PURL: pkg:rpm/redhat/python-unversioned-command@3.9.25-7.el9_8.3?arch=noarch&distro=redhat-9.8
       UID: a0671bc328bf1aa0
     InstalledVersion: 3.9.25-7.el9_8.3
-    Status: end_of_life
+    Status: affected
     Layer:
       Digest: sha256:58f57add85f56d9b053d1e04c30c93098eed7d0ad0daa772a6c7a5969eabfdd2
       DiffID: sha256:b77f2b11e30cca81a505b20b639cf38b709c3f7dfd8ba080dbb9eb007a66fb7f
@@ -14209,8 +15701,9 @@
     References:
     - http://www.openwall.com/lists/oss-security/2026/09/30/16
     - https://access.redhat.com/errata/RHSA-2026:77021
-    - https://access.redhat.com/errata/RHSA-2026:77028
+    - https://access.redhat.com/errata/RHSA-2026:85239
     - https://access.redhat.com/security/cve/CVE-2026-19553
+    - https://bugzilla.redhat.com/2543492
     - https://bugzilla.redhat.com/2544127
     - https://bugzilla.redhat.com/2544138
     - https://bugzilla.redhat.com/show_bug.cgi?id=2544127
@@ -14218,7 +15711,7 @@
     - https://creativecommons.org/licenses/by/4.0/
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-19445
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-19553
-    - https://errata.almalinux.org/8/ALSA-2026-77028.html
+    - https://errata.almalinux.org/8/ALSA-2026-85239.html
     - https://errata.rockylinux.org/RLSA-2026:77021
     - https://github.com/python/cpython/commit/1697ea386c707142555d98a1263176bbbc014a96
     - https://github.com/python/cpython/commit/5867d4e4ae6d1062352baf6b497a4026e8578ccf
@@ -14230,44 +15723,12 @@
     - https://github.com/python/cpython/issues/156793
     - https://github.com/python/cpython/pull/158503
     - https://linux.oracle.com/cve/CVE-2026-19553.html
-    - https://linux.oracle.com/errata/ELSA-2026-77028.html
+    - https://linux.oracle.com/errata/ELSA-2026-85239.html
     - https://mail.python.org/archives/list/security-announce@python.org/thread/QNZRG3YOAMTHDCMVCICXGY6YEFPY2VDL/
     - https://nvd.nist.gov/vuln/detail/CVE-2026-19553
     - https://www.cve.org/CVERecord?id=CVE-2026-19553
     PublishedDate: '2026-09-30T17:16:45.88Z'
     LastModifiedDate: '2026-10-16T19:17:06.673Z'
-  - VulnerabilityID: CVE-2026-79824
-    PkgID: python-unversioned-command@3.9.25-7.el9_8.3.noarch
-    PkgName: python-unversioned-command
-    PkgIdentifier:
-      PURL: pkg:rpm/redhat/python-unversioned-command@3.9.25-7.el9_8.3?arch=noarch&distro=redhat-9.8
-      UID: a0671bc328bf1aa0
-    InstalledVersion: 3.9.25-7.el9_8.3
-    Status: affected
-    Layer:
-      Digest: sha256:58f57add85f56d9b053d1e04c30c93098eed7d0ad0daa772a6c7a5969eabfdd2
-      DiffID: sha256:b77f2b11e30cca81a505b20b639cf38b709c3f7dfd8ba080dbb9eb007a66fb7f
-    SeveritySource: redhat
-    PrimaryURL: https://avd.aquasec.com/nvd/cve-2026-79824
-    Fingerprint: sha256:f59d3d0541282fd77e4e3078e210693acd2507cc04f13fb5bcf0740b080f51e0
-    Title: 'python: python: Arbitrary file overwrite via directory traversal in TAR archives'
-    Description: "A directory traversal vulnerability in\_HPE NonStop Python 3.x could allow\_ attackers to overwrite arbitrary files via a .. (dot dot) sequence in filenames in a TAR archive."
-    Severity: HIGH
-    CweIDs:
-    - CWE-30
-    VendorSeverity:
-      redhat: 3
-    CVSS:
-      redhat:
-        V3Vector: CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H
-        V3Score: 7.8
-    References:
-    - https://access.redhat.com/security/cve/CVE-2026-79824
-    - https://nvd.nist.gov/vuln/detail/CVE-2026-79824
-    - https://support.hpe.com/hpesc/public/docDisplay?docId=hpesbns05148en_us&docLocale=en_US
-    - https://www.cve.org/CVERecord?id=CVE-2026-79824
-    PublishedDate: '2026-10-15T10:17:15.483Z'
-    LastModifiedDate: '2026-10-15T16:23:06.25Z'
   - VulnerabilityID: CVE-2025-11468
     PkgID: python-unversioned-command@3.9.25-7.el9_8.3.noarch
     PkgName: python-unversioned-command
@@ -14288,7 +15749,7 @@
     CweIDs:
     - CWE-93
     VendorSeverity:
-      amazon: 3
+      amazon: 2
       azure: 2
       bitnami: 2
       photon: 2
@@ -14479,7 +15940,7 @@
     - CWE-93
     VendorSeverity:
       alma: 3
-      amazon: 3
+      amazon: 2
       bitnami: 2
       oracle-oval: 3
       photon: 2
@@ -14573,7 +16034,7 @@
     - CWE-416
     VendorSeverity:
       alma: 3
-      amazon: 3
+      amazon: 2
       azure: 2
       bitnami: 2
       cbl-mariner: 2
@@ -14672,7 +16133,7 @@
     - CWE-93
     VendorSeverity:
       alma: 3
-      amazon: 3
+      amazon: 2
       azure: 2
       bitnami: 2
       cbl-mariner: 2
@@ -14776,6 +16237,7 @@
       azure: 2
       bitnami: 2
       nvd: 2
+      photon: 2
       redhat: 2
     CVSS:
       bitnami:
@@ -14873,8 +16335,11 @@
     CweIDs:
     - CWE-59
     VendorSeverity:
+      alma: 3
       bitnami: 2
+      oracle-oval: 3
       redhat: 2
+      rocky: 3
     CVSS:
       bitnami:
         V40Vector: CVSS:4.0/AV:L/AC:L/AT:P/PR:N/UI:N/VC:N/VI:H/VA:H/SC:N/SI:N/SA:N
@@ -14884,7 +16349,20 @@
         V3Score: 6.3
     References:
     - http://www.openwall.com/lists/oss-security/2026/09/29/40
+    - https://access.redhat.com/errata/RHSA-2026:85239
     - https://access.redhat.com/security/cve/CVE-2026-12345
+    - https://bugzilla.redhat.com/2543492
+    - https://bugzilla.redhat.com/2544127
+    - https://bugzilla.redhat.com/2544138
+    - https://bugzilla.redhat.com/show_bug.cgi?id=2543492
+    - https://bugzilla.redhat.com/show_bug.cgi?id=2544127
+    - https://bugzilla.redhat.com/show_bug.cgi?id=2544138
+    - https://creativecommons.org/licenses/by/4.0/
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-12345
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-19445
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-19553
+    - https://errata.almalinux.org/8/ALSA-2026-85239.html
+    - https://errata.rockylinux.org/RLSA-2026:85239
     - https://github.com/python/cpython/commit/06ef3d43fdaf4da97af12fa694b4886092c4b970
     - https://github.com/python/cpython/commit/458e7134a5af7f86aee9d21b51cf499b41aa4420
     - https://github.com/python/cpython/commit/58ed0259cae509a19138795df302fe60b544dc74
@@ -14892,10 +16370,12 @@
     - https://github.com/python/cpython/commit/e1f3590f155c6d66007e958c98c9d69316551993
     - https://github.com/python/cpython/issues/157579
     - https://github.com/python/cpython/pull/157580
+    - https://linux.oracle.com/cve/CVE-2026-12345.html
+    - https://linux.oracle.com/errata/ELSA-2026-85239.html
     - https://nvd.nist.gov/vuln/detail/CVE-2026-12345
     - https://www.cve.org/CVERecord?id=CVE-2026-12345
     PublishedDate: '2026-09-29T18:17:14.707Z'
-    LastModifiedDate: '2026-10-10T01:16:37.85Z'
+    LastModifiedDate: '2026-10-22T01:16:58.89Z'
   - VulnerabilityID: CVE-2026-1502
     PkgID: python-unversioned-command@3.9.25-7.el9_8.3.noarch
     PkgName: python-unversioned-command
@@ -15023,6 +16503,7 @@
     VendorSeverity:
       azure: 2
       bitnami: 2
+      photon: 2
       redhat: 2
     CVSS:
       bitnami:
@@ -15067,6 +16548,7 @@
       amazon: 3
       azure: 2
       bitnami: 2
+      photon: 2
       redhat: 2
       ubuntu: 2
     CVSS:
@@ -15118,7 +16600,7 @@
     - CWE-116
     VendorSeverity:
       alma: 3
-      amazon: 3
+      amazon: 2
       azure: 2
       nvd: 3
       oracle-oval: 3
@@ -15216,7 +16698,7 @@
     - CWE-674
     VendorSeverity:
       alma: 3
-      amazon: 3
+      amazon: 2
       azure: 2
       bitnami: 3
       nvd: 3
@@ -15507,7 +16989,7 @@
     - CWE-116
     VendorSeverity:
       alma: 3
-      amazon: 2
+      amazon: 3
       bitnami: 2
       nvd: 2
       oracle-oval: 3
@@ -15628,6 +17110,7 @@
       amazon: 3
       azure: 2
       bitnami: 2
+      photon: 2
       redhat: 2
       ubuntu: 2
     CVSS:
@@ -15783,6 +17266,7 @@
       amazon: 1
       azure: 1
       bitnami: 1
+      photon: 1
       redhat: 1
     CVSS:
       bitnami:
@@ -15919,7 +17403,7 @@
     CweIDs:
     - CWE-22
     VendorSeverity:
-      amazon: 2
+      amazon: 3
       photon: 3
       redhat: 1
     CVSS:
@@ -15946,7 +17430,7 @@
       PURL: pkg:rpm/redhat/python3@3.9.25-7.el9_8.3?arch=x86_64&distro=redhat-9.8
       UID: 3f4efa43782a8ae0
     InstalledVersion: 3.9.25-7.el9_8.3
-    Status: end_of_life
+    Status: affected
     Layer:
       Digest: sha256:58f57add85f56d9b053d1e04c30c93098eed7d0ad0daa772a6c7a5969eabfdd2
       DiffID: sha256:b77f2b11e30cca81a505b20b639cf38b709c3f7dfd8ba080dbb9eb007a66fb7f
@@ -15986,8 +17470,9 @@
     References:
     - http://www.openwall.com/lists/oss-security/2026/09/30/17
     - https://access.redhat.com/errata/RHSA-2026:77021
-    - https://access.redhat.com/errata/RHSA-2026:77028
+    - https://access.redhat.com/errata/RHSA-2026:85239
     - https://access.redhat.com/security/cve/CVE-2026-19445
+    - https://bugzilla.redhat.com/2543492
     - https://bugzilla.redhat.com/2544127
     - https://bugzilla.redhat.com/2544138
     - https://bugzilla.redhat.com/show_bug.cgi?id=2544127
@@ -15995,7 +17480,7 @@
     - https://creativecommons.org/licenses/by/4.0/
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-19445
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-19553
-    - https://errata.almalinux.org/8/ALSA-2026-77028.html
+    - https://errata.almalinux.org/8/ALSA-2026-85239.html
     - https://errata.rockylinux.org/RLSA-2026:77021
     - https://github.com/python/cpython/commit/34a53dce8174da2fceb12fe084a4def02a10053d
     - https://github.com/python/cpython/commit/46133cd57d309652139ada74014aca7665ac552b
@@ -16007,7 +17492,7 @@
     - https://github.com/python/cpython/issues/156293
     - https://github.com/python/cpython/pull/158504
     - https://linux.oracle.com/cve/CVE-2026-19445.html
-    - https://linux.oracle.com/errata/ELSA-2026-77028.html
+    - https://linux.oracle.com/errata/ELSA-2026-85239.html
     - https://mail.python.org/archives/list/security-announce@python.org/thread/QMQIUQB6WGGC3MI7I3WKQXOYOBDSPPS3/
     - https://nvd.nist.gov/vuln/detail/CVE-2026-19445
     - https://www.cve.org/CVERecord?id=CVE-2026-19445
@@ -16020,7 +17505,7 @@
       PURL: pkg:rpm/redhat/python3@3.9.25-7.el9_8.3?arch=x86_64&distro=redhat-9.8
       UID: 3f4efa43782a8ae0
     InstalledVersion: 3.9.25-7.el9_8.3
-    Status: end_of_life
+    Status: affected
     Layer:
       Digest: sha256:58f57add85f56d9b053d1e04c30c93098eed7d0ad0daa772a6c7a5969eabfdd2
       DiffID: sha256:b77f2b11e30cca81a505b20b639cf38b709c3f7dfd8ba080dbb9eb007a66fb7f
@@ -16074,8 +17559,9 @@
     References:
     - http://www.openwall.com/lists/oss-security/2026/09/30/16
     - https://access.redhat.com/errata/RHSA-2026:77021
-    - https://access.redhat.com/errata/RHSA-2026:77028
+    - https://access.redhat.com/errata/RHSA-2026:85239
     - https://access.redhat.com/security/cve/CVE-2026-19553
+    - https://bugzilla.redhat.com/2543492
     - https://bugzilla.redhat.com/2544127
     - https://bugzilla.redhat.com/2544138
     - https://bugzilla.redhat.com/show_bug.cgi?id=2544127
@@ -16083,7 +17569,7 @@
     - https://creativecommons.org/licenses/by/4.0/
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-19445
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-19553
-    - https://errata.almalinux.org/8/ALSA-2026-77028.html
+    - https://errata.almalinux.org/8/ALSA-2026-85239.html
     - https://errata.rockylinux.org/RLSA-2026:77021
     - https://github.com/python/cpython/commit/1697ea386c707142555d98a1263176bbbc014a96
     - https://github.com/python/cpython/commit/5867d4e4ae6d1062352baf6b497a4026e8578ccf
@@ -16095,44 +17581,12 @@
     - https://github.com/python/cpython/issues/156793
     - https://github.com/python/cpython/pull/158503
     - https://linux.oracle.com/cve/CVE-2026-19553.html
-    - https://linux.oracle.com/errata/ELSA-2026-77028.html
+    - https://linux.oracle.com/errata/ELSA-2026-85239.html
     - https://mail.python.org/archives/list/security-announce@python.org/thread/QNZRG3YOAMTHDCMVCICXGY6YEFPY2VDL/
     - https://nvd.nist.gov/vuln/detail/CVE-2026-19553
     - https://www.cve.org/CVERecord?id=CVE-2026-19553
     PublishedDate: '2026-09-30T17:16:45.88Z'
     LastModifiedDate: '2026-10-16T19:17:06.673Z'
-  - VulnerabilityID: CVE-2026-79824
-    PkgID: python3@3.9.25-7.el9_8.3.x86_64
-    PkgName: python3
-    PkgIdentifier:
-      PURL: pkg:rpm/redhat/python3@3.9.25-7.el9_8.3?arch=x86_64&distro=redhat-9.8
-      UID: 3f4efa43782a8ae0
-    InstalledVersion: 3.9.25-7.el9_8.3
-    Status: affected
-    Layer:
-      Digest: sha256:58f57add85f56d9b053d1e04c30c93098eed7d0ad0daa772a6c7a5969eabfdd2
-      DiffID: sha256:b77f2b11e30cca81a505b20b639cf38b709c3f7dfd8ba080dbb9eb007a66fb7f
-    SeveritySource: redhat
-    PrimaryURL: https://avd.aquasec.com/nvd/cve-2026-79824
-    Fingerprint: sha256:89cf2e116173d48fa9f36d24beba99143cad1cadca3091b3611708929c0f8542
-    Title: 'python: python: Arbitrary file overwrite via directory traversal in TAR archives'
-    Description: "A directory traversal vulnerability in\_HPE NonStop Python 3.x could allow\_ attackers to overwrite arbitrary files via a .. (dot dot) sequence in filenames in a TAR archive."
-    Severity: HIGH
-    CweIDs:
-    - CWE-30
-    VendorSeverity:
-      redhat: 3
-    CVSS:
-      redhat:
-        V3Vector: CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H
-        V3Score: 7.8
-    References:
-    - https://access.redhat.com/security/cve/CVE-2026-79824
-    - https://nvd.nist.gov/vuln/detail/CVE-2026-79824
-    - https://support.hpe.com/hpesc/public/docDisplay?docId=hpesbns05148en_us&docLocale=en_US
-    - https://www.cve.org/CVERecord?id=CVE-2026-79824
-    PublishedDate: '2026-10-15T10:17:15.483Z'
-    LastModifiedDate: '2026-10-15T16:23:06.25Z'
   - VulnerabilityID: CVE-2025-11468
     PkgID: python3@3.9.25-7.el9_8.3.x86_64
     PkgName: python3
@@ -16153,7 +17607,7 @@
     CweIDs:
     - CWE-93
     VendorSeverity:
-      amazon: 3
+      amazon: 2
       azure: 2
       bitnami: 2
       photon: 2
@@ -16344,7 +17798,7 @@
     - CWE-93
     VendorSeverity:
       alma: 3
-      amazon: 3
+      amazon: 2
       bitnami: 2
       oracle-oval: 3
       photon: 2
@@ -16438,7 +17892,7 @@
     - CWE-416
     VendorSeverity:
       alma: 3
-      amazon: 3
+      amazon: 2
       azure: 2
       bitnami: 2
       cbl-mariner: 2
@@ -16537,7 +17991,7 @@
     - CWE-93
     VendorSeverity:
       alma: 3
-      amazon: 3
+      amazon: 2
       azure: 2
       bitnami: 2
       cbl-mariner: 2
@@ -16641,6 +18095,7 @@
       azure: 2
       bitnami: 2
       nvd: 2
+      photon: 2
       redhat: 2
     CVSS:
       bitnami:
@@ -16738,8 +18193,11 @@
     CweIDs:
     - CWE-59
     VendorSeverity:
+      alma: 3
       bitnami: 2
+      oracle-oval: 3
       redhat: 2
+      rocky: 3
     CVSS:
       bitnami:
         V40Vector: CVSS:4.0/AV:L/AC:L/AT:P/PR:N/UI:N/VC:N/VI:H/VA:H/SC:N/SI:N/SA:N
@@ -16749,7 +18207,20 @@
         V3Score: 6.3
     References:
     - http://www.openwall.com/lists/oss-security/2026/09/29/40
+    - https://access.redhat.com/errata/RHSA-2026:85239
     - https://access.redhat.com/security/cve/CVE-2026-12345
+    - https://bugzilla.redhat.com/2543492
+    - https://bugzilla.redhat.com/2544127
+    - https://bugzilla.redhat.com/2544138
+    - https://bugzilla.redhat.com/show_bug.cgi?id=2543492
+    - https://bugzilla.redhat.com/show_bug.cgi?id=2544127
+    - https://bugzilla.redhat.com/show_bug.cgi?id=2544138
+    - https://creativecommons.org/licenses/by/4.0/
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-12345
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-19445
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-19553
+    - https://errata.almalinux.org/8/ALSA-2026-85239.html
+    - https://errata.rockylinux.org/RLSA-2026:85239
     - https://github.com/python/cpython/commit/06ef3d43fdaf4da97af12fa694b4886092c4b970
     - https://github.com/python/cpython/commit/458e7134a5af7f86aee9d21b51cf499b41aa4420
     - https://github.com/python/cpython/commit/58ed0259cae509a19138795df302fe60b544dc74
@@ -16757,10 +18228,12 @@
     - https://github.com/python/cpython/commit/e1f3590f155c6d66007e958c98c9d69316551993
     - https://github.com/python/cpython/issues/157579
     - https://github.com/python/cpython/pull/157580
+    - https://linux.oracle.com/cve/CVE-2026-12345.html
+    - https://linux.oracle.com/errata/ELSA-2026-85239.html
     - https://nvd.nist.gov/vuln/detail/CVE-2026-12345
     - https://www.cve.org/CVERecord?id=CVE-2026-12345
     PublishedDate: '2026-09-29T18:17:14.707Z'
-    LastModifiedDate: '2026-10-10T01:16:37.85Z'
+    LastModifiedDate: '2026-10-22T01:16:58.89Z'
   - VulnerabilityID: CVE-2026-1502
     PkgID: python3@3.9.25-7.el9_8.3.x86_64
     PkgName: python3
@@ -16888,6 +18361,7 @@
     VendorSeverity:
       azure: 2
       bitnami: 2
+      photon: 2
       redhat: 2
     CVSS:
       bitnami:
@@ -16932,6 +18406,7 @@
       amazon: 3
       azure: 2
       bitnami: 2
+      photon: 2
       redhat: 2
       ubuntu: 2
     CVSS:
@@ -16983,7 +18458,7 @@
     - CWE-116
     VendorSeverity:
       alma: 3
-      amazon: 3
+      amazon: 2
       azure: 2
       nvd: 3
       oracle-oval: 3
@@ -17081,7 +18556,7 @@
     - CWE-674
     VendorSeverity:
       alma: 3
-      amazon: 3
+      amazon: 2
       azure: 2
       bitnami: 3
       nvd: 3
@@ -17372,7 +18847,7 @@
     - CWE-116
     VendorSeverity:
       alma: 3
-      amazon: 2
+      amazon: 3
       bitnami: 2
       nvd: 2
       oracle-oval: 3
@@ -17493,6 +18968,7 @@
       amazon: 3
       azure: 2
       bitnami: 2
+      photon: 2
       redhat: 2
       ubuntu: 2
     CVSS:
@@ -17648,6 +19124,7 @@
       amazon: 1
       azure: 1
       bitnami: 1
+      photon: 1
       redhat: 1
     CVSS:
       bitnami:
@@ -17784,7 +19261,7 @@
     CweIDs:
     - CWE-22
     VendorSeverity:
-      amazon: 2
+      amazon: 3
       photon: 3
       redhat: 1
     CVSS:
@@ -17811,7 +19288,7 @@
       PURL: pkg:rpm/redhat/python3-libs@3.9.25-7.el9_8.3?arch=x86_64&distro=redhat-9.8
       UID: a66bb08eb38a7952
     InstalledVersion: 3.9.25-7.el9_8.3
-    Status: end_of_life
+    Status: affected
     Layer:
       Digest: sha256:58f57add85f56d9b053d1e04c30c93098eed7d0ad0daa772a6c7a5969eabfdd2
       DiffID: sha256:b77f2b11e30cca81a505b20b639cf38b709c3f7dfd8ba080dbb9eb007a66fb7f
@@ -17851,8 +19328,9 @@
     References:
     - http://www.openwall.com/lists/oss-security/2026/09/30/17
     - https://access.redhat.com/errata/RHSA-2026:77021
-    - https://access.redhat.com/errata/RHSA-2026:77028
+    - https://access.redhat.com/errata/RHSA-2026:85239
     - https://access.redhat.com/security/cve/CVE-2026-19445
+    - https://bugzilla.redhat.com/2543492
     - https://bugzilla.redhat.com/2544127
     - https://bugzilla.redhat.com/2544138
     - https://bugzilla.redhat.com/show_bug.cgi?id=2544127
@@ -17860,7 +19338,7 @@
     - https://creativecommons.org/licenses/by/4.0/
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-19445
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-19553
-    - https://errata.almalinux.org/8/ALSA-2026-77028.html
+    - https://errata.almalinux.org/8/ALSA-2026-85239.html
     - https://errata.rockylinux.org/RLSA-2026:77021
     - https://github.com/python/cpython/commit/34a53dce8174da2fceb12fe084a4def02a10053d
     - https://github.com/python/cpython/commit/46133cd57d309652139ada74014aca7665ac552b
@@ -17872,7 +19350,7 @@
     - https://github.com/python/cpython/issues/156293
     - https://github.com/python/cpython/pull/158504
     - https://linux.oracle.com/cve/CVE-2026-19445.html
-    - https://linux.oracle.com/errata/ELSA-2026-77028.html
+    - https://linux.oracle.com/errata/ELSA-2026-85239.html
     - https://mail.python.org/archives/list/security-announce@python.org/thread/QMQIUQB6WGGC3MI7I3WKQXOYOBDSPPS3/
     - https://nvd.nist.gov/vuln/detail/CVE-2026-19445
     - https://www.cve.org/CVERecord?id=CVE-2026-19445
@@ -17885,7 +19363,7 @@
       PURL: pkg:rpm/redhat/python3-libs@3.9.25-7.el9_8.3?arch=x86_64&distro=redhat-9.8
       UID: a66bb08eb38a7952
     InstalledVersion: 3.9.25-7.el9_8.3
-    Status: end_of_life
+    Status: affected
     Layer:
       Digest: sha256:58f57add85f56d9b053d1e04c30c93098eed7d0ad0daa772a6c7a5969eabfdd2
       DiffID: sha256:b77f2b11e30cca81a505b20b639cf38b709c3f7dfd8ba080dbb9eb007a66fb7f
@@ -17939,8 +19417,9 @@
     References:
     - http://www.openwall.com/lists/oss-security/2026/09/30/16
     - https://access.redhat.com/errata/RHSA-2026:77021
-    - https://access.redhat.com/errata/RHSA-2026:77028
+    - https://access.redhat.com/errata/RHSA-2026:85239
     - https://access.redhat.com/security/cve/CVE-2026-19553
+    - https://bugzilla.redhat.com/2543492
     - https://bugzilla.redhat.com/2544127
     - https://bugzilla.redhat.com/2544138
     - https://bugzilla.redhat.com/show_bug.cgi?id=2544127
@@ -17948,7 +19427,7 @@
     - https://creativecommons.org/licenses/by/4.0/
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-19445
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-19553
-    - https://errata.almalinux.org/8/ALSA-2026-77028.html
+    - https://errata.almalinux.org/8/ALSA-2026-85239.html
     - https://errata.rockylinux.org/RLSA-2026:77021
     - https://github.com/python/cpython/commit/1697ea386c707142555d98a1263176bbbc014a96
     - https://github.com/python/cpython/commit/5867d4e4ae6d1062352baf6b497a4026e8578ccf
@@ -17960,44 +19439,12 @@
     - https://github.com/python/cpython/issues/156793
     - https://github.com/python/cpython/pull/158503
     - https://linux.oracle.com/cve/CVE-2026-19553.html
-    - https://linux.oracle.com/errata/ELSA-2026-77028.html
+    - https://linux.oracle.com/errata/ELSA-2026-85239.html
     - https://mail.python.org/archives/list/security-announce@python.org/thread/QNZRG3YOAMTHDCMVCICXGY6YEFPY2VDL/
     - https://nvd.nist.gov/vuln/detail/CVE-2026-19553
     - https://www.cve.org/CVERecord?id=CVE-2026-19553
     PublishedDate: '2026-09-30T17:16:45.88Z'
     LastModifiedDate: '2026-10-16T19:17:06.673Z'
-  - VulnerabilityID: CVE-2026-79824
-    PkgID: python3-libs@3.9.25-7.el9_8.3.x86_64
-    PkgName: python3-libs
-    PkgIdentifier:
-      PURL: pkg:rpm/redhat/python3-libs@3.9.25-7.el9_8.3?arch=x86_64&distro=redhat-9.8
-      UID: a66bb08eb38a7952
-    InstalledVersion: 3.9.25-7.el9_8.3
-    Status: affected
-    Layer:
-      Digest: sha256:58f57add85f56d9b053d1e04c30c93098eed7d0ad0daa772a6c7a5969eabfdd2
-      DiffID: sha256:b77f2b11e30cca81a505b20b639cf38b709c3f7dfd8ba080dbb9eb007a66fb7f
-    SeveritySource: redhat
-    PrimaryURL: https://avd.aquasec.com/nvd/cve-2026-79824
-    Fingerprint: sha256:fc10a07df2f307b4247fe601eaff9564b3aed094c9d2f69112122d7a135c2a46
-    Title: 'python: python: Arbitrary file overwrite via directory traversal in TAR archives'
-    Description: "A directory traversal vulnerability in\_HPE NonStop Python 3.x could allow\_ attackers to overwrite arbitrary files via a .. (dot dot) sequence in filenames in a TAR archive."
-    Severity: HIGH
-    CweIDs:
-    - CWE-30
-    VendorSeverity:
-      redhat: 3
-    CVSS:
-      redhat:
-        V3Vector: CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H
-        V3Score: 7.8
-    References:
-    - https://access.redhat.com/security/cve/CVE-2026-79824
-    - https://nvd.nist.gov/vuln/detail/CVE-2026-79824
-    - https://support.hpe.com/hpesc/public/docDisplay?docId=hpesbns05148en_us&docLocale=en_US
-    - https://www.cve.org/CVERecord?id=CVE-2026-79824
-    PublishedDate: '2026-10-15T10:17:15.483Z'
-    LastModifiedDate: '2026-10-15T16:23:06.25Z'
   - VulnerabilityID: CVE-2025-11468
     PkgID: python3-libs@3.9.25-7.el9_8.3.x86_64
     PkgName: python3-libs
@@ -18018,7 +19465,7 @@
     CweIDs:
     - CWE-93
     VendorSeverity:
-      amazon: 3
+      amazon: 2
       azure: 2
       bitnami: 2
       photon: 2
@@ -18209,7 +19656,7 @@
     - CWE-93
     VendorSeverity:
       alma: 3
-      amazon: 3
+      amazon: 2
       bitnami: 2
       oracle-oval: 3
       photon: 2
@@ -18303,7 +19750,7 @@
     - CWE-416
     VendorSeverity:
       alma: 3
-      amazon: 3
+      amazon: 2
       azure: 2
       bitnami: 2
       cbl-mariner: 2
@@ -18402,7 +19849,7 @@
     - CWE-93
     VendorSeverity:
       alma: 3
-      amazon: 3
+      amazon: 2
       azure: 2
       bitnami: 2
       cbl-mariner: 2
@@ -18506,6 +19953,7 @@
       azure: 2
       bitnami: 2
       nvd: 2
+      photon: 2
       redhat: 2
     CVSS:
       bitnami:
@@ -18603,8 +20051,11 @@
     CweIDs:
     - CWE-59
     VendorSeverity:
+      alma: 3
       bitnami: 2
+      oracle-oval: 3
       redhat: 2
+      rocky: 3
     CVSS:
       bitnami:
         V40Vector: CVSS:4.0/AV:L/AC:L/AT:P/PR:N/UI:N/VC:N/VI:H/VA:H/SC:N/SI:N/SA:N
@@ -18614,7 +20065,20 @@
         V3Score: 6.3
     References:
     - http://www.openwall.com/lists/oss-security/2026/09/29/40
+    - https://access.redhat.com/errata/RHSA-2026:85239
     - https://access.redhat.com/security/cve/CVE-2026-12345
+    - https://bugzilla.redhat.com/2543492
+    - https://bugzilla.redhat.com/2544127
+    - https://bugzilla.redhat.com/2544138
+    - https://bugzilla.redhat.com/show_bug.cgi?id=2543492
+    - https://bugzilla.redhat.com/show_bug.cgi?id=2544127
+    - https://bugzilla.redhat.com/show_bug.cgi?id=2544138
+    - https://creativecommons.org/licenses/by/4.0/
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-12345
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-19445
+    - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-19553
+    - https://errata.almalinux.org/8/ALSA-2026-85239.html
+    - https://errata.rockylinux.org/RLSA-2026:85239
     - https://github.com/python/cpython/commit/06ef3d43fdaf4da97af12fa694b4886092c4b970
     - https://github.com/python/cpython/commit/458e7134a5af7f86aee9d21b51cf499b41aa4420
     - https://github.com/python/cpython/commit/58ed0259cae509a19138795df302fe60b544dc74
@@ -18622,10 +20086,12 @@
     - https://github.com/python/cpython/commit/e1f3590f155c6d66007e958c98c9d69316551993
     - https://github.com/python/cpython/issues/157579
     - https://github.com/python/cpython/pull/157580
+    - https://linux.oracle.com/cve/CVE-2026-12345.html
+    - https://linux.oracle.com/errata/ELSA-2026-85239.html
     - https://nvd.nist.gov/vuln/detail/CVE-2026-12345
     - https://www.cve.org/CVERecord?id=CVE-2026-12345
     PublishedDate: '2026-09-29T18:17:14.707Z'
-    LastModifiedDate: '2026-10-10T01:16:37.85Z'
+    LastModifiedDate: '2026-10-22T01:16:58.89Z'
   - VulnerabilityID: CVE-2026-1502
     PkgID: python3-libs@3.9.25-7.el9_8.3.x86_64
     PkgName: python3-libs
@@ -18753,6 +20219,7 @@
     VendorSeverity:
       azure: 2
       bitnami: 2
+      photon: 2
       redhat: 2
     CVSS:
       bitnami:
@@ -18797,6 +20264,7 @@
       amazon: 3
       azure: 2
       bitnami: 2
+      photon: 2
       redhat: 2
       ubuntu: 2
     CVSS:
@@ -18848,7 +20316,7 @@
     - CWE-116
     VendorSeverity:
       alma: 3
-      amazon: 3
+      amazon: 2
       azure: 2
       nvd: 3
       oracle-oval: 3
@@ -18946,7 +20414,7 @@
     - CWE-674
     VendorSeverity:
       alma: 3
-      amazon: 3
+      amazon: 2
       azure: 2
       bitnami: 3
       nvd: 3
@@ -19237,7 +20705,7 @@
     - CWE-116
     VendorSeverity:
       alma: 3
-      amazon: 2
+      amazon: 3
       bitnami: 2
       nvd: 2
       oracle-oval: 3
@@ -19358,6 +20826,7 @@
       amazon: 3
       azure: 2
       bitnami: 2
+      photon: 2
       redhat: 2
       ubuntu: 2
     CVSS:
@@ -19513,6 +20982,7 @@
       amazon: 1
       azure: 1
       bitnami: 1
+      photon: 1
       redhat: 1
     CVSS:
       bitnami:
@@ -19649,7 +21119,7 @@
     CweIDs:
     - CWE-22
     VendorSeverity:
-      amazon: 2
+      amazon: 3
       photon: 3
       redhat: 1
     CVSS:
@@ -20060,7 +21530,7 @@
       PURL: pkg:rpm/redhat/python3-pip-wheel@21.3.1-2.el9_8?arch=noarch&distro=redhat-9.8
       UID: 5de97a84eb8c8b1c
     InstalledVersion: 21.3.1-2.el9_8
-    Status: end_of_life
+    Status: affected
     Layer:
       Digest: sha256:58f57add85f56d9b053d1e04c30c93098eed7d0ad0daa772a6c7a5969eabfdd2
       DiffID: sha256:b77f2b11e30cca81a505b20b639cf38b709c3f7dfd8ba080dbb9eb007a66fb7f
@@ -20983,7 +22453,7 @@
       PURL: pkg:rpm/redhat/tar@1.34-13.el9_8?arch=x86_64&distro=redhat-9.8&epoch=2
       UID: a313a33493cb8aaf
     InstalledVersion: 2:1.34-13.el9_8
-    Status: end_of_life
+    Status: affected
     Layer:
       Digest: sha256:58f57add85f56d9b053d1e04c30c93098eed7d0ad0daa772a6c7a5969eabfdd2
       DiffID: sha256:b77f2b11e30cca81a505b20b639cf38b709c3f7dfd8ba080dbb9eb007a66fb7f
