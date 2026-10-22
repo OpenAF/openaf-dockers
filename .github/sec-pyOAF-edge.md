@@ -20,8 +20,8 @@
 │                       │      ├ DataSource       ╭ ID  : alpine 
 │                       │      │                  ├ Name: Alpine Secdb 
 │                       │      │                  ╰ URL : https://secdb.alpinelinux.org/ 
-│                       │      ├ Fingerprint     : sha256:911b3588cc889c2fd12f4bb35b3928c43f499bafa2e631ad43ff9
-│                       │      │                   2753aaa09de 
+│                       │      ├ Fingerprint     : sha256:f03158c32eb525fe6772f7ca44fc6995afe119580e896e5a7a20e
+│                       │      │                   483a0b9b52b 
 │                       │      ├ Title           : libX11: libX11: Heap-based buffer overflow via malicious X
 │                       │      │                   server 
 │                       │      ├ Description     : A malicious X server could exploit a buffer overflow in
@@ -67,8 +67,8 @@
 │                       │      ├ DataSource       ╭ ID  : alpine 
 │                       │      │                  ├ Name: Alpine Secdb 
 │                       │      │                  ╰ URL : https://secdb.alpinelinux.org/ 
-│                       │      ├ Fingerprint     : sha256:043e8f0af6ccd44dfb36680de9dcfe3350dbcfa15329c75c3b151
-│                       │      │                   2ef447c0d22 
+│                       │      ├ Fingerprint     : sha256:f44021c62ae5760a5a8885ee014fe3b2463876c2cf4c8039cce24
+│                       │      │                   1299f07f17f 
 │                       │      ├ Title           : libX11: libX11: Denial of Service via out-of-bounds read in
 │                       │      │                   XIM attribute parser 
 │                       │      ├ Description     : An out-of-bounds read vulnerability in libX11's XIM (X Input
@@ -115,8 +115,8 @@
 │                       │      ├ DataSource       ╭ ID  : alpine 
 │                       │      │                  ├ Name: Alpine Secdb 
 │                       │      │                  ╰ URL : https://secdb.alpinelinux.org/ 
-│                       │      ├ Fingerprint     : sha256:cd23bd5ba3b8a74f21647f409ae0496c3b9a8ef7f2cd436275ea0
-│                       │      │                   76bb49251c6 
+│                       │      ├ Fingerprint     : sha256:d115d32972dd1f2e1861c6e2480d0b293b3898392c60bb12888ff
+│                       │      │                   6249ac9496b 
 │                       │      ├ Title           : libX11: libX11: Denial of Service via out-of-bounds read in
 │                       │      │                   XIM trigger-key registration parser 
 │                       │      ├ Description     : An out-of-bounds read vulnerability in libX11's XIM
@@ -164,8 +164,8 @@
 │                       │      ├ DataSource       ╭ ID  : alpine 
 │                       │      │                  ├ Name: Alpine Secdb 
 │                       │      │                  ╰ URL : https://secdb.alpinelinux.org/ 
-│                       │      ├ Fingerprint     : sha256:156d70746a9f97f7102706db3bfc4454cf5447d04c6a74a30bfec
-│                       │      │                   3c4129c2c95 
+│                       │      ├ Fingerprint     : sha256:471f048665a5417e5a98c173649862c55e09d3fc3f705857bdd10
+│                       │      │                   54b69eec64a 
 │                       │      ├ Title           : libX11: libX11: Denial of Service via out-of-bounds read in
 │                       │      │                   byte-oriented codeset parser 
 │                       │      ├ Description     : An out-of-bounds read in libX11's byte-oriented codeset
@@ -211,8 +211,8 @@
 │                       │      ├ DataSource       ╭ ID  : alpine 
 │                       │      │                  ├ Name: Alpine Secdb 
 │                       │      │                  ╰ URL : https://secdb.alpinelinux.org/ 
-│                       │      ├ Fingerprint     : sha256:369431e31a151ae2431237f1e45bd125e5055340ad5a6299515db
-│                       │      │                   cde9f2f977f 
+│                       │      ├ Fingerprint     : sha256:8982214940725ef0b4e812155606862b2f50f4ec81f35dede4c5c
+│                       │      │                   32ae5edfcfd 
 │                       │      ├ Title           : libXi: Out-of-bounds read in libXi's XQueryDeviceState() 
 │                       │      ├ Description     : An out-of-bounds read in libXi's XQueryDeviceState() in
 │                       │      │                   libXi before 1.8.4 could be used by a 
@@ -250,8 +250,8 @@
 │                       │      ├ DataSource       ╭ ID  : alpine 
 │                       │      │                  ├ Name: Alpine Secdb 
 │                       │      │                  ╰ URL : https://secdb.alpinelinux.org/ 
-│                       │      ├ Fingerprint     : sha256:e9d058aec202cdf6f6563b40c392d1f0a80d8582b2b86b1d9db1a
-│                       │      │                   58446d8d3ce 
+│                       │      ├ Fingerprint     : sha256:e85462f1f8264a7542f73ba20febec172d229c9d79a1c6a015d7b
+│                       │      │                   7f97abbebfd 
 │                       │      ├ Title           : libXi: libXi: Denial of Service via out-of-bounds read
 │                       │      │                   during XI2 class parsing 
 │                       │      ├ Description     : An out-of-bounds read in libXi's XI2 class parsing via
@@ -291,8 +291,8 @@
 │                       │      ├ DataSource       ╭ ID  : alpine 
 │                       │      │                  ├ Name: Alpine Secdb 
 │                       │      │                  ╰ URL : https://secdb.alpinelinux.org/ 
-│                       │      ├ Fingerprint     : sha256:c195d16f7430202f3af29b4deaef8eb76888d1ac1da28206e9d88
-│                       │      │                   25f25ed334b 
+│                       │      ├ Fingerprint     : sha256:4243ec34b547036a4fd6230ad59b0714c2f5908c74983266494f3
+│                       │      │                   5774d275cc4 
 │                       │      ├ Title           : libXi: libXi: Denial of Service via out-of-bounds read in
 │                       │      │                   XI2 class parser 
 │                       │      ├ Description     : An out-of-bounds read in libXi's XI2 class parser in libXi
@@ -332,8 +332,8 @@
 │                       │      ├ DataSource       ╭ ID  : alpine 
 │                       │      │                  ├ Name: Alpine Secdb 
 │                       │      │                  ╰ URL : https://secdb.alpinelinux.org/ 
-│                       │      ├ Fingerprint     : sha256:2246626490703846c4c7a9dadfb3bcc53dcc72fc17261ad910fc8
-│                       │      │                   5f601e40661 
+│                       │      ├ Fingerprint     : sha256:57cf5cef7da1d1f4cc4da47638ec1041306d1981ef0514067ac75
+│                       │      │                   8b888959beb 
 │                       │      ├ Title           : libXi: libXi: Denial of Service via out-of-bounds read in
 │                       │      │                   XIQueryDevice reply parsing 
 │                       │      ├ Description     : An out-of-bounds read in libXi's XI2 XIQueryDevice reply
@@ -373,8 +373,8 @@
 │                       │      ├ DataSource       ╭ ID  : alpine 
 │                       │      │                  ├ Name: Alpine Secdb 
 │                       │      │                  ╰ URL : https://secdb.alpinelinux.org/ 
-│                       │      ├ Fingerprint     : sha256:986870f6b03af26e7d3b6cb4c13bc8b7e26ebb868cd2823be5d69
-│                       │      │                   2952b597003 
+│                       │      ├ Fingerprint     : sha256:f5674858416246d91b4639fe24878b9fcfb0b19874c4c606c4cd5
+│                       │      │                   bd052eb4ae5 
 │                       │      ├ Title           : libXi: libXi: Denial of Service via out-of-bounds read in
 │                       │      │                   XListInputDevices() 
 │                       │      ├ Description     : An out-of-bounds read in libXi's XListInputDevices() in
@@ -414,8 +414,8 @@
 │                       │      ├ DataSource       ╭ ID  : alpine 
 │                       │      │                  ├ Name: Alpine Secdb 
 │                       │      │                  ╰ URL : https://secdb.alpinelinux.org/ 
-│                       │      ├ Fingerprint     : sha256:9c93e8a2d3474f607fdb1e0985a209a85955d4a184c110766ac49
-│                       │      │                   e3119036450 
+│                       │      ├ Fingerprint     : sha256:7ed33189032c484b0558ac479cc97619eb31fa36bbc715dea953c
+│                       │      │                   c3b95777d36 
 │                       │      ├ Title           : libXi: libXi: Denial of Service via out-of-bounds read in
 │                       │      │                   XListInputDevices() 
 │                       │      ├ Description     : An out-of-bounds read in libXi's XListInputDevices() class
@@ -455,8 +455,8 @@
 │                       │      ├ DataSource       ╭ ID  : alpine 
 │                       │      │                  ├ Name: Alpine Secdb 
 │                       │      │                  ╰ URL : https://secdb.alpinelinux.org/ 
-│                       │      ├ Fingerprint     : sha256:fcdb603c3569069707b1274febd60817616b4f75ba0ccb2cf11bd
-│                       │      │                   5559f7b1196 
+│                       │      ├ Fingerprint     : sha256:d8534f3cc95cfa3800b6ffc2c4a7a4c63fd59ae656395a6bd6b21
+│                       │      │                   77f21b2abd6 
 │                       │      ├ Title           : libXi: libXi: Denial of Service via out-of-bounds read in
 │                       │      │                   XI2 event processing 
 │                       │      ├ Description     : An out-of-bounds read in libXi's XI2 enter/leave/focus
@@ -495,8 +495,8 @@
 │                       │      ├ DataSource       ╭ ID  : alpine 
 │                       │      │                  ├ Name: Alpine Secdb 
 │                       │      │                  ╰ URL : https://secdb.alpinelinux.org/ 
-│                       │      ├ Fingerprint     : sha256:815a1f6a980082eb2a2922021593b2da8fa7bad106416ce55b2ef
-│                       │      │                   b328e99d74a 
+│                       │      ├ Fingerprint     : sha256:25e4094074daaba85566a1e8273a6f7a312404721545d0a501967
+│                       │      │                   05e20d5fa4b 
 │                       │      ╰ Severity        : UNKNOWN 
 │                       ├ [12] ╭ VulnerabilityID : CVE-2026-109090 
 │                       │      ├ PkgID           : libxi@1.8.3-r0 
@@ -513,8 +513,8 @@
 │                       │      ├ DataSource       ╭ ID  : alpine 
 │                       │      │                  ├ Name: Alpine Secdb 
 │                       │      │                  ╰ URL : https://secdb.alpinelinux.org/ 
-│                       │      ├ Fingerprint     : sha256:49c273c8754966dd6cb3bbd0246f6690a5f6daa24b206415608c8
-│                       │      │                   07d225c7160 
+│                       │      ├ Fingerprint     : sha256:91882770b0b18c2fa7ab1df1d296acf9930551082ceafb5ae8dc2
+│                       │      │                   024c1753c1b 
 │                       │      ╰ Severity        : UNKNOWN 
 │                       ├ [13] ╭ VulnerabilityID : CVE-2026-88807 
 │                       │      ├ PkgID           : libxrender@0.9.12-r0 
@@ -533,8 +533,8 @@
 │                       │      ├ DataSource       ╭ ID  : alpine 
 │                       │      │                  ├ Name: Alpine Secdb 
 │                       │      │                  ╰ URL : https://secdb.alpinelinux.org/ 
-│                       │      ├ Fingerprint     : sha256:c5817a67967a632d77758fa90dfe3ab1c09e1d7c99a81f38ab54f
-│                       │      │                   dc022ea694f 
+│                       │      ├ Fingerprint     : sha256:c46b49a79b6eb90f144b99a46acad37da36883b6e4420ac9b3c65
+│                       │      │                   c16bb91d23c 
 │                       │      ├ Title           : libXrender: libXrender: Code injection via heap overflow in
 │                       │      │                   RenderQueryPictFormats 
 │                       │      ├ Description     : A heap overflow in libXrender before 0.9.13 in
@@ -577,8 +577,8 @@
 │                       │      ├ DataSource       ╭ ID  : alpine 
 │                       │      │                  ├ Name: Alpine Secdb 
 │                       │      │                  ╰ URL : https://secdb.alpinelinux.org/ 
-│                       │      ├ Fingerprint     : sha256:9cd8944a51ddaf104e6a77f0aab405d9c6e5a50f73122198f3e98
-│                       │      │                   bbdae665324 
+│                       │      ├ Fingerprint     : sha256:ed0d80677cd24e27feb42f2dd34a5a2b4b856fd29c6339f3a5421
+│                       │      │                   9d7796afb3b 
 │                       │      ├ Title           : libXtst: libXtst: Denial of Service via out-of-bounds read
 │                       │      │                   in RECORD reply parser 
 │                       │      ├ Description     : An out-of-bounds read in libXtst's RECORD reply parser in
@@ -602,6 +602,8 @@
 │                       │      │                  ts/10/diffs?commit_id=16023c86070e6af9407330deea3938fcef75815b
 │                       │      │                  https://nvd.nist.gov/vuln/detail/CVE-2026-94286               
 │                       │      │                                                                                
+│                       │      │                  https://ubuntu.com/security/notices/USN-8939-1                
+│                       │      │                                                                                
 │                       │      │                  https://www.cve.org/CVERecord?id=CVE-2026-94286               
 │                       │      ├ PublishedDate   : 2026-09-28T09:17:08.463Z 
 │                       │      ╰ LastModifiedDate: 2026-09-30T13:17:26.71Z 
@@ -621,10 +623,47 @@
 │                       │      ├ DataSource       ╭ ID  : alpine 
 │                       │      │                  ├ Name: Alpine Secdb 
 │                       │      │                  ╰ URL : https://secdb.alpinelinux.org/ 
-│                       │      ├ Fingerprint     : sha256:b1030c26abfb74ef3bc333f0585ea6703a4bcbb63653affd1642d
-│                       │      │                   234bbb99544 
+│                       │      ├ Fingerprint     : sha256:7106930cf80ee9b5ed7161687dc351a361c2d0d6d3751e80a4cb4
+│                       │      │                   4f697569cf0 
 │                       │      ╰ Severity        : UNKNOWN 
-│                       ├ [16] ╭ VulnerabilityID : CVE-2026-96512 
+│                       ├ [16] ╭ VulnerabilityID : CVE-2026-107891 
+│                       │      ├ PkgID           : musl@1.2.6-r2 
+│                       │      ├ PkgName         : musl 
+│                       │      ├ PkgIdentifier    ╭ PURL: pkg:apk/alpine/musl@1.2.6-r2?arch=x86_64&distro=3.24.2 
+│                       │      │                  ╰ UID : 1f8cb44befe503d4 
+│                       │      ├ InstalledVersion: 1.2.6-r2 
+│                       │      ├ FixedVersion    : 1.2.6-r3 
+│                       │      ├ Status          : fixed 
+│                       │      ├ Layer            ╭ Digest: sha256:b2cfc9a93ca5dedfcef9911da39297021e10c54a2d71
+│                       │      │                  │         b772a5753e7fc58e07fb 
+│                       │      │                  ╰ DiffID: sha256:f0d92923b340c27f4141728a2cdf3c7db3c463279c5c
+│                       │      │                            94e87222bd569e980daf 
+│                       │      ├ DataSource       ╭ ID  : alpine 
+│                       │      │                  ├ Name: Alpine Secdb 
+│                       │      │                  ╰ URL : https://secdb.alpinelinux.org/ 
+│                       │      ├ Fingerprint     : sha256:fd68f812105535953a71083c8d2572b9c80265cf94c07bf092a90
+│                       │      │                   96fbd1039f1 
+│                       │      ╰ Severity        : UNKNOWN 
+│                       ├ [17] ╭ VulnerabilityID : CVE-2026-107891 
+│                       │      ├ PkgID           : musl-utils@1.2.6-r2 
+│                       │      ├ PkgName         : musl-utils 
+│                       │      ├ PkgIdentifier    ╭ PURL: pkg:apk/alpine/musl-utils@1.2.6-r2?arch=x86_64&distro
+│                       │      │                  │       =3.24.2 
+│                       │      │                  ╰ UID : 4497482ec1d943e1 
+│                       │      ├ InstalledVersion: 1.2.6-r2 
+│                       │      ├ FixedVersion    : 1.2.6-r3 
+│                       │      ├ Status          : fixed 
+│                       │      ├ Layer            ╭ Digest: sha256:b2cfc9a93ca5dedfcef9911da39297021e10c54a2d71
+│                       │      │                  │         b772a5753e7fc58e07fb 
+│                       │      │                  ╰ DiffID: sha256:f0d92923b340c27f4141728a2cdf3c7db3c463279c5c
+│                       │      │                            94e87222bd569e980daf 
+│                       │      ├ DataSource       ╭ ID  : alpine 
+│                       │      │                  ├ Name: Alpine Secdb 
+│                       │      │                  ╰ URL : https://secdb.alpinelinux.org/ 
+│                       │      ├ Fingerprint     : sha256:2ab3109f3bbdd0ca0eb7d36a2eb703db0126239fd3ecb66132d9b
+│                       │      │                   2401a67946d 
+│                       │      ╰ Severity        : UNKNOWN 
+│                       ├ [18] ╭ VulnerabilityID : CVE-2026-96512 
 │                       │      ├ PkgID           : sudo@1.9.17_p2-r1 
 │                       │      ├ PkgName         : sudo 
 │                       │      ├ PkgIdentifier    ╭ PURL: pkg:apk/alpine/sudo@1.9.17_p2-r1?arch=x86_64&distro=3
@@ -641,8 +680,8 @@
 │                       │      ├ DataSource       ╭ ID  : alpine 
 │                       │      │                  ├ Name: Alpine Secdb 
 │                       │      │                  ╰ URL : https://secdb.alpinelinux.org/ 
-│                       │      ├ Fingerprint     : sha256:1882bd23dd1ba076e4756f212047a86a415b9d2c2e82a4d52face
-│                       │      │                   c0bab1771b1 
+│                       │      ├ Fingerprint     : sha256:9ad97faf0eb64e3180e4454b2efe65ae253933a11df7efeba7ea8
+│                       │      │                   4f0e6cd4a16 
 │                       │      ├ Title           : sudo: sudo: TZ environment variable allows bypass of
 │                       │      │                   NOTBEFORE/NOTAFTER time-based authorization 
 │                       │      ├ Description     : A flaw was found in sudo. When sudoers rules use NOTBEFORE
@@ -678,13 +717,16 @@
 │                       │      │                  https://access.redhat.com/errata/RHSA-2026:75579             
 │                       │      │                  https://access.redhat.com/errata/RHSA-2026:75580             
 │                       │      │                  https://access.redhat.com/errata/RHSA-2026:82939             
+│                       │      │                  https://access.redhat.com/errata/RHSA-2026:86634             
+│                       │      │                  https://access.redhat.com/errata/RHSA-2026:86635             
+│                       │      │                  https://access.redhat.com/errata/RHSA-2026:87026             
 │                       │      │                  https://access.redhat.com/security/cve/CVE-2026-96512        
 │                       │      │                  https://bugzilla.redhat.com/2539327                          
 │                       │      │                  https://bugzilla.redhat.com/show_bug.cgi?id=2539327          
 │                       │      │                  https://creativecommons.org/licenses/by/4.0/                 
 │                       │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-96512
 │                       │      │                  https://errata.almalinux.org/8/ALSA-2026-75580.html          
-│                       │      │                  https://errata.rockylinux.org/RLSA-2026:75571                
+│                       │      │                  https://errata.rockylinux.org/RLSA-2026:75579                
 │                       │      │                  https://github.com/sudo-project/sudo/commit/1820a349687522f51
 │                       │      │                  023d1ae5925125f59679a8c                                      
 │                       │      │                  https://linux.oracle.com/cve/CVE-2026-96512.html             
@@ -697,8 +739,8 @@
 │                       │      │                                                                               
 │                       │      │                  https://www.cve.org/CVERecord?id=CVE-2026-96512              
 │                       │      ├ PublishedDate   : 2026-09-23T14:17:10.747Z 
-│                       │      ╰ LastModifiedDate: 2026-10-14T19:17:23.22Z 
-│                       ╰ [17] ╭ VulnerabilityID : CVE-2026-85091 
+│                       │      ╰ LastModifiedDate: 2026-10-21T20:17:28.187Z 
+│                       ╰ [19] ╭ VulnerabilityID : CVE-2026-85091 
 │                              ├ PkgID           : zlib@1.3.2-r0 
 │                              ├ PkgName         : zlib 
 │                              ├ PkgIdentifier    ╭ PURL: pkg:apk/alpine/zlib@1.3.2-r0?arch=x86_64&distro=3.24.2 
@@ -714,8 +756,8 @@
 │                              ├ DataSource       ╭ ID  : alpine 
 │                              │                  ├ Name: Alpine Secdb 
 │                              │                  ╰ URL : https://secdb.alpinelinux.org/ 
-│                              ├ Fingerprint     : sha256:269988755ea31f816ad4796a58113eaa39b8649b2d6caffbd565b
-│                              │                   4bdca00d776 
+│                              ├ Fingerprint     : sha256:5ea18e47d59417f52ca7eab2327ea635ef3d06cff72c8c67b8e49
+│                              │                   087a7de5da2 
 │                              ├ Title           : zlib versions 1.3.1.2 through 1.3.2 contain a heap buffer
 │                              │                   overflow vul ... 
 │                              ├ Description     : zlib versions 1.3.1.2 through 1.3.2 contain a heap buffer
