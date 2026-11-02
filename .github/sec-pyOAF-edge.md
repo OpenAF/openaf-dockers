@@ -20,8 +20,8 @@
 │                       │      ├ DataSource       ╭ ID  : alpine 
 │                       │      │                  ├ Name: Alpine Secdb 
 │                       │      │                  ╰ URL : https://secdb.alpinelinux.org/ 
-│                       │      ├ Fingerprint     : sha256:e191b364f04d861721c9f16f0e9f315fdb2538e5ed44950e2c40d
-│                       │      │                   d6dbaf61f02 
+│                       │      ├ Fingerprint     : sha256:9745f5ca1f072b0be7ddaff1e76e8c7c07434afa1fbe9acb63d0c
+│                       │      │                   b25cb4a4d49 
 │                       │      ├ Title           : OpenJDK: Distrust eMudhra intermediate CA certificates due
 │                       │      │                   to security concerns 
 │                       │      ├ Description     : Vulnerability in the Oracle Java SE, Oracle GraalVM for JDK,
@@ -90,8 +90,8 @@
 │                       │      ├ DataSource       ╭ ID  : alpine 
 │                       │      │                  ├ Name: Alpine Secdb 
 │                       │      │                  ╰ URL : https://secdb.alpinelinux.org/ 
-│                       │      ├ Fingerprint     : sha256:de2a63d08f98fc962cf85e19c9ab0bbcbc3501f5d1010b755efab
-│                       │      │                   b10aba4a7d2 
+│                       │      ├ Fingerprint     : sha256:8149157ad1236f940db7dfac5cfd4ecedb7a917b2bca2181ab2c2
+│                       │      │                   957cd4c6f81 
 │                       │      ├ Title           : An issue was discovered in GStreamer gst-plugins-good before
 │                       │      │                    1.28.2. W ... 
 │                       │      ├ Description     : An issue was discovered in GStreamer gst-plugins-good before
@@ -138,8 +138,8 @@
 │                       │      ├ DataSource       ╭ ID  : alpine 
 │                       │      │                  ├ Name: Alpine Secdb 
 │                       │      │                  ╰ URL : https://secdb.alpinelinux.org/ 
-│                       │      ├ Fingerprint     : sha256:c2f33efda2d81378f20e51b97878acbc2e8c0673123471ce411ac
-│                       │      │                   4c21dadf6ef 
+│                       │      ├ Fingerprint     : sha256:9639c046a87c92b3a37c7cdf57661c4ce7977608a7076002c89d5
+│                       │      │                   87e4ee29546 
 │                       │      ├ Title           : OpenJDK: Distrust eMudhra intermediate CA certificates due
 │                       │      │                   to security concerns 
 │                       │      ├ Description     : Vulnerability in the Oracle Java SE, Oracle GraalVM for JDK,
@@ -207,8 +207,8 @@
 │                       │      ├ DataSource       ╭ ID  : alpine 
 │                       │      │                  ├ Name: Alpine Secdb 
 │                       │      │                  ╰ URL : https://secdb.alpinelinux.org/ 
-│                       │      ├ Fingerprint     : sha256:79283a6460087d34dbf27162061757f99d41d313e594db808071a
-│                       │      │                   b42c44dff68 
+│                       │      ├ Fingerprint     : sha256:f308d44f05c8a8f433604eb44e3bb92f299e164236b3381eca561
+│                       │      │                   67ae0bb6342 
 │                       │      ├ Title           : libxml2: libxml2: Denial of Service via crafted
 │                       │      │                   XSD-validated document 
 │                       │      ├ Description     : A flaw was found in libxml2. This vulnerability occurs when
@@ -266,8 +266,8 @@
 │                       │      ├ DataSource       ╭ ID  : alpine 
 │                       │      │                  ├ Name: Alpine Secdb 
 │                       │      │                  ╰ URL : https://secdb.alpinelinux.org/ 
-│                       │      ├ Fingerprint     : sha256:8ec27f8649b05c142fe36d2803674b1b840f4e057d23c0e487256
-│                       │      │                   7f8ccfe6815 
+│                       │      ├ Fingerprint     : sha256:5d909e9aa5921c7e2eeb4f5a826d37770747cfcfffd42d6ea7887
+│                       │      │                   ddc7b360c73 
 │                       │      ├ Title           : openjdk: Enhance PKCS5 padding (Oracle CPU 2026-10) 
 │                       │      ├ Description     : Vulnerability in the Oracle Java SE, Oracle GraalVM for JDK,
 │                       │      │                    Oracle GraalVM Enterprise Edition product of Oracle Java SE
@@ -306,19 +306,17 @@
 │                       │      ├ References                                                                     
 │                       │      │                  ──────────────────────────────────────────────────────────────
 │                       │      │                  https://access.redhat.com/errata/RHSA-2026:88347              
-│                       │      │                  https://access.redhat.com/errata/RHSA-2026:90504              
+│                       │      │                  https://access.redhat.com/errata/RHSA-2026:88352              
 │                       │      │                  https://access.redhat.com/security/cve/CVE-2026-83374         
 │                       │      │                  https://bugzilla.redhat.com/2556709                           
 │                       │      │                  https://bugzilla.redhat.com/2556795                           
 │                       │      │                  https://bugzilla.redhat.com/2556824                           
 │                       │      │                  https://bugzilla.redhat.com/2556837                           
 │                       │      │                  https://bugzilla.redhat.com/2556859                           
-│                       │      │                  https://bugzilla.redhat.com/2556960                           
 │                       │      │                  https://bugzilla.redhat.com/2557007                           
 │                       │      │                  https://bugzilla.redhat.com/2557032                           
 │                       │      │                  https://bugzilla.redhat.com/2557041                           
 │                       │      │                  https://bugzilla.redhat.com/2557047                           
-│                       │      │                  https://bugzilla.redhat.com/2557056                           
 │                       │      │                  https://bugzilla.redhat.com/2557079                           
 │                       │      │                  https://bugzilla.redhat.com/2557110                           
 │                       │      │                  https://bugzilla.redhat.com/2557117                           
@@ -335,12 +333,12 @@
 │                       │      │                  https://bugzilla.redhat.com/2557564                           
 │                       │      │                  https://bugzilla.redhat.com/2557598                           
 │                       │      │                  https://bugzilla.redhat.com/2557662                           
+│                       │      │                  https://bugzilla.redhat.com/2557665                           
 │                       │      │                  https://bugzilla.redhat.com/2557674                           
 │                       │      │                  https://bugzilla.redhat.com/2557690                           
 │                       │      │                  https://bugzilla.redhat.com/2557709                           
 │                       │      │                  https://bugzilla.redhat.com/2557711                           
 │                       │      │                  https://bugzilla.redhat.com/2557731                           
-│                       │      │                  https://bugzilla.redhat.com/2557757                           
 │                       │      │                  https://bugzilla.redhat.com/2557765                           
 │                       │      │                  https://bugzilla.redhat.com/2557780                           
 │                       │      │                  https://bugzilla.redhat.com/2557857                           
@@ -425,7 +423,7 @@
 │                       │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-91463 
 │                       │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-91464 
 │                       │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-91487 
-│                       │      │                  https://errata.almalinux.org/10/ALSA-2026-90504.html          
+│                       │      │                  https://errata.almalinux.org/8/ALSA-2026-88352.html           
 │                       │      │                  https://errata.rockylinux.org/RLSA-2026:88347                 
 │                       │      │                  https://nvd.nist.gov/vuln/detail/CVE-2026-83374               
 │                       │      │                  https://www.cve.org/CVERecord?id=CVE-2026-83374               
@@ -449,8 +447,8 @@
 │                       │      ├ DataSource       ╭ ID  : alpine 
 │                       │      │                  ├ Name: Alpine Secdb 
 │                       │      │                  ╰ URL : https://secdb.alpinelinux.org/ 
-│                       │      ├ Fingerprint     : sha256:63c04b5d9a9111353d600baa4122f90a6f952dd3f2ad5d7bbf2e4
-│                       │      │                   c6512a313d6 
+│                       │      ├ Fingerprint     : sha256:abe1988b3de3d778a9af46eee07805f88c74b1751b1a87aac1e6b
+│                       │      │                   971f5b35fc3 
 │                       │      ├ Title           : openjdk: Improve C2 loop transformations (Oracle CPU 2026-10) 
 │                       │      ├ Description     : Vulnerability in Oracle Java SE (component: Compiler). 
 │                       │      │                   Supported versions that are affected are Oracle Java SE:
@@ -481,7 +479,7 @@
 │                       │      ├ References                                                                     
 │                       │      │                  ──────────────────────────────────────────────────────────────
 │                       │      │                  https://access.redhat.com/errata/RHSA-2026:88347              
-│                       │      │                  https://access.redhat.com/errata/RHSA-2026:90504              
+│                       │      │                  https://access.redhat.com/errata/RHSA-2026:88349              
 │                       │      │                  https://access.redhat.com/security/cve/CVE-2026-83378         
 │                       │      │                  https://bugzilla.redhat.com/2556709                           
 │                       │      │                  https://bugzilla.redhat.com/2556795                           
@@ -600,7 +598,7 @@
 │                       │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-91463 
 │                       │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-91464 
 │                       │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-91487 
-│                       │      │                  https://errata.almalinux.org/10/ALSA-2026-90504.html          
+│                       │      │                  https://errata.almalinux.org/8/ALSA-2026-88349.html           
 │                       │      │                  https://errata.rockylinux.org/RLSA-2026:88347                 
 │                       │      │                  https://nvd.nist.gov/vuln/detail/CVE-2026-83378               
 │                       │      │                  https://www.cve.org/CVERecord?id=CVE-2026-83378               
@@ -624,8 +622,8 @@
 │                       │      ├ DataSource       ╭ ID  : alpine 
 │                       │      │                  ├ Name: Alpine Secdb 
 │                       │      │                  ╰ URL : https://secdb.alpinelinux.org/ 
-│                       │      ├ Fingerprint     : sha256:0fd13b6779dbfdfc17f9d5c17e29422b8c42660b0ca0de9ecc639
-│                       │      │                   3e4a3de1fe5 
+│                       │      ├ Fingerprint     : sha256:7dee95400273520e718f700827611cde19792bac84a64addaad14
+│                       │      │                   2600c74e73a 
 │                       │      ├ Title           : openjdk: Enhance SASL Authentication (Oracle CPU 2026-10) 
 │                       │      ├ Description     : Vulnerability in Oracle Java SE (component: Security). 
 │                       │      │                   Supported versions that are affected are Oracle Java SE:
@@ -662,19 +660,17 @@
 │                       │      ├ References                                                                     
 │                       │      │                  ──────────────────────────────────────────────────────────────
 │                       │      │                  https://access.redhat.com/errata/RHSA-2026:88347              
-│                       │      │                  https://access.redhat.com/errata/RHSA-2026:90504              
+│                       │      │                  https://access.redhat.com/errata/RHSA-2026:88352              
 │                       │      │                  https://access.redhat.com/security/cve/CVE-2026-83381         
 │                       │      │                  https://bugzilla.redhat.com/2556709                           
 │                       │      │                  https://bugzilla.redhat.com/2556795                           
 │                       │      │                  https://bugzilla.redhat.com/2556824                           
 │                       │      │                  https://bugzilla.redhat.com/2556837                           
 │                       │      │                  https://bugzilla.redhat.com/2556859                           
-│                       │      │                  https://bugzilla.redhat.com/2556960                           
 │                       │      │                  https://bugzilla.redhat.com/2557007                           
 │                       │      │                  https://bugzilla.redhat.com/2557032                           
 │                       │      │                  https://bugzilla.redhat.com/2557041                           
 │                       │      │                  https://bugzilla.redhat.com/2557047                           
-│                       │      │                  https://bugzilla.redhat.com/2557056                           
 │                       │      │                  https://bugzilla.redhat.com/2557079                           
 │                       │      │                  https://bugzilla.redhat.com/2557110                           
 │                       │      │                  https://bugzilla.redhat.com/2557117                           
@@ -691,12 +687,12 @@
 │                       │      │                  https://bugzilla.redhat.com/2557564                           
 │                       │      │                  https://bugzilla.redhat.com/2557598                           
 │                       │      │                  https://bugzilla.redhat.com/2557662                           
+│                       │      │                  https://bugzilla.redhat.com/2557665                           
 │                       │      │                  https://bugzilla.redhat.com/2557674                           
 │                       │      │                  https://bugzilla.redhat.com/2557690                           
 │                       │      │                  https://bugzilla.redhat.com/2557709                           
 │                       │      │                  https://bugzilla.redhat.com/2557711                           
 │                       │      │                  https://bugzilla.redhat.com/2557731                           
-│                       │      │                  https://bugzilla.redhat.com/2557757                           
 │                       │      │                  https://bugzilla.redhat.com/2557765                           
 │                       │      │                  https://bugzilla.redhat.com/2557780                           
 │                       │      │                  https://bugzilla.redhat.com/2557857                           
@@ -781,7 +777,7 @@
 │                       │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-91463 
 │                       │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-91464 
 │                       │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-91487 
-│                       │      │                  https://errata.almalinux.org/10/ALSA-2026-90504.html          
+│                       │      │                  https://errata.almalinux.org/8/ALSA-2026-88352.html           
 │                       │      │                  https://errata.rockylinux.org/RLSA-2026:88347                 
 │                       │      │                  https://nvd.nist.gov/vuln/detail/CVE-2026-83381               
 │                       │      │                  https://www.cve.org/CVERecord?id=CVE-2026-83381               
@@ -805,8 +801,8 @@
 │                       │      ├ DataSource       ╭ ID  : alpine 
 │                       │      │                  ├ Name: Alpine Secdb 
 │                       │      │                  ╰ URL : https://secdb.alpinelinux.org/ 
-│                       │      ├ Fingerprint     : sha256:e48dca90452fad2eb46618b3c7d5acc8d53ebb84d1ec4e63b0898
-│                       │      │                   46f2d35a5ef 
+│                       │      ├ Fingerprint     : sha256:ad0ea44e6854d9c6d4b20ee0dc311bb0a74e09729e430957f9e1b
+│                       │      │                   40fd03f90b6 
 │                       │      ├ Title           : openjdk: Enhance WebRowSets (Oracle CPU 2026-10) 
 │                       │      ├ Description     : Vulnerability in the Oracle Java SE, Oracle GraalVM for JDK,
 │                       │      │                    Oracle GraalVM Enterprise Edition product of Oracle Java SE
@@ -845,19 +841,17 @@
 │                       │      ├ References                                                                     
 │                       │      │                  ──────────────────────────────────────────────────────────────
 │                       │      │                  https://access.redhat.com/errata/RHSA-2026:88347              
-│                       │      │                  https://access.redhat.com/errata/RHSA-2026:90504              
+│                       │      │                  https://access.redhat.com/errata/RHSA-2026:88352              
 │                       │      │                  https://access.redhat.com/security/cve/CVE-2026-83387         
 │                       │      │                  https://bugzilla.redhat.com/2556709                           
 │                       │      │                  https://bugzilla.redhat.com/2556795                           
 │                       │      │                  https://bugzilla.redhat.com/2556824                           
 │                       │      │                  https://bugzilla.redhat.com/2556837                           
 │                       │      │                  https://bugzilla.redhat.com/2556859                           
-│                       │      │                  https://bugzilla.redhat.com/2556960                           
 │                       │      │                  https://bugzilla.redhat.com/2557007                           
 │                       │      │                  https://bugzilla.redhat.com/2557032                           
 │                       │      │                  https://bugzilla.redhat.com/2557041                           
 │                       │      │                  https://bugzilla.redhat.com/2557047                           
-│                       │      │                  https://bugzilla.redhat.com/2557056                           
 │                       │      │                  https://bugzilla.redhat.com/2557079                           
 │                       │      │                  https://bugzilla.redhat.com/2557110                           
 │                       │      │                  https://bugzilla.redhat.com/2557117                           
@@ -874,12 +868,12 @@
 │                       │      │                  https://bugzilla.redhat.com/2557564                           
 │                       │      │                  https://bugzilla.redhat.com/2557598                           
 │                       │      │                  https://bugzilla.redhat.com/2557662                           
+│                       │      │                  https://bugzilla.redhat.com/2557665                           
 │                       │      │                  https://bugzilla.redhat.com/2557674                           
 │                       │      │                  https://bugzilla.redhat.com/2557690                           
 │                       │      │                  https://bugzilla.redhat.com/2557709                           
 │                       │      │                  https://bugzilla.redhat.com/2557711                           
 │                       │      │                  https://bugzilla.redhat.com/2557731                           
-│                       │      │                  https://bugzilla.redhat.com/2557757                           
 │                       │      │                  https://bugzilla.redhat.com/2557765                           
 │                       │      │                  https://bugzilla.redhat.com/2557780                           
 │                       │      │                  https://bugzilla.redhat.com/2557857                           
@@ -964,7 +958,7 @@
 │                       │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-91463 
 │                       │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-91464 
 │                       │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-91487 
-│                       │      │                  https://errata.almalinux.org/10/ALSA-2026-90504.html          
+│                       │      │                  https://errata.almalinux.org/8/ALSA-2026-88352.html           
 │                       │      │                  https://errata.rockylinux.org/RLSA-2026:88347                 
 │                       │      │                  https://nvd.nist.gov/vuln/detail/CVE-2026-83387               
 │                       │      │                  https://www.cve.org/CVERecord?id=CVE-2026-83387               
@@ -988,8 +982,8 @@
 │                       │      ├ DataSource       ╭ ID  : alpine 
 │                       │      │                  ├ Name: Alpine Secdb 
 │                       │      │                  ╰ URL : https://secdb.alpinelinux.org/ 
-│                       │      ├ Fingerprint     : sha256:3d18af633371218cdee1196ae73a0c8df7a84d0bfb544c807c422
-│                       │      │                   7313d446243 
+│                       │      ├ Fingerprint     : sha256:c97318047f87ed380913f2d96b34f9369a1c6724ab5d85789212e
+│                       │      │                   c038e59649b 
 │                       │      ├ Title           : openjdk: Enhance XML Processing (Oracle CPU 2026-10) 
 │                       │      ├ Description     : Vulnerability in the Oracle Java SE, Oracle GraalVM for JDK,
 │                       │      │                    Oracle GraalVM Enterprise Edition product of Oracle Java SE
@@ -1028,19 +1022,17 @@
 │                       │      ├ References                                                                     
 │                       │      │                  ──────────────────────────────────────────────────────────────
 │                       │      │                  https://access.redhat.com/errata/RHSA-2026:88347              
-│                       │      │                  https://access.redhat.com/errata/RHSA-2026:90504              
+│                       │      │                  https://access.redhat.com/errata/RHSA-2026:88352              
 │                       │      │                  https://access.redhat.com/security/cve/CVE-2026-83400         
 │                       │      │                  https://bugzilla.redhat.com/2556709                           
 │                       │      │                  https://bugzilla.redhat.com/2556795                           
 │                       │      │                  https://bugzilla.redhat.com/2556824                           
 │                       │      │                  https://bugzilla.redhat.com/2556837                           
 │                       │      │                  https://bugzilla.redhat.com/2556859                           
-│                       │      │                  https://bugzilla.redhat.com/2556960                           
 │                       │      │                  https://bugzilla.redhat.com/2557007                           
 │                       │      │                  https://bugzilla.redhat.com/2557032                           
 │                       │      │                  https://bugzilla.redhat.com/2557041                           
 │                       │      │                  https://bugzilla.redhat.com/2557047                           
-│                       │      │                  https://bugzilla.redhat.com/2557056                           
 │                       │      │                  https://bugzilla.redhat.com/2557079                           
 │                       │      │                  https://bugzilla.redhat.com/2557110                           
 │                       │      │                  https://bugzilla.redhat.com/2557117                           
@@ -1057,12 +1049,12 @@
 │                       │      │                  https://bugzilla.redhat.com/2557564                           
 │                       │      │                  https://bugzilla.redhat.com/2557598                           
 │                       │      │                  https://bugzilla.redhat.com/2557662                           
+│                       │      │                  https://bugzilla.redhat.com/2557665                           
 │                       │      │                  https://bugzilla.redhat.com/2557674                           
 │                       │      │                  https://bugzilla.redhat.com/2557690                           
 │                       │      │                  https://bugzilla.redhat.com/2557709                           
 │                       │      │                  https://bugzilla.redhat.com/2557711                           
 │                       │      │                  https://bugzilla.redhat.com/2557731                           
-│                       │      │                  https://bugzilla.redhat.com/2557757                           
 │                       │      │                  https://bugzilla.redhat.com/2557765                           
 │                       │      │                  https://bugzilla.redhat.com/2557780                           
 │                       │      │                  https://bugzilla.redhat.com/2557857                           
@@ -1147,7 +1139,7 @@
 │                       │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-91463 
 │                       │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-91464 
 │                       │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-91487 
-│                       │      │                  https://errata.almalinux.org/10/ALSA-2026-90504.html          
+│                       │      │                  https://errata.almalinux.org/8/ALSA-2026-88352.html           
 │                       │      │                  https://errata.rockylinux.org/RLSA-2026:88347                 
 │                       │      │                  https://nvd.nist.gov/vuln/detail/CVE-2026-83400               
 │                       │      │                  https://www.cve.org/CVERecord?id=CVE-2026-83400               
@@ -1171,8 +1163,8 @@
 │                       │      ├ DataSource       ╭ ID  : alpine 
 │                       │      │                  ├ Name: Alpine Secdb 
 │                       │      │                  ╰ URL : https://secdb.alpinelinux.org/ 
-│                       │      ├ Fingerprint     : sha256:0998b0c9512f51fb77a182e3dda5981126ca8379e7a5f97f61db9
-│                       │      │                   59577ca3c63 
+│                       │      ├ Fingerprint     : sha256:e7d90ee31567ebdd243900800e3558d6ca6d3199beb46f4cc4b00
+│                       │      │                   7a553920421 
 │                       │      ├ Title           : openjdk: Enhance XPath Expressions (Oracle CPU 2026-10) 
 │                       │      ├ Description     : Vulnerability in the Oracle Java SE, Oracle GraalVM for JDK,
 │                       │      │                    Oracle GraalVM Enterprise Edition product of Oracle Java SE
@@ -1211,19 +1203,17 @@
 │                       │      ├ References                                                                     
 │                       │      │                  ──────────────────────────────────────────────────────────────
 │                       │      │                  https://access.redhat.com/errata/RHSA-2026:88347              
-│                       │      │                  https://access.redhat.com/errata/RHSA-2026:90504              
+│                       │      │                  https://access.redhat.com/errata/RHSA-2026:88352              
 │                       │      │                  https://access.redhat.com/security/cve/CVE-2026-87290         
 │                       │      │                  https://bugzilla.redhat.com/2556709                           
 │                       │      │                  https://bugzilla.redhat.com/2556795                           
 │                       │      │                  https://bugzilla.redhat.com/2556824                           
 │                       │      │                  https://bugzilla.redhat.com/2556837                           
 │                       │      │                  https://bugzilla.redhat.com/2556859                           
-│                       │      │                  https://bugzilla.redhat.com/2556960                           
 │                       │      │                  https://bugzilla.redhat.com/2557007                           
 │                       │      │                  https://bugzilla.redhat.com/2557032                           
 │                       │      │                  https://bugzilla.redhat.com/2557041                           
 │                       │      │                  https://bugzilla.redhat.com/2557047                           
-│                       │      │                  https://bugzilla.redhat.com/2557056                           
 │                       │      │                  https://bugzilla.redhat.com/2557079                           
 │                       │      │                  https://bugzilla.redhat.com/2557110                           
 │                       │      │                  https://bugzilla.redhat.com/2557117                           
@@ -1240,12 +1230,12 @@
 │                       │      │                  https://bugzilla.redhat.com/2557564                           
 │                       │      │                  https://bugzilla.redhat.com/2557598                           
 │                       │      │                  https://bugzilla.redhat.com/2557662                           
+│                       │      │                  https://bugzilla.redhat.com/2557665                           
 │                       │      │                  https://bugzilla.redhat.com/2557674                           
 │                       │      │                  https://bugzilla.redhat.com/2557690                           
 │                       │      │                  https://bugzilla.redhat.com/2557709                           
 │                       │      │                  https://bugzilla.redhat.com/2557711                           
 │                       │      │                  https://bugzilla.redhat.com/2557731                           
-│                       │      │                  https://bugzilla.redhat.com/2557757                           
 │                       │      │                  https://bugzilla.redhat.com/2557765                           
 │                       │      │                  https://bugzilla.redhat.com/2557780                           
 │                       │      │                  https://bugzilla.redhat.com/2557857                           
@@ -1330,7 +1320,7 @@
 │                       │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-91463 
 │                       │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-91464 
 │                       │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-91487 
-│                       │      │                  https://errata.almalinux.org/10/ALSA-2026-90504.html          
+│                       │      │                  https://errata.almalinux.org/8/ALSA-2026-88352.html           
 │                       │      │                  https://errata.rockylinux.org/RLSA-2026:88347                 
 │                       │      │                  https://nvd.nist.gov/vuln/detail/CVE-2026-87290               
 │                       │      │                  https://www.cve.org/CVERecord?id=CVE-2026-87290               
@@ -1354,8 +1344,8 @@
 │                       │      ├ DataSource       ╭ ID  : alpine 
 │                       │      │                  ├ Name: Alpine Secdb 
 │                       │      │                  ╰ URL : https://secdb.alpinelinux.org/ 
-│                       │      ├ Fingerprint     : sha256:2d9c2d00b4b9bad9372a9a28fc2d543506bfce20b1b6effa3df8d
-│                       │      │                   c0182bfb130 
+│                       │      ├ Fingerprint     : sha256:374f43748387717caf80fe91554be187c683fe1c97e93eddf44ac
+│                       │      │                   3654e5d62ec 
 │                       │      ├ Title           : openjdk: Enhance HTTP Server (Oracle CPU 2026-10) 
 │                       │      ├ Description     : Vulnerability in Oracle Java SE (component: Networking). 
 │                       │      │                   Supported versions that are affected are Oracle Java SE:
@@ -1385,7 +1375,7 @@
 │                       │      ├ References                                                                     
 │                       │      │                  ──────────────────────────────────────────────────────────────
 │                       │      │                  https://access.redhat.com/errata/RHSA-2026:88347              
-│                       │      │                  https://access.redhat.com/errata/RHSA-2026:90504              
+│                       │      │                  https://access.redhat.com/errata/RHSA-2026:88349              
 │                       │      │                  https://access.redhat.com/security/cve/CVE-2026-87291         
 │                       │      │                  https://bugzilla.redhat.com/2556709                           
 │                       │      │                  https://bugzilla.redhat.com/2556795                           
@@ -1504,7 +1494,7 @@
 │                       │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-91463 
 │                       │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-91464 
 │                       │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-91487 
-│                       │      │                  https://errata.almalinux.org/10/ALSA-2026-90504.html          
+│                       │      │                  https://errata.almalinux.org/8/ALSA-2026-88349.html           
 │                       │      │                  https://errata.rockylinux.org/RLSA-2026:88347                 
 │                       │      │                  https://nvd.nist.gov/vuln/detail/CVE-2026-87291               
 │                       │      │                  https://www.cve.org/CVERecord?id=CVE-2026-87291               
@@ -1528,8 +1518,8 @@
 │                       │      ├ DataSource       ╭ ID  : alpine 
 │                       │      │                  ├ Name: Alpine Secdb 
 │                       │      │                  ╰ URL : https://secdb.alpinelinux.org/ 
-│                       │      ├ Fingerprint     : sha256:286287d3da3c208ed9d47599402dd88c4d6a7c7be16a510d014d1
-│                       │      │                   c6fa806092a 
+│                       │      ├ Fingerprint     : sha256:0706c831541ec60fb30b20f44ce2829c059f29e81a2d49a73c315
+│                       │      │                   371b9c594ca 
 │                       │      ├ Title           : openjdk: Enhance HTTP Client (Oracle CPU 2026-10) 
 │                       │      ├ Description     : Vulnerability in Oracle Java SE (component: Networking). 
 │                       │      │                   Supported versions that are affected are Oracle Java SE:
@@ -1564,19 +1554,17 @@
 │                       │      ├ References                                                                     
 │                       │      │                  ──────────────────────────────────────────────────────────────
 │                       │      │                  https://access.redhat.com/errata/RHSA-2026:88347              
-│                       │      │                  https://access.redhat.com/errata/RHSA-2026:90504              
+│                       │      │                  https://access.redhat.com/errata/RHSA-2026:88352              
 │                       │      │                  https://access.redhat.com/security/cve/CVE-2026-91332         
 │                       │      │                  https://bugzilla.redhat.com/2556709                           
 │                       │      │                  https://bugzilla.redhat.com/2556795                           
 │                       │      │                  https://bugzilla.redhat.com/2556824                           
 │                       │      │                  https://bugzilla.redhat.com/2556837                           
 │                       │      │                  https://bugzilla.redhat.com/2556859                           
-│                       │      │                  https://bugzilla.redhat.com/2556960                           
 │                       │      │                  https://bugzilla.redhat.com/2557007                           
 │                       │      │                  https://bugzilla.redhat.com/2557032                           
 │                       │      │                  https://bugzilla.redhat.com/2557041                           
 │                       │      │                  https://bugzilla.redhat.com/2557047                           
-│                       │      │                  https://bugzilla.redhat.com/2557056                           
 │                       │      │                  https://bugzilla.redhat.com/2557079                           
 │                       │      │                  https://bugzilla.redhat.com/2557110                           
 │                       │      │                  https://bugzilla.redhat.com/2557117                           
@@ -1593,12 +1581,12 @@
 │                       │      │                  https://bugzilla.redhat.com/2557564                           
 │                       │      │                  https://bugzilla.redhat.com/2557598                           
 │                       │      │                  https://bugzilla.redhat.com/2557662                           
+│                       │      │                  https://bugzilla.redhat.com/2557665                           
 │                       │      │                  https://bugzilla.redhat.com/2557674                           
 │                       │      │                  https://bugzilla.redhat.com/2557690                           
 │                       │      │                  https://bugzilla.redhat.com/2557709                           
 │                       │      │                  https://bugzilla.redhat.com/2557711                           
 │                       │      │                  https://bugzilla.redhat.com/2557731                           
-│                       │      │                  https://bugzilla.redhat.com/2557757                           
 │                       │      │                  https://bugzilla.redhat.com/2557765                           
 │                       │      │                  https://bugzilla.redhat.com/2557780                           
 │                       │      │                  https://bugzilla.redhat.com/2557857                           
@@ -1683,7 +1671,7 @@
 │                       │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-91463 
 │                       │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-91464 
 │                       │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-91487 
-│                       │      │                  https://errata.almalinux.org/10/ALSA-2026-90504.html          
+│                       │      │                  https://errata.almalinux.org/8/ALSA-2026-88352.html           
 │                       │      │                  https://errata.rockylinux.org/RLSA-2026:88347                 
 │                       │      │                  https://nvd.nist.gov/vuln/detail/CVE-2026-91332               
 │                       │      │                  https://www.cve.org/CVERecord?id=CVE-2026-91332               
@@ -1707,8 +1695,8 @@
 │                       │      ├ DataSource       ╭ ID  : alpine 
 │                       │      │                  ├ Name: Alpine Secdb 
 │                       │      │                  ╰ URL : https://secdb.alpinelinux.org/ 
-│                       │      ├ Fingerprint     : sha256:ed438dab6e6af7cd8529b0e25611d8e98fec608be89289ded629c
-│                       │      │                   b5524d4c33c 
+│                       │      ├ Fingerprint     : sha256:22f7473afc751926b2f7da73249abf4b21c18b29d4900f36c256e
+│                       │      │                   63b03178c91 
 │                       │      ├ Title           : openjdk: Enhance TLS handshakes (Oracle CPU 2026-10) 
 │                       │      ├ Description     : Vulnerability in Oracle Java SE (component: JSSE). 
 │                       │      │                   Supported versions that are affected are Oracle Java SE:
@@ -1743,19 +1731,17 @@
 │                       │      ├ References                                                                     
 │                       │      │                  ──────────────────────────────────────────────────────────────
 │                       │      │                  https://access.redhat.com/errata/RHSA-2026:88347              
-│                       │      │                  https://access.redhat.com/errata/RHSA-2026:90504              
+│                       │      │                  https://access.redhat.com/errata/RHSA-2026:88352              
 │                       │      │                  https://access.redhat.com/security/cve/CVE-2026-91373         
 │                       │      │                  https://bugzilla.redhat.com/2556709                           
 │                       │      │                  https://bugzilla.redhat.com/2556795                           
 │                       │      │                  https://bugzilla.redhat.com/2556824                           
 │                       │      │                  https://bugzilla.redhat.com/2556837                           
 │                       │      │                  https://bugzilla.redhat.com/2556859                           
-│                       │      │                  https://bugzilla.redhat.com/2556960                           
 │                       │      │                  https://bugzilla.redhat.com/2557007                           
 │                       │      │                  https://bugzilla.redhat.com/2557032                           
 │                       │      │                  https://bugzilla.redhat.com/2557041                           
 │                       │      │                  https://bugzilla.redhat.com/2557047                           
-│                       │      │                  https://bugzilla.redhat.com/2557056                           
 │                       │      │                  https://bugzilla.redhat.com/2557079                           
 │                       │      │                  https://bugzilla.redhat.com/2557110                           
 │                       │      │                  https://bugzilla.redhat.com/2557117                           
@@ -1772,12 +1758,12 @@
 │                       │      │                  https://bugzilla.redhat.com/2557564                           
 │                       │      │                  https://bugzilla.redhat.com/2557598                           
 │                       │      │                  https://bugzilla.redhat.com/2557662                           
+│                       │      │                  https://bugzilla.redhat.com/2557665                           
 │                       │      │                  https://bugzilla.redhat.com/2557674                           
 │                       │      │                  https://bugzilla.redhat.com/2557690                           
 │                       │      │                  https://bugzilla.redhat.com/2557709                           
 │                       │      │                  https://bugzilla.redhat.com/2557711                           
 │                       │      │                  https://bugzilla.redhat.com/2557731                           
-│                       │      │                  https://bugzilla.redhat.com/2557757                           
 │                       │      │                  https://bugzilla.redhat.com/2557765                           
 │                       │      │                  https://bugzilla.redhat.com/2557780                           
 │                       │      │                  https://bugzilla.redhat.com/2557857                           
@@ -1862,7 +1848,7 @@
 │                       │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-91463 
 │                       │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-91464 
 │                       │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-91487 
-│                       │      │                  https://errata.almalinux.org/10/ALSA-2026-90504.html          
+│                       │      │                  https://errata.almalinux.org/8/ALSA-2026-88352.html           
 │                       │      │                  https://errata.rockylinux.org/RLSA-2026:88347                 
 │                       │      │                  https://nvd.nist.gov/vuln/detail/CVE-2026-91373               
 │                       │      │                  https://www.cve.org/CVERecord?id=CVE-2026-91373               
@@ -1886,8 +1872,8 @@
 │                       │      ├ DataSource       ╭ ID  : alpine 
 │                       │      │                  ├ Name: Alpine Secdb 
 │                       │      │                  ╰ URL : https://secdb.alpinelinux.org/ 
-│                       │      ├ Fingerprint     : sha256:df1eac5e664ca39931dd09a4d645b92f6e6a3560bd7fbdb2b34ac
-│                       │      │                   7a7afd01b65 
+│                       │      ├ Fingerprint     : sha256:784c5f794a8d8033be801fca4d0172eb2ff6ed6384028d0e8c83c
+│                       │      │                   927d5666dad 
 │                       │      ├ Title           : openjdk: Enhance jstatd (Oracle CPU 2026-10) 
 │                       │      ├ Description     : Vulnerability in the Oracle Java SE, Oracle GraalVM for JDK,
 │                       │      │                    Oracle GraalVM Enterprise Edition product of Oracle Java SE
@@ -1929,19 +1915,17 @@
 │                       │      ├ References                                                                     
 │                       │      │                  ──────────────────────────────────────────────────────────────
 │                       │      │                  https://access.redhat.com/errata/RHSA-2026:88347              
-│                       │      │                  https://access.redhat.com/errata/RHSA-2026:90504              
+│                       │      │                  https://access.redhat.com/errata/RHSA-2026:88352              
 │                       │      │                  https://access.redhat.com/security/cve/CVE-2026-91374         
 │                       │      │                  https://bugzilla.redhat.com/2556709                           
 │                       │      │                  https://bugzilla.redhat.com/2556795                           
 │                       │      │                  https://bugzilla.redhat.com/2556824                           
 │                       │      │                  https://bugzilla.redhat.com/2556837                           
 │                       │      │                  https://bugzilla.redhat.com/2556859                           
-│                       │      │                  https://bugzilla.redhat.com/2556960                           
 │                       │      │                  https://bugzilla.redhat.com/2557007                           
 │                       │      │                  https://bugzilla.redhat.com/2557032                           
 │                       │      │                  https://bugzilla.redhat.com/2557041                           
 │                       │      │                  https://bugzilla.redhat.com/2557047                           
-│                       │      │                  https://bugzilla.redhat.com/2557056                           
 │                       │      │                  https://bugzilla.redhat.com/2557079                           
 │                       │      │                  https://bugzilla.redhat.com/2557110                           
 │                       │      │                  https://bugzilla.redhat.com/2557117                           
@@ -1958,12 +1942,12 @@
 │                       │      │                  https://bugzilla.redhat.com/2557564                           
 │                       │      │                  https://bugzilla.redhat.com/2557598                           
 │                       │      │                  https://bugzilla.redhat.com/2557662                           
+│                       │      │                  https://bugzilla.redhat.com/2557665                           
 │                       │      │                  https://bugzilla.redhat.com/2557674                           
 │                       │      │                  https://bugzilla.redhat.com/2557690                           
 │                       │      │                  https://bugzilla.redhat.com/2557709                           
 │                       │      │                  https://bugzilla.redhat.com/2557711                           
 │                       │      │                  https://bugzilla.redhat.com/2557731                           
-│                       │      │                  https://bugzilla.redhat.com/2557757                           
 │                       │      │                  https://bugzilla.redhat.com/2557765                           
 │                       │      │                  https://bugzilla.redhat.com/2557780                           
 │                       │      │                  https://bugzilla.redhat.com/2557857                           
@@ -2048,7 +2032,7 @@
 │                       │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-91463 
 │                       │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-91464 
 │                       │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-91487 
-│                       │      │                  https://errata.almalinux.org/10/ALSA-2026-90504.html          
+│                       │      │                  https://errata.almalinux.org/8/ALSA-2026-88352.html           
 │                       │      │                  https://errata.rockylinux.org/RLSA-2026:88347                 
 │                       │      │                  https://nvd.nist.gov/vuln/detail/CVE-2026-91374               
 │                       │      │                  https://www.cve.org/CVERecord?id=CVE-2026-91374               
@@ -2072,8 +2056,8 @@
 │                       │      ├ DataSource       ╭ ID  : alpine 
 │                       │      │                  ├ Name: Alpine Secdb 
 │                       │      │                  ╰ URL : https://secdb.alpinelinux.org/ 
-│                       │      ├ Fingerprint     : sha256:7254f998bc3e9344272e7217fa9d3f5df1ffcbd01a938542e1bf1
-│                       │      │                   c9da3309bf7 
+│                       │      ├ Fingerprint     : sha256:72aa8c1b90957bd5c8f66b12cecdd82ab4a68a13b89b5625ab3b0
+│                       │      │                   4eb57cdbc45 
 │                       │      ├ Title           : openjdk: Enhance jmod handling (Oracle CPU 2026-10) 
 │                       │      ├ Description     : Vulnerability in Oracle Java SE (component: Libraries). 
 │                       │      │                   Supported versions that are affected are Oracle Java SE:
@@ -2110,19 +2094,17 @@
 │                       │      ├ References                                                                     
 │                       │      │                  ──────────────────────────────────────────────────────────────
 │                       │      │                  https://access.redhat.com/errata/RHSA-2026:88347              
-│                       │      │                  https://access.redhat.com/errata/RHSA-2026:90504              
+│                       │      │                  https://access.redhat.com/errata/RHSA-2026:88352              
 │                       │      │                  https://access.redhat.com/security/cve/CVE-2026-91375         
 │                       │      │                  https://bugzilla.redhat.com/2556709                           
 │                       │      │                  https://bugzilla.redhat.com/2556795                           
 │                       │      │                  https://bugzilla.redhat.com/2556824                           
 │                       │      │                  https://bugzilla.redhat.com/2556837                           
 │                       │      │                  https://bugzilla.redhat.com/2556859                           
-│                       │      │                  https://bugzilla.redhat.com/2556960                           
 │                       │      │                  https://bugzilla.redhat.com/2557007                           
 │                       │      │                  https://bugzilla.redhat.com/2557032                           
 │                       │      │                  https://bugzilla.redhat.com/2557041                           
 │                       │      │                  https://bugzilla.redhat.com/2557047                           
-│                       │      │                  https://bugzilla.redhat.com/2557056                           
 │                       │      │                  https://bugzilla.redhat.com/2557079                           
 │                       │      │                  https://bugzilla.redhat.com/2557110                           
 │                       │      │                  https://bugzilla.redhat.com/2557117                           
@@ -2139,12 +2121,12 @@
 │                       │      │                  https://bugzilla.redhat.com/2557564                           
 │                       │      │                  https://bugzilla.redhat.com/2557598                           
 │                       │      │                  https://bugzilla.redhat.com/2557662                           
+│                       │      │                  https://bugzilla.redhat.com/2557665                           
 │                       │      │                  https://bugzilla.redhat.com/2557674                           
 │                       │      │                  https://bugzilla.redhat.com/2557690                           
 │                       │      │                  https://bugzilla.redhat.com/2557709                           
 │                       │      │                  https://bugzilla.redhat.com/2557711                           
 │                       │      │                  https://bugzilla.redhat.com/2557731                           
-│                       │      │                  https://bugzilla.redhat.com/2557757                           
 │                       │      │                  https://bugzilla.redhat.com/2557765                           
 │                       │      │                  https://bugzilla.redhat.com/2557780                           
 │                       │      │                  https://bugzilla.redhat.com/2557857                           
@@ -2229,7 +2211,7 @@
 │                       │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-91463 
 │                       │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-91464 
 │                       │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-91487 
-│                       │      │                  https://errata.almalinux.org/10/ALSA-2026-90504.html          
+│                       │      │                  https://errata.almalinux.org/8/ALSA-2026-88352.html           
 │                       │      │                  https://errata.rockylinux.org/RLSA-2026:88347                 
 │                       │      │                  https://nvd.nist.gov/vuln/detail/CVE-2026-91375               
 │                       │      │                  https://www.cve.org/CVERecord?id=CVE-2026-91375               
@@ -2253,8 +2235,8 @@
 │                       │      ├ DataSource       ╭ ID  : alpine 
 │                       │      │                  ├ Name: Alpine Secdb 
 │                       │      │                  ╰ URL : https://secdb.alpinelinux.org/ 
-│                       │      ├ Fingerprint     : sha256:5608f01539b3c3a14b869391cdb3885ec7edd04f7265b9952c8a7
-│                       │      │                   b4a575aeef5 
+│                       │      ├ Fingerprint     : sha256:fb31cf78439f798361729efc8e4df821f3d09a4df9cb0cf73c42a
+│                       │      │                   850c9c8974d 
 │                       │      ├ Title           : openjdk: Enhance JShell (Oracle CPU 2026-10) 
 │                       │      ├ Description     : Vulnerability in the Oracle Java SE, Oracle GraalVM for JDK,
 │                       │      │                    Oracle GraalVM Enterprise Edition product of Oracle Java SE
@@ -2296,19 +2278,17 @@
 │                       │      ├ References                                                                     
 │                       │      │                  ──────────────────────────────────────────────────────────────
 │                       │      │                  https://access.redhat.com/errata/RHSA-2026:88347              
-│                       │      │                  https://access.redhat.com/errata/RHSA-2026:90504              
+│                       │      │                  https://access.redhat.com/errata/RHSA-2026:88352              
 │                       │      │                  https://access.redhat.com/security/cve/CVE-2026-91379         
 │                       │      │                  https://bugzilla.redhat.com/2556709                           
 │                       │      │                  https://bugzilla.redhat.com/2556795                           
 │                       │      │                  https://bugzilla.redhat.com/2556824                           
 │                       │      │                  https://bugzilla.redhat.com/2556837                           
 │                       │      │                  https://bugzilla.redhat.com/2556859                           
-│                       │      │                  https://bugzilla.redhat.com/2556960                           
 │                       │      │                  https://bugzilla.redhat.com/2557007                           
 │                       │      │                  https://bugzilla.redhat.com/2557032                           
 │                       │      │                  https://bugzilla.redhat.com/2557041                           
 │                       │      │                  https://bugzilla.redhat.com/2557047                           
-│                       │      │                  https://bugzilla.redhat.com/2557056                           
 │                       │      │                  https://bugzilla.redhat.com/2557079                           
 │                       │      │                  https://bugzilla.redhat.com/2557110                           
 │                       │      │                  https://bugzilla.redhat.com/2557117                           
@@ -2325,12 +2305,12 @@
 │                       │      │                  https://bugzilla.redhat.com/2557564                           
 │                       │      │                  https://bugzilla.redhat.com/2557598                           
 │                       │      │                  https://bugzilla.redhat.com/2557662                           
+│                       │      │                  https://bugzilla.redhat.com/2557665                           
 │                       │      │                  https://bugzilla.redhat.com/2557674                           
 │                       │      │                  https://bugzilla.redhat.com/2557690                           
 │                       │      │                  https://bugzilla.redhat.com/2557709                           
 │                       │      │                  https://bugzilla.redhat.com/2557711                           
 │                       │      │                  https://bugzilla.redhat.com/2557731                           
-│                       │      │                  https://bugzilla.redhat.com/2557757                           
 │                       │      │                  https://bugzilla.redhat.com/2557765                           
 │                       │      │                  https://bugzilla.redhat.com/2557780                           
 │                       │      │                  https://bugzilla.redhat.com/2557857                           
@@ -2415,7 +2395,7 @@
 │                       │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-91463 
 │                       │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-91464 
 │                       │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-91487 
-│                       │      │                  https://errata.almalinux.org/10/ALSA-2026-90504.html          
+│                       │      │                  https://errata.almalinux.org/8/ALSA-2026-88352.html           
 │                       │      │                  https://errata.rockylinux.org/RLSA-2026:88347                 
 │                       │      │                  https://nvd.nist.gov/vuln/detail/CVE-2026-91379               
 │                       │      │                  https://www.cve.org/CVERecord?id=CVE-2026-91379               
@@ -2439,8 +2419,8 @@
 │                       │      ├ DataSource       ╭ ID  : alpine 
 │                       │      │                  ├ Name: Alpine Secdb 
 │                       │      │                  ╰ URL : https://secdb.alpinelinux.org/ 
-│                       │      ├ Fingerprint     : sha256:bb7d9c328f0a8a6fa9d299df792f3b04264bfa07e00e40f33fc70
-│                       │      │                   3f617ced4f8 
+│                       │      ├ Fingerprint     : sha256:59f1c43e5ded9d66ab9c0f6a4ead512d20481c2693e2a1b4560fc
+│                       │      │                   d5b429a0701 
 │                       │      ├ Title           : openjdk: Enhance CORBA (Oracle CPU 2026-10) 
 │                       │      ├ Description     : Vulnerability in the Oracle Java SE, Oracle GraalVM
 │                       │      │                   Enterprise Edition product of Oracle Java SE (component:
@@ -2493,8 +2473,8 @@
 │                       │      ├ DataSource       ╭ ID  : alpine 
 │                       │      │                  ├ Name: Alpine Secdb 
 │                       │      │                  ╰ URL : https://secdb.alpinelinux.org/ 
-│                       │      ├ Fingerprint     : sha256:401703f969bee1bc9226bc247923cacee41362d081e0e31cfd684
-│                       │      │                   eaeffb8b04e 
+│                       │      ├ Fingerprint     : sha256:1722d7cd73a51cdeb729ddbb9e60e132267a18865d44417378862
+│                       │      │                   0c16db01aca 
 │                       │      ├ Title           : openjdk: Enhance GIF loading (Oracle CPU 2026-10) 
 │                       │      ├ Description     : Vulnerability in the Oracle Java SE, Oracle JavaFX, Oracle
 │                       │      │                   GraalVM for JDK, Oracle GraalVM Enterprise Edition product
@@ -2534,19 +2514,17 @@
 │                       │      ├ References                                                                     
 │                       │      │                  ──────────────────────────────────────────────────────────────
 │                       │      │                  https://access.redhat.com/errata/RHSA-2026:88347              
-│                       │      │                  https://access.redhat.com/errata/RHSA-2026:90504              
+│                       │      │                  https://access.redhat.com/errata/RHSA-2026:88352              
 │                       │      │                  https://access.redhat.com/security/cve/CVE-2026-91418         
 │                       │      │                  https://bugzilla.redhat.com/2556709                           
 │                       │      │                  https://bugzilla.redhat.com/2556795                           
 │                       │      │                  https://bugzilla.redhat.com/2556824                           
 │                       │      │                  https://bugzilla.redhat.com/2556837                           
 │                       │      │                  https://bugzilla.redhat.com/2556859                           
-│                       │      │                  https://bugzilla.redhat.com/2556960                           
 │                       │      │                  https://bugzilla.redhat.com/2557007                           
 │                       │      │                  https://bugzilla.redhat.com/2557032                           
 │                       │      │                  https://bugzilla.redhat.com/2557041                           
 │                       │      │                  https://bugzilla.redhat.com/2557047                           
-│                       │      │                  https://bugzilla.redhat.com/2557056                           
 │                       │      │                  https://bugzilla.redhat.com/2557079                           
 │                       │      │                  https://bugzilla.redhat.com/2557110                           
 │                       │      │                  https://bugzilla.redhat.com/2557117                           
@@ -2563,12 +2541,12 @@
 │                       │      │                  https://bugzilla.redhat.com/2557564                           
 │                       │      │                  https://bugzilla.redhat.com/2557598                           
 │                       │      │                  https://bugzilla.redhat.com/2557662                           
+│                       │      │                  https://bugzilla.redhat.com/2557665                           
 │                       │      │                  https://bugzilla.redhat.com/2557674                           
 │                       │      │                  https://bugzilla.redhat.com/2557690                           
 │                       │      │                  https://bugzilla.redhat.com/2557709                           
 │                       │      │                  https://bugzilla.redhat.com/2557711                           
 │                       │      │                  https://bugzilla.redhat.com/2557731                           
-│                       │      │                  https://bugzilla.redhat.com/2557757                           
 │                       │      │                  https://bugzilla.redhat.com/2557765                           
 │                       │      │                  https://bugzilla.redhat.com/2557780                           
 │                       │      │                  https://bugzilla.redhat.com/2557857                           
@@ -2653,7 +2631,7 @@
 │                       │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-91463 
 │                       │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-91464 
 │                       │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-91487 
-│                       │      │                  https://errata.almalinux.org/10/ALSA-2026-90504.html          
+│                       │      │                  https://errata.almalinux.org/8/ALSA-2026-88352.html           
 │                       │      │                  https://errata.rockylinux.org/RLSA-2026:88347                 
 │                       │      │                  https://nvd.nist.gov/vuln/detail/CVE-2026-91418               
 │                       │      │                  https://www.cve.org/CVERecord?id=CVE-2026-91418               
@@ -2677,8 +2655,8 @@
 │                       │      ├ DataSource       ╭ ID  : alpine 
 │                       │      │                  ├ Name: Alpine Secdb 
 │                       │      │                  ╰ URL : https://secdb.alpinelinux.org/ 
-│                       │      ├ Fingerprint     : sha256:226851c07e8ed6308c44c764dd2970e9b1d8ef9782c8fd19fd1ae
-│                       │      │                   3c34c6099d0 
+│                       │      ├ Fingerprint     : sha256:4222adb81ef517414fb88ca3fd672c16f2947be21dfe97beeb31c
+│                       │      │                   378e8569bc8 
 │                       │      ├ Title           : openjdk: Enhance HTTP server parsing (Oracle CPU 2026-10) 
 │                       │      ├ Description     : Vulnerability in Oracle Java SE (component: Networking). 
 │                       │      │                   Supported versions that are affected are Oracle Java SE:
@@ -2710,19 +2688,17 @@
 │                       │      ├ References                                                                     
 │                       │      │                  ──────────────────────────────────────────────────────────────
 │                       │      │                  https://access.redhat.com/errata/RHSA-2026:88347              
-│                       │      │                  https://access.redhat.com/errata/RHSA-2026:90504              
+│                       │      │                  https://access.redhat.com/errata/RHSA-2026:88352              
 │                       │      │                  https://access.redhat.com/security/cve/CVE-2026-91451         
 │                       │      │                  https://bugzilla.redhat.com/2556709                           
 │                       │      │                  https://bugzilla.redhat.com/2556795                           
 │                       │      │                  https://bugzilla.redhat.com/2556824                           
 │                       │      │                  https://bugzilla.redhat.com/2556837                           
 │                       │      │                  https://bugzilla.redhat.com/2556859                           
-│                       │      │                  https://bugzilla.redhat.com/2556960                           
 │                       │      │                  https://bugzilla.redhat.com/2557007                           
 │                       │      │                  https://bugzilla.redhat.com/2557032                           
 │                       │      │                  https://bugzilla.redhat.com/2557041                           
 │                       │      │                  https://bugzilla.redhat.com/2557047                           
-│                       │      │                  https://bugzilla.redhat.com/2557056                           
 │                       │      │                  https://bugzilla.redhat.com/2557079                           
 │                       │      │                  https://bugzilla.redhat.com/2557110                           
 │                       │      │                  https://bugzilla.redhat.com/2557117                           
@@ -2739,12 +2715,12 @@
 │                       │      │                  https://bugzilla.redhat.com/2557564                           
 │                       │      │                  https://bugzilla.redhat.com/2557598                           
 │                       │      │                  https://bugzilla.redhat.com/2557662                           
+│                       │      │                  https://bugzilla.redhat.com/2557665                           
 │                       │      │                  https://bugzilla.redhat.com/2557674                           
 │                       │      │                  https://bugzilla.redhat.com/2557690                           
 │                       │      │                  https://bugzilla.redhat.com/2557709                           
 │                       │      │                  https://bugzilla.redhat.com/2557711                           
 │                       │      │                  https://bugzilla.redhat.com/2557731                           
-│                       │      │                  https://bugzilla.redhat.com/2557757                           
 │                       │      │                  https://bugzilla.redhat.com/2557765                           
 │                       │      │                  https://bugzilla.redhat.com/2557780                           
 │                       │      │                  https://bugzilla.redhat.com/2557857                           
@@ -2829,7 +2805,7 @@
 │                       │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-91463 
 │                       │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-91464 
 │                       │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-91487 
-│                       │      │                  https://errata.almalinux.org/10/ALSA-2026-90504.html          
+│                       │      │                  https://errata.almalinux.org/8/ALSA-2026-88352.html           
 │                       │      │                  https://errata.rockylinux.org/RLSA-2026:88347                 
 │                       │      │                  https://nvd.nist.gov/vuln/detail/CVE-2026-91451               
 │                       │      │                  https://www.cve.org/CVERecord?id=CVE-2026-91451               
@@ -2853,8 +2829,8 @@
 │                       │      ├ DataSource       ╭ ID  : alpine 
 │                       │      │                  ├ Name: Alpine Secdb 
 │                       │      │                  ╰ URL : https://secdb.alpinelinux.org/ 
-│                       │      ├ Fingerprint     : sha256:9ccb294d97785df110728ff45f35b51666359faa76860c4407f29
-│                       │      │                   46957d61847 
+│                       │      ├ Fingerprint     : sha256:cb22063a2ade972b4d4f2cf3a5a840c266a23260dce5696cbf9e9
+│                       │      │                   7b731041d4c 
 │                       │      ├ Title           : openjdk: Enhance HTTP server (Oracle CPU 2026-10) 
 │                       │      ├ Description     : Vulnerability in the Oracle Java SE, Oracle GraalVM for JDK,
 │                       │      │                    Oracle GraalVM Enterprise Edition product of Oracle Java SE
@@ -2890,19 +2866,17 @@
 │                       │      ├ References                                                                     
 │                       │      │                  ──────────────────────────────────────────────────────────────
 │                       │      │                  https://access.redhat.com/errata/RHSA-2026:88347              
-│                       │      │                  https://access.redhat.com/errata/RHSA-2026:90504              
+│                       │      │                  https://access.redhat.com/errata/RHSA-2026:88352              
 │                       │      │                  https://access.redhat.com/security/cve/CVE-2026-91452         
 │                       │      │                  https://bugzilla.redhat.com/2556709                           
 │                       │      │                  https://bugzilla.redhat.com/2556795                           
 │                       │      │                  https://bugzilla.redhat.com/2556824                           
 │                       │      │                  https://bugzilla.redhat.com/2556837                           
 │                       │      │                  https://bugzilla.redhat.com/2556859                           
-│                       │      │                  https://bugzilla.redhat.com/2556960                           
 │                       │      │                  https://bugzilla.redhat.com/2557007                           
 │                       │      │                  https://bugzilla.redhat.com/2557032                           
 │                       │      │                  https://bugzilla.redhat.com/2557041                           
 │                       │      │                  https://bugzilla.redhat.com/2557047                           
-│                       │      │                  https://bugzilla.redhat.com/2557056                           
 │                       │      │                  https://bugzilla.redhat.com/2557079                           
 │                       │      │                  https://bugzilla.redhat.com/2557110                           
 │                       │      │                  https://bugzilla.redhat.com/2557117                           
@@ -2919,12 +2893,12 @@
 │                       │      │                  https://bugzilla.redhat.com/2557564                           
 │                       │      │                  https://bugzilla.redhat.com/2557598                           
 │                       │      │                  https://bugzilla.redhat.com/2557662                           
+│                       │      │                  https://bugzilla.redhat.com/2557665                           
 │                       │      │                  https://bugzilla.redhat.com/2557674                           
 │                       │      │                  https://bugzilla.redhat.com/2557690                           
 │                       │      │                  https://bugzilla.redhat.com/2557709                           
 │                       │      │                  https://bugzilla.redhat.com/2557711                           
 │                       │      │                  https://bugzilla.redhat.com/2557731                           
-│                       │      │                  https://bugzilla.redhat.com/2557757                           
 │                       │      │                  https://bugzilla.redhat.com/2557765                           
 │                       │      │                  https://bugzilla.redhat.com/2557780                           
 │                       │      │                  https://bugzilla.redhat.com/2557857                           
@@ -3009,7 +2983,7 @@
 │                       │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-91463 
 │                       │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-91464 
 │                       │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-91487 
-│                       │      │                  https://errata.almalinux.org/10/ALSA-2026-90504.html          
+│                       │      │                  https://errata.almalinux.org/8/ALSA-2026-88352.html           
 │                       │      │                  https://errata.rockylinux.org/RLSA-2026:88347                 
 │                       │      │                  https://nvd.nist.gov/vuln/detail/CVE-2026-91452               
 │                       │      │                  https://www.cve.org/CVERecord?id=CVE-2026-91452               
@@ -3033,8 +3007,8 @@
 │                       │      ├ DataSource       ╭ ID  : alpine 
 │                       │      │                  ├ Name: Alpine Secdb 
 │                       │      │                  ╰ URL : https://secdb.alpinelinux.org/ 
-│                       │      ├ Fingerprint     : sha256:2c99e93cd8093e3957731e058b5cccc90e120f0937428ea53defa
-│                       │      │                   eea08734354 
+│                       │      ├ Fingerprint     : sha256:9c7da16621dd91f5f5f15d05abbe2590a264fb5b49cb500a27fbe
+│                       │      │                   f4c7f9101d1 
 │                       │      ├ Title           : openjdk: Improve HTTP headers (Oracle CPU 2026-10) 
 │                       │      ├ Description     : Vulnerability in the Oracle Java SE, Oracle GraalVM for JDK,
 │                       │      │                    Oracle GraalVM Enterprise Edition product of Oracle Java SE
@@ -3070,19 +3044,17 @@
 │                       │      ├ References                                                                     
 │                       │      │                  ──────────────────────────────────────────────────────────────
 │                       │      │                  https://access.redhat.com/errata/RHSA-2026:88347              
-│                       │      │                  https://access.redhat.com/errata/RHSA-2026:90504              
+│                       │      │                  https://access.redhat.com/errata/RHSA-2026:88352              
 │                       │      │                  https://access.redhat.com/security/cve/CVE-2026-91453         
 │                       │      │                  https://bugzilla.redhat.com/2556709                           
 │                       │      │                  https://bugzilla.redhat.com/2556795                           
 │                       │      │                  https://bugzilla.redhat.com/2556824                           
 │                       │      │                  https://bugzilla.redhat.com/2556837                           
 │                       │      │                  https://bugzilla.redhat.com/2556859                           
-│                       │      │                  https://bugzilla.redhat.com/2556960                           
 │                       │      │                  https://bugzilla.redhat.com/2557007                           
 │                       │      │                  https://bugzilla.redhat.com/2557032                           
 │                       │      │                  https://bugzilla.redhat.com/2557041                           
 │                       │      │                  https://bugzilla.redhat.com/2557047                           
-│                       │      │                  https://bugzilla.redhat.com/2557056                           
 │                       │      │                  https://bugzilla.redhat.com/2557079                           
 │                       │      │                  https://bugzilla.redhat.com/2557110                           
 │                       │      │                  https://bugzilla.redhat.com/2557117                           
@@ -3099,12 +3071,12 @@
 │                       │      │                  https://bugzilla.redhat.com/2557564                           
 │                       │      │                  https://bugzilla.redhat.com/2557598                           
 │                       │      │                  https://bugzilla.redhat.com/2557662                           
+│                       │      │                  https://bugzilla.redhat.com/2557665                           
 │                       │      │                  https://bugzilla.redhat.com/2557674                           
 │                       │      │                  https://bugzilla.redhat.com/2557690                           
 │                       │      │                  https://bugzilla.redhat.com/2557709                           
 │                       │      │                  https://bugzilla.redhat.com/2557711                           
 │                       │      │                  https://bugzilla.redhat.com/2557731                           
-│                       │      │                  https://bugzilla.redhat.com/2557757                           
 │                       │      │                  https://bugzilla.redhat.com/2557765                           
 │                       │      │                  https://bugzilla.redhat.com/2557780                           
 │                       │      │                  https://bugzilla.redhat.com/2557857                           
@@ -3189,7 +3161,7 @@
 │                       │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-91463 
 │                       │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-91464 
 │                       │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-91487 
-│                       │      │                  https://errata.almalinux.org/10/ALSA-2026-90504.html          
+│                       │      │                  https://errata.almalinux.org/8/ALSA-2026-88352.html           
 │                       │      │                  https://errata.rockylinux.org/RLSA-2026:88347                 
 │                       │      │                  https://nvd.nist.gov/vuln/detail/CVE-2026-91453               
 │                       │      │                  https://www.cve.org/CVERecord?id=CVE-2026-91453               
@@ -3213,8 +3185,8 @@
 │                       │      ├ DataSource       ╭ ID  : alpine 
 │                       │      │                  ├ Name: Alpine Secdb 
 │                       │      │                  ╰ URL : https://secdb.alpinelinux.org/ 
-│                       │      ├ Fingerprint     : sha256:8f18f3c4daeff33f588f95827456857b13e0f755ffdc677738353
-│                       │      │                   1e4a790329b 
+│                       │      ├ Fingerprint     : sha256:7e0e9355c3817875f314c0e0945118d0dd75300bea3235947e7cd
+│                       │      │                   5c4e0f02f4b 
 │                       │      ├ Title           : openjdk: Enhance krb5 tokens (Oracle CPU 2026-10) 
 │                       │      ├ Description     : Vulnerability in the Oracle Java SE, Oracle GraalVM for JDK,
 │                       │      │                    Oracle GraalVM Enterprise Edition product of Oracle Java SE
@@ -3250,19 +3222,17 @@
 │                       │      ├ References                                                                     
 │                       │      │                  ──────────────────────────────────────────────────────────────
 │                       │      │                  https://access.redhat.com/errata/RHSA-2026:88347              
-│                       │      │                  https://access.redhat.com/errata/RHSA-2026:90504              
+│                       │      │                  https://access.redhat.com/errata/RHSA-2026:88352              
 │                       │      │                  https://access.redhat.com/security/cve/CVE-2026-91462         
 │                       │      │                  https://bugzilla.redhat.com/2556709                           
 │                       │      │                  https://bugzilla.redhat.com/2556795                           
 │                       │      │                  https://bugzilla.redhat.com/2556824                           
 │                       │      │                  https://bugzilla.redhat.com/2556837                           
 │                       │      │                  https://bugzilla.redhat.com/2556859                           
-│                       │      │                  https://bugzilla.redhat.com/2556960                           
 │                       │      │                  https://bugzilla.redhat.com/2557007                           
 │                       │      │                  https://bugzilla.redhat.com/2557032                           
 │                       │      │                  https://bugzilla.redhat.com/2557041                           
 │                       │      │                  https://bugzilla.redhat.com/2557047                           
-│                       │      │                  https://bugzilla.redhat.com/2557056                           
 │                       │      │                  https://bugzilla.redhat.com/2557079                           
 │                       │      │                  https://bugzilla.redhat.com/2557110                           
 │                       │      │                  https://bugzilla.redhat.com/2557117                           
@@ -3279,12 +3249,12 @@
 │                       │      │                  https://bugzilla.redhat.com/2557564                           
 │                       │      │                  https://bugzilla.redhat.com/2557598                           
 │                       │      │                  https://bugzilla.redhat.com/2557662                           
+│                       │      │                  https://bugzilla.redhat.com/2557665                           
 │                       │      │                  https://bugzilla.redhat.com/2557674                           
 │                       │      │                  https://bugzilla.redhat.com/2557690                           
 │                       │      │                  https://bugzilla.redhat.com/2557709                           
 │                       │      │                  https://bugzilla.redhat.com/2557711                           
 │                       │      │                  https://bugzilla.redhat.com/2557731                           
-│                       │      │                  https://bugzilla.redhat.com/2557757                           
 │                       │      │                  https://bugzilla.redhat.com/2557765                           
 │                       │      │                  https://bugzilla.redhat.com/2557780                           
 │                       │      │                  https://bugzilla.redhat.com/2557857                           
@@ -3369,7 +3339,7 @@
 │                       │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-91463 
 │                       │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-91464 
 │                       │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-91487 
-│                       │      │                  https://errata.almalinux.org/10/ALSA-2026-90504.html          
+│                       │      │                  https://errata.almalinux.org/8/ALSA-2026-88352.html           
 │                       │      │                  https://errata.rockylinux.org/RLSA-2026:88347                 
 │                       │      │                  https://nvd.nist.gov/vuln/detail/CVE-2026-91462               
 │                       │      │                  https://www.cve.org/CVERecord?id=CVE-2026-91462               
@@ -3393,8 +3363,8 @@
 │                       │      ├ DataSource       ╭ ID  : alpine 
 │                       │      │                  ├ Name: Alpine Secdb 
 │                       │      │                  ╰ URL : https://secdb.alpinelinux.org/ 
-│                       │      ├ Fingerprint     : sha256:1ba5427c58befddcc390cf3725c73aa9c4d27f4d4ab2eb63c32b8
-│                       │      │                   2c934a550fc 
+│                       │      ├ Fingerprint     : sha256:91eb51200eb1c8ef6ebe05f070a6993cca0d8633149e7ede43c5d
+│                       │      │                   9f1d90f59ad 
 │                       │      ├ Title           : openjdk: Enhance krb5 client (Oracle CPU 2026-10) 
 │                       │      ├ Description     : Vulnerability in the Oracle Java SE, Oracle GraalVM for JDK,
 │                       │      │                    Oracle GraalVM Enterprise Edition product of Oracle Java SE
@@ -3435,19 +3405,17 @@
 │                       │      ├ References                                                                     
 │                       │      │                  ──────────────────────────────────────────────────────────────
 │                       │      │                  https://access.redhat.com/errata/RHSA-2026:88347              
-│                       │      │                  https://access.redhat.com/errata/RHSA-2026:90504              
+│                       │      │                  https://access.redhat.com/errata/RHSA-2026:88352              
 │                       │      │                  https://access.redhat.com/security/cve/CVE-2026-91463         
 │                       │      │                  https://bugzilla.redhat.com/2556709                           
 │                       │      │                  https://bugzilla.redhat.com/2556795                           
 │                       │      │                  https://bugzilla.redhat.com/2556824                           
 │                       │      │                  https://bugzilla.redhat.com/2556837                           
 │                       │      │                  https://bugzilla.redhat.com/2556859                           
-│                       │      │                  https://bugzilla.redhat.com/2556960                           
 │                       │      │                  https://bugzilla.redhat.com/2557007                           
 │                       │      │                  https://bugzilla.redhat.com/2557032                           
 │                       │      │                  https://bugzilla.redhat.com/2557041                           
 │                       │      │                  https://bugzilla.redhat.com/2557047                           
-│                       │      │                  https://bugzilla.redhat.com/2557056                           
 │                       │      │                  https://bugzilla.redhat.com/2557079                           
 │                       │      │                  https://bugzilla.redhat.com/2557110                           
 │                       │      │                  https://bugzilla.redhat.com/2557117                           
@@ -3464,12 +3432,12 @@
 │                       │      │                  https://bugzilla.redhat.com/2557564                           
 │                       │      │                  https://bugzilla.redhat.com/2557598                           
 │                       │      │                  https://bugzilla.redhat.com/2557662                           
+│                       │      │                  https://bugzilla.redhat.com/2557665                           
 │                       │      │                  https://bugzilla.redhat.com/2557674                           
 │                       │      │                  https://bugzilla.redhat.com/2557690                           
 │                       │      │                  https://bugzilla.redhat.com/2557709                           
 │                       │      │                  https://bugzilla.redhat.com/2557711                           
 │                       │      │                  https://bugzilla.redhat.com/2557731                           
-│                       │      │                  https://bugzilla.redhat.com/2557757                           
 │                       │      │                  https://bugzilla.redhat.com/2557765                           
 │                       │      │                  https://bugzilla.redhat.com/2557780                           
 │                       │      │                  https://bugzilla.redhat.com/2557857                           
@@ -3554,7 +3522,7 @@
 │                       │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-91463 
 │                       │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-91464 
 │                       │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-91487 
-│                       │      │                  https://errata.almalinux.org/10/ALSA-2026-90504.html          
+│                       │      │                  https://errata.almalinux.org/8/ALSA-2026-88352.html           
 │                       │      │                  https://errata.rockylinux.org/RLSA-2026:88347                 
 │                       │      │                  https://nvd.nist.gov/vuln/detail/CVE-2026-91463               
 │                       │      │                  https://www.cve.org/CVERecord?id=CVE-2026-91463               
@@ -3578,8 +3546,8 @@
 │                       │      ├ DataSource       ╭ ID  : alpine 
 │                       │      │                  ├ Name: Alpine Secdb 
 │                       │      │                  ╰ URL : https://secdb.alpinelinux.org/ 
-│                       │      ├ Fingerprint     : sha256:14f4321c35210287a2509ac2c9286308c20629ec5e26e0f6d99ec
-│                       │      │                   d29805abc7b 
+│                       │      ├ Fingerprint     : sha256:83c3cb1af49d934fea6df8599392b0aa8f1b582fa84053bda46f7
+│                       │      │                   fb9b068468a 
 │                       │      ├ Title           : openjdk: Enhance Kerberos validation (Oracle CPU 2026-10) 
 │                       │      ├ Description     : Vulnerability in the Oracle Java SE, Oracle GraalVM for JDK,
 │                       │      │                    Oracle GraalVM Enterprise Edition product of Oracle Java SE
@@ -3620,19 +3588,17 @@
 │                       │      ├ References                                                                     
 │                       │      │                  ──────────────────────────────────────────────────────────────
 │                       │      │                  https://access.redhat.com/errata/RHSA-2026:88347              
-│                       │      │                  https://access.redhat.com/errata/RHSA-2026:90504              
+│                       │      │                  https://access.redhat.com/errata/RHSA-2026:88352              
 │                       │      │                  https://access.redhat.com/security/cve/CVE-2026-91464         
 │                       │      │                  https://bugzilla.redhat.com/2556709                           
 │                       │      │                  https://bugzilla.redhat.com/2556795                           
 │                       │      │                  https://bugzilla.redhat.com/2556824                           
 │                       │      │                  https://bugzilla.redhat.com/2556837                           
 │                       │      │                  https://bugzilla.redhat.com/2556859                           
-│                       │      │                  https://bugzilla.redhat.com/2556960                           
 │                       │      │                  https://bugzilla.redhat.com/2557007                           
 │                       │      │                  https://bugzilla.redhat.com/2557032                           
 │                       │      │                  https://bugzilla.redhat.com/2557041                           
 │                       │      │                  https://bugzilla.redhat.com/2557047                           
-│                       │      │                  https://bugzilla.redhat.com/2557056                           
 │                       │      │                  https://bugzilla.redhat.com/2557079                           
 │                       │      │                  https://bugzilla.redhat.com/2557110                           
 │                       │      │                  https://bugzilla.redhat.com/2557117                           
@@ -3649,12 +3615,12 @@
 │                       │      │                  https://bugzilla.redhat.com/2557564                           
 │                       │      │                  https://bugzilla.redhat.com/2557598                           
 │                       │      │                  https://bugzilla.redhat.com/2557662                           
+│                       │      │                  https://bugzilla.redhat.com/2557665                           
 │                       │      │                  https://bugzilla.redhat.com/2557674                           
 │                       │      │                  https://bugzilla.redhat.com/2557690                           
 │                       │      │                  https://bugzilla.redhat.com/2557709                           
 │                       │      │                  https://bugzilla.redhat.com/2557711                           
 │                       │      │                  https://bugzilla.redhat.com/2557731                           
-│                       │      │                  https://bugzilla.redhat.com/2557757                           
 │                       │      │                  https://bugzilla.redhat.com/2557765                           
 │                       │      │                  https://bugzilla.redhat.com/2557780                           
 │                       │      │                  https://bugzilla.redhat.com/2557857                           
@@ -3739,7 +3705,7 @@
 │                       │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-91463 
 │                       │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-91464 
 │                       │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-91487 
-│                       │      │                  https://errata.almalinux.org/10/ALSA-2026-90504.html          
+│                       │      │                  https://errata.almalinux.org/8/ALSA-2026-88352.html           
 │                       │      │                  https://errata.rockylinux.org/RLSA-2026:88347                 
 │                       │      │                  https://nvd.nist.gov/vuln/detail/CVE-2026-91464               
 │                       │      │                  https://www.cve.org/CVERecord?id=CVE-2026-91464               
@@ -3763,8 +3729,8 @@
 │                       │      ├ DataSource       ╭ ID  : alpine 
 │                       │      │                  ├ Name: Alpine Secdb 
 │                       │      │                  ╰ URL : https://secdb.alpinelinux.org/ 
-│                       │      ├ Fingerprint     : sha256:dfb6511d2022f9962344ad5c55271f1a3c532a41fdc12ea261b8b
-│                       │      │                   7cf5b73b423 
+│                       │      ├ Fingerprint     : sha256:8096a07646b5425424ebdc5aaccfc6599bda5a453f456d78f6fc3
+│                       │      │                   80b8723e3e3 
 │                       │      ├ Title           : openjdk: Enhance C2 comparisons (Oracle CPU 2026-10) 
 │                       │      ├ Description     : Vulnerability in Oracle Java SE (component: Compiler). 
 │                       │      │                   Supported versions that are affected are Oracle Java SE:
@@ -3798,19 +3764,17 @@
 │                       │      ├ References                                                                     
 │                       │      │                  ──────────────────────────────────────────────────────────────
 │                       │      │                  https://access.redhat.com/errata/RHSA-2026:88347              
-│                       │      │                  https://access.redhat.com/errata/RHSA-2026:90504              
+│                       │      │                  https://access.redhat.com/errata/RHSA-2026:88352              
 │                       │      │                  https://access.redhat.com/security/cve/CVE-2026-91487         
 │                       │      │                  https://bugzilla.redhat.com/2556709                           
 │                       │      │                  https://bugzilla.redhat.com/2556795                           
 │                       │      │                  https://bugzilla.redhat.com/2556824                           
 │                       │      │                  https://bugzilla.redhat.com/2556837                           
 │                       │      │                  https://bugzilla.redhat.com/2556859                           
-│                       │      │                  https://bugzilla.redhat.com/2556960                           
 │                       │      │                  https://bugzilla.redhat.com/2557007                           
 │                       │      │                  https://bugzilla.redhat.com/2557032                           
 │                       │      │                  https://bugzilla.redhat.com/2557041                           
 │                       │      │                  https://bugzilla.redhat.com/2557047                           
-│                       │      │                  https://bugzilla.redhat.com/2557056                           
 │                       │      │                  https://bugzilla.redhat.com/2557079                           
 │                       │      │                  https://bugzilla.redhat.com/2557110                           
 │                       │      │                  https://bugzilla.redhat.com/2557117                           
@@ -3827,12 +3791,12 @@
 │                       │      │                  https://bugzilla.redhat.com/2557564                           
 │                       │      │                  https://bugzilla.redhat.com/2557598                           
 │                       │      │                  https://bugzilla.redhat.com/2557662                           
+│                       │      │                  https://bugzilla.redhat.com/2557665                           
 │                       │      │                  https://bugzilla.redhat.com/2557674                           
 │                       │      │                  https://bugzilla.redhat.com/2557690                           
 │                       │      │                  https://bugzilla.redhat.com/2557709                           
 │                       │      │                  https://bugzilla.redhat.com/2557711                           
 │                       │      │                  https://bugzilla.redhat.com/2557731                           
-│                       │      │                  https://bugzilla.redhat.com/2557757                           
 │                       │      │                  https://bugzilla.redhat.com/2557765                           
 │                       │      │                  https://bugzilla.redhat.com/2557780                           
 │                       │      │                  https://bugzilla.redhat.com/2557857                           
@@ -3917,7 +3881,7 @@
 │                       │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-91463 
 │                       │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-91464 
 │                       │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-91487 
-│                       │      │                  https://errata.almalinux.org/10/ALSA-2026-90504.html          
+│                       │      │                  https://errata.almalinux.org/8/ALSA-2026-88352.html           
 │                       │      │                  https://errata.rockylinux.org/RLSA-2026:88347                 
 │                       │      │                  https://nvd.nist.gov/vuln/detail/CVE-2026-91487               
 │                       │      │                  https://www.cve.org/CVERecord?id=CVE-2026-91487               
@@ -3941,8 +3905,8 @@
 │                       │      ├ DataSource       ╭ ID  : alpine 
 │                       │      │                  ├ Name: Alpine Secdb 
 │                       │      │                  ╰ URL : https://secdb.alpinelinux.org/ 
-│                       │      ├ Fingerprint     : sha256:e4b1616744303620d2f6e9473b8075093e38d1722ca8389bbf23c
-│                       │      │                   342bd98e902 
+│                       │      ├ Fingerprint     : sha256:b2cd871787139eafef2ed85998678b4f07bdaacbf9e7bca7e0a4f
+│                       │      │                   279eec26c7d 
 │                       │      ├ Title           : openjdk: Enhance TLS certificate handling (Oracle CPU 2026-10) 
 │                       │      ├ Description     : Vulnerability in the Oracle Java SE, Oracle GraalVM for JDK,
 │                       │      │                    Oracle GraalVM Enterprise Edition product of Oracle Java SE
@@ -3980,19 +3944,17 @@
 │                       │      ├ References                                                                     
 │                       │      │                  ──────────────────────────────────────────────────────────────
 │                       │      │                  https://access.redhat.com/errata/RHSA-2026:88347              
-│                       │      │                  https://access.redhat.com/errata/RHSA-2026:90504              
+│                       │      │                  https://access.redhat.com/errata/RHSA-2026:88352              
 │                       │      │                  https://access.redhat.com/security/cve/CVE-2026-83376         
 │                       │      │                  https://bugzilla.redhat.com/2556709                           
 │                       │      │                  https://bugzilla.redhat.com/2556795                           
 │                       │      │                  https://bugzilla.redhat.com/2556824                           
 │                       │      │                  https://bugzilla.redhat.com/2556837                           
 │                       │      │                  https://bugzilla.redhat.com/2556859                           
-│                       │      │                  https://bugzilla.redhat.com/2556960                           
 │                       │      │                  https://bugzilla.redhat.com/2557007                           
 │                       │      │                  https://bugzilla.redhat.com/2557032                           
 │                       │      │                  https://bugzilla.redhat.com/2557041                           
 │                       │      │                  https://bugzilla.redhat.com/2557047                           
-│                       │      │                  https://bugzilla.redhat.com/2557056                           
 │                       │      │                  https://bugzilla.redhat.com/2557079                           
 │                       │      │                  https://bugzilla.redhat.com/2557110                           
 │                       │      │                  https://bugzilla.redhat.com/2557117                           
@@ -4009,12 +3971,12 @@
 │                       │      │                  https://bugzilla.redhat.com/2557564                           
 │                       │      │                  https://bugzilla.redhat.com/2557598                           
 │                       │      │                  https://bugzilla.redhat.com/2557662                           
+│                       │      │                  https://bugzilla.redhat.com/2557665                           
 │                       │      │                  https://bugzilla.redhat.com/2557674                           
 │                       │      │                  https://bugzilla.redhat.com/2557690                           
 │                       │      │                  https://bugzilla.redhat.com/2557709                           
 │                       │      │                  https://bugzilla.redhat.com/2557711                           
 │                       │      │                  https://bugzilla.redhat.com/2557731                           
-│                       │      │                  https://bugzilla.redhat.com/2557757                           
 │                       │      │                  https://bugzilla.redhat.com/2557765                           
 │                       │      │                  https://bugzilla.redhat.com/2557780                           
 │                       │      │                  https://bugzilla.redhat.com/2557857                           
@@ -4099,7 +4061,7 @@
 │                       │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-91463 
 │                       │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-91464 
 │                       │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-91487 
-│                       │      │                  https://errata.almalinux.org/10/ALSA-2026-90504.html          
+│                       │      │                  https://errata.almalinux.org/8/ALSA-2026-88352.html           
 │                       │      │                  https://errata.rockylinux.org/RLSA-2026:88347                 
 │                       │      │                  https://nvd.nist.gov/vuln/detail/CVE-2026-83376               
 │                       │      │                  https://www.cve.org/CVERecord?id=CVE-2026-83376               
@@ -4123,8 +4085,8 @@
 │                       │      ├ DataSource       ╭ ID  : alpine 
 │                       │      │                  ├ Name: Alpine Secdb 
 │                       │      │                  ╰ URL : https://secdb.alpinelinux.org/ 
-│                       │      ├ Fingerprint     : sha256:e579b342543a66b19fd7a9ccec9451f26b43ec3326adabe6e092a
-│                       │      │                   8035fa7bf7a 
+│                       │      ├ Fingerprint     : sha256:4e41749f6cf1ceabe661e5f6a64ff5720b1c0bae5932cbf8ba90b
+│                       │      │                   1901f643e31 
 │                       │      ├ Title           : openjdk: Enhance Vector Processing (Oracle CPU 2026-10) 
 │                       │      ├ Description     : Vulnerability in Oracle Java SE (component: Compiler). 
 │                       │      │                   Supported versions that are affected are Oracle Java SE:
@@ -4296,8 +4258,8 @@
 │                       │      ├ DataSource       ╭ ID  : alpine 
 │                       │      │                  ├ Name: Alpine Secdb 
 │                       │      │                  ╰ URL : https://secdb.alpinelinux.org/ 
-│                       │      ├ Fingerprint     : sha256:c024c1b0634d2babaa260b5c41a0e8fe655efdbfe0df10463ae30
-│                       │      │                   b119f8d3d5e 
+│                       │      ├ Fingerprint     : sha256:dd8ac4d0f183e8b1a5c7937fb1f583fd1825a8d7341ca6e6a75b2
+│                       │      │                   4f5a1bc5c25 
 │                       │      ├ Title           : openjdk: Enhance Network Clients (Oracle CPU 2026-10) 
 │                       │      ├ Description     : Vulnerability in the Oracle Java SE, Oracle GraalVM for JDK,
 │                       │      │                    Oracle GraalVM Enterprise Edition product of Oracle Java SE
@@ -4336,19 +4298,17 @@
 │                       │      ├ References                                                                     
 │                       │      │                  ──────────────────────────────────────────────────────────────
 │                       │      │                  https://access.redhat.com/errata/RHSA-2026:88347              
-│                       │      │                  https://access.redhat.com/errata/RHSA-2026:90504              
+│                       │      │                  https://access.redhat.com/errata/RHSA-2026:88352              
 │                       │      │                  https://access.redhat.com/security/cve/CVE-2026-87292         
 │                       │      │                  https://bugzilla.redhat.com/2556709                           
 │                       │      │                  https://bugzilla.redhat.com/2556795                           
 │                       │      │                  https://bugzilla.redhat.com/2556824                           
 │                       │      │                  https://bugzilla.redhat.com/2556837                           
 │                       │      │                  https://bugzilla.redhat.com/2556859                           
-│                       │      │                  https://bugzilla.redhat.com/2556960                           
 │                       │      │                  https://bugzilla.redhat.com/2557007                           
 │                       │      │                  https://bugzilla.redhat.com/2557032                           
 │                       │      │                  https://bugzilla.redhat.com/2557041                           
 │                       │      │                  https://bugzilla.redhat.com/2557047                           
-│                       │      │                  https://bugzilla.redhat.com/2557056                           
 │                       │      │                  https://bugzilla.redhat.com/2557079                           
 │                       │      │                  https://bugzilla.redhat.com/2557110                           
 │                       │      │                  https://bugzilla.redhat.com/2557117                           
@@ -4365,12 +4325,12 @@
 │                       │      │                  https://bugzilla.redhat.com/2557564                           
 │                       │      │                  https://bugzilla.redhat.com/2557598                           
 │                       │      │                  https://bugzilla.redhat.com/2557662                           
+│                       │      │                  https://bugzilla.redhat.com/2557665                           
 │                       │      │                  https://bugzilla.redhat.com/2557674                           
 │                       │      │                  https://bugzilla.redhat.com/2557690                           
 │                       │      │                  https://bugzilla.redhat.com/2557709                           
 │                       │      │                  https://bugzilla.redhat.com/2557711                           
 │                       │      │                  https://bugzilla.redhat.com/2557731                           
-│                       │      │                  https://bugzilla.redhat.com/2557757                           
 │                       │      │                  https://bugzilla.redhat.com/2557765                           
 │                       │      │                  https://bugzilla.redhat.com/2557780                           
 │                       │      │                  https://bugzilla.redhat.com/2557857                           
@@ -4455,7 +4415,7 @@
 │                       │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-91463 
 │                       │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-91464 
 │                       │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-91487 
-│                       │      │                  https://errata.almalinux.org/10/ALSA-2026-90504.html          
+│                       │      │                  https://errata.almalinux.org/8/ALSA-2026-88352.html           
 │                       │      │                  https://errata.rockylinux.org/RLSA-2026:88347                 
 │                       │      │                  https://nvd.nist.gov/vuln/detail/CVE-2026-87292               
 │                       │      │                  https://www.cve.org/CVERecord?id=CVE-2026-87292               
@@ -4479,8 +4439,8 @@
 │                       │      ├ DataSource       ╭ ID  : alpine 
 │                       │      │                  ├ Name: Alpine Secdb 
 │                       │      │                  ╰ URL : https://secdb.alpinelinux.org/ 
-│                       │      ├ Fingerprint     : sha256:de99048fc251c5be5df7eae43edeea1375a2ed625b46deb488d64
-│                       │      │                   9f3cb81475a 
+│                       │      ├ Fingerprint     : sha256:4d823a5df65e4e2333fe6c6f06453ac592fd3465b8bbdfd42dbb8
+│                       │      │                   64a88c1df0c 
 │                       │      ├ Title           : openjdk: Enhance Template Handling (Oracle CPU 2026-10) 
 │                       │      ├ Description     : Vulnerability in the Oracle Java SE, Oracle GraalVM for JDK,
 │                       │      │                    Oracle GraalVM Enterprise Edition product of Oracle Java SE
@@ -4519,19 +4479,17 @@
 │                       │      ├ References                                                                     
 │                       │      │                  ──────────────────────────────────────────────────────────────
 │                       │      │                  https://access.redhat.com/errata/RHSA-2026:88347              
-│                       │      │                  https://access.redhat.com/errata/RHSA-2026:90504              
+│                       │      │                  https://access.redhat.com/errata/RHSA-2026:88352              
 │                       │      │                  https://access.redhat.com/security/cve/CVE-2026-87367         
 │                       │      │                  https://bugzilla.redhat.com/2556709                           
 │                       │      │                  https://bugzilla.redhat.com/2556795                           
 │                       │      │                  https://bugzilla.redhat.com/2556824                           
 │                       │      │                  https://bugzilla.redhat.com/2556837                           
 │                       │      │                  https://bugzilla.redhat.com/2556859                           
-│                       │      │                  https://bugzilla.redhat.com/2556960                           
 │                       │      │                  https://bugzilla.redhat.com/2557007                           
 │                       │      │                  https://bugzilla.redhat.com/2557032                           
 │                       │      │                  https://bugzilla.redhat.com/2557041                           
 │                       │      │                  https://bugzilla.redhat.com/2557047                           
-│                       │      │                  https://bugzilla.redhat.com/2557056                           
 │                       │      │                  https://bugzilla.redhat.com/2557079                           
 │                       │      │                  https://bugzilla.redhat.com/2557110                           
 │                       │      │                  https://bugzilla.redhat.com/2557117                           
@@ -4548,12 +4506,12 @@
 │                       │      │                  https://bugzilla.redhat.com/2557564                           
 │                       │      │                  https://bugzilla.redhat.com/2557598                           
 │                       │      │                  https://bugzilla.redhat.com/2557662                           
+│                       │      │                  https://bugzilla.redhat.com/2557665                           
 │                       │      │                  https://bugzilla.redhat.com/2557674                           
 │                       │      │                  https://bugzilla.redhat.com/2557690                           
 │                       │      │                  https://bugzilla.redhat.com/2557709                           
 │                       │      │                  https://bugzilla.redhat.com/2557711                           
 │                       │      │                  https://bugzilla.redhat.com/2557731                           
-│                       │      │                  https://bugzilla.redhat.com/2557757                           
 │                       │      │                  https://bugzilla.redhat.com/2557765                           
 │                       │      │                  https://bugzilla.redhat.com/2557780                           
 │                       │      │                  https://bugzilla.redhat.com/2557857                           
@@ -4638,7 +4596,7 @@
 │                       │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-91463 
 │                       │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-91464 
 │                       │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-91487 
-│                       │      │                  https://errata.almalinux.org/10/ALSA-2026-90504.html          
+│                       │      │                  https://errata.almalinux.org/8/ALSA-2026-88352.html           
 │                       │      │                  https://errata.rockylinux.org/RLSA-2026:88347                 
 │                       │      │                  https://nvd.nist.gov/vuln/detail/CVE-2026-87367               
 │                       │      │                  https://www.cve.org/CVERecord?id=CVE-2026-87367               
@@ -4662,8 +4620,8 @@
 │                       │      ├ DataSource       ╭ ID  : alpine 
 │                       │      │                  ├ Name: Alpine Secdb 
 │                       │      │                  ╰ URL : https://secdb.alpinelinux.org/ 
-│                       │      ├ Fingerprint     : sha256:db8abb1f711e1ea54f494b0e3b58880c5e76ff1a2b98af0e28bb3
-│                       │      │                   1797aaa51e2 
+│                       │      ├ Fingerprint     : sha256:c527bce6ab46ad00ff5c16d50410497b82e7fbdc62bdd75707180
+│                       │      │                   ffac69ab48b 
 │                       │      ├ Title           : openjdk: Enhance Image Handling (Oracle CPU 2026-10) 
 │                       │      ├ Description     : Vulnerability in the Oracle Java SE, Oracle GraalVM for JDK,
 │                       │      │                    Oracle GraalVM Enterprise Edition product of Oracle Java SE
@@ -4703,19 +4661,17 @@
 │                       │      ├ References                                                                     
 │                       │      │                  ──────────────────────────────────────────────────────────────
 │                       │      │                  https://access.redhat.com/errata/RHSA-2026:88347              
-│                       │      │                  https://access.redhat.com/errata/RHSA-2026:90504              
+│                       │      │                  https://access.redhat.com/errata/RHSA-2026:88352              
 │                       │      │                  https://access.redhat.com/security/cve/CVE-2026-91335         
 │                       │      │                  https://bugzilla.redhat.com/2556709                           
 │                       │      │                  https://bugzilla.redhat.com/2556795                           
 │                       │      │                  https://bugzilla.redhat.com/2556824                           
 │                       │      │                  https://bugzilla.redhat.com/2556837                           
 │                       │      │                  https://bugzilla.redhat.com/2556859                           
-│                       │      │                  https://bugzilla.redhat.com/2556960                           
 │                       │      │                  https://bugzilla.redhat.com/2557007                           
 │                       │      │                  https://bugzilla.redhat.com/2557032                           
 │                       │      │                  https://bugzilla.redhat.com/2557041                           
 │                       │      │                  https://bugzilla.redhat.com/2557047                           
-│                       │      │                  https://bugzilla.redhat.com/2557056                           
 │                       │      │                  https://bugzilla.redhat.com/2557079                           
 │                       │      │                  https://bugzilla.redhat.com/2557110                           
 │                       │      │                  https://bugzilla.redhat.com/2557117                           
@@ -4732,12 +4688,12 @@
 │                       │      │                  https://bugzilla.redhat.com/2557564                           
 │                       │      │                  https://bugzilla.redhat.com/2557598                           
 │                       │      │                  https://bugzilla.redhat.com/2557662                           
+│                       │      │                  https://bugzilla.redhat.com/2557665                           
 │                       │      │                  https://bugzilla.redhat.com/2557674                           
 │                       │      │                  https://bugzilla.redhat.com/2557690                           
 │                       │      │                  https://bugzilla.redhat.com/2557709                           
 │                       │      │                  https://bugzilla.redhat.com/2557711                           
 │                       │      │                  https://bugzilla.redhat.com/2557731                           
-│                       │      │                  https://bugzilla.redhat.com/2557757                           
 │                       │      │                  https://bugzilla.redhat.com/2557765                           
 │                       │      │                  https://bugzilla.redhat.com/2557780                           
 │                       │      │                  https://bugzilla.redhat.com/2557857                           
@@ -4822,7 +4778,7 @@
 │                       │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-91463 
 │                       │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-91464 
 │                       │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-91487 
-│                       │      │                  https://errata.almalinux.org/10/ALSA-2026-90504.html          
+│                       │      │                  https://errata.almalinux.org/8/ALSA-2026-88352.html           
 │                       │      │                  https://errata.rockylinux.org/RLSA-2026:88347                 
 │                       │      │                  https://nvd.nist.gov/vuln/detail/CVE-2026-91335               
 │                       │      │                  https://www.cve.org/CVERecord?id=CVE-2026-91335               
@@ -4846,8 +4802,8 @@
 │                       │      ├ DataSource       ╭ ID  : alpine 
 │                       │      │                  ├ Name: Alpine Secdb 
 │                       │      │                  ╰ URL : https://secdb.alpinelinux.org/ 
-│                       │      ├ Fingerprint     : sha256:45fbfdef332e65e6ab36c6458df30e09ce92bb1dc62d2c6f2b61e
-│                       │      │                   b867fc888c5 
+│                       │      ├ Fingerprint     : sha256:caceb36f807265343bce94427b79fbfd4e9109b8e92edbf2c0ba2
+│                       │      │                   a601a5c51fa 
 │                       │      ├ Title           : openjdk: Enhance Font Rendering (Oracle CPU 2026-10) 
 │                       │      ├ Description     : Vulnerability in the Oracle Java SE, Oracle GraalVM
 │                       │      │                   Enterprise Edition product of Oracle Java SE (component:
@@ -4903,8 +4859,8 @@
 │                       │      ├ DataSource       ╭ ID  : alpine 
 │                       │      │                  ├ Name: Alpine Secdb 
 │                       │      │                  ╰ URL : https://secdb.alpinelinux.org/ 
-│                       │      ├ Fingerprint     : sha256:48915c5b1807e2e738d5403c809556b32379aa5eee6704c711d67
-│                       │      │                   06886a80c6c 
+│                       │      ├ Fingerprint     : sha256:9f5ec004c442afa20b2177c16013a551d3fa79535c2dfcc04d308
+│                       │      │                   5528c79fdfd 
 │                       │      ├ Title           : openjdk: Enhance diagnostic sessions (Oracle CPU 2026-10) 
 │                       │      ├ Description     : Vulnerability in the Oracle Java SE, Oracle GraalVM for JDK,
 │                       │      │                    Oracle GraalVM Enterprise Edition product of Oracle Java SE
@@ -4948,19 +4904,17 @@
 │                       │      ├ References                                                                     
 │                       │      │                  ──────────────────────────────────────────────────────────────
 │                       │      │                  https://access.redhat.com/errata/RHSA-2026:88347              
-│                       │      │                  https://access.redhat.com/errata/RHSA-2026:90504              
+│                       │      │                  https://access.redhat.com/errata/RHSA-2026:88352              
 │                       │      │                  https://access.redhat.com/security/cve/CVE-2026-91397         
 │                       │      │                  https://bugzilla.redhat.com/2556709                           
 │                       │      │                  https://bugzilla.redhat.com/2556795                           
 │                       │      │                  https://bugzilla.redhat.com/2556824                           
 │                       │      │                  https://bugzilla.redhat.com/2556837                           
 │                       │      │                  https://bugzilla.redhat.com/2556859                           
-│                       │      │                  https://bugzilla.redhat.com/2556960                           
 │                       │      │                  https://bugzilla.redhat.com/2557007                           
 │                       │      │                  https://bugzilla.redhat.com/2557032                           
 │                       │      │                  https://bugzilla.redhat.com/2557041                           
 │                       │      │                  https://bugzilla.redhat.com/2557047                           
-│                       │      │                  https://bugzilla.redhat.com/2557056                           
 │                       │      │                  https://bugzilla.redhat.com/2557079                           
 │                       │      │                  https://bugzilla.redhat.com/2557110                           
 │                       │      │                  https://bugzilla.redhat.com/2557117                           
@@ -4977,12 +4931,12 @@
 │                       │      │                  https://bugzilla.redhat.com/2557564                           
 │                       │      │                  https://bugzilla.redhat.com/2557598                           
 │                       │      │                  https://bugzilla.redhat.com/2557662                           
+│                       │      │                  https://bugzilla.redhat.com/2557665                           
 │                       │      │                  https://bugzilla.redhat.com/2557674                           
 │                       │      │                  https://bugzilla.redhat.com/2557690                           
 │                       │      │                  https://bugzilla.redhat.com/2557709                           
 │                       │      │                  https://bugzilla.redhat.com/2557711                           
 │                       │      │                  https://bugzilla.redhat.com/2557731                           
-│                       │      │                  https://bugzilla.redhat.com/2557757                           
 │                       │      │                  https://bugzilla.redhat.com/2557765                           
 │                       │      │                  https://bugzilla.redhat.com/2557780                           
 │                       │      │                  https://bugzilla.redhat.com/2557857                           
@@ -5067,7 +5021,7 @@
 │                       │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-91463 
 │                       │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-91464 
 │                       │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-91487 
-│                       │      │                  https://errata.almalinux.org/10/ALSA-2026-90504.html          
+│                       │      │                  https://errata.almalinux.org/8/ALSA-2026-88352.html           
 │                       │      │                  https://errata.rockylinux.org/RLSA-2026:88347                 
 │                       │      │                  https://nvd.nist.gov/vuln/detail/CVE-2026-91397               
 │                       │      │                  https://www.cve.org/CVERecord?id=CVE-2026-91397               
@@ -5091,8 +5045,8 @@
 │                       │      ├ DataSource       ╭ ID  : alpine 
 │                       │      │                  ├ Name: Alpine Secdb 
 │                       │      │                  ╰ URL : https://secdb.alpinelinux.org/ 
-│                       │      ├ Fingerprint     : sha256:355386de6a3d7da1c5566b74c7130c20f1d1fd70dbc7fe67b30be
-│                       │      │                   0ac340a8b26 
+│                       │      ├ Fingerprint     : sha256:cbce5b30c3aed323e3dd304aa7d7e323a1b79ec8b60dd064e406b
+│                       │      │                   ec76637bd4b 
 │                       │      ├ Title           : openjdk: Enhance MIDI file handling (Oracle CPU 2026-10) 
 │                       │      ├ Description     : Vulnerability in the Oracle Java SE, Oracle GraalVM for JDK,
 │                       │      │                    Oracle GraalVM Enterprise Edition product of Oracle Java SE
@@ -5133,19 +5087,17 @@
 │                       │      ├ References                                                                     
 │                       │      │                  ──────────────────────────────────────────────────────────────
 │                       │      │                  https://access.redhat.com/errata/RHSA-2026:88347              
-│                       │      │                  https://access.redhat.com/errata/RHSA-2026:90504              
+│                       │      │                  https://access.redhat.com/errata/RHSA-2026:88352              
 │                       │      │                  https://access.redhat.com/security/cve/CVE-2026-91400         
 │                       │      │                  https://bugzilla.redhat.com/2556709                           
 │                       │      │                  https://bugzilla.redhat.com/2556795                           
 │                       │      │                  https://bugzilla.redhat.com/2556824                           
 │                       │      │                  https://bugzilla.redhat.com/2556837                           
 │                       │      │                  https://bugzilla.redhat.com/2556859                           
-│                       │      │                  https://bugzilla.redhat.com/2556960                           
 │                       │      │                  https://bugzilla.redhat.com/2557007                           
 │                       │      │                  https://bugzilla.redhat.com/2557032                           
 │                       │      │                  https://bugzilla.redhat.com/2557041                           
 │                       │      │                  https://bugzilla.redhat.com/2557047                           
-│                       │      │                  https://bugzilla.redhat.com/2557056                           
 │                       │      │                  https://bugzilla.redhat.com/2557079                           
 │                       │      │                  https://bugzilla.redhat.com/2557110                           
 │                       │      │                  https://bugzilla.redhat.com/2557117                           
@@ -5162,12 +5114,12 @@
 │                       │      │                  https://bugzilla.redhat.com/2557564                           
 │                       │      │                  https://bugzilla.redhat.com/2557598                           
 │                       │      │                  https://bugzilla.redhat.com/2557662                           
+│                       │      │                  https://bugzilla.redhat.com/2557665                           
 │                       │      │                  https://bugzilla.redhat.com/2557674                           
 │                       │      │                  https://bugzilla.redhat.com/2557690                           
 │                       │      │                  https://bugzilla.redhat.com/2557709                           
 │                       │      │                  https://bugzilla.redhat.com/2557711                           
 │                       │      │                  https://bugzilla.redhat.com/2557731                           
-│                       │      │                  https://bugzilla.redhat.com/2557757                           
 │                       │      │                  https://bugzilla.redhat.com/2557765                           
 │                       │      │                  https://bugzilla.redhat.com/2557780                           
 │                       │      │                  https://bugzilla.redhat.com/2557857                           
@@ -5252,7 +5204,7 @@
 │                       │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-91463 
 │                       │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-91464 
 │                       │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-91487 
-│                       │      │                  https://errata.almalinux.org/10/ALSA-2026-90504.html          
+│                       │      │                  https://errata.almalinux.org/8/ALSA-2026-88352.html           
 │                       │      │                  https://errata.rockylinux.org/RLSA-2026:88347                 
 │                       │      │                  https://nvd.nist.gov/vuln/detail/CVE-2026-91400               
 │                       │      │                  https://www.cve.org/CVERecord?id=CVE-2026-91400               
@@ -5276,8 +5228,8 @@
 │                       │      ├ DataSource       ╭ ID  : alpine 
 │                       │      │                  ├ Name: Alpine Secdb 
 │                       │      │                  ╰ URL : https://secdb.alpinelinux.org/ 
-│                       │      ├ Fingerprint     : sha256:080879fa50a02952c4cc165772c684c4d716885bbc6d39aad747d
-│                       │      │                   6205c20abe2 
+│                       │      ├ Fingerprint     : sha256:5b174ae8b6f5ac52c4da1fe6245558c90a96449c1650e8f0bbe2b
+│                       │      │                   8c3f4e3c7a2 
 │                       │      ├ Title           : openjfx: openjfx: information disclosure via untrusted code
 │                       │      │                   execution 
 │                       │      ├ Description     : Vulnerability in the Oracle Java SE, Oracle JavaFX, Oracle
@@ -5336,8 +5288,8 @@
 │                       │      ├ DataSource       ╭ ID  : alpine 
 │                       │      │                  ├ Name: Alpine Secdb 
 │                       │      │                  ╰ URL : https://secdb.alpinelinux.org/ 
-│                       │      ├ Fingerprint     : sha256:b0a66107f9266590278de0faa8190a93f6f1ecbeafbf4a4c6be01
-│                       │      │                   e8aeb4e2ac7 
+│                       │      ├ Fingerprint     : sha256:e3c62777ce1c8a0f7dbf6c9db199e7efaf8ce5a03d7c4bde9cd6a
+│                       │      │                   542cb0e3586 
 │                       │      ├ Title           : openjdk: Enhance TLS Extensions (Oracle CPU 2026-10) 
 │                       │      ├ Description     : Vulnerability in the Oracle Java SE, Oracle GraalVM for JDK,
 │                       │      │                    Oracle GraalVM Enterprise Edition product of Oracle Java SE
@@ -5372,19 +5324,17 @@
 │                       │      ├ References                                                                     
 │                       │      │                  ──────────────────────────────────────────────────────────────
 │                       │      │                  https://access.redhat.com/errata/RHSA-2026:88347              
-│                       │      │                  https://access.redhat.com/errata/RHSA-2026:90504              
+│                       │      │                  https://access.redhat.com/errata/RHSA-2026:88352              
 │                       │      │                  https://access.redhat.com/security/cve/CVE-2026-91461         
 │                       │      │                  https://bugzilla.redhat.com/2556709                           
 │                       │      │                  https://bugzilla.redhat.com/2556795                           
 │                       │      │                  https://bugzilla.redhat.com/2556824                           
 │                       │      │                  https://bugzilla.redhat.com/2556837                           
 │                       │      │                  https://bugzilla.redhat.com/2556859                           
-│                       │      │                  https://bugzilla.redhat.com/2556960                           
 │                       │      │                  https://bugzilla.redhat.com/2557007                           
 │                       │      │                  https://bugzilla.redhat.com/2557032                           
 │                       │      │                  https://bugzilla.redhat.com/2557041                           
 │                       │      │                  https://bugzilla.redhat.com/2557047                           
-│                       │      │                  https://bugzilla.redhat.com/2557056                           
 │                       │      │                  https://bugzilla.redhat.com/2557079                           
 │                       │      │                  https://bugzilla.redhat.com/2557110                           
 │                       │      │                  https://bugzilla.redhat.com/2557117                           
@@ -5401,12 +5351,12 @@
 │                       │      │                  https://bugzilla.redhat.com/2557564                           
 │                       │      │                  https://bugzilla.redhat.com/2557598                           
 │                       │      │                  https://bugzilla.redhat.com/2557662                           
+│                       │      │                  https://bugzilla.redhat.com/2557665                           
 │                       │      │                  https://bugzilla.redhat.com/2557674                           
 │                       │      │                  https://bugzilla.redhat.com/2557690                           
 │                       │      │                  https://bugzilla.redhat.com/2557709                           
 │                       │      │                  https://bugzilla.redhat.com/2557711                           
 │                       │      │                  https://bugzilla.redhat.com/2557731                           
-│                       │      │                  https://bugzilla.redhat.com/2557757                           
 │                       │      │                  https://bugzilla.redhat.com/2557765                           
 │                       │      │                  https://bugzilla.redhat.com/2557780                           
 │                       │      │                  https://bugzilla.redhat.com/2557857                           
@@ -5491,7 +5441,7 @@
 │                       │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-91463 
 │                       │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-91464 
 │                       │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-91487 
-│                       │      │                  https://errata.almalinux.org/10/ALSA-2026-90504.html          
+│                       │      │                  https://errata.almalinux.org/8/ALSA-2026-88352.html           
 │                       │      │                  https://errata.rockylinux.org/RLSA-2026:88347                 
 │                       │      │                  https://nvd.nist.gov/vuln/detail/CVE-2026-91461               
 │                       │      │                  https://www.cve.org/CVERecord?id=CVE-2026-91461               
@@ -5515,8 +5465,8 @@
 │                       │      ├ DataSource       ╭ ID  : alpine 
 │                       │      │                  ├ Name: Alpine Secdb 
 │                       │      │                  ╰ URL : https://secdb.alpinelinux.org/ 
-│                       │      ├ Fingerprint     : sha256:f05b03040cc8a149c89ee0139225b8e5594fdbde5da370ae7fe7d
-│                       │      │                   96c86b6e610 
+│                       │      ├ Fingerprint     : sha256:b743aa14cc8d4f5c230c7b28cca2aee69ccde9434b966ce6a77cb
+│                       │      │                   a05025e9e49 
 │                       │      ├ Title           : OpenJDK: Distrust eMudhra intermediate CA certificates due
 │                       │      │                   to security concerns 
 │                       │      ├ Description     : Vulnerability in the Oracle Java SE, Oracle GraalVM for JDK,
@@ -5585,8 +5535,8 @@
 │                       │      ├ DataSource       ╭ ID  : alpine 
 │                       │      │                  ├ Name: Alpine Secdb 
 │                       │      │                  ╰ URL : https://secdb.alpinelinux.org/ 
-│                       │      ├ Fingerprint     : sha256:3d4f86461705389ae302141d38fc871f1ef499c12744814141901
-│                       │      │                   d89806e82e3 
+│                       │      ├ Fingerprint     : sha256:b8c7935ad6dcffe9f3945a0a41acf1e415265ae5b586c1ef30826
+│                       │      │                   da3c4948a70 
 │                       │      ├ Title           : An issue was discovered in GStreamer gst-plugins-good before
 │                       │      │                    1.28.2. W ... 
 │                       │      ├ Description     : An issue was discovered in GStreamer gst-plugins-good before
@@ -5633,8 +5583,8 @@
 │                       │      ├ DataSource       ╭ ID  : alpine 
 │                       │      │                  ├ Name: Alpine Secdb 
 │                       │      │                  ╰ URL : https://secdb.alpinelinux.org/ 
-│                       │      ├ Fingerprint     : sha256:eb0b33820209160ff5af26b158a1ee9c89de98ebad7f50ff86b04
-│                       │      │                   64ac78db0a7 
+│                       │      ├ Fingerprint     : sha256:6e8f60de6a9a320ed7939c1de1a62e4447a87273f0cd9a00b8a0e
+│                       │      │                   f6e58734149 
 │                       │      ├ Title           : OpenJDK: Distrust eMudhra intermediate CA certificates due
 │                       │      │                   to security concerns 
 │                       │      ├ Description     : Vulnerability in the Oracle Java SE, Oracle GraalVM for JDK,
@@ -5702,8 +5652,8 @@
 │                       │      ├ DataSource       ╭ ID  : alpine 
 │                       │      │                  ├ Name: Alpine Secdb 
 │                       │      │                  ╰ URL : https://secdb.alpinelinux.org/ 
-│                       │      ├ Fingerprint     : sha256:831a0480fba8002ef50a8d335703d32eccd71cb9f375caacfb870
-│                       │      │                   64b8d29d1ee 
+│                       │      ├ Fingerprint     : sha256:0186db35d9a5cdc62935f2ae1d92889eab3f788ad49845c089662
+│                       │      │                   46b682735c0 
 │                       │      ├ Title           : libxml2: libxml2: Denial of Service via crafted
 │                       │      │                   XSD-validated document 
 │                       │      ├ Description     : A flaw was found in libxml2. This vulnerability occurs when
@@ -5761,8 +5711,8 @@
 │                       │      ├ DataSource       ╭ ID  : alpine 
 │                       │      │                  ├ Name: Alpine Secdb 
 │                       │      │                  ╰ URL : https://secdb.alpinelinux.org/ 
-│                       │      ├ Fingerprint     : sha256:c99a44bb7c204f5c3c536e206ee8e28a7e52184fe89db3fa422a5
-│                       │      │                   31b37937ab8 
+│                       │      ├ Fingerprint     : sha256:4aee9d61b56b5c6c8e9231c159c5caf759ea915cc8b169d89fd23
+│                       │      │                   c13d7166a5f 
 │                       │      ├ Title           : openjdk: Enhance PKCS5 padding (Oracle CPU 2026-10) 
 │                       │      ├ Description     : Vulnerability in the Oracle Java SE, Oracle GraalVM for JDK,
 │                       │      │                    Oracle GraalVM Enterprise Edition product of Oracle Java SE
@@ -5801,19 +5751,17 @@
 │                       │      ├ References                                                                     
 │                       │      │                  ──────────────────────────────────────────────────────────────
 │                       │      │                  https://access.redhat.com/errata/RHSA-2026:88347              
-│                       │      │                  https://access.redhat.com/errata/RHSA-2026:90504              
+│                       │      │                  https://access.redhat.com/errata/RHSA-2026:88352              
 │                       │      │                  https://access.redhat.com/security/cve/CVE-2026-83374         
 │                       │      │                  https://bugzilla.redhat.com/2556709                           
 │                       │      │                  https://bugzilla.redhat.com/2556795                           
 │                       │      │                  https://bugzilla.redhat.com/2556824                           
 │                       │      │                  https://bugzilla.redhat.com/2556837                           
 │                       │      │                  https://bugzilla.redhat.com/2556859                           
-│                       │      │                  https://bugzilla.redhat.com/2556960                           
 │                       │      │                  https://bugzilla.redhat.com/2557007                           
 │                       │      │                  https://bugzilla.redhat.com/2557032                           
 │                       │      │                  https://bugzilla.redhat.com/2557041                           
 │                       │      │                  https://bugzilla.redhat.com/2557047                           
-│                       │      │                  https://bugzilla.redhat.com/2557056                           
 │                       │      │                  https://bugzilla.redhat.com/2557079                           
 │                       │      │                  https://bugzilla.redhat.com/2557110                           
 │                       │      │                  https://bugzilla.redhat.com/2557117                           
@@ -5830,12 +5778,12 @@
 │                       │      │                  https://bugzilla.redhat.com/2557564                           
 │                       │      │                  https://bugzilla.redhat.com/2557598                           
 │                       │      │                  https://bugzilla.redhat.com/2557662                           
+│                       │      │                  https://bugzilla.redhat.com/2557665                           
 │                       │      │                  https://bugzilla.redhat.com/2557674                           
 │                       │      │                  https://bugzilla.redhat.com/2557690                           
 │                       │      │                  https://bugzilla.redhat.com/2557709                           
 │                       │      │                  https://bugzilla.redhat.com/2557711                           
 │                       │      │                  https://bugzilla.redhat.com/2557731                           
-│                       │      │                  https://bugzilla.redhat.com/2557757                           
 │                       │      │                  https://bugzilla.redhat.com/2557765                           
 │                       │      │                  https://bugzilla.redhat.com/2557780                           
 │                       │      │                  https://bugzilla.redhat.com/2557857                           
@@ -5920,7 +5868,7 @@
 │                       │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-91463 
 │                       │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-91464 
 │                       │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-91487 
-│                       │      │                  https://errata.almalinux.org/10/ALSA-2026-90504.html          
+│                       │      │                  https://errata.almalinux.org/8/ALSA-2026-88352.html           
 │                       │      │                  https://errata.rockylinux.org/RLSA-2026:88347                 
 │                       │      │                  https://nvd.nist.gov/vuln/detail/CVE-2026-83374               
 │                       │      │                  https://www.cve.org/CVERecord?id=CVE-2026-83374               
@@ -5944,8 +5892,8 @@
 │                       │      ├ DataSource       ╭ ID  : alpine 
 │                       │      │                  ├ Name: Alpine Secdb 
 │                       │      │                  ╰ URL : https://secdb.alpinelinux.org/ 
-│                       │      ├ Fingerprint     : sha256:77e8e035ef706ac20c4889688747bfaf8d1ad1ca13102e4c19410
-│                       │      │                   d7a5303244a 
+│                       │      ├ Fingerprint     : sha256:e007a7bd12a63f5075ab0231f183a8895652e268b65fe04c1aa53
+│                       │      │                   4d1c8ce43c9 
 │                       │      ├ Title           : openjdk: Improve C2 loop transformations (Oracle CPU 2026-10) 
 │                       │      ├ Description     : Vulnerability in Oracle Java SE (component: Compiler). 
 │                       │      │                   Supported versions that are affected are Oracle Java SE:
@@ -5976,7 +5924,7 @@
 │                       │      ├ References                                                                     
 │                       │      │                  ──────────────────────────────────────────────────────────────
 │                       │      │                  https://access.redhat.com/errata/RHSA-2026:88347              
-│                       │      │                  https://access.redhat.com/errata/RHSA-2026:90504              
+│                       │      │                  https://access.redhat.com/errata/RHSA-2026:88349              
 │                       │      │                  https://access.redhat.com/security/cve/CVE-2026-83378         
 │                       │      │                  https://bugzilla.redhat.com/2556709                           
 │                       │      │                  https://bugzilla.redhat.com/2556795                           
@@ -6095,7 +6043,7 @@
 │                       │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-91463 
 │                       │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-91464 
 │                       │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-91487 
-│                       │      │                  https://errata.almalinux.org/10/ALSA-2026-90504.html          
+│                       │      │                  https://errata.almalinux.org/8/ALSA-2026-88349.html           
 │                       │      │                  https://errata.rockylinux.org/RLSA-2026:88347                 
 │                       │      │                  https://nvd.nist.gov/vuln/detail/CVE-2026-83378               
 │                       │      │                  https://www.cve.org/CVERecord?id=CVE-2026-83378               
@@ -6119,8 +6067,8 @@
 │                       │      ├ DataSource       ╭ ID  : alpine 
 │                       │      │                  ├ Name: Alpine Secdb 
 │                       │      │                  ╰ URL : https://secdb.alpinelinux.org/ 
-│                       │      ├ Fingerprint     : sha256:6c0228fae8932e6d93df5cf5320c9e8059b844d40962548144fc5
-│                       │      │                   c5f94f7117f 
+│                       │      ├ Fingerprint     : sha256:76987392f28429907b3d9ff46b55f6b8dc07e409fbd2742cfa2e9
+│                       │      │                   25f1ee7b16e 
 │                       │      ├ Title           : openjdk: Enhance SASL Authentication (Oracle CPU 2026-10) 
 │                       │      ├ Description     : Vulnerability in Oracle Java SE (component: Security). 
 │                       │      │                   Supported versions that are affected are Oracle Java SE:
@@ -6157,19 +6105,17 @@
 │                       │      ├ References                                                                     
 │                       │      │                  ──────────────────────────────────────────────────────────────
 │                       │      │                  https://access.redhat.com/errata/RHSA-2026:88347              
-│                       │      │                  https://access.redhat.com/errata/RHSA-2026:90504              
+│                       │      │                  https://access.redhat.com/errata/RHSA-2026:88352              
 │                       │      │                  https://access.redhat.com/security/cve/CVE-2026-83381         
 │                       │      │                  https://bugzilla.redhat.com/2556709                           
 │                       │      │                  https://bugzilla.redhat.com/2556795                           
 │                       │      │                  https://bugzilla.redhat.com/2556824                           
 │                       │      │                  https://bugzilla.redhat.com/2556837                           
 │                       │      │                  https://bugzilla.redhat.com/2556859                           
-│                       │      │                  https://bugzilla.redhat.com/2556960                           
 │                       │      │                  https://bugzilla.redhat.com/2557007                           
 │                       │      │                  https://bugzilla.redhat.com/2557032                           
 │                       │      │                  https://bugzilla.redhat.com/2557041                           
 │                       │      │                  https://bugzilla.redhat.com/2557047                           
-│                       │      │                  https://bugzilla.redhat.com/2557056                           
 │                       │      │                  https://bugzilla.redhat.com/2557079                           
 │                       │      │                  https://bugzilla.redhat.com/2557110                           
 │                       │      │                  https://bugzilla.redhat.com/2557117                           
@@ -6186,12 +6132,12 @@
 │                       │      │                  https://bugzilla.redhat.com/2557564                           
 │                       │      │                  https://bugzilla.redhat.com/2557598                           
 │                       │      │                  https://bugzilla.redhat.com/2557662                           
+│                       │      │                  https://bugzilla.redhat.com/2557665                           
 │                       │      │                  https://bugzilla.redhat.com/2557674                           
 │                       │      │                  https://bugzilla.redhat.com/2557690                           
 │                       │      │                  https://bugzilla.redhat.com/2557709                           
 │                       │      │                  https://bugzilla.redhat.com/2557711                           
 │                       │      │                  https://bugzilla.redhat.com/2557731                           
-│                       │      │                  https://bugzilla.redhat.com/2557757                           
 │                       │      │                  https://bugzilla.redhat.com/2557765                           
 │                       │      │                  https://bugzilla.redhat.com/2557780                           
 │                       │      │                  https://bugzilla.redhat.com/2557857                           
@@ -6276,7 +6222,7 @@
 │                       │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-91463 
 │                       │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-91464 
 │                       │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-91487 
-│                       │      │                  https://errata.almalinux.org/10/ALSA-2026-90504.html          
+│                       │      │                  https://errata.almalinux.org/8/ALSA-2026-88352.html           
 │                       │      │                  https://errata.rockylinux.org/RLSA-2026:88347                 
 │                       │      │                  https://nvd.nist.gov/vuln/detail/CVE-2026-83381               
 │                       │      │                  https://www.cve.org/CVERecord?id=CVE-2026-83381               
@@ -6300,8 +6246,8 @@
 │                       │      ├ DataSource       ╭ ID  : alpine 
 │                       │      │                  ├ Name: Alpine Secdb 
 │                       │      │                  ╰ URL : https://secdb.alpinelinux.org/ 
-│                       │      ├ Fingerprint     : sha256:36356deac2c12d5f3eab3e56b7fda40dfceebc184865541ae774d
-│                       │      │                   870128b7cb8 
+│                       │      ├ Fingerprint     : sha256:ac4db1ff0b445be7c73cf20631682860d1fdbd2d99ece3f7b9e80
+│                       │      │                   99fed47f3d5 
 │                       │      ├ Title           : openjdk: Enhance WebRowSets (Oracle CPU 2026-10) 
 │                       │      ├ Description     : Vulnerability in the Oracle Java SE, Oracle GraalVM for JDK,
 │                       │      │                    Oracle GraalVM Enterprise Edition product of Oracle Java SE
@@ -6340,19 +6286,17 @@
 │                       │      ├ References                                                                     
 │                       │      │                  ──────────────────────────────────────────────────────────────
 │                       │      │                  https://access.redhat.com/errata/RHSA-2026:88347              
-│                       │      │                  https://access.redhat.com/errata/RHSA-2026:90504              
+│                       │      │                  https://access.redhat.com/errata/RHSA-2026:88352              
 │                       │      │                  https://access.redhat.com/security/cve/CVE-2026-83387         
 │                       │      │                  https://bugzilla.redhat.com/2556709                           
 │                       │      │                  https://bugzilla.redhat.com/2556795                           
 │                       │      │                  https://bugzilla.redhat.com/2556824                           
 │                       │      │                  https://bugzilla.redhat.com/2556837                           
 │                       │      │                  https://bugzilla.redhat.com/2556859                           
-│                       │      │                  https://bugzilla.redhat.com/2556960                           
 │                       │      │                  https://bugzilla.redhat.com/2557007                           
 │                       │      │                  https://bugzilla.redhat.com/2557032                           
 │                       │      │                  https://bugzilla.redhat.com/2557041                           
 │                       │      │                  https://bugzilla.redhat.com/2557047                           
-│                       │      │                  https://bugzilla.redhat.com/2557056                           
 │                       │      │                  https://bugzilla.redhat.com/2557079                           
 │                       │      │                  https://bugzilla.redhat.com/2557110                           
 │                       │      │                  https://bugzilla.redhat.com/2557117                           
@@ -6369,12 +6313,12 @@
 │                       │      │                  https://bugzilla.redhat.com/2557564                           
 │                       │      │                  https://bugzilla.redhat.com/2557598                           
 │                       │      │                  https://bugzilla.redhat.com/2557662                           
+│                       │      │                  https://bugzilla.redhat.com/2557665                           
 │                       │      │                  https://bugzilla.redhat.com/2557674                           
 │                       │      │                  https://bugzilla.redhat.com/2557690                           
 │                       │      │                  https://bugzilla.redhat.com/2557709                           
 │                       │      │                  https://bugzilla.redhat.com/2557711                           
 │                       │      │                  https://bugzilla.redhat.com/2557731                           
-│                       │      │                  https://bugzilla.redhat.com/2557757                           
 │                       │      │                  https://bugzilla.redhat.com/2557765                           
 │                       │      │                  https://bugzilla.redhat.com/2557780                           
 │                       │      │                  https://bugzilla.redhat.com/2557857                           
@@ -6459,7 +6403,7 @@
 │                       │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-91463 
 │                       │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-91464 
 │                       │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-91487 
-│                       │      │                  https://errata.almalinux.org/10/ALSA-2026-90504.html          
+│                       │      │                  https://errata.almalinux.org/8/ALSA-2026-88352.html           
 │                       │      │                  https://errata.rockylinux.org/RLSA-2026:88347                 
 │                       │      │                  https://nvd.nist.gov/vuln/detail/CVE-2026-83387               
 │                       │      │                  https://www.cve.org/CVERecord?id=CVE-2026-83387               
@@ -6483,8 +6427,8 @@
 │                       │      ├ DataSource       ╭ ID  : alpine 
 │                       │      │                  ├ Name: Alpine Secdb 
 │                       │      │                  ╰ URL : https://secdb.alpinelinux.org/ 
-│                       │      ├ Fingerprint     : sha256:d05bba4d8fd3fdc84f7cdb88f0b026ebcf0e7c39adc9e0209c4e4
-│                       │      │                   225c7f640cc 
+│                       │      ├ Fingerprint     : sha256:0369a24341df4a84c7dd9676cb5b5402e25a589d22d8bfac18990
+│                       │      │                   354e9ce82cc 
 │                       │      ├ Title           : openjdk: Enhance XML Processing (Oracle CPU 2026-10) 
 │                       │      ├ Description     : Vulnerability in the Oracle Java SE, Oracle GraalVM for JDK,
 │                       │      │                    Oracle GraalVM Enterprise Edition product of Oracle Java SE
@@ -6523,19 +6467,17 @@
 │                       │      ├ References                                                                     
 │                       │      │                  ──────────────────────────────────────────────────────────────
 │                       │      │                  https://access.redhat.com/errata/RHSA-2026:88347              
-│                       │      │                  https://access.redhat.com/errata/RHSA-2026:90504              
+│                       │      │                  https://access.redhat.com/errata/RHSA-2026:88352              
 │                       │      │                  https://access.redhat.com/security/cve/CVE-2026-83400         
 │                       │      │                  https://bugzilla.redhat.com/2556709                           
 │                       │      │                  https://bugzilla.redhat.com/2556795                           
 │                       │      │                  https://bugzilla.redhat.com/2556824                           
 │                       │      │                  https://bugzilla.redhat.com/2556837                           
 │                       │      │                  https://bugzilla.redhat.com/2556859                           
-│                       │      │                  https://bugzilla.redhat.com/2556960                           
 │                       │      │                  https://bugzilla.redhat.com/2557007                           
 │                       │      │                  https://bugzilla.redhat.com/2557032                           
 │                       │      │                  https://bugzilla.redhat.com/2557041                           
 │                       │      │                  https://bugzilla.redhat.com/2557047                           
-│                       │      │                  https://bugzilla.redhat.com/2557056                           
 │                       │      │                  https://bugzilla.redhat.com/2557079                           
 │                       │      │                  https://bugzilla.redhat.com/2557110                           
 │                       │      │                  https://bugzilla.redhat.com/2557117                           
@@ -6552,12 +6494,12 @@
 │                       │      │                  https://bugzilla.redhat.com/2557564                           
 │                       │      │                  https://bugzilla.redhat.com/2557598                           
 │                       │      │                  https://bugzilla.redhat.com/2557662                           
+│                       │      │                  https://bugzilla.redhat.com/2557665                           
 │                       │      │                  https://bugzilla.redhat.com/2557674                           
 │                       │      │                  https://bugzilla.redhat.com/2557690                           
 │                       │      │                  https://bugzilla.redhat.com/2557709                           
 │                       │      │                  https://bugzilla.redhat.com/2557711                           
 │                       │      │                  https://bugzilla.redhat.com/2557731                           
-│                       │      │                  https://bugzilla.redhat.com/2557757                           
 │                       │      │                  https://bugzilla.redhat.com/2557765                           
 │                       │      │                  https://bugzilla.redhat.com/2557780                           
 │                       │      │                  https://bugzilla.redhat.com/2557857                           
@@ -6642,7 +6584,7 @@
 │                       │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-91463 
 │                       │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-91464 
 │                       │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-91487 
-│                       │      │                  https://errata.almalinux.org/10/ALSA-2026-90504.html          
+│                       │      │                  https://errata.almalinux.org/8/ALSA-2026-88352.html           
 │                       │      │                  https://errata.rockylinux.org/RLSA-2026:88347                 
 │                       │      │                  https://nvd.nist.gov/vuln/detail/CVE-2026-83400               
 │                       │      │                  https://www.cve.org/CVERecord?id=CVE-2026-83400               
@@ -6666,8 +6608,8 @@
 │                       │      ├ DataSource       ╭ ID  : alpine 
 │                       │      │                  ├ Name: Alpine Secdb 
 │                       │      │                  ╰ URL : https://secdb.alpinelinux.org/ 
-│                       │      ├ Fingerprint     : sha256:fb5aba8205cd8caf8c14a870b0e43b60c6371154f9954faedbb3b
-│                       │      │                   bba24434fa8 
+│                       │      ├ Fingerprint     : sha256:a2bf2ce9a83cde8f3b1998c9c98218f2833ab8e4b57dce1d4f4f9
+│                       │      │                   4365b527b7d 
 │                       │      ├ Title           : openjdk: Enhance XPath Expressions (Oracle CPU 2026-10) 
 │                       │      ├ Description     : Vulnerability in the Oracle Java SE, Oracle GraalVM for JDK,
 │                       │      │                    Oracle GraalVM Enterprise Edition product of Oracle Java SE
@@ -6706,19 +6648,17 @@
 │                       │      ├ References                                                                     
 │                       │      │                  ──────────────────────────────────────────────────────────────
 │                       │      │                  https://access.redhat.com/errata/RHSA-2026:88347              
-│                       │      │                  https://access.redhat.com/errata/RHSA-2026:90504              
+│                       │      │                  https://access.redhat.com/errata/RHSA-2026:88352              
 │                       │      │                  https://access.redhat.com/security/cve/CVE-2026-87290         
 │                       │      │                  https://bugzilla.redhat.com/2556709                           
 │                       │      │                  https://bugzilla.redhat.com/2556795                           
 │                       │      │                  https://bugzilla.redhat.com/2556824                           
 │                       │      │                  https://bugzilla.redhat.com/2556837                           
 │                       │      │                  https://bugzilla.redhat.com/2556859                           
-│                       │      │                  https://bugzilla.redhat.com/2556960                           
 │                       │      │                  https://bugzilla.redhat.com/2557007                           
 │                       │      │                  https://bugzilla.redhat.com/2557032                           
 │                       │      │                  https://bugzilla.redhat.com/2557041                           
 │                       │      │                  https://bugzilla.redhat.com/2557047                           
-│                       │      │                  https://bugzilla.redhat.com/2557056                           
 │                       │      │                  https://bugzilla.redhat.com/2557079                           
 │                       │      │                  https://bugzilla.redhat.com/2557110                           
 │                       │      │                  https://bugzilla.redhat.com/2557117                           
@@ -6735,12 +6675,12 @@
 │                       │      │                  https://bugzilla.redhat.com/2557564                           
 │                       │      │                  https://bugzilla.redhat.com/2557598                           
 │                       │      │                  https://bugzilla.redhat.com/2557662                           
+│                       │      │                  https://bugzilla.redhat.com/2557665                           
 │                       │      │                  https://bugzilla.redhat.com/2557674                           
 │                       │      │                  https://bugzilla.redhat.com/2557690                           
 │                       │      │                  https://bugzilla.redhat.com/2557709                           
 │                       │      │                  https://bugzilla.redhat.com/2557711                           
 │                       │      │                  https://bugzilla.redhat.com/2557731                           
-│                       │      │                  https://bugzilla.redhat.com/2557757                           
 │                       │      │                  https://bugzilla.redhat.com/2557765                           
 │                       │      │                  https://bugzilla.redhat.com/2557780                           
 │                       │      │                  https://bugzilla.redhat.com/2557857                           
@@ -6825,7 +6765,7 @@
 │                       │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-91463 
 │                       │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-91464 
 │                       │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-91487 
-│                       │      │                  https://errata.almalinux.org/10/ALSA-2026-90504.html          
+│                       │      │                  https://errata.almalinux.org/8/ALSA-2026-88352.html           
 │                       │      │                  https://errata.rockylinux.org/RLSA-2026:88347                 
 │                       │      │                  https://nvd.nist.gov/vuln/detail/CVE-2026-87290               
 │                       │      │                  https://www.cve.org/CVERecord?id=CVE-2026-87290               
@@ -6849,8 +6789,8 @@
 │                       │      ├ DataSource       ╭ ID  : alpine 
 │                       │      │                  ├ Name: Alpine Secdb 
 │                       │      │                  ╰ URL : https://secdb.alpinelinux.org/ 
-│                       │      ├ Fingerprint     : sha256:8f75ae25fac8a3434f0efeb496f131571d9b037e15685e2d1c3b9
-│                       │      │                   095156a3e4a 
+│                       │      ├ Fingerprint     : sha256:93bc341908463e6e879eae0676e0f6d2eca5c1e50129cf49035f8
+│                       │      │                   1673c9dfac5 
 │                       │      ├ Title           : openjdk: Enhance HTTP Server (Oracle CPU 2026-10) 
 │                       │      ├ Description     : Vulnerability in Oracle Java SE (component: Networking). 
 │                       │      │                   Supported versions that are affected are Oracle Java SE:
@@ -6880,7 +6820,7 @@
 │                       │      ├ References                                                                     
 │                       │      │                  ──────────────────────────────────────────────────────────────
 │                       │      │                  https://access.redhat.com/errata/RHSA-2026:88347              
-│                       │      │                  https://access.redhat.com/errata/RHSA-2026:90504              
+│                       │      │                  https://access.redhat.com/errata/RHSA-2026:88349              
 │                       │      │                  https://access.redhat.com/security/cve/CVE-2026-87291         
 │                       │      │                  https://bugzilla.redhat.com/2556709                           
 │                       │      │                  https://bugzilla.redhat.com/2556795                           
@@ -6999,7 +6939,7 @@
 │                       │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-91463 
 │                       │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-91464 
 │                       │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-91487 
-│                       │      │                  https://errata.almalinux.org/10/ALSA-2026-90504.html          
+│                       │      │                  https://errata.almalinux.org/8/ALSA-2026-88349.html           
 │                       │      │                  https://errata.rockylinux.org/RLSA-2026:88347                 
 │                       │      │                  https://nvd.nist.gov/vuln/detail/CVE-2026-87291               
 │                       │      │                  https://www.cve.org/CVERecord?id=CVE-2026-87291               
@@ -7023,8 +6963,8 @@
 │                       │      ├ DataSource       ╭ ID  : alpine 
 │                       │      │                  ├ Name: Alpine Secdb 
 │                       │      │                  ╰ URL : https://secdb.alpinelinux.org/ 
-│                       │      ├ Fingerprint     : sha256:9bd4f082cf0dfb86a3ce15bd177be706bde2319a7310dffe946ba
-│                       │      │                   b745dd92b7a 
+│                       │      ├ Fingerprint     : sha256:afea6e4927fad8a83aa9d81d5cf22ccee212a1d4f5496450c46a1
+│                       │      │                   23905e66bc7 
 │                       │      ├ Title           : openjdk: Enhance HTTP Client (Oracle CPU 2026-10) 
 │                       │      ├ Description     : Vulnerability in Oracle Java SE (component: Networking). 
 │                       │      │                   Supported versions that are affected are Oracle Java SE:
@@ -7059,19 +6999,17 @@
 │                       │      ├ References                                                                     
 │                       │      │                  ──────────────────────────────────────────────────────────────
 │                       │      │                  https://access.redhat.com/errata/RHSA-2026:88347              
-│                       │      │                  https://access.redhat.com/errata/RHSA-2026:90504              
+│                       │      │                  https://access.redhat.com/errata/RHSA-2026:88352              
 │                       │      │                  https://access.redhat.com/security/cve/CVE-2026-91332         
 │                       │      │                  https://bugzilla.redhat.com/2556709                           
 │                       │      │                  https://bugzilla.redhat.com/2556795                           
 │                       │      │                  https://bugzilla.redhat.com/2556824                           
 │                       │      │                  https://bugzilla.redhat.com/2556837                           
 │                       │      │                  https://bugzilla.redhat.com/2556859                           
-│                       │      │                  https://bugzilla.redhat.com/2556960                           
 │                       │      │                  https://bugzilla.redhat.com/2557007                           
 │                       │      │                  https://bugzilla.redhat.com/2557032                           
 │                       │      │                  https://bugzilla.redhat.com/2557041                           
 │                       │      │                  https://bugzilla.redhat.com/2557047                           
-│                       │      │                  https://bugzilla.redhat.com/2557056                           
 │                       │      │                  https://bugzilla.redhat.com/2557079                           
 │                       │      │                  https://bugzilla.redhat.com/2557110                           
 │                       │      │                  https://bugzilla.redhat.com/2557117                           
@@ -7088,12 +7026,12 @@
 │                       │      │                  https://bugzilla.redhat.com/2557564                           
 │                       │      │                  https://bugzilla.redhat.com/2557598                           
 │                       │      │                  https://bugzilla.redhat.com/2557662                           
+│                       │      │                  https://bugzilla.redhat.com/2557665                           
 │                       │      │                  https://bugzilla.redhat.com/2557674                           
 │                       │      │                  https://bugzilla.redhat.com/2557690                           
 │                       │      │                  https://bugzilla.redhat.com/2557709                           
 │                       │      │                  https://bugzilla.redhat.com/2557711                           
 │                       │      │                  https://bugzilla.redhat.com/2557731                           
-│                       │      │                  https://bugzilla.redhat.com/2557757                           
 │                       │      │                  https://bugzilla.redhat.com/2557765                           
 │                       │      │                  https://bugzilla.redhat.com/2557780                           
 │                       │      │                  https://bugzilla.redhat.com/2557857                           
@@ -7178,7 +7116,7 @@
 │                       │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-91463 
 │                       │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-91464 
 │                       │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-91487 
-│                       │      │                  https://errata.almalinux.org/10/ALSA-2026-90504.html          
+│                       │      │                  https://errata.almalinux.org/8/ALSA-2026-88352.html           
 │                       │      │                  https://errata.rockylinux.org/RLSA-2026:88347                 
 │                       │      │                  https://nvd.nist.gov/vuln/detail/CVE-2026-91332               
 │                       │      │                  https://www.cve.org/CVERecord?id=CVE-2026-91332               
@@ -7202,8 +7140,8 @@
 │                       │      ├ DataSource       ╭ ID  : alpine 
 │                       │      │                  ├ Name: Alpine Secdb 
 │                       │      │                  ╰ URL : https://secdb.alpinelinux.org/ 
-│                       │      ├ Fingerprint     : sha256:151b0f7a1b8c5a31b19f17ebdadc9025577e812e1df5719c1ffdf
-│                       │      │                   18f1401ac19 
+│                       │      ├ Fingerprint     : sha256:f42482f5c1f505dbd603e6e4e89f2aa375f1462a6be6a351434c1
+│                       │      │                   7fc8b225709 
 │                       │      ├ Title           : openjdk: Enhance TLS handshakes (Oracle CPU 2026-10) 
 │                       │      ├ Description     : Vulnerability in Oracle Java SE (component: JSSE). 
 │                       │      │                   Supported versions that are affected are Oracle Java SE:
@@ -7238,19 +7176,17 @@
 │                       │      ├ References                                                                     
 │                       │      │                  ──────────────────────────────────────────────────────────────
 │                       │      │                  https://access.redhat.com/errata/RHSA-2026:88347              
-│                       │      │                  https://access.redhat.com/errata/RHSA-2026:90504              
+│                       │      │                  https://access.redhat.com/errata/RHSA-2026:88352              
 │                       │      │                  https://access.redhat.com/security/cve/CVE-2026-91373         
 │                       │      │                  https://bugzilla.redhat.com/2556709                           
 │                       │      │                  https://bugzilla.redhat.com/2556795                           
 │                       │      │                  https://bugzilla.redhat.com/2556824                           
 │                       │      │                  https://bugzilla.redhat.com/2556837                           
 │                       │      │                  https://bugzilla.redhat.com/2556859                           
-│                       │      │                  https://bugzilla.redhat.com/2556960                           
 │                       │      │                  https://bugzilla.redhat.com/2557007                           
 │                       │      │                  https://bugzilla.redhat.com/2557032                           
 │                       │      │                  https://bugzilla.redhat.com/2557041                           
 │                       │      │                  https://bugzilla.redhat.com/2557047                           
-│                       │      │                  https://bugzilla.redhat.com/2557056                           
 │                       │      │                  https://bugzilla.redhat.com/2557079                           
 │                       │      │                  https://bugzilla.redhat.com/2557110                           
 │                       │      │                  https://bugzilla.redhat.com/2557117                           
@@ -7267,12 +7203,12 @@
 │                       │      │                  https://bugzilla.redhat.com/2557564                           
 │                       │      │                  https://bugzilla.redhat.com/2557598                           
 │                       │      │                  https://bugzilla.redhat.com/2557662                           
+│                       │      │                  https://bugzilla.redhat.com/2557665                           
 │                       │      │                  https://bugzilla.redhat.com/2557674                           
 │                       │      │                  https://bugzilla.redhat.com/2557690                           
 │                       │      │                  https://bugzilla.redhat.com/2557709                           
 │                       │      │                  https://bugzilla.redhat.com/2557711                           
 │                       │      │                  https://bugzilla.redhat.com/2557731                           
-│                       │      │                  https://bugzilla.redhat.com/2557757                           
 │                       │      │                  https://bugzilla.redhat.com/2557765                           
 │                       │      │                  https://bugzilla.redhat.com/2557780                           
 │                       │      │                  https://bugzilla.redhat.com/2557857                           
@@ -7357,7 +7293,7 @@
 │                       │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-91463 
 │                       │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-91464 
 │                       │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-91487 
-│                       │      │                  https://errata.almalinux.org/10/ALSA-2026-90504.html          
+│                       │      │                  https://errata.almalinux.org/8/ALSA-2026-88352.html           
 │                       │      │                  https://errata.rockylinux.org/RLSA-2026:88347                 
 │                       │      │                  https://nvd.nist.gov/vuln/detail/CVE-2026-91373               
 │                       │      │                  https://www.cve.org/CVERecord?id=CVE-2026-91373               
@@ -7381,8 +7317,8 @@
 │                       │      ├ DataSource       ╭ ID  : alpine 
 │                       │      │                  ├ Name: Alpine Secdb 
 │                       │      │                  ╰ URL : https://secdb.alpinelinux.org/ 
-│                       │      ├ Fingerprint     : sha256:43917620d33ac202fe42cdd9aa3feaafdf64e1b9f226044d8901c
-│                       │      │                   15f63de15af 
+│                       │      ├ Fingerprint     : sha256:26a1eceb9ce6e94c76ae111402f64f145e042b76130e73e47258e
+│                       │      │                   2555afa4e88 
 │                       │      ├ Title           : openjdk: Enhance jstatd (Oracle CPU 2026-10) 
 │                       │      ├ Description     : Vulnerability in the Oracle Java SE, Oracle GraalVM for JDK,
 │                       │      │                    Oracle GraalVM Enterprise Edition product of Oracle Java SE
@@ -7424,19 +7360,17 @@
 │                       │      ├ References                                                                     
 │                       │      │                  ──────────────────────────────────────────────────────────────
 │                       │      │                  https://access.redhat.com/errata/RHSA-2026:88347              
-│                       │      │                  https://access.redhat.com/errata/RHSA-2026:90504              
+│                       │      │                  https://access.redhat.com/errata/RHSA-2026:88352              
 │                       │      │                  https://access.redhat.com/security/cve/CVE-2026-91374         
 │                       │      │                  https://bugzilla.redhat.com/2556709                           
 │                       │      │                  https://bugzilla.redhat.com/2556795                           
 │                       │      │                  https://bugzilla.redhat.com/2556824                           
 │                       │      │                  https://bugzilla.redhat.com/2556837                           
 │                       │      │                  https://bugzilla.redhat.com/2556859                           
-│                       │      │                  https://bugzilla.redhat.com/2556960                           
 │                       │      │                  https://bugzilla.redhat.com/2557007                           
 │                       │      │                  https://bugzilla.redhat.com/2557032                           
 │                       │      │                  https://bugzilla.redhat.com/2557041                           
 │                       │      │                  https://bugzilla.redhat.com/2557047                           
-│                       │      │                  https://bugzilla.redhat.com/2557056                           
 │                       │      │                  https://bugzilla.redhat.com/2557079                           
 │                       │      │                  https://bugzilla.redhat.com/2557110                           
 │                       │      │                  https://bugzilla.redhat.com/2557117                           
@@ -7453,12 +7387,12 @@
 │                       │      │                  https://bugzilla.redhat.com/2557564                           
 │                       │      │                  https://bugzilla.redhat.com/2557598                           
 │                       │      │                  https://bugzilla.redhat.com/2557662                           
+│                       │      │                  https://bugzilla.redhat.com/2557665                           
 │                       │      │                  https://bugzilla.redhat.com/2557674                           
 │                       │      │                  https://bugzilla.redhat.com/2557690                           
 │                       │      │                  https://bugzilla.redhat.com/2557709                           
 │                       │      │                  https://bugzilla.redhat.com/2557711                           
 │                       │      │                  https://bugzilla.redhat.com/2557731                           
-│                       │      │                  https://bugzilla.redhat.com/2557757                           
 │                       │      │                  https://bugzilla.redhat.com/2557765                           
 │                       │      │                  https://bugzilla.redhat.com/2557780                           
 │                       │      │                  https://bugzilla.redhat.com/2557857                           
@@ -7543,7 +7477,7 @@
 │                       │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-91463 
 │                       │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-91464 
 │                       │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-91487 
-│                       │      │                  https://errata.almalinux.org/10/ALSA-2026-90504.html          
+│                       │      │                  https://errata.almalinux.org/8/ALSA-2026-88352.html           
 │                       │      │                  https://errata.rockylinux.org/RLSA-2026:88347                 
 │                       │      │                  https://nvd.nist.gov/vuln/detail/CVE-2026-91374               
 │                       │      │                  https://www.cve.org/CVERecord?id=CVE-2026-91374               
@@ -7567,8 +7501,8 @@
 │                       │      ├ DataSource       ╭ ID  : alpine 
 │                       │      │                  ├ Name: Alpine Secdb 
 │                       │      │                  ╰ URL : https://secdb.alpinelinux.org/ 
-│                       │      ├ Fingerprint     : sha256:1843ce417faaacd8f5457657802ef989af15c4ddca442f67297fa
-│                       │      │                   2a39d1a8f1d 
+│                       │      ├ Fingerprint     : sha256:6b1b4ab9f36f927693c4aaa5c3905fd9885a291eb7fcf04928c34
+│                       │      │                   eb53c0fcf69 
 │                       │      ├ Title           : openjdk: Enhance jmod handling (Oracle CPU 2026-10) 
 │                       │      ├ Description     : Vulnerability in Oracle Java SE (component: Libraries). 
 │                       │      │                   Supported versions that are affected are Oracle Java SE:
@@ -7605,19 +7539,17 @@
 │                       │      ├ References                                                                     
 │                       │      │                  ──────────────────────────────────────────────────────────────
 │                       │      │                  https://access.redhat.com/errata/RHSA-2026:88347              
-│                       │      │                  https://access.redhat.com/errata/RHSA-2026:90504              
+│                       │      │                  https://access.redhat.com/errata/RHSA-2026:88352              
 │                       │      │                  https://access.redhat.com/security/cve/CVE-2026-91375         
 │                       │      │                  https://bugzilla.redhat.com/2556709                           
 │                       │      │                  https://bugzilla.redhat.com/2556795                           
 │                       │      │                  https://bugzilla.redhat.com/2556824                           
 │                       │      │                  https://bugzilla.redhat.com/2556837                           
 │                       │      │                  https://bugzilla.redhat.com/2556859                           
-│                       │      │                  https://bugzilla.redhat.com/2556960                           
 │                       │      │                  https://bugzilla.redhat.com/2557007                           
 │                       │      │                  https://bugzilla.redhat.com/2557032                           
 │                       │      │                  https://bugzilla.redhat.com/2557041                           
 │                       │      │                  https://bugzilla.redhat.com/2557047                           
-│                       │      │                  https://bugzilla.redhat.com/2557056                           
 │                       │      │                  https://bugzilla.redhat.com/2557079                           
 │                       │      │                  https://bugzilla.redhat.com/2557110                           
 │                       │      │                  https://bugzilla.redhat.com/2557117                           
@@ -7634,12 +7566,12 @@
 │                       │      │                  https://bugzilla.redhat.com/2557564                           
 │                       │      │                  https://bugzilla.redhat.com/2557598                           
 │                       │      │                  https://bugzilla.redhat.com/2557662                           
+│                       │      │                  https://bugzilla.redhat.com/2557665                           
 │                       │      │                  https://bugzilla.redhat.com/2557674                           
 │                       │      │                  https://bugzilla.redhat.com/2557690                           
 │                       │      │                  https://bugzilla.redhat.com/2557709                           
 │                       │      │                  https://bugzilla.redhat.com/2557711                           
 │                       │      │                  https://bugzilla.redhat.com/2557731                           
-│                       │      │                  https://bugzilla.redhat.com/2557757                           
 │                       │      │                  https://bugzilla.redhat.com/2557765                           
 │                       │      │                  https://bugzilla.redhat.com/2557780                           
 │                       │      │                  https://bugzilla.redhat.com/2557857                           
@@ -7724,7 +7656,7 @@
 │                       │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-91463 
 │                       │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-91464 
 │                       │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-91487 
-│                       │      │                  https://errata.almalinux.org/10/ALSA-2026-90504.html          
+│                       │      │                  https://errata.almalinux.org/8/ALSA-2026-88352.html           
 │                       │      │                  https://errata.rockylinux.org/RLSA-2026:88347                 
 │                       │      │                  https://nvd.nist.gov/vuln/detail/CVE-2026-91375               
 │                       │      │                  https://www.cve.org/CVERecord?id=CVE-2026-91375               
@@ -7748,8 +7680,8 @@
 │                       │      ├ DataSource       ╭ ID  : alpine 
 │                       │      │                  ├ Name: Alpine Secdb 
 │                       │      │                  ╰ URL : https://secdb.alpinelinux.org/ 
-│                       │      ├ Fingerprint     : sha256:2d2a9f133aaad242210c026f79ea7d86b415b0b6e5ad884813add
-│                       │      │                   22e0a075e7a 
+│                       │      ├ Fingerprint     : sha256:bf106fc4ca4f5ea4db4d3d0cd9dba8a451e8418573c167bad57ff
+│                       │      │                   620058db298 
 │                       │      ├ Title           : openjdk: Enhance JShell (Oracle CPU 2026-10) 
 │                       │      ├ Description     : Vulnerability in the Oracle Java SE, Oracle GraalVM for JDK,
 │                       │      │                    Oracle GraalVM Enterprise Edition product of Oracle Java SE
@@ -7791,19 +7723,17 @@
 │                       │      ├ References                                                                     
 │                       │      │                  ──────────────────────────────────────────────────────────────
 │                       │      │                  https://access.redhat.com/errata/RHSA-2026:88347              
-│                       │      │                  https://access.redhat.com/errata/RHSA-2026:90504              
+│                       │      │                  https://access.redhat.com/errata/RHSA-2026:88352              
 │                       │      │                  https://access.redhat.com/security/cve/CVE-2026-91379         
 │                       │      │                  https://bugzilla.redhat.com/2556709                           
 │                       │      │                  https://bugzilla.redhat.com/2556795                           
 │                       │      │                  https://bugzilla.redhat.com/2556824                           
 │                       │      │                  https://bugzilla.redhat.com/2556837                           
 │                       │      │                  https://bugzilla.redhat.com/2556859                           
-│                       │      │                  https://bugzilla.redhat.com/2556960                           
 │                       │      │                  https://bugzilla.redhat.com/2557007                           
 │                       │      │                  https://bugzilla.redhat.com/2557032                           
 │                       │      │                  https://bugzilla.redhat.com/2557041                           
 │                       │      │                  https://bugzilla.redhat.com/2557047                           
-│                       │      │                  https://bugzilla.redhat.com/2557056                           
 │                       │      │                  https://bugzilla.redhat.com/2557079                           
 │                       │      │                  https://bugzilla.redhat.com/2557110                           
 │                       │      │                  https://bugzilla.redhat.com/2557117                           
@@ -7820,12 +7750,12 @@
 │                       │      │                  https://bugzilla.redhat.com/2557564                           
 │                       │      │                  https://bugzilla.redhat.com/2557598                           
 │                       │      │                  https://bugzilla.redhat.com/2557662                           
+│                       │      │                  https://bugzilla.redhat.com/2557665                           
 │                       │      │                  https://bugzilla.redhat.com/2557674                           
 │                       │      │                  https://bugzilla.redhat.com/2557690                           
 │                       │      │                  https://bugzilla.redhat.com/2557709                           
 │                       │      │                  https://bugzilla.redhat.com/2557711                           
 │                       │      │                  https://bugzilla.redhat.com/2557731                           
-│                       │      │                  https://bugzilla.redhat.com/2557757                           
 │                       │      │                  https://bugzilla.redhat.com/2557765                           
 │                       │      │                  https://bugzilla.redhat.com/2557780                           
 │                       │      │                  https://bugzilla.redhat.com/2557857                           
@@ -7910,7 +7840,7 @@
 │                       │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-91463 
 │                       │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-91464 
 │                       │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-91487 
-│                       │      │                  https://errata.almalinux.org/10/ALSA-2026-90504.html          
+│                       │      │                  https://errata.almalinux.org/8/ALSA-2026-88352.html           
 │                       │      │                  https://errata.rockylinux.org/RLSA-2026:88347                 
 │                       │      │                  https://nvd.nist.gov/vuln/detail/CVE-2026-91379               
 │                       │      │                  https://www.cve.org/CVERecord?id=CVE-2026-91379               
@@ -7934,8 +7864,8 @@
 │                       │      ├ DataSource       ╭ ID  : alpine 
 │                       │      │                  ├ Name: Alpine Secdb 
 │                       │      │                  ╰ URL : https://secdb.alpinelinux.org/ 
-│                       │      ├ Fingerprint     : sha256:7fc09c0603a52b5f08a92daab2bc2abeabd2cd424db4c02bcbfb1
-│                       │      │                   9f164bd1675 
+│                       │      ├ Fingerprint     : sha256:927f1ba412a01ac2192c0f7e111f9cbdf86d0754f46a01d24eda4
+│                       │      │                   9f5ceb6c287 
 │                       │      ├ Title           : openjdk: Enhance CORBA (Oracle CPU 2026-10) 
 │                       │      ├ Description     : Vulnerability in the Oracle Java SE, Oracle GraalVM
 │                       │      │                   Enterprise Edition product of Oracle Java SE (component:
@@ -7988,8 +7918,8 @@
 │                       │      ├ DataSource       ╭ ID  : alpine 
 │                       │      │                  ├ Name: Alpine Secdb 
 │                       │      │                  ╰ URL : https://secdb.alpinelinux.org/ 
-│                       │      ├ Fingerprint     : sha256:cdf0e2f7c96745d76097795f5772bf5c161b582b8e05435a01166
-│                       │      │                   86e3cbf0936 
+│                       │      ├ Fingerprint     : sha256:e251d61936e86e434d7e1834527865085e2f9b6f1193feab42d1e
+│                       │      │                   04a62070644 
 │                       │      ├ Title           : openjdk: Enhance GIF loading (Oracle CPU 2026-10) 
 │                       │      ├ Description     : Vulnerability in the Oracle Java SE, Oracle JavaFX, Oracle
 │                       │      │                   GraalVM for JDK, Oracle GraalVM Enterprise Edition product
@@ -8029,19 +7959,17 @@
 │                       │      ├ References                                                                     
 │                       │      │                  ──────────────────────────────────────────────────────────────
 │                       │      │                  https://access.redhat.com/errata/RHSA-2026:88347              
-│                       │      │                  https://access.redhat.com/errata/RHSA-2026:90504              
+│                       │      │                  https://access.redhat.com/errata/RHSA-2026:88352              
 │                       │      │                  https://access.redhat.com/security/cve/CVE-2026-91418         
 │                       │      │                  https://bugzilla.redhat.com/2556709                           
 │                       │      │                  https://bugzilla.redhat.com/2556795                           
 │                       │      │                  https://bugzilla.redhat.com/2556824                           
 │                       │      │                  https://bugzilla.redhat.com/2556837                           
 │                       │      │                  https://bugzilla.redhat.com/2556859                           
-│                       │      │                  https://bugzilla.redhat.com/2556960                           
 │                       │      │                  https://bugzilla.redhat.com/2557007                           
 │                       │      │                  https://bugzilla.redhat.com/2557032                           
 │                       │      │                  https://bugzilla.redhat.com/2557041                           
 │                       │      │                  https://bugzilla.redhat.com/2557047                           
-│                       │      │                  https://bugzilla.redhat.com/2557056                           
 │                       │      │                  https://bugzilla.redhat.com/2557079                           
 │                       │      │                  https://bugzilla.redhat.com/2557110                           
 │                       │      │                  https://bugzilla.redhat.com/2557117                           
@@ -8058,12 +7986,12 @@
 │                       │      │                  https://bugzilla.redhat.com/2557564                           
 │                       │      │                  https://bugzilla.redhat.com/2557598                           
 │                       │      │                  https://bugzilla.redhat.com/2557662                           
+│                       │      │                  https://bugzilla.redhat.com/2557665                           
 │                       │      │                  https://bugzilla.redhat.com/2557674                           
 │                       │      │                  https://bugzilla.redhat.com/2557690                           
 │                       │      │                  https://bugzilla.redhat.com/2557709                           
 │                       │      │                  https://bugzilla.redhat.com/2557711                           
 │                       │      │                  https://bugzilla.redhat.com/2557731                           
-│                       │      │                  https://bugzilla.redhat.com/2557757                           
 │                       │      │                  https://bugzilla.redhat.com/2557765                           
 │                       │      │                  https://bugzilla.redhat.com/2557780                           
 │                       │      │                  https://bugzilla.redhat.com/2557857                           
@@ -8148,7 +8076,7 @@
 │                       │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-91463 
 │                       │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-91464 
 │                       │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-91487 
-│                       │      │                  https://errata.almalinux.org/10/ALSA-2026-90504.html          
+│                       │      │                  https://errata.almalinux.org/8/ALSA-2026-88352.html           
 │                       │      │                  https://errata.rockylinux.org/RLSA-2026:88347                 
 │                       │      │                  https://nvd.nist.gov/vuln/detail/CVE-2026-91418               
 │                       │      │                  https://www.cve.org/CVERecord?id=CVE-2026-91418               
@@ -8172,8 +8100,8 @@
 │                       │      ├ DataSource       ╭ ID  : alpine 
 │                       │      │                  ├ Name: Alpine Secdb 
 │                       │      │                  ╰ URL : https://secdb.alpinelinux.org/ 
-│                       │      ├ Fingerprint     : sha256:e09a57d37e690ea5e0c895079edce659a12e16039137442022b99
-│                       │      │                   dd92ed6c8da 
+│                       │      ├ Fingerprint     : sha256:a91865891ccae2b0316fb1181dbb1b61be009c9ec3707e34bef24
+│                       │      │                   dce5999205b 
 │                       │      ├ Title           : openjdk: Enhance HTTP server parsing (Oracle CPU 2026-10) 
 │                       │      ├ Description     : Vulnerability in Oracle Java SE (component: Networking). 
 │                       │      │                   Supported versions that are affected are Oracle Java SE:
@@ -8205,19 +8133,17 @@
 │                       │      ├ References                                                                     
 │                       │      │                  ──────────────────────────────────────────────────────────────
 │                       │      │                  https://access.redhat.com/errata/RHSA-2026:88347              
-│                       │      │                  https://access.redhat.com/errata/RHSA-2026:90504              
+│                       │      │                  https://access.redhat.com/errata/RHSA-2026:88352              
 │                       │      │                  https://access.redhat.com/security/cve/CVE-2026-91451         
 │                       │      │                  https://bugzilla.redhat.com/2556709                           
 │                       │      │                  https://bugzilla.redhat.com/2556795                           
 │                       │      │                  https://bugzilla.redhat.com/2556824                           
 │                       │      │                  https://bugzilla.redhat.com/2556837                           
 │                       │      │                  https://bugzilla.redhat.com/2556859                           
-│                       │      │                  https://bugzilla.redhat.com/2556960                           
 │                       │      │                  https://bugzilla.redhat.com/2557007                           
 │                       │      │                  https://bugzilla.redhat.com/2557032                           
 │                       │      │                  https://bugzilla.redhat.com/2557041                           
 │                       │      │                  https://bugzilla.redhat.com/2557047                           
-│                       │      │                  https://bugzilla.redhat.com/2557056                           
 │                       │      │                  https://bugzilla.redhat.com/2557079                           
 │                       │      │                  https://bugzilla.redhat.com/2557110                           
 │                       │      │                  https://bugzilla.redhat.com/2557117                           
@@ -8234,12 +8160,12 @@
 │                       │      │                  https://bugzilla.redhat.com/2557564                           
 │                       │      │                  https://bugzilla.redhat.com/2557598                           
 │                       │      │                  https://bugzilla.redhat.com/2557662                           
+│                       │      │                  https://bugzilla.redhat.com/2557665                           
 │                       │      │                  https://bugzilla.redhat.com/2557674                           
 │                       │      │                  https://bugzilla.redhat.com/2557690                           
 │                       │      │                  https://bugzilla.redhat.com/2557709                           
 │                       │      │                  https://bugzilla.redhat.com/2557711                           
 │                       │      │                  https://bugzilla.redhat.com/2557731                           
-│                       │      │                  https://bugzilla.redhat.com/2557757                           
 │                       │      │                  https://bugzilla.redhat.com/2557765                           
 │                       │      │                  https://bugzilla.redhat.com/2557780                           
 │                       │      │                  https://bugzilla.redhat.com/2557857                           
@@ -8324,7 +8250,7 @@
 │                       │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-91463 
 │                       │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-91464 
 │                       │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-91487 
-│                       │      │                  https://errata.almalinux.org/10/ALSA-2026-90504.html          
+│                       │      │                  https://errata.almalinux.org/8/ALSA-2026-88352.html           
 │                       │      │                  https://errata.rockylinux.org/RLSA-2026:88347                 
 │                       │      │                  https://nvd.nist.gov/vuln/detail/CVE-2026-91451               
 │                       │      │                  https://www.cve.org/CVERecord?id=CVE-2026-91451               
@@ -8348,8 +8274,8 @@
 │                       │      ├ DataSource       ╭ ID  : alpine 
 │                       │      │                  ├ Name: Alpine Secdb 
 │                       │      │                  ╰ URL : https://secdb.alpinelinux.org/ 
-│                       │      ├ Fingerprint     : sha256:9a610dd572ff3d635aea9e45b190040dbd15bcdb290069e0036b5
-│                       │      │                   ebf1dd1d9f3 
+│                       │      ├ Fingerprint     : sha256:ba14216e98d4f45aec6db2234e297e73074ed6721b508b64db05e
+│                       │      │                   e26a2c9a589 
 │                       │      ├ Title           : openjdk: Enhance HTTP server (Oracle CPU 2026-10) 
 │                       │      ├ Description     : Vulnerability in the Oracle Java SE, Oracle GraalVM for JDK,
 │                       │      │                    Oracle GraalVM Enterprise Edition product of Oracle Java SE
@@ -8385,19 +8311,17 @@
 │                       │      ├ References                                                                     
 │                       │      │                  ──────────────────────────────────────────────────────────────
 │                       │      │                  https://access.redhat.com/errata/RHSA-2026:88347              
-│                       │      │                  https://access.redhat.com/errata/RHSA-2026:90504              
+│                       │      │                  https://access.redhat.com/errata/RHSA-2026:88352              
 │                       │      │                  https://access.redhat.com/security/cve/CVE-2026-91452         
 │                       │      │                  https://bugzilla.redhat.com/2556709                           
 │                       │      │                  https://bugzilla.redhat.com/2556795                           
 │                       │      │                  https://bugzilla.redhat.com/2556824                           
 │                       │      │                  https://bugzilla.redhat.com/2556837                           
 │                       │      │                  https://bugzilla.redhat.com/2556859                           
-│                       │      │                  https://bugzilla.redhat.com/2556960                           
 │                       │      │                  https://bugzilla.redhat.com/2557007                           
 │                       │      │                  https://bugzilla.redhat.com/2557032                           
 │                       │      │                  https://bugzilla.redhat.com/2557041                           
 │                       │      │                  https://bugzilla.redhat.com/2557047                           
-│                       │      │                  https://bugzilla.redhat.com/2557056                           
 │                       │      │                  https://bugzilla.redhat.com/2557079                           
 │                       │      │                  https://bugzilla.redhat.com/2557110                           
 │                       │      │                  https://bugzilla.redhat.com/2557117                           
@@ -8414,12 +8338,12 @@
 │                       │      │                  https://bugzilla.redhat.com/2557564                           
 │                       │      │                  https://bugzilla.redhat.com/2557598                           
 │                       │      │                  https://bugzilla.redhat.com/2557662                           
+│                       │      │                  https://bugzilla.redhat.com/2557665                           
 │                       │      │                  https://bugzilla.redhat.com/2557674                           
 │                       │      │                  https://bugzilla.redhat.com/2557690                           
 │                       │      │                  https://bugzilla.redhat.com/2557709                           
 │                       │      │                  https://bugzilla.redhat.com/2557711                           
 │                       │      │                  https://bugzilla.redhat.com/2557731                           
-│                       │      │                  https://bugzilla.redhat.com/2557757                           
 │                       │      │                  https://bugzilla.redhat.com/2557765                           
 │                       │      │                  https://bugzilla.redhat.com/2557780                           
 │                       │      │                  https://bugzilla.redhat.com/2557857                           
@@ -8504,7 +8428,7 @@
 │                       │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-91463 
 │                       │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-91464 
 │                       │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-91487 
-│                       │      │                  https://errata.almalinux.org/10/ALSA-2026-90504.html          
+│                       │      │                  https://errata.almalinux.org/8/ALSA-2026-88352.html           
 │                       │      │                  https://errata.rockylinux.org/RLSA-2026:88347                 
 │                       │      │                  https://nvd.nist.gov/vuln/detail/CVE-2026-91452               
 │                       │      │                  https://www.cve.org/CVERecord?id=CVE-2026-91452               
@@ -8528,8 +8452,8 @@
 │                       │      ├ DataSource       ╭ ID  : alpine 
 │                       │      │                  ├ Name: Alpine Secdb 
 │                       │      │                  ╰ URL : https://secdb.alpinelinux.org/ 
-│                       │      ├ Fingerprint     : sha256:5e05ba302f6e78d086faa23006469ec702aa8585e43a132112706
-│                       │      │                   32878592c9b 
+│                       │      ├ Fingerprint     : sha256:eeb1408693ceb7617ca8802c3188ad019fbc770bdecdb64958d54
+│                       │      │                   b64b4b24f5d 
 │                       │      ├ Title           : openjdk: Improve HTTP headers (Oracle CPU 2026-10) 
 │                       │      ├ Description     : Vulnerability in the Oracle Java SE, Oracle GraalVM for JDK,
 │                       │      │                    Oracle GraalVM Enterprise Edition product of Oracle Java SE
@@ -8565,19 +8489,17 @@
 │                       │      ├ References                                                                     
 │                       │      │                  ──────────────────────────────────────────────────────────────
 │                       │      │                  https://access.redhat.com/errata/RHSA-2026:88347              
-│                       │      │                  https://access.redhat.com/errata/RHSA-2026:90504              
+│                       │      │                  https://access.redhat.com/errata/RHSA-2026:88352              
 │                       │      │                  https://access.redhat.com/security/cve/CVE-2026-91453         
 │                       │      │                  https://bugzilla.redhat.com/2556709                           
 │                       │      │                  https://bugzilla.redhat.com/2556795                           
 │                       │      │                  https://bugzilla.redhat.com/2556824                           
 │                       │      │                  https://bugzilla.redhat.com/2556837                           
 │                       │      │                  https://bugzilla.redhat.com/2556859                           
-│                       │      │                  https://bugzilla.redhat.com/2556960                           
 │                       │      │                  https://bugzilla.redhat.com/2557007                           
 │                       │      │                  https://bugzilla.redhat.com/2557032                           
 │                       │      │                  https://bugzilla.redhat.com/2557041                           
 │                       │      │                  https://bugzilla.redhat.com/2557047                           
-│                       │      │                  https://bugzilla.redhat.com/2557056                           
 │                       │      │                  https://bugzilla.redhat.com/2557079                           
 │                       │      │                  https://bugzilla.redhat.com/2557110                           
 │                       │      │                  https://bugzilla.redhat.com/2557117                           
@@ -8594,12 +8516,12 @@
 │                       │      │                  https://bugzilla.redhat.com/2557564                           
 │                       │      │                  https://bugzilla.redhat.com/2557598                           
 │                       │      │                  https://bugzilla.redhat.com/2557662                           
+│                       │      │                  https://bugzilla.redhat.com/2557665                           
 │                       │      │                  https://bugzilla.redhat.com/2557674                           
 │                       │      │                  https://bugzilla.redhat.com/2557690                           
 │                       │      │                  https://bugzilla.redhat.com/2557709                           
 │                       │      │                  https://bugzilla.redhat.com/2557711                           
 │                       │      │                  https://bugzilla.redhat.com/2557731                           
-│                       │      │                  https://bugzilla.redhat.com/2557757                           
 │                       │      │                  https://bugzilla.redhat.com/2557765                           
 │                       │      │                  https://bugzilla.redhat.com/2557780                           
 │                       │      │                  https://bugzilla.redhat.com/2557857                           
@@ -8684,7 +8606,7 @@
 │                       │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-91463 
 │                       │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-91464 
 │                       │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-91487 
-│                       │      │                  https://errata.almalinux.org/10/ALSA-2026-90504.html          
+│                       │      │                  https://errata.almalinux.org/8/ALSA-2026-88352.html           
 │                       │      │                  https://errata.rockylinux.org/RLSA-2026:88347                 
 │                       │      │                  https://nvd.nist.gov/vuln/detail/CVE-2026-91453               
 │                       │      │                  https://www.cve.org/CVERecord?id=CVE-2026-91453               
@@ -8708,8 +8630,8 @@
 │                       │      ├ DataSource       ╭ ID  : alpine 
 │                       │      │                  ├ Name: Alpine Secdb 
 │                       │      │                  ╰ URL : https://secdb.alpinelinux.org/ 
-│                       │      ├ Fingerprint     : sha256:5fc135adead4464df9dcf1eedda7b2cb2eb7f89ba10c7d1188aed
-│                       │      │                   84430d391c9 
+│                       │      ├ Fingerprint     : sha256:d981b7162d2d7ca838a8237e91a3da7faf582ae29b21763d93e5f
+│                       │      │                   793d16d5bf4 
 │                       │      ├ Title           : openjdk: Enhance krb5 tokens (Oracle CPU 2026-10) 
 │                       │      ├ Description     : Vulnerability in the Oracle Java SE, Oracle GraalVM for JDK,
 │                       │      │                    Oracle GraalVM Enterprise Edition product of Oracle Java SE
@@ -8745,19 +8667,17 @@
 │                       │      ├ References                                                                     
 │                       │      │                  ──────────────────────────────────────────────────────────────
 │                       │      │                  https://access.redhat.com/errata/RHSA-2026:88347              
-│                       │      │                  https://access.redhat.com/errata/RHSA-2026:90504              
+│                       │      │                  https://access.redhat.com/errata/RHSA-2026:88352              
 │                       │      │                  https://access.redhat.com/security/cve/CVE-2026-91462         
 │                       │      │                  https://bugzilla.redhat.com/2556709                           
 │                       │      │                  https://bugzilla.redhat.com/2556795                           
 │                       │      │                  https://bugzilla.redhat.com/2556824                           
 │                       │      │                  https://bugzilla.redhat.com/2556837                           
 │                       │      │                  https://bugzilla.redhat.com/2556859                           
-│                       │      │                  https://bugzilla.redhat.com/2556960                           
 │                       │      │                  https://bugzilla.redhat.com/2557007                           
 │                       │      │                  https://bugzilla.redhat.com/2557032                           
 │                       │      │                  https://bugzilla.redhat.com/2557041                           
 │                       │      │                  https://bugzilla.redhat.com/2557047                           
-│                       │      │                  https://bugzilla.redhat.com/2557056                           
 │                       │      │                  https://bugzilla.redhat.com/2557079                           
 │                       │      │                  https://bugzilla.redhat.com/2557110                           
 │                       │      │                  https://bugzilla.redhat.com/2557117                           
@@ -8774,12 +8694,12 @@
 │                       │      │                  https://bugzilla.redhat.com/2557564                           
 │                       │      │                  https://bugzilla.redhat.com/2557598                           
 │                       │      │                  https://bugzilla.redhat.com/2557662                           
+│                       │      │                  https://bugzilla.redhat.com/2557665                           
 │                       │      │                  https://bugzilla.redhat.com/2557674                           
 │                       │      │                  https://bugzilla.redhat.com/2557690                           
 │                       │      │                  https://bugzilla.redhat.com/2557709                           
 │                       │      │                  https://bugzilla.redhat.com/2557711                           
 │                       │      │                  https://bugzilla.redhat.com/2557731                           
-│                       │      │                  https://bugzilla.redhat.com/2557757                           
 │                       │      │                  https://bugzilla.redhat.com/2557765                           
 │                       │      │                  https://bugzilla.redhat.com/2557780                           
 │                       │      │                  https://bugzilla.redhat.com/2557857                           
@@ -8864,7 +8784,7 @@
 │                       │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-91463 
 │                       │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-91464 
 │                       │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-91487 
-│                       │      │                  https://errata.almalinux.org/10/ALSA-2026-90504.html          
+│                       │      │                  https://errata.almalinux.org/8/ALSA-2026-88352.html           
 │                       │      │                  https://errata.rockylinux.org/RLSA-2026:88347                 
 │                       │      │                  https://nvd.nist.gov/vuln/detail/CVE-2026-91462               
 │                       │      │                  https://www.cve.org/CVERecord?id=CVE-2026-91462               
@@ -8888,8 +8808,8 @@
 │                       │      ├ DataSource       ╭ ID  : alpine 
 │                       │      │                  ├ Name: Alpine Secdb 
 │                       │      │                  ╰ URL : https://secdb.alpinelinux.org/ 
-│                       │      ├ Fingerprint     : sha256:495ac8e01dc658523167f2454a63da8b167ede2175a0a796a9200
-│                       │      │                   4e8074f956a 
+│                       │      ├ Fingerprint     : sha256:42e2366b1abe998c020a44b025ceb516a6577b481c9ec19c22929
+│                       │      │                   3ea8629cd71 
 │                       │      ├ Title           : openjdk: Enhance krb5 client (Oracle CPU 2026-10) 
 │                       │      ├ Description     : Vulnerability in the Oracle Java SE, Oracle GraalVM for JDK,
 │                       │      │                    Oracle GraalVM Enterprise Edition product of Oracle Java SE
@@ -8930,19 +8850,17 @@
 │                       │      ├ References                                                                     
 │                       │      │                  ──────────────────────────────────────────────────────────────
 │                       │      │                  https://access.redhat.com/errata/RHSA-2026:88347              
-│                       │      │                  https://access.redhat.com/errata/RHSA-2026:90504              
+│                       │      │                  https://access.redhat.com/errata/RHSA-2026:88352              
 │                       │      │                  https://access.redhat.com/security/cve/CVE-2026-91463         
 │                       │      │                  https://bugzilla.redhat.com/2556709                           
 │                       │      │                  https://bugzilla.redhat.com/2556795                           
 │                       │      │                  https://bugzilla.redhat.com/2556824                           
 │                       │      │                  https://bugzilla.redhat.com/2556837                           
 │                       │      │                  https://bugzilla.redhat.com/2556859                           
-│                       │      │                  https://bugzilla.redhat.com/2556960                           
 │                       │      │                  https://bugzilla.redhat.com/2557007                           
 │                       │      │                  https://bugzilla.redhat.com/2557032                           
 │                       │      │                  https://bugzilla.redhat.com/2557041                           
 │                       │      │                  https://bugzilla.redhat.com/2557047                           
-│                       │      │                  https://bugzilla.redhat.com/2557056                           
 │                       │      │                  https://bugzilla.redhat.com/2557079                           
 │                       │      │                  https://bugzilla.redhat.com/2557110                           
 │                       │      │                  https://bugzilla.redhat.com/2557117                           
@@ -8959,12 +8877,12 @@
 │                       │      │                  https://bugzilla.redhat.com/2557564                           
 │                       │      │                  https://bugzilla.redhat.com/2557598                           
 │                       │      │                  https://bugzilla.redhat.com/2557662                           
+│                       │      │                  https://bugzilla.redhat.com/2557665                           
 │                       │      │                  https://bugzilla.redhat.com/2557674                           
 │                       │      │                  https://bugzilla.redhat.com/2557690                           
 │                       │      │                  https://bugzilla.redhat.com/2557709                           
 │                       │      │                  https://bugzilla.redhat.com/2557711                           
 │                       │      │                  https://bugzilla.redhat.com/2557731                           
-│                       │      │                  https://bugzilla.redhat.com/2557757                           
 │                       │      │                  https://bugzilla.redhat.com/2557765                           
 │                       │      │                  https://bugzilla.redhat.com/2557780                           
 │                       │      │                  https://bugzilla.redhat.com/2557857                           
@@ -9049,7 +8967,7 @@
 │                       │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-91463 
 │                       │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-91464 
 │                       │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-91487 
-│                       │      │                  https://errata.almalinux.org/10/ALSA-2026-90504.html          
+│                       │      │                  https://errata.almalinux.org/8/ALSA-2026-88352.html           
 │                       │      │                  https://errata.rockylinux.org/RLSA-2026:88347                 
 │                       │      │                  https://nvd.nist.gov/vuln/detail/CVE-2026-91463               
 │                       │      │                  https://www.cve.org/CVERecord?id=CVE-2026-91463               
@@ -9073,8 +8991,8 @@
 │                       │      ├ DataSource       ╭ ID  : alpine 
 │                       │      │                  ├ Name: Alpine Secdb 
 │                       │      │                  ╰ URL : https://secdb.alpinelinux.org/ 
-│                       │      ├ Fingerprint     : sha256:ec747e6ffb603ea63deae5671476cdb081bae810ce11e6fe47f42
-│                       │      │                   c768678faaa 
+│                       │      ├ Fingerprint     : sha256:22d051a6f305a28477ba91e4f6bdf0d345b5d4d190f8e2cee96c8
+│                       │      │                   abdef69d73a 
 │                       │      ├ Title           : openjdk: Enhance Kerberos validation (Oracle CPU 2026-10) 
 │                       │      ├ Description     : Vulnerability in the Oracle Java SE, Oracle GraalVM for JDK,
 │                       │      │                    Oracle GraalVM Enterprise Edition product of Oracle Java SE
@@ -9115,19 +9033,17 @@
 │                       │      ├ References                                                                     
 │                       │      │                  ──────────────────────────────────────────────────────────────
 │                       │      │                  https://access.redhat.com/errata/RHSA-2026:88347              
-│                       │      │                  https://access.redhat.com/errata/RHSA-2026:90504              
+│                       │      │                  https://access.redhat.com/errata/RHSA-2026:88352              
 │                       │      │                  https://access.redhat.com/security/cve/CVE-2026-91464         
 │                       │      │                  https://bugzilla.redhat.com/2556709                           
 │                       │      │                  https://bugzilla.redhat.com/2556795                           
 │                       │      │                  https://bugzilla.redhat.com/2556824                           
 │                       │      │                  https://bugzilla.redhat.com/2556837                           
 │                       │      │                  https://bugzilla.redhat.com/2556859                           
-│                       │      │                  https://bugzilla.redhat.com/2556960                           
 │                       │      │                  https://bugzilla.redhat.com/2557007                           
 │                       │      │                  https://bugzilla.redhat.com/2557032                           
 │                       │      │                  https://bugzilla.redhat.com/2557041                           
 │                       │      │                  https://bugzilla.redhat.com/2557047                           
-│                       │      │                  https://bugzilla.redhat.com/2557056                           
 │                       │      │                  https://bugzilla.redhat.com/2557079                           
 │                       │      │                  https://bugzilla.redhat.com/2557110                           
 │                       │      │                  https://bugzilla.redhat.com/2557117                           
@@ -9144,12 +9060,12 @@
 │                       │      │                  https://bugzilla.redhat.com/2557564                           
 │                       │      │                  https://bugzilla.redhat.com/2557598                           
 │                       │      │                  https://bugzilla.redhat.com/2557662                           
+│                       │      │                  https://bugzilla.redhat.com/2557665                           
 │                       │      │                  https://bugzilla.redhat.com/2557674                           
 │                       │      │                  https://bugzilla.redhat.com/2557690                           
 │                       │      │                  https://bugzilla.redhat.com/2557709                           
 │                       │      │                  https://bugzilla.redhat.com/2557711                           
 │                       │      │                  https://bugzilla.redhat.com/2557731                           
-│                       │      │                  https://bugzilla.redhat.com/2557757                           
 │                       │      │                  https://bugzilla.redhat.com/2557765                           
 │                       │      │                  https://bugzilla.redhat.com/2557780                           
 │                       │      │                  https://bugzilla.redhat.com/2557857                           
@@ -9234,7 +9150,7 @@
 │                       │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-91463 
 │                       │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-91464 
 │                       │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-91487 
-│                       │      │                  https://errata.almalinux.org/10/ALSA-2026-90504.html          
+│                       │      │                  https://errata.almalinux.org/8/ALSA-2026-88352.html           
 │                       │      │                  https://errata.rockylinux.org/RLSA-2026:88347                 
 │                       │      │                  https://nvd.nist.gov/vuln/detail/CVE-2026-91464               
 │                       │      │                  https://www.cve.org/CVERecord?id=CVE-2026-91464               
@@ -9258,8 +9174,8 @@
 │                       │      ├ DataSource       ╭ ID  : alpine 
 │                       │      │                  ├ Name: Alpine Secdb 
 │                       │      │                  ╰ URL : https://secdb.alpinelinux.org/ 
-│                       │      ├ Fingerprint     : sha256:c96d5b3c9d1ea52aef0a15f343ec0e7ebd71c5a90b99acecdf9c0
-│                       │      │                   a16e17e03b5 
+│                       │      ├ Fingerprint     : sha256:727309d869ac48fa4fa224046227848a6299b1fea8625737d95d4
+│                       │      │                   588c2ae2fef 
 │                       │      ├ Title           : openjdk: Enhance C2 comparisons (Oracle CPU 2026-10) 
 │                       │      ├ Description     : Vulnerability in Oracle Java SE (component: Compiler). 
 │                       │      │                   Supported versions that are affected are Oracle Java SE:
@@ -9293,19 +9209,17 @@
 │                       │      ├ References                                                                     
 │                       │      │                  ──────────────────────────────────────────────────────────────
 │                       │      │                  https://access.redhat.com/errata/RHSA-2026:88347              
-│                       │      │                  https://access.redhat.com/errata/RHSA-2026:90504              
+│                       │      │                  https://access.redhat.com/errata/RHSA-2026:88352              
 │                       │      │                  https://access.redhat.com/security/cve/CVE-2026-91487         
 │                       │      │                  https://bugzilla.redhat.com/2556709                           
 │                       │      │                  https://bugzilla.redhat.com/2556795                           
 │                       │      │                  https://bugzilla.redhat.com/2556824                           
 │                       │      │                  https://bugzilla.redhat.com/2556837                           
 │                       │      │                  https://bugzilla.redhat.com/2556859                           
-│                       │      │                  https://bugzilla.redhat.com/2556960                           
 │                       │      │                  https://bugzilla.redhat.com/2557007                           
 │                       │      │                  https://bugzilla.redhat.com/2557032                           
 │                       │      │                  https://bugzilla.redhat.com/2557041                           
 │                       │      │                  https://bugzilla.redhat.com/2557047                           
-│                       │      │                  https://bugzilla.redhat.com/2557056                           
 │                       │      │                  https://bugzilla.redhat.com/2557079                           
 │                       │      │                  https://bugzilla.redhat.com/2557110                           
 │                       │      │                  https://bugzilla.redhat.com/2557117                           
@@ -9322,12 +9236,12 @@
 │                       │      │                  https://bugzilla.redhat.com/2557564                           
 │                       │      │                  https://bugzilla.redhat.com/2557598                           
 │                       │      │                  https://bugzilla.redhat.com/2557662                           
+│                       │      │                  https://bugzilla.redhat.com/2557665                           
 │                       │      │                  https://bugzilla.redhat.com/2557674                           
 │                       │      │                  https://bugzilla.redhat.com/2557690                           
 │                       │      │                  https://bugzilla.redhat.com/2557709                           
 │                       │      │                  https://bugzilla.redhat.com/2557711                           
 │                       │      │                  https://bugzilla.redhat.com/2557731                           
-│                       │      │                  https://bugzilla.redhat.com/2557757                           
 │                       │      │                  https://bugzilla.redhat.com/2557765                           
 │                       │      │                  https://bugzilla.redhat.com/2557780                           
 │                       │      │                  https://bugzilla.redhat.com/2557857                           
@@ -9412,7 +9326,7 @@
 │                       │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-91463 
 │                       │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-91464 
 │                       │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-91487 
-│                       │      │                  https://errata.almalinux.org/10/ALSA-2026-90504.html          
+│                       │      │                  https://errata.almalinux.org/8/ALSA-2026-88352.html           
 │                       │      │                  https://errata.rockylinux.org/RLSA-2026:88347                 
 │                       │      │                  https://nvd.nist.gov/vuln/detail/CVE-2026-91487               
 │                       │      │                  https://www.cve.org/CVERecord?id=CVE-2026-91487               
@@ -9436,8 +9350,8 @@
 │                       │      ├ DataSource       ╭ ID  : alpine 
 │                       │      │                  ├ Name: Alpine Secdb 
 │                       │      │                  ╰ URL : https://secdb.alpinelinux.org/ 
-│                       │      ├ Fingerprint     : sha256:b7b0fc43f3130a961dbf4a485b2e950e7724dd2cbe76d19e98087
-│                       │      │                   9f50dd9113a 
+│                       │      ├ Fingerprint     : sha256:9e7db55d505167e0f73e60887a72b8a48c303583192491833eb71
+│                       │      │                   dea911a65fa 
 │                       │      ├ Title           : openjdk: Enhance TLS certificate handling (Oracle CPU 2026-10) 
 │                       │      ├ Description     : Vulnerability in the Oracle Java SE, Oracle GraalVM for JDK,
 │                       │      │                    Oracle GraalVM Enterprise Edition product of Oracle Java SE
@@ -9475,19 +9389,17 @@
 │                       │      ├ References                                                                     
 │                       │      │                  ──────────────────────────────────────────────────────────────
 │                       │      │                  https://access.redhat.com/errata/RHSA-2026:88347              
-│                       │      │                  https://access.redhat.com/errata/RHSA-2026:90504              
+│                       │      │                  https://access.redhat.com/errata/RHSA-2026:88352              
 │                       │      │                  https://access.redhat.com/security/cve/CVE-2026-83376         
 │                       │      │                  https://bugzilla.redhat.com/2556709                           
 │                       │      │                  https://bugzilla.redhat.com/2556795                           
 │                       │      │                  https://bugzilla.redhat.com/2556824                           
 │                       │      │                  https://bugzilla.redhat.com/2556837                           
 │                       │      │                  https://bugzilla.redhat.com/2556859                           
-│                       │      │                  https://bugzilla.redhat.com/2556960                           
 │                       │      │                  https://bugzilla.redhat.com/2557007                           
 │                       │      │                  https://bugzilla.redhat.com/2557032                           
 │                       │      │                  https://bugzilla.redhat.com/2557041                           
 │                       │      │                  https://bugzilla.redhat.com/2557047                           
-│                       │      │                  https://bugzilla.redhat.com/2557056                           
 │                       │      │                  https://bugzilla.redhat.com/2557079                           
 │                       │      │                  https://bugzilla.redhat.com/2557110                           
 │                       │      │                  https://bugzilla.redhat.com/2557117                           
@@ -9504,12 +9416,12 @@
 │                       │      │                  https://bugzilla.redhat.com/2557564                           
 │                       │      │                  https://bugzilla.redhat.com/2557598                           
 │                       │      │                  https://bugzilla.redhat.com/2557662                           
+│                       │      │                  https://bugzilla.redhat.com/2557665                           
 │                       │      │                  https://bugzilla.redhat.com/2557674                           
 │                       │      │                  https://bugzilla.redhat.com/2557690                           
 │                       │      │                  https://bugzilla.redhat.com/2557709                           
 │                       │      │                  https://bugzilla.redhat.com/2557711                           
 │                       │      │                  https://bugzilla.redhat.com/2557731                           
-│                       │      │                  https://bugzilla.redhat.com/2557757                           
 │                       │      │                  https://bugzilla.redhat.com/2557765                           
 │                       │      │                  https://bugzilla.redhat.com/2557780                           
 │                       │      │                  https://bugzilla.redhat.com/2557857                           
@@ -9594,7 +9506,7 @@
 │                       │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-91463 
 │                       │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-91464 
 │                       │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-91487 
-│                       │      │                  https://errata.almalinux.org/10/ALSA-2026-90504.html          
+│                       │      │                  https://errata.almalinux.org/8/ALSA-2026-88352.html           
 │                       │      │                  https://errata.rockylinux.org/RLSA-2026:88347                 
 │                       │      │                  https://nvd.nist.gov/vuln/detail/CVE-2026-83376               
 │                       │      │                  https://www.cve.org/CVERecord?id=CVE-2026-83376               
@@ -9618,8 +9530,8 @@
 │                       │      ├ DataSource       ╭ ID  : alpine 
 │                       │      │                  ├ Name: Alpine Secdb 
 │                       │      │                  ╰ URL : https://secdb.alpinelinux.org/ 
-│                       │      ├ Fingerprint     : sha256:4df30c1bc12de60309c7359cb8bc4ba524ae04085faa4b815432a
-│                       │      │                   2287d1f37c0 
+│                       │      ├ Fingerprint     : sha256:d376db347a7f874db0c92e0e20b3932ed4498ff690119d80fcdef
+│                       │      │                   51a148b1086 
 │                       │      ├ Title           : openjdk: Enhance Vector Processing (Oracle CPU 2026-10) 
 │                       │      ├ Description     : Vulnerability in Oracle Java SE (component: Compiler). 
 │                       │      │                   Supported versions that are affected are Oracle Java SE:
@@ -9791,8 +9703,8 @@
 │                       │      ├ DataSource       ╭ ID  : alpine 
 │                       │      │                  ├ Name: Alpine Secdb 
 │                       │      │                  ╰ URL : https://secdb.alpinelinux.org/ 
-│                       │      ├ Fingerprint     : sha256:5ae6190faf6e152a478a27d4f54c43a4332699f6fa6eddfe6bee2
-│                       │      │                   64bc602cac6 
+│                       │      ├ Fingerprint     : sha256:bbd803c24ffdd52b3611f980e22c1470f458ccf90f344bf5e2402
+│                       │      │                   f037b1c9977 
 │                       │      ├ Title           : openjdk: Enhance Network Clients (Oracle CPU 2026-10) 
 │                       │      ├ Description     : Vulnerability in the Oracle Java SE, Oracle GraalVM for JDK,
 │                       │      │                    Oracle GraalVM Enterprise Edition product of Oracle Java SE
@@ -9831,19 +9743,17 @@
 │                       │      ├ References                                                                     
 │                       │      │                  ──────────────────────────────────────────────────────────────
 │                       │      │                  https://access.redhat.com/errata/RHSA-2026:88347              
-│                       │      │                  https://access.redhat.com/errata/RHSA-2026:90504              
+│                       │      │                  https://access.redhat.com/errata/RHSA-2026:88352              
 │                       │      │                  https://access.redhat.com/security/cve/CVE-2026-87292         
 │                       │      │                  https://bugzilla.redhat.com/2556709                           
 │                       │      │                  https://bugzilla.redhat.com/2556795                           
 │                       │      │                  https://bugzilla.redhat.com/2556824                           
 │                       │      │                  https://bugzilla.redhat.com/2556837                           
 │                       │      │                  https://bugzilla.redhat.com/2556859                           
-│                       │      │                  https://bugzilla.redhat.com/2556960                           
 │                       │      │                  https://bugzilla.redhat.com/2557007                           
 │                       │      │                  https://bugzilla.redhat.com/2557032                           
 │                       │      │                  https://bugzilla.redhat.com/2557041                           
 │                       │      │                  https://bugzilla.redhat.com/2557047                           
-│                       │      │                  https://bugzilla.redhat.com/2557056                           
 │                       │      │                  https://bugzilla.redhat.com/2557079                           
 │                       │      │                  https://bugzilla.redhat.com/2557110                           
 │                       │      │                  https://bugzilla.redhat.com/2557117                           
@@ -9860,12 +9770,12 @@
 │                       │      │                  https://bugzilla.redhat.com/2557564                           
 │                       │      │                  https://bugzilla.redhat.com/2557598                           
 │                       │      │                  https://bugzilla.redhat.com/2557662                           
+│                       │      │                  https://bugzilla.redhat.com/2557665                           
 │                       │      │                  https://bugzilla.redhat.com/2557674                           
 │                       │      │                  https://bugzilla.redhat.com/2557690                           
 │                       │      │                  https://bugzilla.redhat.com/2557709                           
 │                       │      │                  https://bugzilla.redhat.com/2557711                           
 │                       │      │                  https://bugzilla.redhat.com/2557731                           
-│                       │      │                  https://bugzilla.redhat.com/2557757                           
 │                       │      │                  https://bugzilla.redhat.com/2557765                           
 │                       │      │                  https://bugzilla.redhat.com/2557780                           
 │                       │      │                  https://bugzilla.redhat.com/2557857                           
@@ -9950,7 +9860,7 @@
 │                       │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-91463 
 │                       │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-91464 
 │                       │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-91487 
-│                       │      │                  https://errata.almalinux.org/10/ALSA-2026-90504.html          
+│                       │      │                  https://errata.almalinux.org/8/ALSA-2026-88352.html           
 │                       │      │                  https://errata.rockylinux.org/RLSA-2026:88347                 
 │                       │      │                  https://nvd.nist.gov/vuln/detail/CVE-2026-87292               
 │                       │      │                  https://www.cve.org/CVERecord?id=CVE-2026-87292               
@@ -9974,8 +9884,8 @@
 │                       │      ├ DataSource       ╭ ID  : alpine 
 │                       │      │                  ├ Name: Alpine Secdb 
 │                       │      │                  ╰ URL : https://secdb.alpinelinux.org/ 
-│                       │      ├ Fingerprint     : sha256:45123f57e00f42ca916ffdbef9e3580049249cd3189ebd518ea58
-│                       │      │                   75c779482d3 
+│                       │      ├ Fingerprint     : sha256:4d492bfa46707ecdadbb0bc84dd353c2954c47228bacc6b4d7c1e
+│                       │      │                   1e6903aaa1a 
 │                       │      ├ Title           : openjdk: Enhance Template Handling (Oracle CPU 2026-10) 
 │                       │      ├ Description     : Vulnerability in the Oracle Java SE, Oracle GraalVM for JDK,
 │                       │      │                    Oracle GraalVM Enterprise Edition product of Oracle Java SE
@@ -10014,19 +9924,17 @@
 │                       │      ├ References                                                                     
 │                       │      │                  ──────────────────────────────────────────────────────────────
 │                       │      │                  https://access.redhat.com/errata/RHSA-2026:88347              
-│                       │      │                  https://access.redhat.com/errata/RHSA-2026:90504              
+│                       │      │                  https://access.redhat.com/errata/RHSA-2026:88352              
 │                       │      │                  https://access.redhat.com/security/cve/CVE-2026-87367         
 │                       │      │                  https://bugzilla.redhat.com/2556709                           
 │                       │      │                  https://bugzilla.redhat.com/2556795                           
 │                       │      │                  https://bugzilla.redhat.com/2556824                           
 │                       │      │                  https://bugzilla.redhat.com/2556837                           
 │                       │      │                  https://bugzilla.redhat.com/2556859                           
-│                       │      │                  https://bugzilla.redhat.com/2556960                           
 │                       │      │                  https://bugzilla.redhat.com/2557007                           
 │                       │      │                  https://bugzilla.redhat.com/2557032                           
 │                       │      │                  https://bugzilla.redhat.com/2557041                           
 │                       │      │                  https://bugzilla.redhat.com/2557047                           
-│                       │      │                  https://bugzilla.redhat.com/2557056                           
 │                       │      │                  https://bugzilla.redhat.com/2557079                           
 │                       │      │                  https://bugzilla.redhat.com/2557110                           
 │                       │      │                  https://bugzilla.redhat.com/2557117                           
@@ -10043,12 +9951,12 @@
 │                       │      │                  https://bugzilla.redhat.com/2557564                           
 │                       │      │                  https://bugzilla.redhat.com/2557598                           
 │                       │      │                  https://bugzilla.redhat.com/2557662                           
+│                       │      │                  https://bugzilla.redhat.com/2557665                           
 │                       │      │                  https://bugzilla.redhat.com/2557674                           
 │                       │      │                  https://bugzilla.redhat.com/2557690                           
 │                       │      │                  https://bugzilla.redhat.com/2557709                           
 │                       │      │                  https://bugzilla.redhat.com/2557711                           
 │                       │      │                  https://bugzilla.redhat.com/2557731                           
-│                       │      │                  https://bugzilla.redhat.com/2557757                           
 │                       │      │                  https://bugzilla.redhat.com/2557765                           
 │                       │      │                  https://bugzilla.redhat.com/2557780                           
 │                       │      │                  https://bugzilla.redhat.com/2557857                           
@@ -10133,7 +10041,7 @@
 │                       │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-91463 
 │                       │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-91464 
 │                       │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-91487 
-│                       │      │                  https://errata.almalinux.org/10/ALSA-2026-90504.html          
+│                       │      │                  https://errata.almalinux.org/8/ALSA-2026-88352.html           
 │                       │      │                  https://errata.rockylinux.org/RLSA-2026:88347                 
 │                       │      │                  https://nvd.nist.gov/vuln/detail/CVE-2026-87367               
 │                       │      │                  https://www.cve.org/CVERecord?id=CVE-2026-87367               
@@ -10157,8 +10065,8 @@
 │                       │      ├ DataSource       ╭ ID  : alpine 
 │                       │      │                  ├ Name: Alpine Secdb 
 │                       │      │                  ╰ URL : https://secdb.alpinelinux.org/ 
-│                       │      ├ Fingerprint     : sha256:bd554c79616c947a65711e19ca82928d07b08fc0202ae1dfebb44
-│                       │      │                   14318112aa1 
+│                       │      ├ Fingerprint     : sha256:2b38302134ff82887bb4eaf424cb6d0cbc1d5466caa57507cfd0d
+│                       │      │                   6ecc7a70d43 
 │                       │      ├ Title           : openjdk: Enhance Image Handling (Oracle CPU 2026-10) 
 │                       │      ├ Description     : Vulnerability in the Oracle Java SE, Oracle GraalVM for JDK,
 │                       │      │                    Oracle GraalVM Enterprise Edition product of Oracle Java SE
@@ -10198,19 +10106,17 @@
 │                       │      ├ References                                                                     
 │                       │      │                  ──────────────────────────────────────────────────────────────
 │                       │      │                  https://access.redhat.com/errata/RHSA-2026:88347              
-│                       │      │                  https://access.redhat.com/errata/RHSA-2026:90504              
+│                       │      │                  https://access.redhat.com/errata/RHSA-2026:88352              
 │                       │      │                  https://access.redhat.com/security/cve/CVE-2026-91335         
 │                       │      │                  https://bugzilla.redhat.com/2556709                           
 │                       │      │                  https://bugzilla.redhat.com/2556795                           
 │                       │      │                  https://bugzilla.redhat.com/2556824                           
 │                       │      │                  https://bugzilla.redhat.com/2556837                           
 │                       │      │                  https://bugzilla.redhat.com/2556859                           
-│                       │      │                  https://bugzilla.redhat.com/2556960                           
 │                       │      │                  https://bugzilla.redhat.com/2557007                           
 │                       │      │                  https://bugzilla.redhat.com/2557032                           
 │                       │      │                  https://bugzilla.redhat.com/2557041                           
 │                       │      │                  https://bugzilla.redhat.com/2557047                           
-│                       │      │                  https://bugzilla.redhat.com/2557056                           
 │                       │      │                  https://bugzilla.redhat.com/2557079                           
 │                       │      │                  https://bugzilla.redhat.com/2557110                           
 │                       │      │                  https://bugzilla.redhat.com/2557117                           
@@ -10227,12 +10133,12 @@
 │                       │      │                  https://bugzilla.redhat.com/2557564                           
 │                       │      │                  https://bugzilla.redhat.com/2557598                           
 │                       │      │                  https://bugzilla.redhat.com/2557662                           
+│                       │      │                  https://bugzilla.redhat.com/2557665                           
 │                       │      │                  https://bugzilla.redhat.com/2557674                           
 │                       │      │                  https://bugzilla.redhat.com/2557690                           
 │                       │      │                  https://bugzilla.redhat.com/2557709                           
 │                       │      │                  https://bugzilla.redhat.com/2557711                           
 │                       │      │                  https://bugzilla.redhat.com/2557731                           
-│                       │      │                  https://bugzilla.redhat.com/2557757                           
 │                       │      │                  https://bugzilla.redhat.com/2557765                           
 │                       │      │                  https://bugzilla.redhat.com/2557780                           
 │                       │      │                  https://bugzilla.redhat.com/2557857                           
@@ -10317,7 +10223,7 @@
 │                       │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-91463 
 │                       │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-91464 
 │                       │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-91487 
-│                       │      │                  https://errata.almalinux.org/10/ALSA-2026-90504.html          
+│                       │      │                  https://errata.almalinux.org/8/ALSA-2026-88352.html           
 │                       │      │                  https://errata.rockylinux.org/RLSA-2026:88347                 
 │                       │      │                  https://nvd.nist.gov/vuln/detail/CVE-2026-91335               
 │                       │      │                  https://www.cve.org/CVERecord?id=CVE-2026-91335               
@@ -10341,8 +10247,8 @@
 │                       │      ├ DataSource       ╭ ID  : alpine 
 │                       │      │                  ├ Name: Alpine Secdb 
 │                       │      │                  ╰ URL : https://secdb.alpinelinux.org/ 
-│                       │      ├ Fingerprint     : sha256:58d952aeb948616d58135619d1968bd407a5e928aaf226b11a787
-│                       │      │                   9f09f4ee3a4 
+│                       │      ├ Fingerprint     : sha256:86a33dc89b987d7b2302d633741552407f7346b6fd224a63deb0f
+│                       │      │                   00144db6180 
 │                       │      ├ Title           : openjdk: Enhance Font Rendering (Oracle CPU 2026-10) 
 │                       │      ├ Description     : Vulnerability in the Oracle Java SE, Oracle GraalVM
 │                       │      │                   Enterprise Edition product of Oracle Java SE (component:
@@ -10398,8 +10304,8 @@
 │                       │      ├ DataSource       ╭ ID  : alpine 
 │                       │      │                  ├ Name: Alpine Secdb 
 │                       │      │                  ╰ URL : https://secdb.alpinelinux.org/ 
-│                       │      ├ Fingerprint     : sha256:bc146888bac5a11a6fbb834b95c604ecebbe725ee42b200a942c2
-│                       │      │                   17788790359 
+│                       │      ├ Fingerprint     : sha256:2714e7aa96c243ee59649a66943ed88a4163938de11fa3f2201e9
+│                       │      │                   d5b5d400f31 
 │                       │      ├ Title           : openjdk: Enhance diagnostic sessions (Oracle CPU 2026-10) 
 │                       │      ├ Description     : Vulnerability in the Oracle Java SE, Oracle GraalVM for JDK,
 │                       │      │                    Oracle GraalVM Enterprise Edition product of Oracle Java SE
@@ -10443,19 +10349,17 @@
 │                       │      ├ References                                                                     
 │                       │      │                  ──────────────────────────────────────────────────────────────
 │                       │      │                  https://access.redhat.com/errata/RHSA-2026:88347              
-│                       │      │                  https://access.redhat.com/errata/RHSA-2026:90504              
+│                       │      │                  https://access.redhat.com/errata/RHSA-2026:88352              
 │                       │      │                  https://access.redhat.com/security/cve/CVE-2026-91397         
 │                       │      │                  https://bugzilla.redhat.com/2556709                           
 │                       │      │                  https://bugzilla.redhat.com/2556795                           
 │                       │      │                  https://bugzilla.redhat.com/2556824                           
 │                       │      │                  https://bugzilla.redhat.com/2556837                           
 │                       │      │                  https://bugzilla.redhat.com/2556859                           
-│                       │      │                  https://bugzilla.redhat.com/2556960                           
 │                       │      │                  https://bugzilla.redhat.com/2557007                           
 │                       │      │                  https://bugzilla.redhat.com/2557032                           
 │                       │      │                  https://bugzilla.redhat.com/2557041                           
 │                       │      │                  https://bugzilla.redhat.com/2557047                           
-│                       │      │                  https://bugzilla.redhat.com/2557056                           
 │                       │      │                  https://bugzilla.redhat.com/2557079                           
 │                       │      │                  https://bugzilla.redhat.com/2557110                           
 │                       │      │                  https://bugzilla.redhat.com/2557117                           
@@ -10472,12 +10376,12 @@
 │                       │      │                  https://bugzilla.redhat.com/2557564                           
 │                       │      │                  https://bugzilla.redhat.com/2557598                           
 │                       │      │                  https://bugzilla.redhat.com/2557662                           
+│                       │      │                  https://bugzilla.redhat.com/2557665                           
 │                       │      │                  https://bugzilla.redhat.com/2557674                           
 │                       │      │                  https://bugzilla.redhat.com/2557690                           
 │                       │      │                  https://bugzilla.redhat.com/2557709                           
 │                       │      │                  https://bugzilla.redhat.com/2557711                           
 │                       │      │                  https://bugzilla.redhat.com/2557731                           
-│                       │      │                  https://bugzilla.redhat.com/2557757                           
 │                       │      │                  https://bugzilla.redhat.com/2557765                           
 │                       │      │                  https://bugzilla.redhat.com/2557780                           
 │                       │      │                  https://bugzilla.redhat.com/2557857                           
@@ -10562,7 +10466,7 @@
 │                       │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-91463 
 │                       │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-91464 
 │                       │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-91487 
-│                       │      │                  https://errata.almalinux.org/10/ALSA-2026-90504.html          
+│                       │      │                  https://errata.almalinux.org/8/ALSA-2026-88352.html           
 │                       │      │                  https://errata.rockylinux.org/RLSA-2026:88347                 
 │                       │      │                  https://nvd.nist.gov/vuln/detail/CVE-2026-91397               
 │                       │      │                  https://www.cve.org/CVERecord?id=CVE-2026-91397               
@@ -10586,8 +10490,8 @@
 │                       │      ├ DataSource       ╭ ID  : alpine 
 │                       │      │                  ├ Name: Alpine Secdb 
 │                       │      │                  ╰ URL : https://secdb.alpinelinux.org/ 
-│                       │      ├ Fingerprint     : sha256:7a14d12dbc846782ba55f20db0e504f8b50f6bb43ae4abbe2b838
-│                       │      │                   d82dc905fdf 
+│                       │      ├ Fingerprint     : sha256:ed06567f523c4738d988d9e4c8d183235cbe8f82629d9ede2d4d9
+│                       │      │                   d72b001ca0d 
 │                       │      ├ Title           : openjdk: Enhance MIDI file handling (Oracle CPU 2026-10) 
 │                       │      ├ Description     : Vulnerability in the Oracle Java SE, Oracle GraalVM for JDK,
 │                       │      │                    Oracle GraalVM Enterprise Edition product of Oracle Java SE
@@ -10628,19 +10532,17 @@
 │                       │      ├ References                                                                     
 │                       │      │                  ──────────────────────────────────────────────────────────────
 │                       │      │                  https://access.redhat.com/errata/RHSA-2026:88347              
-│                       │      │                  https://access.redhat.com/errata/RHSA-2026:90504              
+│                       │      │                  https://access.redhat.com/errata/RHSA-2026:88352              
 │                       │      │                  https://access.redhat.com/security/cve/CVE-2026-91400         
 │                       │      │                  https://bugzilla.redhat.com/2556709                           
 │                       │      │                  https://bugzilla.redhat.com/2556795                           
 │                       │      │                  https://bugzilla.redhat.com/2556824                           
 │                       │      │                  https://bugzilla.redhat.com/2556837                           
 │                       │      │                  https://bugzilla.redhat.com/2556859                           
-│                       │      │                  https://bugzilla.redhat.com/2556960                           
 │                       │      │                  https://bugzilla.redhat.com/2557007                           
 │                       │      │                  https://bugzilla.redhat.com/2557032                           
 │                       │      │                  https://bugzilla.redhat.com/2557041                           
 │                       │      │                  https://bugzilla.redhat.com/2557047                           
-│                       │      │                  https://bugzilla.redhat.com/2557056                           
 │                       │      │                  https://bugzilla.redhat.com/2557079                           
 │                       │      │                  https://bugzilla.redhat.com/2557110                           
 │                       │      │                  https://bugzilla.redhat.com/2557117                           
@@ -10657,12 +10559,12 @@
 │                       │      │                  https://bugzilla.redhat.com/2557564                           
 │                       │      │                  https://bugzilla.redhat.com/2557598                           
 │                       │      │                  https://bugzilla.redhat.com/2557662                           
+│                       │      │                  https://bugzilla.redhat.com/2557665                           
 │                       │      │                  https://bugzilla.redhat.com/2557674                           
 │                       │      │                  https://bugzilla.redhat.com/2557690                           
 │                       │      │                  https://bugzilla.redhat.com/2557709                           
 │                       │      │                  https://bugzilla.redhat.com/2557711                           
 │                       │      │                  https://bugzilla.redhat.com/2557731                           
-│                       │      │                  https://bugzilla.redhat.com/2557757                           
 │                       │      │                  https://bugzilla.redhat.com/2557765                           
 │                       │      │                  https://bugzilla.redhat.com/2557780                           
 │                       │      │                  https://bugzilla.redhat.com/2557857                           
@@ -10747,7 +10649,7 @@
 │                       │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-91463 
 │                       │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-91464 
 │                       │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-91487 
-│                       │      │                  https://errata.almalinux.org/10/ALSA-2026-90504.html          
+│                       │      │                  https://errata.almalinux.org/8/ALSA-2026-88352.html           
 │                       │      │                  https://errata.rockylinux.org/RLSA-2026:88347                 
 │                       │      │                  https://nvd.nist.gov/vuln/detail/CVE-2026-91400               
 │                       │      │                  https://www.cve.org/CVERecord?id=CVE-2026-91400               
@@ -10771,8 +10673,8 @@
 │                       │      ├ DataSource       ╭ ID  : alpine 
 │                       │      │                  ├ Name: Alpine Secdb 
 │                       │      │                  ╰ URL : https://secdb.alpinelinux.org/ 
-│                       │      ├ Fingerprint     : sha256:8a59c55cb465c8d2630f812bc98806bf95a0dee5f84dd7391c406
-│                       │      │                   9c79d445622 
+│                       │      ├ Fingerprint     : sha256:be563d85fd203546157762d731bc69054634c7f3998d2ab96f239
+│                       │      │                   ee4e99022d0 
 │                       │      ├ Title           : openjfx: openjfx: information disclosure via untrusted code
 │                       │      │                   execution 
 │                       │      ├ Description     : Vulnerability in the Oracle Java SE, Oracle JavaFX, Oracle
@@ -10831,8 +10733,8 @@
 │                              ├ DataSource       ╭ ID  : alpine 
 │                              │                  ├ Name: Alpine Secdb 
 │                              │                  ╰ URL : https://secdb.alpinelinux.org/ 
-│                              ├ Fingerprint     : sha256:3826bf54d41463af5a4de6756f733d12c1f4bf9d332210dc32439
-│                              │                   f5dfeec798e 
+│                              ├ Fingerprint     : sha256:148e61b354743b637ed16db738a5c125b0a1944eb88dea02ffe8c
+│                              │                   1c501c02268 
 │                              ├ Title           : openjdk: Enhance TLS Extensions (Oracle CPU 2026-10) 
 │                              ├ Description     : Vulnerability in the Oracle Java SE, Oracle GraalVM for JDK,
 │                              │                    Oracle GraalVM Enterprise Edition product of Oracle Java SE
@@ -10867,19 +10769,17 @@
 │                              ├ References                                                                     
 │                              │                  ──────────────────────────────────────────────────────────────
 │                              │                  https://access.redhat.com/errata/RHSA-2026:88347              
-│                              │                  https://access.redhat.com/errata/RHSA-2026:90504              
+│                              │                  https://access.redhat.com/errata/RHSA-2026:88352              
 │                              │                  https://access.redhat.com/security/cve/CVE-2026-91461         
 │                              │                  https://bugzilla.redhat.com/2556709                           
 │                              │                  https://bugzilla.redhat.com/2556795                           
 │                              │                  https://bugzilla.redhat.com/2556824                           
 │                              │                  https://bugzilla.redhat.com/2556837                           
 │                              │                  https://bugzilla.redhat.com/2556859                           
-│                              │                  https://bugzilla.redhat.com/2556960                           
 │                              │                  https://bugzilla.redhat.com/2557007                           
 │                              │                  https://bugzilla.redhat.com/2557032                           
 │                              │                  https://bugzilla.redhat.com/2557041                           
 │                              │                  https://bugzilla.redhat.com/2557047                           
-│                              │                  https://bugzilla.redhat.com/2557056                           
 │                              │                  https://bugzilla.redhat.com/2557079                           
 │                              │                  https://bugzilla.redhat.com/2557110                           
 │                              │                  https://bugzilla.redhat.com/2557117                           
@@ -10896,12 +10796,12 @@
 │                              │                  https://bugzilla.redhat.com/2557564                           
 │                              │                  https://bugzilla.redhat.com/2557598                           
 │                              │                  https://bugzilla.redhat.com/2557662                           
+│                              │                  https://bugzilla.redhat.com/2557665                           
 │                              │                  https://bugzilla.redhat.com/2557674                           
 │                              │                  https://bugzilla.redhat.com/2557690                           
 │                              │                  https://bugzilla.redhat.com/2557709                           
 │                              │                  https://bugzilla.redhat.com/2557711                           
 │                              │                  https://bugzilla.redhat.com/2557731                           
-│                              │                  https://bugzilla.redhat.com/2557757                           
 │                              │                  https://bugzilla.redhat.com/2557765                           
 │                              │                  https://bugzilla.redhat.com/2557780                           
 │                              │                  https://bugzilla.redhat.com/2557857                           
@@ -10986,7 +10886,7 @@
 │                              │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-91463 
 │                              │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-91464 
 │                              │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-91487 
-│                              │                  https://errata.almalinux.org/10/ALSA-2026-90504.html          
+│                              │                  https://errata.almalinux.org/8/ALSA-2026-88352.html           
 │                              │                  https://errata.rockylinux.org/RLSA-2026:88347                 
 │                              │                  https://nvd.nist.gov/vuln/detail/CVE-2026-91461               
 │                              │                  https://www.cve.org/CVERecord?id=CVE-2026-91461               
