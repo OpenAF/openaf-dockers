@@ -296,10 +296,11 @@
 │                       │      ├ CweIDs                  
 │                       │      │                  ───────
 │                       │      │                  CWE-200
-│                       │      ├ VendorSeverity   ╭ alma  : 3 
-│                       │      │                  ├ amazon: 3 
-│                       │      │                  ├ redhat: 2 
-│                       │      │                  ╰ rocky : 3 
+│                       │      ├ VendorSeverity   ╭ alma       : 3 
+│                       │      │                  ├ amazon     : 3 
+│                       │      │                  ├ oracle-oval: 3 
+│                       │      │                  ├ redhat     : 2 
+│                       │      │                  ╰ rocky      : 3 
 │                       │      ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:N/I:H
 │                       │      │                           │           /A:N 
 │                       │      │                           ╰ V3Score : 5.9 
@@ -425,6 +426,8 @@
 │                       │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-91487 
 │                       │      │                  https://errata.almalinux.org/8/ALSA-2026-88352.html           
 │                       │      │                  https://errata.rockylinux.org/RLSA-2026:88347                 
+│                       │      │                  https://linux.oracle.com/cve/CVE-2026-83374.html              
+│                       │      │                  https://linux.oracle.com/errata/ELSA-2026-90504.html          
 │                       │      │                  https://nvd.nist.gov/vuln/detail/CVE-2026-83374               
 │                       │      │                  https://www.cve.org/CVERecord?id=CVE-2026-83374               
 │                       │      │                  https://www.oracle.com/security-alerts/cpuoct2026.html        
@@ -469,10 +472,11 @@
 │                       │      ├ CweIDs                  
 │                       │      │                  ───────
 │                       │      │                  CWE-284
-│                       │      ├ VendorSeverity   ╭ alma  : 3 
-│                       │      │                  ├ amazon: 3 
-│                       │      │                  ├ redhat: 2 
-│                       │      │                  ╰ rocky : 3 
+│                       │      ├ VendorSeverity   ╭ alma       : 3 
+│                       │      │                  ├ amazon     : 3 
+│                       │      │                  ├ oracle-oval: 3 
+│                       │      │                  ├ redhat     : 2 
+│                       │      │                  ╰ rocky      : 3 
 │                       │      ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:N/I:L
 │                       │      │                           │           /A:N 
 │                       │      │                           ╰ V3Score : 3.7 
@@ -600,6 +604,8 @@
 │                       │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-91487 
 │                       │      │                  https://errata.almalinux.org/8/ALSA-2026-88349.html           
 │                       │      │                  https://errata.rockylinux.org/RLSA-2026:88347                 
+│                       │      │                  https://linux.oracle.com/cve/CVE-2026-83378.html              
+│                       │      │                  https://linux.oracle.com/errata/ELSA-2026-90504.html          
 │                       │      │                  https://nvd.nist.gov/vuln/detail/CVE-2026-83378               
 │                       │      │                  https://www.cve.org/CVERecord?id=CVE-2026-83378               
 │                       │      │                  https://www.oracle.com/security-alerts/cpuoct2026.html        
@@ -650,10 +656,11 @@
 │                       │      ├ CweIDs                  
 │                       │      │                  ───────
 │                       │      │                  CWE-200
-│                       │      ├ VendorSeverity   ╭ alma  : 3 
-│                       │      │                  ├ amazon: 3 
-│                       │      │                  ├ redhat: 2 
-│                       │      │                  ╰ rocky : 3 
+│                       │      ├ VendorSeverity   ╭ alma       : 3 
+│                       │      │                  ├ amazon     : 3 
+│                       │      │                  ├ oracle-oval: 3 
+│                       │      │                  ├ redhat     : 2 
+│                       │      │                  ╰ rocky      : 3 
 │                       │      ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:L/I:L
 │                       │      │                           │           /A:N 
 │                       │      │                           ╰ V3Score : 4.8 
@@ -779,6 +786,8 @@
 │                       │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-91487 
 │                       │      │                  https://errata.almalinux.org/8/ALSA-2026-88352.html           
 │                       │      │                  https://errata.rockylinux.org/RLSA-2026:88347                 
+│                       │      │                  https://linux.oracle.com/cve/CVE-2026-83381.html              
+│                       │      │                  https://linux.oracle.com/errata/ELSA-2026-90504.html          
 │                       │      │                  https://nvd.nist.gov/vuln/detail/CVE-2026-83381               
 │                       │      │                  https://www.cve.org/CVERecord?id=CVE-2026-83381               
 │                       │      │                  https://www.oracle.com/security-alerts/cpuoct2026.html        
@@ -831,10 +840,11 @@
 │                       │      ├ CweIDs                  
 │                       │      │                  ───────
 │                       │      │                  CWE-200
-│                       │      ├ VendorSeverity   ╭ alma  : 3 
-│                       │      │                  ├ amazon: 3 
-│                       │      │                  ├ redhat: 2 
-│                       │      │                  ╰ rocky : 3 
+│                       │      ├ VendorSeverity   ╭ alma       : 3 
+│                       │      │                  ├ amazon     : 3 
+│                       │      │                  ├ oracle-oval: 3 
+│                       │      │                  ├ redhat     : 2 
+│                       │      │                  ╰ rocky      : 3 
 │                       │      ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:H/I:N
 │                       │      │                           │           /A:N 
 │                       │      │                           ╰ V3Score : 5.9 
@@ -960,6 +970,8 @@
 │                       │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-91487 
 │                       │      │                  https://errata.almalinux.org/8/ALSA-2026-88352.html           
 │                       │      │                  https://errata.rockylinux.org/RLSA-2026:88347                 
+│                       │      │                  https://linux.oracle.com/cve/CVE-2026-83387.html              
+│                       │      │                  https://linux.oracle.com/errata/ELSA-2026-90504.html          
 │                       │      │                  https://nvd.nist.gov/vuln/detail/CVE-2026-83387               
 │                       │      │                  https://www.cve.org/CVERecord?id=CVE-2026-83387               
 │                       │      │                  https://www.oracle.com/security-alerts/cpuoct2026.html        
@@ -1012,10 +1024,11 @@
 │                       │      ├ CweIDs                  
 │                       │      │                  ───────
 │                       │      │                  CWE-400
-│                       │      ├ VendorSeverity   ╭ alma  : 3 
-│                       │      │                  ├ amazon: 3 
-│                       │      │                  ├ redhat: 2 
-│                       │      │                  ╰ rocky : 3 
+│                       │      ├ VendorSeverity   ╭ alma       : 3 
+│                       │      │                  ├ amazon     : 3 
+│                       │      │                  ├ oracle-oval: 3 
+│                       │      │                  ├ redhat     : 2 
+│                       │      │                  ╰ rocky      : 3 
 │                       │      ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N
 │                       │      │                           │           /A:L 
 │                       │      │                           ╰ V3Score : 5.3 
@@ -1141,6 +1154,8 @@
 │                       │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-91487 
 │                       │      │                  https://errata.almalinux.org/8/ALSA-2026-88352.html           
 │                       │      │                  https://errata.rockylinux.org/RLSA-2026:88347                 
+│                       │      │                  https://linux.oracle.com/cve/CVE-2026-83400.html              
+│                       │      │                  https://linux.oracle.com/errata/ELSA-2026-90504.html          
 │                       │      │                  https://nvd.nist.gov/vuln/detail/CVE-2026-83400               
 │                       │      │                  https://www.cve.org/CVERecord?id=CVE-2026-83400               
 │                       │      │                  https://www.oracle.com/security-alerts/cpuoct2026.html        
@@ -1193,10 +1208,11 @@
 │                       │      ├ CweIDs                  
 │                       │      │                  ───────
 │                       │      │                  CWE-200
-│                       │      ├ VendorSeverity   ╭ alma  : 3 
-│                       │      │                  ├ amazon: 3 
-│                       │      │                  ├ redhat: 2 
-│                       │      │                  ╰ rocky : 3 
+│                       │      ├ VendorSeverity   ╭ alma       : 3 
+│                       │      │                  ├ amazon     : 3 
+│                       │      │                  ├ oracle-oval: 3 
+│                       │      │                  ├ redhat     : 2 
+│                       │      │                  ╰ rocky      : 3 
 │                       │      ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:L/I:N
 │                       │      │                           │           /A:N 
 │                       │      │                           ╰ V3Score : 3.7 
@@ -1322,6 +1338,8 @@
 │                       │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-91487 
 │                       │      │                  https://errata.almalinux.org/8/ALSA-2026-88352.html           
 │                       │      │                  https://errata.rockylinux.org/RLSA-2026:88347                 
+│                       │      │                  https://linux.oracle.com/cve/CVE-2026-87290.html              
+│                       │      │                  https://linux.oracle.com/errata/ELSA-2026-90504.html          
 │                       │      │                  https://nvd.nist.gov/vuln/detail/CVE-2026-87290               
 │                       │      │                  https://www.cve.org/CVERecord?id=CVE-2026-87290               
 │                       │      │                  https://www.oracle.com/security-alerts/cpuoct2026.html        
@@ -1365,10 +1383,11 @@
 │                       │      ├ CweIDs                  
 │                       │      │                  ───────
 │                       │      │                  CWE-287
-│                       │      ├ VendorSeverity   ╭ alma  : 3 
-│                       │      │                  ├ amazon: 3 
-│                       │      │                  ├ redhat: 2 
-│                       │      │                  ╰ rocky : 3 
+│                       │      ├ VendorSeverity   ╭ alma       : 3 
+│                       │      │                  ├ amazon     : 3 
+│                       │      │                  ├ oracle-oval: 3 
+│                       │      │                  ├ redhat     : 2 
+│                       │      │                  ╰ rocky      : 3 
 │                       │      ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:L/I:N
 │                       │      │                           │           /A:N 
 │                       │      │                           ╰ V3Score : 5.3 
@@ -1496,6 +1515,8 @@
 │                       │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-91487 
 │                       │      │                  https://errata.almalinux.org/8/ALSA-2026-88349.html           
 │                       │      │                  https://errata.rockylinux.org/RLSA-2026:88347                 
+│                       │      │                  https://linux.oracle.com/cve/CVE-2026-87291.html              
+│                       │      │                  https://linux.oracle.com/errata/ELSA-2026-90504.html          
 │                       │      │                  https://nvd.nist.gov/vuln/detail/CVE-2026-87291               
 │                       │      │                  https://www.cve.org/CVERecord?id=CVE-2026-87291               
 │                       │      │                  https://www.oracle.com/security-alerts/cpuoct2026.html        
@@ -1544,10 +1565,11 @@
 │                       │      ├ CweIDs                  
 │                       │      │                  ───────
 │                       │      │                  CWE-284
-│                       │      ├ VendorSeverity   ╭ alma  : 3 
-│                       │      │                  ├ amazon: 3 
-│                       │      │                  ├ redhat: 2 
-│                       │      │                  ╰ rocky : 3 
+│                       │      ├ VendorSeverity   ╭ alma       : 3 
+│                       │      │                  ├ amazon     : 3 
+│                       │      │                  ├ oracle-oval: 3 
+│                       │      │                  ├ redhat     : 2 
+│                       │      │                  ╰ rocky      : 3 
 │                       │      ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:L
 │                       │      │                           │           /A:N 
 │                       │      │                           ╰ V3Score : 5.3 
@@ -1673,6 +1695,8 @@
 │                       │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-91487 
 │                       │      │                  https://errata.almalinux.org/8/ALSA-2026-88352.html           
 │                       │      │                  https://errata.rockylinux.org/RLSA-2026:88347                 
+│                       │      │                  https://linux.oracle.com/cve/CVE-2026-91332.html              
+│                       │      │                  https://linux.oracle.com/errata/ELSA-2026-90504.html          
 │                       │      │                  https://nvd.nist.gov/vuln/detail/CVE-2026-91332               
 │                       │      │                  https://www.cve.org/CVERecord?id=CVE-2026-91332               
 │                       │      │                  https://www.oracle.com/security-alerts/cpuoct2026.html        
@@ -1721,10 +1745,11 @@
 │                       │      ├ CweIDs                  
 │                       │      │                  ───────
 │                       │      │                  CWE-400
-│                       │      ├ VendorSeverity   ╭ alma  : 3 
-│                       │      │                  ├ amazon: 3 
-│                       │      │                  ├ redhat: 2 
-│                       │      │                  ╰ rocky : 3 
+│                       │      ├ VendorSeverity   ╭ alma       : 3 
+│                       │      │                  ├ amazon     : 3 
+│                       │      │                  ├ oracle-oval: 3 
+│                       │      │                  ├ redhat     : 2 
+│                       │      │                  ╰ rocky      : 3 
 │                       │      ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N
 │                       │      │                           │           /A:L 
 │                       │      │                           ╰ V3Score : 5.3 
@@ -1850,6 +1875,8 @@
 │                       │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-91487 
 │                       │      │                  https://errata.almalinux.org/8/ALSA-2026-88352.html           
 │                       │      │                  https://errata.rockylinux.org/RLSA-2026:88347                 
+│                       │      │                  https://linux.oracle.com/cve/CVE-2026-91373.html              
+│                       │      │                  https://linux.oracle.com/errata/ELSA-2026-90504.html          
 │                       │      │                  https://nvd.nist.gov/vuln/detail/CVE-2026-91373               
 │                       │      │                  https://www.cve.org/CVERecord?id=CVE-2026-91373               
 │                       │      │                  https://www.oracle.com/security-alerts/cpuoct2026.html        
@@ -1905,10 +1932,11 @@
 │                       │      ├ CweIDs                  
 │                       │      │                  ───────
 │                       │      │                  CWE-284
-│                       │      ├ VendorSeverity   ╭ alma  : 3 
-│                       │      │                  ├ amazon: 3 
-│                       │      │                  ├ redhat: 2 
-│                       │      │                  ╰ rocky : 3 
+│                       │      ├ VendorSeverity   ╭ alma       : 3 
+│                       │      │                  ├ amazon     : 3 
+│                       │      │                  ├ oracle-oval: 3 
+│                       │      │                  ├ redhat     : 2 
+│                       │      │                  ╰ rocky      : 3 
 │                       │      ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:L/I:L
 │                       │      │                           │           /A:N 
 │                       │      │                           ╰ V3Score : 4.8 
@@ -2034,6 +2062,8 @@
 │                       │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-91487 
 │                       │      │                  https://errata.almalinux.org/8/ALSA-2026-88352.html           
 │                       │      │                  https://errata.rockylinux.org/RLSA-2026:88347                 
+│                       │      │                  https://linux.oracle.com/cve/CVE-2026-91374.html              
+│                       │      │                  https://linux.oracle.com/errata/ELSA-2026-90504.html          
 │                       │      │                  https://nvd.nist.gov/vuln/detail/CVE-2026-91374               
 │                       │      │                  https://www.cve.org/CVERecord?id=CVE-2026-91374               
 │                       │      │                  https://www.oracle.com/security-alerts/cpuoct2026.html        
@@ -2084,10 +2114,11 @@
 │                       │      ├ CweIDs                  
 │                       │      │                  ───────
 │                       │      │                  CWE-863
-│                       │      ├ VendorSeverity   ╭ alma  : 3 
-│                       │      │                  ├ amazon: 3 
-│                       │      │                  ├ redhat: 2 
-│                       │      │                  ╰ rocky : 3 
+│                       │      ├ VendorSeverity   ╭ alma       : 3 
+│                       │      │                  ├ amazon     : 3 
+│                       │      │                  ├ oracle-oval: 3 
+│                       │      │                  ├ redhat     : 2 
+│                       │      │                  ╰ rocky      : 3 
 │                       │      ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:L/AC:H/PR:N/UI:R/S:U/C:N/I:H
 │                       │      │                           │           /A:N 
 │                       │      │                           ╰ V3Score : 4.7 
@@ -2213,6 +2244,8 @@
 │                       │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-91487 
 │                       │      │                  https://errata.almalinux.org/8/ALSA-2026-88352.html           
 │                       │      │                  https://errata.rockylinux.org/RLSA-2026:88347                 
+│                       │      │                  https://linux.oracle.com/cve/CVE-2026-91375.html              
+│                       │      │                  https://linux.oracle.com/errata/ELSA-2026-90504.html          
 │                       │      │                  https://nvd.nist.gov/vuln/detail/CVE-2026-91375               
 │                       │      │                  https://www.cve.org/CVERecord?id=CVE-2026-91375               
 │                       │      │                  https://www.oracle.com/security-alerts/cpuoct2026.html        
@@ -2268,10 +2301,11 @@
 │                       │      ├ CweIDs                  
 │                       │      │                  ───────
 │                       │      │                  CWE-416
-│                       │      ├ VendorSeverity   ╭ alma  : 3 
-│                       │      │                  ├ amazon: 3 
-│                       │      │                  ├ redhat: 2 
-│                       │      │                  ╰ rocky : 3 
+│                       │      ├ VendorSeverity   ╭ alma       : 3 
+│                       │      │                  ├ amazon     : 3 
+│                       │      │                  ├ oracle-oval: 3 
+│                       │      │                  ├ redhat     : 2 
+│                       │      │                  ╰ rocky      : 3 
 │                       │      ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:L/AC:H/PR:N/UI:R/S:U/C:N/I:H
 │                       │      │                           │           /A:N 
 │                       │      │                           ╰ V3Score : 4.7 
@@ -2397,6 +2431,8 @@
 │                       │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-91487 
 │                       │      │                  https://errata.almalinux.org/8/ALSA-2026-88352.html           
 │                       │      │                  https://errata.rockylinux.org/RLSA-2026:88347                 
+│                       │      │                  https://linux.oracle.com/cve/CVE-2026-91379.html              
+│                       │      │                  https://linux.oracle.com/errata/ELSA-2026-90504.html          
 │                       │      │                  https://nvd.nist.gov/vuln/detail/CVE-2026-91379               
 │                       │      │                  https://www.cve.org/CVERecord?id=CVE-2026-91379               
 │                       │      │                  https://www.oracle.com/security-alerts/cpuoct2026.html        
@@ -2504,10 +2540,11 @@
 │                       │      ├ CweIDs                  
 │                       │      │                  ───────
 │                       │      │                  CWE-400
-│                       │      ├ VendorSeverity   ╭ alma  : 3 
-│                       │      │                  ├ amazon: 3 
-│                       │      │                  ├ redhat: 2 
-│                       │      │                  ╰ rocky : 3 
+│                       │      ├ VendorSeverity   ╭ alma       : 3 
+│                       │      │                  ├ amazon     : 3 
+│                       │      │                  ├ oracle-oval: 3 
+│                       │      │                  ├ redhat     : 2 
+│                       │      │                  ╰ rocky      : 3 
 │                       │      ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N
 │                       │      │                           │           /A:L 
 │                       │      │                           ╰ V3Score : 5.3 
@@ -2633,6 +2670,8 @@
 │                       │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-91487 
 │                       │      │                  https://errata.almalinux.org/8/ALSA-2026-88352.html           
 │                       │      │                  https://errata.rockylinux.org/RLSA-2026:88347                 
+│                       │      │                  https://linux.oracle.com/cve/CVE-2026-91418.html              
+│                       │      │                  https://linux.oracle.com/errata/ELSA-2026-90504.html          
 │                       │      │                  https://nvd.nist.gov/vuln/detail/CVE-2026-91418               
 │                       │      │                  https://www.cve.org/CVERecord?id=CVE-2026-91418               
 │                       │      │                  https://www.oracle.com/security-alerts/cpuoct2026.html        
@@ -2678,10 +2717,11 @@
 │                       │      ├ CweIDs                  
 │                       │      │                  ───────
 │                       │      │                  CWE-284
-│                       │      ├ VendorSeverity   ╭ alma  : 3 
-│                       │      │                  ├ amazon: 3 
-│                       │      │                  ├ redhat: 2 
-│                       │      │                  ╰ rocky : 3 
+│                       │      ├ VendorSeverity   ╭ alma       : 3 
+│                       │      │                  ├ amazon     : 3 
+│                       │      │                  ├ oracle-oval: 3 
+│                       │      │                  ├ redhat     : 2 
+│                       │      │                  ╰ rocky      : 3 
 │                       │      ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:L
 │                       │      │                           │           /A:N 
 │                       │      │                           ╰ V3Score : 5.3 
@@ -2807,6 +2847,8 @@
 │                       │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-91487 
 │                       │      │                  https://errata.almalinux.org/8/ALSA-2026-88352.html           
 │                       │      │                  https://errata.rockylinux.org/RLSA-2026:88347                 
+│                       │      │                  https://linux.oracle.com/cve/CVE-2026-91451.html              
+│                       │      │                  https://linux.oracle.com/errata/ELSA-2026-90504.html          
 │                       │      │                  https://nvd.nist.gov/vuln/detail/CVE-2026-91451               
 │                       │      │                  https://www.cve.org/CVERecord?id=CVE-2026-91451               
 │                       │      │                  https://www.oracle.com/security-alerts/cpuoct2026.html        
@@ -2856,10 +2898,11 @@
 │                       │      ├ CweIDs                  
 │                       │      │                  ───────
 │                       │      │                  CWE-284
-│                       │      ├ VendorSeverity   ╭ alma  : 3 
-│                       │      │                  ├ amazon: 3 
-│                       │      │                  ├ redhat: 2 
-│                       │      │                  ╰ rocky : 3 
+│                       │      ├ VendorSeverity   ╭ alma       : 3 
+│                       │      │                  ├ amazon     : 3 
+│                       │      │                  ├ oracle-oval: 3 
+│                       │      │                  ├ redhat     : 2 
+│                       │      │                  ╰ rocky      : 3 
 │                       │      ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:L
 │                       │      │                           │           /A:N 
 │                       │      │                           ╰ V3Score : 5.3 
@@ -2985,6 +3028,8 @@
 │                       │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-91487 
 │                       │      │                  https://errata.almalinux.org/8/ALSA-2026-88352.html           
 │                       │      │                  https://errata.rockylinux.org/RLSA-2026:88347                 
+│                       │      │                  https://linux.oracle.com/cve/CVE-2026-91452.html              
+│                       │      │                  https://linux.oracle.com/errata/ELSA-2026-90504.html          
 │                       │      │                  https://nvd.nist.gov/vuln/detail/CVE-2026-91452               
 │                       │      │                  https://www.cve.org/CVERecord?id=CVE-2026-91452               
 │                       │      │                  https://www.oracle.com/security-alerts/cpuoct2026.html        
@@ -3034,10 +3079,11 @@
 │                       │      ├ CweIDs                  
 │                       │      │                  ───────
 │                       │      │                  CWE-284
-│                       │      ├ VendorSeverity   ╭ alma  : 3 
-│                       │      │                  ├ amazon: 3 
-│                       │      │                  ├ redhat: 2 
-│                       │      │                  ╰ rocky : 3 
+│                       │      ├ VendorSeverity   ╭ alma       : 3 
+│                       │      │                  ├ amazon     : 3 
+│                       │      │                  ├ oracle-oval: 3 
+│                       │      │                  ├ redhat     : 2 
+│                       │      │                  ╰ rocky      : 3 
 │                       │      ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:L
 │                       │      │                           │           /A:N 
 │                       │      │                           ╰ V3Score : 5.3 
@@ -3163,6 +3209,8 @@
 │                       │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-91487 
 │                       │      │                  https://errata.almalinux.org/8/ALSA-2026-88352.html           
 │                       │      │                  https://errata.rockylinux.org/RLSA-2026:88347                 
+│                       │      │                  https://linux.oracle.com/cve/CVE-2026-91453.html              
+│                       │      │                  https://linux.oracle.com/errata/ELSA-2026-90504.html          
 │                       │      │                  https://nvd.nist.gov/vuln/detail/CVE-2026-91453               
 │                       │      │                  https://www.cve.org/CVERecord?id=CVE-2026-91453               
 │                       │      │                  https://www.oracle.com/security-alerts/cpuoct2026.html        
@@ -3212,10 +3260,11 @@
 │                       │      ├ CweIDs                  
 │                       │      │                  ───────
 │                       │      │                  CWE-284
-│                       │      ├ VendorSeverity   ╭ alma  : 3 
-│                       │      │                  ├ amazon: 3 
-│                       │      │                  ├ redhat: 2 
-│                       │      │                  ╰ rocky : 3 
+│                       │      ├ VendorSeverity   ╭ alma       : 3 
+│                       │      │                  ├ amazon     : 3 
+│                       │      │                  ├ oracle-oval: 3 
+│                       │      │                  ├ redhat     : 2 
+│                       │      │                  ╰ rocky      : 3 
 │                       │      ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:N/I:H
 │                       │      │                           │           /A:N 
 │                       │      │                           ╰ V3Score : 5.9 
@@ -3341,6 +3390,8 @@
 │                       │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-91487 
 │                       │      │                  https://errata.almalinux.org/8/ALSA-2026-88352.html           
 │                       │      │                  https://errata.rockylinux.org/RLSA-2026:88347                 
+│                       │      │                  https://linux.oracle.com/cve/CVE-2026-91462.html              
+│                       │      │                  https://linux.oracle.com/errata/ELSA-2026-90504.html          
 │                       │      │                  https://nvd.nist.gov/vuln/detail/CVE-2026-91462               
 │                       │      │                  https://www.cve.org/CVERecord?id=CVE-2026-91462               
 │                       │      │                  https://www.oracle.com/security-alerts/cpuoct2026.html        
@@ -3395,10 +3446,11 @@
 │                       │      ├ CweIDs                  
 │                       │      │                  ───────
 │                       │      │                  CWE-416
-│                       │      ├ VendorSeverity   ╭ alma  : 3 
-│                       │      │                  ├ amazon: 3 
-│                       │      │                  ├ redhat: 2 
-│                       │      │                  ╰ rocky : 3 
+│                       │      ├ VendorSeverity   ╭ alma       : 3 
+│                       │      │                  ├ amazon     : 3 
+│                       │      │                  ├ oracle-oval: 3 
+│                       │      │                  ├ redhat     : 2 
+│                       │      │                  ╰ rocky      : 3 
 │                       │      ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:R/S:U/C:H/I:N
 │                       │      │                           │           /A:N 
 │                       │      │                           ╰ V3Score : 5.3 
@@ -3524,6 +3576,8 @@
 │                       │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-91487 
 │                       │      │                  https://errata.almalinux.org/8/ALSA-2026-88352.html           
 │                       │      │                  https://errata.rockylinux.org/RLSA-2026:88347                 
+│                       │      │                  https://linux.oracle.com/cve/CVE-2026-91463.html              
+│                       │      │                  https://linux.oracle.com/errata/ELSA-2026-90504.html          
 │                       │      │                  https://nvd.nist.gov/vuln/detail/CVE-2026-91463               
 │                       │      │                  https://www.cve.org/CVERecord?id=CVE-2026-91463               
 │                       │      │                  https://www.oracle.com/security-alerts/cpuoct2026.html        
@@ -3578,10 +3632,11 @@
 │                       │      ├ CweIDs                  
 │                       │      │                  ───────
 │                       │      │                  CWE-416
-│                       │      ├ VendorSeverity   ╭ alma  : 3 
-│                       │      │                  ├ amazon: 3 
-│                       │      │                  ├ redhat: 2 
-│                       │      │                  ╰ rocky : 3 
+│                       │      ├ VendorSeverity   ╭ alma       : 3 
+│                       │      │                  ├ amazon     : 3 
+│                       │      │                  ├ oracle-oval: 3 
+│                       │      │                  ├ redhat     : 2 
+│                       │      │                  ╰ rocky      : 3 
 │                       │      ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:R/S:U/C:H/I:N
 │                       │      │                           │           /A:N 
 │                       │      │                           ╰ V3Score : 5.3 
@@ -3707,6 +3762,8 @@
 │                       │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-91487 
 │                       │      │                  https://errata.almalinux.org/8/ALSA-2026-88352.html           
 │                       │      │                  https://errata.rockylinux.org/RLSA-2026:88347                 
+│                       │      │                  https://linux.oracle.com/cve/CVE-2026-91464.html              
+│                       │      │                  https://linux.oracle.com/errata/ELSA-2026-90504.html          
 │                       │      │                  https://nvd.nist.gov/vuln/detail/CVE-2026-91464               
 │                       │      │                  https://www.cve.org/CVERecord?id=CVE-2026-91464               
 │                       │      │                  https://www.oracle.com/security-alerts/cpuoct2026.html        
@@ -3754,10 +3811,11 @@
 │                       │      ├ CweIDs                  
 │                       │      │                  ───────
 │                       │      │                  CWE-284
-│                       │      ├ VendorSeverity   ╭ alma  : 3 
-│                       │      │                  ├ amazon: 3 
-│                       │      │                  ├ redhat: 2 
-│                       │      │                  ╰ rocky : 3 
+│                       │      ├ VendorSeverity   ╭ alma       : 3 
+│                       │      │                  ├ amazon     : 3 
+│                       │      │                  ├ oracle-oval: 3 
+│                       │      │                  ├ redhat     : 2 
+│                       │      │                  ╰ rocky      : 3 
 │                       │      ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:L/I:L
 │                       │      │                           │           /A:N 
 │                       │      │                           ╰ V3Score : 4.8 
@@ -3883,6 +3941,8 @@
 │                       │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-91487 
 │                       │      │                  https://errata.almalinux.org/8/ALSA-2026-88352.html           
 │                       │      │                  https://errata.rockylinux.org/RLSA-2026:88347                 
+│                       │      │                  https://linux.oracle.com/cve/CVE-2026-91487.html              
+│                       │      │                  https://linux.oracle.com/errata/ELSA-2026-90504.html          
 │                       │      │                  https://nvd.nist.gov/vuln/detail/CVE-2026-91487               
 │                       │      │                  https://www.cve.org/CVERecord?id=CVE-2026-91487               
 │                       │      │                  https://www.oracle.com/security-alerts/cpuoct2026.html        
@@ -3934,10 +3994,11 @@
 │                       │      ├ CweIDs                  
 │                       │      │                  ───────
 │                       │      │                  CWE-200
-│                       │      ├ VendorSeverity   ╭ alma  : 3 
-│                       │      │                  ├ amazon: 3 
-│                       │      │                  ├ redhat: 1 
-│                       │      │                  ╰ rocky : 3 
+│                       │      ├ VendorSeverity   ╭ alma       : 3 
+│                       │      │                  ├ amazon     : 3 
+│                       │      │                  ├ oracle-oval: 3 
+│                       │      │                  ├ redhat     : 1 
+│                       │      │                  ╰ rocky      : 3 
 │                       │      ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:N/I:L
 │                       │      │                           │           /A:N 
 │                       │      │                           ╰ V3Score : 3.7 
@@ -4063,6 +4124,8 @@
 │                       │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-91487 
 │                       │      │                  https://errata.almalinux.org/8/ALSA-2026-88352.html           
 │                       │      │                  https://errata.rockylinux.org/RLSA-2026:88347                 
+│                       │      │                  https://linux.oracle.com/cve/CVE-2026-83376.html              
+│                       │      │                  https://linux.oracle.com/errata/ELSA-2026-90504.html          
 │                       │      │                  https://nvd.nist.gov/vuln/detail/CVE-2026-83376               
 │                       │      │                  https://www.cve.org/CVERecord?id=CVE-2026-83376               
 │                       │      │                  https://www.oracle.com/security-alerts/cpuoct2026.html        
@@ -4288,10 +4351,11 @@
 │                       │      ├ CweIDs                  
 │                       │      │                  ───────
 │                       │      │                  CWE-287
-│                       │      ├ VendorSeverity   ╭ alma  : 3 
-│                       │      │                  ├ amazon: 3 
-│                       │      │                  ├ redhat: 1 
-│                       │      │                  ╰ rocky : 3 
+│                       │      ├ VendorSeverity   ╭ alma       : 3 
+│                       │      │                  ├ amazon     : 3 
+│                       │      │                  ├ oracle-oval: 3 
+│                       │      │                  ├ redhat     : 1 
+│                       │      │                  ╰ rocky      : 3 
 │                       │      ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:N/I:L
 │                       │      │                           │           /A:N 
 │                       │      │                           ╰ V3Score : 3.7 
@@ -4417,6 +4481,8 @@
 │                       │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-91487 
 │                       │      │                  https://errata.almalinux.org/8/ALSA-2026-88352.html           
 │                       │      │                  https://errata.rockylinux.org/RLSA-2026:88347                 
+│                       │      │                  https://linux.oracle.com/cve/CVE-2026-87292.html              
+│                       │      │                  https://linux.oracle.com/errata/ELSA-2026-90504.html          
 │                       │      │                  https://nvd.nist.gov/vuln/detail/CVE-2026-87292               
 │                       │      │                  https://www.cve.org/CVERecord?id=CVE-2026-87292               
 │                       │      │                  https://www.oracle.com/security-alerts/cpuoct2026.html        
@@ -4469,10 +4535,11 @@
 │                       │      ├ CweIDs                  
 │                       │      │                  ───────
 │                       │      │                  CWE-200
-│                       │      ├ VendorSeverity   ╭ alma  : 3 
-│                       │      │                  ├ amazon: 3 
-│                       │      │                  ├ redhat: 1 
-│                       │      │                  ╰ rocky : 3 
+│                       │      ├ VendorSeverity   ╭ alma       : 3 
+│                       │      │                  ├ amazon     : 3 
+│                       │      │                  ├ oracle-oval: 3 
+│                       │      │                  ├ redhat     : 1 
+│                       │      │                  ╰ rocky      : 3 
 │                       │      ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:N/I:L
 │                       │      │                           │           /A:N 
 │                       │      │                           ╰ V3Score : 3.7 
@@ -4598,6 +4665,8 @@
 │                       │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-91487 
 │                       │      │                  https://errata.almalinux.org/8/ALSA-2026-88352.html           
 │                       │      │                  https://errata.rockylinux.org/RLSA-2026:88347                 
+│                       │      │                  https://linux.oracle.com/cve/CVE-2026-87367.html              
+│                       │      │                  https://linux.oracle.com/errata/ELSA-2026-90504.html          
 │                       │      │                  https://nvd.nist.gov/vuln/detail/CVE-2026-87367               
 │                       │      │                  https://www.cve.org/CVERecord?id=CVE-2026-87367               
 │                       │      │                  https://www.oracle.com/security-alerts/cpuoct2026.html        
@@ -4651,10 +4720,11 @@
 │                       │      ├ CweIDs                  
 │                       │      │                  ───────
 │                       │      │                  CWE-250
-│                       │      ├ VendorSeverity   ╭ alma  : 3 
-│                       │      │                  ├ amazon: 3 
-│                       │      │                  ├ redhat: 1 
-│                       │      │                  ╰ rocky : 3 
+│                       │      ├ VendorSeverity   ╭ alma       : 3 
+│                       │      │                  ├ amazon     : 3 
+│                       │      │                  ├ oracle-oval: 3 
+│                       │      │                  ├ redhat     : 1 
+│                       │      │                  ╰ rocky      : 3 
 │                       │      ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:H/PR:L/UI:R/S:U/C:L/I:N
 │                       │      │                           │           /A:N 
 │                       │      │                           ╰ V3Score : 2.6 
@@ -4780,6 +4850,8 @@
 │                       │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-91487 
 │                       │      │                  https://errata.almalinux.org/8/ALSA-2026-88352.html           
 │                       │      │                  https://errata.rockylinux.org/RLSA-2026:88347                 
+│                       │      │                  https://linux.oracle.com/cve/CVE-2026-91335.html              
+│                       │      │                  https://linux.oracle.com/errata/ELSA-2026-90504.html          
 │                       │      │                  https://nvd.nist.gov/vuln/detail/CVE-2026-91335               
 │                       │      │                  https://www.cve.org/CVERecord?id=CVE-2026-91335               
 │                       │      │                  https://www.oracle.com/security-alerts/cpuoct2026.html        
@@ -4894,10 +4966,11 @@
 │                       │      ├ CweIDs                  
 │                       │      │                  ───────
 │                       │      │                  CWE-284
-│                       │      ├ VendorSeverity   ╭ alma  : 3 
-│                       │      │                  ├ amazon: 3 
-│                       │      │                  ├ redhat: 1 
-│                       │      │                  ╰ rocky : 3 
+│                       │      ├ VendorSeverity   ╭ alma       : 3 
+│                       │      │                  ├ amazon     : 3 
+│                       │      │                  ├ oracle-oval: 3 
+│                       │      │                  ├ redhat     : 1 
+│                       │      │                  ╰ rocky      : 3 
 │                       │      ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:L/AC:H/PR:N/UI:R/S:U/C:N/I:L
 │                       │      │                           │           /A:L 
 │                       │      │                           ╰ V3Score : 3.6 
@@ -5023,6 +5096,8 @@
 │                       │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-91487 
 │                       │      │                  https://errata.almalinux.org/8/ALSA-2026-88352.html           
 │                       │      │                  https://errata.rockylinux.org/RLSA-2026:88347                 
+│                       │      │                  https://linux.oracle.com/cve/CVE-2026-91397.html              
+│                       │      │                  https://linux.oracle.com/errata/ELSA-2026-90504.html          
 │                       │      │                  https://nvd.nist.gov/vuln/detail/CVE-2026-91397               
 │                       │      │                  https://www.cve.org/CVERecord?id=CVE-2026-91397               
 │                       │      │                  https://www.oracle.com/security-alerts/cpuoct2026.html        
@@ -5077,10 +5152,11 @@
 │                       │      ├ CweIDs                  
 │                       │      │                  ───────
 │                       │      │                  CWE-400
-│                       │      ├ VendorSeverity   ╭ alma  : 3 
-│                       │      │                  ├ amazon: 3 
-│                       │      │                  ├ redhat: 1 
-│                       │      │                  ╰ rocky : 3 
+│                       │      ├ VendorSeverity   ╭ alma       : 3 
+│                       │      │                  ├ amazon     : 3 
+│                       │      │                  ├ oracle-oval: 3 
+│                       │      │                  ├ redhat     : 1 
+│                       │      │                  ╰ rocky      : 3 
 │                       │      ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:R/S:U/C:N/I:N
 │                       │      │                           │           /A:L 
 │                       │      │                           ╰ V3Score : 3.1 
@@ -5206,6 +5282,8 @@
 │                       │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-91487 
 │                       │      │                  https://errata.almalinux.org/8/ALSA-2026-88352.html           
 │                       │      │                  https://errata.rockylinux.org/RLSA-2026:88347                 
+│                       │      │                  https://linux.oracle.com/cve/CVE-2026-91400.html              
+│                       │      │                  https://linux.oracle.com/errata/ELSA-2026-90504.html          
 │                       │      │                  https://nvd.nist.gov/vuln/detail/CVE-2026-91400               
 │                       │      │                  https://www.cve.org/CVERecord?id=CVE-2026-91400               
 │                       │      │                  https://www.oracle.com/security-alerts/cpuoct2026.html        
@@ -5314,10 +5392,11 @@
 │                       │      ├ CweIDs                  
 │                       │      │                  ───────
 │                       │      │                  CWE-295
-│                       │      ├ VendorSeverity   ╭ alma  : 3 
-│                       │      │                  ├ amazon: 3 
-│                       │      │                  ├ redhat: 1 
-│                       │      │                  ╰ rocky : 3 
+│                       │      ├ VendorSeverity   ╭ alma       : 3 
+│                       │      │                  ├ amazon     : 3 
+│                       │      │                  ├ oracle-oval: 3 
+│                       │      │                  ├ redhat     : 1 
+│                       │      │                  ╰ rocky      : 3 
 │                       │      ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:N/I:L
 │                       │      │                           │           /A:N 
 │                       │      │                           ╰ V3Score : 3.7 
@@ -5443,6 +5522,8 @@
 │                       │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-91487 
 │                       │      │                  https://errata.almalinux.org/8/ALSA-2026-88352.html           
 │                       │      │                  https://errata.rockylinux.org/RLSA-2026:88347                 
+│                       │      │                  https://linux.oracle.com/cve/CVE-2026-91461.html              
+│                       │      │                  https://linux.oracle.com/errata/ELSA-2026-90504.html          
 │                       │      │                  https://nvd.nist.gov/vuln/detail/CVE-2026-91461               
 │                       │      │                  https://www.cve.org/CVERecord?id=CVE-2026-91461               
 │                       │      │                  https://www.oracle.com/security-alerts/cpuoct2026.html        
@@ -5741,10 +5822,11 @@
 │                       │      ├ CweIDs                  
 │                       │      │                  ───────
 │                       │      │                  CWE-200
-│                       │      ├ VendorSeverity   ╭ alma  : 3 
-│                       │      │                  ├ amazon: 3 
-│                       │      │                  ├ redhat: 2 
-│                       │      │                  ╰ rocky : 3 
+│                       │      ├ VendorSeverity   ╭ alma       : 3 
+│                       │      │                  ├ amazon     : 3 
+│                       │      │                  ├ oracle-oval: 3 
+│                       │      │                  ├ redhat     : 2 
+│                       │      │                  ╰ rocky      : 3 
 │                       │      ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:N/I:H
 │                       │      │                           │           /A:N 
 │                       │      │                           ╰ V3Score : 5.9 
@@ -5870,6 +5952,8 @@
 │                       │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-91487 
 │                       │      │                  https://errata.almalinux.org/8/ALSA-2026-88352.html           
 │                       │      │                  https://errata.rockylinux.org/RLSA-2026:88347                 
+│                       │      │                  https://linux.oracle.com/cve/CVE-2026-83374.html              
+│                       │      │                  https://linux.oracle.com/errata/ELSA-2026-90504.html          
 │                       │      │                  https://nvd.nist.gov/vuln/detail/CVE-2026-83374               
 │                       │      │                  https://www.cve.org/CVERecord?id=CVE-2026-83374               
 │                       │      │                  https://www.oracle.com/security-alerts/cpuoct2026.html        
@@ -5914,10 +5998,11 @@
 │                       │      ├ CweIDs                  
 │                       │      │                  ───────
 │                       │      │                  CWE-284
-│                       │      ├ VendorSeverity   ╭ alma  : 3 
-│                       │      │                  ├ amazon: 3 
-│                       │      │                  ├ redhat: 2 
-│                       │      │                  ╰ rocky : 3 
+│                       │      ├ VendorSeverity   ╭ alma       : 3 
+│                       │      │                  ├ amazon     : 3 
+│                       │      │                  ├ oracle-oval: 3 
+│                       │      │                  ├ redhat     : 2 
+│                       │      │                  ╰ rocky      : 3 
 │                       │      ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:N/I:L
 │                       │      │                           │           /A:N 
 │                       │      │                           ╰ V3Score : 3.7 
@@ -6045,6 +6130,8 @@
 │                       │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-91487 
 │                       │      │                  https://errata.almalinux.org/8/ALSA-2026-88349.html           
 │                       │      │                  https://errata.rockylinux.org/RLSA-2026:88347                 
+│                       │      │                  https://linux.oracle.com/cve/CVE-2026-83378.html              
+│                       │      │                  https://linux.oracle.com/errata/ELSA-2026-90504.html          
 │                       │      │                  https://nvd.nist.gov/vuln/detail/CVE-2026-83378               
 │                       │      │                  https://www.cve.org/CVERecord?id=CVE-2026-83378               
 │                       │      │                  https://www.oracle.com/security-alerts/cpuoct2026.html        
@@ -6095,10 +6182,11 @@
 │                       │      ├ CweIDs                  
 │                       │      │                  ───────
 │                       │      │                  CWE-200
-│                       │      ├ VendorSeverity   ╭ alma  : 3 
-│                       │      │                  ├ amazon: 3 
-│                       │      │                  ├ redhat: 2 
-│                       │      │                  ╰ rocky : 3 
+│                       │      ├ VendorSeverity   ╭ alma       : 3 
+│                       │      │                  ├ amazon     : 3 
+│                       │      │                  ├ oracle-oval: 3 
+│                       │      │                  ├ redhat     : 2 
+│                       │      │                  ╰ rocky      : 3 
 │                       │      ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:L/I:L
 │                       │      │                           │           /A:N 
 │                       │      │                           ╰ V3Score : 4.8 
@@ -6224,6 +6312,8 @@
 │                       │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-91487 
 │                       │      │                  https://errata.almalinux.org/8/ALSA-2026-88352.html           
 │                       │      │                  https://errata.rockylinux.org/RLSA-2026:88347                 
+│                       │      │                  https://linux.oracle.com/cve/CVE-2026-83381.html              
+│                       │      │                  https://linux.oracle.com/errata/ELSA-2026-90504.html          
 │                       │      │                  https://nvd.nist.gov/vuln/detail/CVE-2026-83381               
 │                       │      │                  https://www.cve.org/CVERecord?id=CVE-2026-83381               
 │                       │      │                  https://www.oracle.com/security-alerts/cpuoct2026.html        
@@ -6276,10 +6366,11 @@
 │                       │      ├ CweIDs                  
 │                       │      │                  ───────
 │                       │      │                  CWE-200
-│                       │      ├ VendorSeverity   ╭ alma  : 3 
-│                       │      │                  ├ amazon: 3 
-│                       │      │                  ├ redhat: 2 
-│                       │      │                  ╰ rocky : 3 
+│                       │      ├ VendorSeverity   ╭ alma       : 3 
+│                       │      │                  ├ amazon     : 3 
+│                       │      │                  ├ oracle-oval: 3 
+│                       │      │                  ├ redhat     : 2 
+│                       │      │                  ╰ rocky      : 3 
 │                       │      ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:H/I:N
 │                       │      │                           │           /A:N 
 │                       │      │                           ╰ V3Score : 5.9 
@@ -6405,6 +6496,8 @@
 │                       │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-91487 
 │                       │      │                  https://errata.almalinux.org/8/ALSA-2026-88352.html           
 │                       │      │                  https://errata.rockylinux.org/RLSA-2026:88347                 
+│                       │      │                  https://linux.oracle.com/cve/CVE-2026-83387.html              
+│                       │      │                  https://linux.oracle.com/errata/ELSA-2026-90504.html          
 │                       │      │                  https://nvd.nist.gov/vuln/detail/CVE-2026-83387               
 │                       │      │                  https://www.cve.org/CVERecord?id=CVE-2026-83387               
 │                       │      │                  https://www.oracle.com/security-alerts/cpuoct2026.html        
@@ -6457,10 +6550,11 @@
 │                       │      ├ CweIDs                  
 │                       │      │                  ───────
 │                       │      │                  CWE-400
-│                       │      ├ VendorSeverity   ╭ alma  : 3 
-│                       │      │                  ├ amazon: 3 
-│                       │      │                  ├ redhat: 2 
-│                       │      │                  ╰ rocky : 3 
+│                       │      ├ VendorSeverity   ╭ alma       : 3 
+│                       │      │                  ├ amazon     : 3 
+│                       │      │                  ├ oracle-oval: 3 
+│                       │      │                  ├ redhat     : 2 
+│                       │      │                  ╰ rocky      : 3 
 │                       │      ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N
 │                       │      │                           │           /A:L 
 │                       │      │                           ╰ V3Score : 5.3 
@@ -6586,6 +6680,8 @@
 │                       │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-91487 
 │                       │      │                  https://errata.almalinux.org/8/ALSA-2026-88352.html           
 │                       │      │                  https://errata.rockylinux.org/RLSA-2026:88347                 
+│                       │      │                  https://linux.oracle.com/cve/CVE-2026-83400.html              
+│                       │      │                  https://linux.oracle.com/errata/ELSA-2026-90504.html          
 │                       │      │                  https://nvd.nist.gov/vuln/detail/CVE-2026-83400               
 │                       │      │                  https://www.cve.org/CVERecord?id=CVE-2026-83400               
 │                       │      │                  https://www.oracle.com/security-alerts/cpuoct2026.html        
@@ -6638,10 +6734,11 @@
 │                       │      ├ CweIDs                  
 │                       │      │                  ───────
 │                       │      │                  CWE-200
-│                       │      ├ VendorSeverity   ╭ alma  : 3 
-│                       │      │                  ├ amazon: 3 
-│                       │      │                  ├ redhat: 2 
-│                       │      │                  ╰ rocky : 3 
+│                       │      ├ VendorSeverity   ╭ alma       : 3 
+│                       │      │                  ├ amazon     : 3 
+│                       │      │                  ├ oracle-oval: 3 
+│                       │      │                  ├ redhat     : 2 
+│                       │      │                  ╰ rocky      : 3 
 │                       │      ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:L/I:N
 │                       │      │                           │           /A:N 
 │                       │      │                           ╰ V3Score : 3.7 
@@ -6767,6 +6864,8 @@
 │                       │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-91487 
 │                       │      │                  https://errata.almalinux.org/8/ALSA-2026-88352.html           
 │                       │      │                  https://errata.rockylinux.org/RLSA-2026:88347                 
+│                       │      │                  https://linux.oracle.com/cve/CVE-2026-87290.html              
+│                       │      │                  https://linux.oracle.com/errata/ELSA-2026-90504.html          
 │                       │      │                  https://nvd.nist.gov/vuln/detail/CVE-2026-87290               
 │                       │      │                  https://www.cve.org/CVERecord?id=CVE-2026-87290               
 │                       │      │                  https://www.oracle.com/security-alerts/cpuoct2026.html        
@@ -6810,10 +6909,11 @@
 │                       │      ├ CweIDs                  
 │                       │      │                  ───────
 │                       │      │                  CWE-287
-│                       │      ├ VendorSeverity   ╭ alma  : 3 
-│                       │      │                  ├ amazon: 3 
-│                       │      │                  ├ redhat: 2 
-│                       │      │                  ╰ rocky : 3 
+│                       │      ├ VendorSeverity   ╭ alma       : 3 
+│                       │      │                  ├ amazon     : 3 
+│                       │      │                  ├ oracle-oval: 3 
+│                       │      │                  ├ redhat     : 2 
+│                       │      │                  ╰ rocky      : 3 
 │                       │      ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:L/I:N
 │                       │      │                           │           /A:N 
 │                       │      │                           ╰ V3Score : 5.3 
@@ -6941,6 +7041,8 @@
 │                       │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-91487 
 │                       │      │                  https://errata.almalinux.org/8/ALSA-2026-88349.html           
 │                       │      │                  https://errata.rockylinux.org/RLSA-2026:88347                 
+│                       │      │                  https://linux.oracle.com/cve/CVE-2026-87291.html              
+│                       │      │                  https://linux.oracle.com/errata/ELSA-2026-90504.html          
 │                       │      │                  https://nvd.nist.gov/vuln/detail/CVE-2026-87291               
 │                       │      │                  https://www.cve.org/CVERecord?id=CVE-2026-87291               
 │                       │      │                  https://www.oracle.com/security-alerts/cpuoct2026.html        
@@ -6989,10 +7091,11 @@
 │                       │      ├ CweIDs                  
 │                       │      │                  ───────
 │                       │      │                  CWE-284
-│                       │      ├ VendorSeverity   ╭ alma  : 3 
-│                       │      │                  ├ amazon: 3 
-│                       │      │                  ├ redhat: 2 
-│                       │      │                  ╰ rocky : 3 
+│                       │      ├ VendorSeverity   ╭ alma       : 3 
+│                       │      │                  ├ amazon     : 3 
+│                       │      │                  ├ oracle-oval: 3 
+│                       │      │                  ├ redhat     : 2 
+│                       │      │                  ╰ rocky      : 3 
 │                       │      ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:L
 │                       │      │                           │           /A:N 
 │                       │      │                           ╰ V3Score : 5.3 
@@ -7118,6 +7221,8 @@
 │                       │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-91487 
 │                       │      │                  https://errata.almalinux.org/8/ALSA-2026-88352.html           
 │                       │      │                  https://errata.rockylinux.org/RLSA-2026:88347                 
+│                       │      │                  https://linux.oracle.com/cve/CVE-2026-91332.html              
+│                       │      │                  https://linux.oracle.com/errata/ELSA-2026-90504.html          
 │                       │      │                  https://nvd.nist.gov/vuln/detail/CVE-2026-91332               
 │                       │      │                  https://www.cve.org/CVERecord?id=CVE-2026-91332               
 │                       │      │                  https://www.oracle.com/security-alerts/cpuoct2026.html        
@@ -7166,10 +7271,11 @@
 │                       │      ├ CweIDs                  
 │                       │      │                  ───────
 │                       │      │                  CWE-400
-│                       │      ├ VendorSeverity   ╭ alma  : 3 
-│                       │      │                  ├ amazon: 3 
-│                       │      │                  ├ redhat: 2 
-│                       │      │                  ╰ rocky : 3 
+│                       │      ├ VendorSeverity   ╭ alma       : 3 
+│                       │      │                  ├ amazon     : 3 
+│                       │      │                  ├ oracle-oval: 3 
+│                       │      │                  ├ redhat     : 2 
+│                       │      │                  ╰ rocky      : 3 
 │                       │      ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N
 │                       │      │                           │           /A:L 
 │                       │      │                           ╰ V3Score : 5.3 
@@ -7295,6 +7401,8 @@
 │                       │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-91487 
 │                       │      │                  https://errata.almalinux.org/8/ALSA-2026-88352.html           
 │                       │      │                  https://errata.rockylinux.org/RLSA-2026:88347                 
+│                       │      │                  https://linux.oracle.com/cve/CVE-2026-91373.html              
+│                       │      │                  https://linux.oracle.com/errata/ELSA-2026-90504.html          
 │                       │      │                  https://nvd.nist.gov/vuln/detail/CVE-2026-91373               
 │                       │      │                  https://www.cve.org/CVERecord?id=CVE-2026-91373               
 │                       │      │                  https://www.oracle.com/security-alerts/cpuoct2026.html        
@@ -7350,10 +7458,11 @@
 │                       │      ├ CweIDs                  
 │                       │      │                  ───────
 │                       │      │                  CWE-284
-│                       │      ├ VendorSeverity   ╭ alma  : 3 
-│                       │      │                  ├ amazon: 3 
-│                       │      │                  ├ redhat: 2 
-│                       │      │                  ╰ rocky : 3 
+│                       │      ├ VendorSeverity   ╭ alma       : 3 
+│                       │      │                  ├ amazon     : 3 
+│                       │      │                  ├ oracle-oval: 3 
+│                       │      │                  ├ redhat     : 2 
+│                       │      │                  ╰ rocky      : 3 
 │                       │      ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:L/I:L
 │                       │      │                           │           /A:N 
 │                       │      │                           ╰ V3Score : 4.8 
@@ -7479,6 +7588,8 @@
 │                       │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-91487 
 │                       │      │                  https://errata.almalinux.org/8/ALSA-2026-88352.html           
 │                       │      │                  https://errata.rockylinux.org/RLSA-2026:88347                 
+│                       │      │                  https://linux.oracle.com/cve/CVE-2026-91374.html              
+│                       │      │                  https://linux.oracle.com/errata/ELSA-2026-90504.html          
 │                       │      │                  https://nvd.nist.gov/vuln/detail/CVE-2026-91374               
 │                       │      │                  https://www.cve.org/CVERecord?id=CVE-2026-91374               
 │                       │      │                  https://www.oracle.com/security-alerts/cpuoct2026.html        
@@ -7529,10 +7640,11 @@
 │                       │      ├ CweIDs                  
 │                       │      │                  ───────
 │                       │      │                  CWE-863
-│                       │      ├ VendorSeverity   ╭ alma  : 3 
-│                       │      │                  ├ amazon: 3 
-│                       │      │                  ├ redhat: 2 
-│                       │      │                  ╰ rocky : 3 
+│                       │      ├ VendorSeverity   ╭ alma       : 3 
+│                       │      │                  ├ amazon     : 3 
+│                       │      │                  ├ oracle-oval: 3 
+│                       │      │                  ├ redhat     : 2 
+│                       │      │                  ╰ rocky      : 3 
 │                       │      ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:L/AC:H/PR:N/UI:R/S:U/C:N/I:H
 │                       │      │                           │           /A:N 
 │                       │      │                           ╰ V3Score : 4.7 
@@ -7658,6 +7770,8 @@
 │                       │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-91487 
 │                       │      │                  https://errata.almalinux.org/8/ALSA-2026-88352.html           
 │                       │      │                  https://errata.rockylinux.org/RLSA-2026:88347                 
+│                       │      │                  https://linux.oracle.com/cve/CVE-2026-91375.html              
+│                       │      │                  https://linux.oracle.com/errata/ELSA-2026-90504.html          
 │                       │      │                  https://nvd.nist.gov/vuln/detail/CVE-2026-91375               
 │                       │      │                  https://www.cve.org/CVERecord?id=CVE-2026-91375               
 │                       │      │                  https://www.oracle.com/security-alerts/cpuoct2026.html        
@@ -7713,10 +7827,11 @@
 │                       │      ├ CweIDs                  
 │                       │      │                  ───────
 │                       │      │                  CWE-416
-│                       │      ├ VendorSeverity   ╭ alma  : 3 
-│                       │      │                  ├ amazon: 3 
-│                       │      │                  ├ redhat: 2 
-│                       │      │                  ╰ rocky : 3 
+│                       │      ├ VendorSeverity   ╭ alma       : 3 
+│                       │      │                  ├ amazon     : 3 
+│                       │      │                  ├ oracle-oval: 3 
+│                       │      │                  ├ redhat     : 2 
+│                       │      │                  ╰ rocky      : 3 
 │                       │      ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:L/AC:H/PR:N/UI:R/S:U/C:N/I:H
 │                       │      │                           │           /A:N 
 │                       │      │                           ╰ V3Score : 4.7 
@@ -7842,6 +7957,8 @@
 │                       │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-91487 
 │                       │      │                  https://errata.almalinux.org/8/ALSA-2026-88352.html           
 │                       │      │                  https://errata.rockylinux.org/RLSA-2026:88347                 
+│                       │      │                  https://linux.oracle.com/cve/CVE-2026-91379.html              
+│                       │      │                  https://linux.oracle.com/errata/ELSA-2026-90504.html          
 │                       │      │                  https://nvd.nist.gov/vuln/detail/CVE-2026-91379               
 │                       │      │                  https://www.cve.org/CVERecord?id=CVE-2026-91379               
 │                       │      │                  https://www.oracle.com/security-alerts/cpuoct2026.html        
@@ -7949,10 +8066,11 @@
 │                       │      ├ CweIDs                  
 │                       │      │                  ───────
 │                       │      │                  CWE-400
-│                       │      ├ VendorSeverity   ╭ alma  : 3 
-│                       │      │                  ├ amazon: 3 
-│                       │      │                  ├ redhat: 2 
-│                       │      │                  ╰ rocky : 3 
+│                       │      ├ VendorSeverity   ╭ alma       : 3 
+│                       │      │                  ├ amazon     : 3 
+│                       │      │                  ├ oracle-oval: 3 
+│                       │      │                  ├ redhat     : 2 
+│                       │      │                  ╰ rocky      : 3 
 │                       │      ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N
 │                       │      │                           │           /A:L 
 │                       │      │                           ╰ V3Score : 5.3 
@@ -8078,6 +8196,8 @@
 │                       │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-91487 
 │                       │      │                  https://errata.almalinux.org/8/ALSA-2026-88352.html           
 │                       │      │                  https://errata.rockylinux.org/RLSA-2026:88347                 
+│                       │      │                  https://linux.oracle.com/cve/CVE-2026-91418.html              
+│                       │      │                  https://linux.oracle.com/errata/ELSA-2026-90504.html          
 │                       │      │                  https://nvd.nist.gov/vuln/detail/CVE-2026-91418               
 │                       │      │                  https://www.cve.org/CVERecord?id=CVE-2026-91418               
 │                       │      │                  https://www.oracle.com/security-alerts/cpuoct2026.html        
@@ -8123,10 +8243,11 @@
 │                       │      ├ CweIDs                  
 │                       │      │                  ───────
 │                       │      │                  CWE-284
-│                       │      ├ VendorSeverity   ╭ alma  : 3 
-│                       │      │                  ├ amazon: 3 
-│                       │      │                  ├ redhat: 2 
-│                       │      │                  ╰ rocky : 3 
+│                       │      ├ VendorSeverity   ╭ alma       : 3 
+│                       │      │                  ├ amazon     : 3 
+│                       │      │                  ├ oracle-oval: 3 
+│                       │      │                  ├ redhat     : 2 
+│                       │      │                  ╰ rocky      : 3 
 │                       │      ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:L
 │                       │      │                           │           /A:N 
 │                       │      │                           ╰ V3Score : 5.3 
@@ -8252,6 +8373,8 @@
 │                       │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-91487 
 │                       │      │                  https://errata.almalinux.org/8/ALSA-2026-88352.html           
 │                       │      │                  https://errata.rockylinux.org/RLSA-2026:88347                 
+│                       │      │                  https://linux.oracle.com/cve/CVE-2026-91451.html              
+│                       │      │                  https://linux.oracle.com/errata/ELSA-2026-90504.html          
 │                       │      │                  https://nvd.nist.gov/vuln/detail/CVE-2026-91451               
 │                       │      │                  https://www.cve.org/CVERecord?id=CVE-2026-91451               
 │                       │      │                  https://www.oracle.com/security-alerts/cpuoct2026.html        
@@ -8301,10 +8424,11 @@
 │                       │      ├ CweIDs                  
 │                       │      │                  ───────
 │                       │      │                  CWE-284
-│                       │      ├ VendorSeverity   ╭ alma  : 3 
-│                       │      │                  ├ amazon: 3 
-│                       │      │                  ├ redhat: 2 
-│                       │      │                  ╰ rocky : 3 
+│                       │      ├ VendorSeverity   ╭ alma       : 3 
+│                       │      │                  ├ amazon     : 3 
+│                       │      │                  ├ oracle-oval: 3 
+│                       │      │                  ├ redhat     : 2 
+│                       │      │                  ╰ rocky      : 3 
 │                       │      ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:L
 │                       │      │                           │           /A:N 
 │                       │      │                           ╰ V3Score : 5.3 
@@ -8430,6 +8554,8 @@
 │                       │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-91487 
 │                       │      │                  https://errata.almalinux.org/8/ALSA-2026-88352.html           
 │                       │      │                  https://errata.rockylinux.org/RLSA-2026:88347                 
+│                       │      │                  https://linux.oracle.com/cve/CVE-2026-91452.html              
+│                       │      │                  https://linux.oracle.com/errata/ELSA-2026-90504.html          
 │                       │      │                  https://nvd.nist.gov/vuln/detail/CVE-2026-91452               
 │                       │      │                  https://www.cve.org/CVERecord?id=CVE-2026-91452               
 │                       │      │                  https://www.oracle.com/security-alerts/cpuoct2026.html        
@@ -8479,10 +8605,11 @@
 │                       │      ├ CweIDs                  
 │                       │      │                  ───────
 │                       │      │                  CWE-284
-│                       │      ├ VendorSeverity   ╭ alma  : 3 
-│                       │      │                  ├ amazon: 3 
-│                       │      │                  ├ redhat: 2 
-│                       │      │                  ╰ rocky : 3 
+│                       │      ├ VendorSeverity   ╭ alma       : 3 
+│                       │      │                  ├ amazon     : 3 
+│                       │      │                  ├ oracle-oval: 3 
+│                       │      │                  ├ redhat     : 2 
+│                       │      │                  ╰ rocky      : 3 
 │                       │      ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:L
 │                       │      │                           │           /A:N 
 │                       │      │                           ╰ V3Score : 5.3 
@@ -8608,6 +8735,8 @@
 │                       │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-91487 
 │                       │      │                  https://errata.almalinux.org/8/ALSA-2026-88352.html           
 │                       │      │                  https://errata.rockylinux.org/RLSA-2026:88347                 
+│                       │      │                  https://linux.oracle.com/cve/CVE-2026-91453.html              
+│                       │      │                  https://linux.oracle.com/errata/ELSA-2026-90504.html          
 │                       │      │                  https://nvd.nist.gov/vuln/detail/CVE-2026-91453               
 │                       │      │                  https://www.cve.org/CVERecord?id=CVE-2026-91453               
 │                       │      │                  https://www.oracle.com/security-alerts/cpuoct2026.html        
@@ -8657,10 +8786,11 @@
 │                       │      ├ CweIDs                  
 │                       │      │                  ───────
 │                       │      │                  CWE-284
-│                       │      ├ VendorSeverity   ╭ alma  : 3 
-│                       │      │                  ├ amazon: 3 
-│                       │      │                  ├ redhat: 2 
-│                       │      │                  ╰ rocky : 3 
+│                       │      ├ VendorSeverity   ╭ alma       : 3 
+│                       │      │                  ├ amazon     : 3 
+│                       │      │                  ├ oracle-oval: 3 
+│                       │      │                  ├ redhat     : 2 
+│                       │      │                  ╰ rocky      : 3 
 │                       │      ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:N/I:H
 │                       │      │                           │           /A:N 
 │                       │      │                           ╰ V3Score : 5.9 
@@ -8786,6 +8916,8 @@
 │                       │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-91487 
 │                       │      │                  https://errata.almalinux.org/8/ALSA-2026-88352.html           
 │                       │      │                  https://errata.rockylinux.org/RLSA-2026:88347                 
+│                       │      │                  https://linux.oracle.com/cve/CVE-2026-91462.html              
+│                       │      │                  https://linux.oracle.com/errata/ELSA-2026-90504.html          
 │                       │      │                  https://nvd.nist.gov/vuln/detail/CVE-2026-91462               
 │                       │      │                  https://www.cve.org/CVERecord?id=CVE-2026-91462               
 │                       │      │                  https://www.oracle.com/security-alerts/cpuoct2026.html        
@@ -8840,10 +8972,11 @@
 │                       │      ├ CweIDs                  
 │                       │      │                  ───────
 │                       │      │                  CWE-416
-│                       │      ├ VendorSeverity   ╭ alma  : 3 
-│                       │      │                  ├ amazon: 3 
-│                       │      │                  ├ redhat: 2 
-│                       │      │                  ╰ rocky : 3 
+│                       │      ├ VendorSeverity   ╭ alma       : 3 
+│                       │      │                  ├ amazon     : 3 
+│                       │      │                  ├ oracle-oval: 3 
+│                       │      │                  ├ redhat     : 2 
+│                       │      │                  ╰ rocky      : 3 
 │                       │      ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:R/S:U/C:H/I:N
 │                       │      │                           │           /A:N 
 │                       │      │                           ╰ V3Score : 5.3 
@@ -8969,6 +9102,8 @@
 │                       │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-91487 
 │                       │      │                  https://errata.almalinux.org/8/ALSA-2026-88352.html           
 │                       │      │                  https://errata.rockylinux.org/RLSA-2026:88347                 
+│                       │      │                  https://linux.oracle.com/cve/CVE-2026-91463.html              
+│                       │      │                  https://linux.oracle.com/errata/ELSA-2026-90504.html          
 │                       │      │                  https://nvd.nist.gov/vuln/detail/CVE-2026-91463               
 │                       │      │                  https://www.cve.org/CVERecord?id=CVE-2026-91463               
 │                       │      │                  https://www.oracle.com/security-alerts/cpuoct2026.html        
@@ -9023,10 +9158,11 @@
 │                       │      ├ CweIDs                  
 │                       │      │                  ───────
 │                       │      │                  CWE-416
-│                       │      ├ VendorSeverity   ╭ alma  : 3 
-│                       │      │                  ├ amazon: 3 
-│                       │      │                  ├ redhat: 2 
-│                       │      │                  ╰ rocky : 3 
+│                       │      ├ VendorSeverity   ╭ alma       : 3 
+│                       │      │                  ├ amazon     : 3 
+│                       │      │                  ├ oracle-oval: 3 
+│                       │      │                  ├ redhat     : 2 
+│                       │      │                  ╰ rocky      : 3 
 │                       │      ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:R/S:U/C:H/I:N
 │                       │      │                           │           /A:N 
 │                       │      │                           ╰ V3Score : 5.3 
@@ -9152,6 +9288,8 @@
 │                       │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-91487 
 │                       │      │                  https://errata.almalinux.org/8/ALSA-2026-88352.html           
 │                       │      │                  https://errata.rockylinux.org/RLSA-2026:88347                 
+│                       │      │                  https://linux.oracle.com/cve/CVE-2026-91464.html              
+│                       │      │                  https://linux.oracle.com/errata/ELSA-2026-90504.html          
 │                       │      │                  https://nvd.nist.gov/vuln/detail/CVE-2026-91464               
 │                       │      │                  https://www.cve.org/CVERecord?id=CVE-2026-91464               
 │                       │      │                  https://www.oracle.com/security-alerts/cpuoct2026.html        
@@ -9199,10 +9337,11 @@
 │                       │      ├ CweIDs                  
 │                       │      │                  ───────
 │                       │      │                  CWE-284
-│                       │      ├ VendorSeverity   ╭ alma  : 3 
-│                       │      │                  ├ amazon: 3 
-│                       │      │                  ├ redhat: 2 
-│                       │      │                  ╰ rocky : 3 
+│                       │      ├ VendorSeverity   ╭ alma       : 3 
+│                       │      │                  ├ amazon     : 3 
+│                       │      │                  ├ oracle-oval: 3 
+│                       │      │                  ├ redhat     : 2 
+│                       │      │                  ╰ rocky      : 3 
 │                       │      ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:L/I:L
 │                       │      │                           │           /A:N 
 │                       │      │                           ╰ V3Score : 4.8 
@@ -9328,6 +9467,8 @@
 │                       │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-91487 
 │                       │      │                  https://errata.almalinux.org/8/ALSA-2026-88352.html           
 │                       │      │                  https://errata.rockylinux.org/RLSA-2026:88347                 
+│                       │      │                  https://linux.oracle.com/cve/CVE-2026-91487.html              
+│                       │      │                  https://linux.oracle.com/errata/ELSA-2026-90504.html          
 │                       │      │                  https://nvd.nist.gov/vuln/detail/CVE-2026-91487               
 │                       │      │                  https://www.cve.org/CVERecord?id=CVE-2026-91487               
 │                       │      │                  https://www.oracle.com/security-alerts/cpuoct2026.html        
@@ -9379,10 +9520,11 @@
 │                       │      ├ CweIDs                  
 │                       │      │                  ───────
 │                       │      │                  CWE-200
-│                       │      ├ VendorSeverity   ╭ alma  : 3 
-│                       │      │                  ├ amazon: 3 
-│                       │      │                  ├ redhat: 1 
-│                       │      │                  ╰ rocky : 3 
+│                       │      ├ VendorSeverity   ╭ alma       : 3 
+│                       │      │                  ├ amazon     : 3 
+│                       │      │                  ├ oracle-oval: 3 
+│                       │      │                  ├ redhat     : 1 
+│                       │      │                  ╰ rocky      : 3 
 │                       │      ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:N/I:L
 │                       │      │                           │           /A:N 
 │                       │      │                           ╰ V3Score : 3.7 
@@ -9508,6 +9650,8 @@
 │                       │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-91487 
 │                       │      │                  https://errata.almalinux.org/8/ALSA-2026-88352.html           
 │                       │      │                  https://errata.rockylinux.org/RLSA-2026:88347                 
+│                       │      │                  https://linux.oracle.com/cve/CVE-2026-83376.html              
+│                       │      │                  https://linux.oracle.com/errata/ELSA-2026-90504.html          
 │                       │      │                  https://nvd.nist.gov/vuln/detail/CVE-2026-83376               
 │                       │      │                  https://www.cve.org/CVERecord?id=CVE-2026-83376               
 │                       │      │                  https://www.oracle.com/security-alerts/cpuoct2026.html        
@@ -9733,10 +9877,11 @@
 │                       │      ├ CweIDs                  
 │                       │      │                  ───────
 │                       │      │                  CWE-287
-│                       │      ├ VendorSeverity   ╭ alma  : 3 
-│                       │      │                  ├ amazon: 3 
-│                       │      │                  ├ redhat: 1 
-│                       │      │                  ╰ rocky : 3 
+│                       │      ├ VendorSeverity   ╭ alma       : 3 
+│                       │      │                  ├ amazon     : 3 
+│                       │      │                  ├ oracle-oval: 3 
+│                       │      │                  ├ redhat     : 1 
+│                       │      │                  ╰ rocky      : 3 
 │                       │      ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:N/I:L
 │                       │      │                           │           /A:N 
 │                       │      │                           ╰ V3Score : 3.7 
@@ -9862,6 +10007,8 @@
 │                       │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-91487 
 │                       │      │                  https://errata.almalinux.org/8/ALSA-2026-88352.html           
 │                       │      │                  https://errata.rockylinux.org/RLSA-2026:88347                 
+│                       │      │                  https://linux.oracle.com/cve/CVE-2026-87292.html              
+│                       │      │                  https://linux.oracle.com/errata/ELSA-2026-90504.html          
 │                       │      │                  https://nvd.nist.gov/vuln/detail/CVE-2026-87292               
 │                       │      │                  https://www.cve.org/CVERecord?id=CVE-2026-87292               
 │                       │      │                  https://www.oracle.com/security-alerts/cpuoct2026.html        
@@ -9914,10 +10061,11 @@
 │                       │      ├ CweIDs                  
 │                       │      │                  ───────
 │                       │      │                  CWE-200
-│                       │      ├ VendorSeverity   ╭ alma  : 3 
-│                       │      │                  ├ amazon: 3 
-│                       │      │                  ├ redhat: 1 
-│                       │      │                  ╰ rocky : 3 
+│                       │      ├ VendorSeverity   ╭ alma       : 3 
+│                       │      │                  ├ amazon     : 3 
+│                       │      │                  ├ oracle-oval: 3 
+│                       │      │                  ├ redhat     : 1 
+│                       │      │                  ╰ rocky      : 3 
 │                       │      ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:N/I:L
 │                       │      │                           │           /A:N 
 │                       │      │                           ╰ V3Score : 3.7 
@@ -10043,6 +10191,8 @@
 │                       │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-91487 
 │                       │      │                  https://errata.almalinux.org/8/ALSA-2026-88352.html           
 │                       │      │                  https://errata.rockylinux.org/RLSA-2026:88347                 
+│                       │      │                  https://linux.oracle.com/cve/CVE-2026-87367.html              
+│                       │      │                  https://linux.oracle.com/errata/ELSA-2026-90504.html          
 │                       │      │                  https://nvd.nist.gov/vuln/detail/CVE-2026-87367               
 │                       │      │                  https://www.cve.org/CVERecord?id=CVE-2026-87367               
 │                       │      │                  https://www.oracle.com/security-alerts/cpuoct2026.html        
@@ -10096,10 +10246,11 @@
 │                       │      ├ CweIDs                  
 │                       │      │                  ───────
 │                       │      │                  CWE-250
-│                       │      ├ VendorSeverity   ╭ alma  : 3 
-│                       │      │                  ├ amazon: 3 
-│                       │      │                  ├ redhat: 1 
-│                       │      │                  ╰ rocky : 3 
+│                       │      ├ VendorSeverity   ╭ alma       : 3 
+│                       │      │                  ├ amazon     : 3 
+│                       │      │                  ├ oracle-oval: 3 
+│                       │      │                  ├ redhat     : 1 
+│                       │      │                  ╰ rocky      : 3 
 │                       │      ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:H/PR:L/UI:R/S:U/C:L/I:N
 │                       │      │                           │           /A:N 
 │                       │      │                           ╰ V3Score : 2.6 
@@ -10225,6 +10376,8 @@
 │                       │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-91487 
 │                       │      │                  https://errata.almalinux.org/8/ALSA-2026-88352.html           
 │                       │      │                  https://errata.rockylinux.org/RLSA-2026:88347                 
+│                       │      │                  https://linux.oracle.com/cve/CVE-2026-91335.html              
+│                       │      │                  https://linux.oracle.com/errata/ELSA-2026-90504.html          
 │                       │      │                  https://nvd.nist.gov/vuln/detail/CVE-2026-91335               
 │                       │      │                  https://www.cve.org/CVERecord?id=CVE-2026-91335               
 │                       │      │                  https://www.oracle.com/security-alerts/cpuoct2026.html        
@@ -10339,10 +10492,11 @@
 │                       │      ├ CweIDs                  
 │                       │      │                  ───────
 │                       │      │                  CWE-284
-│                       │      ├ VendorSeverity   ╭ alma  : 3 
-│                       │      │                  ├ amazon: 3 
-│                       │      │                  ├ redhat: 1 
-│                       │      │                  ╰ rocky : 3 
+│                       │      ├ VendorSeverity   ╭ alma       : 3 
+│                       │      │                  ├ amazon     : 3 
+│                       │      │                  ├ oracle-oval: 3 
+│                       │      │                  ├ redhat     : 1 
+│                       │      │                  ╰ rocky      : 3 
 │                       │      ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:L/AC:H/PR:N/UI:R/S:U/C:N/I:L
 │                       │      │                           │           /A:L 
 │                       │      │                           ╰ V3Score : 3.6 
@@ -10468,6 +10622,8 @@
 │                       │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-91487 
 │                       │      │                  https://errata.almalinux.org/8/ALSA-2026-88352.html           
 │                       │      │                  https://errata.rockylinux.org/RLSA-2026:88347                 
+│                       │      │                  https://linux.oracle.com/cve/CVE-2026-91397.html              
+│                       │      │                  https://linux.oracle.com/errata/ELSA-2026-90504.html          
 │                       │      │                  https://nvd.nist.gov/vuln/detail/CVE-2026-91397               
 │                       │      │                  https://www.cve.org/CVERecord?id=CVE-2026-91397               
 │                       │      │                  https://www.oracle.com/security-alerts/cpuoct2026.html        
@@ -10522,10 +10678,11 @@
 │                       │      ├ CweIDs                  
 │                       │      │                  ───────
 │                       │      │                  CWE-400
-│                       │      ├ VendorSeverity   ╭ alma  : 3 
-│                       │      │                  ├ amazon: 3 
-│                       │      │                  ├ redhat: 1 
-│                       │      │                  ╰ rocky : 3 
+│                       │      ├ VendorSeverity   ╭ alma       : 3 
+│                       │      │                  ├ amazon     : 3 
+│                       │      │                  ├ oracle-oval: 3 
+│                       │      │                  ├ redhat     : 1 
+│                       │      │                  ╰ rocky      : 3 
 │                       │      ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:R/S:U/C:N/I:N
 │                       │      │                           │           /A:L 
 │                       │      │                           ╰ V3Score : 3.1 
@@ -10651,6 +10808,8 @@
 │                       │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-91487 
 │                       │      │                  https://errata.almalinux.org/8/ALSA-2026-88352.html           
 │                       │      │                  https://errata.rockylinux.org/RLSA-2026:88347                 
+│                       │      │                  https://linux.oracle.com/cve/CVE-2026-91400.html              
+│                       │      │                  https://linux.oracle.com/errata/ELSA-2026-90504.html          
 │                       │      │                  https://nvd.nist.gov/vuln/detail/CVE-2026-91400               
 │                       │      │                  https://www.cve.org/CVERecord?id=CVE-2026-91400               
 │                       │      │                  https://www.oracle.com/security-alerts/cpuoct2026.html        
@@ -10759,10 +10918,11 @@
 │                              ├ CweIDs                  
 │                              │                  ───────
 │                              │                  CWE-295
-│                              ├ VendorSeverity   ╭ alma  : 3 
-│                              │                  ├ amazon: 3 
-│                              │                  ├ redhat: 1 
-│                              │                  ╰ rocky : 3 
+│                              ├ VendorSeverity   ╭ alma       : 3 
+│                              │                  ├ amazon     : 3 
+│                              │                  ├ oracle-oval: 3 
+│                              │                  ├ redhat     : 1 
+│                              │                  ╰ rocky      : 3 
 │                              ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:N/I:L
 │                              │                           │           /A:N 
 │                              │                           ╰ V3Score : 3.7 
@@ -10888,6 +11048,8 @@
 │                              │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-91487 
 │                              │                  https://errata.almalinux.org/8/ALSA-2026-88352.html           
 │                              │                  https://errata.rockylinux.org/RLSA-2026:88347                 
+│                              │                  https://linux.oracle.com/cve/CVE-2026-91461.html              
+│                              │                  https://linux.oracle.com/errata/ELSA-2026-90504.html          
 │                              │                  https://nvd.nist.gov/vuln/detail/CVE-2026-91461               
 │                              │                  https://www.cve.org/CVERecord?id=CVE-2026-91461               
 │                              │                  https://www.oracle.com/security-alerts/cpuoct2026.html        
