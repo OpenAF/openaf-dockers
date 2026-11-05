@@ -20,8 +20,8 @@
 │                       │      ├ DataSource       ╭ ID  : alpine 
 │                       │      │                  ├ Name: Alpine Secdb 
 │                       │      │                  ╰ URL : https://secdb.alpinelinux.org/ 
-│                       │      ├ Fingerprint     : sha256:19c35f42356b4519bf359546d2db700009e8cd9cd1ca561b2261b
-│                       │      │                   9e7966c6288 
+│                       │      ├ Fingerprint     : sha256:fc7871d0c521da91b915729f169597351d5a090207e4693100bc1
+│                       │      │                   d61a1809f23 
 │                       │      ├ Title           : OpenJDK: Distrust eMudhra intermediate CA certificates due
 │                       │      │                   to security concerns 
 │                       │      ├ Description     : Vulnerability in the Oracle Java SE, Oracle GraalVM for JDK,
@@ -90,8 +90,8 @@
 │                       │      ├ DataSource       ╭ ID  : alpine 
 │                       │      │                  ├ Name: Alpine Secdb 
 │                       │      │                  ╰ URL : https://secdb.alpinelinux.org/ 
-│                       │      ├ Fingerprint     : sha256:70490747a25c489fa6df980ca49fee4fdd15f814628d628e115ae
-│                       │      │                   ac416f2943a 
+│                       │      ├ Fingerprint     : sha256:14da0e5247ef2832428ec53a8d2ed19f7cc24e51adff0cb989b9c
+│                       │      │                   6b42bf5f386 
 │                       │      ├ Title           : An issue was discovered in GStreamer gst-plugins-good before
 │                       │      │                    1.28.2. W ... 
 │                       │      ├ Description     : An issue was discovered in GStreamer gst-plugins-good before
@@ -138,8 +138,8 @@
 │                       │      ├ DataSource       ╭ ID  : alpine 
 │                       │      │                  ├ Name: Alpine Secdb 
 │                       │      │                  ╰ URL : https://secdb.alpinelinux.org/ 
-│                       │      ├ Fingerprint     : sha256:a0393fb63e6b95d9c8cbc655347318653a00baf5f5ac761104323
-│                       │      │                   3f3ea8ad662 
+│                       │      ├ Fingerprint     : sha256:fe0e65829310b2df050c2b310d997d740601e325cd6280a6d7588
+│                       │      │                   aa5eae96517 
 │                       │      ├ Title           : OpenJDK: Distrust eMudhra intermediate CA certificates due
 │                       │      │                   to security concerns 
 │                       │      ├ Description     : Vulnerability in the Oracle Java SE, Oracle GraalVM for JDK,
@@ -207,8 +207,8 @@
 │                       │      ├ DataSource       ╭ ID  : alpine 
 │                       │      │                  ├ Name: Alpine Secdb 
 │                       │      │                  ╰ URL : https://secdb.alpinelinux.org/ 
-│                       │      ├ Fingerprint     : sha256:720901b502d8cb7e8da288a25cd293de3542645146136429b54e4
-│                       │      │                   4157d3a834c 
+│                       │      ├ Fingerprint     : sha256:b007d3b30182bb430c541c90b22864145598c981bbad98f76ab39
+│                       │      │                   472f4add3a4 
 │                       │      ├ Title           : libxml2: libxml2: Denial of Service via crafted
 │                       │      │                   XSD-validated document 
 │                       │      ├ Description     : A flaw was found in libxml2. This vulnerability occurs when
@@ -266,8 +266,8 @@
 │                       │      ├ DataSource       ╭ ID  : alpine 
 │                       │      │                  ├ Name: Alpine Secdb 
 │                       │      │                  ╰ URL : https://secdb.alpinelinux.org/ 
-│                       │      ├ Fingerprint     : sha256:192eda3d8fcfdba5db5a7f53e198bf5d3c4c94935160f4d8792aa
-│                       │      │                   8c9582698cf 
+│                       │      ├ Fingerprint     : sha256:a9ecc7ab604229de9c9a9f20401780760f3051136319476504b39
+│                       │      │                   34f8824bb9b 
 │                       │      ├ Title           : openjdk: Enhance PKCS5 padding (Oracle CPU 2026-10) 
 │                       │      ├ Description     : Vulnerability in the Oracle Java SE, Oracle GraalVM for JDK,
 │                       │      │                    Oracle GraalVM Enterprise Edition product of Oracle Java SE
@@ -306,7 +306,8 @@
 │                       │      │                           ╰ V3Score : 5.9 
 │                       │      ├ References                                                                     
 │                       │      │                  ──────────────────────────────────────────────────────────────
-│                       │      │                  https://access.redhat.com/errata/RHSA-2026:88352              
+│                       │      │                  https://access.redhat.com/errata/RHSA-2026:88347              
+│                       │      │                  https://access.redhat.com/errata/RHSA-2026:90500              
 │                       │      │                  https://access.redhat.com/security/cve/CVE-2026-83374         
 │                       │      │                  https://bugzilla.redhat.com/2556709                           
 │                       │      │                  https://bugzilla.redhat.com/2556795                           
@@ -349,10 +350,12 @@
 │                       │      │                  https://bugzilla.redhat.com/show_bug.cgi?id=2556824           
 │                       │      │                  https://bugzilla.redhat.com/show_bug.cgi?id=2556837           
 │                       │      │                  https://bugzilla.redhat.com/show_bug.cgi?id=2556859           
+│                       │      │                  https://bugzilla.redhat.com/show_bug.cgi?id=2556960           
 │                       │      │                  https://bugzilla.redhat.com/show_bug.cgi?id=2557007           
 │                       │      │                  https://bugzilla.redhat.com/show_bug.cgi?id=2557032           
 │                       │      │                  https://bugzilla.redhat.com/show_bug.cgi?id=2557041           
 │                       │      │                  https://bugzilla.redhat.com/show_bug.cgi?id=2557047           
+│                       │      │                  https://bugzilla.redhat.com/show_bug.cgi?id=2557056           
 │                       │      │                  https://bugzilla.redhat.com/show_bug.cgi?id=2557079           
 │                       │      │                  https://bugzilla.redhat.com/show_bug.cgi?id=2557110           
 │                       │      │                  https://bugzilla.redhat.com/show_bug.cgi?id=2557117           
@@ -361,6 +364,7 @@
 │                       │      │                  https://bugzilla.redhat.com/show_bug.cgi?id=2557236           
 │                       │      │                  https://bugzilla.redhat.com/show_bug.cgi?id=2557261           
 │                       │      │                  https://bugzilla.redhat.com/show_bug.cgi?id=2557356           
+│                       │      │                  https://bugzilla.redhat.com/show_bug.cgi?id=2557364           
 │                       │      │                  https://bugzilla.redhat.com/show_bug.cgi?id=2557405           
 │                       │      │                  https://bugzilla.redhat.com/show_bug.cgi?id=2557427           
 │                       │      │                  https://bugzilla.redhat.com/show_bug.cgi?id=2557443           
@@ -369,12 +373,12 @@
 │                       │      │                  https://bugzilla.redhat.com/show_bug.cgi?id=2557564           
 │                       │      │                  https://bugzilla.redhat.com/show_bug.cgi?id=2557598           
 │                       │      │                  https://bugzilla.redhat.com/show_bug.cgi?id=2557662           
-│                       │      │                  https://bugzilla.redhat.com/show_bug.cgi?id=2557665           
 │                       │      │                  https://bugzilla.redhat.com/show_bug.cgi?id=2557674           
 │                       │      │                  https://bugzilla.redhat.com/show_bug.cgi?id=2557690           
 │                       │      │                  https://bugzilla.redhat.com/show_bug.cgi?id=2557709           
 │                       │      │                  https://bugzilla.redhat.com/show_bug.cgi?id=2557711           
 │                       │      │                  https://bugzilla.redhat.com/show_bug.cgi?id=2557731           
+│                       │      │                  https://bugzilla.redhat.com/show_bug.cgi?id=2557757           
 │                       │      │                  https://bugzilla.redhat.com/show_bug.cgi?id=2557765           
 │                       │      │                  https://bugzilla.redhat.com/show_bug.cgi?id=2557780           
 │                       │      │                  https://bugzilla.redhat.com/show_bug.cgi?id=2557857           
@@ -384,16 +388,20 @@
 │                       │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-101516
 │                       │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-83374 
 │                       │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-83376 
+│                       │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-83378 
 │                       │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-83380 
 │                       │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-83381 
 │                       │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-83387 
 │                       │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-83395 
 │                       │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-83400 
+│                       │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-87255 
 │                       │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-87290 
+│                       │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-87291 
 │                       │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-87292 
 │                       │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-87294 
 │                       │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-87367 
 │                       │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-91332 
+│                       │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-91333 
 │                       │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-91334 
 │                       │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-91335 
 │                       │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-91373 
@@ -401,7 +409,6 @@
 │                       │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-91375 
 │                       │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-91379 
 │                       │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-91380 
-│                       │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-91382 
 │                       │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-91394 
 │                       │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-91397 
 │                       │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-91398 
@@ -417,8 +424,8 @@
 │                       │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-91463 
 │                       │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-91464 
 │                       │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-91487 
-│                       │      │                  https://errata.almalinux.org/8/ALSA-2026-88352.html           
-│                       │      │                  https://errata.rockylinux.org/RLSA-2026:88352                 
+│                       │      │                  https://errata.almalinux.org/9/ALSA-2026-90500.html           
+│                       │      │                  https://errata.rockylinux.org/RLSA-2026:88347                 
 │                       │      │                  https://linux.oracle.com/cve/CVE-2026-83374.html              
 │                       │      │                  https://linux.oracle.com/errata/ELSA-2026-90504.html          
 │                       │      │                  https://nvd.nist.gov/vuln/detail/CVE-2026-83374               
@@ -443,8 +450,8 @@
 │                       │      ├ DataSource       ╭ ID  : alpine 
 │                       │      │                  ├ Name: Alpine Secdb 
 │                       │      │                  ╰ URL : https://secdb.alpinelinux.org/ 
-│                       │      ├ Fingerprint     : sha256:82b3c914fde209355a1bc51c6c2451c98671a5fc95de9b4893622
-│                       │      │                   641d056f728 
+│                       │      ├ Fingerprint     : sha256:a341c241078482fa0a80abeee224ab58ab1399be6917ede6ad75d
+│                       │      │                   26574a886ad 
 │                       │      ├ Title           : openjdk: Improve C2 loop transformations (Oracle CPU 2026-10) 
 │                       │      ├ Description     : Vulnerability in Oracle Java SE (component: Compiler). 
 │                       │      │                   Supported versions that are affected are Oracle Java SE:
@@ -595,7 +602,7 @@
 │                       │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-91463 
 │                       │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-91464 
 │                       │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-91487 
-│                       │      │                  https://errata.almalinux.org/8/ALSA-2026-88349.html           
+│                       │      │                  https://errata.almalinux.org/9/ALSA-2026-88349.html           
 │                       │      │                  https://errata.rockylinux.org/RLSA-2026:88347                 
 │                       │      │                  https://linux.oracle.com/cve/CVE-2026-83378.html              
 │                       │      │                  https://linux.oracle.com/errata/ELSA-2026-90504.html          
@@ -621,8 +628,8 @@
 │                       │      ├ DataSource       ╭ ID  : alpine 
 │                       │      │                  ├ Name: Alpine Secdb 
 │                       │      │                  ╰ URL : https://secdb.alpinelinux.org/ 
-│                       │      ├ Fingerprint     : sha256:eb26bee65094c772fe0cef1095b86540a0e8540b5b2c98bc28be5
-│                       │      │                   1d26c6ac0f4 
+│                       │      ├ Fingerprint     : sha256:760fffff7b535cd78c59617e54c5c3af4d54ebf10d0eaedc00133
+│                       │      │                   0e06a9b46ac 
 │                       │      ├ Title           : openjdk: Enhance SASL Authentication (Oracle CPU 2026-10) 
 │                       │      ├ Description     : Vulnerability in Oracle Java SE (component: Security). 
 │                       │      │                   Supported versions that are affected are Oracle Java SE:
@@ -659,7 +666,8 @@
 │                       │      │                           ╰ V3Score : 4.8 
 │                       │      ├ References                                                                     
 │                       │      │                  ──────────────────────────────────────────────────────────────
-│                       │      │                  https://access.redhat.com/errata/RHSA-2026:88352              
+│                       │      │                  https://access.redhat.com/errata/RHSA-2026:88347              
+│                       │      │                  https://access.redhat.com/errata/RHSA-2026:90500              
 │                       │      │                  https://access.redhat.com/security/cve/CVE-2026-83381         
 │                       │      │                  https://bugzilla.redhat.com/2556709                           
 │                       │      │                  https://bugzilla.redhat.com/2556795                           
@@ -702,10 +710,12 @@
 │                       │      │                  https://bugzilla.redhat.com/show_bug.cgi?id=2556824           
 │                       │      │                  https://bugzilla.redhat.com/show_bug.cgi?id=2556837           
 │                       │      │                  https://bugzilla.redhat.com/show_bug.cgi?id=2556859           
+│                       │      │                  https://bugzilla.redhat.com/show_bug.cgi?id=2556960           
 │                       │      │                  https://bugzilla.redhat.com/show_bug.cgi?id=2557007           
 │                       │      │                  https://bugzilla.redhat.com/show_bug.cgi?id=2557032           
 │                       │      │                  https://bugzilla.redhat.com/show_bug.cgi?id=2557041           
 │                       │      │                  https://bugzilla.redhat.com/show_bug.cgi?id=2557047           
+│                       │      │                  https://bugzilla.redhat.com/show_bug.cgi?id=2557056           
 │                       │      │                  https://bugzilla.redhat.com/show_bug.cgi?id=2557079           
 │                       │      │                  https://bugzilla.redhat.com/show_bug.cgi?id=2557110           
 │                       │      │                  https://bugzilla.redhat.com/show_bug.cgi?id=2557117           
@@ -714,6 +724,7 @@
 │                       │      │                  https://bugzilla.redhat.com/show_bug.cgi?id=2557236           
 │                       │      │                  https://bugzilla.redhat.com/show_bug.cgi?id=2557261           
 │                       │      │                  https://bugzilla.redhat.com/show_bug.cgi?id=2557356           
+│                       │      │                  https://bugzilla.redhat.com/show_bug.cgi?id=2557364           
 │                       │      │                  https://bugzilla.redhat.com/show_bug.cgi?id=2557405           
 │                       │      │                  https://bugzilla.redhat.com/show_bug.cgi?id=2557427           
 │                       │      │                  https://bugzilla.redhat.com/show_bug.cgi?id=2557443           
@@ -722,12 +733,12 @@
 │                       │      │                  https://bugzilla.redhat.com/show_bug.cgi?id=2557564           
 │                       │      │                  https://bugzilla.redhat.com/show_bug.cgi?id=2557598           
 │                       │      │                  https://bugzilla.redhat.com/show_bug.cgi?id=2557662           
-│                       │      │                  https://bugzilla.redhat.com/show_bug.cgi?id=2557665           
 │                       │      │                  https://bugzilla.redhat.com/show_bug.cgi?id=2557674           
 │                       │      │                  https://bugzilla.redhat.com/show_bug.cgi?id=2557690           
 │                       │      │                  https://bugzilla.redhat.com/show_bug.cgi?id=2557709           
 │                       │      │                  https://bugzilla.redhat.com/show_bug.cgi?id=2557711           
 │                       │      │                  https://bugzilla.redhat.com/show_bug.cgi?id=2557731           
+│                       │      │                  https://bugzilla.redhat.com/show_bug.cgi?id=2557757           
 │                       │      │                  https://bugzilla.redhat.com/show_bug.cgi?id=2557765           
 │                       │      │                  https://bugzilla.redhat.com/show_bug.cgi?id=2557780           
 │                       │      │                  https://bugzilla.redhat.com/show_bug.cgi?id=2557857           
@@ -737,16 +748,20 @@
 │                       │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-101516
 │                       │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-83374 
 │                       │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-83376 
+│                       │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-83378 
 │                       │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-83380 
 │                       │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-83381 
 │                       │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-83387 
 │                       │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-83395 
 │                       │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-83400 
+│                       │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-87255 
 │                       │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-87290 
+│                       │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-87291 
 │                       │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-87292 
 │                       │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-87294 
 │                       │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-87367 
 │                       │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-91332 
+│                       │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-91333 
 │                       │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-91334 
 │                       │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-91335 
 │                       │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-91373 
@@ -754,7 +769,6 @@
 │                       │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-91375 
 │                       │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-91379 
 │                       │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-91380 
-│                       │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-91382 
 │                       │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-91394 
 │                       │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-91397 
 │                       │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-91398 
@@ -770,8 +784,8 @@
 │                       │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-91463 
 │                       │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-91464 
 │                       │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-91487 
-│                       │      │                  https://errata.almalinux.org/8/ALSA-2026-88352.html           
-│                       │      │                  https://errata.rockylinux.org/RLSA-2026:88352                 
+│                       │      │                  https://errata.almalinux.org/9/ALSA-2026-90500.html           
+│                       │      │                  https://errata.rockylinux.org/RLSA-2026:88347                 
 │                       │      │                  https://linux.oracle.com/cve/CVE-2026-83381.html              
 │                       │      │                  https://linux.oracle.com/errata/ELSA-2026-90504.html          
 │                       │      │                  https://nvd.nist.gov/vuln/detail/CVE-2026-83381               
@@ -796,8 +810,8 @@
 │                       │      ├ DataSource       ╭ ID  : alpine 
 │                       │      │                  ├ Name: Alpine Secdb 
 │                       │      │                  ╰ URL : https://secdb.alpinelinux.org/ 
-│                       │      ├ Fingerprint     : sha256:cee09c336d11e434637fe19472e94da5dd0c826ad3089f276ec2e
-│                       │      │                   6846a8bbf8b 
+│                       │      ├ Fingerprint     : sha256:47a7d78d1faeb32d12c53f840daf0942f35e7fe3901d37ffa9ed5
+│                       │      │                   2d59d32033f 
 │                       │      ├ Title           : openjdk: Enhance WebRowSets (Oracle CPU 2026-10) 
 │                       │      ├ Description     : Vulnerability in the Oracle Java SE, Oracle GraalVM for JDK,
 │                       │      │                    Oracle GraalVM Enterprise Edition product of Oracle Java SE
@@ -836,7 +850,8 @@
 │                       │      │                           ╰ V3Score : 5.9 
 │                       │      ├ References                                                                     
 │                       │      │                  ──────────────────────────────────────────────────────────────
-│                       │      │                  https://access.redhat.com/errata/RHSA-2026:88352              
+│                       │      │                  https://access.redhat.com/errata/RHSA-2026:88347              
+│                       │      │                  https://access.redhat.com/errata/RHSA-2026:90500              
 │                       │      │                  https://access.redhat.com/security/cve/CVE-2026-83387         
 │                       │      │                  https://bugzilla.redhat.com/2556709                           
 │                       │      │                  https://bugzilla.redhat.com/2556795                           
@@ -879,10 +894,12 @@
 │                       │      │                  https://bugzilla.redhat.com/show_bug.cgi?id=2556824           
 │                       │      │                  https://bugzilla.redhat.com/show_bug.cgi?id=2556837           
 │                       │      │                  https://bugzilla.redhat.com/show_bug.cgi?id=2556859           
+│                       │      │                  https://bugzilla.redhat.com/show_bug.cgi?id=2556960           
 │                       │      │                  https://bugzilla.redhat.com/show_bug.cgi?id=2557007           
 │                       │      │                  https://bugzilla.redhat.com/show_bug.cgi?id=2557032           
 │                       │      │                  https://bugzilla.redhat.com/show_bug.cgi?id=2557041           
 │                       │      │                  https://bugzilla.redhat.com/show_bug.cgi?id=2557047           
+│                       │      │                  https://bugzilla.redhat.com/show_bug.cgi?id=2557056           
 │                       │      │                  https://bugzilla.redhat.com/show_bug.cgi?id=2557079           
 │                       │      │                  https://bugzilla.redhat.com/show_bug.cgi?id=2557110           
 │                       │      │                  https://bugzilla.redhat.com/show_bug.cgi?id=2557117           
@@ -891,6 +908,7 @@
 │                       │      │                  https://bugzilla.redhat.com/show_bug.cgi?id=2557236           
 │                       │      │                  https://bugzilla.redhat.com/show_bug.cgi?id=2557261           
 │                       │      │                  https://bugzilla.redhat.com/show_bug.cgi?id=2557356           
+│                       │      │                  https://bugzilla.redhat.com/show_bug.cgi?id=2557364           
 │                       │      │                  https://bugzilla.redhat.com/show_bug.cgi?id=2557405           
 │                       │      │                  https://bugzilla.redhat.com/show_bug.cgi?id=2557427           
 │                       │      │                  https://bugzilla.redhat.com/show_bug.cgi?id=2557443           
@@ -899,12 +917,12 @@
 │                       │      │                  https://bugzilla.redhat.com/show_bug.cgi?id=2557564           
 │                       │      │                  https://bugzilla.redhat.com/show_bug.cgi?id=2557598           
 │                       │      │                  https://bugzilla.redhat.com/show_bug.cgi?id=2557662           
-│                       │      │                  https://bugzilla.redhat.com/show_bug.cgi?id=2557665           
 │                       │      │                  https://bugzilla.redhat.com/show_bug.cgi?id=2557674           
 │                       │      │                  https://bugzilla.redhat.com/show_bug.cgi?id=2557690           
 │                       │      │                  https://bugzilla.redhat.com/show_bug.cgi?id=2557709           
 │                       │      │                  https://bugzilla.redhat.com/show_bug.cgi?id=2557711           
 │                       │      │                  https://bugzilla.redhat.com/show_bug.cgi?id=2557731           
+│                       │      │                  https://bugzilla.redhat.com/show_bug.cgi?id=2557757           
 │                       │      │                  https://bugzilla.redhat.com/show_bug.cgi?id=2557765           
 │                       │      │                  https://bugzilla.redhat.com/show_bug.cgi?id=2557780           
 │                       │      │                  https://bugzilla.redhat.com/show_bug.cgi?id=2557857           
@@ -914,16 +932,20 @@
 │                       │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-101516
 │                       │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-83374 
 │                       │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-83376 
+│                       │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-83378 
 │                       │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-83380 
 │                       │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-83381 
 │                       │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-83387 
 │                       │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-83395 
 │                       │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-83400 
+│                       │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-87255 
 │                       │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-87290 
+│                       │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-87291 
 │                       │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-87292 
 │                       │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-87294 
 │                       │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-87367 
 │                       │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-91332 
+│                       │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-91333 
 │                       │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-91334 
 │                       │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-91335 
 │                       │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-91373 
@@ -931,7 +953,6 @@
 │                       │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-91375 
 │                       │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-91379 
 │                       │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-91380 
-│                       │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-91382 
 │                       │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-91394 
 │                       │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-91397 
 │                       │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-91398 
@@ -947,8 +968,8 @@
 │                       │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-91463 
 │                       │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-91464 
 │                       │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-91487 
-│                       │      │                  https://errata.almalinux.org/8/ALSA-2026-88352.html           
-│                       │      │                  https://errata.rockylinux.org/RLSA-2026:88352                 
+│                       │      │                  https://errata.almalinux.org/9/ALSA-2026-90500.html           
+│                       │      │                  https://errata.rockylinux.org/RLSA-2026:88347                 
 │                       │      │                  https://linux.oracle.com/cve/CVE-2026-83387.html              
 │                       │      │                  https://linux.oracle.com/errata/ELSA-2026-90504.html          
 │                       │      │                  https://nvd.nist.gov/vuln/detail/CVE-2026-83387               
@@ -973,8 +994,8 @@
 │                       │      ├ DataSource       ╭ ID  : alpine 
 │                       │      │                  ├ Name: Alpine Secdb 
 │                       │      │                  ╰ URL : https://secdb.alpinelinux.org/ 
-│                       │      ├ Fingerprint     : sha256:78846ac2096b822b68af9879666d3916591657bbe2ed4b40dd9d7
-│                       │      │                   244416249d8 
+│                       │      ├ Fingerprint     : sha256:92e736d9aff3b85241fe94a5f7c7432e4c062a71edbf9a5ab6db3
+│                       │      │                   e38a5b7d0a9 
 │                       │      ├ Title           : openjdk: Enhance XML Processing (Oracle CPU 2026-10) 
 │                       │      ├ Description     : Vulnerability in the Oracle Java SE, Oracle GraalVM for JDK,
 │                       │      │                    Oracle GraalVM Enterprise Edition product of Oracle Java SE
@@ -1013,7 +1034,8 @@
 │                       │      │                           ╰ V3Score : 5.3 
 │                       │      ├ References                                                                     
 │                       │      │                  ──────────────────────────────────────────────────────────────
-│                       │      │                  https://access.redhat.com/errata/RHSA-2026:88352              
+│                       │      │                  https://access.redhat.com/errata/RHSA-2026:88347              
+│                       │      │                  https://access.redhat.com/errata/RHSA-2026:90500              
 │                       │      │                  https://access.redhat.com/security/cve/CVE-2026-83400         
 │                       │      │                  https://bugzilla.redhat.com/2556709                           
 │                       │      │                  https://bugzilla.redhat.com/2556795                           
@@ -1056,10 +1078,12 @@
 │                       │      │                  https://bugzilla.redhat.com/show_bug.cgi?id=2556824           
 │                       │      │                  https://bugzilla.redhat.com/show_bug.cgi?id=2556837           
 │                       │      │                  https://bugzilla.redhat.com/show_bug.cgi?id=2556859           
+│                       │      │                  https://bugzilla.redhat.com/show_bug.cgi?id=2556960           
 │                       │      │                  https://bugzilla.redhat.com/show_bug.cgi?id=2557007           
 │                       │      │                  https://bugzilla.redhat.com/show_bug.cgi?id=2557032           
 │                       │      │                  https://bugzilla.redhat.com/show_bug.cgi?id=2557041           
 │                       │      │                  https://bugzilla.redhat.com/show_bug.cgi?id=2557047           
+│                       │      │                  https://bugzilla.redhat.com/show_bug.cgi?id=2557056           
 │                       │      │                  https://bugzilla.redhat.com/show_bug.cgi?id=2557079           
 │                       │      │                  https://bugzilla.redhat.com/show_bug.cgi?id=2557110           
 │                       │      │                  https://bugzilla.redhat.com/show_bug.cgi?id=2557117           
@@ -1068,6 +1092,7 @@
 │                       │      │                  https://bugzilla.redhat.com/show_bug.cgi?id=2557236           
 │                       │      │                  https://bugzilla.redhat.com/show_bug.cgi?id=2557261           
 │                       │      │                  https://bugzilla.redhat.com/show_bug.cgi?id=2557356           
+│                       │      │                  https://bugzilla.redhat.com/show_bug.cgi?id=2557364           
 │                       │      │                  https://bugzilla.redhat.com/show_bug.cgi?id=2557405           
 │                       │      │                  https://bugzilla.redhat.com/show_bug.cgi?id=2557427           
 │                       │      │                  https://bugzilla.redhat.com/show_bug.cgi?id=2557443           
@@ -1076,12 +1101,12 @@
 │                       │      │                  https://bugzilla.redhat.com/show_bug.cgi?id=2557564           
 │                       │      │                  https://bugzilla.redhat.com/show_bug.cgi?id=2557598           
 │                       │      │                  https://bugzilla.redhat.com/show_bug.cgi?id=2557662           
-│                       │      │                  https://bugzilla.redhat.com/show_bug.cgi?id=2557665           
 │                       │      │                  https://bugzilla.redhat.com/show_bug.cgi?id=2557674           
 │                       │      │                  https://bugzilla.redhat.com/show_bug.cgi?id=2557690           
 │                       │      │                  https://bugzilla.redhat.com/show_bug.cgi?id=2557709           
 │                       │      │                  https://bugzilla.redhat.com/show_bug.cgi?id=2557711           
 │                       │      │                  https://bugzilla.redhat.com/show_bug.cgi?id=2557731           
+│                       │      │                  https://bugzilla.redhat.com/show_bug.cgi?id=2557757           
 │                       │      │                  https://bugzilla.redhat.com/show_bug.cgi?id=2557765           
 │                       │      │                  https://bugzilla.redhat.com/show_bug.cgi?id=2557780           
 │                       │      │                  https://bugzilla.redhat.com/show_bug.cgi?id=2557857           
@@ -1091,16 +1116,20 @@
 │                       │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-101516
 │                       │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-83374 
 │                       │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-83376 
+│                       │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-83378 
 │                       │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-83380 
 │                       │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-83381 
 │                       │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-83387 
 │                       │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-83395 
 │                       │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-83400 
+│                       │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-87255 
 │                       │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-87290 
+│                       │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-87291 
 │                       │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-87292 
 │                       │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-87294 
 │                       │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-87367 
 │                       │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-91332 
+│                       │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-91333 
 │                       │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-91334 
 │                       │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-91335 
 │                       │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-91373 
@@ -1108,7 +1137,6 @@
 │                       │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-91375 
 │                       │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-91379 
 │                       │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-91380 
-│                       │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-91382 
 │                       │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-91394 
 │                       │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-91397 
 │                       │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-91398 
@@ -1124,8 +1152,8 @@
 │                       │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-91463 
 │                       │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-91464 
 │                       │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-91487 
-│                       │      │                  https://errata.almalinux.org/8/ALSA-2026-88352.html           
-│                       │      │                  https://errata.rockylinux.org/RLSA-2026:88352                 
+│                       │      │                  https://errata.almalinux.org/9/ALSA-2026-90500.html           
+│                       │      │                  https://errata.rockylinux.org/RLSA-2026:88347                 
 │                       │      │                  https://linux.oracle.com/cve/CVE-2026-83400.html              
 │                       │      │                  https://linux.oracle.com/errata/ELSA-2026-90504.html          
 │                       │      │                  https://nvd.nist.gov/vuln/detail/CVE-2026-83400               
@@ -1150,8 +1178,8 @@
 │                       │      ├ DataSource       ╭ ID  : alpine 
 │                       │      │                  ├ Name: Alpine Secdb 
 │                       │      │                  ╰ URL : https://secdb.alpinelinux.org/ 
-│                       │      ├ Fingerprint     : sha256:4d64ce46e3e7110bf9d1757bdf9047f76ef6c99ab97d326f7fe70
-│                       │      │                   5651dd2d290 
+│                       │      ├ Fingerprint     : sha256:6b8722b7ced38f2ec4442694f05faec2bf553a4d32343a107782e
+│                       │      │                   173c7a1786d 
 │                       │      ├ Title           : openjdk: Enhance XPath Expressions (Oracle CPU 2026-10) 
 │                       │      ├ Description     : Vulnerability in the Oracle Java SE, Oracle GraalVM for JDK,
 │                       │      │                    Oracle GraalVM Enterprise Edition product of Oracle Java SE
@@ -1190,7 +1218,8 @@
 │                       │      │                           ╰ V3Score : 3.7 
 │                       │      ├ References                                                                     
 │                       │      │                  ──────────────────────────────────────────────────────────────
-│                       │      │                  https://access.redhat.com/errata/RHSA-2026:88352              
+│                       │      │                  https://access.redhat.com/errata/RHSA-2026:88347              
+│                       │      │                  https://access.redhat.com/errata/RHSA-2026:90500              
 │                       │      │                  https://access.redhat.com/security/cve/CVE-2026-87290         
 │                       │      │                  https://bugzilla.redhat.com/2556709                           
 │                       │      │                  https://bugzilla.redhat.com/2556795                           
@@ -1233,10 +1262,12 @@
 │                       │      │                  https://bugzilla.redhat.com/show_bug.cgi?id=2556824           
 │                       │      │                  https://bugzilla.redhat.com/show_bug.cgi?id=2556837           
 │                       │      │                  https://bugzilla.redhat.com/show_bug.cgi?id=2556859           
+│                       │      │                  https://bugzilla.redhat.com/show_bug.cgi?id=2556960           
 │                       │      │                  https://bugzilla.redhat.com/show_bug.cgi?id=2557007           
 │                       │      │                  https://bugzilla.redhat.com/show_bug.cgi?id=2557032           
 │                       │      │                  https://bugzilla.redhat.com/show_bug.cgi?id=2557041           
 │                       │      │                  https://bugzilla.redhat.com/show_bug.cgi?id=2557047           
+│                       │      │                  https://bugzilla.redhat.com/show_bug.cgi?id=2557056           
 │                       │      │                  https://bugzilla.redhat.com/show_bug.cgi?id=2557079           
 │                       │      │                  https://bugzilla.redhat.com/show_bug.cgi?id=2557110           
 │                       │      │                  https://bugzilla.redhat.com/show_bug.cgi?id=2557117           
@@ -1245,6 +1276,7 @@
 │                       │      │                  https://bugzilla.redhat.com/show_bug.cgi?id=2557236           
 │                       │      │                  https://bugzilla.redhat.com/show_bug.cgi?id=2557261           
 │                       │      │                  https://bugzilla.redhat.com/show_bug.cgi?id=2557356           
+│                       │      │                  https://bugzilla.redhat.com/show_bug.cgi?id=2557364           
 │                       │      │                  https://bugzilla.redhat.com/show_bug.cgi?id=2557405           
 │                       │      │                  https://bugzilla.redhat.com/show_bug.cgi?id=2557427           
 │                       │      │                  https://bugzilla.redhat.com/show_bug.cgi?id=2557443           
@@ -1253,12 +1285,12 @@
 │                       │      │                  https://bugzilla.redhat.com/show_bug.cgi?id=2557564           
 │                       │      │                  https://bugzilla.redhat.com/show_bug.cgi?id=2557598           
 │                       │      │                  https://bugzilla.redhat.com/show_bug.cgi?id=2557662           
-│                       │      │                  https://bugzilla.redhat.com/show_bug.cgi?id=2557665           
 │                       │      │                  https://bugzilla.redhat.com/show_bug.cgi?id=2557674           
 │                       │      │                  https://bugzilla.redhat.com/show_bug.cgi?id=2557690           
 │                       │      │                  https://bugzilla.redhat.com/show_bug.cgi?id=2557709           
 │                       │      │                  https://bugzilla.redhat.com/show_bug.cgi?id=2557711           
 │                       │      │                  https://bugzilla.redhat.com/show_bug.cgi?id=2557731           
+│                       │      │                  https://bugzilla.redhat.com/show_bug.cgi?id=2557757           
 │                       │      │                  https://bugzilla.redhat.com/show_bug.cgi?id=2557765           
 │                       │      │                  https://bugzilla.redhat.com/show_bug.cgi?id=2557780           
 │                       │      │                  https://bugzilla.redhat.com/show_bug.cgi?id=2557857           
@@ -1268,16 +1300,20 @@
 │                       │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-101516
 │                       │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-83374 
 │                       │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-83376 
+│                       │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-83378 
 │                       │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-83380 
 │                       │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-83381 
 │                       │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-83387 
 │                       │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-83395 
 │                       │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-83400 
+│                       │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-87255 
 │                       │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-87290 
+│                       │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-87291 
 │                       │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-87292 
 │                       │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-87294 
 │                       │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-87367 
 │                       │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-91332 
+│                       │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-91333 
 │                       │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-91334 
 │                       │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-91335 
 │                       │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-91373 
@@ -1285,7 +1321,6 @@
 │                       │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-91375 
 │                       │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-91379 
 │                       │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-91380 
-│                       │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-91382 
 │                       │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-91394 
 │                       │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-91397 
 │                       │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-91398 
@@ -1301,8 +1336,8 @@
 │                       │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-91463 
 │                       │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-91464 
 │                       │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-91487 
-│                       │      │                  https://errata.almalinux.org/8/ALSA-2026-88352.html           
-│                       │      │                  https://errata.rockylinux.org/RLSA-2026:88352                 
+│                       │      │                  https://errata.almalinux.org/9/ALSA-2026-90500.html           
+│                       │      │                  https://errata.rockylinux.org/RLSA-2026:88347                 
 │                       │      │                  https://linux.oracle.com/cve/CVE-2026-87290.html              
 │                       │      │                  https://linux.oracle.com/errata/ELSA-2026-90504.html          
 │                       │      │                  https://nvd.nist.gov/vuln/detail/CVE-2026-87290               
@@ -1327,8 +1362,8 @@
 │                       │      ├ DataSource       ╭ ID  : alpine 
 │                       │      │                  ├ Name: Alpine Secdb 
 │                       │      │                  ╰ URL : https://secdb.alpinelinux.org/ 
-│                       │      ├ Fingerprint     : sha256:4872b2ef3514adb5910676d2f5b70df4d3911b8be0d1393f1d240
-│                       │      │                   cb7ce37ee85 
+│                       │      ├ Fingerprint     : sha256:d381ea8c0797b0004a962d8810a9f780b72d15d6e315e3a390583
+│                       │      │                   dedf6cb48ed 
 │                       │      ├ Title           : openjdk: Enhance HTTP Server (Oracle CPU 2026-10) 
 │                       │      ├ Description     : Vulnerability in Oracle Java SE (component: Networking). 
 │                       │      │                   Supported versions that are affected are Oracle Java SE:
@@ -1478,7 +1513,7 @@
 │                       │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-91463 
 │                       │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-91464 
 │                       │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-91487 
-│                       │      │                  https://errata.almalinux.org/8/ALSA-2026-88349.html           
+│                       │      │                  https://errata.almalinux.org/9/ALSA-2026-88349.html           
 │                       │      │                  https://errata.rockylinux.org/RLSA-2026:88347                 
 │                       │      │                  https://linux.oracle.com/cve/CVE-2026-87291.html              
 │                       │      │                  https://linux.oracle.com/errata/ELSA-2026-90504.html          
@@ -1504,8 +1539,8 @@
 │                       │      ├ DataSource       ╭ ID  : alpine 
 │                       │      │                  ├ Name: Alpine Secdb 
 │                       │      │                  ╰ URL : https://secdb.alpinelinux.org/ 
-│                       │      ├ Fingerprint     : sha256:d5d414e97e1c2d078251acf09e5ddffc8bc55d3ccf6f812ed8718
-│                       │      │                   e65a11df9e9 
+│                       │      ├ Fingerprint     : sha256:31ba22228250e638bd2193cfc52ac8a28e659a14f7eb8e789c215
+│                       │      │                   7e7815e8aff 
 │                       │      ├ Title           : openjdk: Enhance HTTP Client (Oracle CPU 2026-10) 
 │                       │      ├ Description     : Vulnerability in Oracle Java SE (component: Networking). 
 │                       │      │                   Supported versions that are affected are Oracle Java SE:
@@ -1540,7 +1575,8 @@
 │                       │      │                           ╰ V3Score : 5.3 
 │                       │      ├ References                                                                     
 │                       │      │                  ──────────────────────────────────────────────────────────────
-│                       │      │                  https://access.redhat.com/errata/RHSA-2026:88352              
+│                       │      │                  https://access.redhat.com/errata/RHSA-2026:88347              
+│                       │      │                  https://access.redhat.com/errata/RHSA-2026:90500              
 │                       │      │                  https://access.redhat.com/security/cve/CVE-2026-91332         
 │                       │      │                  https://bugzilla.redhat.com/2556709                           
 │                       │      │                  https://bugzilla.redhat.com/2556795                           
@@ -1583,10 +1619,12 @@
 │                       │      │                  https://bugzilla.redhat.com/show_bug.cgi?id=2556824           
 │                       │      │                  https://bugzilla.redhat.com/show_bug.cgi?id=2556837           
 │                       │      │                  https://bugzilla.redhat.com/show_bug.cgi?id=2556859           
+│                       │      │                  https://bugzilla.redhat.com/show_bug.cgi?id=2556960           
 │                       │      │                  https://bugzilla.redhat.com/show_bug.cgi?id=2557007           
 │                       │      │                  https://bugzilla.redhat.com/show_bug.cgi?id=2557032           
 │                       │      │                  https://bugzilla.redhat.com/show_bug.cgi?id=2557041           
 │                       │      │                  https://bugzilla.redhat.com/show_bug.cgi?id=2557047           
+│                       │      │                  https://bugzilla.redhat.com/show_bug.cgi?id=2557056           
 │                       │      │                  https://bugzilla.redhat.com/show_bug.cgi?id=2557079           
 │                       │      │                  https://bugzilla.redhat.com/show_bug.cgi?id=2557110           
 │                       │      │                  https://bugzilla.redhat.com/show_bug.cgi?id=2557117           
@@ -1595,6 +1633,7 @@
 │                       │      │                  https://bugzilla.redhat.com/show_bug.cgi?id=2557236           
 │                       │      │                  https://bugzilla.redhat.com/show_bug.cgi?id=2557261           
 │                       │      │                  https://bugzilla.redhat.com/show_bug.cgi?id=2557356           
+│                       │      │                  https://bugzilla.redhat.com/show_bug.cgi?id=2557364           
 │                       │      │                  https://bugzilla.redhat.com/show_bug.cgi?id=2557405           
 │                       │      │                  https://bugzilla.redhat.com/show_bug.cgi?id=2557427           
 │                       │      │                  https://bugzilla.redhat.com/show_bug.cgi?id=2557443           
@@ -1603,12 +1642,12 @@
 │                       │      │                  https://bugzilla.redhat.com/show_bug.cgi?id=2557564           
 │                       │      │                  https://bugzilla.redhat.com/show_bug.cgi?id=2557598           
 │                       │      │                  https://bugzilla.redhat.com/show_bug.cgi?id=2557662           
-│                       │      │                  https://bugzilla.redhat.com/show_bug.cgi?id=2557665           
 │                       │      │                  https://bugzilla.redhat.com/show_bug.cgi?id=2557674           
 │                       │      │                  https://bugzilla.redhat.com/show_bug.cgi?id=2557690           
 │                       │      │                  https://bugzilla.redhat.com/show_bug.cgi?id=2557709           
 │                       │      │                  https://bugzilla.redhat.com/show_bug.cgi?id=2557711           
 │                       │      │                  https://bugzilla.redhat.com/show_bug.cgi?id=2557731           
+│                       │      │                  https://bugzilla.redhat.com/show_bug.cgi?id=2557757           
 │                       │      │                  https://bugzilla.redhat.com/show_bug.cgi?id=2557765           
 │                       │      │                  https://bugzilla.redhat.com/show_bug.cgi?id=2557780           
 │                       │      │                  https://bugzilla.redhat.com/show_bug.cgi?id=2557857           
@@ -1618,16 +1657,20 @@
 │                       │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-101516
 │                       │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-83374 
 │                       │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-83376 
+│                       │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-83378 
 │                       │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-83380 
 │                       │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-83381 
 │                       │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-83387 
 │                       │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-83395 
 │                       │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-83400 
+│                       │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-87255 
 │                       │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-87290 
+│                       │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-87291 
 │                       │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-87292 
 │                       │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-87294 
 │                       │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-87367 
 │                       │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-91332 
+│                       │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-91333 
 │                       │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-91334 
 │                       │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-91335 
 │                       │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-91373 
@@ -1635,7 +1678,6 @@
 │                       │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-91375 
 │                       │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-91379 
 │                       │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-91380 
-│                       │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-91382 
 │                       │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-91394 
 │                       │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-91397 
 │                       │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-91398 
@@ -1651,8 +1693,8 @@
 │                       │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-91463 
 │                       │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-91464 
 │                       │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-91487 
-│                       │      │                  https://errata.almalinux.org/8/ALSA-2026-88352.html           
-│                       │      │                  https://errata.rockylinux.org/RLSA-2026:88352                 
+│                       │      │                  https://errata.almalinux.org/9/ALSA-2026-90500.html           
+│                       │      │                  https://errata.rockylinux.org/RLSA-2026:88347                 
 │                       │      │                  https://linux.oracle.com/cve/CVE-2026-91332.html              
 │                       │      │                  https://linux.oracle.com/errata/ELSA-2026-90504.html          
 │                       │      │                  https://nvd.nist.gov/vuln/detail/CVE-2026-91332               
@@ -1677,8 +1719,8 @@
 │                       │      ├ DataSource       ╭ ID  : alpine 
 │                       │      │                  ├ Name: Alpine Secdb 
 │                       │      │                  ╰ URL : https://secdb.alpinelinux.org/ 
-│                       │      ├ Fingerprint     : sha256:e8bdef4267d23ab5619adb1af64430b7b7bb0ea8493f5a45b3496
-│                       │      │                   d17643305b3 
+│                       │      ├ Fingerprint     : sha256:c742be430de966bdce02a23b52492e88448d5de7a09686f6c01f6
+│                       │      │                   d9d1c0dfda2 
 │                       │      ├ Title           : openjdk: Enhance TLS handshakes (Oracle CPU 2026-10) 
 │                       │      ├ Description     : Vulnerability in Oracle Java SE (component: JSSE). 
 │                       │      │                   Supported versions that are affected are Oracle Java SE:
@@ -1713,7 +1755,8 @@
 │                       │      │                           ╰ V3Score : 5.3 
 │                       │      ├ References                                                                     
 │                       │      │                  ──────────────────────────────────────────────────────────────
-│                       │      │                  https://access.redhat.com/errata/RHSA-2026:88352              
+│                       │      │                  https://access.redhat.com/errata/RHSA-2026:88347              
+│                       │      │                  https://access.redhat.com/errata/RHSA-2026:90500              
 │                       │      │                  https://access.redhat.com/security/cve/CVE-2026-91373         
 │                       │      │                  https://bugzilla.redhat.com/2556709                           
 │                       │      │                  https://bugzilla.redhat.com/2556795                           
@@ -1756,10 +1799,12 @@
 │                       │      │                  https://bugzilla.redhat.com/show_bug.cgi?id=2556824           
 │                       │      │                  https://bugzilla.redhat.com/show_bug.cgi?id=2556837           
 │                       │      │                  https://bugzilla.redhat.com/show_bug.cgi?id=2556859           
+│                       │      │                  https://bugzilla.redhat.com/show_bug.cgi?id=2556960           
 │                       │      │                  https://bugzilla.redhat.com/show_bug.cgi?id=2557007           
 │                       │      │                  https://bugzilla.redhat.com/show_bug.cgi?id=2557032           
 │                       │      │                  https://bugzilla.redhat.com/show_bug.cgi?id=2557041           
 │                       │      │                  https://bugzilla.redhat.com/show_bug.cgi?id=2557047           
+│                       │      │                  https://bugzilla.redhat.com/show_bug.cgi?id=2557056           
 │                       │      │                  https://bugzilla.redhat.com/show_bug.cgi?id=2557079           
 │                       │      │                  https://bugzilla.redhat.com/show_bug.cgi?id=2557110           
 │                       │      │                  https://bugzilla.redhat.com/show_bug.cgi?id=2557117           
@@ -1768,6 +1813,7 @@
 │                       │      │                  https://bugzilla.redhat.com/show_bug.cgi?id=2557236           
 │                       │      │                  https://bugzilla.redhat.com/show_bug.cgi?id=2557261           
 │                       │      │                  https://bugzilla.redhat.com/show_bug.cgi?id=2557356           
+│                       │      │                  https://bugzilla.redhat.com/show_bug.cgi?id=2557364           
 │                       │      │                  https://bugzilla.redhat.com/show_bug.cgi?id=2557405           
 │                       │      │                  https://bugzilla.redhat.com/show_bug.cgi?id=2557427           
 │                       │      │                  https://bugzilla.redhat.com/show_bug.cgi?id=2557443           
@@ -1776,12 +1822,12 @@
 │                       │      │                  https://bugzilla.redhat.com/show_bug.cgi?id=2557564           
 │                       │      │                  https://bugzilla.redhat.com/show_bug.cgi?id=2557598           
 │                       │      │                  https://bugzilla.redhat.com/show_bug.cgi?id=2557662           
-│                       │      │                  https://bugzilla.redhat.com/show_bug.cgi?id=2557665           
 │                       │      │                  https://bugzilla.redhat.com/show_bug.cgi?id=2557674           
 │                       │      │                  https://bugzilla.redhat.com/show_bug.cgi?id=2557690           
 │                       │      │                  https://bugzilla.redhat.com/show_bug.cgi?id=2557709           
 │                       │      │                  https://bugzilla.redhat.com/show_bug.cgi?id=2557711           
 │                       │      │                  https://bugzilla.redhat.com/show_bug.cgi?id=2557731           
+│                       │      │                  https://bugzilla.redhat.com/show_bug.cgi?id=2557757           
 │                       │      │                  https://bugzilla.redhat.com/show_bug.cgi?id=2557765           
 │                       │      │                  https://bugzilla.redhat.com/show_bug.cgi?id=2557780           
 │                       │      │                  https://bugzilla.redhat.com/show_bug.cgi?id=2557857           
@@ -1791,16 +1837,20 @@
 │                       │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-101516
 │                       │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-83374 
 │                       │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-83376 
+│                       │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-83378 
 │                       │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-83380 
 │                       │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-83381 
 │                       │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-83387 
 │                       │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-83395 
 │                       │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-83400 
+│                       │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-87255 
 │                       │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-87290 
+│                       │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-87291 
 │                       │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-87292 
 │                       │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-87294 
 │                       │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-87367 
 │                       │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-91332 
+│                       │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-91333 
 │                       │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-91334 
 │                       │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-91335 
 │                       │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-91373 
@@ -1808,7 +1858,6 @@
 │                       │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-91375 
 │                       │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-91379 
 │                       │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-91380 
-│                       │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-91382 
 │                       │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-91394 
 │                       │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-91397 
 │                       │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-91398 
@@ -1824,8 +1873,8 @@
 │                       │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-91463 
 │                       │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-91464 
 │                       │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-91487 
-│                       │      │                  https://errata.almalinux.org/8/ALSA-2026-88352.html           
-│                       │      │                  https://errata.rockylinux.org/RLSA-2026:88352                 
+│                       │      │                  https://errata.almalinux.org/9/ALSA-2026-90500.html           
+│                       │      │                  https://errata.rockylinux.org/RLSA-2026:88347                 
 │                       │      │                  https://linux.oracle.com/cve/CVE-2026-91373.html              
 │                       │      │                  https://linux.oracle.com/errata/ELSA-2026-90504.html          
 │                       │      │                  https://nvd.nist.gov/vuln/detail/CVE-2026-91373               
@@ -1850,8 +1899,8 @@
 │                       │      ├ DataSource       ╭ ID  : alpine 
 │                       │      │                  ├ Name: Alpine Secdb 
 │                       │      │                  ╰ URL : https://secdb.alpinelinux.org/ 
-│                       │      ├ Fingerprint     : sha256:9c54b189b8b27800ba2ff53c57128f31425b9a5b02bab1c5b87ec
-│                       │      │                   f763c0703f4 
+│                       │      ├ Fingerprint     : sha256:d55dbfbfe055de86b93c00fa729caa401fe71fdea6b781b33c512
+│                       │      │                   8836f08f5bb 
 │                       │      ├ Title           : openjdk: Enhance jstatd (Oracle CPU 2026-10) 
 │                       │      ├ Description     : Vulnerability in the Oracle Java SE, Oracle GraalVM for JDK,
 │                       │      │                    Oracle GraalVM Enterprise Edition product of Oracle Java SE
@@ -1893,7 +1942,8 @@
 │                       │      │                           ╰ V3Score : 4.8 
 │                       │      ├ References                                                                     
 │                       │      │                  ──────────────────────────────────────────────────────────────
-│                       │      │                  https://access.redhat.com/errata/RHSA-2026:88352              
+│                       │      │                  https://access.redhat.com/errata/RHSA-2026:88347              
+│                       │      │                  https://access.redhat.com/errata/RHSA-2026:90500              
 │                       │      │                  https://access.redhat.com/security/cve/CVE-2026-91374         
 │                       │      │                  https://bugzilla.redhat.com/2556709                           
 │                       │      │                  https://bugzilla.redhat.com/2556795                           
@@ -1936,10 +1986,12 @@
 │                       │      │                  https://bugzilla.redhat.com/show_bug.cgi?id=2556824           
 │                       │      │                  https://bugzilla.redhat.com/show_bug.cgi?id=2556837           
 │                       │      │                  https://bugzilla.redhat.com/show_bug.cgi?id=2556859           
+│                       │      │                  https://bugzilla.redhat.com/show_bug.cgi?id=2556960           
 │                       │      │                  https://bugzilla.redhat.com/show_bug.cgi?id=2557007           
 │                       │      │                  https://bugzilla.redhat.com/show_bug.cgi?id=2557032           
 │                       │      │                  https://bugzilla.redhat.com/show_bug.cgi?id=2557041           
 │                       │      │                  https://bugzilla.redhat.com/show_bug.cgi?id=2557047           
+│                       │      │                  https://bugzilla.redhat.com/show_bug.cgi?id=2557056           
 │                       │      │                  https://bugzilla.redhat.com/show_bug.cgi?id=2557079           
 │                       │      │                  https://bugzilla.redhat.com/show_bug.cgi?id=2557110           
 │                       │      │                  https://bugzilla.redhat.com/show_bug.cgi?id=2557117           
@@ -1948,6 +2000,7 @@
 │                       │      │                  https://bugzilla.redhat.com/show_bug.cgi?id=2557236           
 │                       │      │                  https://bugzilla.redhat.com/show_bug.cgi?id=2557261           
 │                       │      │                  https://bugzilla.redhat.com/show_bug.cgi?id=2557356           
+│                       │      │                  https://bugzilla.redhat.com/show_bug.cgi?id=2557364           
 │                       │      │                  https://bugzilla.redhat.com/show_bug.cgi?id=2557405           
 │                       │      │                  https://bugzilla.redhat.com/show_bug.cgi?id=2557427           
 │                       │      │                  https://bugzilla.redhat.com/show_bug.cgi?id=2557443           
@@ -1956,12 +2009,12 @@
 │                       │      │                  https://bugzilla.redhat.com/show_bug.cgi?id=2557564           
 │                       │      │                  https://bugzilla.redhat.com/show_bug.cgi?id=2557598           
 │                       │      │                  https://bugzilla.redhat.com/show_bug.cgi?id=2557662           
-│                       │      │                  https://bugzilla.redhat.com/show_bug.cgi?id=2557665           
 │                       │      │                  https://bugzilla.redhat.com/show_bug.cgi?id=2557674           
 │                       │      │                  https://bugzilla.redhat.com/show_bug.cgi?id=2557690           
 │                       │      │                  https://bugzilla.redhat.com/show_bug.cgi?id=2557709           
 │                       │      │                  https://bugzilla.redhat.com/show_bug.cgi?id=2557711           
 │                       │      │                  https://bugzilla.redhat.com/show_bug.cgi?id=2557731           
+│                       │      │                  https://bugzilla.redhat.com/show_bug.cgi?id=2557757           
 │                       │      │                  https://bugzilla.redhat.com/show_bug.cgi?id=2557765           
 │                       │      │                  https://bugzilla.redhat.com/show_bug.cgi?id=2557780           
 │                       │      │                  https://bugzilla.redhat.com/show_bug.cgi?id=2557857           
@@ -1971,16 +2024,20 @@
 │                       │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-101516
 │                       │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-83374 
 │                       │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-83376 
+│                       │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-83378 
 │                       │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-83380 
 │                       │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-83381 
 │                       │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-83387 
 │                       │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-83395 
 │                       │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-83400 
+│                       │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-87255 
 │                       │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-87290 
+│                       │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-87291 
 │                       │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-87292 
 │                       │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-87294 
 │                       │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-87367 
 │                       │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-91332 
+│                       │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-91333 
 │                       │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-91334 
 │                       │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-91335 
 │                       │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-91373 
@@ -1988,7 +2045,6 @@
 │                       │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-91375 
 │                       │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-91379 
 │                       │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-91380 
-│                       │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-91382 
 │                       │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-91394 
 │                       │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-91397 
 │                       │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-91398 
@@ -2004,8 +2060,8 @@
 │                       │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-91463 
 │                       │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-91464 
 │                       │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-91487 
-│                       │      │                  https://errata.almalinux.org/8/ALSA-2026-88352.html           
-│                       │      │                  https://errata.rockylinux.org/RLSA-2026:88352                 
+│                       │      │                  https://errata.almalinux.org/9/ALSA-2026-90500.html           
+│                       │      │                  https://errata.rockylinux.org/RLSA-2026:88347                 
 │                       │      │                  https://linux.oracle.com/cve/CVE-2026-91374.html              
 │                       │      │                  https://linux.oracle.com/errata/ELSA-2026-90504.html          
 │                       │      │                  https://nvd.nist.gov/vuln/detail/CVE-2026-91374               
@@ -2030,8 +2086,8 @@
 │                       │      ├ DataSource       ╭ ID  : alpine 
 │                       │      │                  ├ Name: Alpine Secdb 
 │                       │      │                  ╰ URL : https://secdb.alpinelinux.org/ 
-│                       │      ├ Fingerprint     : sha256:270412b631a102f7351448d0db1c9b6ef222baa859d31ba5dd223
-│                       │      │                   30d4378dbc7 
+│                       │      ├ Fingerprint     : sha256:9d636a966b9dc177d8178f2381039d6b8047674b8a490405b8723
+│                       │      │                   ced2954f5fd 
 │                       │      ├ Title           : openjdk: Enhance jmod handling (Oracle CPU 2026-10) 
 │                       │      ├ Description     : Vulnerability in Oracle Java SE (component: Libraries). 
 │                       │      │                   Supported versions that are affected are Oracle Java SE:
@@ -2068,7 +2124,8 @@
 │                       │      │                           ╰ V3Score : 4.7 
 │                       │      ├ References                                                                     
 │                       │      │                  ──────────────────────────────────────────────────────────────
-│                       │      │                  https://access.redhat.com/errata/RHSA-2026:88352              
+│                       │      │                  https://access.redhat.com/errata/RHSA-2026:88347              
+│                       │      │                  https://access.redhat.com/errata/RHSA-2026:90500              
 │                       │      │                  https://access.redhat.com/security/cve/CVE-2026-91375         
 │                       │      │                  https://bugzilla.redhat.com/2556709                           
 │                       │      │                  https://bugzilla.redhat.com/2556795                           
@@ -2111,10 +2168,12 @@
 │                       │      │                  https://bugzilla.redhat.com/show_bug.cgi?id=2556824           
 │                       │      │                  https://bugzilla.redhat.com/show_bug.cgi?id=2556837           
 │                       │      │                  https://bugzilla.redhat.com/show_bug.cgi?id=2556859           
+│                       │      │                  https://bugzilla.redhat.com/show_bug.cgi?id=2556960           
 │                       │      │                  https://bugzilla.redhat.com/show_bug.cgi?id=2557007           
 │                       │      │                  https://bugzilla.redhat.com/show_bug.cgi?id=2557032           
 │                       │      │                  https://bugzilla.redhat.com/show_bug.cgi?id=2557041           
 │                       │      │                  https://bugzilla.redhat.com/show_bug.cgi?id=2557047           
+│                       │      │                  https://bugzilla.redhat.com/show_bug.cgi?id=2557056           
 │                       │      │                  https://bugzilla.redhat.com/show_bug.cgi?id=2557079           
 │                       │      │                  https://bugzilla.redhat.com/show_bug.cgi?id=2557110           
 │                       │      │                  https://bugzilla.redhat.com/show_bug.cgi?id=2557117           
@@ -2123,6 +2182,7 @@
 │                       │      │                  https://bugzilla.redhat.com/show_bug.cgi?id=2557236           
 │                       │      │                  https://bugzilla.redhat.com/show_bug.cgi?id=2557261           
 │                       │      │                  https://bugzilla.redhat.com/show_bug.cgi?id=2557356           
+│                       │      │                  https://bugzilla.redhat.com/show_bug.cgi?id=2557364           
 │                       │      │                  https://bugzilla.redhat.com/show_bug.cgi?id=2557405           
 │                       │      │                  https://bugzilla.redhat.com/show_bug.cgi?id=2557427           
 │                       │      │                  https://bugzilla.redhat.com/show_bug.cgi?id=2557443           
@@ -2131,12 +2191,12 @@
 │                       │      │                  https://bugzilla.redhat.com/show_bug.cgi?id=2557564           
 │                       │      │                  https://bugzilla.redhat.com/show_bug.cgi?id=2557598           
 │                       │      │                  https://bugzilla.redhat.com/show_bug.cgi?id=2557662           
-│                       │      │                  https://bugzilla.redhat.com/show_bug.cgi?id=2557665           
 │                       │      │                  https://bugzilla.redhat.com/show_bug.cgi?id=2557674           
 │                       │      │                  https://bugzilla.redhat.com/show_bug.cgi?id=2557690           
 │                       │      │                  https://bugzilla.redhat.com/show_bug.cgi?id=2557709           
 │                       │      │                  https://bugzilla.redhat.com/show_bug.cgi?id=2557711           
 │                       │      │                  https://bugzilla.redhat.com/show_bug.cgi?id=2557731           
+│                       │      │                  https://bugzilla.redhat.com/show_bug.cgi?id=2557757           
 │                       │      │                  https://bugzilla.redhat.com/show_bug.cgi?id=2557765           
 │                       │      │                  https://bugzilla.redhat.com/show_bug.cgi?id=2557780           
 │                       │      │                  https://bugzilla.redhat.com/show_bug.cgi?id=2557857           
@@ -2146,16 +2206,20 @@
 │                       │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-101516
 │                       │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-83374 
 │                       │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-83376 
+│                       │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-83378 
 │                       │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-83380 
 │                       │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-83381 
 │                       │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-83387 
 │                       │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-83395 
 │                       │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-83400 
+│                       │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-87255 
 │                       │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-87290 
+│                       │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-87291 
 │                       │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-87292 
 │                       │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-87294 
 │                       │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-87367 
 │                       │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-91332 
+│                       │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-91333 
 │                       │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-91334 
 │                       │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-91335 
 │                       │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-91373 
@@ -2163,7 +2227,6 @@
 │                       │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-91375 
 │                       │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-91379 
 │                       │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-91380 
-│                       │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-91382 
 │                       │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-91394 
 │                       │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-91397 
 │                       │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-91398 
@@ -2179,8 +2242,8 @@
 │                       │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-91463 
 │                       │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-91464 
 │                       │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-91487 
-│                       │      │                  https://errata.almalinux.org/8/ALSA-2026-88352.html           
-│                       │      │                  https://errata.rockylinux.org/RLSA-2026:88352                 
+│                       │      │                  https://errata.almalinux.org/9/ALSA-2026-90500.html           
+│                       │      │                  https://errata.rockylinux.org/RLSA-2026:88347                 
 │                       │      │                  https://linux.oracle.com/cve/CVE-2026-91375.html              
 │                       │      │                  https://linux.oracle.com/errata/ELSA-2026-90504.html          
 │                       │      │                  https://nvd.nist.gov/vuln/detail/CVE-2026-91375               
@@ -2205,8 +2268,8 @@
 │                       │      ├ DataSource       ╭ ID  : alpine 
 │                       │      │                  ├ Name: Alpine Secdb 
 │                       │      │                  ╰ URL : https://secdb.alpinelinux.org/ 
-│                       │      ├ Fingerprint     : sha256:7f55bdf184e915f2e549c2c51dd905d048cede5c437880e85ddd8
-│                       │      │                   668244454e3 
+│                       │      ├ Fingerprint     : sha256:d1cd4baa95ac8bf456c4c297549d45704ecb8a0311185bff2fd74
+│                       │      │                   23acf99bf8e 
 │                       │      ├ Title           : openjdk: Enhance JShell (Oracle CPU 2026-10) 
 │                       │      ├ Description     : Vulnerability in the Oracle Java SE, Oracle GraalVM for JDK,
 │                       │      │                    Oracle GraalVM Enterprise Edition product of Oracle Java SE
@@ -2248,7 +2311,8 @@
 │                       │      │                           ╰ V3Score : 4.7 
 │                       │      ├ References                                                                     
 │                       │      │                  ──────────────────────────────────────────────────────────────
-│                       │      │                  https://access.redhat.com/errata/RHSA-2026:88352              
+│                       │      │                  https://access.redhat.com/errata/RHSA-2026:88347              
+│                       │      │                  https://access.redhat.com/errata/RHSA-2026:90500              
 │                       │      │                  https://access.redhat.com/security/cve/CVE-2026-91379         
 │                       │      │                  https://bugzilla.redhat.com/2556709                           
 │                       │      │                  https://bugzilla.redhat.com/2556795                           
@@ -2291,10 +2355,12 @@
 │                       │      │                  https://bugzilla.redhat.com/show_bug.cgi?id=2556824           
 │                       │      │                  https://bugzilla.redhat.com/show_bug.cgi?id=2556837           
 │                       │      │                  https://bugzilla.redhat.com/show_bug.cgi?id=2556859           
+│                       │      │                  https://bugzilla.redhat.com/show_bug.cgi?id=2556960           
 │                       │      │                  https://bugzilla.redhat.com/show_bug.cgi?id=2557007           
 │                       │      │                  https://bugzilla.redhat.com/show_bug.cgi?id=2557032           
 │                       │      │                  https://bugzilla.redhat.com/show_bug.cgi?id=2557041           
 │                       │      │                  https://bugzilla.redhat.com/show_bug.cgi?id=2557047           
+│                       │      │                  https://bugzilla.redhat.com/show_bug.cgi?id=2557056           
 │                       │      │                  https://bugzilla.redhat.com/show_bug.cgi?id=2557079           
 │                       │      │                  https://bugzilla.redhat.com/show_bug.cgi?id=2557110           
 │                       │      │                  https://bugzilla.redhat.com/show_bug.cgi?id=2557117           
@@ -2303,6 +2369,7 @@
 │                       │      │                  https://bugzilla.redhat.com/show_bug.cgi?id=2557236           
 │                       │      │                  https://bugzilla.redhat.com/show_bug.cgi?id=2557261           
 │                       │      │                  https://bugzilla.redhat.com/show_bug.cgi?id=2557356           
+│                       │      │                  https://bugzilla.redhat.com/show_bug.cgi?id=2557364           
 │                       │      │                  https://bugzilla.redhat.com/show_bug.cgi?id=2557405           
 │                       │      │                  https://bugzilla.redhat.com/show_bug.cgi?id=2557427           
 │                       │      │                  https://bugzilla.redhat.com/show_bug.cgi?id=2557443           
@@ -2311,12 +2378,12 @@
 │                       │      │                  https://bugzilla.redhat.com/show_bug.cgi?id=2557564           
 │                       │      │                  https://bugzilla.redhat.com/show_bug.cgi?id=2557598           
 │                       │      │                  https://bugzilla.redhat.com/show_bug.cgi?id=2557662           
-│                       │      │                  https://bugzilla.redhat.com/show_bug.cgi?id=2557665           
 │                       │      │                  https://bugzilla.redhat.com/show_bug.cgi?id=2557674           
 │                       │      │                  https://bugzilla.redhat.com/show_bug.cgi?id=2557690           
 │                       │      │                  https://bugzilla.redhat.com/show_bug.cgi?id=2557709           
 │                       │      │                  https://bugzilla.redhat.com/show_bug.cgi?id=2557711           
 │                       │      │                  https://bugzilla.redhat.com/show_bug.cgi?id=2557731           
+│                       │      │                  https://bugzilla.redhat.com/show_bug.cgi?id=2557757           
 │                       │      │                  https://bugzilla.redhat.com/show_bug.cgi?id=2557765           
 │                       │      │                  https://bugzilla.redhat.com/show_bug.cgi?id=2557780           
 │                       │      │                  https://bugzilla.redhat.com/show_bug.cgi?id=2557857           
@@ -2326,16 +2393,20 @@
 │                       │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-101516
 │                       │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-83374 
 │                       │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-83376 
+│                       │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-83378 
 │                       │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-83380 
 │                       │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-83381 
 │                       │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-83387 
 │                       │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-83395 
 │                       │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-83400 
+│                       │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-87255 
 │                       │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-87290 
+│                       │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-87291 
 │                       │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-87292 
 │                       │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-87294 
 │                       │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-87367 
 │                       │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-91332 
+│                       │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-91333 
 │                       │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-91334 
 │                       │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-91335 
 │                       │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-91373 
@@ -2343,7 +2414,6 @@
 │                       │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-91375 
 │                       │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-91379 
 │                       │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-91380 
-│                       │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-91382 
 │                       │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-91394 
 │                       │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-91397 
 │                       │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-91398 
@@ -2359,8 +2429,8 @@
 │                       │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-91463 
 │                       │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-91464 
 │                       │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-91487 
-│                       │      │                  https://errata.almalinux.org/8/ALSA-2026-88352.html           
-│                       │      │                  https://errata.rockylinux.org/RLSA-2026:88352                 
+│                       │      │                  https://errata.almalinux.org/9/ALSA-2026-90500.html           
+│                       │      │                  https://errata.rockylinux.org/RLSA-2026:88347                 
 │                       │      │                  https://linux.oracle.com/cve/CVE-2026-91379.html              
 │                       │      │                  https://linux.oracle.com/errata/ELSA-2026-90504.html          
 │                       │      │                  https://nvd.nist.gov/vuln/detail/CVE-2026-91379               
@@ -2385,8 +2455,8 @@
 │                       │      ├ DataSource       ╭ ID  : alpine 
 │                       │      │                  ├ Name: Alpine Secdb 
 │                       │      │                  ╰ URL : https://secdb.alpinelinux.org/ 
-│                       │      ├ Fingerprint     : sha256:983db22865eb36c14a6cae34c982e370059f5fbf0a27544fe6372
-│                       │      │                   37220f3a29f 
+│                       │      ├ Fingerprint     : sha256:3ac8c7f61bd81072173557a362a9872f76cdcd84c61cae9af7cdb
+│                       │      │                   11887415caa 
 │                       │      ├ Title           : openjdk: Enhance CORBA (Oracle CPU 2026-10) 
 │                       │      ├ Description     : Vulnerability in the Oracle Java SE, Oracle GraalVM
 │                       │      │                   Enterprise Edition product of Oracle Java SE (component:
@@ -2439,8 +2509,8 @@
 │                       │      ├ DataSource       ╭ ID  : alpine 
 │                       │      │                  ├ Name: Alpine Secdb 
 │                       │      │                  ╰ URL : https://secdb.alpinelinux.org/ 
-│                       │      ├ Fingerprint     : sha256:49783dd7026b36320c80e3a09ae6bfb7a588d22fbeee7a73a4f85
-│                       │      │                   3a67529927f 
+│                       │      ├ Fingerprint     : sha256:a4e79c46758cd1fc1058fcc5f04672eef014e86b572c5ee3278b5
+│                       │      │                   a2215a334c0 
 │                       │      ├ Title           : openjdk: Enhance GIF loading (Oracle CPU 2026-10) 
 │                       │      ├ Description     : Vulnerability in the Oracle Java SE, Oracle JavaFX, Oracle
 │                       │      │                   GraalVM for JDK, Oracle GraalVM Enterprise Edition product
@@ -2480,7 +2550,8 @@
 │                       │      │                           ╰ V3Score : 5.3 
 │                       │      ├ References                                                                     
 │                       │      │                  ──────────────────────────────────────────────────────────────
-│                       │      │                  https://access.redhat.com/errata/RHSA-2026:88352              
+│                       │      │                  https://access.redhat.com/errata/RHSA-2026:88347              
+│                       │      │                  https://access.redhat.com/errata/RHSA-2026:90500              
 │                       │      │                  https://access.redhat.com/security/cve/CVE-2026-91418         
 │                       │      │                  https://bugzilla.redhat.com/2556709                           
 │                       │      │                  https://bugzilla.redhat.com/2556795                           
@@ -2523,10 +2594,12 @@
 │                       │      │                  https://bugzilla.redhat.com/show_bug.cgi?id=2556824           
 │                       │      │                  https://bugzilla.redhat.com/show_bug.cgi?id=2556837           
 │                       │      │                  https://bugzilla.redhat.com/show_bug.cgi?id=2556859           
+│                       │      │                  https://bugzilla.redhat.com/show_bug.cgi?id=2556960           
 │                       │      │                  https://bugzilla.redhat.com/show_bug.cgi?id=2557007           
 │                       │      │                  https://bugzilla.redhat.com/show_bug.cgi?id=2557032           
 │                       │      │                  https://bugzilla.redhat.com/show_bug.cgi?id=2557041           
 │                       │      │                  https://bugzilla.redhat.com/show_bug.cgi?id=2557047           
+│                       │      │                  https://bugzilla.redhat.com/show_bug.cgi?id=2557056           
 │                       │      │                  https://bugzilla.redhat.com/show_bug.cgi?id=2557079           
 │                       │      │                  https://bugzilla.redhat.com/show_bug.cgi?id=2557110           
 │                       │      │                  https://bugzilla.redhat.com/show_bug.cgi?id=2557117           
@@ -2535,6 +2608,7 @@
 │                       │      │                  https://bugzilla.redhat.com/show_bug.cgi?id=2557236           
 │                       │      │                  https://bugzilla.redhat.com/show_bug.cgi?id=2557261           
 │                       │      │                  https://bugzilla.redhat.com/show_bug.cgi?id=2557356           
+│                       │      │                  https://bugzilla.redhat.com/show_bug.cgi?id=2557364           
 │                       │      │                  https://bugzilla.redhat.com/show_bug.cgi?id=2557405           
 │                       │      │                  https://bugzilla.redhat.com/show_bug.cgi?id=2557427           
 │                       │      │                  https://bugzilla.redhat.com/show_bug.cgi?id=2557443           
@@ -2543,12 +2617,12 @@
 │                       │      │                  https://bugzilla.redhat.com/show_bug.cgi?id=2557564           
 │                       │      │                  https://bugzilla.redhat.com/show_bug.cgi?id=2557598           
 │                       │      │                  https://bugzilla.redhat.com/show_bug.cgi?id=2557662           
-│                       │      │                  https://bugzilla.redhat.com/show_bug.cgi?id=2557665           
 │                       │      │                  https://bugzilla.redhat.com/show_bug.cgi?id=2557674           
 │                       │      │                  https://bugzilla.redhat.com/show_bug.cgi?id=2557690           
 │                       │      │                  https://bugzilla.redhat.com/show_bug.cgi?id=2557709           
 │                       │      │                  https://bugzilla.redhat.com/show_bug.cgi?id=2557711           
 │                       │      │                  https://bugzilla.redhat.com/show_bug.cgi?id=2557731           
+│                       │      │                  https://bugzilla.redhat.com/show_bug.cgi?id=2557757           
 │                       │      │                  https://bugzilla.redhat.com/show_bug.cgi?id=2557765           
 │                       │      │                  https://bugzilla.redhat.com/show_bug.cgi?id=2557780           
 │                       │      │                  https://bugzilla.redhat.com/show_bug.cgi?id=2557857           
@@ -2558,16 +2632,20 @@
 │                       │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-101516
 │                       │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-83374 
 │                       │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-83376 
+│                       │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-83378 
 │                       │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-83380 
 │                       │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-83381 
 │                       │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-83387 
 │                       │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-83395 
 │                       │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-83400 
+│                       │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-87255 
 │                       │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-87290 
+│                       │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-87291 
 │                       │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-87292 
 │                       │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-87294 
 │                       │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-87367 
 │                       │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-91332 
+│                       │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-91333 
 │                       │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-91334 
 │                       │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-91335 
 │                       │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-91373 
@@ -2575,7 +2653,6 @@
 │                       │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-91375 
 │                       │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-91379 
 │                       │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-91380 
-│                       │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-91382 
 │                       │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-91394 
 │                       │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-91397 
 │                       │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-91398 
@@ -2591,8 +2668,8 @@
 │                       │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-91463 
 │                       │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-91464 
 │                       │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-91487 
-│                       │      │                  https://errata.almalinux.org/8/ALSA-2026-88352.html           
-│                       │      │                  https://errata.rockylinux.org/RLSA-2026:88352                 
+│                       │      │                  https://errata.almalinux.org/9/ALSA-2026-90500.html           
+│                       │      │                  https://errata.rockylinux.org/RLSA-2026:88347                 
 │                       │      │                  https://linux.oracle.com/cve/CVE-2026-91418.html              
 │                       │      │                  https://linux.oracle.com/errata/ELSA-2026-90504.html          
 │                       │      │                  https://nvd.nist.gov/vuln/detail/CVE-2026-91418               
@@ -2617,8 +2694,8 @@
 │                       │      ├ DataSource       ╭ ID  : alpine 
 │                       │      │                  ├ Name: Alpine Secdb 
 │                       │      │                  ╰ URL : https://secdb.alpinelinux.org/ 
-│                       │      ├ Fingerprint     : sha256:bde6c669d2f3e7fb120f559cd355f15929ed29b54dbd30fbfc3df
-│                       │      │                   d223e873d94 
+│                       │      ├ Fingerprint     : sha256:25a8fae53a5307488251e14c212167748ed098de288ff1caa1996
+│                       │      │                   457641930a2 
 │                       │      ├ Title           : openjdk: Enhance HTTP server parsing (Oracle CPU 2026-10) 
 │                       │      ├ Description     : Vulnerability in Oracle Java SE (component: Networking). 
 │                       │      │                   Supported versions that are affected are Oracle Java SE:
@@ -2650,7 +2727,8 @@
 │                       │      │                           ╰ V3Score : 5.3 
 │                       │      ├ References                                                                     
 │                       │      │                  ──────────────────────────────────────────────────────────────
-│                       │      │                  https://access.redhat.com/errata/RHSA-2026:88352              
+│                       │      │                  https://access.redhat.com/errata/RHSA-2026:88347              
+│                       │      │                  https://access.redhat.com/errata/RHSA-2026:90500              
 │                       │      │                  https://access.redhat.com/security/cve/CVE-2026-91451         
 │                       │      │                  https://bugzilla.redhat.com/2556709                           
 │                       │      │                  https://bugzilla.redhat.com/2556795                           
@@ -2693,10 +2771,12 @@
 │                       │      │                  https://bugzilla.redhat.com/show_bug.cgi?id=2556824           
 │                       │      │                  https://bugzilla.redhat.com/show_bug.cgi?id=2556837           
 │                       │      │                  https://bugzilla.redhat.com/show_bug.cgi?id=2556859           
+│                       │      │                  https://bugzilla.redhat.com/show_bug.cgi?id=2556960           
 │                       │      │                  https://bugzilla.redhat.com/show_bug.cgi?id=2557007           
 │                       │      │                  https://bugzilla.redhat.com/show_bug.cgi?id=2557032           
 │                       │      │                  https://bugzilla.redhat.com/show_bug.cgi?id=2557041           
 │                       │      │                  https://bugzilla.redhat.com/show_bug.cgi?id=2557047           
+│                       │      │                  https://bugzilla.redhat.com/show_bug.cgi?id=2557056           
 │                       │      │                  https://bugzilla.redhat.com/show_bug.cgi?id=2557079           
 │                       │      │                  https://bugzilla.redhat.com/show_bug.cgi?id=2557110           
 │                       │      │                  https://bugzilla.redhat.com/show_bug.cgi?id=2557117           
@@ -2705,6 +2785,7 @@
 │                       │      │                  https://bugzilla.redhat.com/show_bug.cgi?id=2557236           
 │                       │      │                  https://bugzilla.redhat.com/show_bug.cgi?id=2557261           
 │                       │      │                  https://bugzilla.redhat.com/show_bug.cgi?id=2557356           
+│                       │      │                  https://bugzilla.redhat.com/show_bug.cgi?id=2557364           
 │                       │      │                  https://bugzilla.redhat.com/show_bug.cgi?id=2557405           
 │                       │      │                  https://bugzilla.redhat.com/show_bug.cgi?id=2557427           
 │                       │      │                  https://bugzilla.redhat.com/show_bug.cgi?id=2557443           
@@ -2713,12 +2794,12 @@
 │                       │      │                  https://bugzilla.redhat.com/show_bug.cgi?id=2557564           
 │                       │      │                  https://bugzilla.redhat.com/show_bug.cgi?id=2557598           
 │                       │      │                  https://bugzilla.redhat.com/show_bug.cgi?id=2557662           
-│                       │      │                  https://bugzilla.redhat.com/show_bug.cgi?id=2557665           
 │                       │      │                  https://bugzilla.redhat.com/show_bug.cgi?id=2557674           
 │                       │      │                  https://bugzilla.redhat.com/show_bug.cgi?id=2557690           
 │                       │      │                  https://bugzilla.redhat.com/show_bug.cgi?id=2557709           
 │                       │      │                  https://bugzilla.redhat.com/show_bug.cgi?id=2557711           
 │                       │      │                  https://bugzilla.redhat.com/show_bug.cgi?id=2557731           
+│                       │      │                  https://bugzilla.redhat.com/show_bug.cgi?id=2557757           
 │                       │      │                  https://bugzilla.redhat.com/show_bug.cgi?id=2557765           
 │                       │      │                  https://bugzilla.redhat.com/show_bug.cgi?id=2557780           
 │                       │      │                  https://bugzilla.redhat.com/show_bug.cgi?id=2557857           
@@ -2728,16 +2809,20 @@
 │                       │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-101516
 │                       │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-83374 
 │                       │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-83376 
+│                       │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-83378 
 │                       │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-83380 
 │                       │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-83381 
 │                       │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-83387 
 │                       │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-83395 
 │                       │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-83400 
+│                       │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-87255 
 │                       │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-87290 
+│                       │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-87291 
 │                       │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-87292 
 │                       │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-87294 
 │                       │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-87367 
 │                       │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-91332 
+│                       │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-91333 
 │                       │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-91334 
 │                       │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-91335 
 │                       │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-91373 
@@ -2745,7 +2830,6 @@
 │                       │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-91375 
 │                       │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-91379 
 │                       │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-91380 
-│                       │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-91382 
 │                       │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-91394 
 │                       │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-91397 
 │                       │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-91398 
@@ -2761,8 +2845,8 @@
 │                       │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-91463 
 │                       │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-91464 
 │                       │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-91487 
-│                       │      │                  https://errata.almalinux.org/8/ALSA-2026-88352.html           
-│                       │      │                  https://errata.rockylinux.org/RLSA-2026:88352                 
+│                       │      │                  https://errata.almalinux.org/9/ALSA-2026-90500.html           
+│                       │      │                  https://errata.rockylinux.org/RLSA-2026:88347                 
 │                       │      │                  https://linux.oracle.com/cve/CVE-2026-91451.html              
 │                       │      │                  https://linux.oracle.com/errata/ELSA-2026-90504.html          
 │                       │      │                  https://nvd.nist.gov/vuln/detail/CVE-2026-91451               
@@ -2787,8 +2871,8 @@
 │                       │      ├ DataSource       ╭ ID  : alpine 
 │                       │      │                  ├ Name: Alpine Secdb 
 │                       │      │                  ╰ URL : https://secdb.alpinelinux.org/ 
-│                       │      ├ Fingerprint     : sha256:5410085ebecc3176dc88c4155560cead66513efa525ec0ffd69bc
-│                       │      │                   91301a0f96b 
+│                       │      ├ Fingerprint     : sha256:305302f7df6a188c42ca8e4cf48531cbecf34813990d588cb1473
+│                       │      │                   fda7507db95 
 │                       │      ├ Title           : openjdk: Enhance HTTP server (Oracle CPU 2026-10) 
 │                       │      ├ Description     : Vulnerability in the Oracle Java SE, Oracle GraalVM for JDK,
 │                       │      │                    Oracle GraalVM Enterprise Edition product of Oracle Java SE
@@ -2824,7 +2908,8 @@
 │                       │      │                           ╰ V3Score : 5.3 
 │                       │      ├ References                                                                     
 │                       │      │                  ──────────────────────────────────────────────────────────────
-│                       │      │                  https://access.redhat.com/errata/RHSA-2026:88352              
+│                       │      │                  https://access.redhat.com/errata/RHSA-2026:88347              
+│                       │      │                  https://access.redhat.com/errata/RHSA-2026:90500              
 │                       │      │                  https://access.redhat.com/security/cve/CVE-2026-91452         
 │                       │      │                  https://bugzilla.redhat.com/2556709                           
 │                       │      │                  https://bugzilla.redhat.com/2556795                           
@@ -2867,10 +2952,12 @@
 │                       │      │                  https://bugzilla.redhat.com/show_bug.cgi?id=2556824           
 │                       │      │                  https://bugzilla.redhat.com/show_bug.cgi?id=2556837           
 │                       │      │                  https://bugzilla.redhat.com/show_bug.cgi?id=2556859           
+│                       │      │                  https://bugzilla.redhat.com/show_bug.cgi?id=2556960           
 │                       │      │                  https://bugzilla.redhat.com/show_bug.cgi?id=2557007           
 │                       │      │                  https://bugzilla.redhat.com/show_bug.cgi?id=2557032           
 │                       │      │                  https://bugzilla.redhat.com/show_bug.cgi?id=2557041           
 │                       │      │                  https://bugzilla.redhat.com/show_bug.cgi?id=2557047           
+│                       │      │                  https://bugzilla.redhat.com/show_bug.cgi?id=2557056           
 │                       │      │                  https://bugzilla.redhat.com/show_bug.cgi?id=2557079           
 │                       │      │                  https://bugzilla.redhat.com/show_bug.cgi?id=2557110           
 │                       │      │                  https://bugzilla.redhat.com/show_bug.cgi?id=2557117           
@@ -2879,6 +2966,7 @@
 │                       │      │                  https://bugzilla.redhat.com/show_bug.cgi?id=2557236           
 │                       │      │                  https://bugzilla.redhat.com/show_bug.cgi?id=2557261           
 │                       │      │                  https://bugzilla.redhat.com/show_bug.cgi?id=2557356           
+│                       │      │                  https://bugzilla.redhat.com/show_bug.cgi?id=2557364           
 │                       │      │                  https://bugzilla.redhat.com/show_bug.cgi?id=2557405           
 │                       │      │                  https://bugzilla.redhat.com/show_bug.cgi?id=2557427           
 │                       │      │                  https://bugzilla.redhat.com/show_bug.cgi?id=2557443           
@@ -2887,12 +2975,12 @@
 │                       │      │                  https://bugzilla.redhat.com/show_bug.cgi?id=2557564           
 │                       │      │                  https://bugzilla.redhat.com/show_bug.cgi?id=2557598           
 │                       │      │                  https://bugzilla.redhat.com/show_bug.cgi?id=2557662           
-│                       │      │                  https://bugzilla.redhat.com/show_bug.cgi?id=2557665           
 │                       │      │                  https://bugzilla.redhat.com/show_bug.cgi?id=2557674           
 │                       │      │                  https://bugzilla.redhat.com/show_bug.cgi?id=2557690           
 │                       │      │                  https://bugzilla.redhat.com/show_bug.cgi?id=2557709           
 │                       │      │                  https://bugzilla.redhat.com/show_bug.cgi?id=2557711           
 │                       │      │                  https://bugzilla.redhat.com/show_bug.cgi?id=2557731           
+│                       │      │                  https://bugzilla.redhat.com/show_bug.cgi?id=2557757           
 │                       │      │                  https://bugzilla.redhat.com/show_bug.cgi?id=2557765           
 │                       │      │                  https://bugzilla.redhat.com/show_bug.cgi?id=2557780           
 │                       │      │                  https://bugzilla.redhat.com/show_bug.cgi?id=2557857           
@@ -2902,16 +2990,20 @@
 │                       │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-101516
 │                       │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-83374 
 │                       │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-83376 
+│                       │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-83378 
 │                       │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-83380 
 │                       │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-83381 
 │                       │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-83387 
 │                       │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-83395 
 │                       │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-83400 
+│                       │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-87255 
 │                       │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-87290 
+│                       │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-87291 
 │                       │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-87292 
 │                       │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-87294 
 │                       │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-87367 
 │                       │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-91332 
+│                       │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-91333 
 │                       │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-91334 
 │                       │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-91335 
 │                       │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-91373 
@@ -2919,7 +3011,6 @@
 │                       │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-91375 
 │                       │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-91379 
 │                       │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-91380 
-│                       │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-91382 
 │                       │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-91394 
 │                       │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-91397 
 │                       │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-91398 
@@ -2935,8 +3026,8 @@
 │                       │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-91463 
 │                       │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-91464 
 │                       │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-91487 
-│                       │      │                  https://errata.almalinux.org/8/ALSA-2026-88352.html           
-│                       │      │                  https://errata.rockylinux.org/RLSA-2026:88352                 
+│                       │      │                  https://errata.almalinux.org/9/ALSA-2026-90500.html           
+│                       │      │                  https://errata.rockylinux.org/RLSA-2026:88347                 
 │                       │      │                  https://linux.oracle.com/cve/CVE-2026-91452.html              
 │                       │      │                  https://linux.oracle.com/errata/ELSA-2026-90504.html          
 │                       │      │                  https://nvd.nist.gov/vuln/detail/CVE-2026-91452               
@@ -2961,8 +3052,8 @@
 │                       │      ├ DataSource       ╭ ID  : alpine 
 │                       │      │                  ├ Name: Alpine Secdb 
 │                       │      │                  ╰ URL : https://secdb.alpinelinux.org/ 
-│                       │      ├ Fingerprint     : sha256:cff31e63b008bb0ae11c7492b5dc6690a0864ada60116b9bcd282
-│                       │      │                   ddf5cc27a8d 
+│                       │      ├ Fingerprint     : sha256:9d69ab0ddc22741e071530bafcece39b65e2259108d0f68de48c3
+│                       │      │                   72d0750056f 
 │                       │      ├ Title           : openjdk: Improve HTTP headers (Oracle CPU 2026-10) 
 │                       │      ├ Description     : Vulnerability in the Oracle Java SE, Oracle GraalVM for JDK,
 │                       │      │                    Oracle GraalVM Enterprise Edition product of Oracle Java SE
@@ -2998,7 +3089,8 @@
 │                       │      │                           ╰ V3Score : 5.3 
 │                       │      ├ References                                                                     
 │                       │      │                  ──────────────────────────────────────────────────────────────
-│                       │      │                  https://access.redhat.com/errata/RHSA-2026:88352              
+│                       │      │                  https://access.redhat.com/errata/RHSA-2026:88347              
+│                       │      │                  https://access.redhat.com/errata/RHSA-2026:90500              
 │                       │      │                  https://access.redhat.com/security/cve/CVE-2026-91453         
 │                       │      │                  https://bugzilla.redhat.com/2556709                           
 │                       │      │                  https://bugzilla.redhat.com/2556795                           
@@ -3041,10 +3133,12 @@
 │                       │      │                  https://bugzilla.redhat.com/show_bug.cgi?id=2556824           
 │                       │      │                  https://bugzilla.redhat.com/show_bug.cgi?id=2556837           
 │                       │      │                  https://bugzilla.redhat.com/show_bug.cgi?id=2556859           
+│                       │      │                  https://bugzilla.redhat.com/show_bug.cgi?id=2556960           
 │                       │      │                  https://bugzilla.redhat.com/show_bug.cgi?id=2557007           
 │                       │      │                  https://bugzilla.redhat.com/show_bug.cgi?id=2557032           
 │                       │      │                  https://bugzilla.redhat.com/show_bug.cgi?id=2557041           
 │                       │      │                  https://bugzilla.redhat.com/show_bug.cgi?id=2557047           
+│                       │      │                  https://bugzilla.redhat.com/show_bug.cgi?id=2557056           
 │                       │      │                  https://bugzilla.redhat.com/show_bug.cgi?id=2557079           
 │                       │      │                  https://bugzilla.redhat.com/show_bug.cgi?id=2557110           
 │                       │      │                  https://bugzilla.redhat.com/show_bug.cgi?id=2557117           
@@ -3053,6 +3147,7 @@
 │                       │      │                  https://bugzilla.redhat.com/show_bug.cgi?id=2557236           
 │                       │      │                  https://bugzilla.redhat.com/show_bug.cgi?id=2557261           
 │                       │      │                  https://bugzilla.redhat.com/show_bug.cgi?id=2557356           
+│                       │      │                  https://bugzilla.redhat.com/show_bug.cgi?id=2557364           
 │                       │      │                  https://bugzilla.redhat.com/show_bug.cgi?id=2557405           
 │                       │      │                  https://bugzilla.redhat.com/show_bug.cgi?id=2557427           
 │                       │      │                  https://bugzilla.redhat.com/show_bug.cgi?id=2557443           
@@ -3061,12 +3156,12 @@
 │                       │      │                  https://bugzilla.redhat.com/show_bug.cgi?id=2557564           
 │                       │      │                  https://bugzilla.redhat.com/show_bug.cgi?id=2557598           
 │                       │      │                  https://bugzilla.redhat.com/show_bug.cgi?id=2557662           
-│                       │      │                  https://bugzilla.redhat.com/show_bug.cgi?id=2557665           
 │                       │      │                  https://bugzilla.redhat.com/show_bug.cgi?id=2557674           
 │                       │      │                  https://bugzilla.redhat.com/show_bug.cgi?id=2557690           
 │                       │      │                  https://bugzilla.redhat.com/show_bug.cgi?id=2557709           
 │                       │      │                  https://bugzilla.redhat.com/show_bug.cgi?id=2557711           
 │                       │      │                  https://bugzilla.redhat.com/show_bug.cgi?id=2557731           
+│                       │      │                  https://bugzilla.redhat.com/show_bug.cgi?id=2557757           
 │                       │      │                  https://bugzilla.redhat.com/show_bug.cgi?id=2557765           
 │                       │      │                  https://bugzilla.redhat.com/show_bug.cgi?id=2557780           
 │                       │      │                  https://bugzilla.redhat.com/show_bug.cgi?id=2557857           
@@ -3076,16 +3171,20 @@
 │                       │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-101516
 │                       │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-83374 
 │                       │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-83376 
+│                       │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-83378 
 │                       │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-83380 
 │                       │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-83381 
 │                       │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-83387 
 │                       │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-83395 
 │                       │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-83400 
+│                       │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-87255 
 │                       │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-87290 
+│                       │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-87291 
 │                       │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-87292 
 │                       │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-87294 
 │                       │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-87367 
 │                       │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-91332 
+│                       │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-91333 
 │                       │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-91334 
 │                       │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-91335 
 │                       │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-91373 
@@ -3093,7 +3192,6 @@
 │                       │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-91375 
 │                       │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-91379 
 │                       │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-91380 
-│                       │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-91382 
 │                       │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-91394 
 │                       │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-91397 
 │                       │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-91398 
@@ -3109,8 +3207,8 @@
 │                       │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-91463 
 │                       │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-91464 
 │                       │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-91487 
-│                       │      │                  https://errata.almalinux.org/8/ALSA-2026-88352.html           
-│                       │      │                  https://errata.rockylinux.org/RLSA-2026:88352                 
+│                       │      │                  https://errata.almalinux.org/9/ALSA-2026-90500.html           
+│                       │      │                  https://errata.rockylinux.org/RLSA-2026:88347                 
 │                       │      │                  https://linux.oracle.com/cve/CVE-2026-91453.html              
 │                       │      │                  https://linux.oracle.com/errata/ELSA-2026-90504.html          
 │                       │      │                  https://nvd.nist.gov/vuln/detail/CVE-2026-91453               
@@ -3135,8 +3233,8 @@
 │                       │      ├ DataSource       ╭ ID  : alpine 
 │                       │      │                  ├ Name: Alpine Secdb 
 │                       │      │                  ╰ URL : https://secdb.alpinelinux.org/ 
-│                       │      ├ Fingerprint     : sha256:48a96c4eb7312796f002ad51770d6b939cd32ed64f77b6aa2d1cb
-│                       │      │                   f85282b359c 
+│                       │      ├ Fingerprint     : sha256:93aaf8fe905acdc818c978354bcbe3b23d5fa0259759be4f7c766
+│                       │      │                   357861b5ec0 
 │                       │      ├ Title           : openjdk: Enhance krb5 tokens (Oracle CPU 2026-10) 
 │                       │      ├ Description     : Vulnerability in the Oracle Java SE, Oracle GraalVM for JDK,
 │                       │      │                    Oracle GraalVM Enterprise Edition product of Oracle Java SE
@@ -3172,7 +3270,8 @@
 │                       │      │                           ╰ V3Score : 5.9 
 │                       │      ├ References                                                                     
 │                       │      │                  ──────────────────────────────────────────────────────────────
-│                       │      │                  https://access.redhat.com/errata/RHSA-2026:88352              
+│                       │      │                  https://access.redhat.com/errata/RHSA-2026:88347              
+│                       │      │                  https://access.redhat.com/errata/RHSA-2026:90500              
 │                       │      │                  https://access.redhat.com/security/cve/CVE-2026-91462         
 │                       │      │                  https://bugzilla.redhat.com/2556709                           
 │                       │      │                  https://bugzilla.redhat.com/2556795                           
@@ -3215,10 +3314,12 @@
 │                       │      │                  https://bugzilla.redhat.com/show_bug.cgi?id=2556824           
 │                       │      │                  https://bugzilla.redhat.com/show_bug.cgi?id=2556837           
 │                       │      │                  https://bugzilla.redhat.com/show_bug.cgi?id=2556859           
+│                       │      │                  https://bugzilla.redhat.com/show_bug.cgi?id=2556960           
 │                       │      │                  https://bugzilla.redhat.com/show_bug.cgi?id=2557007           
 │                       │      │                  https://bugzilla.redhat.com/show_bug.cgi?id=2557032           
 │                       │      │                  https://bugzilla.redhat.com/show_bug.cgi?id=2557041           
 │                       │      │                  https://bugzilla.redhat.com/show_bug.cgi?id=2557047           
+│                       │      │                  https://bugzilla.redhat.com/show_bug.cgi?id=2557056           
 │                       │      │                  https://bugzilla.redhat.com/show_bug.cgi?id=2557079           
 │                       │      │                  https://bugzilla.redhat.com/show_bug.cgi?id=2557110           
 │                       │      │                  https://bugzilla.redhat.com/show_bug.cgi?id=2557117           
@@ -3227,6 +3328,7 @@
 │                       │      │                  https://bugzilla.redhat.com/show_bug.cgi?id=2557236           
 │                       │      │                  https://bugzilla.redhat.com/show_bug.cgi?id=2557261           
 │                       │      │                  https://bugzilla.redhat.com/show_bug.cgi?id=2557356           
+│                       │      │                  https://bugzilla.redhat.com/show_bug.cgi?id=2557364           
 │                       │      │                  https://bugzilla.redhat.com/show_bug.cgi?id=2557405           
 │                       │      │                  https://bugzilla.redhat.com/show_bug.cgi?id=2557427           
 │                       │      │                  https://bugzilla.redhat.com/show_bug.cgi?id=2557443           
@@ -3235,12 +3337,12 @@
 │                       │      │                  https://bugzilla.redhat.com/show_bug.cgi?id=2557564           
 │                       │      │                  https://bugzilla.redhat.com/show_bug.cgi?id=2557598           
 │                       │      │                  https://bugzilla.redhat.com/show_bug.cgi?id=2557662           
-│                       │      │                  https://bugzilla.redhat.com/show_bug.cgi?id=2557665           
 │                       │      │                  https://bugzilla.redhat.com/show_bug.cgi?id=2557674           
 │                       │      │                  https://bugzilla.redhat.com/show_bug.cgi?id=2557690           
 │                       │      │                  https://bugzilla.redhat.com/show_bug.cgi?id=2557709           
 │                       │      │                  https://bugzilla.redhat.com/show_bug.cgi?id=2557711           
 │                       │      │                  https://bugzilla.redhat.com/show_bug.cgi?id=2557731           
+│                       │      │                  https://bugzilla.redhat.com/show_bug.cgi?id=2557757           
 │                       │      │                  https://bugzilla.redhat.com/show_bug.cgi?id=2557765           
 │                       │      │                  https://bugzilla.redhat.com/show_bug.cgi?id=2557780           
 │                       │      │                  https://bugzilla.redhat.com/show_bug.cgi?id=2557857           
@@ -3250,16 +3352,20 @@
 │                       │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-101516
 │                       │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-83374 
 │                       │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-83376 
+│                       │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-83378 
 │                       │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-83380 
 │                       │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-83381 
 │                       │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-83387 
 │                       │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-83395 
 │                       │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-83400 
+│                       │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-87255 
 │                       │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-87290 
+│                       │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-87291 
 │                       │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-87292 
 │                       │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-87294 
 │                       │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-87367 
 │                       │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-91332 
+│                       │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-91333 
 │                       │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-91334 
 │                       │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-91335 
 │                       │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-91373 
@@ -3267,7 +3373,6 @@
 │                       │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-91375 
 │                       │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-91379 
 │                       │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-91380 
-│                       │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-91382 
 │                       │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-91394 
 │                       │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-91397 
 │                       │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-91398 
@@ -3283,8 +3388,8 @@
 │                       │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-91463 
 │                       │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-91464 
 │                       │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-91487 
-│                       │      │                  https://errata.almalinux.org/8/ALSA-2026-88352.html           
-│                       │      │                  https://errata.rockylinux.org/RLSA-2026:88352                 
+│                       │      │                  https://errata.almalinux.org/9/ALSA-2026-90500.html           
+│                       │      │                  https://errata.rockylinux.org/RLSA-2026:88347                 
 │                       │      │                  https://linux.oracle.com/cve/CVE-2026-91462.html              
 │                       │      │                  https://linux.oracle.com/errata/ELSA-2026-90504.html          
 │                       │      │                  https://nvd.nist.gov/vuln/detail/CVE-2026-91462               
@@ -3309,8 +3414,8 @@
 │                       │      ├ DataSource       ╭ ID  : alpine 
 │                       │      │                  ├ Name: Alpine Secdb 
 │                       │      │                  ╰ URL : https://secdb.alpinelinux.org/ 
-│                       │      ├ Fingerprint     : sha256:3708bd5431ce035fdc4e17c82e1f8a50e49ef1c5cac14922a854f
-│                       │      │                   db1f89c791e 
+│                       │      ├ Fingerprint     : sha256:9708bf5d2491a6db48209c020957980070973c9d4b7858c195e89
+│                       │      │                   7b6b5b0da81 
 │                       │      ├ Title           : openjdk: Enhance krb5 client (Oracle CPU 2026-10) 
 │                       │      ├ Description     : Vulnerability in the Oracle Java SE, Oracle GraalVM for JDK,
 │                       │      │                    Oracle GraalVM Enterprise Edition product of Oracle Java SE
@@ -3351,7 +3456,8 @@
 │                       │      │                           ╰ V3Score : 5.3 
 │                       │      ├ References                                                                     
 │                       │      │                  ──────────────────────────────────────────────────────────────
-│                       │      │                  https://access.redhat.com/errata/RHSA-2026:88352              
+│                       │      │                  https://access.redhat.com/errata/RHSA-2026:88347              
+│                       │      │                  https://access.redhat.com/errata/RHSA-2026:90500              
 │                       │      │                  https://access.redhat.com/security/cve/CVE-2026-91463         
 │                       │      │                  https://bugzilla.redhat.com/2556709                           
 │                       │      │                  https://bugzilla.redhat.com/2556795                           
@@ -3394,10 +3500,12 @@
 │                       │      │                  https://bugzilla.redhat.com/show_bug.cgi?id=2556824           
 │                       │      │                  https://bugzilla.redhat.com/show_bug.cgi?id=2556837           
 │                       │      │                  https://bugzilla.redhat.com/show_bug.cgi?id=2556859           
+│                       │      │                  https://bugzilla.redhat.com/show_bug.cgi?id=2556960           
 │                       │      │                  https://bugzilla.redhat.com/show_bug.cgi?id=2557007           
 │                       │      │                  https://bugzilla.redhat.com/show_bug.cgi?id=2557032           
 │                       │      │                  https://bugzilla.redhat.com/show_bug.cgi?id=2557041           
 │                       │      │                  https://bugzilla.redhat.com/show_bug.cgi?id=2557047           
+│                       │      │                  https://bugzilla.redhat.com/show_bug.cgi?id=2557056           
 │                       │      │                  https://bugzilla.redhat.com/show_bug.cgi?id=2557079           
 │                       │      │                  https://bugzilla.redhat.com/show_bug.cgi?id=2557110           
 │                       │      │                  https://bugzilla.redhat.com/show_bug.cgi?id=2557117           
@@ -3406,6 +3514,7 @@
 │                       │      │                  https://bugzilla.redhat.com/show_bug.cgi?id=2557236           
 │                       │      │                  https://bugzilla.redhat.com/show_bug.cgi?id=2557261           
 │                       │      │                  https://bugzilla.redhat.com/show_bug.cgi?id=2557356           
+│                       │      │                  https://bugzilla.redhat.com/show_bug.cgi?id=2557364           
 │                       │      │                  https://bugzilla.redhat.com/show_bug.cgi?id=2557405           
 │                       │      │                  https://bugzilla.redhat.com/show_bug.cgi?id=2557427           
 │                       │      │                  https://bugzilla.redhat.com/show_bug.cgi?id=2557443           
@@ -3414,12 +3523,12 @@
 │                       │      │                  https://bugzilla.redhat.com/show_bug.cgi?id=2557564           
 │                       │      │                  https://bugzilla.redhat.com/show_bug.cgi?id=2557598           
 │                       │      │                  https://bugzilla.redhat.com/show_bug.cgi?id=2557662           
-│                       │      │                  https://bugzilla.redhat.com/show_bug.cgi?id=2557665           
 │                       │      │                  https://bugzilla.redhat.com/show_bug.cgi?id=2557674           
 │                       │      │                  https://bugzilla.redhat.com/show_bug.cgi?id=2557690           
 │                       │      │                  https://bugzilla.redhat.com/show_bug.cgi?id=2557709           
 │                       │      │                  https://bugzilla.redhat.com/show_bug.cgi?id=2557711           
 │                       │      │                  https://bugzilla.redhat.com/show_bug.cgi?id=2557731           
+│                       │      │                  https://bugzilla.redhat.com/show_bug.cgi?id=2557757           
 │                       │      │                  https://bugzilla.redhat.com/show_bug.cgi?id=2557765           
 │                       │      │                  https://bugzilla.redhat.com/show_bug.cgi?id=2557780           
 │                       │      │                  https://bugzilla.redhat.com/show_bug.cgi?id=2557857           
@@ -3429,16 +3538,20 @@
 │                       │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-101516
 │                       │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-83374 
 │                       │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-83376 
+│                       │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-83378 
 │                       │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-83380 
 │                       │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-83381 
 │                       │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-83387 
 │                       │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-83395 
 │                       │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-83400 
+│                       │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-87255 
 │                       │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-87290 
+│                       │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-87291 
 │                       │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-87292 
 │                       │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-87294 
 │                       │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-87367 
 │                       │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-91332 
+│                       │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-91333 
 │                       │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-91334 
 │                       │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-91335 
 │                       │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-91373 
@@ -3446,7 +3559,6 @@
 │                       │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-91375 
 │                       │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-91379 
 │                       │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-91380 
-│                       │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-91382 
 │                       │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-91394 
 │                       │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-91397 
 │                       │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-91398 
@@ -3462,8 +3574,8 @@
 │                       │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-91463 
 │                       │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-91464 
 │                       │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-91487 
-│                       │      │                  https://errata.almalinux.org/8/ALSA-2026-88352.html           
-│                       │      │                  https://errata.rockylinux.org/RLSA-2026:88352                 
+│                       │      │                  https://errata.almalinux.org/9/ALSA-2026-90500.html           
+│                       │      │                  https://errata.rockylinux.org/RLSA-2026:88347                 
 │                       │      │                  https://linux.oracle.com/cve/CVE-2026-91463.html              
 │                       │      │                  https://linux.oracle.com/errata/ELSA-2026-90504.html          
 │                       │      │                  https://nvd.nist.gov/vuln/detail/CVE-2026-91463               
@@ -3488,8 +3600,8 @@
 │                       │      ├ DataSource       ╭ ID  : alpine 
 │                       │      │                  ├ Name: Alpine Secdb 
 │                       │      │                  ╰ URL : https://secdb.alpinelinux.org/ 
-│                       │      ├ Fingerprint     : sha256:114102c83597c54a8bb2de2f3604b010201cea1a5c2eaf115b245
-│                       │      │                   8a470c8ca7a 
+│                       │      ├ Fingerprint     : sha256:29ef33903f89c39b50938153b6bc1218adea0841a0ab78974e490
+│                       │      │                   780e13ae7f1 
 │                       │      ├ Title           : openjdk: Enhance Kerberos validation (Oracle CPU 2026-10) 
 │                       │      ├ Description     : Vulnerability in the Oracle Java SE, Oracle GraalVM for JDK,
 │                       │      │                    Oracle GraalVM Enterprise Edition product of Oracle Java SE
@@ -3530,7 +3642,8 @@
 │                       │      │                           ╰ V3Score : 5.3 
 │                       │      ├ References                                                                     
 │                       │      │                  ──────────────────────────────────────────────────────────────
-│                       │      │                  https://access.redhat.com/errata/RHSA-2026:88352              
+│                       │      │                  https://access.redhat.com/errata/RHSA-2026:88347              
+│                       │      │                  https://access.redhat.com/errata/RHSA-2026:90500              
 │                       │      │                  https://access.redhat.com/security/cve/CVE-2026-91464         
 │                       │      │                  https://bugzilla.redhat.com/2556709                           
 │                       │      │                  https://bugzilla.redhat.com/2556795                           
@@ -3573,10 +3686,12 @@
 │                       │      │                  https://bugzilla.redhat.com/show_bug.cgi?id=2556824           
 │                       │      │                  https://bugzilla.redhat.com/show_bug.cgi?id=2556837           
 │                       │      │                  https://bugzilla.redhat.com/show_bug.cgi?id=2556859           
+│                       │      │                  https://bugzilla.redhat.com/show_bug.cgi?id=2556960           
 │                       │      │                  https://bugzilla.redhat.com/show_bug.cgi?id=2557007           
 │                       │      │                  https://bugzilla.redhat.com/show_bug.cgi?id=2557032           
 │                       │      │                  https://bugzilla.redhat.com/show_bug.cgi?id=2557041           
 │                       │      │                  https://bugzilla.redhat.com/show_bug.cgi?id=2557047           
+│                       │      │                  https://bugzilla.redhat.com/show_bug.cgi?id=2557056           
 │                       │      │                  https://bugzilla.redhat.com/show_bug.cgi?id=2557079           
 │                       │      │                  https://bugzilla.redhat.com/show_bug.cgi?id=2557110           
 │                       │      │                  https://bugzilla.redhat.com/show_bug.cgi?id=2557117           
@@ -3585,6 +3700,7 @@
 │                       │      │                  https://bugzilla.redhat.com/show_bug.cgi?id=2557236           
 │                       │      │                  https://bugzilla.redhat.com/show_bug.cgi?id=2557261           
 │                       │      │                  https://bugzilla.redhat.com/show_bug.cgi?id=2557356           
+│                       │      │                  https://bugzilla.redhat.com/show_bug.cgi?id=2557364           
 │                       │      │                  https://bugzilla.redhat.com/show_bug.cgi?id=2557405           
 │                       │      │                  https://bugzilla.redhat.com/show_bug.cgi?id=2557427           
 │                       │      │                  https://bugzilla.redhat.com/show_bug.cgi?id=2557443           
@@ -3593,12 +3709,12 @@
 │                       │      │                  https://bugzilla.redhat.com/show_bug.cgi?id=2557564           
 │                       │      │                  https://bugzilla.redhat.com/show_bug.cgi?id=2557598           
 │                       │      │                  https://bugzilla.redhat.com/show_bug.cgi?id=2557662           
-│                       │      │                  https://bugzilla.redhat.com/show_bug.cgi?id=2557665           
 │                       │      │                  https://bugzilla.redhat.com/show_bug.cgi?id=2557674           
 │                       │      │                  https://bugzilla.redhat.com/show_bug.cgi?id=2557690           
 │                       │      │                  https://bugzilla.redhat.com/show_bug.cgi?id=2557709           
 │                       │      │                  https://bugzilla.redhat.com/show_bug.cgi?id=2557711           
 │                       │      │                  https://bugzilla.redhat.com/show_bug.cgi?id=2557731           
+│                       │      │                  https://bugzilla.redhat.com/show_bug.cgi?id=2557757           
 │                       │      │                  https://bugzilla.redhat.com/show_bug.cgi?id=2557765           
 │                       │      │                  https://bugzilla.redhat.com/show_bug.cgi?id=2557780           
 │                       │      │                  https://bugzilla.redhat.com/show_bug.cgi?id=2557857           
@@ -3608,16 +3724,20 @@
 │                       │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-101516
 │                       │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-83374 
 │                       │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-83376 
+│                       │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-83378 
 │                       │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-83380 
 │                       │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-83381 
 │                       │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-83387 
 │                       │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-83395 
 │                       │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-83400 
+│                       │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-87255 
 │                       │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-87290 
+│                       │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-87291 
 │                       │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-87292 
 │                       │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-87294 
 │                       │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-87367 
 │                       │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-91332 
+│                       │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-91333 
 │                       │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-91334 
 │                       │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-91335 
 │                       │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-91373 
@@ -3625,7 +3745,6 @@
 │                       │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-91375 
 │                       │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-91379 
 │                       │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-91380 
-│                       │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-91382 
 │                       │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-91394 
 │                       │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-91397 
 │                       │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-91398 
@@ -3641,8 +3760,8 @@
 │                       │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-91463 
 │                       │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-91464 
 │                       │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-91487 
-│                       │      │                  https://errata.almalinux.org/8/ALSA-2026-88352.html           
-│                       │      │                  https://errata.rockylinux.org/RLSA-2026:88352                 
+│                       │      │                  https://errata.almalinux.org/9/ALSA-2026-90500.html           
+│                       │      │                  https://errata.rockylinux.org/RLSA-2026:88347                 
 │                       │      │                  https://linux.oracle.com/cve/CVE-2026-91464.html              
 │                       │      │                  https://linux.oracle.com/errata/ELSA-2026-90504.html          
 │                       │      │                  https://nvd.nist.gov/vuln/detail/CVE-2026-91464               
@@ -3667,8 +3786,8 @@
 │                       │      ├ DataSource       ╭ ID  : alpine 
 │                       │      │                  ├ Name: Alpine Secdb 
 │                       │      │                  ╰ URL : https://secdb.alpinelinux.org/ 
-│                       │      ├ Fingerprint     : sha256:f7e10ba9ec3f561d49c40fe2f8bfe5556aa5634fd7f44ecac5368
-│                       │      │                   4cf7325d6d9 
+│                       │      ├ Fingerprint     : sha256:9d716492bad300a6f44bc45e34fe7891286be69a6a0cb2a109e58
+│                       │      │                   c5aaf47f82e 
 │                       │      ├ Title           : openjdk: Enhance C2 comparisons (Oracle CPU 2026-10) 
 │                       │      ├ Description     : Vulnerability in Oracle Java SE (component: Compiler). 
 │                       │      │                   Supported versions that are affected are Oracle Java SE:
@@ -3702,7 +3821,8 @@
 │                       │      │                           ╰ V3Score : 4.8 
 │                       │      ├ References                                                                     
 │                       │      │                  ──────────────────────────────────────────────────────────────
-│                       │      │                  https://access.redhat.com/errata/RHSA-2026:88352              
+│                       │      │                  https://access.redhat.com/errata/RHSA-2026:88347              
+│                       │      │                  https://access.redhat.com/errata/RHSA-2026:90500              
 │                       │      │                  https://access.redhat.com/security/cve/CVE-2026-91487         
 │                       │      │                  https://bugzilla.redhat.com/2556709                           
 │                       │      │                  https://bugzilla.redhat.com/2556795                           
@@ -3745,10 +3865,12 @@
 │                       │      │                  https://bugzilla.redhat.com/show_bug.cgi?id=2556824           
 │                       │      │                  https://bugzilla.redhat.com/show_bug.cgi?id=2556837           
 │                       │      │                  https://bugzilla.redhat.com/show_bug.cgi?id=2556859           
+│                       │      │                  https://bugzilla.redhat.com/show_bug.cgi?id=2556960           
 │                       │      │                  https://bugzilla.redhat.com/show_bug.cgi?id=2557007           
 │                       │      │                  https://bugzilla.redhat.com/show_bug.cgi?id=2557032           
 │                       │      │                  https://bugzilla.redhat.com/show_bug.cgi?id=2557041           
 │                       │      │                  https://bugzilla.redhat.com/show_bug.cgi?id=2557047           
+│                       │      │                  https://bugzilla.redhat.com/show_bug.cgi?id=2557056           
 │                       │      │                  https://bugzilla.redhat.com/show_bug.cgi?id=2557079           
 │                       │      │                  https://bugzilla.redhat.com/show_bug.cgi?id=2557110           
 │                       │      │                  https://bugzilla.redhat.com/show_bug.cgi?id=2557117           
@@ -3757,6 +3879,7 @@
 │                       │      │                  https://bugzilla.redhat.com/show_bug.cgi?id=2557236           
 │                       │      │                  https://bugzilla.redhat.com/show_bug.cgi?id=2557261           
 │                       │      │                  https://bugzilla.redhat.com/show_bug.cgi?id=2557356           
+│                       │      │                  https://bugzilla.redhat.com/show_bug.cgi?id=2557364           
 │                       │      │                  https://bugzilla.redhat.com/show_bug.cgi?id=2557405           
 │                       │      │                  https://bugzilla.redhat.com/show_bug.cgi?id=2557427           
 │                       │      │                  https://bugzilla.redhat.com/show_bug.cgi?id=2557443           
@@ -3765,12 +3888,12 @@
 │                       │      │                  https://bugzilla.redhat.com/show_bug.cgi?id=2557564           
 │                       │      │                  https://bugzilla.redhat.com/show_bug.cgi?id=2557598           
 │                       │      │                  https://bugzilla.redhat.com/show_bug.cgi?id=2557662           
-│                       │      │                  https://bugzilla.redhat.com/show_bug.cgi?id=2557665           
 │                       │      │                  https://bugzilla.redhat.com/show_bug.cgi?id=2557674           
 │                       │      │                  https://bugzilla.redhat.com/show_bug.cgi?id=2557690           
 │                       │      │                  https://bugzilla.redhat.com/show_bug.cgi?id=2557709           
 │                       │      │                  https://bugzilla.redhat.com/show_bug.cgi?id=2557711           
 │                       │      │                  https://bugzilla.redhat.com/show_bug.cgi?id=2557731           
+│                       │      │                  https://bugzilla.redhat.com/show_bug.cgi?id=2557757           
 │                       │      │                  https://bugzilla.redhat.com/show_bug.cgi?id=2557765           
 │                       │      │                  https://bugzilla.redhat.com/show_bug.cgi?id=2557780           
 │                       │      │                  https://bugzilla.redhat.com/show_bug.cgi?id=2557857           
@@ -3780,16 +3903,20 @@
 │                       │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-101516
 │                       │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-83374 
 │                       │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-83376 
+│                       │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-83378 
 │                       │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-83380 
 │                       │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-83381 
 │                       │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-83387 
 │                       │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-83395 
 │                       │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-83400 
+│                       │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-87255 
 │                       │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-87290 
+│                       │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-87291 
 │                       │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-87292 
 │                       │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-87294 
 │                       │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-87367 
 │                       │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-91332 
+│                       │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-91333 
 │                       │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-91334 
 │                       │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-91335 
 │                       │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-91373 
@@ -3797,7 +3924,6 @@
 │                       │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-91375 
 │                       │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-91379 
 │                       │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-91380 
-│                       │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-91382 
 │                       │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-91394 
 │                       │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-91397 
 │                       │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-91398 
@@ -3813,8 +3939,8 @@
 │                       │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-91463 
 │                       │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-91464 
 │                       │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-91487 
-│                       │      │                  https://errata.almalinux.org/8/ALSA-2026-88352.html           
-│                       │      │                  https://errata.rockylinux.org/RLSA-2026:88352                 
+│                       │      │                  https://errata.almalinux.org/9/ALSA-2026-90500.html           
+│                       │      │                  https://errata.rockylinux.org/RLSA-2026:88347                 
 │                       │      │                  https://linux.oracle.com/cve/CVE-2026-91487.html              
 │                       │      │                  https://linux.oracle.com/errata/ELSA-2026-90504.html          
 │                       │      │                  https://nvd.nist.gov/vuln/detail/CVE-2026-91487               
@@ -3839,8 +3965,8 @@
 │                       │      ├ DataSource       ╭ ID  : alpine 
 │                       │      │                  ├ Name: Alpine Secdb 
 │                       │      │                  ╰ URL : https://secdb.alpinelinux.org/ 
-│                       │      ├ Fingerprint     : sha256:50fea70b3e7b2f197857c5d412cd03a7810667b0cb95b39425c6f
-│                       │      │                   73e5c19793b 
+│                       │      ├ Fingerprint     : sha256:b228ec1f71ee21eda72b98740d87a71a94d35089a2afbb5fa2ca2
+│                       │      │                   918a0602b9e 
 │                       │      ├ Title           : openjdk: Enhance TLS certificate handling (Oracle CPU 2026-10) 
 │                       │      ├ Description     : Vulnerability in the Oracle Java SE, Oracle GraalVM for JDK,
 │                       │      │                    Oracle GraalVM Enterprise Edition product of Oracle Java SE
@@ -3878,7 +4004,8 @@
 │                       │      │                           ╰ V3Score : 3.7 
 │                       │      ├ References                                                                     
 │                       │      │                  ──────────────────────────────────────────────────────────────
-│                       │      │                  https://access.redhat.com/errata/RHSA-2026:88352              
+│                       │      │                  https://access.redhat.com/errata/RHSA-2026:88347              
+│                       │      │                  https://access.redhat.com/errata/RHSA-2026:90500              
 │                       │      │                  https://access.redhat.com/security/cve/CVE-2026-83376         
 │                       │      │                  https://bugzilla.redhat.com/2556709                           
 │                       │      │                  https://bugzilla.redhat.com/2556795                           
@@ -3921,10 +4048,12 @@
 │                       │      │                  https://bugzilla.redhat.com/show_bug.cgi?id=2556824           
 │                       │      │                  https://bugzilla.redhat.com/show_bug.cgi?id=2556837           
 │                       │      │                  https://bugzilla.redhat.com/show_bug.cgi?id=2556859           
+│                       │      │                  https://bugzilla.redhat.com/show_bug.cgi?id=2556960           
 │                       │      │                  https://bugzilla.redhat.com/show_bug.cgi?id=2557007           
 │                       │      │                  https://bugzilla.redhat.com/show_bug.cgi?id=2557032           
 │                       │      │                  https://bugzilla.redhat.com/show_bug.cgi?id=2557041           
 │                       │      │                  https://bugzilla.redhat.com/show_bug.cgi?id=2557047           
+│                       │      │                  https://bugzilla.redhat.com/show_bug.cgi?id=2557056           
 │                       │      │                  https://bugzilla.redhat.com/show_bug.cgi?id=2557079           
 │                       │      │                  https://bugzilla.redhat.com/show_bug.cgi?id=2557110           
 │                       │      │                  https://bugzilla.redhat.com/show_bug.cgi?id=2557117           
@@ -3933,6 +4062,7 @@
 │                       │      │                  https://bugzilla.redhat.com/show_bug.cgi?id=2557236           
 │                       │      │                  https://bugzilla.redhat.com/show_bug.cgi?id=2557261           
 │                       │      │                  https://bugzilla.redhat.com/show_bug.cgi?id=2557356           
+│                       │      │                  https://bugzilla.redhat.com/show_bug.cgi?id=2557364           
 │                       │      │                  https://bugzilla.redhat.com/show_bug.cgi?id=2557405           
 │                       │      │                  https://bugzilla.redhat.com/show_bug.cgi?id=2557427           
 │                       │      │                  https://bugzilla.redhat.com/show_bug.cgi?id=2557443           
@@ -3941,12 +4071,12 @@
 │                       │      │                  https://bugzilla.redhat.com/show_bug.cgi?id=2557564           
 │                       │      │                  https://bugzilla.redhat.com/show_bug.cgi?id=2557598           
 │                       │      │                  https://bugzilla.redhat.com/show_bug.cgi?id=2557662           
-│                       │      │                  https://bugzilla.redhat.com/show_bug.cgi?id=2557665           
 │                       │      │                  https://bugzilla.redhat.com/show_bug.cgi?id=2557674           
 │                       │      │                  https://bugzilla.redhat.com/show_bug.cgi?id=2557690           
 │                       │      │                  https://bugzilla.redhat.com/show_bug.cgi?id=2557709           
 │                       │      │                  https://bugzilla.redhat.com/show_bug.cgi?id=2557711           
 │                       │      │                  https://bugzilla.redhat.com/show_bug.cgi?id=2557731           
+│                       │      │                  https://bugzilla.redhat.com/show_bug.cgi?id=2557757           
 │                       │      │                  https://bugzilla.redhat.com/show_bug.cgi?id=2557765           
 │                       │      │                  https://bugzilla.redhat.com/show_bug.cgi?id=2557780           
 │                       │      │                  https://bugzilla.redhat.com/show_bug.cgi?id=2557857           
@@ -3956,16 +4086,20 @@
 │                       │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-101516
 │                       │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-83374 
 │                       │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-83376 
+│                       │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-83378 
 │                       │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-83380 
 │                       │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-83381 
 │                       │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-83387 
 │                       │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-83395 
 │                       │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-83400 
+│                       │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-87255 
 │                       │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-87290 
+│                       │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-87291 
 │                       │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-87292 
 │                       │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-87294 
 │                       │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-87367 
 │                       │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-91332 
+│                       │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-91333 
 │                       │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-91334 
 │                       │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-91335 
 │                       │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-91373 
@@ -3973,7 +4107,6 @@
 │                       │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-91375 
 │                       │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-91379 
 │                       │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-91380 
-│                       │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-91382 
 │                       │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-91394 
 │                       │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-91397 
 │                       │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-91398 
@@ -3989,8 +4122,8 @@
 │                       │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-91463 
 │                       │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-91464 
 │                       │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-91487 
-│                       │      │                  https://errata.almalinux.org/8/ALSA-2026-88352.html           
-│                       │      │                  https://errata.rockylinux.org/RLSA-2026:88352                 
+│                       │      │                  https://errata.almalinux.org/9/ALSA-2026-90500.html           
+│                       │      │                  https://errata.rockylinux.org/RLSA-2026:88347                 
 │                       │      │                  https://linux.oracle.com/cve/CVE-2026-83376.html              
 │                       │      │                  https://linux.oracle.com/errata/ELSA-2026-90504.html          
 │                       │      │                  https://nvd.nist.gov/vuln/detail/CVE-2026-83376               
@@ -4015,8 +4148,8 @@
 │                       │      ├ DataSource       ╭ ID  : alpine 
 │                       │      │                  ├ Name: Alpine Secdb 
 │                       │      │                  ╰ URL : https://secdb.alpinelinux.org/ 
-│                       │      ├ Fingerprint     : sha256:f54ddbdf43fcc9cee4f6523ad219c3b598a81b9f7f5691187d8c9
-│                       │      │                   e06b0bc2a67 
+│                       │      ├ Fingerprint     : sha256:83bc128ac293ea9d34820f8ba9cd74b15abe44d1ac33fa13bbe19
+│                       │      │                   dd2fd9c75e6 
 │                       │      ├ Title           : openjdk: Enhance Vector Processing (Oracle CPU 2026-10) 
 │                       │      ├ Description     : Vulnerability in Oracle Java SE (component: Compiler). 
 │                       │      │                   Supported versions that are affected are Oracle Java SE:
@@ -4164,7 +4297,7 @@
 │                       │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-91463 
 │                       │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-91464 
 │                       │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-91487 
-│                       │      │                  https://errata.almalinux.org/10/ALSA-2026-88347.html          
+│                       │      │                  https://errata.almalinux.org/9/ALSA-2026-88347.html           
 │                       │      │                  https://errata.rockylinux.org/RLSA-2026:88347                 
 │                       │      │                  https://nvd.nist.gov/vuln/detail/CVE-2026-87255               
 │                       │      │                  https://www.cve.org/CVERecord?id=CVE-2026-87255               
@@ -4188,8 +4321,8 @@
 │                       │      ├ DataSource       ╭ ID  : alpine 
 │                       │      │                  ├ Name: Alpine Secdb 
 │                       │      │                  ╰ URL : https://secdb.alpinelinux.org/ 
-│                       │      ├ Fingerprint     : sha256:db4fa27685c3422f928a8d678c8d2de01a43167f9e3cd1a3144ac
-│                       │      │                   0facf99e249 
+│                       │      ├ Fingerprint     : sha256:2b528b4543ab1647f1eab64c23e386d741d30df2e7869cc55ad9a
+│                       │      │                   c56316f1ca7 
 │                       │      ├ Title           : openjdk: Enhance Network Clients (Oracle CPU 2026-10) 
 │                       │      ├ Description     : Vulnerability in the Oracle Java SE, Oracle GraalVM for JDK,
 │                       │      │                    Oracle GraalVM Enterprise Edition product of Oracle Java SE
@@ -4228,7 +4361,8 @@
 │                       │      │                           ╰ V3Score : 3.7 
 │                       │      ├ References                                                                     
 │                       │      │                  ──────────────────────────────────────────────────────────────
-│                       │      │                  https://access.redhat.com/errata/RHSA-2026:88352              
+│                       │      │                  https://access.redhat.com/errata/RHSA-2026:88347              
+│                       │      │                  https://access.redhat.com/errata/RHSA-2026:90500              
 │                       │      │                  https://access.redhat.com/security/cve/CVE-2026-87292         
 │                       │      │                  https://bugzilla.redhat.com/2556709                           
 │                       │      │                  https://bugzilla.redhat.com/2556795                           
@@ -4271,10 +4405,12 @@
 │                       │      │                  https://bugzilla.redhat.com/show_bug.cgi?id=2556824           
 │                       │      │                  https://bugzilla.redhat.com/show_bug.cgi?id=2556837           
 │                       │      │                  https://bugzilla.redhat.com/show_bug.cgi?id=2556859           
+│                       │      │                  https://bugzilla.redhat.com/show_bug.cgi?id=2556960           
 │                       │      │                  https://bugzilla.redhat.com/show_bug.cgi?id=2557007           
 │                       │      │                  https://bugzilla.redhat.com/show_bug.cgi?id=2557032           
 │                       │      │                  https://bugzilla.redhat.com/show_bug.cgi?id=2557041           
 │                       │      │                  https://bugzilla.redhat.com/show_bug.cgi?id=2557047           
+│                       │      │                  https://bugzilla.redhat.com/show_bug.cgi?id=2557056           
 │                       │      │                  https://bugzilla.redhat.com/show_bug.cgi?id=2557079           
 │                       │      │                  https://bugzilla.redhat.com/show_bug.cgi?id=2557110           
 │                       │      │                  https://bugzilla.redhat.com/show_bug.cgi?id=2557117           
@@ -4283,6 +4419,7 @@
 │                       │      │                  https://bugzilla.redhat.com/show_bug.cgi?id=2557236           
 │                       │      │                  https://bugzilla.redhat.com/show_bug.cgi?id=2557261           
 │                       │      │                  https://bugzilla.redhat.com/show_bug.cgi?id=2557356           
+│                       │      │                  https://bugzilla.redhat.com/show_bug.cgi?id=2557364           
 │                       │      │                  https://bugzilla.redhat.com/show_bug.cgi?id=2557405           
 │                       │      │                  https://bugzilla.redhat.com/show_bug.cgi?id=2557427           
 │                       │      │                  https://bugzilla.redhat.com/show_bug.cgi?id=2557443           
@@ -4291,12 +4428,12 @@
 │                       │      │                  https://bugzilla.redhat.com/show_bug.cgi?id=2557564           
 │                       │      │                  https://bugzilla.redhat.com/show_bug.cgi?id=2557598           
 │                       │      │                  https://bugzilla.redhat.com/show_bug.cgi?id=2557662           
-│                       │      │                  https://bugzilla.redhat.com/show_bug.cgi?id=2557665           
 │                       │      │                  https://bugzilla.redhat.com/show_bug.cgi?id=2557674           
 │                       │      │                  https://bugzilla.redhat.com/show_bug.cgi?id=2557690           
 │                       │      │                  https://bugzilla.redhat.com/show_bug.cgi?id=2557709           
 │                       │      │                  https://bugzilla.redhat.com/show_bug.cgi?id=2557711           
 │                       │      │                  https://bugzilla.redhat.com/show_bug.cgi?id=2557731           
+│                       │      │                  https://bugzilla.redhat.com/show_bug.cgi?id=2557757           
 │                       │      │                  https://bugzilla.redhat.com/show_bug.cgi?id=2557765           
 │                       │      │                  https://bugzilla.redhat.com/show_bug.cgi?id=2557780           
 │                       │      │                  https://bugzilla.redhat.com/show_bug.cgi?id=2557857           
@@ -4306,16 +4443,20 @@
 │                       │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-101516
 │                       │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-83374 
 │                       │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-83376 
+│                       │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-83378 
 │                       │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-83380 
 │                       │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-83381 
 │                       │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-83387 
 │                       │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-83395 
 │                       │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-83400 
+│                       │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-87255 
 │                       │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-87290 
+│                       │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-87291 
 │                       │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-87292 
 │                       │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-87294 
 │                       │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-87367 
 │                       │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-91332 
+│                       │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-91333 
 │                       │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-91334 
 │                       │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-91335 
 │                       │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-91373 
@@ -4323,7 +4464,6 @@
 │                       │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-91375 
 │                       │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-91379 
 │                       │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-91380 
-│                       │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-91382 
 │                       │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-91394 
 │                       │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-91397 
 │                       │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-91398 
@@ -4339,8 +4479,8 @@
 │                       │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-91463 
 │                       │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-91464 
 │                       │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-91487 
-│                       │      │                  https://errata.almalinux.org/8/ALSA-2026-88352.html           
-│                       │      │                  https://errata.rockylinux.org/RLSA-2026:88352                 
+│                       │      │                  https://errata.almalinux.org/9/ALSA-2026-90500.html           
+│                       │      │                  https://errata.rockylinux.org/RLSA-2026:88347                 
 │                       │      │                  https://linux.oracle.com/cve/CVE-2026-87292.html              
 │                       │      │                  https://linux.oracle.com/errata/ELSA-2026-90504.html          
 │                       │      │                  https://nvd.nist.gov/vuln/detail/CVE-2026-87292               
@@ -4365,8 +4505,8 @@
 │                       │      ├ DataSource       ╭ ID  : alpine 
 │                       │      │                  ├ Name: Alpine Secdb 
 │                       │      │                  ╰ URL : https://secdb.alpinelinux.org/ 
-│                       │      ├ Fingerprint     : sha256:179033530a458afdec5ed63be078fe0a83c21aafd7a295040ad48
-│                       │      │                   9f6fad444eb 
+│                       │      ├ Fingerprint     : sha256:91fe38e28e494d31316d6ac8e5eb947a29e7c63dc169f7f8cc012
+│                       │      │                   e6991f5a76a 
 │                       │      ├ Title           : openjdk: Enhance Template Handling (Oracle CPU 2026-10) 
 │                       │      ├ Description     : Vulnerability in the Oracle Java SE, Oracle GraalVM for JDK,
 │                       │      │                    Oracle GraalVM Enterprise Edition product of Oracle Java SE
@@ -4405,7 +4545,8 @@
 │                       │      │                           ╰ V3Score : 3.7 
 │                       │      ├ References                                                                     
 │                       │      │                  ──────────────────────────────────────────────────────────────
-│                       │      │                  https://access.redhat.com/errata/RHSA-2026:88352              
+│                       │      │                  https://access.redhat.com/errata/RHSA-2026:88347              
+│                       │      │                  https://access.redhat.com/errata/RHSA-2026:90500              
 │                       │      │                  https://access.redhat.com/security/cve/CVE-2026-87367         
 │                       │      │                  https://bugzilla.redhat.com/2556709                           
 │                       │      │                  https://bugzilla.redhat.com/2556795                           
@@ -4448,10 +4589,12 @@
 │                       │      │                  https://bugzilla.redhat.com/show_bug.cgi?id=2556824           
 │                       │      │                  https://bugzilla.redhat.com/show_bug.cgi?id=2556837           
 │                       │      │                  https://bugzilla.redhat.com/show_bug.cgi?id=2556859           
+│                       │      │                  https://bugzilla.redhat.com/show_bug.cgi?id=2556960           
 │                       │      │                  https://bugzilla.redhat.com/show_bug.cgi?id=2557007           
 │                       │      │                  https://bugzilla.redhat.com/show_bug.cgi?id=2557032           
 │                       │      │                  https://bugzilla.redhat.com/show_bug.cgi?id=2557041           
 │                       │      │                  https://bugzilla.redhat.com/show_bug.cgi?id=2557047           
+│                       │      │                  https://bugzilla.redhat.com/show_bug.cgi?id=2557056           
 │                       │      │                  https://bugzilla.redhat.com/show_bug.cgi?id=2557079           
 │                       │      │                  https://bugzilla.redhat.com/show_bug.cgi?id=2557110           
 │                       │      │                  https://bugzilla.redhat.com/show_bug.cgi?id=2557117           
@@ -4460,6 +4603,7 @@
 │                       │      │                  https://bugzilla.redhat.com/show_bug.cgi?id=2557236           
 │                       │      │                  https://bugzilla.redhat.com/show_bug.cgi?id=2557261           
 │                       │      │                  https://bugzilla.redhat.com/show_bug.cgi?id=2557356           
+│                       │      │                  https://bugzilla.redhat.com/show_bug.cgi?id=2557364           
 │                       │      │                  https://bugzilla.redhat.com/show_bug.cgi?id=2557405           
 │                       │      │                  https://bugzilla.redhat.com/show_bug.cgi?id=2557427           
 │                       │      │                  https://bugzilla.redhat.com/show_bug.cgi?id=2557443           
@@ -4468,12 +4612,12 @@
 │                       │      │                  https://bugzilla.redhat.com/show_bug.cgi?id=2557564           
 │                       │      │                  https://bugzilla.redhat.com/show_bug.cgi?id=2557598           
 │                       │      │                  https://bugzilla.redhat.com/show_bug.cgi?id=2557662           
-│                       │      │                  https://bugzilla.redhat.com/show_bug.cgi?id=2557665           
 │                       │      │                  https://bugzilla.redhat.com/show_bug.cgi?id=2557674           
 │                       │      │                  https://bugzilla.redhat.com/show_bug.cgi?id=2557690           
 │                       │      │                  https://bugzilla.redhat.com/show_bug.cgi?id=2557709           
 │                       │      │                  https://bugzilla.redhat.com/show_bug.cgi?id=2557711           
 │                       │      │                  https://bugzilla.redhat.com/show_bug.cgi?id=2557731           
+│                       │      │                  https://bugzilla.redhat.com/show_bug.cgi?id=2557757           
 │                       │      │                  https://bugzilla.redhat.com/show_bug.cgi?id=2557765           
 │                       │      │                  https://bugzilla.redhat.com/show_bug.cgi?id=2557780           
 │                       │      │                  https://bugzilla.redhat.com/show_bug.cgi?id=2557857           
@@ -4483,16 +4627,20 @@
 │                       │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-101516
 │                       │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-83374 
 │                       │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-83376 
+│                       │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-83378 
 │                       │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-83380 
 │                       │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-83381 
 │                       │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-83387 
 │                       │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-83395 
 │                       │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-83400 
+│                       │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-87255 
 │                       │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-87290 
+│                       │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-87291 
 │                       │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-87292 
 │                       │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-87294 
 │                       │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-87367 
 │                       │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-91332 
+│                       │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-91333 
 │                       │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-91334 
 │                       │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-91335 
 │                       │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-91373 
@@ -4500,7 +4648,6 @@
 │                       │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-91375 
 │                       │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-91379 
 │                       │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-91380 
-│                       │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-91382 
 │                       │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-91394 
 │                       │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-91397 
 │                       │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-91398 
@@ -4516,8 +4663,8 @@
 │                       │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-91463 
 │                       │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-91464 
 │                       │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-91487 
-│                       │      │                  https://errata.almalinux.org/8/ALSA-2026-88352.html           
-│                       │      │                  https://errata.rockylinux.org/RLSA-2026:88352                 
+│                       │      │                  https://errata.almalinux.org/9/ALSA-2026-90500.html           
+│                       │      │                  https://errata.rockylinux.org/RLSA-2026:88347                 
 │                       │      │                  https://linux.oracle.com/cve/CVE-2026-87367.html              
 │                       │      │                  https://linux.oracle.com/errata/ELSA-2026-90504.html          
 │                       │      │                  https://nvd.nist.gov/vuln/detail/CVE-2026-87367               
@@ -4542,8 +4689,8 @@
 │                       │      ├ DataSource       ╭ ID  : alpine 
 │                       │      │                  ├ Name: Alpine Secdb 
 │                       │      │                  ╰ URL : https://secdb.alpinelinux.org/ 
-│                       │      ├ Fingerprint     : sha256:e5e3ef339e3e4f3bddce149c4078b0044e39189ebefcd9b182718
-│                       │      │                   6d281862c2c 
+│                       │      ├ Fingerprint     : sha256:7143e531ea12fac1deb138cc3163add02ccd0a92d7a862d6e10aa
+│                       │      │                   460d4dea6a3 
 │                       │      ├ Title           : openjdk: Enhance Image Handling (Oracle CPU 2026-10) 
 │                       │      ├ Description     : Vulnerability in the Oracle Java SE, Oracle GraalVM for JDK,
 │                       │      │                    Oracle GraalVM Enterprise Edition product of Oracle Java SE
@@ -4583,7 +4730,8 @@
 │                       │      │                           ╰ V3Score : 2.6 
 │                       │      ├ References                                                                     
 │                       │      │                  ──────────────────────────────────────────────────────────────
-│                       │      │                  https://access.redhat.com/errata/RHSA-2026:88352              
+│                       │      │                  https://access.redhat.com/errata/RHSA-2026:88347              
+│                       │      │                  https://access.redhat.com/errata/RHSA-2026:90500              
 │                       │      │                  https://access.redhat.com/security/cve/CVE-2026-91335         
 │                       │      │                  https://bugzilla.redhat.com/2556709                           
 │                       │      │                  https://bugzilla.redhat.com/2556795                           
@@ -4626,10 +4774,12 @@
 │                       │      │                  https://bugzilla.redhat.com/show_bug.cgi?id=2556824           
 │                       │      │                  https://bugzilla.redhat.com/show_bug.cgi?id=2556837           
 │                       │      │                  https://bugzilla.redhat.com/show_bug.cgi?id=2556859           
+│                       │      │                  https://bugzilla.redhat.com/show_bug.cgi?id=2556960           
 │                       │      │                  https://bugzilla.redhat.com/show_bug.cgi?id=2557007           
 │                       │      │                  https://bugzilla.redhat.com/show_bug.cgi?id=2557032           
 │                       │      │                  https://bugzilla.redhat.com/show_bug.cgi?id=2557041           
 │                       │      │                  https://bugzilla.redhat.com/show_bug.cgi?id=2557047           
+│                       │      │                  https://bugzilla.redhat.com/show_bug.cgi?id=2557056           
 │                       │      │                  https://bugzilla.redhat.com/show_bug.cgi?id=2557079           
 │                       │      │                  https://bugzilla.redhat.com/show_bug.cgi?id=2557110           
 │                       │      │                  https://bugzilla.redhat.com/show_bug.cgi?id=2557117           
@@ -4638,6 +4788,7 @@
 │                       │      │                  https://bugzilla.redhat.com/show_bug.cgi?id=2557236           
 │                       │      │                  https://bugzilla.redhat.com/show_bug.cgi?id=2557261           
 │                       │      │                  https://bugzilla.redhat.com/show_bug.cgi?id=2557356           
+│                       │      │                  https://bugzilla.redhat.com/show_bug.cgi?id=2557364           
 │                       │      │                  https://bugzilla.redhat.com/show_bug.cgi?id=2557405           
 │                       │      │                  https://bugzilla.redhat.com/show_bug.cgi?id=2557427           
 │                       │      │                  https://bugzilla.redhat.com/show_bug.cgi?id=2557443           
@@ -4646,12 +4797,12 @@
 │                       │      │                  https://bugzilla.redhat.com/show_bug.cgi?id=2557564           
 │                       │      │                  https://bugzilla.redhat.com/show_bug.cgi?id=2557598           
 │                       │      │                  https://bugzilla.redhat.com/show_bug.cgi?id=2557662           
-│                       │      │                  https://bugzilla.redhat.com/show_bug.cgi?id=2557665           
 │                       │      │                  https://bugzilla.redhat.com/show_bug.cgi?id=2557674           
 │                       │      │                  https://bugzilla.redhat.com/show_bug.cgi?id=2557690           
 │                       │      │                  https://bugzilla.redhat.com/show_bug.cgi?id=2557709           
 │                       │      │                  https://bugzilla.redhat.com/show_bug.cgi?id=2557711           
 │                       │      │                  https://bugzilla.redhat.com/show_bug.cgi?id=2557731           
+│                       │      │                  https://bugzilla.redhat.com/show_bug.cgi?id=2557757           
 │                       │      │                  https://bugzilla.redhat.com/show_bug.cgi?id=2557765           
 │                       │      │                  https://bugzilla.redhat.com/show_bug.cgi?id=2557780           
 │                       │      │                  https://bugzilla.redhat.com/show_bug.cgi?id=2557857           
@@ -4661,16 +4812,20 @@
 │                       │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-101516
 │                       │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-83374 
 │                       │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-83376 
+│                       │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-83378 
 │                       │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-83380 
 │                       │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-83381 
 │                       │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-83387 
 │                       │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-83395 
 │                       │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-83400 
+│                       │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-87255 
 │                       │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-87290 
+│                       │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-87291 
 │                       │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-87292 
 │                       │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-87294 
 │                       │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-87367 
 │                       │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-91332 
+│                       │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-91333 
 │                       │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-91334 
 │                       │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-91335 
 │                       │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-91373 
@@ -4678,7 +4833,6 @@
 │                       │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-91375 
 │                       │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-91379 
 │                       │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-91380 
-│                       │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-91382 
 │                       │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-91394 
 │                       │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-91397 
 │                       │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-91398 
@@ -4694,8 +4848,8 @@
 │                       │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-91463 
 │                       │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-91464 
 │                       │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-91487 
-│                       │      │                  https://errata.almalinux.org/8/ALSA-2026-88352.html           
-│                       │      │                  https://errata.rockylinux.org/RLSA-2026:88352                 
+│                       │      │                  https://errata.almalinux.org/9/ALSA-2026-90500.html           
+│                       │      │                  https://errata.rockylinux.org/RLSA-2026:88347                 
 │                       │      │                  https://linux.oracle.com/cve/CVE-2026-91335.html              
 │                       │      │                  https://linux.oracle.com/errata/ELSA-2026-90504.html          
 │                       │      │                  https://nvd.nist.gov/vuln/detail/CVE-2026-91335               
@@ -4720,8 +4874,8 @@
 │                       │      ├ DataSource       ╭ ID  : alpine 
 │                       │      │                  ├ Name: Alpine Secdb 
 │                       │      │                  ╰ URL : https://secdb.alpinelinux.org/ 
-│                       │      ├ Fingerprint     : sha256:3d05dc748431ac3fa11362e2684b388760a70aa343c6475470244
-│                       │      │                   0661bca1e16 
+│                       │      ├ Fingerprint     : sha256:0958569f29362af447c62e5714e7fc7925b6349a6d496707a8e13
+│                       │      │                   98009c2ab68 
 │                       │      ├ Title           : openjdk: Enhance Font Rendering (Oracle CPU 2026-10) 
 │                       │      ├ Description     : Vulnerability in the Oracle Java SE, Oracle GraalVM
 │                       │      │                   Enterprise Edition product of Oracle Java SE (component:
@@ -4777,8 +4931,8 @@
 │                       │      ├ DataSource       ╭ ID  : alpine 
 │                       │      │                  ├ Name: Alpine Secdb 
 │                       │      │                  ╰ URL : https://secdb.alpinelinux.org/ 
-│                       │      ├ Fingerprint     : sha256:7805fe3f0426d00ec33dd7f468358a69e65255aeb74e133a3c5ff
-│                       │      │                   e7b488df868 
+│                       │      ├ Fingerprint     : sha256:f5bc80d0b92c642449ee4778d7697b262ad6dbf304b16b0380933
+│                       │      │                   90638da2716 
 │                       │      ├ Title           : openjdk: Enhance diagnostic sessions (Oracle CPU 2026-10) 
 │                       │      ├ Description     : Vulnerability in the Oracle Java SE, Oracle GraalVM for JDK,
 │                       │      │                    Oracle GraalVM Enterprise Edition product of Oracle Java SE
@@ -4822,7 +4976,8 @@
 │                       │      │                           ╰ V3Score : 3.6 
 │                       │      ├ References                                                                     
 │                       │      │                  ──────────────────────────────────────────────────────────────
-│                       │      │                  https://access.redhat.com/errata/RHSA-2026:88352              
+│                       │      │                  https://access.redhat.com/errata/RHSA-2026:88347              
+│                       │      │                  https://access.redhat.com/errata/RHSA-2026:90500              
 │                       │      │                  https://access.redhat.com/security/cve/CVE-2026-91397         
 │                       │      │                  https://bugzilla.redhat.com/2556709                           
 │                       │      │                  https://bugzilla.redhat.com/2556795                           
@@ -4865,10 +5020,12 @@
 │                       │      │                  https://bugzilla.redhat.com/show_bug.cgi?id=2556824           
 │                       │      │                  https://bugzilla.redhat.com/show_bug.cgi?id=2556837           
 │                       │      │                  https://bugzilla.redhat.com/show_bug.cgi?id=2556859           
+│                       │      │                  https://bugzilla.redhat.com/show_bug.cgi?id=2556960           
 │                       │      │                  https://bugzilla.redhat.com/show_bug.cgi?id=2557007           
 │                       │      │                  https://bugzilla.redhat.com/show_bug.cgi?id=2557032           
 │                       │      │                  https://bugzilla.redhat.com/show_bug.cgi?id=2557041           
 │                       │      │                  https://bugzilla.redhat.com/show_bug.cgi?id=2557047           
+│                       │      │                  https://bugzilla.redhat.com/show_bug.cgi?id=2557056           
 │                       │      │                  https://bugzilla.redhat.com/show_bug.cgi?id=2557079           
 │                       │      │                  https://bugzilla.redhat.com/show_bug.cgi?id=2557110           
 │                       │      │                  https://bugzilla.redhat.com/show_bug.cgi?id=2557117           
@@ -4877,6 +5034,7 @@
 │                       │      │                  https://bugzilla.redhat.com/show_bug.cgi?id=2557236           
 │                       │      │                  https://bugzilla.redhat.com/show_bug.cgi?id=2557261           
 │                       │      │                  https://bugzilla.redhat.com/show_bug.cgi?id=2557356           
+│                       │      │                  https://bugzilla.redhat.com/show_bug.cgi?id=2557364           
 │                       │      │                  https://bugzilla.redhat.com/show_bug.cgi?id=2557405           
 │                       │      │                  https://bugzilla.redhat.com/show_bug.cgi?id=2557427           
 │                       │      │                  https://bugzilla.redhat.com/show_bug.cgi?id=2557443           
@@ -4885,12 +5043,12 @@
 │                       │      │                  https://bugzilla.redhat.com/show_bug.cgi?id=2557564           
 │                       │      │                  https://bugzilla.redhat.com/show_bug.cgi?id=2557598           
 │                       │      │                  https://bugzilla.redhat.com/show_bug.cgi?id=2557662           
-│                       │      │                  https://bugzilla.redhat.com/show_bug.cgi?id=2557665           
 │                       │      │                  https://bugzilla.redhat.com/show_bug.cgi?id=2557674           
 │                       │      │                  https://bugzilla.redhat.com/show_bug.cgi?id=2557690           
 │                       │      │                  https://bugzilla.redhat.com/show_bug.cgi?id=2557709           
 │                       │      │                  https://bugzilla.redhat.com/show_bug.cgi?id=2557711           
 │                       │      │                  https://bugzilla.redhat.com/show_bug.cgi?id=2557731           
+│                       │      │                  https://bugzilla.redhat.com/show_bug.cgi?id=2557757           
 │                       │      │                  https://bugzilla.redhat.com/show_bug.cgi?id=2557765           
 │                       │      │                  https://bugzilla.redhat.com/show_bug.cgi?id=2557780           
 │                       │      │                  https://bugzilla.redhat.com/show_bug.cgi?id=2557857           
@@ -4900,16 +5058,20 @@
 │                       │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-101516
 │                       │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-83374 
 │                       │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-83376 
+│                       │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-83378 
 │                       │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-83380 
 │                       │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-83381 
 │                       │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-83387 
 │                       │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-83395 
 │                       │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-83400 
+│                       │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-87255 
 │                       │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-87290 
+│                       │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-87291 
 │                       │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-87292 
 │                       │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-87294 
 │                       │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-87367 
 │                       │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-91332 
+│                       │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-91333 
 │                       │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-91334 
 │                       │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-91335 
 │                       │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-91373 
@@ -4917,7 +5079,6 @@
 │                       │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-91375 
 │                       │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-91379 
 │                       │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-91380 
-│                       │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-91382 
 │                       │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-91394 
 │                       │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-91397 
 │                       │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-91398 
@@ -4933,8 +5094,8 @@
 │                       │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-91463 
 │                       │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-91464 
 │                       │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-91487 
-│                       │      │                  https://errata.almalinux.org/8/ALSA-2026-88352.html           
-│                       │      │                  https://errata.rockylinux.org/RLSA-2026:88352                 
+│                       │      │                  https://errata.almalinux.org/9/ALSA-2026-90500.html           
+│                       │      │                  https://errata.rockylinux.org/RLSA-2026:88347                 
 │                       │      │                  https://linux.oracle.com/cve/CVE-2026-91397.html              
 │                       │      │                  https://linux.oracle.com/errata/ELSA-2026-90504.html          
 │                       │      │                  https://nvd.nist.gov/vuln/detail/CVE-2026-91397               
@@ -4959,8 +5120,8 @@
 │                       │      ├ DataSource       ╭ ID  : alpine 
 │                       │      │                  ├ Name: Alpine Secdb 
 │                       │      │                  ╰ URL : https://secdb.alpinelinux.org/ 
-│                       │      ├ Fingerprint     : sha256:12c34f761dd6479337c34a0139975217933e3ebf20ee7194bd440
-│                       │      │                   0e9080bb8eb 
+│                       │      ├ Fingerprint     : sha256:e78495ad5571f80db6e8e7a40d0236e8e979f7d7c31b6842ac314
+│                       │      │                   20f154c5d3d 
 │                       │      ├ Title           : openjdk: Enhance MIDI file handling (Oracle CPU 2026-10) 
 │                       │      ├ Description     : Vulnerability in the Oracle Java SE, Oracle GraalVM for JDK,
 │                       │      │                    Oracle GraalVM Enterprise Edition product of Oracle Java SE
@@ -5001,7 +5162,8 @@
 │                       │      │                           ╰ V3Score : 3.1 
 │                       │      ├ References                                                                     
 │                       │      │                  ──────────────────────────────────────────────────────────────
-│                       │      │                  https://access.redhat.com/errata/RHSA-2026:88352              
+│                       │      │                  https://access.redhat.com/errata/RHSA-2026:88347              
+│                       │      │                  https://access.redhat.com/errata/RHSA-2026:90500              
 │                       │      │                  https://access.redhat.com/security/cve/CVE-2026-91400         
 │                       │      │                  https://bugzilla.redhat.com/2556709                           
 │                       │      │                  https://bugzilla.redhat.com/2556795                           
@@ -5044,10 +5206,12 @@
 │                       │      │                  https://bugzilla.redhat.com/show_bug.cgi?id=2556824           
 │                       │      │                  https://bugzilla.redhat.com/show_bug.cgi?id=2556837           
 │                       │      │                  https://bugzilla.redhat.com/show_bug.cgi?id=2556859           
+│                       │      │                  https://bugzilla.redhat.com/show_bug.cgi?id=2556960           
 │                       │      │                  https://bugzilla.redhat.com/show_bug.cgi?id=2557007           
 │                       │      │                  https://bugzilla.redhat.com/show_bug.cgi?id=2557032           
 │                       │      │                  https://bugzilla.redhat.com/show_bug.cgi?id=2557041           
 │                       │      │                  https://bugzilla.redhat.com/show_bug.cgi?id=2557047           
+│                       │      │                  https://bugzilla.redhat.com/show_bug.cgi?id=2557056           
 │                       │      │                  https://bugzilla.redhat.com/show_bug.cgi?id=2557079           
 │                       │      │                  https://bugzilla.redhat.com/show_bug.cgi?id=2557110           
 │                       │      │                  https://bugzilla.redhat.com/show_bug.cgi?id=2557117           
@@ -5056,6 +5220,7 @@
 │                       │      │                  https://bugzilla.redhat.com/show_bug.cgi?id=2557236           
 │                       │      │                  https://bugzilla.redhat.com/show_bug.cgi?id=2557261           
 │                       │      │                  https://bugzilla.redhat.com/show_bug.cgi?id=2557356           
+│                       │      │                  https://bugzilla.redhat.com/show_bug.cgi?id=2557364           
 │                       │      │                  https://bugzilla.redhat.com/show_bug.cgi?id=2557405           
 │                       │      │                  https://bugzilla.redhat.com/show_bug.cgi?id=2557427           
 │                       │      │                  https://bugzilla.redhat.com/show_bug.cgi?id=2557443           
@@ -5064,12 +5229,12 @@
 │                       │      │                  https://bugzilla.redhat.com/show_bug.cgi?id=2557564           
 │                       │      │                  https://bugzilla.redhat.com/show_bug.cgi?id=2557598           
 │                       │      │                  https://bugzilla.redhat.com/show_bug.cgi?id=2557662           
-│                       │      │                  https://bugzilla.redhat.com/show_bug.cgi?id=2557665           
 │                       │      │                  https://bugzilla.redhat.com/show_bug.cgi?id=2557674           
 │                       │      │                  https://bugzilla.redhat.com/show_bug.cgi?id=2557690           
 │                       │      │                  https://bugzilla.redhat.com/show_bug.cgi?id=2557709           
 │                       │      │                  https://bugzilla.redhat.com/show_bug.cgi?id=2557711           
 │                       │      │                  https://bugzilla.redhat.com/show_bug.cgi?id=2557731           
+│                       │      │                  https://bugzilla.redhat.com/show_bug.cgi?id=2557757           
 │                       │      │                  https://bugzilla.redhat.com/show_bug.cgi?id=2557765           
 │                       │      │                  https://bugzilla.redhat.com/show_bug.cgi?id=2557780           
 │                       │      │                  https://bugzilla.redhat.com/show_bug.cgi?id=2557857           
@@ -5079,16 +5244,20 @@
 │                       │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-101516
 │                       │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-83374 
 │                       │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-83376 
+│                       │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-83378 
 │                       │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-83380 
 │                       │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-83381 
 │                       │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-83387 
 │                       │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-83395 
 │                       │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-83400 
+│                       │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-87255 
 │                       │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-87290 
+│                       │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-87291 
 │                       │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-87292 
 │                       │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-87294 
 │                       │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-87367 
 │                       │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-91332 
+│                       │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-91333 
 │                       │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-91334 
 │                       │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-91335 
 │                       │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-91373 
@@ -5096,7 +5265,6 @@
 │                       │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-91375 
 │                       │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-91379 
 │                       │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-91380 
-│                       │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-91382 
 │                       │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-91394 
 │                       │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-91397 
 │                       │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-91398 
@@ -5112,8 +5280,8 @@
 │                       │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-91463 
 │                       │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-91464 
 │                       │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-91487 
-│                       │      │                  https://errata.almalinux.org/8/ALSA-2026-88352.html           
-│                       │      │                  https://errata.rockylinux.org/RLSA-2026:88352                 
+│                       │      │                  https://errata.almalinux.org/9/ALSA-2026-90500.html           
+│                       │      │                  https://errata.rockylinux.org/RLSA-2026:88347                 
 │                       │      │                  https://linux.oracle.com/cve/CVE-2026-91400.html              
 │                       │      │                  https://linux.oracle.com/errata/ELSA-2026-90504.html          
 │                       │      │                  https://nvd.nist.gov/vuln/detail/CVE-2026-91400               
@@ -5138,8 +5306,8 @@
 │                       │      ├ DataSource       ╭ ID  : alpine 
 │                       │      │                  ├ Name: Alpine Secdb 
 │                       │      │                  ╰ URL : https://secdb.alpinelinux.org/ 
-│                       │      ├ Fingerprint     : sha256:16509d706d9bdbe94db3dc689052123da1075faff8ea8c470851f
-│                       │      │                   2430e1fe823 
+│                       │      ├ Fingerprint     : sha256:23d5f10857c23a4362cfdfa44e64f3d53b12fe5f13a3b8f16f553
+│                       │      │                   c54baeb0bfa 
 │                       │      ├ Title           : openjfx: openjfx: information disclosure via untrusted code
 │                       │      │                   execution 
 │                       │      ├ Description     : Vulnerability in the Oracle Java SE, Oracle JavaFX, Oracle
@@ -5198,8 +5366,8 @@
 │                       │      ├ DataSource       ╭ ID  : alpine 
 │                       │      │                  ├ Name: Alpine Secdb 
 │                       │      │                  ╰ URL : https://secdb.alpinelinux.org/ 
-│                       │      ├ Fingerprint     : sha256:a7a4539b58fba68fd99a2c8851d77ed0b8dd30a80681e1d8f8f82
-│                       │      │                   57ea3596346 
+│                       │      ├ Fingerprint     : sha256:9f2740693742369922b61a0211484f5a18b2e3fd53586ab2c55dc
+│                       │      │                   84510f6f81c 
 │                       │      ├ Title           : openjdk: Enhance TLS Extensions (Oracle CPU 2026-10) 
 │                       │      ├ Description     : Vulnerability in the Oracle Java SE, Oracle GraalVM for JDK,
 │                       │      │                    Oracle GraalVM Enterprise Edition product of Oracle Java SE
@@ -5234,7 +5402,8 @@
 │                       │      │                           ╰ V3Score : 3.7 
 │                       │      ├ References                                                                     
 │                       │      │                  ──────────────────────────────────────────────────────────────
-│                       │      │                  https://access.redhat.com/errata/RHSA-2026:88352              
+│                       │      │                  https://access.redhat.com/errata/RHSA-2026:88347              
+│                       │      │                  https://access.redhat.com/errata/RHSA-2026:90500              
 │                       │      │                  https://access.redhat.com/security/cve/CVE-2026-91461         
 │                       │      │                  https://bugzilla.redhat.com/2556709                           
 │                       │      │                  https://bugzilla.redhat.com/2556795                           
@@ -5277,10 +5446,12 @@
 │                       │      │                  https://bugzilla.redhat.com/show_bug.cgi?id=2556824           
 │                       │      │                  https://bugzilla.redhat.com/show_bug.cgi?id=2556837           
 │                       │      │                  https://bugzilla.redhat.com/show_bug.cgi?id=2556859           
+│                       │      │                  https://bugzilla.redhat.com/show_bug.cgi?id=2556960           
 │                       │      │                  https://bugzilla.redhat.com/show_bug.cgi?id=2557007           
 │                       │      │                  https://bugzilla.redhat.com/show_bug.cgi?id=2557032           
 │                       │      │                  https://bugzilla.redhat.com/show_bug.cgi?id=2557041           
 │                       │      │                  https://bugzilla.redhat.com/show_bug.cgi?id=2557047           
+│                       │      │                  https://bugzilla.redhat.com/show_bug.cgi?id=2557056           
 │                       │      │                  https://bugzilla.redhat.com/show_bug.cgi?id=2557079           
 │                       │      │                  https://bugzilla.redhat.com/show_bug.cgi?id=2557110           
 │                       │      │                  https://bugzilla.redhat.com/show_bug.cgi?id=2557117           
@@ -5289,6 +5460,7 @@
 │                       │      │                  https://bugzilla.redhat.com/show_bug.cgi?id=2557236           
 │                       │      │                  https://bugzilla.redhat.com/show_bug.cgi?id=2557261           
 │                       │      │                  https://bugzilla.redhat.com/show_bug.cgi?id=2557356           
+│                       │      │                  https://bugzilla.redhat.com/show_bug.cgi?id=2557364           
 │                       │      │                  https://bugzilla.redhat.com/show_bug.cgi?id=2557405           
 │                       │      │                  https://bugzilla.redhat.com/show_bug.cgi?id=2557427           
 │                       │      │                  https://bugzilla.redhat.com/show_bug.cgi?id=2557443           
@@ -5297,12 +5469,12 @@
 │                       │      │                  https://bugzilla.redhat.com/show_bug.cgi?id=2557564           
 │                       │      │                  https://bugzilla.redhat.com/show_bug.cgi?id=2557598           
 │                       │      │                  https://bugzilla.redhat.com/show_bug.cgi?id=2557662           
-│                       │      │                  https://bugzilla.redhat.com/show_bug.cgi?id=2557665           
 │                       │      │                  https://bugzilla.redhat.com/show_bug.cgi?id=2557674           
 │                       │      │                  https://bugzilla.redhat.com/show_bug.cgi?id=2557690           
 │                       │      │                  https://bugzilla.redhat.com/show_bug.cgi?id=2557709           
 │                       │      │                  https://bugzilla.redhat.com/show_bug.cgi?id=2557711           
 │                       │      │                  https://bugzilla.redhat.com/show_bug.cgi?id=2557731           
+│                       │      │                  https://bugzilla.redhat.com/show_bug.cgi?id=2557757           
 │                       │      │                  https://bugzilla.redhat.com/show_bug.cgi?id=2557765           
 │                       │      │                  https://bugzilla.redhat.com/show_bug.cgi?id=2557780           
 │                       │      │                  https://bugzilla.redhat.com/show_bug.cgi?id=2557857           
@@ -5312,16 +5484,20 @@
 │                       │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-101516
 │                       │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-83374 
 │                       │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-83376 
+│                       │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-83378 
 │                       │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-83380 
 │                       │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-83381 
 │                       │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-83387 
 │                       │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-83395 
 │                       │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-83400 
+│                       │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-87255 
 │                       │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-87290 
+│                       │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-87291 
 │                       │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-87292 
 │                       │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-87294 
 │                       │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-87367 
 │                       │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-91332 
+│                       │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-91333 
 │                       │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-91334 
 │                       │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-91335 
 │                       │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-91373 
@@ -5329,7 +5505,6 @@
 │                       │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-91375 
 │                       │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-91379 
 │                       │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-91380 
-│                       │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-91382 
 │                       │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-91394 
 │                       │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-91397 
 │                       │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-91398 
@@ -5345,8 +5520,8 @@
 │                       │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-91463 
 │                       │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-91464 
 │                       │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-91487 
-│                       │      │                  https://errata.almalinux.org/8/ALSA-2026-88352.html           
-│                       │      │                  https://errata.rockylinux.org/RLSA-2026:88352                 
+│                       │      │                  https://errata.almalinux.org/9/ALSA-2026-90500.html           
+│                       │      │                  https://errata.rockylinux.org/RLSA-2026:88347                 
 │                       │      │                  https://linux.oracle.com/cve/CVE-2026-91461.html              
 │                       │      │                  https://linux.oracle.com/errata/ELSA-2026-90504.html          
 │                       │      │                  https://nvd.nist.gov/vuln/detail/CVE-2026-91461               
@@ -5371,8 +5546,8 @@
 │                       │      ├ DataSource       ╭ ID  : alpine 
 │                       │      │                  ├ Name: Alpine Secdb 
 │                       │      │                  ╰ URL : https://secdb.alpinelinux.org/ 
-│                       │      ├ Fingerprint     : sha256:46425551b7c925eb29fa06ce390225fdc933529e73237d29ad2a0
-│                       │      │                   ae0393ccd58 
+│                       │      ├ Fingerprint     : sha256:c725e1397a2d96da623f77e8c07fab17323adfdb61b6c6596f6bd
+│                       │      │                   9e6916553b5 
 │                       │      ├ Title           : OpenJDK: Distrust eMudhra intermediate CA certificates due
 │                       │      │                   to security concerns 
 │                       │      ├ Description     : Vulnerability in the Oracle Java SE, Oracle GraalVM for JDK,
@@ -5441,8 +5616,8 @@
 │                       │      ├ DataSource       ╭ ID  : alpine 
 │                       │      │                  ├ Name: Alpine Secdb 
 │                       │      │                  ╰ URL : https://secdb.alpinelinux.org/ 
-│                       │      ├ Fingerprint     : sha256:0f1ce0e3f0961f92399fcd5c0e4bff2b755d4aa45e33afcc92012
-│                       │      │                   c88dd6dc031 
+│                       │      ├ Fingerprint     : sha256:7d54076a42f8de1e85860b610bc5a67cf37705dd1daa9a8035804
+│                       │      │                   f886186f1a4 
 │                       │      ├ Title           : An issue was discovered in GStreamer gst-plugins-good before
 │                       │      │                    1.28.2. W ... 
 │                       │      ├ Description     : An issue was discovered in GStreamer gst-plugins-good before
@@ -5489,8 +5664,8 @@
 │                       │      ├ DataSource       ╭ ID  : alpine 
 │                       │      │                  ├ Name: Alpine Secdb 
 │                       │      │                  ╰ URL : https://secdb.alpinelinux.org/ 
-│                       │      ├ Fingerprint     : sha256:e265d5b50689e8f7d9c98bc1f587d93574b23e2b51905e0611bbe
-│                       │      │                   1cbc4976a44 
+│                       │      ├ Fingerprint     : sha256:2e1a98074a57aa8bcab0175dae99ee5247dcb6b7b16e59f52e82e
+│                       │      │                   b2e42849ca8 
 │                       │      ├ Title           : OpenJDK: Distrust eMudhra intermediate CA certificates due
 │                       │      │                   to security concerns 
 │                       │      ├ Description     : Vulnerability in the Oracle Java SE, Oracle GraalVM for JDK,
@@ -5558,8 +5733,8 @@
 │                       │      ├ DataSource       ╭ ID  : alpine 
 │                       │      │                  ├ Name: Alpine Secdb 
 │                       │      │                  ╰ URL : https://secdb.alpinelinux.org/ 
-│                       │      ├ Fingerprint     : sha256:5c9e967c6133d8e42516f5ce27e4578403fbea9549fd20db89754
-│                       │      │                   d7d0df7f5c4 
+│                       │      ├ Fingerprint     : sha256:e5b526fedda30361836089e7ea3cbf9461effa9600b1dc303dce9
+│                       │      │                   af16307d860 
 │                       │      ├ Title           : libxml2: libxml2: Denial of Service via crafted
 │                       │      │                   XSD-validated document 
 │                       │      ├ Description     : A flaw was found in libxml2. This vulnerability occurs when
@@ -5617,8 +5792,8 @@
 │                       │      ├ DataSource       ╭ ID  : alpine 
 │                       │      │                  ├ Name: Alpine Secdb 
 │                       │      │                  ╰ URL : https://secdb.alpinelinux.org/ 
-│                       │      ├ Fingerprint     : sha256:e54dd9fc6ba58eadde975eb0a7f9ce35c8d020fad6dad9ef2cf90
-│                       │      │                   104f34b8916 
+│                       │      ├ Fingerprint     : sha256:c8cf17fea07a3c563a23af64567d8641ed237eb40c794b4bfcc1e
+│                       │      │                   d35032892c3 
 │                       │      ├ Title           : openjdk: Enhance PKCS5 padding (Oracle CPU 2026-10) 
 │                       │      ├ Description     : Vulnerability in the Oracle Java SE, Oracle GraalVM for JDK,
 │                       │      │                    Oracle GraalVM Enterprise Edition product of Oracle Java SE
@@ -5657,7 +5832,8 @@
 │                       │      │                           ╰ V3Score : 5.9 
 │                       │      ├ References                                                                     
 │                       │      │                  ──────────────────────────────────────────────────────────────
-│                       │      │                  https://access.redhat.com/errata/RHSA-2026:88352              
+│                       │      │                  https://access.redhat.com/errata/RHSA-2026:88347              
+│                       │      │                  https://access.redhat.com/errata/RHSA-2026:90500              
 │                       │      │                  https://access.redhat.com/security/cve/CVE-2026-83374         
 │                       │      │                  https://bugzilla.redhat.com/2556709                           
 │                       │      │                  https://bugzilla.redhat.com/2556795                           
@@ -5700,10 +5876,12 @@
 │                       │      │                  https://bugzilla.redhat.com/show_bug.cgi?id=2556824           
 │                       │      │                  https://bugzilla.redhat.com/show_bug.cgi?id=2556837           
 │                       │      │                  https://bugzilla.redhat.com/show_bug.cgi?id=2556859           
+│                       │      │                  https://bugzilla.redhat.com/show_bug.cgi?id=2556960           
 │                       │      │                  https://bugzilla.redhat.com/show_bug.cgi?id=2557007           
 │                       │      │                  https://bugzilla.redhat.com/show_bug.cgi?id=2557032           
 │                       │      │                  https://bugzilla.redhat.com/show_bug.cgi?id=2557041           
 │                       │      │                  https://bugzilla.redhat.com/show_bug.cgi?id=2557047           
+│                       │      │                  https://bugzilla.redhat.com/show_bug.cgi?id=2557056           
 │                       │      │                  https://bugzilla.redhat.com/show_bug.cgi?id=2557079           
 │                       │      │                  https://bugzilla.redhat.com/show_bug.cgi?id=2557110           
 │                       │      │                  https://bugzilla.redhat.com/show_bug.cgi?id=2557117           
@@ -5712,6 +5890,7 @@
 │                       │      │                  https://bugzilla.redhat.com/show_bug.cgi?id=2557236           
 │                       │      │                  https://bugzilla.redhat.com/show_bug.cgi?id=2557261           
 │                       │      │                  https://bugzilla.redhat.com/show_bug.cgi?id=2557356           
+│                       │      │                  https://bugzilla.redhat.com/show_bug.cgi?id=2557364           
 │                       │      │                  https://bugzilla.redhat.com/show_bug.cgi?id=2557405           
 │                       │      │                  https://bugzilla.redhat.com/show_bug.cgi?id=2557427           
 │                       │      │                  https://bugzilla.redhat.com/show_bug.cgi?id=2557443           
@@ -5720,12 +5899,12 @@
 │                       │      │                  https://bugzilla.redhat.com/show_bug.cgi?id=2557564           
 │                       │      │                  https://bugzilla.redhat.com/show_bug.cgi?id=2557598           
 │                       │      │                  https://bugzilla.redhat.com/show_bug.cgi?id=2557662           
-│                       │      │                  https://bugzilla.redhat.com/show_bug.cgi?id=2557665           
 │                       │      │                  https://bugzilla.redhat.com/show_bug.cgi?id=2557674           
 │                       │      │                  https://bugzilla.redhat.com/show_bug.cgi?id=2557690           
 │                       │      │                  https://bugzilla.redhat.com/show_bug.cgi?id=2557709           
 │                       │      │                  https://bugzilla.redhat.com/show_bug.cgi?id=2557711           
 │                       │      │                  https://bugzilla.redhat.com/show_bug.cgi?id=2557731           
+│                       │      │                  https://bugzilla.redhat.com/show_bug.cgi?id=2557757           
 │                       │      │                  https://bugzilla.redhat.com/show_bug.cgi?id=2557765           
 │                       │      │                  https://bugzilla.redhat.com/show_bug.cgi?id=2557780           
 │                       │      │                  https://bugzilla.redhat.com/show_bug.cgi?id=2557857           
@@ -5735,16 +5914,20 @@
 │                       │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-101516
 │                       │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-83374 
 │                       │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-83376 
+│                       │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-83378 
 │                       │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-83380 
 │                       │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-83381 
 │                       │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-83387 
 │                       │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-83395 
 │                       │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-83400 
+│                       │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-87255 
 │                       │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-87290 
+│                       │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-87291 
 │                       │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-87292 
 │                       │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-87294 
 │                       │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-87367 
 │                       │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-91332 
+│                       │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-91333 
 │                       │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-91334 
 │                       │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-91335 
 │                       │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-91373 
@@ -5752,7 +5935,6 @@
 │                       │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-91375 
 │                       │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-91379 
 │                       │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-91380 
-│                       │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-91382 
 │                       │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-91394 
 │                       │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-91397 
 │                       │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-91398 
@@ -5768,8 +5950,8 @@
 │                       │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-91463 
 │                       │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-91464 
 │                       │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-91487 
-│                       │      │                  https://errata.almalinux.org/8/ALSA-2026-88352.html           
-│                       │      │                  https://errata.rockylinux.org/RLSA-2026:88352                 
+│                       │      │                  https://errata.almalinux.org/9/ALSA-2026-90500.html           
+│                       │      │                  https://errata.rockylinux.org/RLSA-2026:88347                 
 │                       │      │                  https://linux.oracle.com/cve/CVE-2026-83374.html              
 │                       │      │                  https://linux.oracle.com/errata/ELSA-2026-90504.html          
 │                       │      │                  https://nvd.nist.gov/vuln/detail/CVE-2026-83374               
@@ -5794,8 +5976,8 @@
 │                       │      ├ DataSource       ╭ ID  : alpine 
 │                       │      │                  ├ Name: Alpine Secdb 
 │                       │      │                  ╰ URL : https://secdb.alpinelinux.org/ 
-│                       │      ├ Fingerprint     : sha256:d6f8ac81ebafa457dab8d1e91372825ed47fbd404dc578782f556
-│                       │      │                   78474aa311e 
+│                       │      ├ Fingerprint     : sha256:c76348ed487fb175fc6ae65a5a2290ee61ca2efda7ed7a577207a
+│                       │      │                   372a10e5af8 
 │                       │      ├ Title           : openjdk: Improve C2 loop transformations (Oracle CPU 2026-10) 
 │                       │      ├ Description     : Vulnerability in Oracle Java SE (component: Compiler). 
 │                       │      │                   Supported versions that are affected are Oracle Java SE:
@@ -5946,7 +6128,7 @@
 │                       │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-91463 
 │                       │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-91464 
 │                       │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-91487 
-│                       │      │                  https://errata.almalinux.org/8/ALSA-2026-88349.html           
+│                       │      │                  https://errata.almalinux.org/9/ALSA-2026-88349.html           
 │                       │      │                  https://errata.rockylinux.org/RLSA-2026:88347                 
 │                       │      │                  https://linux.oracle.com/cve/CVE-2026-83378.html              
 │                       │      │                  https://linux.oracle.com/errata/ELSA-2026-90504.html          
@@ -5972,8 +6154,8 @@
 │                       │      ├ DataSource       ╭ ID  : alpine 
 │                       │      │                  ├ Name: Alpine Secdb 
 │                       │      │                  ╰ URL : https://secdb.alpinelinux.org/ 
-│                       │      ├ Fingerprint     : sha256:1b5b743fd7aa126cb99a61e4743ca0b80c75b4b836d47bebaa8c3
-│                       │      │                   b0df0fdb6a4 
+│                       │      ├ Fingerprint     : sha256:86b5bfd9172d995a6333476ed96f5e48953a70dbbb819e54470e1
+│                       │      │                   e33c5782a91 
 │                       │      ├ Title           : openjdk: Enhance SASL Authentication (Oracle CPU 2026-10) 
 │                       │      ├ Description     : Vulnerability in Oracle Java SE (component: Security). 
 │                       │      │                   Supported versions that are affected are Oracle Java SE:
@@ -6010,7 +6192,8 @@
 │                       │      │                           ╰ V3Score : 4.8 
 │                       │      ├ References                                                                     
 │                       │      │                  ──────────────────────────────────────────────────────────────
-│                       │      │                  https://access.redhat.com/errata/RHSA-2026:88352              
+│                       │      │                  https://access.redhat.com/errata/RHSA-2026:88347              
+│                       │      │                  https://access.redhat.com/errata/RHSA-2026:90500              
 │                       │      │                  https://access.redhat.com/security/cve/CVE-2026-83381         
 │                       │      │                  https://bugzilla.redhat.com/2556709                           
 │                       │      │                  https://bugzilla.redhat.com/2556795                           
@@ -6053,10 +6236,12 @@
 │                       │      │                  https://bugzilla.redhat.com/show_bug.cgi?id=2556824           
 │                       │      │                  https://bugzilla.redhat.com/show_bug.cgi?id=2556837           
 │                       │      │                  https://bugzilla.redhat.com/show_bug.cgi?id=2556859           
+│                       │      │                  https://bugzilla.redhat.com/show_bug.cgi?id=2556960           
 │                       │      │                  https://bugzilla.redhat.com/show_bug.cgi?id=2557007           
 │                       │      │                  https://bugzilla.redhat.com/show_bug.cgi?id=2557032           
 │                       │      │                  https://bugzilla.redhat.com/show_bug.cgi?id=2557041           
 │                       │      │                  https://bugzilla.redhat.com/show_bug.cgi?id=2557047           
+│                       │      │                  https://bugzilla.redhat.com/show_bug.cgi?id=2557056           
 │                       │      │                  https://bugzilla.redhat.com/show_bug.cgi?id=2557079           
 │                       │      │                  https://bugzilla.redhat.com/show_bug.cgi?id=2557110           
 │                       │      │                  https://bugzilla.redhat.com/show_bug.cgi?id=2557117           
@@ -6065,6 +6250,7 @@
 │                       │      │                  https://bugzilla.redhat.com/show_bug.cgi?id=2557236           
 │                       │      │                  https://bugzilla.redhat.com/show_bug.cgi?id=2557261           
 │                       │      │                  https://bugzilla.redhat.com/show_bug.cgi?id=2557356           
+│                       │      │                  https://bugzilla.redhat.com/show_bug.cgi?id=2557364           
 │                       │      │                  https://bugzilla.redhat.com/show_bug.cgi?id=2557405           
 │                       │      │                  https://bugzilla.redhat.com/show_bug.cgi?id=2557427           
 │                       │      │                  https://bugzilla.redhat.com/show_bug.cgi?id=2557443           
@@ -6073,12 +6259,12 @@
 │                       │      │                  https://bugzilla.redhat.com/show_bug.cgi?id=2557564           
 │                       │      │                  https://bugzilla.redhat.com/show_bug.cgi?id=2557598           
 │                       │      │                  https://bugzilla.redhat.com/show_bug.cgi?id=2557662           
-│                       │      │                  https://bugzilla.redhat.com/show_bug.cgi?id=2557665           
 │                       │      │                  https://bugzilla.redhat.com/show_bug.cgi?id=2557674           
 │                       │      │                  https://bugzilla.redhat.com/show_bug.cgi?id=2557690           
 │                       │      │                  https://bugzilla.redhat.com/show_bug.cgi?id=2557709           
 │                       │      │                  https://bugzilla.redhat.com/show_bug.cgi?id=2557711           
 │                       │      │                  https://bugzilla.redhat.com/show_bug.cgi?id=2557731           
+│                       │      │                  https://bugzilla.redhat.com/show_bug.cgi?id=2557757           
 │                       │      │                  https://bugzilla.redhat.com/show_bug.cgi?id=2557765           
 │                       │      │                  https://bugzilla.redhat.com/show_bug.cgi?id=2557780           
 │                       │      │                  https://bugzilla.redhat.com/show_bug.cgi?id=2557857           
@@ -6088,16 +6274,20 @@
 │                       │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-101516
 │                       │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-83374 
 │                       │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-83376 
+│                       │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-83378 
 │                       │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-83380 
 │                       │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-83381 
 │                       │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-83387 
 │                       │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-83395 
 │                       │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-83400 
+│                       │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-87255 
 │                       │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-87290 
+│                       │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-87291 
 │                       │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-87292 
 │                       │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-87294 
 │                       │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-87367 
 │                       │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-91332 
+│                       │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-91333 
 │                       │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-91334 
 │                       │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-91335 
 │                       │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-91373 
@@ -6105,7 +6295,6 @@
 │                       │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-91375 
 │                       │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-91379 
 │                       │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-91380 
-│                       │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-91382 
 │                       │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-91394 
 │                       │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-91397 
 │                       │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-91398 
@@ -6121,8 +6310,8 @@
 │                       │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-91463 
 │                       │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-91464 
 │                       │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-91487 
-│                       │      │                  https://errata.almalinux.org/8/ALSA-2026-88352.html           
-│                       │      │                  https://errata.rockylinux.org/RLSA-2026:88352                 
+│                       │      │                  https://errata.almalinux.org/9/ALSA-2026-90500.html           
+│                       │      │                  https://errata.rockylinux.org/RLSA-2026:88347                 
 │                       │      │                  https://linux.oracle.com/cve/CVE-2026-83381.html              
 │                       │      │                  https://linux.oracle.com/errata/ELSA-2026-90504.html          
 │                       │      │                  https://nvd.nist.gov/vuln/detail/CVE-2026-83381               
@@ -6147,8 +6336,8 @@
 │                       │      ├ DataSource       ╭ ID  : alpine 
 │                       │      │                  ├ Name: Alpine Secdb 
 │                       │      │                  ╰ URL : https://secdb.alpinelinux.org/ 
-│                       │      ├ Fingerprint     : sha256:ad8ed7a3c988526a285271a41f92734d380a0b968061aa9562234
-│                       │      │                   ef39b4fefdb 
+│                       │      ├ Fingerprint     : sha256:db483dbfc03b12d3e71c787393e35aa195450211a7c838e98a69d
+│                       │      │                   9e18c8bdd9f 
 │                       │      ├ Title           : openjdk: Enhance WebRowSets (Oracle CPU 2026-10) 
 │                       │      ├ Description     : Vulnerability in the Oracle Java SE, Oracle GraalVM for JDK,
 │                       │      │                    Oracle GraalVM Enterprise Edition product of Oracle Java SE
@@ -6187,7 +6376,8 @@
 │                       │      │                           ╰ V3Score : 5.9 
 │                       │      ├ References                                                                     
 │                       │      │                  ──────────────────────────────────────────────────────────────
-│                       │      │                  https://access.redhat.com/errata/RHSA-2026:88352              
+│                       │      │                  https://access.redhat.com/errata/RHSA-2026:88347              
+│                       │      │                  https://access.redhat.com/errata/RHSA-2026:90500              
 │                       │      │                  https://access.redhat.com/security/cve/CVE-2026-83387         
 │                       │      │                  https://bugzilla.redhat.com/2556709                           
 │                       │      │                  https://bugzilla.redhat.com/2556795                           
@@ -6230,10 +6420,12 @@
 │                       │      │                  https://bugzilla.redhat.com/show_bug.cgi?id=2556824           
 │                       │      │                  https://bugzilla.redhat.com/show_bug.cgi?id=2556837           
 │                       │      │                  https://bugzilla.redhat.com/show_bug.cgi?id=2556859           
+│                       │      │                  https://bugzilla.redhat.com/show_bug.cgi?id=2556960           
 │                       │      │                  https://bugzilla.redhat.com/show_bug.cgi?id=2557007           
 │                       │      │                  https://bugzilla.redhat.com/show_bug.cgi?id=2557032           
 │                       │      │                  https://bugzilla.redhat.com/show_bug.cgi?id=2557041           
 │                       │      │                  https://bugzilla.redhat.com/show_bug.cgi?id=2557047           
+│                       │      │                  https://bugzilla.redhat.com/show_bug.cgi?id=2557056           
 │                       │      │                  https://bugzilla.redhat.com/show_bug.cgi?id=2557079           
 │                       │      │                  https://bugzilla.redhat.com/show_bug.cgi?id=2557110           
 │                       │      │                  https://bugzilla.redhat.com/show_bug.cgi?id=2557117           
@@ -6242,6 +6434,7 @@
 │                       │      │                  https://bugzilla.redhat.com/show_bug.cgi?id=2557236           
 │                       │      │                  https://bugzilla.redhat.com/show_bug.cgi?id=2557261           
 │                       │      │                  https://bugzilla.redhat.com/show_bug.cgi?id=2557356           
+│                       │      │                  https://bugzilla.redhat.com/show_bug.cgi?id=2557364           
 │                       │      │                  https://bugzilla.redhat.com/show_bug.cgi?id=2557405           
 │                       │      │                  https://bugzilla.redhat.com/show_bug.cgi?id=2557427           
 │                       │      │                  https://bugzilla.redhat.com/show_bug.cgi?id=2557443           
@@ -6250,12 +6443,12 @@
 │                       │      │                  https://bugzilla.redhat.com/show_bug.cgi?id=2557564           
 │                       │      │                  https://bugzilla.redhat.com/show_bug.cgi?id=2557598           
 │                       │      │                  https://bugzilla.redhat.com/show_bug.cgi?id=2557662           
-│                       │      │                  https://bugzilla.redhat.com/show_bug.cgi?id=2557665           
 │                       │      │                  https://bugzilla.redhat.com/show_bug.cgi?id=2557674           
 │                       │      │                  https://bugzilla.redhat.com/show_bug.cgi?id=2557690           
 │                       │      │                  https://bugzilla.redhat.com/show_bug.cgi?id=2557709           
 │                       │      │                  https://bugzilla.redhat.com/show_bug.cgi?id=2557711           
 │                       │      │                  https://bugzilla.redhat.com/show_bug.cgi?id=2557731           
+│                       │      │                  https://bugzilla.redhat.com/show_bug.cgi?id=2557757           
 │                       │      │                  https://bugzilla.redhat.com/show_bug.cgi?id=2557765           
 │                       │      │                  https://bugzilla.redhat.com/show_bug.cgi?id=2557780           
 │                       │      │                  https://bugzilla.redhat.com/show_bug.cgi?id=2557857           
@@ -6265,16 +6458,20 @@
 │                       │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-101516
 │                       │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-83374 
 │                       │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-83376 
+│                       │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-83378 
 │                       │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-83380 
 │                       │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-83381 
 │                       │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-83387 
 │                       │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-83395 
 │                       │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-83400 
+│                       │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-87255 
 │                       │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-87290 
+│                       │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-87291 
 │                       │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-87292 
 │                       │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-87294 
 │                       │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-87367 
 │                       │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-91332 
+│                       │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-91333 
 │                       │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-91334 
 │                       │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-91335 
 │                       │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-91373 
@@ -6282,7 +6479,6 @@
 │                       │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-91375 
 │                       │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-91379 
 │                       │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-91380 
-│                       │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-91382 
 │                       │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-91394 
 │                       │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-91397 
 │                       │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-91398 
@@ -6298,8 +6494,8 @@
 │                       │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-91463 
 │                       │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-91464 
 │                       │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-91487 
-│                       │      │                  https://errata.almalinux.org/8/ALSA-2026-88352.html           
-│                       │      │                  https://errata.rockylinux.org/RLSA-2026:88352                 
+│                       │      │                  https://errata.almalinux.org/9/ALSA-2026-90500.html           
+│                       │      │                  https://errata.rockylinux.org/RLSA-2026:88347                 
 │                       │      │                  https://linux.oracle.com/cve/CVE-2026-83387.html              
 │                       │      │                  https://linux.oracle.com/errata/ELSA-2026-90504.html          
 │                       │      │                  https://nvd.nist.gov/vuln/detail/CVE-2026-83387               
@@ -6324,8 +6520,8 @@
 │                       │      ├ DataSource       ╭ ID  : alpine 
 │                       │      │                  ├ Name: Alpine Secdb 
 │                       │      │                  ╰ URL : https://secdb.alpinelinux.org/ 
-│                       │      ├ Fingerprint     : sha256:cdf64bb830c5ec09ddee77eaec88b5d2d696096c23eb779bf2699
-│                       │      │                   c7a0dccee29 
+│                       │      ├ Fingerprint     : sha256:3d165352d4ddd10ee4af3003102adcba54a5d6ca43c9c878fb01a
+│                       │      │                   a46f5520484 
 │                       │      ├ Title           : openjdk: Enhance XML Processing (Oracle CPU 2026-10) 
 │                       │      ├ Description     : Vulnerability in the Oracle Java SE, Oracle GraalVM for JDK,
 │                       │      │                    Oracle GraalVM Enterprise Edition product of Oracle Java SE
@@ -6364,7 +6560,8 @@
 │                       │      │                           ╰ V3Score : 5.3 
 │                       │      ├ References                                                                     
 │                       │      │                  ──────────────────────────────────────────────────────────────
-│                       │      │                  https://access.redhat.com/errata/RHSA-2026:88352              
+│                       │      │                  https://access.redhat.com/errata/RHSA-2026:88347              
+│                       │      │                  https://access.redhat.com/errata/RHSA-2026:90500              
 │                       │      │                  https://access.redhat.com/security/cve/CVE-2026-83400         
 │                       │      │                  https://bugzilla.redhat.com/2556709                           
 │                       │      │                  https://bugzilla.redhat.com/2556795                           
@@ -6407,10 +6604,12 @@
 │                       │      │                  https://bugzilla.redhat.com/show_bug.cgi?id=2556824           
 │                       │      │                  https://bugzilla.redhat.com/show_bug.cgi?id=2556837           
 │                       │      │                  https://bugzilla.redhat.com/show_bug.cgi?id=2556859           
+│                       │      │                  https://bugzilla.redhat.com/show_bug.cgi?id=2556960           
 │                       │      │                  https://bugzilla.redhat.com/show_bug.cgi?id=2557007           
 │                       │      │                  https://bugzilla.redhat.com/show_bug.cgi?id=2557032           
 │                       │      │                  https://bugzilla.redhat.com/show_bug.cgi?id=2557041           
 │                       │      │                  https://bugzilla.redhat.com/show_bug.cgi?id=2557047           
+│                       │      │                  https://bugzilla.redhat.com/show_bug.cgi?id=2557056           
 │                       │      │                  https://bugzilla.redhat.com/show_bug.cgi?id=2557079           
 │                       │      │                  https://bugzilla.redhat.com/show_bug.cgi?id=2557110           
 │                       │      │                  https://bugzilla.redhat.com/show_bug.cgi?id=2557117           
@@ -6419,6 +6618,7 @@
 │                       │      │                  https://bugzilla.redhat.com/show_bug.cgi?id=2557236           
 │                       │      │                  https://bugzilla.redhat.com/show_bug.cgi?id=2557261           
 │                       │      │                  https://bugzilla.redhat.com/show_bug.cgi?id=2557356           
+│                       │      │                  https://bugzilla.redhat.com/show_bug.cgi?id=2557364           
 │                       │      │                  https://bugzilla.redhat.com/show_bug.cgi?id=2557405           
 │                       │      │                  https://bugzilla.redhat.com/show_bug.cgi?id=2557427           
 │                       │      │                  https://bugzilla.redhat.com/show_bug.cgi?id=2557443           
@@ -6427,12 +6627,12 @@
 │                       │      │                  https://bugzilla.redhat.com/show_bug.cgi?id=2557564           
 │                       │      │                  https://bugzilla.redhat.com/show_bug.cgi?id=2557598           
 │                       │      │                  https://bugzilla.redhat.com/show_bug.cgi?id=2557662           
-│                       │      │                  https://bugzilla.redhat.com/show_bug.cgi?id=2557665           
 │                       │      │                  https://bugzilla.redhat.com/show_bug.cgi?id=2557674           
 │                       │      │                  https://bugzilla.redhat.com/show_bug.cgi?id=2557690           
 │                       │      │                  https://bugzilla.redhat.com/show_bug.cgi?id=2557709           
 │                       │      │                  https://bugzilla.redhat.com/show_bug.cgi?id=2557711           
 │                       │      │                  https://bugzilla.redhat.com/show_bug.cgi?id=2557731           
+│                       │      │                  https://bugzilla.redhat.com/show_bug.cgi?id=2557757           
 │                       │      │                  https://bugzilla.redhat.com/show_bug.cgi?id=2557765           
 │                       │      │                  https://bugzilla.redhat.com/show_bug.cgi?id=2557780           
 │                       │      │                  https://bugzilla.redhat.com/show_bug.cgi?id=2557857           
@@ -6442,16 +6642,20 @@
 │                       │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-101516
 │                       │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-83374 
 │                       │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-83376 
+│                       │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-83378 
 │                       │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-83380 
 │                       │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-83381 
 │                       │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-83387 
 │                       │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-83395 
 │                       │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-83400 
+│                       │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-87255 
 │                       │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-87290 
+│                       │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-87291 
 │                       │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-87292 
 │                       │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-87294 
 │                       │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-87367 
 │                       │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-91332 
+│                       │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-91333 
 │                       │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-91334 
 │                       │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-91335 
 │                       │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-91373 
@@ -6459,7 +6663,6 @@
 │                       │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-91375 
 │                       │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-91379 
 │                       │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-91380 
-│                       │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-91382 
 │                       │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-91394 
 │                       │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-91397 
 │                       │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-91398 
@@ -6475,8 +6678,8 @@
 │                       │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-91463 
 │                       │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-91464 
 │                       │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-91487 
-│                       │      │                  https://errata.almalinux.org/8/ALSA-2026-88352.html           
-│                       │      │                  https://errata.rockylinux.org/RLSA-2026:88352                 
+│                       │      │                  https://errata.almalinux.org/9/ALSA-2026-90500.html           
+│                       │      │                  https://errata.rockylinux.org/RLSA-2026:88347                 
 │                       │      │                  https://linux.oracle.com/cve/CVE-2026-83400.html              
 │                       │      │                  https://linux.oracle.com/errata/ELSA-2026-90504.html          
 │                       │      │                  https://nvd.nist.gov/vuln/detail/CVE-2026-83400               
@@ -6501,8 +6704,8 @@
 │                       │      ├ DataSource       ╭ ID  : alpine 
 │                       │      │                  ├ Name: Alpine Secdb 
 │                       │      │                  ╰ URL : https://secdb.alpinelinux.org/ 
-│                       │      ├ Fingerprint     : sha256:1ccd75c1e4463feef7def847712f35f5d8ea958105aa627bddb62
-│                       │      │                   bef99780cd5 
+│                       │      ├ Fingerprint     : sha256:ad97ef4b7f584945d72b427d3753e6980ed584b30ba865ab01be3
+│                       │      │                   ac732b4d336 
 │                       │      ├ Title           : openjdk: Enhance XPath Expressions (Oracle CPU 2026-10) 
 │                       │      ├ Description     : Vulnerability in the Oracle Java SE, Oracle GraalVM for JDK,
 │                       │      │                    Oracle GraalVM Enterprise Edition product of Oracle Java SE
@@ -6541,7 +6744,8 @@
 │                       │      │                           ╰ V3Score : 3.7 
 │                       │      ├ References                                                                     
 │                       │      │                  ──────────────────────────────────────────────────────────────
-│                       │      │                  https://access.redhat.com/errata/RHSA-2026:88352              
+│                       │      │                  https://access.redhat.com/errata/RHSA-2026:88347              
+│                       │      │                  https://access.redhat.com/errata/RHSA-2026:90500              
 │                       │      │                  https://access.redhat.com/security/cve/CVE-2026-87290         
 │                       │      │                  https://bugzilla.redhat.com/2556709                           
 │                       │      │                  https://bugzilla.redhat.com/2556795                           
@@ -6584,10 +6788,12 @@
 │                       │      │                  https://bugzilla.redhat.com/show_bug.cgi?id=2556824           
 │                       │      │                  https://bugzilla.redhat.com/show_bug.cgi?id=2556837           
 │                       │      │                  https://bugzilla.redhat.com/show_bug.cgi?id=2556859           
+│                       │      │                  https://bugzilla.redhat.com/show_bug.cgi?id=2556960           
 │                       │      │                  https://bugzilla.redhat.com/show_bug.cgi?id=2557007           
 │                       │      │                  https://bugzilla.redhat.com/show_bug.cgi?id=2557032           
 │                       │      │                  https://bugzilla.redhat.com/show_bug.cgi?id=2557041           
 │                       │      │                  https://bugzilla.redhat.com/show_bug.cgi?id=2557047           
+│                       │      │                  https://bugzilla.redhat.com/show_bug.cgi?id=2557056           
 │                       │      │                  https://bugzilla.redhat.com/show_bug.cgi?id=2557079           
 │                       │      │                  https://bugzilla.redhat.com/show_bug.cgi?id=2557110           
 │                       │      │                  https://bugzilla.redhat.com/show_bug.cgi?id=2557117           
@@ -6596,6 +6802,7 @@
 │                       │      │                  https://bugzilla.redhat.com/show_bug.cgi?id=2557236           
 │                       │      │                  https://bugzilla.redhat.com/show_bug.cgi?id=2557261           
 │                       │      │                  https://bugzilla.redhat.com/show_bug.cgi?id=2557356           
+│                       │      │                  https://bugzilla.redhat.com/show_bug.cgi?id=2557364           
 │                       │      │                  https://bugzilla.redhat.com/show_bug.cgi?id=2557405           
 │                       │      │                  https://bugzilla.redhat.com/show_bug.cgi?id=2557427           
 │                       │      │                  https://bugzilla.redhat.com/show_bug.cgi?id=2557443           
@@ -6604,12 +6811,12 @@
 │                       │      │                  https://bugzilla.redhat.com/show_bug.cgi?id=2557564           
 │                       │      │                  https://bugzilla.redhat.com/show_bug.cgi?id=2557598           
 │                       │      │                  https://bugzilla.redhat.com/show_bug.cgi?id=2557662           
-│                       │      │                  https://bugzilla.redhat.com/show_bug.cgi?id=2557665           
 │                       │      │                  https://bugzilla.redhat.com/show_bug.cgi?id=2557674           
 │                       │      │                  https://bugzilla.redhat.com/show_bug.cgi?id=2557690           
 │                       │      │                  https://bugzilla.redhat.com/show_bug.cgi?id=2557709           
 │                       │      │                  https://bugzilla.redhat.com/show_bug.cgi?id=2557711           
 │                       │      │                  https://bugzilla.redhat.com/show_bug.cgi?id=2557731           
+│                       │      │                  https://bugzilla.redhat.com/show_bug.cgi?id=2557757           
 │                       │      │                  https://bugzilla.redhat.com/show_bug.cgi?id=2557765           
 │                       │      │                  https://bugzilla.redhat.com/show_bug.cgi?id=2557780           
 │                       │      │                  https://bugzilla.redhat.com/show_bug.cgi?id=2557857           
@@ -6619,16 +6826,20 @@
 │                       │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-101516
 │                       │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-83374 
 │                       │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-83376 
+│                       │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-83378 
 │                       │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-83380 
 │                       │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-83381 
 │                       │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-83387 
 │                       │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-83395 
 │                       │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-83400 
+│                       │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-87255 
 │                       │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-87290 
+│                       │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-87291 
 │                       │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-87292 
 │                       │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-87294 
 │                       │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-87367 
 │                       │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-91332 
+│                       │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-91333 
 │                       │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-91334 
 │                       │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-91335 
 │                       │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-91373 
@@ -6636,7 +6847,6 @@
 │                       │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-91375 
 │                       │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-91379 
 │                       │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-91380 
-│                       │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-91382 
 │                       │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-91394 
 │                       │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-91397 
 │                       │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-91398 
@@ -6652,8 +6862,8 @@
 │                       │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-91463 
 │                       │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-91464 
 │                       │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-91487 
-│                       │      │                  https://errata.almalinux.org/8/ALSA-2026-88352.html           
-│                       │      │                  https://errata.rockylinux.org/RLSA-2026:88352                 
+│                       │      │                  https://errata.almalinux.org/9/ALSA-2026-90500.html           
+│                       │      │                  https://errata.rockylinux.org/RLSA-2026:88347                 
 │                       │      │                  https://linux.oracle.com/cve/CVE-2026-87290.html              
 │                       │      │                  https://linux.oracle.com/errata/ELSA-2026-90504.html          
 │                       │      │                  https://nvd.nist.gov/vuln/detail/CVE-2026-87290               
@@ -6678,8 +6888,8 @@
 │                       │      ├ DataSource       ╭ ID  : alpine 
 │                       │      │                  ├ Name: Alpine Secdb 
 │                       │      │                  ╰ URL : https://secdb.alpinelinux.org/ 
-│                       │      ├ Fingerprint     : sha256:1055cf154b39f2832d1b6fb6adfeae81fa94ec0e9bb5510f854f2
-│                       │      │                   c1da551e4a5 
+│                       │      ├ Fingerprint     : sha256:ea0da580669c3a8cd64b0c7caf5ba810250dfda1b315fdc470c45
+│                       │      │                   55e60337c17 
 │                       │      ├ Title           : openjdk: Enhance HTTP Server (Oracle CPU 2026-10) 
 │                       │      ├ Description     : Vulnerability in Oracle Java SE (component: Networking). 
 │                       │      │                   Supported versions that are affected are Oracle Java SE:
@@ -6829,7 +7039,7 @@
 │                       │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-91463 
 │                       │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-91464 
 │                       │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-91487 
-│                       │      │                  https://errata.almalinux.org/8/ALSA-2026-88349.html           
+│                       │      │                  https://errata.almalinux.org/9/ALSA-2026-88349.html           
 │                       │      │                  https://errata.rockylinux.org/RLSA-2026:88347                 
 │                       │      │                  https://linux.oracle.com/cve/CVE-2026-87291.html              
 │                       │      │                  https://linux.oracle.com/errata/ELSA-2026-90504.html          
@@ -6855,8 +7065,8 @@
 │                       │      ├ DataSource       ╭ ID  : alpine 
 │                       │      │                  ├ Name: Alpine Secdb 
 │                       │      │                  ╰ URL : https://secdb.alpinelinux.org/ 
-│                       │      ├ Fingerprint     : sha256:9b267104fbf1e63a546223ad02473b5e88602431253fa881292f3
-│                       │      │                   7fcb9ed4526 
+│                       │      ├ Fingerprint     : sha256:38bcf5d00e4ca48342e32f166132739c8906f5040a90f39f67f30
+│                       │      │                   979d49a82a7 
 │                       │      ├ Title           : openjdk: Enhance HTTP Client (Oracle CPU 2026-10) 
 │                       │      ├ Description     : Vulnerability in Oracle Java SE (component: Networking). 
 │                       │      │                   Supported versions that are affected are Oracle Java SE:
@@ -6891,7 +7101,8 @@
 │                       │      │                           ╰ V3Score : 5.3 
 │                       │      ├ References                                                                     
 │                       │      │                  ──────────────────────────────────────────────────────────────
-│                       │      │                  https://access.redhat.com/errata/RHSA-2026:88352              
+│                       │      │                  https://access.redhat.com/errata/RHSA-2026:88347              
+│                       │      │                  https://access.redhat.com/errata/RHSA-2026:90500              
 │                       │      │                  https://access.redhat.com/security/cve/CVE-2026-91332         
 │                       │      │                  https://bugzilla.redhat.com/2556709                           
 │                       │      │                  https://bugzilla.redhat.com/2556795                           
@@ -6934,10 +7145,12 @@
 │                       │      │                  https://bugzilla.redhat.com/show_bug.cgi?id=2556824           
 │                       │      │                  https://bugzilla.redhat.com/show_bug.cgi?id=2556837           
 │                       │      │                  https://bugzilla.redhat.com/show_bug.cgi?id=2556859           
+│                       │      │                  https://bugzilla.redhat.com/show_bug.cgi?id=2556960           
 │                       │      │                  https://bugzilla.redhat.com/show_bug.cgi?id=2557007           
 │                       │      │                  https://bugzilla.redhat.com/show_bug.cgi?id=2557032           
 │                       │      │                  https://bugzilla.redhat.com/show_bug.cgi?id=2557041           
 │                       │      │                  https://bugzilla.redhat.com/show_bug.cgi?id=2557047           
+│                       │      │                  https://bugzilla.redhat.com/show_bug.cgi?id=2557056           
 │                       │      │                  https://bugzilla.redhat.com/show_bug.cgi?id=2557079           
 │                       │      │                  https://bugzilla.redhat.com/show_bug.cgi?id=2557110           
 │                       │      │                  https://bugzilla.redhat.com/show_bug.cgi?id=2557117           
@@ -6946,6 +7159,7 @@
 │                       │      │                  https://bugzilla.redhat.com/show_bug.cgi?id=2557236           
 │                       │      │                  https://bugzilla.redhat.com/show_bug.cgi?id=2557261           
 │                       │      │                  https://bugzilla.redhat.com/show_bug.cgi?id=2557356           
+│                       │      │                  https://bugzilla.redhat.com/show_bug.cgi?id=2557364           
 │                       │      │                  https://bugzilla.redhat.com/show_bug.cgi?id=2557405           
 │                       │      │                  https://bugzilla.redhat.com/show_bug.cgi?id=2557427           
 │                       │      │                  https://bugzilla.redhat.com/show_bug.cgi?id=2557443           
@@ -6954,12 +7168,12 @@
 │                       │      │                  https://bugzilla.redhat.com/show_bug.cgi?id=2557564           
 │                       │      │                  https://bugzilla.redhat.com/show_bug.cgi?id=2557598           
 │                       │      │                  https://bugzilla.redhat.com/show_bug.cgi?id=2557662           
-│                       │      │                  https://bugzilla.redhat.com/show_bug.cgi?id=2557665           
 │                       │      │                  https://bugzilla.redhat.com/show_bug.cgi?id=2557674           
 │                       │      │                  https://bugzilla.redhat.com/show_bug.cgi?id=2557690           
 │                       │      │                  https://bugzilla.redhat.com/show_bug.cgi?id=2557709           
 │                       │      │                  https://bugzilla.redhat.com/show_bug.cgi?id=2557711           
 │                       │      │                  https://bugzilla.redhat.com/show_bug.cgi?id=2557731           
+│                       │      │                  https://bugzilla.redhat.com/show_bug.cgi?id=2557757           
 │                       │      │                  https://bugzilla.redhat.com/show_bug.cgi?id=2557765           
 │                       │      │                  https://bugzilla.redhat.com/show_bug.cgi?id=2557780           
 │                       │      │                  https://bugzilla.redhat.com/show_bug.cgi?id=2557857           
@@ -6969,16 +7183,20 @@
 │                       │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-101516
 │                       │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-83374 
 │                       │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-83376 
+│                       │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-83378 
 │                       │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-83380 
 │                       │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-83381 
 │                       │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-83387 
 │                       │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-83395 
 │                       │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-83400 
+│                       │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-87255 
 │                       │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-87290 
+│                       │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-87291 
 │                       │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-87292 
 │                       │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-87294 
 │                       │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-87367 
 │                       │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-91332 
+│                       │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-91333 
 │                       │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-91334 
 │                       │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-91335 
 │                       │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-91373 
@@ -6986,7 +7204,6 @@
 │                       │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-91375 
 │                       │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-91379 
 │                       │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-91380 
-│                       │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-91382 
 │                       │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-91394 
 │                       │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-91397 
 │                       │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-91398 
@@ -7002,8 +7219,8 @@
 │                       │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-91463 
 │                       │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-91464 
 │                       │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-91487 
-│                       │      │                  https://errata.almalinux.org/8/ALSA-2026-88352.html           
-│                       │      │                  https://errata.rockylinux.org/RLSA-2026:88352                 
+│                       │      │                  https://errata.almalinux.org/9/ALSA-2026-90500.html           
+│                       │      │                  https://errata.rockylinux.org/RLSA-2026:88347                 
 │                       │      │                  https://linux.oracle.com/cve/CVE-2026-91332.html              
 │                       │      │                  https://linux.oracle.com/errata/ELSA-2026-90504.html          
 │                       │      │                  https://nvd.nist.gov/vuln/detail/CVE-2026-91332               
@@ -7028,8 +7245,8 @@
 │                       │      ├ DataSource       ╭ ID  : alpine 
 │                       │      │                  ├ Name: Alpine Secdb 
 │                       │      │                  ╰ URL : https://secdb.alpinelinux.org/ 
-│                       │      ├ Fingerprint     : sha256:2345a0ac49a3b63642e6ef9bec836a56c5431b848c810923b0887
-│                       │      │                   4169a7a277c 
+│                       │      ├ Fingerprint     : sha256:bfa871a82c543b26ad36fe794e8a1e4766145d1d58b2367a8b4c4
+│                       │      │                   6f66b7d9959 
 │                       │      ├ Title           : openjdk: Enhance TLS handshakes (Oracle CPU 2026-10) 
 │                       │      ├ Description     : Vulnerability in Oracle Java SE (component: JSSE). 
 │                       │      │                   Supported versions that are affected are Oracle Java SE:
@@ -7064,7 +7281,8 @@
 │                       │      │                           ╰ V3Score : 5.3 
 │                       │      ├ References                                                                     
 │                       │      │                  ──────────────────────────────────────────────────────────────
-│                       │      │                  https://access.redhat.com/errata/RHSA-2026:88352              
+│                       │      │                  https://access.redhat.com/errata/RHSA-2026:88347              
+│                       │      │                  https://access.redhat.com/errata/RHSA-2026:90500              
 │                       │      │                  https://access.redhat.com/security/cve/CVE-2026-91373         
 │                       │      │                  https://bugzilla.redhat.com/2556709                           
 │                       │      │                  https://bugzilla.redhat.com/2556795                           
@@ -7107,10 +7325,12 @@
 │                       │      │                  https://bugzilla.redhat.com/show_bug.cgi?id=2556824           
 │                       │      │                  https://bugzilla.redhat.com/show_bug.cgi?id=2556837           
 │                       │      │                  https://bugzilla.redhat.com/show_bug.cgi?id=2556859           
+│                       │      │                  https://bugzilla.redhat.com/show_bug.cgi?id=2556960           
 │                       │      │                  https://bugzilla.redhat.com/show_bug.cgi?id=2557007           
 │                       │      │                  https://bugzilla.redhat.com/show_bug.cgi?id=2557032           
 │                       │      │                  https://bugzilla.redhat.com/show_bug.cgi?id=2557041           
 │                       │      │                  https://bugzilla.redhat.com/show_bug.cgi?id=2557047           
+│                       │      │                  https://bugzilla.redhat.com/show_bug.cgi?id=2557056           
 │                       │      │                  https://bugzilla.redhat.com/show_bug.cgi?id=2557079           
 │                       │      │                  https://bugzilla.redhat.com/show_bug.cgi?id=2557110           
 │                       │      │                  https://bugzilla.redhat.com/show_bug.cgi?id=2557117           
@@ -7119,6 +7339,7 @@
 │                       │      │                  https://bugzilla.redhat.com/show_bug.cgi?id=2557236           
 │                       │      │                  https://bugzilla.redhat.com/show_bug.cgi?id=2557261           
 │                       │      │                  https://bugzilla.redhat.com/show_bug.cgi?id=2557356           
+│                       │      │                  https://bugzilla.redhat.com/show_bug.cgi?id=2557364           
 │                       │      │                  https://bugzilla.redhat.com/show_bug.cgi?id=2557405           
 │                       │      │                  https://bugzilla.redhat.com/show_bug.cgi?id=2557427           
 │                       │      │                  https://bugzilla.redhat.com/show_bug.cgi?id=2557443           
@@ -7127,12 +7348,12 @@
 │                       │      │                  https://bugzilla.redhat.com/show_bug.cgi?id=2557564           
 │                       │      │                  https://bugzilla.redhat.com/show_bug.cgi?id=2557598           
 │                       │      │                  https://bugzilla.redhat.com/show_bug.cgi?id=2557662           
-│                       │      │                  https://bugzilla.redhat.com/show_bug.cgi?id=2557665           
 │                       │      │                  https://bugzilla.redhat.com/show_bug.cgi?id=2557674           
 │                       │      │                  https://bugzilla.redhat.com/show_bug.cgi?id=2557690           
 │                       │      │                  https://bugzilla.redhat.com/show_bug.cgi?id=2557709           
 │                       │      │                  https://bugzilla.redhat.com/show_bug.cgi?id=2557711           
 │                       │      │                  https://bugzilla.redhat.com/show_bug.cgi?id=2557731           
+│                       │      │                  https://bugzilla.redhat.com/show_bug.cgi?id=2557757           
 │                       │      │                  https://bugzilla.redhat.com/show_bug.cgi?id=2557765           
 │                       │      │                  https://bugzilla.redhat.com/show_bug.cgi?id=2557780           
 │                       │      │                  https://bugzilla.redhat.com/show_bug.cgi?id=2557857           
@@ -7142,16 +7363,20 @@
 │                       │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-101516
 │                       │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-83374 
 │                       │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-83376 
+│                       │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-83378 
 │                       │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-83380 
 │                       │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-83381 
 │                       │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-83387 
 │                       │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-83395 
 │                       │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-83400 
+│                       │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-87255 
 │                       │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-87290 
+│                       │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-87291 
 │                       │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-87292 
 │                       │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-87294 
 │                       │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-87367 
 │                       │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-91332 
+│                       │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-91333 
 │                       │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-91334 
 │                       │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-91335 
 │                       │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-91373 
@@ -7159,7 +7384,6 @@
 │                       │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-91375 
 │                       │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-91379 
 │                       │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-91380 
-│                       │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-91382 
 │                       │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-91394 
 │                       │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-91397 
 │                       │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-91398 
@@ -7175,8 +7399,8 @@
 │                       │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-91463 
 │                       │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-91464 
 │                       │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-91487 
-│                       │      │                  https://errata.almalinux.org/8/ALSA-2026-88352.html           
-│                       │      │                  https://errata.rockylinux.org/RLSA-2026:88352                 
+│                       │      │                  https://errata.almalinux.org/9/ALSA-2026-90500.html           
+│                       │      │                  https://errata.rockylinux.org/RLSA-2026:88347                 
 │                       │      │                  https://linux.oracle.com/cve/CVE-2026-91373.html              
 │                       │      │                  https://linux.oracle.com/errata/ELSA-2026-90504.html          
 │                       │      │                  https://nvd.nist.gov/vuln/detail/CVE-2026-91373               
@@ -7201,8 +7425,8 @@
 │                       │      ├ DataSource       ╭ ID  : alpine 
 │                       │      │                  ├ Name: Alpine Secdb 
 │                       │      │                  ╰ URL : https://secdb.alpinelinux.org/ 
-│                       │      ├ Fingerprint     : sha256:b4a0a5ea473753675a63cea008dc616c498b5f54edc70782fc47f
-│                       │      │                   99dd2081af0 
+│                       │      ├ Fingerprint     : sha256:a13e8a6685d3f10c3d62801583eda126401e650ca04aa46af23ff
+│                       │      │                   7cdcde29e03 
 │                       │      ├ Title           : openjdk: Enhance jstatd (Oracle CPU 2026-10) 
 │                       │      ├ Description     : Vulnerability in the Oracle Java SE, Oracle GraalVM for JDK,
 │                       │      │                    Oracle GraalVM Enterprise Edition product of Oracle Java SE
@@ -7244,7 +7468,8 @@
 │                       │      │                           ╰ V3Score : 4.8 
 │                       │      ├ References                                                                     
 │                       │      │                  ──────────────────────────────────────────────────────────────
-│                       │      │                  https://access.redhat.com/errata/RHSA-2026:88352              
+│                       │      │                  https://access.redhat.com/errata/RHSA-2026:88347              
+│                       │      │                  https://access.redhat.com/errata/RHSA-2026:90500              
 │                       │      │                  https://access.redhat.com/security/cve/CVE-2026-91374         
 │                       │      │                  https://bugzilla.redhat.com/2556709                           
 │                       │      │                  https://bugzilla.redhat.com/2556795                           
@@ -7287,10 +7512,12 @@
 │                       │      │                  https://bugzilla.redhat.com/show_bug.cgi?id=2556824           
 │                       │      │                  https://bugzilla.redhat.com/show_bug.cgi?id=2556837           
 │                       │      │                  https://bugzilla.redhat.com/show_bug.cgi?id=2556859           
+│                       │      │                  https://bugzilla.redhat.com/show_bug.cgi?id=2556960           
 │                       │      │                  https://bugzilla.redhat.com/show_bug.cgi?id=2557007           
 │                       │      │                  https://bugzilla.redhat.com/show_bug.cgi?id=2557032           
 │                       │      │                  https://bugzilla.redhat.com/show_bug.cgi?id=2557041           
 │                       │      │                  https://bugzilla.redhat.com/show_bug.cgi?id=2557047           
+│                       │      │                  https://bugzilla.redhat.com/show_bug.cgi?id=2557056           
 │                       │      │                  https://bugzilla.redhat.com/show_bug.cgi?id=2557079           
 │                       │      │                  https://bugzilla.redhat.com/show_bug.cgi?id=2557110           
 │                       │      │                  https://bugzilla.redhat.com/show_bug.cgi?id=2557117           
@@ -7299,6 +7526,7 @@
 │                       │      │                  https://bugzilla.redhat.com/show_bug.cgi?id=2557236           
 │                       │      │                  https://bugzilla.redhat.com/show_bug.cgi?id=2557261           
 │                       │      │                  https://bugzilla.redhat.com/show_bug.cgi?id=2557356           
+│                       │      │                  https://bugzilla.redhat.com/show_bug.cgi?id=2557364           
 │                       │      │                  https://bugzilla.redhat.com/show_bug.cgi?id=2557405           
 │                       │      │                  https://bugzilla.redhat.com/show_bug.cgi?id=2557427           
 │                       │      │                  https://bugzilla.redhat.com/show_bug.cgi?id=2557443           
@@ -7307,12 +7535,12 @@
 │                       │      │                  https://bugzilla.redhat.com/show_bug.cgi?id=2557564           
 │                       │      │                  https://bugzilla.redhat.com/show_bug.cgi?id=2557598           
 │                       │      │                  https://bugzilla.redhat.com/show_bug.cgi?id=2557662           
-│                       │      │                  https://bugzilla.redhat.com/show_bug.cgi?id=2557665           
 │                       │      │                  https://bugzilla.redhat.com/show_bug.cgi?id=2557674           
 │                       │      │                  https://bugzilla.redhat.com/show_bug.cgi?id=2557690           
 │                       │      │                  https://bugzilla.redhat.com/show_bug.cgi?id=2557709           
 │                       │      │                  https://bugzilla.redhat.com/show_bug.cgi?id=2557711           
 │                       │      │                  https://bugzilla.redhat.com/show_bug.cgi?id=2557731           
+│                       │      │                  https://bugzilla.redhat.com/show_bug.cgi?id=2557757           
 │                       │      │                  https://bugzilla.redhat.com/show_bug.cgi?id=2557765           
 │                       │      │                  https://bugzilla.redhat.com/show_bug.cgi?id=2557780           
 │                       │      │                  https://bugzilla.redhat.com/show_bug.cgi?id=2557857           
@@ -7322,16 +7550,20 @@
 │                       │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-101516
 │                       │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-83374 
 │                       │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-83376 
+│                       │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-83378 
 │                       │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-83380 
 │                       │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-83381 
 │                       │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-83387 
 │                       │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-83395 
 │                       │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-83400 
+│                       │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-87255 
 │                       │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-87290 
+│                       │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-87291 
 │                       │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-87292 
 │                       │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-87294 
 │                       │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-87367 
 │                       │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-91332 
+│                       │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-91333 
 │                       │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-91334 
 │                       │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-91335 
 │                       │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-91373 
@@ -7339,7 +7571,6 @@
 │                       │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-91375 
 │                       │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-91379 
 │                       │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-91380 
-│                       │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-91382 
 │                       │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-91394 
 │                       │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-91397 
 │                       │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-91398 
@@ -7355,8 +7586,8 @@
 │                       │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-91463 
 │                       │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-91464 
 │                       │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-91487 
-│                       │      │                  https://errata.almalinux.org/8/ALSA-2026-88352.html           
-│                       │      │                  https://errata.rockylinux.org/RLSA-2026:88352                 
+│                       │      │                  https://errata.almalinux.org/9/ALSA-2026-90500.html           
+│                       │      │                  https://errata.rockylinux.org/RLSA-2026:88347                 
 │                       │      │                  https://linux.oracle.com/cve/CVE-2026-91374.html              
 │                       │      │                  https://linux.oracle.com/errata/ELSA-2026-90504.html          
 │                       │      │                  https://nvd.nist.gov/vuln/detail/CVE-2026-91374               
@@ -7381,8 +7612,8 @@
 │                       │      ├ DataSource       ╭ ID  : alpine 
 │                       │      │                  ├ Name: Alpine Secdb 
 │                       │      │                  ╰ URL : https://secdb.alpinelinux.org/ 
-│                       │      ├ Fingerprint     : sha256:0113aa9719999514d41c32938248a41399085da2a8b4a34ced0b0
-│                       │      │                   8cbaeff53c2 
+│                       │      ├ Fingerprint     : sha256:2f9e2be297df4bcc48f520f99196ed741db62b2f31e191d413dd5
+│                       │      │                   2661cfb494a 
 │                       │      ├ Title           : openjdk: Enhance jmod handling (Oracle CPU 2026-10) 
 │                       │      ├ Description     : Vulnerability in Oracle Java SE (component: Libraries). 
 │                       │      │                   Supported versions that are affected are Oracle Java SE:
@@ -7419,7 +7650,8 @@
 │                       │      │                           ╰ V3Score : 4.7 
 │                       │      ├ References                                                                     
 │                       │      │                  ──────────────────────────────────────────────────────────────
-│                       │      │                  https://access.redhat.com/errata/RHSA-2026:88352              
+│                       │      │                  https://access.redhat.com/errata/RHSA-2026:88347              
+│                       │      │                  https://access.redhat.com/errata/RHSA-2026:90500              
 │                       │      │                  https://access.redhat.com/security/cve/CVE-2026-91375         
 │                       │      │                  https://bugzilla.redhat.com/2556709                           
 │                       │      │                  https://bugzilla.redhat.com/2556795                           
@@ -7462,10 +7694,12 @@
 │                       │      │                  https://bugzilla.redhat.com/show_bug.cgi?id=2556824           
 │                       │      │                  https://bugzilla.redhat.com/show_bug.cgi?id=2556837           
 │                       │      │                  https://bugzilla.redhat.com/show_bug.cgi?id=2556859           
+│                       │      │                  https://bugzilla.redhat.com/show_bug.cgi?id=2556960           
 │                       │      │                  https://bugzilla.redhat.com/show_bug.cgi?id=2557007           
 │                       │      │                  https://bugzilla.redhat.com/show_bug.cgi?id=2557032           
 │                       │      │                  https://bugzilla.redhat.com/show_bug.cgi?id=2557041           
 │                       │      │                  https://bugzilla.redhat.com/show_bug.cgi?id=2557047           
+│                       │      │                  https://bugzilla.redhat.com/show_bug.cgi?id=2557056           
 │                       │      │                  https://bugzilla.redhat.com/show_bug.cgi?id=2557079           
 │                       │      │                  https://bugzilla.redhat.com/show_bug.cgi?id=2557110           
 │                       │      │                  https://bugzilla.redhat.com/show_bug.cgi?id=2557117           
@@ -7474,6 +7708,7 @@
 │                       │      │                  https://bugzilla.redhat.com/show_bug.cgi?id=2557236           
 │                       │      │                  https://bugzilla.redhat.com/show_bug.cgi?id=2557261           
 │                       │      │                  https://bugzilla.redhat.com/show_bug.cgi?id=2557356           
+│                       │      │                  https://bugzilla.redhat.com/show_bug.cgi?id=2557364           
 │                       │      │                  https://bugzilla.redhat.com/show_bug.cgi?id=2557405           
 │                       │      │                  https://bugzilla.redhat.com/show_bug.cgi?id=2557427           
 │                       │      │                  https://bugzilla.redhat.com/show_bug.cgi?id=2557443           
@@ -7482,12 +7717,12 @@
 │                       │      │                  https://bugzilla.redhat.com/show_bug.cgi?id=2557564           
 │                       │      │                  https://bugzilla.redhat.com/show_bug.cgi?id=2557598           
 │                       │      │                  https://bugzilla.redhat.com/show_bug.cgi?id=2557662           
-│                       │      │                  https://bugzilla.redhat.com/show_bug.cgi?id=2557665           
 │                       │      │                  https://bugzilla.redhat.com/show_bug.cgi?id=2557674           
 │                       │      │                  https://bugzilla.redhat.com/show_bug.cgi?id=2557690           
 │                       │      │                  https://bugzilla.redhat.com/show_bug.cgi?id=2557709           
 │                       │      │                  https://bugzilla.redhat.com/show_bug.cgi?id=2557711           
 │                       │      │                  https://bugzilla.redhat.com/show_bug.cgi?id=2557731           
+│                       │      │                  https://bugzilla.redhat.com/show_bug.cgi?id=2557757           
 │                       │      │                  https://bugzilla.redhat.com/show_bug.cgi?id=2557765           
 │                       │      │                  https://bugzilla.redhat.com/show_bug.cgi?id=2557780           
 │                       │      │                  https://bugzilla.redhat.com/show_bug.cgi?id=2557857           
@@ -7497,16 +7732,20 @@
 │                       │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-101516
 │                       │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-83374 
 │                       │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-83376 
+│                       │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-83378 
 │                       │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-83380 
 │                       │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-83381 
 │                       │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-83387 
 │                       │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-83395 
 │                       │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-83400 
+│                       │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-87255 
 │                       │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-87290 
+│                       │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-87291 
 │                       │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-87292 
 │                       │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-87294 
 │                       │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-87367 
 │                       │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-91332 
+│                       │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-91333 
 │                       │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-91334 
 │                       │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-91335 
 │                       │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-91373 
@@ -7514,7 +7753,6 @@
 │                       │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-91375 
 │                       │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-91379 
 │                       │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-91380 
-│                       │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-91382 
 │                       │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-91394 
 │                       │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-91397 
 │                       │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-91398 
@@ -7530,8 +7768,8 @@
 │                       │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-91463 
 │                       │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-91464 
 │                       │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-91487 
-│                       │      │                  https://errata.almalinux.org/8/ALSA-2026-88352.html           
-│                       │      │                  https://errata.rockylinux.org/RLSA-2026:88352                 
+│                       │      │                  https://errata.almalinux.org/9/ALSA-2026-90500.html           
+│                       │      │                  https://errata.rockylinux.org/RLSA-2026:88347                 
 │                       │      │                  https://linux.oracle.com/cve/CVE-2026-91375.html              
 │                       │      │                  https://linux.oracle.com/errata/ELSA-2026-90504.html          
 │                       │      │                  https://nvd.nist.gov/vuln/detail/CVE-2026-91375               
@@ -7556,8 +7794,8 @@
 │                       │      ├ DataSource       ╭ ID  : alpine 
 │                       │      │                  ├ Name: Alpine Secdb 
 │                       │      │                  ╰ URL : https://secdb.alpinelinux.org/ 
-│                       │      ├ Fingerprint     : sha256:592e3bad7502e0940cd6ca7616d0fb8483910897a4eee27c98765
-│                       │      │                   eac23b376f9 
+│                       │      ├ Fingerprint     : sha256:4c81d011086f2aa113e2d519b18bdb458c14a39f0d145595dcddd
+│                       │      │                   328d83ff714 
 │                       │      ├ Title           : openjdk: Enhance JShell (Oracle CPU 2026-10) 
 │                       │      ├ Description     : Vulnerability in the Oracle Java SE, Oracle GraalVM for JDK,
 │                       │      │                    Oracle GraalVM Enterprise Edition product of Oracle Java SE
@@ -7599,7 +7837,8 @@
 │                       │      │                           ╰ V3Score : 4.7 
 │                       │      ├ References                                                                     
 │                       │      │                  ──────────────────────────────────────────────────────────────
-│                       │      │                  https://access.redhat.com/errata/RHSA-2026:88352              
+│                       │      │                  https://access.redhat.com/errata/RHSA-2026:88347              
+│                       │      │                  https://access.redhat.com/errata/RHSA-2026:90500              
 │                       │      │                  https://access.redhat.com/security/cve/CVE-2026-91379         
 │                       │      │                  https://bugzilla.redhat.com/2556709                           
 │                       │      │                  https://bugzilla.redhat.com/2556795                           
@@ -7642,10 +7881,12 @@
 │                       │      │                  https://bugzilla.redhat.com/show_bug.cgi?id=2556824           
 │                       │      │                  https://bugzilla.redhat.com/show_bug.cgi?id=2556837           
 │                       │      │                  https://bugzilla.redhat.com/show_bug.cgi?id=2556859           
+│                       │      │                  https://bugzilla.redhat.com/show_bug.cgi?id=2556960           
 │                       │      │                  https://bugzilla.redhat.com/show_bug.cgi?id=2557007           
 │                       │      │                  https://bugzilla.redhat.com/show_bug.cgi?id=2557032           
 │                       │      │                  https://bugzilla.redhat.com/show_bug.cgi?id=2557041           
 │                       │      │                  https://bugzilla.redhat.com/show_bug.cgi?id=2557047           
+│                       │      │                  https://bugzilla.redhat.com/show_bug.cgi?id=2557056           
 │                       │      │                  https://bugzilla.redhat.com/show_bug.cgi?id=2557079           
 │                       │      │                  https://bugzilla.redhat.com/show_bug.cgi?id=2557110           
 │                       │      │                  https://bugzilla.redhat.com/show_bug.cgi?id=2557117           
@@ -7654,6 +7895,7 @@
 │                       │      │                  https://bugzilla.redhat.com/show_bug.cgi?id=2557236           
 │                       │      │                  https://bugzilla.redhat.com/show_bug.cgi?id=2557261           
 │                       │      │                  https://bugzilla.redhat.com/show_bug.cgi?id=2557356           
+│                       │      │                  https://bugzilla.redhat.com/show_bug.cgi?id=2557364           
 │                       │      │                  https://bugzilla.redhat.com/show_bug.cgi?id=2557405           
 │                       │      │                  https://bugzilla.redhat.com/show_bug.cgi?id=2557427           
 │                       │      │                  https://bugzilla.redhat.com/show_bug.cgi?id=2557443           
@@ -7662,12 +7904,12 @@
 │                       │      │                  https://bugzilla.redhat.com/show_bug.cgi?id=2557564           
 │                       │      │                  https://bugzilla.redhat.com/show_bug.cgi?id=2557598           
 │                       │      │                  https://bugzilla.redhat.com/show_bug.cgi?id=2557662           
-│                       │      │                  https://bugzilla.redhat.com/show_bug.cgi?id=2557665           
 │                       │      │                  https://bugzilla.redhat.com/show_bug.cgi?id=2557674           
 │                       │      │                  https://bugzilla.redhat.com/show_bug.cgi?id=2557690           
 │                       │      │                  https://bugzilla.redhat.com/show_bug.cgi?id=2557709           
 │                       │      │                  https://bugzilla.redhat.com/show_bug.cgi?id=2557711           
 │                       │      │                  https://bugzilla.redhat.com/show_bug.cgi?id=2557731           
+│                       │      │                  https://bugzilla.redhat.com/show_bug.cgi?id=2557757           
 │                       │      │                  https://bugzilla.redhat.com/show_bug.cgi?id=2557765           
 │                       │      │                  https://bugzilla.redhat.com/show_bug.cgi?id=2557780           
 │                       │      │                  https://bugzilla.redhat.com/show_bug.cgi?id=2557857           
@@ -7677,16 +7919,20 @@
 │                       │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-101516
 │                       │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-83374 
 │                       │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-83376 
+│                       │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-83378 
 │                       │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-83380 
 │                       │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-83381 
 │                       │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-83387 
 │                       │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-83395 
 │                       │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-83400 
+│                       │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-87255 
 │                       │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-87290 
+│                       │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-87291 
 │                       │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-87292 
 │                       │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-87294 
 │                       │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-87367 
 │                       │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-91332 
+│                       │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-91333 
 │                       │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-91334 
 │                       │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-91335 
 │                       │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-91373 
@@ -7694,7 +7940,6 @@
 │                       │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-91375 
 │                       │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-91379 
 │                       │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-91380 
-│                       │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-91382 
 │                       │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-91394 
 │                       │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-91397 
 │                       │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-91398 
@@ -7710,8 +7955,8 @@
 │                       │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-91463 
 │                       │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-91464 
 │                       │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-91487 
-│                       │      │                  https://errata.almalinux.org/8/ALSA-2026-88352.html           
-│                       │      │                  https://errata.rockylinux.org/RLSA-2026:88352                 
+│                       │      │                  https://errata.almalinux.org/9/ALSA-2026-90500.html           
+│                       │      │                  https://errata.rockylinux.org/RLSA-2026:88347                 
 │                       │      │                  https://linux.oracle.com/cve/CVE-2026-91379.html              
 │                       │      │                  https://linux.oracle.com/errata/ELSA-2026-90504.html          
 │                       │      │                  https://nvd.nist.gov/vuln/detail/CVE-2026-91379               
@@ -7736,8 +7981,8 @@
 │                       │      ├ DataSource       ╭ ID  : alpine 
 │                       │      │                  ├ Name: Alpine Secdb 
 │                       │      │                  ╰ URL : https://secdb.alpinelinux.org/ 
-│                       │      ├ Fingerprint     : sha256:32550a56c1d29ac6cce4a84afbda4c6707cd9d738aeb0d0729c64
-│                       │      │                   654ab7ac3a9 
+│                       │      ├ Fingerprint     : sha256:529fef5e2e7adc6f12d21bba8d377afbb7666357f7d63fd89caa2
+│                       │      │                   7d83241c733 
 │                       │      ├ Title           : openjdk: Enhance CORBA (Oracle CPU 2026-10) 
 │                       │      ├ Description     : Vulnerability in the Oracle Java SE, Oracle GraalVM
 │                       │      │                   Enterprise Edition product of Oracle Java SE (component:
@@ -7790,8 +8035,8 @@
 │                       │      ├ DataSource       ╭ ID  : alpine 
 │                       │      │                  ├ Name: Alpine Secdb 
 │                       │      │                  ╰ URL : https://secdb.alpinelinux.org/ 
-│                       │      ├ Fingerprint     : sha256:607cc769ce46d310ea2cd355be17b061b8cbfe940bfb39fe8bc08
-│                       │      │                   57ff199c96d 
+│                       │      ├ Fingerprint     : sha256:80d471c70b95d1f8f7b3f3a7dcf762ca3d6d5b6a2800abac4898a
+│                       │      │                   7b0c02b7024 
 │                       │      ├ Title           : openjdk: Enhance GIF loading (Oracle CPU 2026-10) 
 │                       │      ├ Description     : Vulnerability in the Oracle Java SE, Oracle JavaFX, Oracle
 │                       │      │                   GraalVM for JDK, Oracle GraalVM Enterprise Edition product
@@ -7831,7 +8076,8 @@
 │                       │      │                           ╰ V3Score : 5.3 
 │                       │      ├ References                                                                     
 │                       │      │                  ──────────────────────────────────────────────────────────────
-│                       │      │                  https://access.redhat.com/errata/RHSA-2026:88352              
+│                       │      │                  https://access.redhat.com/errata/RHSA-2026:88347              
+│                       │      │                  https://access.redhat.com/errata/RHSA-2026:90500              
 │                       │      │                  https://access.redhat.com/security/cve/CVE-2026-91418         
 │                       │      │                  https://bugzilla.redhat.com/2556709                           
 │                       │      │                  https://bugzilla.redhat.com/2556795                           
@@ -7874,10 +8120,12 @@
 │                       │      │                  https://bugzilla.redhat.com/show_bug.cgi?id=2556824           
 │                       │      │                  https://bugzilla.redhat.com/show_bug.cgi?id=2556837           
 │                       │      │                  https://bugzilla.redhat.com/show_bug.cgi?id=2556859           
+│                       │      │                  https://bugzilla.redhat.com/show_bug.cgi?id=2556960           
 │                       │      │                  https://bugzilla.redhat.com/show_bug.cgi?id=2557007           
 │                       │      │                  https://bugzilla.redhat.com/show_bug.cgi?id=2557032           
 │                       │      │                  https://bugzilla.redhat.com/show_bug.cgi?id=2557041           
 │                       │      │                  https://bugzilla.redhat.com/show_bug.cgi?id=2557047           
+│                       │      │                  https://bugzilla.redhat.com/show_bug.cgi?id=2557056           
 │                       │      │                  https://bugzilla.redhat.com/show_bug.cgi?id=2557079           
 │                       │      │                  https://bugzilla.redhat.com/show_bug.cgi?id=2557110           
 │                       │      │                  https://bugzilla.redhat.com/show_bug.cgi?id=2557117           
@@ -7886,6 +8134,7 @@
 │                       │      │                  https://bugzilla.redhat.com/show_bug.cgi?id=2557236           
 │                       │      │                  https://bugzilla.redhat.com/show_bug.cgi?id=2557261           
 │                       │      │                  https://bugzilla.redhat.com/show_bug.cgi?id=2557356           
+│                       │      │                  https://bugzilla.redhat.com/show_bug.cgi?id=2557364           
 │                       │      │                  https://bugzilla.redhat.com/show_bug.cgi?id=2557405           
 │                       │      │                  https://bugzilla.redhat.com/show_bug.cgi?id=2557427           
 │                       │      │                  https://bugzilla.redhat.com/show_bug.cgi?id=2557443           
@@ -7894,12 +8143,12 @@
 │                       │      │                  https://bugzilla.redhat.com/show_bug.cgi?id=2557564           
 │                       │      │                  https://bugzilla.redhat.com/show_bug.cgi?id=2557598           
 │                       │      │                  https://bugzilla.redhat.com/show_bug.cgi?id=2557662           
-│                       │      │                  https://bugzilla.redhat.com/show_bug.cgi?id=2557665           
 │                       │      │                  https://bugzilla.redhat.com/show_bug.cgi?id=2557674           
 │                       │      │                  https://bugzilla.redhat.com/show_bug.cgi?id=2557690           
 │                       │      │                  https://bugzilla.redhat.com/show_bug.cgi?id=2557709           
 │                       │      │                  https://bugzilla.redhat.com/show_bug.cgi?id=2557711           
 │                       │      │                  https://bugzilla.redhat.com/show_bug.cgi?id=2557731           
+│                       │      │                  https://bugzilla.redhat.com/show_bug.cgi?id=2557757           
 │                       │      │                  https://bugzilla.redhat.com/show_bug.cgi?id=2557765           
 │                       │      │                  https://bugzilla.redhat.com/show_bug.cgi?id=2557780           
 │                       │      │                  https://bugzilla.redhat.com/show_bug.cgi?id=2557857           
@@ -7909,16 +8158,20 @@
 │                       │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-101516
 │                       │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-83374 
 │                       │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-83376 
+│                       │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-83378 
 │                       │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-83380 
 │                       │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-83381 
 │                       │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-83387 
 │                       │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-83395 
 │                       │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-83400 
+│                       │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-87255 
 │                       │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-87290 
+│                       │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-87291 
 │                       │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-87292 
 │                       │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-87294 
 │                       │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-87367 
 │                       │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-91332 
+│                       │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-91333 
 │                       │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-91334 
 │                       │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-91335 
 │                       │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-91373 
@@ -7926,7 +8179,6 @@
 │                       │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-91375 
 │                       │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-91379 
 │                       │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-91380 
-│                       │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-91382 
 │                       │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-91394 
 │                       │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-91397 
 │                       │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-91398 
@@ -7942,8 +8194,8 @@
 │                       │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-91463 
 │                       │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-91464 
 │                       │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-91487 
-│                       │      │                  https://errata.almalinux.org/8/ALSA-2026-88352.html           
-│                       │      │                  https://errata.rockylinux.org/RLSA-2026:88352                 
+│                       │      │                  https://errata.almalinux.org/9/ALSA-2026-90500.html           
+│                       │      │                  https://errata.rockylinux.org/RLSA-2026:88347                 
 │                       │      │                  https://linux.oracle.com/cve/CVE-2026-91418.html              
 │                       │      │                  https://linux.oracle.com/errata/ELSA-2026-90504.html          
 │                       │      │                  https://nvd.nist.gov/vuln/detail/CVE-2026-91418               
@@ -7968,8 +8220,8 @@
 │                       │      ├ DataSource       ╭ ID  : alpine 
 │                       │      │                  ├ Name: Alpine Secdb 
 │                       │      │                  ╰ URL : https://secdb.alpinelinux.org/ 
-│                       │      ├ Fingerprint     : sha256:8a29bf44b36927c9b1d92d667fc20d40bb04daeeeddbac994d6c2
-│                       │      │                   24327fb057b 
+│                       │      ├ Fingerprint     : sha256:84415efa043c5bf9361368c6a8aa7aac09cc4e4b5b8d137cda18b
+│                       │      │                   70b7968d51f 
 │                       │      ├ Title           : openjdk: Enhance HTTP server parsing (Oracle CPU 2026-10) 
 │                       │      ├ Description     : Vulnerability in Oracle Java SE (component: Networking). 
 │                       │      │                   Supported versions that are affected are Oracle Java SE:
@@ -8001,7 +8253,8 @@
 │                       │      │                           ╰ V3Score : 5.3 
 │                       │      ├ References                                                                     
 │                       │      │                  ──────────────────────────────────────────────────────────────
-│                       │      │                  https://access.redhat.com/errata/RHSA-2026:88352              
+│                       │      │                  https://access.redhat.com/errata/RHSA-2026:88347              
+│                       │      │                  https://access.redhat.com/errata/RHSA-2026:90500              
 │                       │      │                  https://access.redhat.com/security/cve/CVE-2026-91451         
 │                       │      │                  https://bugzilla.redhat.com/2556709                           
 │                       │      │                  https://bugzilla.redhat.com/2556795                           
@@ -8044,10 +8297,12 @@
 │                       │      │                  https://bugzilla.redhat.com/show_bug.cgi?id=2556824           
 │                       │      │                  https://bugzilla.redhat.com/show_bug.cgi?id=2556837           
 │                       │      │                  https://bugzilla.redhat.com/show_bug.cgi?id=2556859           
+│                       │      │                  https://bugzilla.redhat.com/show_bug.cgi?id=2556960           
 │                       │      │                  https://bugzilla.redhat.com/show_bug.cgi?id=2557007           
 │                       │      │                  https://bugzilla.redhat.com/show_bug.cgi?id=2557032           
 │                       │      │                  https://bugzilla.redhat.com/show_bug.cgi?id=2557041           
 │                       │      │                  https://bugzilla.redhat.com/show_bug.cgi?id=2557047           
+│                       │      │                  https://bugzilla.redhat.com/show_bug.cgi?id=2557056           
 │                       │      │                  https://bugzilla.redhat.com/show_bug.cgi?id=2557079           
 │                       │      │                  https://bugzilla.redhat.com/show_bug.cgi?id=2557110           
 │                       │      │                  https://bugzilla.redhat.com/show_bug.cgi?id=2557117           
@@ -8056,6 +8311,7 @@
 │                       │      │                  https://bugzilla.redhat.com/show_bug.cgi?id=2557236           
 │                       │      │                  https://bugzilla.redhat.com/show_bug.cgi?id=2557261           
 │                       │      │                  https://bugzilla.redhat.com/show_bug.cgi?id=2557356           
+│                       │      │                  https://bugzilla.redhat.com/show_bug.cgi?id=2557364           
 │                       │      │                  https://bugzilla.redhat.com/show_bug.cgi?id=2557405           
 │                       │      │                  https://bugzilla.redhat.com/show_bug.cgi?id=2557427           
 │                       │      │                  https://bugzilla.redhat.com/show_bug.cgi?id=2557443           
@@ -8064,12 +8320,12 @@
 │                       │      │                  https://bugzilla.redhat.com/show_bug.cgi?id=2557564           
 │                       │      │                  https://bugzilla.redhat.com/show_bug.cgi?id=2557598           
 │                       │      │                  https://bugzilla.redhat.com/show_bug.cgi?id=2557662           
-│                       │      │                  https://bugzilla.redhat.com/show_bug.cgi?id=2557665           
 │                       │      │                  https://bugzilla.redhat.com/show_bug.cgi?id=2557674           
 │                       │      │                  https://bugzilla.redhat.com/show_bug.cgi?id=2557690           
 │                       │      │                  https://bugzilla.redhat.com/show_bug.cgi?id=2557709           
 │                       │      │                  https://bugzilla.redhat.com/show_bug.cgi?id=2557711           
 │                       │      │                  https://bugzilla.redhat.com/show_bug.cgi?id=2557731           
+│                       │      │                  https://bugzilla.redhat.com/show_bug.cgi?id=2557757           
 │                       │      │                  https://bugzilla.redhat.com/show_bug.cgi?id=2557765           
 │                       │      │                  https://bugzilla.redhat.com/show_bug.cgi?id=2557780           
 │                       │      │                  https://bugzilla.redhat.com/show_bug.cgi?id=2557857           
@@ -8079,16 +8335,20 @@
 │                       │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-101516
 │                       │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-83374 
 │                       │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-83376 
+│                       │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-83378 
 │                       │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-83380 
 │                       │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-83381 
 │                       │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-83387 
 │                       │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-83395 
 │                       │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-83400 
+│                       │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-87255 
 │                       │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-87290 
+│                       │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-87291 
 │                       │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-87292 
 │                       │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-87294 
 │                       │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-87367 
 │                       │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-91332 
+│                       │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-91333 
 │                       │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-91334 
 │                       │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-91335 
 │                       │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-91373 
@@ -8096,7 +8356,6 @@
 │                       │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-91375 
 │                       │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-91379 
 │                       │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-91380 
-│                       │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-91382 
 │                       │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-91394 
 │                       │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-91397 
 │                       │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-91398 
@@ -8112,8 +8371,8 @@
 │                       │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-91463 
 │                       │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-91464 
 │                       │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-91487 
-│                       │      │                  https://errata.almalinux.org/8/ALSA-2026-88352.html           
-│                       │      │                  https://errata.rockylinux.org/RLSA-2026:88352                 
+│                       │      │                  https://errata.almalinux.org/9/ALSA-2026-90500.html           
+│                       │      │                  https://errata.rockylinux.org/RLSA-2026:88347                 
 │                       │      │                  https://linux.oracle.com/cve/CVE-2026-91451.html              
 │                       │      │                  https://linux.oracle.com/errata/ELSA-2026-90504.html          
 │                       │      │                  https://nvd.nist.gov/vuln/detail/CVE-2026-91451               
@@ -8138,8 +8397,8 @@
 │                       │      ├ DataSource       ╭ ID  : alpine 
 │                       │      │                  ├ Name: Alpine Secdb 
 │                       │      │                  ╰ URL : https://secdb.alpinelinux.org/ 
-│                       │      ├ Fingerprint     : sha256:2e3181f5c78e2ddd57cfdd50d9454bde2a5cf31e01b13f7adf747
-│                       │      │                   ad7507dec9d 
+│                       │      ├ Fingerprint     : sha256:d0f69e5514af05b065fcd8491a6d78c7ac68592526d5dc9db822f
+│                       │      │                   774ed812062 
 │                       │      ├ Title           : openjdk: Enhance HTTP server (Oracle CPU 2026-10) 
 │                       │      ├ Description     : Vulnerability in the Oracle Java SE, Oracle GraalVM for JDK,
 │                       │      │                    Oracle GraalVM Enterprise Edition product of Oracle Java SE
@@ -8175,7 +8434,8 @@
 │                       │      │                           ╰ V3Score : 5.3 
 │                       │      ├ References                                                                     
 │                       │      │                  ──────────────────────────────────────────────────────────────
-│                       │      │                  https://access.redhat.com/errata/RHSA-2026:88352              
+│                       │      │                  https://access.redhat.com/errata/RHSA-2026:88347              
+│                       │      │                  https://access.redhat.com/errata/RHSA-2026:90500              
 │                       │      │                  https://access.redhat.com/security/cve/CVE-2026-91452         
 │                       │      │                  https://bugzilla.redhat.com/2556709                           
 │                       │      │                  https://bugzilla.redhat.com/2556795                           
@@ -8218,10 +8478,12 @@
 │                       │      │                  https://bugzilla.redhat.com/show_bug.cgi?id=2556824           
 │                       │      │                  https://bugzilla.redhat.com/show_bug.cgi?id=2556837           
 │                       │      │                  https://bugzilla.redhat.com/show_bug.cgi?id=2556859           
+│                       │      │                  https://bugzilla.redhat.com/show_bug.cgi?id=2556960           
 │                       │      │                  https://bugzilla.redhat.com/show_bug.cgi?id=2557007           
 │                       │      │                  https://bugzilla.redhat.com/show_bug.cgi?id=2557032           
 │                       │      │                  https://bugzilla.redhat.com/show_bug.cgi?id=2557041           
 │                       │      │                  https://bugzilla.redhat.com/show_bug.cgi?id=2557047           
+│                       │      │                  https://bugzilla.redhat.com/show_bug.cgi?id=2557056           
 │                       │      │                  https://bugzilla.redhat.com/show_bug.cgi?id=2557079           
 │                       │      │                  https://bugzilla.redhat.com/show_bug.cgi?id=2557110           
 │                       │      │                  https://bugzilla.redhat.com/show_bug.cgi?id=2557117           
@@ -8230,6 +8492,7 @@
 │                       │      │                  https://bugzilla.redhat.com/show_bug.cgi?id=2557236           
 │                       │      │                  https://bugzilla.redhat.com/show_bug.cgi?id=2557261           
 │                       │      │                  https://bugzilla.redhat.com/show_bug.cgi?id=2557356           
+│                       │      │                  https://bugzilla.redhat.com/show_bug.cgi?id=2557364           
 │                       │      │                  https://bugzilla.redhat.com/show_bug.cgi?id=2557405           
 │                       │      │                  https://bugzilla.redhat.com/show_bug.cgi?id=2557427           
 │                       │      │                  https://bugzilla.redhat.com/show_bug.cgi?id=2557443           
@@ -8238,12 +8501,12 @@
 │                       │      │                  https://bugzilla.redhat.com/show_bug.cgi?id=2557564           
 │                       │      │                  https://bugzilla.redhat.com/show_bug.cgi?id=2557598           
 │                       │      │                  https://bugzilla.redhat.com/show_bug.cgi?id=2557662           
-│                       │      │                  https://bugzilla.redhat.com/show_bug.cgi?id=2557665           
 │                       │      │                  https://bugzilla.redhat.com/show_bug.cgi?id=2557674           
 │                       │      │                  https://bugzilla.redhat.com/show_bug.cgi?id=2557690           
 │                       │      │                  https://bugzilla.redhat.com/show_bug.cgi?id=2557709           
 │                       │      │                  https://bugzilla.redhat.com/show_bug.cgi?id=2557711           
 │                       │      │                  https://bugzilla.redhat.com/show_bug.cgi?id=2557731           
+│                       │      │                  https://bugzilla.redhat.com/show_bug.cgi?id=2557757           
 │                       │      │                  https://bugzilla.redhat.com/show_bug.cgi?id=2557765           
 │                       │      │                  https://bugzilla.redhat.com/show_bug.cgi?id=2557780           
 │                       │      │                  https://bugzilla.redhat.com/show_bug.cgi?id=2557857           
@@ -8253,16 +8516,20 @@
 │                       │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-101516
 │                       │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-83374 
 │                       │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-83376 
+│                       │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-83378 
 │                       │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-83380 
 │                       │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-83381 
 │                       │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-83387 
 │                       │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-83395 
 │                       │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-83400 
+│                       │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-87255 
 │                       │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-87290 
+│                       │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-87291 
 │                       │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-87292 
 │                       │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-87294 
 │                       │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-87367 
 │                       │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-91332 
+│                       │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-91333 
 │                       │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-91334 
 │                       │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-91335 
 │                       │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-91373 
@@ -8270,7 +8537,6 @@
 │                       │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-91375 
 │                       │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-91379 
 │                       │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-91380 
-│                       │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-91382 
 │                       │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-91394 
 │                       │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-91397 
 │                       │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-91398 
@@ -8286,8 +8552,8 @@
 │                       │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-91463 
 │                       │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-91464 
 │                       │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-91487 
-│                       │      │                  https://errata.almalinux.org/8/ALSA-2026-88352.html           
-│                       │      │                  https://errata.rockylinux.org/RLSA-2026:88352                 
+│                       │      │                  https://errata.almalinux.org/9/ALSA-2026-90500.html           
+│                       │      │                  https://errata.rockylinux.org/RLSA-2026:88347                 
 │                       │      │                  https://linux.oracle.com/cve/CVE-2026-91452.html              
 │                       │      │                  https://linux.oracle.com/errata/ELSA-2026-90504.html          
 │                       │      │                  https://nvd.nist.gov/vuln/detail/CVE-2026-91452               
@@ -8312,8 +8578,8 @@
 │                       │      ├ DataSource       ╭ ID  : alpine 
 │                       │      │                  ├ Name: Alpine Secdb 
 │                       │      │                  ╰ URL : https://secdb.alpinelinux.org/ 
-│                       │      ├ Fingerprint     : sha256:39a222e413e089499329220fa32ef8a22066fbdd9e490e572dd1a
-│                       │      │                   3677f9c1149 
+│                       │      ├ Fingerprint     : sha256:feee06d8633ada339d92f0ff2a64085fb5046e22f7604480fea78
+│                       │      │                   90414310c49 
 │                       │      ├ Title           : openjdk: Improve HTTP headers (Oracle CPU 2026-10) 
 │                       │      ├ Description     : Vulnerability in the Oracle Java SE, Oracle GraalVM for JDK,
 │                       │      │                    Oracle GraalVM Enterprise Edition product of Oracle Java SE
@@ -8349,7 +8615,8 @@
 │                       │      │                           ╰ V3Score : 5.3 
 │                       │      ├ References                                                                     
 │                       │      │                  ──────────────────────────────────────────────────────────────
-│                       │      │                  https://access.redhat.com/errata/RHSA-2026:88352              
+│                       │      │                  https://access.redhat.com/errata/RHSA-2026:88347              
+│                       │      │                  https://access.redhat.com/errata/RHSA-2026:90500              
 │                       │      │                  https://access.redhat.com/security/cve/CVE-2026-91453         
 │                       │      │                  https://bugzilla.redhat.com/2556709                           
 │                       │      │                  https://bugzilla.redhat.com/2556795                           
@@ -8392,10 +8659,12 @@
 │                       │      │                  https://bugzilla.redhat.com/show_bug.cgi?id=2556824           
 │                       │      │                  https://bugzilla.redhat.com/show_bug.cgi?id=2556837           
 │                       │      │                  https://bugzilla.redhat.com/show_bug.cgi?id=2556859           
+│                       │      │                  https://bugzilla.redhat.com/show_bug.cgi?id=2556960           
 │                       │      │                  https://bugzilla.redhat.com/show_bug.cgi?id=2557007           
 │                       │      │                  https://bugzilla.redhat.com/show_bug.cgi?id=2557032           
 │                       │      │                  https://bugzilla.redhat.com/show_bug.cgi?id=2557041           
 │                       │      │                  https://bugzilla.redhat.com/show_bug.cgi?id=2557047           
+│                       │      │                  https://bugzilla.redhat.com/show_bug.cgi?id=2557056           
 │                       │      │                  https://bugzilla.redhat.com/show_bug.cgi?id=2557079           
 │                       │      │                  https://bugzilla.redhat.com/show_bug.cgi?id=2557110           
 │                       │      │                  https://bugzilla.redhat.com/show_bug.cgi?id=2557117           
@@ -8404,6 +8673,7 @@
 │                       │      │                  https://bugzilla.redhat.com/show_bug.cgi?id=2557236           
 │                       │      │                  https://bugzilla.redhat.com/show_bug.cgi?id=2557261           
 │                       │      │                  https://bugzilla.redhat.com/show_bug.cgi?id=2557356           
+│                       │      │                  https://bugzilla.redhat.com/show_bug.cgi?id=2557364           
 │                       │      │                  https://bugzilla.redhat.com/show_bug.cgi?id=2557405           
 │                       │      │                  https://bugzilla.redhat.com/show_bug.cgi?id=2557427           
 │                       │      │                  https://bugzilla.redhat.com/show_bug.cgi?id=2557443           
@@ -8412,12 +8682,12 @@
 │                       │      │                  https://bugzilla.redhat.com/show_bug.cgi?id=2557564           
 │                       │      │                  https://bugzilla.redhat.com/show_bug.cgi?id=2557598           
 │                       │      │                  https://bugzilla.redhat.com/show_bug.cgi?id=2557662           
-│                       │      │                  https://bugzilla.redhat.com/show_bug.cgi?id=2557665           
 │                       │      │                  https://bugzilla.redhat.com/show_bug.cgi?id=2557674           
 │                       │      │                  https://bugzilla.redhat.com/show_bug.cgi?id=2557690           
 │                       │      │                  https://bugzilla.redhat.com/show_bug.cgi?id=2557709           
 │                       │      │                  https://bugzilla.redhat.com/show_bug.cgi?id=2557711           
 │                       │      │                  https://bugzilla.redhat.com/show_bug.cgi?id=2557731           
+│                       │      │                  https://bugzilla.redhat.com/show_bug.cgi?id=2557757           
 │                       │      │                  https://bugzilla.redhat.com/show_bug.cgi?id=2557765           
 │                       │      │                  https://bugzilla.redhat.com/show_bug.cgi?id=2557780           
 │                       │      │                  https://bugzilla.redhat.com/show_bug.cgi?id=2557857           
@@ -8427,16 +8697,20 @@
 │                       │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-101516
 │                       │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-83374 
 │                       │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-83376 
+│                       │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-83378 
 │                       │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-83380 
 │                       │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-83381 
 │                       │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-83387 
 │                       │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-83395 
 │                       │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-83400 
+│                       │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-87255 
 │                       │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-87290 
+│                       │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-87291 
 │                       │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-87292 
 │                       │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-87294 
 │                       │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-87367 
 │                       │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-91332 
+│                       │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-91333 
 │                       │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-91334 
 │                       │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-91335 
 │                       │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-91373 
@@ -8444,7 +8718,6 @@
 │                       │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-91375 
 │                       │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-91379 
 │                       │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-91380 
-│                       │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-91382 
 │                       │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-91394 
 │                       │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-91397 
 │                       │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-91398 
@@ -8460,8 +8733,8 @@
 │                       │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-91463 
 │                       │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-91464 
 │                       │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-91487 
-│                       │      │                  https://errata.almalinux.org/8/ALSA-2026-88352.html           
-│                       │      │                  https://errata.rockylinux.org/RLSA-2026:88352                 
+│                       │      │                  https://errata.almalinux.org/9/ALSA-2026-90500.html           
+│                       │      │                  https://errata.rockylinux.org/RLSA-2026:88347                 
 │                       │      │                  https://linux.oracle.com/cve/CVE-2026-91453.html              
 │                       │      │                  https://linux.oracle.com/errata/ELSA-2026-90504.html          
 │                       │      │                  https://nvd.nist.gov/vuln/detail/CVE-2026-91453               
@@ -8486,8 +8759,8 @@
 │                       │      ├ DataSource       ╭ ID  : alpine 
 │                       │      │                  ├ Name: Alpine Secdb 
 │                       │      │                  ╰ URL : https://secdb.alpinelinux.org/ 
-│                       │      ├ Fingerprint     : sha256:f8f1b978f4517470e67ec678832432581b5dac8df05b18f13be3d
-│                       │      │                   25239223b04 
+│                       │      ├ Fingerprint     : sha256:fc6221672be19f7c583472f69c5a134c0a4da3b275cd6ed9a275d
+│                       │      │                   45ddcc37b26 
 │                       │      ├ Title           : openjdk: Enhance krb5 tokens (Oracle CPU 2026-10) 
 │                       │      ├ Description     : Vulnerability in the Oracle Java SE, Oracle GraalVM for JDK,
 │                       │      │                    Oracle GraalVM Enterprise Edition product of Oracle Java SE
@@ -8523,7 +8796,8 @@
 │                       │      │                           ╰ V3Score : 5.9 
 │                       │      ├ References                                                                     
 │                       │      │                  ──────────────────────────────────────────────────────────────
-│                       │      │                  https://access.redhat.com/errata/RHSA-2026:88352              
+│                       │      │                  https://access.redhat.com/errata/RHSA-2026:88347              
+│                       │      │                  https://access.redhat.com/errata/RHSA-2026:90500              
 │                       │      │                  https://access.redhat.com/security/cve/CVE-2026-91462         
 │                       │      │                  https://bugzilla.redhat.com/2556709                           
 │                       │      │                  https://bugzilla.redhat.com/2556795                           
@@ -8566,10 +8840,12 @@
 │                       │      │                  https://bugzilla.redhat.com/show_bug.cgi?id=2556824           
 │                       │      │                  https://bugzilla.redhat.com/show_bug.cgi?id=2556837           
 │                       │      │                  https://bugzilla.redhat.com/show_bug.cgi?id=2556859           
+│                       │      │                  https://bugzilla.redhat.com/show_bug.cgi?id=2556960           
 │                       │      │                  https://bugzilla.redhat.com/show_bug.cgi?id=2557007           
 │                       │      │                  https://bugzilla.redhat.com/show_bug.cgi?id=2557032           
 │                       │      │                  https://bugzilla.redhat.com/show_bug.cgi?id=2557041           
 │                       │      │                  https://bugzilla.redhat.com/show_bug.cgi?id=2557047           
+│                       │      │                  https://bugzilla.redhat.com/show_bug.cgi?id=2557056           
 │                       │      │                  https://bugzilla.redhat.com/show_bug.cgi?id=2557079           
 │                       │      │                  https://bugzilla.redhat.com/show_bug.cgi?id=2557110           
 │                       │      │                  https://bugzilla.redhat.com/show_bug.cgi?id=2557117           
@@ -8578,6 +8854,7 @@
 │                       │      │                  https://bugzilla.redhat.com/show_bug.cgi?id=2557236           
 │                       │      │                  https://bugzilla.redhat.com/show_bug.cgi?id=2557261           
 │                       │      │                  https://bugzilla.redhat.com/show_bug.cgi?id=2557356           
+│                       │      │                  https://bugzilla.redhat.com/show_bug.cgi?id=2557364           
 │                       │      │                  https://bugzilla.redhat.com/show_bug.cgi?id=2557405           
 │                       │      │                  https://bugzilla.redhat.com/show_bug.cgi?id=2557427           
 │                       │      │                  https://bugzilla.redhat.com/show_bug.cgi?id=2557443           
@@ -8586,12 +8863,12 @@
 │                       │      │                  https://bugzilla.redhat.com/show_bug.cgi?id=2557564           
 │                       │      │                  https://bugzilla.redhat.com/show_bug.cgi?id=2557598           
 │                       │      │                  https://bugzilla.redhat.com/show_bug.cgi?id=2557662           
-│                       │      │                  https://bugzilla.redhat.com/show_bug.cgi?id=2557665           
 │                       │      │                  https://bugzilla.redhat.com/show_bug.cgi?id=2557674           
 │                       │      │                  https://bugzilla.redhat.com/show_bug.cgi?id=2557690           
 │                       │      │                  https://bugzilla.redhat.com/show_bug.cgi?id=2557709           
 │                       │      │                  https://bugzilla.redhat.com/show_bug.cgi?id=2557711           
 │                       │      │                  https://bugzilla.redhat.com/show_bug.cgi?id=2557731           
+│                       │      │                  https://bugzilla.redhat.com/show_bug.cgi?id=2557757           
 │                       │      │                  https://bugzilla.redhat.com/show_bug.cgi?id=2557765           
 │                       │      │                  https://bugzilla.redhat.com/show_bug.cgi?id=2557780           
 │                       │      │                  https://bugzilla.redhat.com/show_bug.cgi?id=2557857           
@@ -8601,16 +8878,20 @@
 │                       │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-101516
 │                       │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-83374 
 │                       │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-83376 
+│                       │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-83378 
 │                       │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-83380 
 │                       │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-83381 
 │                       │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-83387 
 │                       │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-83395 
 │                       │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-83400 
+│                       │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-87255 
 │                       │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-87290 
+│                       │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-87291 
 │                       │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-87292 
 │                       │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-87294 
 │                       │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-87367 
 │                       │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-91332 
+│                       │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-91333 
 │                       │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-91334 
 │                       │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-91335 
 │                       │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-91373 
@@ -8618,7 +8899,6 @@
 │                       │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-91375 
 │                       │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-91379 
 │                       │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-91380 
-│                       │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-91382 
 │                       │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-91394 
 │                       │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-91397 
 │                       │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-91398 
@@ -8634,8 +8914,8 @@
 │                       │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-91463 
 │                       │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-91464 
 │                       │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-91487 
-│                       │      │                  https://errata.almalinux.org/8/ALSA-2026-88352.html           
-│                       │      │                  https://errata.rockylinux.org/RLSA-2026:88352                 
+│                       │      │                  https://errata.almalinux.org/9/ALSA-2026-90500.html           
+│                       │      │                  https://errata.rockylinux.org/RLSA-2026:88347                 
 │                       │      │                  https://linux.oracle.com/cve/CVE-2026-91462.html              
 │                       │      │                  https://linux.oracle.com/errata/ELSA-2026-90504.html          
 │                       │      │                  https://nvd.nist.gov/vuln/detail/CVE-2026-91462               
@@ -8660,8 +8940,8 @@
 │                       │      ├ DataSource       ╭ ID  : alpine 
 │                       │      │                  ├ Name: Alpine Secdb 
 │                       │      │                  ╰ URL : https://secdb.alpinelinux.org/ 
-│                       │      ├ Fingerprint     : sha256:ae57c9b942aa5f3e776e360ec2f5c56621cc3a23abafb712e55e1
-│                       │      │                   112a0633349 
+│                       │      ├ Fingerprint     : sha256:7b54d763a280ec19ba0208d93f673bcdbac405feced88c89344ed
+│                       │      │                   9fc19ee5dcd 
 │                       │      ├ Title           : openjdk: Enhance krb5 client (Oracle CPU 2026-10) 
 │                       │      ├ Description     : Vulnerability in the Oracle Java SE, Oracle GraalVM for JDK,
 │                       │      │                    Oracle GraalVM Enterprise Edition product of Oracle Java SE
@@ -8702,7 +8982,8 @@
 │                       │      │                           ╰ V3Score : 5.3 
 │                       │      ├ References                                                                     
 │                       │      │                  ──────────────────────────────────────────────────────────────
-│                       │      │                  https://access.redhat.com/errata/RHSA-2026:88352              
+│                       │      │                  https://access.redhat.com/errata/RHSA-2026:88347              
+│                       │      │                  https://access.redhat.com/errata/RHSA-2026:90500              
 │                       │      │                  https://access.redhat.com/security/cve/CVE-2026-91463         
 │                       │      │                  https://bugzilla.redhat.com/2556709                           
 │                       │      │                  https://bugzilla.redhat.com/2556795                           
@@ -8745,10 +9026,12 @@
 │                       │      │                  https://bugzilla.redhat.com/show_bug.cgi?id=2556824           
 │                       │      │                  https://bugzilla.redhat.com/show_bug.cgi?id=2556837           
 │                       │      │                  https://bugzilla.redhat.com/show_bug.cgi?id=2556859           
+│                       │      │                  https://bugzilla.redhat.com/show_bug.cgi?id=2556960           
 │                       │      │                  https://bugzilla.redhat.com/show_bug.cgi?id=2557007           
 │                       │      │                  https://bugzilla.redhat.com/show_bug.cgi?id=2557032           
 │                       │      │                  https://bugzilla.redhat.com/show_bug.cgi?id=2557041           
 │                       │      │                  https://bugzilla.redhat.com/show_bug.cgi?id=2557047           
+│                       │      │                  https://bugzilla.redhat.com/show_bug.cgi?id=2557056           
 │                       │      │                  https://bugzilla.redhat.com/show_bug.cgi?id=2557079           
 │                       │      │                  https://bugzilla.redhat.com/show_bug.cgi?id=2557110           
 │                       │      │                  https://bugzilla.redhat.com/show_bug.cgi?id=2557117           
@@ -8757,6 +9040,7 @@
 │                       │      │                  https://bugzilla.redhat.com/show_bug.cgi?id=2557236           
 │                       │      │                  https://bugzilla.redhat.com/show_bug.cgi?id=2557261           
 │                       │      │                  https://bugzilla.redhat.com/show_bug.cgi?id=2557356           
+│                       │      │                  https://bugzilla.redhat.com/show_bug.cgi?id=2557364           
 │                       │      │                  https://bugzilla.redhat.com/show_bug.cgi?id=2557405           
 │                       │      │                  https://bugzilla.redhat.com/show_bug.cgi?id=2557427           
 │                       │      │                  https://bugzilla.redhat.com/show_bug.cgi?id=2557443           
@@ -8765,12 +9049,12 @@
 │                       │      │                  https://bugzilla.redhat.com/show_bug.cgi?id=2557564           
 │                       │      │                  https://bugzilla.redhat.com/show_bug.cgi?id=2557598           
 │                       │      │                  https://bugzilla.redhat.com/show_bug.cgi?id=2557662           
-│                       │      │                  https://bugzilla.redhat.com/show_bug.cgi?id=2557665           
 │                       │      │                  https://bugzilla.redhat.com/show_bug.cgi?id=2557674           
 │                       │      │                  https://bugzilla.redhat.com/show_bug.cgi?id=2557690           
 │                       │      │                  https://bugzilla.redhat.com/show_bug.cgi?id=2557709           
 │                       │      │                  https://bugzilla.redhat.com/show_bug.cgi?id=2557711           
 │                       │      │                  https://bugzilla.redhat.com/show_bug.cgi?id=2557731           
+│                       │      │                  https://bugzilla.redhat.com/show_bug.cgi?id=2557757           
 │                       │      │                  https://bugzilla.redhat.com/show_bug.cgi?id=2557765           
 │                       │      │                  https://bugzilla.redhat.com/show_bug.cgi?id=2557780           
 │                       │      │                  https://bugzilla.redhat.com/show_bug.cgi?id=2557857           
@@ -8780,16 +9064,20 @@
 │                       │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-101516
 │                       │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-83374 
 │                       │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-83376 
+│                       │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-83378 
 │                       │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-83380 
 │                       │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-83381 
 │                       │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-83387 
 │                       │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-83395 
 │                       │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-83400 
+│                       │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-87255 
 │                       │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-87290 
+│                       │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-87291 
 │                       │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-87292 
 │                       │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-87294 
 │                       │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-87367 
 │                       │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-91332 
+│                       │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-91333 
 │                       │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-91334 
 │                       │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-91335 
 │                       │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-91373 
@@ -8797,7 +9085,6 @@
 │                       │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-91375 
 │                       │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-91379 
 │                       │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-91380 
-│                       │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-91382 
 │                       │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-91394 
 │                       │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-91397 
 │                       │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-91398 
@@ -8813,8 +9100,8 @@
 │                       │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-91463 
 │                       │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-91464 
 │                       │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-91487 
-│                       │      │                  https://errata.almalinux.org/8/ALSA-2026-88352.html           
-│                       │      │                  https://errata.rockylinux.org/RLSA-2026:88352                 
+│                       │      │                  https://errata.almalinux.org/9/ALSA-2026-90500.html           
+│                       │      │                  https://errata.rockylinux.org/RLSA-2026:88347                 
 │                       │      │                  https://linux.oracle.com/cve/CVE-2026-91463.html              
 │                       │      │                  https://linux.oracle.com/errata/ELSA-2026-90504.html          
 │                       │      │                  https://nvd.nist.gov/vuln/detail/CVE-2026-91463               
@@ -8839,8 +9126,8 @@
 │                       │      ├ DataSource       ╭ ID  : alpine 
 │                       │      │                  ├ Name: Alpine Secdb 
 │                       │      │                  ╰ URL : https://secdb.alpinelinux.org/ 
-│                       │      ├ Fingerprint     : sha256:7c48498b3f7ad2da71cfd3bc5ba298ff49b1dfd54850d7396b329
-│                       │      │                   1c19344e14e 
+│                       │      ├ Fingerprint     : sha256:5c9730d60d9ef8b2dc78a34795bde9eacf3054c3ac60eafaee8cd
+│                       │      │                   4e61bdd1a6d 
 │                       │      ├ Title           : openjdk: Enhance Kerberos validation (Oracle CPU 2026-10) 
 │                       │      ├ Description     : Vulnerability in the Oracle Java SE, Oracle GraalVM for JDK,
 │                       │      │                    Oracle GraalVM Enterprise Edition product of Oracle Java SE
@@ -8881,7 +9168,8 @@
 │                       │      │                           ╰ V3Score : 5.3 
 │                       │      ├ References                                                                     
 │                       │      │                  ──────────────────────────────────────────────────────────────
-│                       │      │                  https://access.redhat.com/errata/RHSA-2026:88352              
+│                       │      │                  https://access.redhat.com/errata/RHSA-2026:88347              
+│                       │      │                  https://access.redhat.com/errata/RHSA-2026:90500              
 │                       │      │                  https://access.redhat.com/security/cve/CVE-2026-91464         
 │                       │      │                  https://bugzilla.redhat.com/2556709                           
 │                       │      │                  https://bugzilla.redhat.com/2556795                           
@@ -8924,10 +9212,12 @@
 │                       │      │                  https://bugzilla.redhat.com/show_bug.cgi?id=2556824           
 │                       │      │                  https://bugzilla.redhat.com/show_bug.cgi?id=2556837           
 │                       │      │                  https://bugzilla.redhat.com/show_bug.cgi?id=2556859           
+│                       │      │                  https://bugzilla.redhat.com/show_bug.cgi?id=2556960           
 │                       │      │                  https://bugzilla.redhat.com/show_bug.cgi?id=2557007           
 │                       │      │                  https://bugzilla.redhat.com/show_bug.cgi?id=2557032           
 │                       │      │                  https://bugzilla.redhat.com/show_bug.cgi?id=2557041           
 │                       │      │                  https://bugzilla.redhat.com/show_bug.cgi?id=2557047           
+│                       │      │                  https://bugzilla.redhat.com/show_bug.cgi?id=2557056           
 │                       │      │                  https://bugzilla.redhat.com/show_bug.cgi?id=2557079           
 │                       │      │                  https://bugzilla.redhat.com/show_bug.cgi?id=2557110           
 │                       │      │                  https://bugzilla.redhat.com/show_bug.cgi?id=2557117           
@@ -8936,6 +9226,7 @@
 │                       │      │                  https://bugzilla.redhat.com/show_bug.cgi?id=2557236           
 │                       │      │                  https://bugzilla.redhat.com/show_bug.cgi?id=2557261           
 │                       │      │                  https://bugzilla.redhat.com/show_bug.cgi?id=2557356           
+│                       │      │                  https://bugzilla.redhat.com/show_bug.cgi?id=2557364           
 │                       │      │                  https://bugzilla.redhat.com/show_bug.cgi?id=2557405           
 │                       │      │                  https://bugzilla.redhat.com/show_bug.cgi?id=2557427           
 │                       │      │                  https://bugzilla.redhat.com/show_bug.cgi?id=2557443           
@@ -8944,12 +9235,12 @@
 │                       │      │                  https://bugzilla.redhat.com/show_bug.cgi?id=2557564           
 │                       │      │                  https://bugzilla.redhat.com/show_bug.cgi?id=2557598           
 │                       │      │                  https://bugzilla.redhat.com/show_bug.cgi?id=2557662           
-│                       │      │                  https://bugzilla.redhat.com/show_bug.cgi?id=2557665           
 │                       │      │                  https://bugzilla.redhat.com/show_bug.cgi?id=2557674           
 │                       │      │                  https://bugzilla.redhat.com/show_bug.cgi?id=2557690           
 │                       │      │                  https://bugzilla.redhat.com/show_bug.cgi?id=2557709           
 │                       │      │                  https://bugzilla.redhat.com/show_bug.cgi?id=2557711           
 │                       │      │                  https://bugzilla.redhat.com/show_bug.cgi?id=2557731           
+│                       │      │                  https://bugzilla.redhat.com/show_bug.cgi?id=2557757           
 │                       │      │                  https://bugzilla.redhat.com/show_bug.cgi?id=2557765           
 │                       │      │                  https://bugzilla.redhat.com/show_bug.cgi?id=2557780           
 │                       │      │                  https://bugzilla.redhat.com/show_bug.cgi?id=2557857           
@@ -8959,16 +9250,20 @@
 │                       │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-101516
 │                       │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-83374 
 │                       │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-83376 
+│                       │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-83378 
 │                       │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-83380 
 │                       │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-83381 
 │                       │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-83387 
 │                       │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-83395 
 │                       │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-83400 
+│                       │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-87255 
 │                       │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-87290 
+│                       │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-87291 
 │                       │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-87292 
 │                       │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-87294 
 │                       │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-87367 
 │                       │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-91332 
+│                       │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-91333 
 │                       │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-91334 
 │                       │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-91335 
 │                       │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-91373 
@@ -8976,7 +9271,6 @@
 │                       │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-91375 
 │                       │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-91379 
 │                       │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-91380 
-│                       │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-91382 
 │                       │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-91394 
 │                       │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-91397 
 │                       │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-91398 
@@ -8992,8 +9286,8 @@
 │                       │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-91463 
 │                       │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-91464 
 │                       │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-91487 
-│                       │      │                  https://errata.almalinux.org/8/ALSA-2026-88352.html           
-│                       │      │                  https://errata.rockylinux.org/RLSA-2026:88352                 
+│                       │      │                  https://errata.almalinux.org/9/ALSA-2026-90500.html           
+│                       │      │                  https://errata.rockylinux.org/RLSA-2026:88347                 
 │                       │      │                  https://linux.oracle.com/cve/CVE-2026-91464.html              
 │                       │      │                  https://linux.oracle.com/errata/ELSA-2026-90504.html          
 │                       │      │                  https://nvd.nist.gov/vuln/detail/CVE-2026-91464               
@@ -9018,8 +9312,8 @@
 │                       │      ├ DataSource       ╭ ID  : alpine 
 │                       │      │                  ├ Name: Alpine Secdb 
 │                       │      │                  ╰ URL : https://secdb.alpinelinux.org/ 
-│                       │      ├ Fingerprint     : sha256:994488856a02015c386e85654bb9f1d818b0686c36d4e4a39d00c
-│                       │      │                   cd26751581c 
+│                       │      ├ Fingerprint     : sha256:5640d879a89ef159e63ca8264e4ca2d3989ab3cf863a898aaed44
+│                       │      │                   8b7f0977d97 
 │                       │      ├ Title           : openjdk: Enhance C2 comparisons (Oracle CPU 2026-10) 
 │                       │      ├ Description     : Vulnerability in Oracle Java SE (component: Compiler). 
 │                       │      │                   Supported versions that are affected are Oracle Java SE:
@@ -9053,7 +9347,8 @@
 │                       │      │                           ╰ V3Score : 4.8 
 │                       │      ├ References                                                                     
 │                       │      │                  ──────────────────────────────────────────────────────────────
-│                       │      │                  https://access.redhat.com/errata/RHSA-2026:88352              
+│                       │      │                  https://access.redhat.com/errata/RHSA-2026:88347              
+│                       │      │                  https://access.redhat.com/errata/RHSA-2026:90500              
 │                       │      │                  https://access.redhat.com/security/cve/CVE-2026-91487         
 │                       │      │                  https://bugzilla.redhat.com/2556709                           
 │                       │      │                  https://bugzilla.redhat.com/2556795                           
@@ -9096,10 +9391,12 @@
 │                       │      │                  https://bugzilla.redhat.com/show_bug.cgi?id=2556824           
 │                       │      │                  https://bugzilla.redhat.com/show_bug.cgi?id=2556837           
 │                       │      │                  https://bugzilla.redhat.com/show_bug.cgi?id=2556859           
+│                       │      │                  https://bugzilla.redhat.com/show_bug.cgi?id=2556960           
 │                       │      │                  https://bugzilla.redhat.com/show_bug.cgi?id=2557007           
 │                       │      │                  https://bugzilla.redhat.com/show_bug.cgi?id=2557032           
 │                       │      │                  https://bugzilla.redhat.com/show_bug.cgi?id=2557041           
 │                       │      │                  https://bugzilla.redhat.com/show_bug.cgi?id=2557047           
+│                       │      │                  https://bugzilla.redhat.com/show_bug.cgi?id=2557056           
 │                       │      │                  https://bugzilla.redhat.com/show_bug.cgi?id=2557079           
 │                       │      │                  https://bugzilla.redhat.com/show_bug.cgi?id=2557110           
 │                       │      │                  https://bugzilla.redhat.com/show_bug.cgi?id=2557117           
@@ -9108,6 +9405,7 @@
 │                       │      │                  https://bugzilla.redhat.com/show_bug.cgi?id=2557236           
 │                       │      │                  https://bugzilla.redhat.com/show_bug.cgi?id=2557261           
 │                       │      │                  https://bugzilla.redhat.com/show_bug.cgi?id=2557356           
+│                       │      │                  https://bugzilla.redhat.com/show_bug.cgi?id=2557364           
 │                       │      │                  https://bugzilla.redhat.com/show_bug.cgi?id=2557405           
 │                       │      │                  https://bugzilla.redhat.com/show_bug.cgi?id=2557427           
 │                       │      │                  https://bugzilla.redhat.com/show_bug.cgi?id=2557443           
@@ -9116,12 +9414,12 @@
 │                       │      │                  https://bugzilla.redhat.com/show_bug.cgi?id=2557564           
 │                       │      │                  https://bugzilla.redhat.com/show_bug.cgi?id=2557598           
 │                       │      │                  https://bugzilla.redhat.com/show_bug.cgi?id=2557662           
-│                       │      │                  https://bugzilla.redhat.com/show_bug.cgi?id=2557665           
 │                       │      │                  https://bugzilla.redhat.com/show_bug.cgi?id=2557674           
 │                       │      │                  https://bugzilla.redhat.com/show_bug.cgi?id=2557690           
 │                       │      │                  https://bugzilla.redhat.com/show_bug.cgi?id=2557709           
 │                       │      │                  https://bugzilla.redhat.com/show_bug.cgi?id=2557711           
 │                       │      │                  https://bugzilla.redhat.com/show_bug.cgi?id=2557731           
+│                       │      │                  https://bugzilla.redhat.com/show_bug.cgi?id=2557757           
 │                       │      │                  https://bugzilla.redhat.com/show_bug.cgi?id=2557765           
 │                       │      │                  https://bugzilla.redhat.com/show_bug.cgi?id=2557780           
 │                       │      │                  https://bugzilla.redhat.com/show_bug.cgi?id=2557857           
@@ -9131,16 +9429,20 @@
 │                       │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-101516
 │                       │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-83374 
 │                       │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-83376 
+│                       │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-83378 
 │                       │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-83380 
 │                       │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-83381 
 │                       │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-83387 
 │                       │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-83395 
 │                       │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-83400 
+│                       │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-87255 
 │                       │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-87290 
+│                       │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-87291 
 │                       │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-87292 
 │                       │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-87294 
 │                       │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-87367 
 │                       │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-91332 
+│                       │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-91333 
 │                       │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-91334 
 │                       │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-91335 
 │                       │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-91373 
@@ -9148,7 +9450,6 @@
 │                       │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-91375 
 │                       │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-91379 
 │                       │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-91380 
-│                       │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-91382 
 │                       │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-91394 
 │                       │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-91397 
 │                       │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-91398 
@@ -9164,8 +9465,8 @@
 │                       │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-91463 
 │                       │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-91464 
 │                       │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-91487 
-│                       │      │                  https://errata.almalinux.org/8/ALSA-2026-88352.html           
-│                       │      │                  https://errata.rockylinux.org/RLSA-2026:88352                 
+│                       │      │                  https://errata.almalinux.org/9/ALSA-2026-90500.html           
+│                       │      │                  https://errata.rockylinux.org/RLSA-2026:88347                 
 │                       │      │                  https://linux.oracle.com/cve/CVE-2026-91487.html              
 │                       │      │                  https://linux.oracle.com/errata/ELSA-2026-90504.html          
 │                       │      │                  https://nvd.nist.gov/vuln/detail/CVE-2026-91487               
@@ -9190,8 +9491,8 @@
 │                       │      ├ DataSource       ╭ ID  : alpine 
 │                       │      │                  ├ Name: Alpine Secdb 
 │                       │      │                  ╰ URL : https://secdb.alpinelinux.org/ 
-│                       │      ├ Fingerprint     : sha256:65664382ea58f4348be9ddb073dc925d9296f17fb076a555bd329
-│                       │      │                   d9a920444f9 
+│                       │      ├ Fingerprint     : sha256:23309f9753c27d640cec19cfaa14663d881ff7aa64547bbd3237b
+│                       │      │                   0d5095c647a 
 │                       │      ├ Title           : openjdk: Enhance TLS certificate handling (Oracle CPU 2026-10) 
 │                       │      ├ Description     : Vulnerability in the Oracle Java SE, Oracle GraalVM for JDK,
 │                       │      │                    Oracle GraalVM Enterprise Edition product of Oracle Java SE
@@ -9229,7 +9530,8 @@
 │                       │      │                           ╰ V3Score : 3.7 
 │                       │      ├ References                                                                     
 │                       │      │                  ──────────────────────────────────────────────────────────────
-│                       │      │                  https://access.redhat.com/errata/RHSA-2026:88352              
+│                       │      │                  https://access.redhat.com/errata/RHSA-2026:88347              
+│                       │      │                  https://access.redhat.com/errata/RHSA-2026:90500              
 │                       │      │                  https://access.redhat.com/security/cve/CVE-2026-83376         
 │                       │      │                  https://bugzilla.redhat.com/2556709                           
 │                       │      │                  https://bugzilla.redhat.com/2556795                           
@@ -9272,10 +9574,12 @@
 │                       │      │                  https://bugzilla.redhat.com/show_bug.cgi?id=2556824           
 │                       │      │                  https://bugzilla.redhat.com/show_bug.cgi?id=2556837           
 │                       │      │                  https://bugzilla.redhat.com/show_bug.cgi?id=2556859           
+│                       │      │                  https://bugzilla.redhat.com/show_bug.cgi?id=2556960           
 │                       │      │                  https://bugzilla.redhat.com/show_bug.cgi?id=2557007           
 │                       │      │                  https://bugzilla.redhat.com/show_bug.cgi?id=2557032           
 │                       │      │                  https://bugzilla.redhat.com/show_bug.cgi?id=2557041           
 │                       │      │                  https://bugzilla.redhat.com/show_bug.cgi?id=2557047           
+│                       │      │                  https://bugzilla.redhat.com/show_bug.cgi?id=2557056           
 │                       │      │                  https://bugzilla.redhat.com/show_bug.cgi?id=2557079           
 │                       │      │                  https://bugzilla.redhat.com/show_bug.cgi?id=2557110           
 │                       │      │                  https://bugzilla.redhat.com/show_bug.cgi?id=2557117           
@@ -9284,6 +9588,7 @@
 │                       │      │                  https://bugzilla.redhat.com/show_bug.cgi?id=2557236           
 │                       │      │                  https://bugzilla.redhat.com/show_bug.cgi?id=2557261           
 │                       │      │                  https://bugzilla.redhat.com/show_bug.cgi?id=2557356           
+│                       │      │                  https://bugzilla.redhat.com/show_bug.cgi?id=2557364           
 │                       │      │                  https://bugzilla.redhat.com/show_bug.cgi?id=2557405           
 │                       │      │                  https://bugzilla.redhat.com/show_bug.cgi?id=2557427           
 │                       │      │                  https://bugzilla.redhat.com/show_bug.cgi?id=2557443           
@@ -9292,12 +9597,12 @@
 │                       │      │                  https://bugzilla.redhat.com/show_bug.cgi?id=2557564           
 │                       │      │                  https://bugzilla.redhat.com/show_bug.cgi?id=2557598           
 │                       │      │                  https://bugzilla.redhat.com/show_bug.cgi?id=2557662           
-│                       │      │                  https://bugzilla.redhat.com/show_bug.cgi?id=2557665           
 │                       │      │                  https://bugzilla.redhat.com/show_bug.cgi?id=2557674           
 │                       │      │                  https://bugzilla.redhat.com/show_bug.cgi?id=2557690           
 │                       │      │                  https://bugzilla.redhat.com/show_bug.cgi?id=2557709           
 │                       │      │                  https://bugzilla.redhat.com/show_bug.cgi?id=2557711           
 │                       │      │                  https://bugzilla.redhat.com/show_bug.cgi?id=2557731           
+│                       │      │                  https://bugzilla.redhat.com/show_bug.cgi?id=2557757           
 │                       │      │                  https://bugzilla.redhat.com/show_bug.cgi?id=2557765           
 │                       │      │                  https://bugzilla.redhat.com/show_bug.cgi?id=2557780           
 │                       │      │                  https://bugzilla.redhat.com/show_bug.cgi?id=2557857           
@@ -9307,16 +9612,20 @@
 │                       │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-101516
 │                       │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-83374 
 │                       │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-83376 
+│                       │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-83378 
 │                       │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-83380 
 │                       │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-83381 
 │                       │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-83387 
 │                       │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-83395 
 │                       │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-83400 
+│                       │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-87255 
 │                       │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-87290 
+│                       │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-87291 
 │                       │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-87292 
 │                       │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-87294 
 │                       │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-87367 
 │                       │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-91332 
+│                       │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-91333 
 │                       │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-91334 
 │                       │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-91335 
 │                       │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-91373 
@@ -9324,7 +9633,6 @@
 │                       │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-91375 
 │                       │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-91379 
 │                       │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-91380 
-│                       │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-91382 
 │                       │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-91394 
 │                       │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-91397 
 │                       │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-91398 
@@ -9340,8 +9648,8 @@
 │                       │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-91463 
 │                       │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-91464 
 │                       │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-91487 
-│                       │      │                  https://errata.almalinux.org/8/ALSA-2026-88352.html           
-│                       │      │                  https://errata.rockylinux.org/RLSA-2026:88352                 
+│                       │      │                  https://errata.almalinux.org/9/ALSA-2026-90500.html           
+│                       │      │                  https://errata.rockylinux.org/RLSA-2026:88347                 
 │                       │      │                  https://linux.oracle.com/cve/CVE-2026-83376.html              
 │                       │      │                  https://linux.oracle.com/errata/ELSA-2026-90504.html          
 │                       │      │                  https://nvd.nist.gov/vuln/detail/CVE-2026-83376               
@@ -9366,8 +9674,8 @@
 │                       │      ├ DataSource       ╭ ID  : alpine 
 │                       │      │                  ├ Name: Alpine Secdb 
 │                       │      │                  ╰ URL : https://secdb.alpinelinux.org/ 
-│                       │      ├ Fingerprint     : sha256:15f3026cd5073379baaeadff2fb30879cceaf202acef6542a4bee
-│                       │      │                   747d2852563 
+│                       │      ├ Fingerprint     : sha256:72034ab6fde0049757f49e1e821f0389dff18cf9dba6f44a8d1d8
+│                       │      │                   9fdda6e7bda 
 │                       │      ├ Title           : openjdk: Enhance Vector Processing (Oracle CPU 2026-10) 
 │                       │      ├ Description     : Vulnerability in Oracle Java SE (component: Compiler). 
 │                       │      │                   Supported versions that are affected are Oracle Java SE:
@@ -9515,7 +9823,7 @@
 │                       │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-91463 
 │                       │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-91464 
 │                       │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-91487 
-│                       │      │                  https://errata.almalinux.org/10/ALSA-2026-88347.html          
+│                       │      │                  https://errata.almalinux.org/9/ALSA-2026-88347.html           
 │                       │      │                  https://errata.rockylinux.org/RLSA-2026:88347                 
 │                       │      │                  https://nvd.nist.gov/vuln/detail/CVE-2026-87255               
 │                       │      │                  https://www.cve.org/CVERecord?id=CVE-2026-87255               
@@ -9539,8 +9847,8 @@
 │                       │      ├ DataSource       ╭ ID  : alpine 
 │                       │      │                  ├ Name: Alpine Secdb 
 │                       │      │                  ╰ URL : https://secdb.alpinelinux.org/ 
-│                       │      ├ Fingerprint     : sha256:818d2290be01208c155f1ac567f2e949dd732fbffde910a8ea9d1
-│                       │      │                   5077e3b4249 
+│                       │      ├ Fingerprint     : sha256:797d9f27476473f72ba442070b8733b82f5e38212ea433a2b0fc0
+│                       │      │                   74b65ad4a65 
 │                       │      ├ Title           : openjdk: Enhance Network Clients (Oracle CPU 2026-10) 
 │                       │      ├ Description     : Vulnerability in the Oracle Java SE, Oracle GraalVM for JDK,
 │                       │      │                    Oracle GraalVM Enterprise Edition product of Oracle Java SE
@@ -9579,7 +9887,8 @@
 │                       │      │                           ╰ V3Score : 3.7 
 │                       │      ├ References                                                                     
 │                       │      │                  ──────────────────────────────────────────────────────────────
-│                       │      │                  https://access.redhat.com/errata/RHSA-2026:88352              
+│                       │      │                  https://access.redhat.com/errata/RHSA-2026:88347              
+│                       │      │                  https://access.redhat.com/errata/RHSA-2026:90500              
 │                       │      │                  https://access.redhat.com/security/cve/CVE-2026-87292         
 │                       │      │                  https://bugzilla.redhat.com/2556709                           
 │                       │      │                  https://bugzilla.redhat.com/2556795                           
@@ -9622,10 +9931,12 @@
 │                       │      │                  https://bugzilla.redhat.com/show_bug.cgi?id=2556824           
 │                       │      │                  https://bugzilla.redhat.com/show_bug.cgi?id=2556837           
 │                       │      │                  https://bugzilla.redhat.com/show_bug.cgi?id=2556859           
+│                       │      │                  https://bugzilla.redhat.com/show_bug.cgi?id=2556960           
 │                       │      │                  https://bugzilla.redhat.com/show_bug.cgi?id=2557007           
 │                       │      │                  https://bugzilla.redhat.com/show_bug.cgi?id=2557032           
 │                       │      │                  https://bugzilla.redhat.com/show_bug.cgi?id=2557041           
 │                       │      │                  https://bugzilla.redhat.com/show_bug.cgi?id=2557047           
+│                       │      │                  https://bugzilla.redhat.com/show_bug.cgi?id=2557056           
 │                       │      │                  https://bugzilla.redhat.com/show_bug.cgi?id=2557079           
 │                       │      │                  https://bugzilla.redhat.com/show_bug.cgi?id=2557110           
 │                       │      │                  https://bugzilla.redhat.com/show_bug.cgi?id=2557117           
@@ -9634,6 +9945,7 @@
 │                       │      │                  https://bugzilla.redhat.com/show_bug.cgi?id=2557236           
 │                       │      │                  https://bugzilla.redhat.com/show_bug.cgi?id=2557261           
 │                       │      │                  https://bugzilla.redhat.com/show_bug.cgi?id=2557356           
+│                       │      │                  https://bugzilla.redhat.com/show_bug.cgi?id=2557364           
 │                       │      │                  https://bugzilla.redhat.com/show_bug.cgi?id=2557405           
 │                       │      │                  https://bugzilla.redhat.com/show_bug.cgi?id=2557427           
 │                       │      │                  https://bugzilla.redhat.com/show_bug.cgi?id=2557443           
@@ -9642,12 +9954,12 @@
 │                       │      │                  https://bugzilla.redhat.com/show_bug.cgi?id=2557564           
 │                       │      │                  https://bugzilla.redhat.com/show_bug.cgi?id=2557598           
 │                       │      │                  https://bugzilla.redhat.com/show_bug.cgi?id=2557662           
-│                       │      │                  https://bugzilla.redhat.com/show_bug.cgi?id=2557665           
 │                       │      │                  https://bugzilla.redhat.com/show_bug.cgi?id=2557674           
 │                       │      │                  https://bugzilla.redhat.com/show_bug.cgi?id=2557690           
 │                       │      │                  https://bugzilla.redhat.com/show_bug.cgi?id=2557709           
 │                       │      │                  https://bugzilla.redhat.com/show_bug.cgi?id=2557711           
 │                       │      │                  https://bugzilla.redhat.com/show_bug.cgi?id=2557731           
+│                       │      │                  https://bugzilla.redhat.com/show_bug.cgi?id=2557757           
 │                       │      │                  https://bugzilla.redhat.com/show_bug.cgi?id=2557765           
 │                       │      │                  https://bugzilla.redhat.com/show_bug.cgi?id=2557780           
 │                       │      │                  https://bugzilla.redhat.com/show_bug.cgi?id=2557857           
@@ -9657,16 +9969,20 @@
 │                       │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-101516
 │                       │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-83374 
 │                       │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-83376 
+│                       │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-83378 
 │                       │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-83380 
 │                       │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-83381 
 │                       │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-83387 
 │                       │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-83395 
 │                       │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-83400 
+│                       │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-87255 
 │                       │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-87290 
+│                       │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-87291 
 │                       │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-87292 
 │                       │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-87294 
 │                       │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-87367 
 │                       │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-91332 
+│                       │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-91333 
 │                       │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-91334 
 │                       │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-91335 
 │                       │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-91373 
@@ -9674,7 +9990,6 @@
 │                       │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-91375 
 │                       │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-91379 
 │                       │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-91380 
-│                       │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-91382 
 │                       │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-91394 
 │                       │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-91397 
 │                       │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-91398 
@@ -9690,8 +10005,8 @@
 │                       │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-91463 
 │                       │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-91464 
 │                       │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-91487 
-│                       │      │                  https://errata.almalinux.org/8/ALSA-2026-88352.html           
-│                       │      │                  https://errata.rockylinux.org/RLSA-2026:88352                 
+│                       │      │                  https://errata.almalinux.org/9/ALSA-2026-90500.html           
+│                       │      │                  https://errata.rockylinux.org/RLSA-2026:88347                 
 │                       │      │                  https://linux.oracle.com/cve/CVE-2026-87292.html              
 │                       │      │                  https://linux.oracle.com/errata/ELSA-2026-90504.html          
 │                       │      │                  https://nvd.nist.gov/vuln/detail/CVE-2026-87292               
@@ -9716,8 +10031,8 @@
 │                       │      ├ DataSource       ╭ ID  : alpine 
 │                       │      │                  ├ Name: Alpine Secdb 
 │                       │      │                  ╰ URL : https://secdb.alpinelinux.org/ 
-│                       │      ├ Fingerprint     : sha256:14103f49bc7bb39e195a17dc3ac78bc613feddef2ffccdc7c7160
-│                       │      │                   d3a0bb19452 
+│                       │      ├ Fingerprint     : sha256:851ad1446157212cf78f95d8070514004c12f788746adb9970171
+│                       │      │                   cb3c79ed6b4 
 │                       │      ├ Title           : openjdk: Enhance Template Handling (Oracle CPU 2026-10) 
 │                       │      ├ Description     : Vulnerability in the Oracle Java SE, Oracle GraalVM for JDK,
 │                       │      │                    Oracle GraalVM Enterprise Edition product of Oracle Java SE
@@ -9756,7 +10071,8 @@
 │                       │      │                           ╰ V3Score : 3.7 
 │                       │      ├ References                                                                     
 │                       │      │                  ──────────────────────────────────────────────────────────────
-│                       │      │                  https://access.redhat.com/errata/RHSA-2026:88352              
+│                       │      │                  https://access.redhat.com/errata/RHSA-2026:88347              
+│                       │      │                  https://access.redhat.com/errata/RHSA-2026:90500              
 │                       │      │                  https://access.redhat.com/security/cve/CVE-2026-87367         
 │                       │      │                  https://bugzilla.redhat.com/2556709                           
 │                       │      │                  https://bugzilla.redhat.com/2556795                           
@@ -9799,10 +10115,12 @@
 │                       │      │                  https://bugzilla.redhat.com/show_bug.cgi?id=2556824           
 │                       │      │                  https://bugzilla.redhat.com/show_bug.cgi?id=2556837           
 │                       │      │                  https://bugzilla.redhat.com/show_bug.cgi?id=2556859           
+│                       │      │                  https://bugzilla.redhat.com/show_bug.cgi?id=2556960           
 │                       │      │                  https://bugzilla.redhat.com/show_bug.cgi?id=2557007           
 │                       │      │                  https://bugzilla.redhat.com/show_bug.cgi?id=2557032           
 │                       │      │                  https://bugzilla.redhat.com/show_bug.cgi?id=2557041           
 │                       │      │                  https://bugzilla.redhat.com/show_bug.cgi?id=2557047           
+│                       │      │                  https://bugzilla.redhat.com/show_bug.cgi?id=2557056           
 │                       │      │                  https://bugzilla.redhat.com/show_bug.cgi?id=2557079           
 │                       │      │                  https://bugzilla.redhat.com/show_bug.cgi?id=2557110           
 │                       │      │                  https://bugzilla.redhat.com/show_bug.cgi?id=2557117           
@@ -9811,6 +10129,7 @@
 │                       │      │                  https://bugzilla.redhat.com/show_bug.cgi?id=2557236           
 │                       │      │                  https://bugzilla.redhat.com/show_bug.cgi?id=2557261           
 │                       │      │                  https://bugzilla.redhat.com/show_bug.cgi?id=2557356           
+│                       │      │                  https://bugzilla.redhat.com/show_bug.cgi?id=2557364           
 │                       │      │                  https://bugzilla.redhat.com/show_bug.cgi?id=2557405           
 │                       │      │                  https://bugzilla.redhat.com/show_bug.cgi?id=2557427           
 │                       │      │                  https://bugzilla.redhat.com/show_bug.cgi?id=2557443           
@@ -9819,12 +10138,12 @@
 │                       │      │                  https://bugzilla.redhat.com/show_bug.cgi?id=2557564           
 │                       │      │                  https://bugzilla.redhat.com/show_bug.cgi?id=2557598           
 │                       │      │                  https://bugzilla.redhat.com/show_bug.cgi?id=2557662           
-│                       │      │                  https://bugzilla.redhat.com/show_bug.cgi?id=2557665           
 │                       │      │                  https://bugzilla.redhat.com/show_bug.cgi?id=2557674           
 │                       │      │                  https://bugzilla.redhat.com/show_bug.cgi?id=2557690           
 │                       │      │                  https://bugzilla.redhat.com/show_bug.cgi?id=2557709           
 │                       │      │                  https://bugzilla.redhat.com/show_bug.cgi?id=2557711           
 │                       │      │                  https://bugzilla.redhat.com/show_bug.cgi?id=2557731           
+│                       │      │                  https://bugzilla.redhat.com/show_bug.cgi?id=2557757           
 │                       │      │                  https://bugzilla.redhat.com/show_bug.cgi?id=2557765           
 │                       │      │                  https://bugzilla.redhat.com/show_bug.cgi?id=2557780           
 │                       │      │                  https://bugzilla.redhat.com/show_bug.cgi?id=2557857           
@@ -9834,16 +10153,20 @@
 │                       │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-101516
 │                       │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-83374 
 │                       │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-83376 
+│                       │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-83378 
 │                       │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-83380 
 │                       │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-83381 
 │                       │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-83387 
 │                       │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-83395 
 │                       │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-83400 
+│                       │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-87255 
 │                       │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-87290 
+│                       │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-87291 
 │                       │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-87292 
 │                       │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-87294 
 │                       │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-87367 
 │                       │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-91332 
+│                       │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-91333 
 │                       │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-91334 
 │                       │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-91335 
 │                       │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-91373 
@@ -9851,7 +10174,6 @@
 │                       │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-91375 
 │                       │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-91379 
 │                       │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-91380 
-│                       │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-91382 
 │                       │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-91394 
 │                       │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-91397 
 │                       │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-91398 
@@ -9867,8 +10189,8 @@
 │                       │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-91463 
 │                       │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-91464 
 │                       │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-91487 
-│                       │      │                  https://errata.almalinux.org/8/ALSA-2026-88352.html           
-│                       │      │                  https://errata.rockylinux.org/RLSA-2026:88352                 
+│                       │      │                  https://errata.almalinux.org/9/ALSA-2026-90500.html           
+│                       │      │                  https://errata.rockylinux.org/RLSA-2026:88347                 
 │                       │      │                  https://linux.oracle.com/cve/CVE-2026-87367.html              
 │                       │      │                  https://linux.oracle.com/errata/ELSA-2026-90504.html          
 │                       │      │                  https://nvd.nist.gov/vuln/detail/CVE-2026-87367               
@@ -9893,8 +10215,8 @@
 │                       │      ├ DataSource       ╭ ID  : alpine 
 │                       │      │                  ├ Name: Alpine Secdb 
 │                       │      │                  ╰ URL : https://secdb.alpinelinux.org/ 
-│                       │      ├ Fingerprint     : sha256:7a582dc47273d47cc8507125501c91356924cd431b00efeb664e8
-│                       │      │                   4f475a9e50f 
+│                       │      ├ Fingerprint     : sha256:043c08ea44ababd1302361a55baa396a574c51772cd6d0b546d6c
+│                       │      │                   a27b32de186 
 │                       │      ├ Title           : openjdk: Enhance Image Handling (Oracle CPU 2026-10) 
 │                       │      ├ Description     : Vulnerability in the Oracle Java SE, Oracle GraalVM for JDK,
 │                       │      │                    Oracle GraalVM Enterprise Edition product of Oracle Java SE
@@ -9934,7 +10256,8 @@
 │                       │      │                           ╰ V3Score : 2.6 
 │                       │      ├ References                                                                     
 │                       │      │                  ──────────────────────────────────────────────────────────────
-│                       │      │                  https://access.redhat.com/errata/RHSA-2026:88352              
+│                       │      │                  https://access.redhat.com/errata/RHSA-2026:88347              
+│                       │      │                  https://access.redhat.com/errata/RHSA-2026:90500              
 │                       │      │                  https://access.redhat.com/security/cve/CVE-2026-91335         
 │                       │      │                  https://bugzilla.redhat.com/2556709                           
 │                       │      │                  https://bugzilla.redhat.com/2556795                           
@@ -9977,10 +10300,12 @@
 │                       │      │                  https://bugzilla.redhat.com/show_bug.cgi?id=2556824           
 │                       │      │                  https://bugzilla.redhat.com/show_bug.cgi?id=2556837           
 │                       │      │                  https://bugzilla.redhat.com/show_bug.cgi?id=2556859           
+│                       │      │                  https://bugzilla.redhat.com/show_bug.cgi?id=2556960           
 │                       │      │                  https://bugzilla.redhat.com/show_bug.cgi?id=2557007           
 │                       │      │                  https://bugzilla.redhat.com/show_bug.cgi?id=2557032           
 │                       │      │                  https://bugzilla.redhat.com/show_bug.cgi?id=2557041           
 │                       │      │                  https://bugzilla.redhat.com/show_bug.cgi?id=2557047           
+│                       │      │                  https://bugzilla.redhat.com/show_bug.cgi?id=2557056           
 │                       │      │                  https://bugzilla.redhat.com/show_bug.cgi?id=2557079           
 │                       │      │                  https://bugzilla.redhat.com/show_bug.cgi?id=2557110           
 │                       │      │                  https://bugzilla.redhat.com/show_bug.cgi?id=2557117           
@@ -9989,6 +10314,7 @@
 │                       │      │                  https://bugzilla.redhat.com/show_bug.cgi?id=2557236           
 │                       │      │                  https://bugzilla.redhat.com/show_bug.cgi?id=2557261           
 │                       │      │                  https://bugzilla.redhat.com/show_bug.cgi?id=2557356           
+│                       │      │                  https://bugzilla.redhat.com/show_bug.cgi?id=2557364           
 │                       │      │                  https://bugzilla.redhat.com/show_bug.cgi?id=2557405           
 │                       │      │                  https://bugzilla.redhat.com/show_bug.cgi?id=2557427           
 │                       │      │                  https://bugzilla.redhat.com/show_bug.cgi?id=2557443           
@@ -9997,12 +10323,12 @@
 │                       │      │                  https://bugzilla.redhat.com/show_bug.cgi?id=2557564           
 │                       │      │                  https://bugzilla.redhat.com/show_bug.cgi?id=2557598           
 │                       │      │                  https://bugzilla.redhat.com/show_bug.cgi?id=2557662           
-│                       │      │                  https://bugzilla.redhat.com/show_bug.cgi?id=2557665           
 │                       │      │                  https://bugzilla.redhat.com/show_bug.cgi?id=2557674           
 │                       │      │                  https://bugzilla.redhat.com/show_bug.cgi?id=2557690           
 │                       │      │                  https://bugzilla.redhat.com/show_bug.cgi?id=2557709           
 │                       │      │                  https://bugzilla.redhat.com/show_bug.cgi?id=2557711           
 │                       │      │                  https://bugzilla.redhat.com/show_bug.cgi?id=2557731           
+│                       │      │                  https://bugzilla.redhat.com/show_bug.cgi?id=2557757           
 │                       │      │                  https://bugzilla.redhat.com/show_bug.cgi?id=2557765           
 │                       │      │                  https://bugzilla.redhat.com/show_bug.cgi?id=2557780           
 │                       │      │                  https://bugzilla.redhat.com/show_bug.cgi?id=2557857           
@@ -10012,16 +10338,20 @@
 │                       │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-101516
 │                       │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-83374 
 │                       │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-83376 
+│                       │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-83378 
 │                       │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-83380 
 │                       │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-83381 
 │                       │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-83387 
 │                       │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-83395 
 │                       │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-83400 
+│                       │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-87255 
 │                       │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-87290 
+│                       │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-87291 
 │                       │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-87292 
 │                       │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-87294 
 │                       │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-87367 
 │                       │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-91332 
+│                       │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-91333 
 │                       │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-91334 
 │                       │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-91335 
 │                       │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-91373 
@@ -10029,7 +10359,6 @@
 │                       │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-91375 
 │                       │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-91379 
 │                       │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-91380 
-│                       │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-91382 
 │                       │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-91394 
 │                       │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-91397 
 │                       │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-91398 
@@ -10045,8 +10374,8 @@
 │                       │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-91463 
 │                       │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-91464 
 │                       │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-91487 
-│                       │      │                  https://errata.almalinux.org/8/ALSA-2026-88352.html           
-│                       │      │                  https://errata.rockylinux.org/RLSA-2026:88352                 
+│                       │      │                  https://errata.almalinux.org/9/ALSA-2026-90500.html           
+│                       │      │                  https://errata.rockylinux.org/RLSA-2026:88347                 
 │                       │      │                  https://linux.oracle.com/cve/CVE-2026-91335.html              
 │                       │      │                  https://linux.oracle.com/errata/ELSA-2026-90504.html          
 │                       │      │                  https://nvd.nist.gov/vuln/detail/CVE-2026-91335               
@@ -10071,8 +10400,8 @@
 │                       │      ├ DataSource       ╭ ID  : alpine 
 │                       │      │                  ├ Name: Alpine Secdb 
 │                       │      │                  ╰ URL : https://secdb.alpinelinux.org/ 
-│                       │      ├ Fingerprint     : sha256:9ebb9dbf9e3e9195fb9ff28d5e0921a16e4a11ad136984e85433b
-│                       │      │                   2fbb6d6e286 
+│                       │      ├ Fingerprint     : sha256:1c6681d77fffacdc39ba8ea700683a838ce6b715b57a8c292827f
+│                       │      │                   43be04ef281 
 │                       │      ├ Title           : openjdk: Enhance Font Rendering (Oracle CPU 2026-10) 
 │                       │      ├ Description     : Vulnerability in the Oracle Java SE, Oracle GraalVM
 │                       │      │                   Enterprise Edition product of Oracle Java SE (component:
@@ -10128,8 +10457,8 @@
 │                       │      ├ DataSource       ╭ ID  : alpine 
 │                       │      │                  ├ Name: Alpine Secdb 
 │                       │      │                  ╰ URL : https://secdb.alpinelinux.org/ 
-│                       │      ├ Fingerprint     : sha256:a7607bc558d54d710898c380aea71b931d5d8a4754165513c2afa
-│                       │      │                   9de7a722287 
+│                       │      ├ Fingerprint     : sha256:e44ca334efac1979a84831fa710d3f2c63114662297d7d3cd5a3c
+│                       │      │                   508628b0201 
 │                       │      ├ Title           : openjdk: Enhance diagnostic sessions (Oracle CPU 2026-10) 
 │                       │      ├ Description     : Vulnerability in the Oracle Java SE, Oracle GraalVM for JDK,
 │                       │      │                    Oracle GraalVM Enterprise Edition product of Oracle Java SE
@@ -10173,7 +10502,8 @@
 │                       │      │                           ╰ V3Score : 3.6 
 │                       │      ├ References                                                                     
 │                       │      │                  ──────────────────────────────────────────────────────────────
-│                       │      │                  https://access.redhat.com/errata/RHSA-2026:88352              
+│                       │      │                  https://access.redhat.com/errata/RHSA-2026:88347              
+│                       │      │                  https://access.redhat.com/errata/RHSA-2026:90500              
 │                       │      │                  https://access.redhat.com/security/cve/CVE-2026-91397         
 │                       │      │                  https://bugzilla.redhat.com/2556709                           
 │                       │      │                  https://bugzilla.redhat.com/2556795                           
@@ -10216,10 +10546,12 @@
 │                       │      │                  https://bugzilla.redhat.com/show_bug.cgi?id=2556824           
 │                       │      │                  https://bugzilla.redhat.com/show_bug.cgi?id=2556837           
 │                       │      │                  https://bugzilla.redhat.com/show_bug.cgi?id=2556859           
+│                       │      │                  https://bugzilla.redhat.com/show_bug.cgi?id=2556960           
 │                       │      │                  https://bugzilla.redhat.com/show_bug.cgi?id=2557007           
 │                       │      │                  https://bugzilla.redhat.com/show_bug.cgi?id=2557032           
 │                       │      │                  https://bugzilla.redhat.com/show_bug.cgi?id=2557041           
 │                       │      │                  https://bugzilla.redhat.com/show_bug.cgi?id=2557047           
+│                       │      │                  https://bugzilla.redhat.com/show_bug.cgi?id=2557056           
 │                       │      │                  https://bugzilla.redhat.com/show_bug.cgi?id=2557079           
 │                       │      │                  https://bugzilla.redhat.com/show_bug.cgi?id=2557110           
 │                       │      │                  https://bugzilla.redhat.com/show_bug.cgi?id=2557117           
@@ -10228,6 +10560,7 @@
 │                       │      │                  https://bugzilla.redhat.com/show_bug.cgi?id=2557236           
 │                       │      │                  https://bugzilla.redhat.com/show_bug.cgi?id=2557261           
 │                       │      │                  https://bugzilla.redhat.com/show_bug.cgi?id=2557356           
+│                       │      │                  https://bugzilla.redhat.com/show_bug.cgi?id=2557364           
 │                       │      │                  https://bugzilla.redhat.com/show_bug.cgi?id=2557405           
 │                       │      │                  https://bugzilla.redhat.com/show_bug.cgi?id=2557427           
 │                       │      │                  https://bugzilla.redhat.com/show_bug.cgi?id=2557443           
@@ -10236,12 +10569,12 @@
 │                       │      │                  https://bugzilla.redhat.com/show_bug.cgi?id=2557564           
 │                       │      │                  https://bugzilla.redhat.com/show_bug.cgi?id=2557598           
 │                       │      │                  https://bugzilla.redhat.com/show_bug.cgi?id=2557662           
-│                       │      │                  https://bugzilla.redhat.com/show_bug.cgi?id=2557665           
 │                       │      │                  https://bugzilla.redhat.com/show_bug.cgi?id=2557674           
 │                       │      │                  https://bugzilla.redhat.com/show_bug.cgi?id=2557690           
 │                       │      │                  https://bugzilla.redhat.com/show_bug.cgi?id=2557709           
 │                       │      │                  https://bugzilla.redhat.com/show_bug.cgi?id=2557711           
 │                       │      │                  https://bugzilla.redhat.com/show_bug.cgi?id=2557731           
+│                       │      │                  https://bugzilla.redhat.com/show_bug.cgi?id=2557757           
 │                       │      │                  https://bugzilla.redhat.com/show_bug.cgi?id=2557765           
 │                       │      │                  https://bugzilla.redhat.com/show_bug.cgi?id=2557780           
 │                       │      │                  https://bugzilla.redhat.com/show_bug.cgi?id=2557857           
@@ -10251,16 +10584,20 @@
 │                       │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-101516
 │                       │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-83374 
 │                       │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-83376 
+│                       │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-83378 
 │                       │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-83380 
 │                       │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-83381 
 │                       │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-83387 
 │                       │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-83395 
 │                       │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-83400 
+│                       │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-87255 
 │                       │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-87290 
+│                       │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-87291 
 │                       │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-87292 
 │                       │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-87294 
 │                       │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-87367 
 │                       │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-91332 
+│                       │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-91333 
 │                       │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-91334 
 │                       │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-91335 
 │                       │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-91373 
@@ -10268,7 +10605,6 @@
 │                       │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-91375 
 │                       │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-91379 
 │                       │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-91380 
-│                       │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-91382 
 │                       │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-91394 
 │                       │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-91397 
 │                       │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-91398 
@@ -10284,8 +10620,8 @@
 │                       │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-91463 
 │                       │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-91464 
 │                       │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-91487 
-│                       │      │                  https://errata.almalinux.org/8/ALSA-2026-88352.html           
-│                       │      │                  https://errata.rockylinux.org/RLSA-2026:88352                 
+│                       │      │                  https://errata.almalinux.org/9/ALSA-2026-90500.html           
+│                       │      │                  https://errata.rockylinux.org/RLSA-2026:88347                 
 │                       │      │                  https://linux.oracle.com/cve/CVE-2026-91397.html              
 │                       │      │                  https://linux.oracle.com/errata/ELSA-2026-90504.html          
 │                       │      │                  https://nvd.nist.gov/vuln/detail/CVE-2026-91397               
@@ -10310,8 +10646,8 @@
 │                       │      ├ DataSource       ╭ ID  : alpine 
 │                       │      │                  ├ Name: Alpine Secdb 
 │                       │      │                  ╰ URL : https://secdb.alpinelinux.org/ 
-│                       │      ├ Fingerprint     : sha256:b8a7b31950ab99dc930e11db293c0716a7cf038a109a90156c03f
-│                       │      │                   454e4f61ed1 
+│                       │      ├ Fingerprint     : sha256:dd100e24fc6f224d793eea19cbfb21045a6692b43ebc61f353235
+│                       │      │                   36202839572 
 │                       │      ├ Title           : openjdk: Enhance MIDI file handling (Oracle CPU 2026-10) 
 │                       │      ├ Description     : Vulnerability in the Oracle Java SE, Oracle GraalVM for JDK,
 │                       │      │                    Oracle GraalVM Enterprise Edition product of Oracle Java SE
@@ -10352,7 +10688,8 @@
 │                       │      │                           ╰ V3Score : 3.1 
 │                       │      ├ References                                                                     
 │                       │      │                  ──────────────────────────────────────────────────────────────
-│                       │      │                  https://access.redhat.com/errata/RHSA-2026:88352              
+│                       │      │                  https://access.redhat.com/errata/RHSA-2026:88347              
+│                       │      │                  https://access.redhat.com/errata/RHSA-2026:90500              
 │                       │      │                  https://access.redhat.com/security/cve/CVE-2026-91400         
 │                       │      │                  https://bugzilla.redhat.com/2556709                           
 │                       │      │                  https://bugzilla.redhat.com/2556795                           
@@ -10395,10 +10732,12 @@
 │                       │      │                  https://bugzilla.redhat.com/show_bug.cgi?id=2556824           
 │                       │      │                  https://bugzilla.redhat.com/show_bug.cgi?id=2556837           
 │                       │      │                  https://bugzilla.redhat.com/show_bug.cgi?id=2556859           
+│                       │      │                  https://bugzilla.redhat.com/show_bug.cgi?id=2556960           
 │                       │      │                  https://bugzilla.redhat.com/show_bug.cgi?id=2557007           
 │                       │      │                  https://bugzilla.redhat.com/show_bug.cgi?id=2557032           
 │                       │      │                  https://bugzilla.redhat.com/show_bug.cgi?id=2557041           
 │                       │      │                  https://bugzilla.redhat.com/show_bug.cgi?id=2557047           
+│                       │      │                  https://bugzilla.redhat.com/show_bug.cgi?id=2557056           
 │                       │      │                  https://bugzilla.redhat.com/show_bug.cgi?id=2557079           
 │                       │      │                  https://bugzilla.redhat.com/show_bug.cgi?id=2557110           
 │                       │      │                  https://bugzilla.redhat.com/show_bug.cgi?id=2557117           
@@ -10407,6 +10746,7 @@
 │                       │      │                  https://bugzilla.redhat.com/show_bug.cgi?id=2557236           
 │                       │      │                  https://bugzilla.redhat.com/show_bug.cgi?id=2557261           
 │                       │      │                  https://bugzilla.redhat.com/show_bug.cgi?id=2557356           
+│                       │      │                  https://bugzilla.redhat.com/show_bug.cgi?id=2557364           
 │                       │      │                  https://bugzilla.redhat.com/show_bug.cgi?id=2557405           
 │                       │      │                  https://bugzilla.redhat.com/show_bug.cgi?id=2557427           
 │                       │      │                  https://bugzilla.redhat.com/show_bug.cgi?id=2557443           
@@ -10415,12 +10755,12 @@
 │                       │      │                  https://bugzilla.redhat.com/show_bug.cgi?id=2557564           
 │                       │      │                  https://bugzilla.redhat.com/show_bug.cgi?id=2557598           
 │                       │      │                  https://bugzilla.redhat.com/show_bug.cgi?id=2557662           
-│                       │      │                  https://bugzilla.redhat.com/show_bug.cgi?id=2557665           
 │                       │      │                  https://bugzilla.redhat.com/show_bug.cgi?id=2557674           
 │                       │      │                  https://bugzilla.redhat.com/show_bug.cgi?id=2557690           
 │                       │      │                  https://bugzilla.redhat.com/show_bug.cgi?id=2557709           
 │                       │      │                  https://bugzilla.redhat.com/show_bug.cgi?id=2557711           
 │                       │      │                  https://bugzilla.redhat.com/show_bug.cgi?id=2557731           
+│                       │      │                  https://bugzilla.redhat.com/show_bug.cgi?id=2557757           
 │                       │      │                  https://bugzilla.redhat.com/show_bug.cgi?id=2557765           
 │                       │      │                  https://bugzilla.redhat.com/show_bug.cgi?id=2557780           
 │                       │      │                  https://bugzilla.redhat.com/show_bug.cgi?id=2557857           
@@ -10430,16 +10770,20 @@
 │                       │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-101516
 │                       │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-83374 
 │                       │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-83376 
+│                       │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-83378 
 │                       │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-83380 
 │                       │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-83381 
 │                       │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-83387 
 │                       │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-83395 
 │                       │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-83400 
+│                       │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-87255 
 │                       │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-87290 
+│                       │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-87291 
 │                       │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-87292 
 │                       │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-87294 
 │                       │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-87367 
 │                       │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-91332 
+│                       │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-91333 
 │                       │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-91334 
 │                       │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-91335 
 │                       │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-91373 
@@ -10447,7 +10791,6 @@
 │                       │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-91375 
 │                       │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-91379 
 │                       │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-91380 
-│                       │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-91382 
 │                       │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-91394 
 │                       │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-91397 
 │                       │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-91398 
@@ -10463,8 +10806,8 @@
 │                       │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-91463 
 │                       │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-91464 
 │                       │      │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-91487 
-│                       │      │                  https://errata.almalinux.org/8/ALSA-2026-88352.html           
-│                       │      │                  https://errata.rockylinux.org/RLSA-2026:88352                 
+│                       │      │                  https://errata.almalinux.org/9/ALSA-2026-90500.html           
+│                       │      │                  https://errata.rockylinux.org/RLSA-2026:88347                 
 │                       │      │                  https://linux.oracle.com/cve/CVE-2026-91400.html              
 │                       │      │                  https://linux.oracle.com/errata/ELSA-2026-90504.html          
 │                       │      │                  https://nvd.nist.gov/vuln/detail/CVE-2026-91400               
@@ -10489,8 +10832,8 @@
 │                       │      ├ DataSource       ╭ ID  : alpine 
 │                       │      │                  ├ Name: Alpine Secdb 
 │                       │      │                  ╰ URL : https://secdb.alpinelinux.org/ 
-│                       │      ├ Fingerprint     : sha256:e90deaa708f79e7ecb2114ec23226617911e844e1edb22b813845
-│                       │      │                   3530979a38e 
+│                       │      ├ Fingerprint     : sha256:66e96cdec4fddaba3b8315a6a6b782bdfb884245623defe1e0ede
+│                       │      │                   459ef66c752 
 │                       │      ├ Title           : openjfx: openjfx: information disclosure via untrusted code
 │                       │      │                   execution 
 │                       │      ├ Description     : Vulnerability in the Oracle Java SE, Oracle JavaFX, Oracle
@@ -10549,8 +10892,8 @@
 │                              ├ DataSource       ╭ ID  : alpine 
 │                              │                  ├ Name: Alpine Secdb 
 │                              │                  ╰ URL : https://secdb.alpinelinux.org/ 
-│                              ├ Fingerprint     : sha256:9da8b5e0431044ff796ee7d7b3ee5d1f42ebb79c46c29e4cb4985
-│                              │                   6c9478395dd 
+│                              ├ Fingerprint     : sha256:fc1275b61c2b5c3558b5cd647a1ca0f582b2308e8f265a4bdc375
+│                              │                   51ffbc74e69 
 │                              ├ Title           : openjdk: Enhance TLS Extensions (Oracle CPU 2026-10) 
 │                              ├ Description     : Vulnerability in the Oracle Java SE, Oracle GraalVM for JDK,
 │                              │                    Oracle GraalVM Enterprise Edition product of Oracle Java SE
@@ -10585,7 +10928,8 @@
 │                              │                           ╰ V3Score : 3.7 
 │                              ├ References                                                                     
 │                              │                  ──────────────────────────────────────────────────────────────
-│                              │                  https://access.redhat.com/errata/RHSA-2026:88352              
+│                              │                  https://access.redhat.com/errata/RHSA-2026:88347              
+│                              │                  https://access.redhat.com/errata/RHSA-2026:90500              
 │                              │                  https://access.redhat.com/security/cve/CVE-2026-91461         
 │                              │                  https://bugzilla.redhat.com/2556709                           
 │                              │                  https://bugzilla.redhat.com/2556795                           
@@ -10628,10 +10972,12 @@
 │                              │                  https://bugzilla.redhat.com/show_bug.cgi?id=2556824           
 │                              │                  https://bugzilla.redhat.com/show_bug.cgi?id=2556837           
 │                              │                  https://bugzilla.redhat.com/show_bug.cgi?id=2556859           
+│                              │                  https://bugzilla.redhat.com/show_bug.cgi?id=2556960           
 │                              │                  https://bugzilla.redhat.com/show_bug.cgi?id=2557007           
 │                              │                  https://bugzilla.redhat.com/show_bug.cgi?id=2557032           
 │                              │                  https://bugzilla.redhat.com/show_bug.cgi?id=2557041           
 │                              │                  https://bugzilla.redhat.com/show_bug.cgi?id=2557047           
+│                              │                  https://bugzilla.redhat.com/show_bug.cgi?id=2557056           
 │                              │                  https://bugzilla.redhat.com/show_bug.cgi?id=2557079           
 │                              │                  https://bugzilla.redhat.com/show_bug.cgi?id=2557110           
 │                              │                  https://bugzilla.redhat.com/show_bug.cgi?id=2557117           
@@ -10640,6 +10986,7 @@
 │                              │                  https://bugzilla.redhat.com/show_bug.cgi?id=2557236           
 │                              │                  https://bugzilla.redhat.com/show_bug.cgi?id=2557261           
 │                              │                  https://bugzilla.redhat.com/show_bug.cgi?id=2557356           
+│                              │                  https://bugzilla.redhat.com/show_bug.cgi?id=2557364           
 │                              │                  https://bugzilla.redhat.com/show_bug.cgi?id=2557405           
 │                              │                  https://bugzilla.redhat.com/show_bug.cgi?id=2557427           
 │                              │                  https://bugzilla.redhat.com/show_bug.cgi?id=2557443           
@@ -10648,12 +10995,12 @@
 │                              │                  https://bugzilla.redhat.com/show_bug.cgi?id=2557564           
 │                              │                  https://bugzilla.redhat.com/show_bug.cgi?id=2557598           
 │                              │                  https://bugzilla.redhat.com/show_bug.cgi?id=2557662           
-│                              │                  https://bugzilla.redhat.com/show_bug.cgi?id=2557665           
 │                              │                  https://bugzilla.redhat.com/show_bug.cgi?id=2557674           
 │                              │                  https://bugzilla.redhat.com/show_bug.cgi?id=2557690           
 │                              │                  https://bugzilla.redhat.com/show_bug.cgi?id=2557709           
 │                              │                  https://bugzilla.redhat.com/show_bug.cgi?id=2557711           
 │                              │                  https://bugzilla.redhat.com/show_bug.cgi?id=2557731           
+│                              │                  https://bugzilla.redhat.com/show_bug.cgi?id=2557757           
 │                              │                  https://bugzilla.redhat.com/show_bug.cgi?id=2557765           
 │                              │                  https://bugzilla.redhat.com/show_bug.cgi?id=2557780           
 │                              │                  https://bugzilla.redhat.com/show_bug.cgi?id=2557857           
@@ -10663,16 +11010,20 @@
 │                              │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-101516
 │                              │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-83374 
 │                              │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-83376 
+│                              │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-83378 
 │                              │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-83380 
 │                              │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-83381 
 │                              │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-83387 
 │                              │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-83395 
 │                              │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-83400 
+│                              │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-87255 
 │                              │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-87290 
+│                              │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-87291 
 │                              │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-87292 
 │                              │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-87294 
 │                              │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-87367 
 │                              │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-91332 
+│                              │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-91333 
 │                              │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-91334 
 │                              │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-91335 
 │                              │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-91373 
@@ -10680,7 +11031,6 @@
 │                              │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-91375 
 │                              │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-91379 
 │                              │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-91380 
-│                              │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-91382 
 │                              │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-91394 
 │                              │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-91397 
 │                              │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-91398 
@@ -10696,8 +11046,8 @@
 │                              │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-91463 
 │                              │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-91464 
 │                              │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-91487 
-│                              │                  https://errata.almalinux.org/8/ALSA-2026-88352.html           
-│                              │                  https://errata.rockylinux.org/RLSA-2026:88352                 
+│                              │                  https://errata.almalinux.org/9/ALSA-2026-90500.html           
+│                              │                  https://errata.rockylinux.org/RLSA-2026:88347                 
 │                              │                  https://linux.oracle.com/cve/CVE-2026-91461.html              
 │                              │                  https://linux.oracle.com/errata/ELSA-2026-90504.html          
 │                              │                  https://nvd.nist.gov/vuln/detail/CVE-2026-91461               
