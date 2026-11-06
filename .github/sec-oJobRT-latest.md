@@ -248,7 +248,7 @@
 │                       │      │                  https://ubuntu.com/security/notices/USN-8460-1             
 │                       │      │                  https://www.cve.org/CVERecord?id=CVE-2026-6732             
 │                       │      ├ PublishedDate   : 2026-04-23T23:16:16.443Z 
-│                       │      ╰ LastModifiedDate: 2026-10-26T21:10:00.17Z 
+│                       │      ╰ LastModifiedDate: 2026-11-05T22:18:53.58Z 
 │                       ├ [4]  ╭ VulnerabilityID : CVE-2026-83374 
 │                       │      ├ PkgID           : openjdk21-jre@21.0.12_p8-r0 
 │                       │      ├ PkgName         : openjdk21-jre 
@@ -5774,7 +5774,7 @@
 │                       │      │                  https://ubuntu.com/security/notices/USN-8460-1             
 │                       │      │                  https://www.cve.org/CVERecord?id=CVE-2026-6732             
 │                       │      ├ PublishedDate   : 2026-04-23T23:16:16.443Z 
-│                       │      ╰ LastModifiedDate: 2026-10-26T21:10:00.17Z 
+│                       │      ╰ LastModifiedDate: 2026-11-05T22:18:53.58Z 
 │                       ├ [39] ╭ VulnerabilityID : CVE-2026-83374 
 │                       │      ├ PkgID           : openjdk21-jre-headless@21.0.12_p8-r0 
 │                       │      ├ PkgName         : openjdk21-jre-headless 
