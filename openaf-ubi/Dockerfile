@@ -30,17 +30,19 @@ USER 1000:0
 # Install openaf and prepare everything
 RUN cd /openaf\
  && curl -o openaf.jar https://openaf.io/${OPENAFDIST:+$OPENAFDIST/}openaf.jar.repacked -s\
- && java -jar openaf.jar --install -e 'args=$JAVA_ARGS'\
- && sudo chmod -R u+rwx,g+rwx,o+rx,o-w /openaf/*\
- && sudo chmod a+rwx /openaf\
- && sudo chown -R openaf:0 /openaf\
- && (sudo chown openaf:0 /openaf/.opack.db || true)\
- && (sudo chmod g+w /openaf/.opack.db || true)\
+ && java -jar openaf.jar --install -e 'args=$JAVA_ARGS'
+
+# Fix permissions as root directly (avoids depending on sudo/PAM during the build)
+USER root
+RUN chmod -R u+rwx,g+rwx,o+rx,o-w /openaf/*\
+ && chmod a+rwx /openaf\
+ && chown -R openaf:0 /openaf\
+ && (chown openaf:0 /openaf/.opack.db || true)\
+ && (chmod g+w /openaf/.opack.db || true)\
  && /openaf/oaf --bashcompletion all > ~/.openaf_completion_bash.sh
 
-USER root
-RUN /openaf/oaf --bashcompletion all > ~/.openaf_completion_bash.sh
 USER 1000:0
+RUN /openaf/oaf --bashcompletion all > ~/.openaf_completion_bash.sh
 
 # Installation can report CDS generation errors without failing. Validate with
 # the generated launcher's JVM options. Recreate an unusable archive with
