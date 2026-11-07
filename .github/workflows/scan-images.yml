@@ -8,6 +8,7 @@ on:
 jobs:
   setup:
     runs-on: ubuntu-latest
+    timeout-minutes: 60
     name: Setup
     steps:
     - name: Cache OpenAF runtime
@@ -48,6 +49,7 @@ jobs:
   scan-oaf-latest:
     needs: setup
     runs-on: ubuntu-latest
+    timeout-minutes: 60
     name: Scan openaf/oaf:latest
     steps:
     - uses: actions/checkout@v4
@@ -87,6 +89,7 @@ jobs:
   scan-oaf-nightly:
     needs: setup
     runs-on: ubuntu-latest
+    timeout-minutes: 60
     name: Scan openaf/oaf:nightly
     steps:
     - uses: actions/checkout@v4
@@ -126,6 +129,7 @@ jobs:
   scan-oaf-edge:
     needs: setup
     runs-on: ubuntu-latest
+    timeout-minutes: 60
     name: Scan openaf/oaf:edge
     steps:
     - uses: actions/checkout@v4
@@ -165,6 +169,7 @@ jobs:
   scan-oaf-ubi-nightly:
     needs: setup
     runs-on: ubuntu-latest
+    timeout-minutes: 60
     name: Scan openaf/oaf:ubi-nightly
     steps:
     - uses: actions/checkout@v4
@@ -204,6 +209,7 @@ jobs:
   scan-oaf-deb-nightly:
     needs: setup
     runs-on: ubuntu-latest
+    timeout-minutes: 60
     name: Scan openaf/oaf:deb-nightly
     steps:
     - uses: actions/checkout@v4
@@ -243,6 +249,7 @@ jobs:
   scan-oaf-ubi-latest:
     needs: setup
     runs-on: ubuntu-latest
+    timeout-minutes: 60
     name: Scan openaf/oaf:ubi
     steps:
     - uses: actions/checkout@v4
@@ -283,6 +290,7 @@ jobs:
   scan-oaf-deb-latest:
     needs: setup
     runs-on: ubuntu-latest
+    timeout-minutes: 60
     name: Scan openaf/oaf:deb
     steps:
     - uses: actions/checkout@v4
@@ -323,6 +331,7 @@ jobs:
   scan-ojobrt-latest:
     needs: setup
     runs-on: ubuntu-latest
+    timeout-minutes: 60
     name: Scan openaf/ojobrt:latest
     steps:
     - uses: actions/checkout@v4
@@ -363,6 +372,7 @@ jobs:
   scan-ojobrt-nightly:
     needs: setup
     runs-on: ubuntu-latest
+    timeout-minutes: 60
     name: Scan openaf/ojobrt:nightly
     steps:
     - uses: actions/checkout@v4
@@ -403,6 +413,7 @@ jobs:
   scan-pyoaf-nightly:
     needs: setup
     runs-on: ubuntu-latest
+    timeout-minutes: 60
     name: Scan openaf/pyoaf:nightly
     steps:
     - uses: actions/checkout@v4
@@ -443,6 +454,7 @@ jobs:
   scan-ojobrt-edge:
     needs: setup
     runs-on: ubuntu-latest
+    timeout-minutes: 60
     name: Scan openaf/ojobrt:edge
     steps:
     - uses: actions/checkout@v4
@@ -483,6 +495,7 @@ jobs:
   scan-pyoaf-edge:
     needs: setup
     runs-on: ubuntu-latest
+    timeout-minutes: 60
     name: Scan openaf/pyoaf:edge
     steps:
     - uses: actions/checkout@v4
@@ -526,6 +539,7 @@ jobs:
       pull-requests: write
     needs: [scan-oaf-latest, scan-oaf-nightly, scan-oaf-edge, scan-oaf-ubi-nightly, scan-oaf-deb-nightly, scan-oaf-ubi-latest, scan-oaf-deb-latest, scan-ojobrt-latest, scan-ojobrt-nightly, scan-pyoaf-nightly, scan-ojobrt-edge, scan-pyoaf-edge]
     runs-on: ubuntu-latest
+    timeout-minutes: 60
     name: Push results
     steps:
     - uses: actions/checkout@v4
