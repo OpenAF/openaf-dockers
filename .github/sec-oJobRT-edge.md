@@ -11,16 +11,16 @@
 │                             ├ InstalledVersion: 1.3.2-r1 
 │                             ├ FixedVersion    : 1.4-r0 
 │                             ├ Status          : fixed 
-│                             ├ Layer            ╭ Digest: sha256:8a853e0ac7ba81f9c9ad91ec2e16b266cad78ad99b30c
-│                             │                  │         3079169a7a453e77203 
-│                             │                  ╰ DiffID: sha256:4a862ad2d6bb2014b41f77766feefce455a4315f8ce46
-│                             │                            4b497f569af2b943556 
+│                             ├ Layer            ╭ Digest: sha256:e3587b8247249f7719800ae249255c39e850d6dd1b60b
+│                             │                  │         0aaa54cc3220339a731 
+│                             │                  ╰ DiffID: sha256:dfde740c59a5823efb215e80715d24718d539c8372825
+│                             │                            5cfed29ba35a6a4b51f 
 │                             ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2026-4738 
 │                             ├ DataSource       ╭ ID  : alpine 
 │                             │                  ├ Name: Alpine Secdb 
 │                             │                  ╰ URL : https://secdb.alpinelinux.org/ 
-│                             ├ Fingerprint     : sha256:37011ed0e94b12b93d1e3fa843656dabc6d31f86df4e28b227e602
-│                             │                   6c124099e2 
+│                             ├ Fingerprint     : sha256:b3dfd2168e641017ac13605868bd3f9fa3dad47477fb2e39765956
+│                             │                   66e9b76896 
 │                             ├ Title           : Improper Restriction of Operations within the Bounds of a
 │                             │                   Memory Buffe ... 
 │                             ├ Description     : Improper Restriction of Operations within the Bounds of a
