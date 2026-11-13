@@ -22,16 +22,16 @@
                               ├ InstalledVersion: v1.27.3 
                               ├ FixedVersion    : 1.26.11, 1.27.4 
                               ├ Status          : fixed 
-                              ├ Layer            ╭ Digest: sha256:59eeec387a39ec78da9336323f68da480421ed6bc265a
-                              │                  │         c0be16c2d9eabd9a621 
-                              │                  ╰ DiffID: sha256:9450a9abd6585109098c7d08e29781c5346a99f83f76f
-                              │                            1ddb8cb2b3dd551f6fa 
+                              ├ Layer            ╭ Digest: sha256:626217e5cd144076c2f3549b52f10d4fe670026d6be1e
+                              │                  │         1e0cd7f568e483c3744 
+                              │                  ╰ DiffID: sha256:2325c415b62d99ef6f4645c13b0695d7bdf25b25bbbe4
+                              │                            536008c550943e1da11 
                               ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2026-97054 
                               ├ DataSource       ╭ ID  : govulndb 
                               │                  ├ Name: The Go Vulnerability Database 
                               │                  ╰ URL : https://pkg.go.dev/vuln/ 
-                              ├ Fingerprint     : sha256:a8eaec15d88d46b5af2e09726dceb3fbb61726e132a98366d6ebf0
-                              │                   698459db13 
+                              ├ Fingerprint     : sha256:8278b152f91ca8f36909c605b97696b097c04555eaebf52704fd3e
+                              │                   efea61e53a 
                               ├ Title           : For HTTP/1 servers, when MaxBytesReader's limit is exceeded,
                               │                   "Connecti ... 
                               ├ Description     : For HTTP/1 servers, when MaxBytesReader's limit is exceeded,
@@ -49,5 +49,5 @@
                               │                  https://groups.google.com/g/golang-announce/c/iY8TY0wWgbM
                               │                  https://pkg.go.dev/vuln/GO-2026-6859                     
                               ├ PublishedDate   : 2026-11-11T05:19:58.943Z 
-                              ╰ LastModifiedDate: 2026-11-11T05:19:58.943Z 
+                              ╰ LastModifiedDate: 2026-11-12T22:09:39.233Z 
 ```
