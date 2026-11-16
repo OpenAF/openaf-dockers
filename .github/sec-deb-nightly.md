@@ -22,16 +22,16 @@
                               ├ InstalledVersion: v1.27.3 
                               ├ FixedVersion    : 1.26.11, 1.27.4 
                               ├ Status          : fixed 
-                              ├ Layer            ╭ Digest: sha256:29ff67b6a3d515b4323eedd52f4073e1ae2168a00a2c3
-                              │                  │         d2953af5604a69efe07 
-                              │                  ╰ DiffID: sha256:ee774d118b94968a5808a48392b8f06623719709142b5
-                              │                            505dd591d69ddfec9fb 
+                              ├ Layer            ╭ Digest: sha256:9560d95454baef6dc736b4e63b2edda4b98fedc512366
+                              │                  │         0a40edf71c4bba47a43 
+                              │                  ╰ DiffID: sha256:3acf3979a1cc011e19cf27496a270246bde1a2d5e4ab0
+                              │                            502d41bc1c0b94dc922 
                               ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2026-97054 
                               ├ DataSource       ╭ ID  : govulndb 
                               │                  ├ Name: The Go Vulnerability Database 
                               │                  ╰ URL : https://pkg.go.dev/vuln/ 
-                              ├ Fingerprint     : sha256:4c0f9b04fae9bac8f799b4ad6b37c5ce6a6266a183310849a54450
-                              │                   167a62f2ea 
+                              ├ Fingerprint     : sha256:37cb25c021556a889b7311f43d287377a7136b77b8ed1b7f54de04
+                              │                   b46e628125 
                               ├ Title           : For HTTP/1 servers, when MaxBytesReader's limit is exceeded,
                               │                   "Connecti ... 
                               ├ Description     : For HTTP/1 servers, when MaxBytesReader's limit is exceeded,
