@@ -41,7 +41,12 @@
                               │                   server that utilizes MaxBytesReader or MaxBytesHandler can
                               │                   crash due to runtime panic if its handler reads the request
                               │                   body concurrently with writing the response header. 
-                              ├ Severity        : UNKNOWN 
+                              ├ Severity        : MEDIUM 
+                              ├ CweIDs                  
+                              │                  ───────
+                              │                  CWE-362
+                              │                  CWE-820
+                              ├ VendorSeverity   ─ amazon: 2 
                               ├ References                                                                
                               │                  ─────────────────────────────────────────────────────────
                               │                  https://go.dev/cl/862185                                 
@@ -49,5 +54,5 @@
                               │                  https://groups.google.com/g/golang-announce/c/iY8TY0wWgbM
                               │                  https://pkg.go.dev/vuln/GO-2026-6859                     
                               ├ PublishedDate   : 2026-11-11T05:19:58.943Z 
-                              ╰ LastModifiedDate: 2026-11-12T22:09:39.233Z 
+                              ╰ LastModifiedDate: 2026-11-16T16:17:56.29Z 
 ```
