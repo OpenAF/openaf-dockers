@@ -4554,6 +4554,44 @@
     - https://www.cve.org/CVERecord?id=CVE-2026-1485
     PublishedDate: '2026-01-27T14:15:56.223Z'
     LastModifiedDate: '2026-11-06T18:18:11.723Z'
+  - VulnerabilityID: CVE-2026-115819
+    PkgID: glibc@2.34-290.el9_9.x86_64
+    PkgName: glibc
+    PkgIdentifier:
+      PURL: pkg:rpm/redhat/glibc@2.34-290.el9_9?arch=x86_64&distro=redhat-9.9
+      UID: a33f663f082f8156
+    InstalledVersion: 2.34-290.el9_9
+    Status: affected
+    Layer:
+      Digest: sha256:5bdcdb7c65111d6d94e1fd98b75711af258b058a3d645a241b664cacfc262ccd
+      DiffID: sha256:a9db8d8289fc7ddb626192d029c7e01ead76405f1bc0a5cff5d0fa3a031d4a1d
+    SeveritySource: redhat
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2026-115819
+    Fingerprint: sha256:d8f7fdc9cbbc8679a9afd14671b25079af8c98bab987d26833e46314ae8abffa
+    Title: 'glibc: glibc: Memory corruption via out-of-bounds write in wide scanf functions'
+    Description: |-
+      Calling the wide scanf family of functions (swscanf, fwscanf, wscanf, vswscanf, vfwscanf and vwscanf) with a %s or %[ conversion without the 'l' length modifier in the GNU C Library version 2.2 to version 2.44 writes an extra null byte one past the end of the destination array when the converted multibyte string and its terminating null byte exactly fill that array.
+
+      These conversions store each wide input character into the caller's char array as a multibyte sequence.  The conversion ends with the sequence that returns to the initial shift state, which also stores the terminating null byte, and the functions then append a second null byte.  A destination sized for the converted string and one terminator, as the C standard requires the caller to provide, is therefore written one byte past its end.  The out-of-bounds byte is always a null byte, which may corrupt adjacent data or crash the process.  An attacker who supplies the input can trigger the overflow with a string whose converted length exactly fills the destination.
+
+      The narrow scanf functions, the %ls and %l[ conversions into a wchar_t array, and the 'a' and 'm' allocation modifiers are not affected, and storing a wide scanf conversion into a narrow char array is uncommon.  This issue affects all architectures and ABIs supported by the GNU C Library.
+    Severity: MEDIUM
+    CweIDs:
+    - CWE-193
+    VendorSeverity:
+      redhat: 2
+    CVSS:
+      redhat:
+        V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:N/I:L/A:L
+        V3Score: 4.8
+    References:
+    - https://access.redhat.com/security/cve/CVE-2026-115819
+    - https://nvd.nist.gov/vuln/detail/CVE-2026-115819
+    - https://sourceware.org/bugzilla/show_bug.cgi?id=34989
+    - https://sourceware.org/git/?p=glibc.git;a=blob_plain;f=advisories/GLIBC-SA-2026-0027
+    - https://www.cve.org/CVERecord?id=CVE-2026-115819
+    PublishedDate: '2026-11-11T16:17:24.98Z'
+    LastModifiedDate: '2026-11-17T15:17:31.913Z'
   - VulnerabilityID: CVE-2026-84243
     PkgID: glibc@2.34-290.el9_9.x86_64
     PkgName: glibc
@@ -4595,6 +4633,43 @@
     - https://www.cve.org/CVERecord?id=CVE-2026-84243
     PublishedDate: '2026-10-30T18:18:13.65Z'
     LastModifiedDate: '2026-10-31T04:18:21.89Z'
+  - VulnerabilityID: CVE-2026-100290
+    PkgID: glibc@2.34-290.el9_9.x86_64
+    PkgName: glibc
+    PkgIdentifier:
+      PURL: pkg:rpm/redhat/glibc@2.34-290.el9_9?arch=x86_64&distro=redhat-9.9
+      UID: a33f663f082f8156
+    InstalledVersion: 2.34-290.el9_9
+    Status: affected
+    Layer:
+      Digest: sha256:5bdcdb7c65111d6d94e1fd98b75711af258b058a3d645a241b664cacfc262ccd
+      DiffID: sha256:a9db8d8289fc7ddb626192d029c7e01ead76405f1bc0a5cff5d0fa3a031d4a1d
+    SeveritySource: redhat
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2026-100290
+    Fingerprint: sha256:6ad2b603a7326697d7f8d3f5e9fd7293c2809ba40cbb78422ddbf8d875dc98de
+    Title: 'glibc: glibc: Denial of Service via memory allocation failure during regular expression processing'
+    Description: |-
+      The regcomp and regexec functions in the GNU C Library version 2.3 to version 2.44 may read freed memory and free the same heap block twice when a memory allocation fails while a regular expression is compiled or matched.  The re_dfa_add_node (the NFA node table) and build_range_exp (bracket ranges) grow several arrays with consecutive realloc calls and store the new pointers only after all of them succeed.  When a later call fails, the pattern buffer keeps pointers to blocks that were already freed, and the error cleanup frees them again.  In regexec, the back-reference cache (match_ctx_add_entry) frees its array when a realloc fails but keeps the pointer, which is freed again on the error path.
+
+      An attacker does not need to supply a crafted regular expression: patterns large enough to grow these arrays are common.  The failure has to hit a specific allocation, though, so the issue can only be reached when the system is already under memory pressure.  An attacker who supplies the pattern or the subject string has little control over which allocation fails, so the expected impact is a crash of the process.  This issue affects all architectures and ABIs supported by the GNU C Library.
+    Severity: LOW
+    CweIDs:
+    - CWE-415
+    VendorSeverity:
+      redhat: 1
+    CVSS:
+      redhat:
+        V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:N/I:N/A:L
+        V3Score: 3.7
+    References:
+    - https://access.redhat.com/security/cve/CVE-2026-100290
+    - https://nvd.nist.gov/vuln/detail/CVE-2026-100290
+    - https://sourceware.org/bugzilla/show_bug.cgi?id=31935
+    - https://sourceware.org/bugzilla/show_bug.cgi?id=34991
+    - https://sourceware.org/git/?p=glibc.git;a=blob_plain;f=advisories/GLIBC-SA-2026-0028
+    - https://www.cve.org/CVERecord?id=CVE-2026-100290
+    PublishedDate: '2026-11-11T16:17:24.667Z'
+    LastModifiedDate: '2026-11-17T15:17:27.667Z'
   - VulnerabilityID: CVE-2026-97399
     PkgID: glibc@2.34-290.el9_9.x86_64
     PkgName: glibc
@@ -4635,6 +4710,44 @@
     - https://www.cve.org/CVERecord?id=CVE-2026-97399
     PublishedDate: '2026-09-28T16:17:18.55Z'
     LastModifiedDate: '2026-09-29T21:36:39.547Z'
+  - VulnerabilityID: CVE-2026-115819
+    PkgID: glibc-common@2.34-290.el9_9.x86_64
+    PkgName: glibc-common
+    PkgIdentifier:
+      PURL: pkg:rpm/redhat/glibc-common@2.34-290.el9_9?arch=x86_64&distro=redhat-9.9
+      UID: 3c7a0e0cb47bf07f
+    InstalledVersion: 2.34-290.el9_9
+    Status: affected
+    Layer:
+      Digest: sha256:5bdcdb7c65111d6d94e1fd98b75711af258b058a3d645a241b664cacfc262ccd
+      DiffID: sha256:a9db8d8289fc7ddb626192d029c7e01ead76405f1bc0a5cff5d0fa3a031d4a1d
+    SeveritySource: redhat
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2026-115819
+    Fingerprint: sha256:cc356cbda6ce6a4582f63bf19b175547ced305b75c7f1f53a9bd8b0d7481ec68
+    Title: 'glibc: glibc: Memory corruption via out-of-bounds write in wide scanf functions'
+    Description: |-
+      Calling the wide scanf family of functions (swscanf, fwscanf, wscanf, vswscanf, vfwscanf and vwscanf) with a %s or %[ conversion without the 'l' length modifier in the GNU C Library version 2.2 to version 2.44 writes an extra null byte one past the end of the destination array when the converted multibyte string and its terminating null byte exactly fill that array.
+
+      These conversions store each wide input character into the caller's char array as a multibyte sequence.  The conversion ends with the sequence that returns to the initial shift state, which also stores the terminating null byte, and the functions then append a second null byte.  A destination sized for the converted string and one terminator, as the C standard requires the caller to provide, is therefore written one byte past its end.  The out-of-bounds byte is always a null byte, which may corrupt adjacent data or crash the process.  An attacker who supplies the input can trigger the overflow with a string whose converted length exactly fills the destination.
+
+      The narrow scanf functions, the %ls and %l[ conversions into a wchar_t array, and the 'a' and 'm' allocation modifiers are not affected, and storing a wide scanf conversion into a narrow char array is uncommon.  This issue affects all architectures and ABIs supported by the GNU C Library.
+    Severity: MEDIUM
+    CweIDs:
+    - CWE-193
+    VendorSeverity:
+      redhat: 2
+    CVSS:
+      redhat:
+        V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:N/I:L/A:L
+        V3Score: 4.8
+    References:
+    - https://access.redhat.com/security/cve/CVE-2026-115819
+    - https://nvd.nist.gov/vuln/detail/CVE-2026-115819
+    - https://sourceware.org/bugzilla/show_bug.cgi?id=34989
+    - https://sourceware.org/git/?p=glibc.git;a=blob_plain;f=advisories/GLIBC-SA-2026-0027
+    - https://www.cve.org/CVERecord?id=CVE-2026-115819
+    PublishedDate: '2026-11-11T16:17:24.98Z'
+    LastModifiedDate: '2026-11-17T15:17:31.913Z'
   - VulnerabilityID: CVE-2026-84243
     PkgID: glibc-common@2.34-290.el9_9.x86_64
     PkgName: glibc-common
@@ -4676,6 +4789,43 @@
     - https://www.cve.org/CVERecord?id=CVE-2026-84243
     PublishedDate: '2026-10-30T18:18:13.65Z'
     LastModifiedDate: '2026-10-31T04:18:21.89Z'
+  - VulnerabilityID: CVE-2026-100290
+    PkgID: glibc-common@2.34-290.el9_9.x86_64
+    PkgName: glibc-common
+    PkgIdentifier:
+      PURL: pkg:rpm/redhat/glibc-common@2.34-290.el9_9?arch=x86_64&distro=redhat-9.9
+      UID: 3c7a0e0cb47bf07f
+    InstalledVersion: 2.34-290.el9_9
+    Status: affected
+    Layer:
+      Digest: sha256:5bdcdb7c65111d6d94e1fd98b75711af258b058a3d645a241b664cacfc262ccd
+      DiffID: sha256:a9db8d8289fc7ddb626192d029c7e01ead76405f1bc0a5cff5d0fa3a031d4a1d
+    SeveritySource: redhat
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2026-100290
+    Fingerprint: sha256:c4a8d63bdb128988621aab107e663aa2fd06162aa58bf5e9f44ef7a2e634418c
+    Title: 'glibc: glibc: Denial of Service via memory allocation failure during regular expression processing'
+    Description: |-
+      The regcomp and regexec functions in the GNU C Library version 2.3 to version 2.44 may read freed memory and free the same heap block twice when a memory allocation fails while a regular expression is compiled or matched.  The re_dfa_add_node (the NFA node table) and build_range_exp (bracket ranges) grow several arrays with consecutive realloc calls and store the new pointers only after all of them succeed.  When a later call fails, the pattern buffer keeps pointers to blocks that were already freed, and the error cleanup frees them again.  In regexec, the back-reference cache (match_ctx_add_entry) frees its array when a realloc fails but keeps the pointer, which is freed again on the error path.
+
+      An attacker does not need to supply a crafted regular expression: patterns large enough to grow these arrays are common.  The failure has to hit a specific allocation, though, so the issue can only be reached when the system is already under memory pressure.  An attacker who supplies the pattern or the subject string has little control over which allocation fails, so the expected impact is a crash of the process.  This issue affects all architectures and ABIs supported by the GNU C Library.
+    Severity: LOW
+    CweIDs:
+    - CWE-415
+    VendorSeverity:
+      redhat: 1
+    CVSS:
+      redhat:
+        V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:N/I:N/A:L
+        V3Score: 3.7
+    References:
+    - https://access.redhat.com/security/cve/CVE-2026-100290
+    - https://nvd.nist.gov/vuln/detail/CVE-2026-100290
+    - https://sourceware.org/bugzilla/show_bug.cgi?id=31935
+    - https://sourceware.org/bugzilla/show_bug.cgi?id=34991
+    - https://sourceware.org/git/?p=glibc.git;a=blob_plain;f=advisories/GLIBC-SA-2026-0028
+    - https://www.cve.org/CVERecord?id=CVE-2026-100290
+    PublishedDate: '2026-11-11T16:17:24.667Z'
+    LastModifiedDate: '2026-11-17T15:17:27.667Z'
   - VulnerabilityID: CVE-2026-97399
     PkgID: glibc-common@2.34-290.el9_9.x86_64
     PkgName: glibc-common
@@ -4716,6 +4866,44 @@
     - https://www.cve.org/CVERecord?id=CVE-2026-97399
     PublishedDate: '2026-09-28T16:17:18.55Z'
     LastModifiedDate: '2026-09-29T21:36:39.547Z'
+  - VulnerabilityID: CVE-2026-115819
+    PkgID: glibc-minimal-langpack@2.34-290.el9_9.x86_64
+    PkgName: glibc-minimal-langpack
+    PkgIdentifier:
+      PURL: pkg:rpm/redhat/glibc-minimal-langpack@2.34-290.el9_9?arch=x86_64&distro=redhat-9.9
+      UID: 39eb9c3577852d0a
+    InstalledVersion: 2.34-290.el9_9
+    Status: affected
+    Layer:
+      Digest: sha256:5bdcdb7c65111d6d94e1fd98b75711af258b058a3d645a241b664cacfc262ccd
+      DiffID: sha256:a9db8d8289fc7ddb626192d029c7e01ead76405f1bc0a5cff5d0fa3a031d4a1d
+    SeveritySource: redhat
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2026-115819
+    Fingerprint: sha256:d081fc13456e198c5f1b2dac9bd44618ed6c7b656be67e92c5fae749c3706c29
+    Title: 'glibc: glibc: Memory corruption via out-of-bounds write in wide scanf functions'
+    Description: |-
+      Calling the wide scanf family of functions (swscanf, fwscanf, wscanf, vswscanf, vfwscanf and vwscanf) with a %s or %[ conversion without the 'l' length modifier in the GNU C Library version 2.2 to version 2.44 writes an extra null byte one past the end of the destination array when the converted multibyte string and its terminating null byte exactly fill that array.
+
+      These conversions store each wide input character into the caller's char array as a multibyte sequence.  The conversion ends with the sequence that returns to the initial shift state, which also stores the terminating null byte, and the functions then append a second null byte.  A destination sized for the converted string and one terminator, as the C standard requires the caller to provide, is therefore written one byte past its end.  The out-of-bounds byte is always a null byte, which may corrupt adjacent data or crash the process.  An attacker who supplies the input can trigger the overflow with a string whose converted length exactly fills the destination.
+
+      The narrow scanf functions, the %ls and %l[ conversions into a wchar_t array, and the 'a' and 'm' allocation modifiers are not affected, and storing a wide scanf conversion into a narrow char array is uncommon.  This issue affects all architectures and ABIs supported by the GNU C Library.
+    Severity: MEDIUM
+    CweIDs:
+    - CWE-193
+    VendorSeverity:
+      redhat: 2
+    CVSS:
+      redhat:
+        V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:N/I:L/A:L
+        V3Score: 4.8
+    References:
+    - https://access.redhat.com/security/cve/CVE-2026-115819
+    - https://nvd.nist.gov/vuln/detail/CVE-2026-115819
+    - https://sourceware.org/bugzilla/show_bug.cgi?id=34989
+    - https://sourceware.org/git/?p=glibc.git;a=blob_plain;f=advisories/GLIBC-SA-2026-0027
+    - https://www.cve.org/CVERecord?id=CVE-2026-115819
+    PublishedDate: '2026-11-11T16:17:24.98Z'
+    LastModifiedDate: '2026-11-17T15:17:31.913Z'
   - VulnerabilityID: CVE-2026-84243
     PkgID: glibc-minimal-langpack@2.34-290.el9_9.x86_64
     PkgName: glibc-minimal-langpack
@@ -4757,6 +4945,43 @@
     - https://www.cve.org/CVERecord?id=CVE-2026-84243
     PublishedDate: '2026-10-30T18:18:13.65Z'
     LastModifiedDate: '2026-10-31T04:18:21.89Z'
+  - VulnerabilityID: CVE-2026-100290
+    PkgID: glibc-minimal-langpack@2.34-290.el9_9.x86_64
+    PkgName: glibc-minimal-langpack
+    PkgIdentifier:
+      PURL: pkg:rpm/redhat/glibc-minimal-langpack@2.34-290.el9_9?arch=x86_64&distro=redhat-9.9
+      UID: 39eb9c3577852d0a
+    InstalledVersion: 2.34-290.el9_9
+    Status: affected
+    Layer:
+      Digest: sha256:5bdcdb7c65111d6d94e1fd98b75711af258b058a3d645a241b664cacfc262ccd
+      DiffID: sha256:a9db8d8289fc7ddb626192d029c7e01ead76405f1bc0a5cff5d0fa3a031d4a1d
+    SeveritySource: redhat
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2026-100290
+    Fingerprint: sha256:722a6acda51617c3312e131a90b8f0e710c4325b11db61ec795a9000c9a266bf
+    Title: 'glibc: glibc: Denial of Service via memory allocation failure during regular expression processing'
+    Description: |-
+      The regcomp and regexec functions in the GNU C Library version 2.3 to version 2.44 may read freed memory and free the same heap block twice when a memory allocation fails while a regular expression is compiled or matched.  The re_dfa_add_node (the NFA node table) and build_range_exp (bracket ranges) grow several arrays with consecutive realloc calls and store the new pointers only after all of them succeed.  When a later call fails, the pattern buffer keeps pointers to blocks that were already freed, and the error cleanup frees them again.  In regexec, the back-reference cache (match_ctx_add_entry) frees its array when a realloc fails but keeps the pointer, which is freed again on the error path.
+
+      An attacker does not need to supply a crafted regular expression: patterns large enough to grow these arrays are common.  The failure has to hit a specific allocation, though, so the issue can only be reached when the system is already under memory pressure.  An attacker who supplies the pattern or the subject string has little control over which allocation fails, so the expected impact is a crash of the process.  This issue affects all architectures and ABIs supported by the GNU C Library.
+    Severity: LOW
+    CweIDs:
+    - CWE-415
+    VendorSeverity:
+      redhat: 1
+    CVSS:
+      redhat:
+        V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:N/I:N/A:L
+        V3Score: 3.7
+    References:
+    - https://access.redhat.com/security/cve/CVE-2026-100290
+    - https://nvd.nist.gov/vuln/detail/CVE-2026-100290
+    - https://sourceware.org/bugzilla/show_bug.cgi?id=31935
+    - https://sourceware.org/bugzilla/show_bug.cgi?id=34991
+    - https://sourceware.org/git/?p=glibc.git;a=blob_plain;f=advisories/GLIBC-SA-2026-0028
+    - https://www.cve.org/CVERecord?id=CVE-2026-100290
+    PublishedDate: '2026-11-11T16:17:24.667Z'
+    LastModifiedDate: '2026-11-17T15:17:27.667Z'
   - VulnerabilityID: CVE-2026-97399
     PkgID: glibc-minimal-langpack@2.34-290.el9_9.x86_64
     PkgName: glibc-minimal-langpack
@@ -5151,6 +5376,46 @@
     - https://www.rfc-editor.org/rfc/rfc5280#section-6.1.4
     PublishedDate: '2026-10-08T19:20:52.703Z'
     LastModifiedDate: '2026-11-04T05:19:05.203Z'
+  - VulnerabilityID: CVE-2026-114938
+    PkgID: java-21-openjdk-headless@21.0.13.0.9-1.2.el9.x86_64
+    PkgName: java-21-openjdk-headless
+    PkgIdentifier:
+      PURL: pkg:rpm/redhat/java-21-openjdk-headless@21.0.13.0.9-1.2.el9?arch=x86_64&distro=redhat-9.9&epoch=1
+      UID: b4536d1736d3315
+    InstalledVersion: 1:21.0.13.0.9-1.2.el9
+    Status: affected
+    Layer:
+      Digest: sha256:5bdcdb7c65111d6d94e1fd98b75711af258b058a3d645a241b664cacfc262ccd
+      DiffID: sha256:a9db8d8289fc7ddb626192d029c7e01ead76405f1bc0a5cff5d0fa3a031d4a1d
+    SeveritySource: redhat
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2026-114938
+    Fingerprint: sha256:0ec8433c3c4559f077a0bbfe5bf504229f3b18d88ab7220664688e19283d31ed
+    Title: 'OpenJDK: OpenJDK: remote code execution via memory corruption on x86-64 systems with AVX-512 VBMI'
+    Description: 'Vulnerability in the Oracle Java SE, Oracle GraalVM for JDK, Oracle GraalVM Enterprise Edition product of Oracle Java SE (component: Compiler).  Supported versions that are affected are Oracle Java SE: 8u511b33-perf, 17.0.21.0.3, 21.0.13.0.3, 25.0.5.0.3, 27.0.1.0.3; Oracle GraalVM for JDK: 17.0.21.0.3 and  21.0.13.0.3; Oracle GraalVM Enterprise Edition: 21.3.20.0.3. Difficult to exploit vulnerability allows unauthenticated attacker with network access via multiple protocols to compromise Oracle Java SE, Oracle GraalVM for JDK, Oracle GraalVM Enterprise Edition.  Successful attacks of this vulnerability can result in takeover of Oracle Java SE, Oracle GraalVM for JDK, Oracle GraalVM Enterprise Edition. Note: This vulnerability can only be exploited by supplying data to APIs in the specified Component without using Untrusted Java Web Start applications or Untrusted Java applets, such as through a web service. CVSS 3.1 Base Score 8.1 (Confidentiality, Integrity and Availability impacts).  CVSS Vector: (CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:H/I:H/A:H).'
+    Severity: CRITICAL
+    CweIDs:
+    - CWE-122
+    VendorSeverity:
+      redhat: 4
+    CVSS:
+      redhat:
+        V3Vector: CVSS:3.0/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H
+        V3Score: 9.8
+    References:
+    - http://www.openwall.com/lists/oss-security/2026/11/17/31
+    - https://access.redhat.com/security/cve/CVE-2026-114938
+    - https://access.redhat.com/security/cve/cve-2026-114938
+    - https://calif.io/java4shell
+    - https://github.com/Azure/azure-functions-java-worker/issues/909
+    - https://github.com/chainguard-dev/cg-skills/pull/17
+    - https://github.com/corretto/corretto-27/blob/27.0.1.1.4/CHANGELOG.md
+    - https://news.ycombinator.com/item?id=50538240
+    - https://nvd.nist.gov/vuln/detail/CVE-2026-114938
+    - https://www.cisa.gov/news-events/alerts/2026/11/17/critical-java-vulnerability-requires-immediate-patching
+    - https://www.cve.org/CVERecord?id=CVE-2026-114938
+    - https://www.oracle.com/security-alerts/cspunov2026.html
+    PublishedDate: '2026-11-17T22:18:23.777Z'
+    LastModifiedDate: '2026-11-18T13:45:37.953Z'
   - VulnerabilityID: CVE-2026-91403
     PkgID: java-21-openjdk-headless@21.0.13.0.9-1.2.el9.x86_64
     PkgName: java-21-openjdk-headless
@@ -7760,6 +8025,7 @@
     - CWE-416
     VendorSeverity:
       redhat: 1
+      ubuntu: 2
     CVSS:
       redhat:
         V3Vector: CVSS:3.1/AV:L/AC:H/PR:N/UI:R/S:U/C:L/I:N/A:L
@@ -11552,7 +11818,6 @@
     References:
     - http://www.openwall.com/lists/oss-security/2025/01/20/2
     - https://access.redhat.com/errata/RHSA-2025:15699
-    - https://access.redhat.com/errata/RHSA-2025:16046
     - https://access.redhat.com/security/cve/CVE-2024-13176
     - https://bugzilla.redhat.com/2359885
     - https://bugzilla.redhat.com/2359888
@@ -11713,7 +11978,7 @@
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2025-50102
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2025-50104
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2025-5399
-    - https://errata.almalinux.org/9/ALSA-2025-16046.html
+    - https://errata.almalinux.org/10/ALSA-2025-15699.html
     - https://errata.rockylinux.org/RLSA-2025:15699
     - https://github.com/advisories/GHSA-r9fv-h47r-823f
     - https://github.com/openssl/openssl/commit/07272b05b04836a762b4baa874958af51d513844
@@ -12273,7 +12538,6 @@
     References:
     - http://www.openwall.com/lists/oss-security/2025/01/20/2
     - https://access.redhat.com/errata/RHSA-2025:15699
-    - https://access.redhat.com/errata/RHSA-2025:16046
     - https://access.redhat.com/security/cve/CVE-2024-13176
     - https://bugzilla.redhat.com/2359885
     - https://bugzilla.redhat.com/2359888
@@ -12434,7 +12698,7 @@
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2025-50102
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2025-50104
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2025-5399
-    - https://errata.almalinux.org/9/ALSA-2025-16046.html
+    - https://errata.almalinux.org/10/ALSA-2025-15699.html
     - https://errata.rockylinux.org/RLSA-2025:15699
     - https://github.com/advisories/GHSA-r9fv-h47r-823f
     - https://github.com/openssl/openssl/commit/07272b05b04836a762b4baa874958af51d513844
@@ -18546,12 +18810,13 @@
     - http://www.openwall.com/lists/oss-security/2025/06/04/1
     - http://www.openwall.com/lists/oss-security/2025/06/04/6
     - https://access.redhat.com/errata/RHSA-2025:12519
+    - https://access.redhat.com/errata/RHSA-2025:13604
     - https://access.redhat.com/security/cve/CVE-2024-47081
     - https://bugzilla.redhat.com/2371272
     - https://bugzilla.redhat.com/show_bug.cgi?id=2371272
     - https://creativecommons.org/licenses/by/4.0/
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2024-47081
-    - https://errata.almalinux.org/9/ALSA-2025-12519.html
+    - https://errata.almalinux.org/10/ALSA-2025-13604.html
     - https://errata.rockylinux.org/RLSA-2025:12519
     - https://github.com/advisories/GHSA-9hjg-9r4m-mvj7
     - https://github.com/psf/requests
@@ -18852,13 +19117,14 @@
         V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:L
         V3Score: 5.3
     References:
+    - https://access.redhat.com/errata/RHSA-2026:54481
     - https://access.redhat.com/errata/RHSA-2026:54484
     - https://access.redhat.com/security/cve/CVE-2026-45409
     - https://bugzilla.redhat.com/2485616
     - https://bugzilla.redhat.com/show_bug.cgi?id=2485616
     - https://creativecommons.org/licenses/by/4.0/
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-45409
-    - https://errata.almalinux.org/9/ALSA-2026-54484.html
+    - https://errata.almalinux.org/10/ALSA-2026-54481.html
     - https://errata.rockylinux.org/RLSA-2026:54484
     - https://github.com/kjd/idna
     - https://github.com/kjd/idna/security/advisories/GHSA-65pc-fj4g-8rjx
@@ -19027,14 +19293,16 @@
     - https://access.redhat.com/errata/RHSA-2026:99593
     - https://access.redhat.com/errata/RHSA-2026:99595
     - https://access.redhat.com/security/cve/CVE-2026-78367
+    - https://bugzilla.redhat.com/2462222
     - https://bugzilla.redhat.com/2478408
+    - https://bugzilla.redhat.com/2478409
     - https://bugzilla.redhat.com/2521857
     - https://bugzilla.redhat.com/show_bug.cgi?id=2478408
     - https://bugzilla.redhat.com/show_bug.cgi?id=2521857
     - https://creativecommons.org/licenses/by/4.0/
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-78367
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-84837
-    - https://errata.almalinux.org/9/ALSA-2026-99593.html
+    - https://errata.almalinux.org/10/ALSA-2026-99595.html
     - https://errata.rockylinux.org/RLSA-2026:99593
     - https://github.com/rpm-software-management/rpm/issues/4314
     - https://nvd.nist.gov/vuln/detail/CVE-2026-78367
@@ -19077,14 +19345,16 @@
     - https://access.redhat.com/errata/RHSA-2026:99593
     - https://access.redhat.com/errata/RHSA-2026:99595
     - https://access.redhat.com/security/cve/CVE-2026-84837
+    - https://bugzilla.redhat.com/2462222
     - https://bugzilla.redhat.com/2478408
+    - https://bugzilla.redhat.com/2478409
     - https://bugzilla.redhat.com/2521857
     - https://bugzilla.redhat.com/show_bug.cgi?id=2478408
     - https://bugzilla.redhat.com/show_bug.cgi?id=2521857
     - https://creativecommons.org/licenses/by/4.0/
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-78367
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-84837
-    - https://errata.almalinux.org/9/ALSA-2026-99593.html
+    - https://errata.almalinux.org/10/ALSA-2026-99595.html
     - https://errata.rockylinux.org/RLSA-2026:99593
     - https://nvd.nist.gov/vuln/detail/CVE-2026-84837
     - https://www.cve.org/CVERecord?id=CVE-2026-84837
@@ -19295,14 +19565,16 @@
     - https://access.redhat.com/errata/RHSA-2026:99593
     - https://access.redhat.com/errata/RHSA-2026:99595
     - https://access.redhat.com/security/cve/CVE-2026-78367
+    - https://bugzilla.redhat.com/2462222
     - https://bugzilla.redhat.com/2478408
+    - https://bugzilla.redhat.com/2478409
     - https://bugzilla.redhat.com/2521857
     - https://bugzilla.redhat.com/show_bug.cgi?id=2478408
     - https://bugzilla.redhat.com/show_bug.cgi?id=2521857
     - https://creativecommons.org/licenses/by/4.0/
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-78367
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-84837
-    - https://errata.almalinux.org/9/ALSA-2026-99593.html
+    - https://errata.almalinux.org/10/ALSA-2026-99595.html
     - https://errata.rockylinux.org/RLSA-2026:99593
     - https://github.com/rpm-software-management/rpm/issues/4314
     - https://nvd.nist.gov/vuln/detail/CVE-2026-78367
@@ -19345,14 +19617,16 @@
     - https://access.redhat.com/errata/RHSA-2026:99593
     - https://access.redhat.com/errata/RHSA-2026:99595
     - https://access.redhat.com/security/cve/CVE-2026-84837
+    - https://bugzilla.redhat.com/2462222
     - https://bugzilla.redhat.com/2478408
+    - https://bugzilla.redhat.com/2478409
     - https://bugzilla.redhat.com/2521857
     - https://bugzilla.redhat.com/show_bug.cgi?id=2478408
     - https://bugzilla.redhat.com/show_bug.cgi?id=2521857
     - https://creativecommons.org/licenses/by/4.0/
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-78367
     - https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-84837
-    - https://errata.almalinux.org/9/ALSA-2026-99593.html
+    - https://errata.almalinux.org/10/ALSA-2026-99595.html
     - https://errata.rockylinux.org/RLSA-2026:99593
     - https://nvd.nist.gov/vuln/detail/CVE-2026-84837
     - https://www.cve.org/CVERecord?id=CVE-2026-84837
