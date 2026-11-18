@@ -3,55 +3,1107 @@
 │     ├ Class          : os-pkgs 
 │     ├ Type           : alpine 
 │     ├ Packages        
-│     ╰ Vulnerabilities ─ [0] ╭ VulnerabilityID : CVE-2026-4738 
-│                             ├ PkgID           : zlib@1.3.2-r1 
-│                             ├ PkgName         : zlib 
-│                             ├ PkgIdentifier    ╭ PURL: pkg:apk/alpine/zlib@1.3.2-r1?arch=x86_64&distro=3.24.4 
-│                             │                  ╰ UID : 926381dc853769fb 
-│                             ├ InstalledVersion: 1.3.2-r1 
-│                             ├ FixedVersion    : 1.4-r0 
-│                             ├ Status          : fixed 
-│                             ├ Layer            ╭ Digest: sha256:e5005db9a2f95eda18f911570b68b5ea4a341cd973ede
-│                             │                  │         0c2eec37e22ebf6f240 
-│                             │                  ╰ DiffID: sha256:588c1636bfe809e49d7d90762ee9e3d2a1cdabe17ed75
-│                             │                            d28144c37dbf4bb71d7 
-│                             ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2026-4738 
-│                             ├ DataSource       ╭ ID  : alpine 
-│                             │                  ├ Name: Alpine Secdb 
-│                             │                  ╰ URL : https://secdb.alpinelinux.org/ 
-│                             ├ Fingerprint     : sha256:c6189e3817d3856b8842d64b12b6c56e39fe3ad30f050823c80676
-│                             │                   c330c6d243 
-│                             ├ Title           : Improper Restriction of Operations within the Bounds of a
-│                             │                   Memory Buffe ... 
-│                             ├ Description     : Improper Restriction of Operations within the Bounds of a
-│                             │                   Memory Buffer vulnerability in OSGeo gdal
-│                             │                   (frmts/zlib/contrib/infback9 modules). This vulnerability is
-│                             │                   associated with program files inftree9.C‎.
-│                             │                   
-│                             │                   This issue affects gdal: before 3.11.0. 
-│                             ├ Severity        : MEDIUM 
-│                             ├ CweIDs                  
-│                             │                  ───────
-│                             │                  CWE-119
-│                             ├ VendorSeverity   ╭ bitnami: 4 
-│                             │                  ├ julia  : 4 
-│                             │                  ╰ ubuntu : 2 
-│                             ├ CVSS             ╭ bitnami ╭ V40Vector: CVSS:4.0/AV:N/AC:L/AT:N/PR:N/UI:P/VC:H/
-│                             │                  │         │            VI:H/VA:H/SC:H/SI:H/SA:H/E:A/S:P/AU:Y/R
-│                             │                  │         │            :U/V:C/RE:L/U:Amber 
-│                             │                  │         ╰ V40Score : 9.4 
-│                             │                  ╰ julia   ╭ V40Vector: CVSS:4.0/AV:N/AC:L/AT:N/PR:N/UI:P/VC:H/
-│                             │                            │            VI:H/VA:H/SC:H/SI:H/SA:H/E:A/S:P/AU:Y/R
-│                             │                            │            :U/V:C/RE:L/U:Amber 
-│                             │                            ╰ V40Score : 9.4 
-│                             ├ References                                                        
-│                             │                  ─────────────────────────────────────────────────
-│                             │                  https://github.com/OSGeo/gdal/pull/12244         
-│                             │                  https://github.com/advisories/GHSA-hp6p-5qh5-w9fj
-│                             │                  https://nvd.nist.gov/vuln/detail/CVE-2026-4738   
-│                             │                  https://www.cve.org/CVERecord?id=CVE-2026-4738   
-│                             ├ PublishedDate   : 2026-03-24T04:17:29Z 
-│                             ╰ LastModifiedDate: 2026-06-17T10:57:09.03Z 
+│     ╰ Vulnerabilities ╭ [0]  ╭ VulnerabilityID : CVE-2026-114938 
+│                       │      ├ PkgID           : openjdk21-jre@21.0.13.0.3_p1-r0 
+│                       │      ├ PkgName         : openjdk21-jre 
+│                       │      ├ PkgIdentifier    ╭ PURL: pkg:apk/alpine/openjdk21-jre@21.0.13.0.3_p1-r0?arch=x
+│                       │      │                  │       86_64&distro=3.24.4 
+│                       │      │                  ╰ UID : fb3717618354d5b 
+│                       │      ├ InstalledVersion: 21.0.13.0.3_p1-r0 
+│                       │      ├ FixedVersion    : 21.0.13.1_p2-r0 
+│                       │      ├ Status          : fixed 
+│                       │      ├ Layer            ╭ Digest: sha256:e5005db9a2f95eda18f911570b68b5ea4a341cd973ed
+│                       │      │                  │         e0c2eec37e22ebf6f240 
+│                       │      │                  ╰ DiffID: sha256:588c1636bfe809e49d7d90762ee9e3d2a1cdabe17ed7
+│                       │      │                            5d28144c37dbf4bb71d7 
+│                       │      ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2026-114938 
+│                       │      ├ DataSource       ╭ ID  : alpine 
+│                       │      │                  ├ Name: Alpine Secdb 
+│                       │      │                  ╰ URL : https://secdb.alpinelinux.org/ 
+│                       │      ├ Fingerprint     : sha256:2c021da9ac8d743352e3253a4584c80927264f93b21c91efd6e4d
+│                       │      │                   2373249e52e 
+│                       │      ├ Title           : OpenJDK: OpenJDK: remote code execution via memory
+│                       │      │                   corruption on x86-64 systems with AVX-512 VBMI 
+│                       │      ├ Description     : Vulnerability in the Oracle Java SE, Oracle GraalVM for JDK,
+│                       │      │                    Oracle GraalVM Enterprise Edition product of Oracle Java SE
+│                       │      │                    (component: Compiler).  Supported versions that are
+│                       │      │                   affected are Oracle Java SE: 8u511b33-perf, 17.0.21.0.3,
+│                       │      │                   21.0.13.0.3, 25.0.5.0.3, 27.0.1.0.3; Oracle GraalVM for JDK:
+│                       │      │                    17.0.21.0.3 and  21.0.13.0.3; Oracle GraalVM Enterprise
+│                       │      │                   Edition: 21.3.20.0.3. Difficult to exploit vulnerability
+│                       │      │                   allows unauthenticated attacker with network access via
+│                       │      │                   multiple protocols to compromise Oracle Java SE, Oracle
+│                       │      │                   GraalVM for JDK, Oracle GraalVM Enterprise Edition. 
+│                       │      │                   Successful attacks of this vulnerability can result in
+│                       │      │                   takeover of Oracle Java SE, Oracle GraalVM for JDK, Oracle
+│                       │      │                   GraalVM Enterprise Edition. Note: This vulnerability can
+│                       │      │                   only be exploited by supplying data to APIs in the specified
+│                       │      │                    Component without using Untrusted Java Web Start
+│                       │      │                   applications or Untrusted Java applets, such as through a
+│                       │      │                   web service. CVSS 3.1 Base Score 8.1 (Confidentiality,
+│                       │      │                   Integrity and Availability impacts).  CVSS Vector:
+│                       │      │                   (CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:H/I:H/A:H). 
+│                       │      ├ Severity        : CRITICAL 
+│                       │      ├ CweIDs                  
+│                       │      │                  ───────
+│                       │      │                  CWE-122
+│                       │      ├ VendorSeverity   ─ redhat: 4 
+│                       │      ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.0/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H
+│                       │      │                           │           /A:H 
+│                       │      │                           ╰ V3Score : 9.8 
+│                       │      ├ References                                                                    
+│                       │      │                  ─────────────────────────────────────────────────────────────
+│                       │      │                  http://www.openwall.com/lists/oss-security/2026/11/17/31     
+│                       │      │                  https://access.redhat.com/security/cve/CVE-2026-114938       
+│                       │      │                  https://access.redhat.com/security/cve/cve-2026-114938       
+│                       │      │                  https://calif.io/java4shell                                  
+│                       │      │                  https://github.com/Azure/azure-functions-java-worker/issues/9
+│                       │      │                  09                                                           
+│                       │      │                  https://github.com/chainguard-dev/cg-skills/pull/17          
+│                       │      │                                                                               
+│                       │      │                  https://github.com/corretto/corretto-27/blob/27.0.1.1.4/CHANG
+│                       │      │                  ELOG.md                                                      
+│                       │      │                  https://news.ycombinator.com/item?id=50538240                
+│                       │      │                                                                               
+│                       │      │                  https://nvd.nist.gov/vuln/detail/CVE-2026-114938             
+│                       │      │                                                                               
+│                       │      │                  https://www.cisa.gov/news-events/alerts/2026/11/17/critical-j
+│                       │      │                  ava-vulnerability-requires-immediate-patching                
+│                       │      │                  https://www.cve.org/CVERecord?id=CVE-2026-114938             
+│                       │      │                                                                               
+│                       │      │                  https://www.oracle.com/security-alerts/cspunov2026.html      
+│                       │      ├ PublishedDate   : 2026-11-17T22:18:23.777Z 
+│                       │      ╰ LastModifiedDate: 2026-11-18T13:45:37.953Z 
+│                       ├ [1]  ╭ VulnerabilityID : CVE-2026-114939 
+│                       │      ├ PkgID           : openjdk21-jre@21.0.13.0.3_p1-r0 
+│                       │      ├ PkgName         : openjdk21-jre 
+│                       │      ├ PkgIdentifier    ╭ PURL: pkg:apk/alpine/openjdk21-jre@21.0.13.0.3_p1-r0?arch=x
+│                       │      │                  │       86_64&distro=3.24.4 
+│                       │      │                  ╰ UID : fb3717618354d5b 
+│                       │      ├ InstalledVersion: 21.0.13.0.3_p1-r0 
+│                       │      ├ FixedVersion    : 21.0.13.1_p2-r0 
+│                       │      ├ Status          : fixed 
+│                       │      ├ Layer            ╭ Digest: sha256:e5005db9a2f95eda18f911570b68b5ea4a341cd973ed
+│                       │      │                  │         e0c2eec37e22ebf6f240 
+│                       │      │                  ╰ DiffID: sha256:588c1636bfe809e49d7d90762ee9e3d2a1cdabe17ed7
+│                       │      │                            5d28144c37dbf4bb71d7 
+│                       │      ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2026-114939 
+│                       │      ├ DataSource       ╭ ID  : alpine 
+│                       │      │                  ├ Name: Alpine Secdb 
+│                       │      │                  ╰ URL : https://secdb.alpinelinux.org/ 
+│                       │      ├ Fingerprint     : sha256:c321d62e5e9afc0b7b0b80c2aba4ef24fce1ac1317fecf7e66743
+│                       │      │                   d867bc2893a 
+│                       │      ├ Title           : OpenJDK: OpenJDK: The acceptor does not properly implement
+│                       │      │                   RFC 4120 requirements for handling cross-realm tickets. 
+│                       │      ├ Description     : Vulnerability in the Oracle Java SE, Oracle GraalVM for JDK,
+│                       │      │                    Oracle GraalVM Enterprise Edition product of Oracle Java SE
+│                       │      │                    (component: JGSS).  Supported versions that are affected
+│                       │      │                   are Oracle Java SE: 8u511b33, 8u511b33-perf, 11.0.33.0.3,
+│                       │      │                   17.0.21.0.3,  21.0.13.0.3, 25.0.5.0.3, 27.0.1.0.3; Oracle
+│                       │      │                   GraalVM for JDK: 17.0.21.0.3 and  21.0.13.0.3; Oracle
+│                       │      │                   GraalVM Enterprise Edition: 21.3.20.0.3. Difficult to
+│                       │      │                   exploit vulnerability allows unauthenticated attacker with
+│                       │      │                   network access via multiple protocols to compromise Oracle
+│                       │      │                   Java SE, Oracle GraalVM for JDK, Oracle GraalVM Enterprise
+│                       │      │                   Edition.  Successful attacks of this vulnerability can
+│                       │      │                   result in  unauthorized creation, deletion or modification
+│                       │      │                   access to critical data or all Oracle Java SE, Oracle
+│                       │      │                   GraalVM for JDK, Oracle GraalVM Enterprise Edition
+│                       │      │                   accessible data as well as  unauthorized access to critical
+│                       │      │                   data or complete access to all Oracle Java SE, Oracle
+│                       │      │                   accessible data. Note: This vulnerability applies to Java
+│                       │      │                   deployments, typically in clients running sandboxed Java Web
+│                       │      │                    Start applications or sandboxed Java applets, that load and
+│                       │      │                    run untrusted code (e.g., code that comes from the
+│                       │      │                   internet) and rely on the Java sandbox for security. This
+│                       │      │                   vulnerability does not apply to Java deployments, typically
+│                       │      │                   in servers, that load and run only trusted code (e.g., code
+│                       │      │                   installed by an administrator). CVSS 3.1 Base Score 7.4
+│                       │      │                   (Confidentiality and Integrity impacts).  CVSS Vector:
+│                       │      │                   (CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:H/I:H/A:N). 
+│                       │      ├ Severity        : HIGH 
+│                       │      ├ VendorSeverity   ─ redhat: 3 
+│                       │      ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:H/I:H
+│                       │      │                           │           /A:N 
+│                       │      │                           ╰ V3Score : 7.4 
+│                       │      ├ References                                                              
+│                       │      │                  ───────────────────────────────────────────────────────
+│                       │      │                  https://access.redhat.com/security/cve/CVE-2026-114939 
+│                       │      │                  https://nvd.nist.gov/vuln/detail/CVE-2026-114939       
+│                       │      │                  https://www.cve.org/CVERecord?id=CVE-2026-114939       
+│                       │      │                  https://www.oracle.com/security-alerts/cspunov2026.html
+│                       │      ├ PublishedDate   : 2026-11-17T22:18:23.92Z 
+│                       │      ╰ LastModifiedDate: 2026-11-17T22:18:23.92Z 
+│                       ├ [2]  ╭ VulnerabilityID : CVE-2026-114940 
+│                       │      ├ PkgID           : openjdk21-jre@21.0.13.0.3_p1-r0 
+│                       │      ├ PkgName         : openjdk21-jre 
+│                       │      ├ PkgIdentifier    ╭ PURL: pkg:apk/alpine/openjdk21-jre@21.0.13.0.3_p1-r0?arch=x
+│                       │      │                  │       86_64&distro=3.24.4 
+│                       │      │                  ╰ UID : fb3717618354d5b 
+│                       │      ├ InstalledVersion: 21.0.13.0.3_p1-r0 
+│                       │      ├ FixedVersion    : 21.0.13.1_p2-r0 
+│                       │      ├ Status          : fixed 
+│                       │      ├ Layer            ╭ Digest: sha256:e5005db9a2f95eda18f911570b68b5ea4a341cd973ed
+│                       │      │                  │         e0c2eec37e22ebf6f240 
+│                       │      │                  ╰ DiffID: sha256:588c1636bfe809e49d7d90762ee9e3d2a1cdabe17ed7
+│                       │      │                            5d28144c37dbf4bb71d7 
+│                       │      ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2026-114940 
+│                       │      ├ DataSource       ╭ ID  : alpine 
+│                       │      │                  ├ Name: Alpine Secdb 
+│                       │      │                  ╰ URL : https://secdb.alpinelinux.org/ 
+│                       │      ├ Fingerprint     : sha256:4fa59e690a8455b9a0f6db30c77d18317d2779f93a444b6efd95f
+│                       │      │                   02e12af65b9 
+│                       │      ├ Title           : OpenJDK: OpenJDK: Improve TLS client connections 
+│                       │      ├ Description     : Vulnerability in the Oracle Java SE, Oracle GraalVM for JDK,
+│                       │      │                    Oracle GraalVM Enterprise Edition product of Oracle Java SE
+│                       │      │                    (component: JSSE).  Supported versions that are affected
+│                       │      │                   are Oracle Java SE: 8u511b33, 8u511b33-perf, 11.0.33.0.3,
+│                       │      │                   17.0.21.0.3, 21.0.13.0.3, 25.0.5.0.3, 27.0.1.0.3; Oracle
+│                       │      │                   GraalVM for JDK: 17.0.21.0.3 and  21.0.13.0.3; Oracle
+│                       │      │                   GraalVM Enterprise Edition: 21.3.20.0.3. Difficult to
+│                       │      │                   exploit vulnerability allows unauthenticated attacker with
+│                       │      │                   network access via TLS to compromise Oracle Java SE, Oracle
+│                       │      │                   GraalVM for JDK, Oracle GraalVM Enterprise Edition. 
+│                       │      │                   Successful attacks of this vulnerability can result in 
+│                       │      │                   unauthorized creation, deletion or modification access to
+│                       │      │                   critical data or all Oracle Java SE, Oracle GraalVM for JDK,
+│                       │      │                    Oracle GraalVM Enterprise Edition accessible data as well
+│                       │      │                   as  unauthorized access to critical data or complete access
+│                       │      │                   to all Oracle Java SE, Oracle GraalVM for JDK, Oracle
+│                       │      │                   GraalVM Enterprise Edition accessible data. Note: This
+│                       │      │                   vulnerability can be exploited by using APIs in the
+│                       │      │                   specified Component, e.g., through a web service which
+│                       │      │                   supplies data to the APIs. This vulnerability also applies
+│                       │      │                   to Java deployments, typically in clients running sandboxed
+│                       │      │                   Java Web Start applications or sandboxed Java applets, that
+│                       │      │                   load and run untrusted code (e.g., code that comes from the
+│                       │      │                   internet) and rely on the Java sandbox for security. CVSS
+│                       │      │                   3.1 Base Score 7.4 (Confidentiality and Integrity impacts). 
+│                       │      │                    CVSS Vector:
+│                       │      │                   (CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:H/I:H/A:N). 
+│                       │      ├ Severity        : HIGH 
+│                       │      ├ VendorSeverity   ─ redhat: 3 
+│                       │      ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:H/I:H
+│                       │      │                           │           /A:N 
+│                       │      │                           ╰ V3Score : 7.4 
+│                       │      ├ References                                                              
+│                       │      │                  ───────────────────────────────────────────────────────
+│                       │      │                  https://access.redhat.com/security/cve/CVE-2026-114940 
+│                       │      │                  https://nvd.nist.gov/vuln/detail/CVE-2026-114940       
+│                       │      │                  https://www.cve.org/CVERecord?id=CVE-2026-114940       
+│                       │      │                  https://www.oracle.com/security-alerts/cspunov2026.html
+│                       │      ├ PublishedDate   : 2026-11-17T22:18:24.05Z 
+│                       │      ╰ LastModifiedDate: 2026-11-17T22:18:24.05Z 
+│                       ├ [3]  ╭ VulnerabilityID : CVE-2026-114941 
+│                       │      ├ PkgID           : openjdk21-jre@21.0.13.0.3_p1-r0 
+│                       │      ├ PkgName         : openjdk21-jre 
+│                       │      ├ PkgIdentifier    ╭ PURL: pkg:apk/alpine/openjdk21-jre@21.0.13.0.3_p1-r0?arch=x
+│                       │      │                  │       86_64&distro=3.24.4 
+│                       │      │                  ╰ UID : fb3717618354d5b 
+│                       │      ├ InstalledVersion: 21.0.13.0.3_p1-r0 
+│                       │      ├ FixedVersion    : 21.0.13.1_p2-r0 
+│                       │      ├ Status          : fixed 
+│                       │      ├ Layer            ╭ Digest: sha256:e5005db9a2f95eda18f911570b68b5ea4a341cd973ed
+│                       │      │                  │         e0c2eec37e22ebf6f240 
+│                       │      │                  ╰ DiffID: sha256:588c1636bfe809e49d7d90762ee9e3d2a1cdabe17ed7
+│                       │      │                            5d28144c37dbf4bb71d7 
+│                       │      ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2026-114941 
+│                       │      ├ DataSource       ╭ ID  : alpine 
+│                       │      │                  ├ Name: Alpine Secdb 
+│                       │      │                  ╰ URL : https://secdb.alpinelinux.org/ 
+│                       │      ├ Fingerprint     : sha256:f79b396609c530856ee851b782802e342f8490d7d27564fec9d06
+│                       │      │                   38fc745a47e 
+│                       │      ├ Title           : OpenJDK: OpenJDK: Improve integer compression 
+│                       │      ├ Description     : Vulnerability in the Oracle Java SE, Oracle GraalVM for JDK
+│                       │      │                   product of Oracle Java SE (component: Compiler).  Supported
+│                       │      │                   versions that are affected are Oracle Java SE: 21.0.13.0.3,
+│                       │      │                   25.0.5.0.3 and  27.0.1.0.3; Oracle GraalVM for JDK:
+│                       │      │                   21.0.13.0.3. Difficult to exploit vulnerability allows
+│                       │      │                   unauthenticated attacker with network access via multiple
+│                       │      │                   protocols to compromise Oracle Java SE, Oracle GraalVM for
+│                       │      │                   JDK.  Successful attacks of this vulnerability can result in
+│                       │      │                    unauthorized ability to cause a hang or frequently
+│                       │      │                   repeatable crash (complete DOS) of Oracle Java SE, Oracle
+│                       │      │                   GraalVM for JDK as well as  unauthorized update, insert or
+│                       │      │                   delete access to some of Oracle Java SE, Oracle GraalVM for
+│                       │      │                   JDK accessible data and  unauthorized read access to a
+│                       │      │                   subset of Oracle Java SE, Oracle GraalVM for JDK accessible
+│                       │      │                   data. Note: This vulnerability can only be exploited by
+│                       │      │                   supplying data to APIs in the specified Component without
+│                       │      │                   using Untrusted Java Web Start applications or Untrusted
+│                       │      │                   Java applets, such as through a web service. CVSS 3.1 Base
+│                       │      │                   Score 7.0 (Confidentiality, Integrity and Availability
+│                       │      │                   impacts).  CVSS Vector:
+│                       │      │                   (CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:L/I:L/A:H). 
+│                       │      ├ Severity        : HIGH 
+│                       │      ├ VendorSeverity   ─ redhat: 3 
+│                       │      ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:L/I:L
+│                       │      │                           │           /A:H 
+│                       │      │                           ╰ V3Score : 7 
+│                       │      ├ References                                                              
+│                       │      │                  ───────────────────────────────────────────────────────
+│                       │      │                  https://access.redhat.com/security/cve/CVE-2026-114941 
+│                       │      │                  https://nvd.nist.gov/vuln/detail/CVE-2026-114941       
+│                       │      │                  https://www.cve.org/CVERecord?id=CVE-2026-114941       
+│                       │      │                  https://www.oracle.com/security-alerts/cspunov2026.html
+│                       │      ├ PublishedDate   : 2026-11-17T22:18:24.177Z 
+│                       │      ╰ LastModifiedDate: 2026-11-17T22:18:24.177Z 
+│                       ├ [4]  ╭ VulnerabilityID : CVE-2026-114942 
+│                       │      ├ PkgID           : openjdk21-jre@21.0.13.0.3_p1-r0 
+│                       │      ├ PkgName         : openjdk21-jre 
+│                       │      ├ PkgIdentifier    ╭ PURL: pkg:apk/alpine/openjdk21-jre@21.0.13.0.3_p1-r0?arch=x
+│                       │      │                  │       86_64&distro=3.24.4 
+│                       │      │                  ╰ UID : fb3717618354d5b 
+│                       │      ├ InstalledVersion: 21.0.13.0.3_p1-r0 
+│                       │      ├ FixedVersion    : 21.0.13.1_p2-r0 
+│                       │      ├ Status          : fixed 
+│                       │      ├ Layer            ╭ Digest: sha256:e5005db9a2f95eda18f911570b68b5ea4a341cd973ed
+│                       │      │                  │         e0c2eec37e22ebf6f240 
+│                       │      │                  ╰ DiffID: sha256:588c1636bfe809e49d7d90762ee9e3d2a1cdabe17ed7
+│                       │      │                            5d28144c37dbf4bb71d7 
+│                       │      ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2026-114942 
+│                       │      ├ DataSource       ╭ ID  : alpine 
+│                       │      │                  ├ Name: Alpine Secdb 
+│                       │      │                  ╰ URL : https://secdb.alpinelinux.org/ 
+│                       │      ├ Fingerprint     : sha256:f5f5bed5570cfb5ad163dc95bd30749c988b66670b35da42fcd1e
+│                       │      │                   0c39d9db553 
+│                       │      ├ Title           : OpenJDK: OpenJDK: Enhance vector masks 
+│                       │      ├ Description     : Vulnerability in the Oracle Java SE, Oracle GraalVM for JDK
+│                       │      │                   product of Oracle Java SE (component: Libraries).  Supported
+│                       │      │                    versions that are affected are Oracle Java SE: 21.0.13.0.3,
+│                       │      │                    25.0.5.0.3 and  27.0.1.0.3; Oracle GraalVM for JDK:
+│                       │      │                   21.0.13.0.3. Difficult to exploit vulnerability allows
+│                       │      │                   unauthenticated attacker with network access via multiple
+│                       │      │                   protocols to compromise Oracle Java SE, Oracle GraalVM for
+│                       │      │                   JDK.  Successful attacks of this vulnerability can result in
+│                       │      │                    unauthorized ability to cause a hang or frequently
+│                       │      │                   repeatable crash (complete DOS) of Oracle Java SE, Oracle
+│                       │      │                   GraalVM for JDK as well as  unauthorized update, insert or
+│                       │      │                   delete access to some of Oracle Java SE, Oracle GraalVM for
+│                       │      │                   JDK accessible data and  unauthorized read access to a
+│                       │      │                   subset of Oracle Java SE, Oracle GraalVM for JDK accessible
+│                       │      │                   data. Note: This vulnerability can only be exploited by
+│                       │      │                   supplying data to APIs in the specified Component without
+│                       │      │                   using Untrusted Java Web Start applications or Untrusted
+│                       │      │                   Java applets, such as through a web service. CVSS 3.1 Base
+│                       │      │                   Score 7.0 (Confidentiality, Integrity and Availability
+│                       │      │                   impacts).  CVSS Vector:
+│                       │      │                   (CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:L/I:L/A:H). 
+│                       │      ├ Severity        : HIGH 
+│                       │      ├ VendorSeverity   ─ redhat: 3 
+│                       │      ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:L/I:L
+│                       │      │                           │           /A:H 
+│                       │      │                           ╰ V3Score : 7 
+│                       │      ├ References                                                              
+│                       │      │                  ───────────────────────────────────────────────────────
+│                       │      │                  https://access.redhat.com/security/cve/CVE-2026-114942 
+│                       │      │                  https://nvd.nist.gov/vuln/detail/CVE-2026-114942       
+│                       │      │                  https://www.cve.org/CVERecord?id=CVE-2026-114942       
+│                       │      │                  https://www.oracle.com/security-alerts/cspunov2026.html
+│                       │      ├ PublishedDate   : 2026-11-17T22:18:24.297Z 
+│                       │      ╰ LastModifiedDate: 2026-11-17T22:18:24.297Z 
+│                       ├ [5]  ╭ VulnerabilityID : CVE-2026-114943 
+│                       │      ├ PkgID           : openjdk21-jre@21.0.13.0.3_p1-r0 
+│                       │      ├ PkgName         : openjdk21-jre 
+│                       │      ├ PkgIdentifier    ╭ PURL: pkg:apk/alpine/openjdk21-jre@21.0.13.0.3_p1-r0?arch=x
+│                       │      │                  │       86_64&distro=3.24.4 
+│                       │      │                  ╰ UID : fb3717618354d5b 
+│                       │      ├ InstalledVersion: 21.0.13.0.3_p1-r0 
+│                       │      ├ FixedVersion    : 21.0.13.1_p2-r0 
+│                       │      ├ Status          : fixed 
+│                       │      ├ Layer            ╭ Digest: sha256:e5005db9a2f95eda18f911570b68b5ea4a341cd973ed
+│                       │      │                  │         e0c2eec37e22ebf6f240 
+│                       │      │                  ╰ DiffID: sha256:588c1636bfe809e49d7d90762ee9e3d2a1cdabe17ed7
+│                       │      │                            5d28144c37dbf4bb71d7 
+│                       │      ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2026-114943 
+│                       │      ├ DataSource       ╭ ID  : alpine 
+│                       │      │                  ├ Name: Alpine Secdb 
+│                       │      │                  ╰ URL : https://secdb.alpinelinux.org/ 
+│                       │      ├ Fingerprint     : sha256:e8b2179fe179ba232c5d0c683c8a623cdc54dc47c7d8776eb4a97
+│                       │      │                   a2bbcd6584d 
+│                       │      ├ Title           : OpenJDK: OpenJDK: Enhance JFR Events 
+│                       │      ├ Description     : Vulnerability in the Oracle Java SE, Oracle GraalVM for JDK,
+│                       │      │                    Oracle GraalVM Enterprise Edition product of Oracle Java SE
+│                       │      │                    (component: Hotspot).  Supported versions that are affected
+│                       │      │                    are Oracle Java SE: 8u511b33-perf, 11.0.33.0.3,
+│                       │      │                   17.0.21.0.3, 21.0.13.0.3, 25.0.5.0.3, 27.0.1.0.3; Oracle
+│                       │      │                   GraalVM for JDK: 17.0.21.0.3 and  21.0.13.0.3; Oracle
+│                       │      │                   GraalVM Enterprise Edition: 21.3.20.0.3. Difficult to
+│                       │      │                   exploit vulnerability allows unauthenticated attacker with
+│                       │      │                   network access via multiple protocols to compromise Oracle
+│                       │      │                   Java SE, Oracle GraalVM for JDK, Oracle GraalVM Enterprise
+│                       │      │                   Edition.  Successful attacks of this vulnerability can
+│                       │      │                   result in unauthorized ability to cause a hang or frequently
+│                       │      │                    repeatable crash (complete DOS) of Oracle Java SE, Oracle
+│                       │      │                   GraalVM for JDK, Oracle GraalVM Enterprise Edition as well
+│                       │      │                   as  unauthorized update, insert or delete access to some of
+│                       │      │                   Oracle Java SE, Oracle GraalVM for JDK, Oracle GraalVM
+│                       │      │                   Enterprise Edition accessible data. Note: This vulnerability
+│                       │      │                    can be exploited by using APIs in the specified Component,
+│                       │      │                   e.g., through a web service which supplies data to the APIs.
+│                       │      │                    This vulnerability also applies to Java deployments,
+│                       │      │                   typically in clients running sandboxed Java Web Start
+│                       │      │                   applications or sandboxed Java applets, that load and run
+│                       │      │                   untrusted code (e.g., code that comes from the internet) and
+│                       │      │                    rely on the Java sandbox for security. CVSS 3.1 Base Score
+│                       │      │                   6.5 (Integrity and Availability impacts).  CVSS Vector:
+│                       │      │                   (CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:N/I:L/A:H). 
+│                       │      ├ Severity        : MEDIUM 
+│                       │      ├ VendorSeverity   ─ redhat: 2 
+│                       │      ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:N/I:L
+│                       │      │                           │           /A:H 
+│                       │      │                           ╰ V3Score : 6.5 
+│                       │      ├ References                                                              
+│                       │      │                  ───────────────────────────────────────────────────────
+│                       │      │                  https://access.redhat.com/security/cve/CVE-2026-114943 
+│                       │      │                  https://nvd.nist.gov/vuln/detail/CVE-2026-114943       
+│                       │      │                  https://www.cve.org/CVERecord?id=CVE-2026-114943       
+│                       │      │                  https://www.oracle.com/security-alerts/cspunov2026.html
+│                       │      ├ PublishedDate   : 2026-11-17T22:18:24.41Z 
+│                       │      ╰ LastModifiedDate: 2026-11-17T22:18:24.41Z 
+│                       ├ [6]  ╭ VulnerabilityID : CVE-2026-114944 
+│                       │      ├ PkgID           : openjdk21-jre@21.0.13.0.3_p1-r0 
+│                       │      ├ PkgName         : openjdk21-jre 
+│                       │      ├ PkgIdentifier    ╭ PURL: pkg:apk/alpine/openjdk21-jre@21.0.13.0.3_p1-r0?arch=x
+│                       │      │                  │       86_64&distro=3.24.4 
+│                       │      │                  ╰ UID : fb3717618354d5b 
+│                       │      ├ InstalledVersion: 21.0.13.0.3_p1-r0 
+│                       │      ├ FixedVersion    : 21.0.13.1_p2-r0 
+│                       │      ├ Status          : fixed 
+│                       │      ├ Layer            ╭ Digest: sha256:e5005db9a2f95eda18f911570b68b5ea4a341cd973ed
+│                       │      │                  │         e0c2eec37e22ebf6f240 
+│                       │      │                  ╰ DiffID: sha256:588c1636bfe809e49d7d90762ee9e3d2a1cdabe17ed7
+│                       │      │                            5d28144c37dbf4bb71d7 
+│                       │      ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2026-114944 
+│                       │      ├ DataSource       ╭ ID  : alpine 
+│                       │      │                  ├ Name: Alpine Secdb 
+│                       │      │                  ╰ URL : https://secdb.alpinelinux.org/ 
+│                       │      ├ Fingerprint     : sha256:e40515860d21f1f9d8d45a20825a7d7289c3223edb77d3269cb68
+│                       │      │                   9c11d5475a4 
+│                       │      ├ Title           : OpenJDK: OpenJDK: Enhance JMX Connections 
+│                       │      ├ Description     : Vulnerability in the Oracle Java SE, Oracle GraalVM for JDK,
+│                       │      │                    Oracle GraalVM Enterprise Edition product of Oracle Java SE
+│                       │      │                    (component: Core Java Libraries).  Supported versions that
+│                       │      │                   are affected are Oracle Java SE: 8u511b33, 8u511b33-perf,
+│                       │      │                   11.0.33.0.3, 17.0.21.0.3, 21.0.13.0.3, 25.0.5.0.3,
+│                       │      │                   27.0.1.0.3; Oracle GraalVM for JDK: 17.0.21.0.3 and 
+│                       │      │                   21.0.13.0.3; Oracle GraalVM Enterprise Edition: 21.3.20.0.3.
+│                       │      │                    Difficult to exploit vulnerability allows unauthenticated
+│                       │      │                   attacker with network access via multiple protocols to
+│                       │      │                   compromise Oracle Java SE, Oracle GraalVM for JDK, Oracle
+│                       │      │                   GraalVM Enterprise Edition.  Successful attacks of this
+│                       │      │                   vulnerability can result in  unauthorized creation, deletion
+│                       │      │                    or modification access to critical data or all Oracle Java
+│                       │      │                   SE, Oracle GraalVM for JDK, Oracle GraalVM Enterprise
+│                       │      │                   Edition accessible data. Note: This vulnerability can be
+│                       │      │                   exploited by using APIs in the specified Component, e.g.,
+│                       │      │                   through a web service which supplies data to the APIs. This
+│                       │      │                   vulnerability also applies to Java deployments, typically in
+│                       │      │                    clients running sandboxed Java Web Start applications or
+│                       │      │                   sandboxed Java applets, that load and run untrusted code
+│                       │      │                   (e.g., code that comes from the internet) and rely on the
+│                       │      │                   Java sandbox for security. CVSS 3.1 Base Score 5.9
+│                       │      │                   (Integrity impacts).  CVSS Vector:
+│                       │      │                   (CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:N/I:H/A:N). 
+│                       │      ├ Severity        : MEDIUM 
+│                       │      ├ VendorSeverity   ─ redhat: 2 
+│                       │      ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:N/I:H
+│                       │      │                           │           /A:N 
+│                       │      │                           ╰ V3Score : 5.9 
+│                       │      ├ References                                                              
+│                       │      │                  ───────────────────────────────────────────────────────
+│                       │      │                  https://access.redhat.com/security/cve/CVE-2026-114944 
+│                       │      │                  https://nvd.nist.gov/vuln/detail/CVE-2026-114944       
+│                       │      │                  https://www.cve.org/CVERecord?id=CVE-2026-114944       
+│                       │      │                  https://www.oracle.com/security-alerts/cspunov2026.html
+│                       │      ├ PublishedDate   : 2026-11-17T22:18:24.54Z 
+│                       │      ╰ LastModifiedDate: 2026-11-17T22:18:24.54Z 
+│                       ├ [7]  ╭ VulnerabilityID : CVE-2026-114945 
+│                       │      ├ PkgID           : openjdk21-jre@21.0.13.0.3_p1-r0 
+│                       │      ├ PkgName         : openjdk21-jre 
+│                       │      ├ PkgIdentifier    ╭ PURL: pkg:apk/alpine/openjdk21-jre@21.0.13.0.3_p1-r0?arch=x
+│                       │      │                  │       86_64&distro=3.24.4 
+│                       │      │                  ╰ UID : fb3717618354d5b 
+│                       │      ├ InstalledVersion: 21.0.13.0.3_p1-r0 
+│                       │      ├ FixedVersion    : 21.0.13.1_p2-r0 
+│                       │      ├ Status          : fixed 
+│                       │      ├ Layer            ╭ Digest: sha256:e5005db9a2f95eda18f911570b68b5ea4a341cd973ed
+│                       │      │                  │         e0c2eec37e22ebf6f240 
+│                       │      │                  ╰ DiffID: sha256:588c1636bfe809e49d7d90762ee9e3d2a1cdabe17ed7
+│                       │      │                            5d28144c37dbf4bb71d7 
+│                       │      ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2026-114945 
+│                       │      ├ DataSource       ╭ ID  : alpine 
+│                       │      │                  ├ Name: Alpine Secdb 
+│                       │      │                  ╰ URL : https://secdb.alpinelinux.org/ 
+│                       │      ├ Fingerprint     : sha256:83ad37166ad35bc48691e7cc7411d4cace2f157b550c16add0a8f
+│                       │      │                   8cbc4df9e7f 
+│                       │      ├ Title           : OpenJDK: OpenJDK: Enhance StringBuilder checks 
+│                       │      ├ Description     : Vulnerability in the Oracle Java SE, Oracle GraalVM for JDK
+│                       │      │                   product of Oracle Java SE (component: Libraries).  Supported
+│                       │      │                    versions that are affected are Oracle Java SE: 21.0.13.0.3,
+│                       │      │                    25.0.5.0.3 and  27.0.1.0.3; Oracle GraalVM for JDK:
+│                       │      │                   21.0.13.0.3. Easily exploitable vulnerability allows
+│                       │      │                   unauthenticated attacker with network access via multiple
+│                       │      │                   protocols to compromise Oracle Java SE, Oracle GraalVM for
+│                       │      │                   JDK.  Successful attacks of this vulnerability can result in
+│                       │      │                     unauthorized update, insert or delete access to some of
+│                       │      │                   Oracle Java SE, Oracle GraalVM for JDK accessible data.
+│                       │      │                   Note: This vulnerability can be exploited by using APIs in
+│                       │      │                   the specified Component, e.g., through a web service which
+│                       │      │                   supplies data to the APIs. This vulnerability also applies
+│                       │      │                   to Java deployments, typically in clients running sandboxed
+│                       │      │                   Java Web Start applications or sandboxed Java applets, that
+│                       │      │                   load and run untrusted code (e.g., code that comes from the
+│                       │      │                   internet) and rely on the Java sandbox for security. CVSS
+│                       │      │                   3.1 Base Score 5.3 (Integrity impacts).  CVSS Vector:
+│                       │      │                   (CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:L/A:N). 
+│                       │      ├ Severity        : MEDIUM 
+│                       │      ├ VendorSeverity   ─ redhat: 2 
+│                       │      ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:L
+│                       │      │                           │           /A:N 
+│                       │      │                           ╰ V3Score : 5.3 
+│                       │      ├ References                                                              
+│                       │      │                  ───────────────────────────────────────────────────────
+│                       │      │                  https://access.redhat.com/security/cve/CVE-2026-114945 
+│                       │      │                  https://nvd.nist.gov/vuln/detail/CVE-2026-114945       
+│                       │      │                  https://www.cve.org/CVERecord?id=CVE-2026-114945       
+│                       │      │                  https://www.oracle.com/security-alerts/cspunov2026.html
+│                       │      ├ PublishedDate   : 2026-11-17T22:18:24.673Z 
+│                       │      ╰ LastModifiedDate: 2026-11-17T22:18:24.673Z 
+│                       ├ [8]  ╭ VulnerabilityID : CVE-2026-114946 
+│                       │      ├ PkgID           : openjdk21-jre@21.0.13.0.3_p1-r0 
+│                       │      ├ PkgName         : openjdk21-jre 
+│                       │      ├ PkgIdentifier    ╭ PURL: pkg:apk/alpine/openjdk21-jre@21.0.13.0.3_p1-r0?arch=x
+│                       │      │                  │       86_64&distro=3.24.4 
+│                       │      │                  ╰ UID : fb3717618354d5b 
+│                       │      ├ InstalledVersion: 21.0.13.0.3_p1-r0 
+│                       │      ├ FixedVersion    : 21.0.13.1_p2-r0 
+│                       │      ├ Status          : fixed 
+│                       │      ├ Layer            ╭ Digest: sha256:e5005db9a2f95eda18f911570b68b5ea4a341cd973ed
+│                       │      │                  │         e0c2eec37e22ebf6f240 
+│                       │      │                  ╰ DiffID: sha256:588c1636bfe809e49d7d90762ee9e3d2a1cdabe17ed7
+│                       │      │                            5d28144c37dbf4bb71d7 
+│                       │      ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2026-114946 
+│                       │      ├ DataSource       ╭ ID  : alpine 
+│                       │      │                  ├ Name: Alpine Secdb 
+│                       │      │                  ╰ URL : https://secdb.alpinelinux.org/ 
+│                       │      ├ Fingerprint     : sha256:6237da81cbba327a072c69adaa9765a7870e81cde20ad814859ad
+│                       │      │                   7342dc4441e 
+│                       │      ├ Title           : OpenJDK: OpenJDK: Enhance loop handling 
+│                       │      ├ Description     : Vulnerability in the Oracle Java SE, Oracle GraalVM for JDK,
+│                       │      │                    Oracle GraalVM Enterprise Edition product of Oracle Java SE
+│                       │      │                    (component: Compiler).  Supported versions that are
+│                       │      │                   affected are Oracle Java SE: 8u511b33, 8u511b33-perf,
+│                       │      │                   11.0.33.0.3, 17.0.21.0.3, 21.0.13.0.3, 25.0.5.0.3,
+│                       │      │                   27.0.1.0.3; Oracle GraalVM for JDK: 17.0.21.0.3 and 
+│                       │      │                   21.0.13.0.3; Oracle GraalVM Enterprise Edition: 21.3.20.0.3.
+│                       │      │                    Difficult to exploit vulnerability allows unauthenticated
+│                       │      │                   attacker with network access via multiple protocols to
+│                       │      │                   compromise Oracle Java SE, Oracle GraalVM for JDK, Oracle
+│                       │      │                   GraalVM Enterprise Edition.  Successful attacks of this
+│                       │      │                   vulnerability can result in  unauthorized update, insert or
+│                       │      │                   delete access to some of Oracle Java SE, Oracle GraalVM for
+│                       │      │                   JDK, Oracle GraalVM Enterprise Edition accessible data as
+│                       │      │                   well as  unauthorized read access to a subset of Oracle Java
+│                       │      │                    SE, Oracle GraalVM for JDK, Oracle GraalVM Enterprise
+│                       │      │                   Edition accessible data. Note: This vulnerability can be
+│                       │      │                   exploited by using APIs in the specified Component, e.g.,
+│                       │      │                   through a web service which supplies data to the APIs. This
+│                       │      │                   vulnerability also applies to Java deployments, typically in
+│                       │      │                    clients running sandboxed Java Web Start applications or
+│                       │      │                   sandboxed Java applets, that load and run untrusted code
+│                       │      │                   (e.g., code that comes from the internet) and rely on the
+│                       │      │                   Java sandbox for security. CVSS 3.1 Base Score 4.8
+│                       │      │                   (Confidentiality and Integrity impacts).  CVSS Vector:
+│                       │      │                   (CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:L/I:L/A:N). 
+│                       │      ├ Severity        : MEDIUM 
+│                       │      ├ VendorSeverity   ─ redhat: 2 
+│                       │      ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:L/I:L
+│                       │      │                           │           /A:N 
+│                       │      │                           ╰ V3Score : 4.8 
+│                       │      ├ References                                                              
+│                       │      │                  ───────────────────────────────────────────────────────
+│                       │      │                  https://access.redhat.com/security/cve/CVE-2026-114946 
+│                       │      │                  https://nvd.nist.gov/vuln/detail/CVE-2026-114946       
+│                       │      │                  https://www.cve.org/CVERecord?id=CVE-2026-114946       
+│                       │      │                  https://www.oracle.com/security-alerts/cspunov2026.html
+│                       │      ├ PublishedDate   : 2026-11-17T22:18:24.793Z 
+│                       │      ╰ LastModifiedDate: 2026-11-17T22:18:24.793Z 
+│                       ├ [9]  ╭ VulnerabilityID : CVE-2026-114938 
+│                       │      ├ PkgID           : openjdk21-jre-headless@21.0.13.0.3_p1-r0 
+│                       │      ├ PkgName         : openjdk21-jre-headless 
+│                       │      ├ PkgIdentifier    ╭ PURL: pkg:apk/alpine/openjdk21-jre-headless@21.0.13.0.3_p1-
+│                       │      │                  │       r0?arch=x86_64&distro=3.24.4 
+│                       │      │                  ╰ UID : b0a26b10e64e3413 
+│                       │      ├ InstalledVersion: 21.0.13.0.3_p1-r0 
+│                       │      ├ FixedVersion    : 21.0.13.1_p2-r0 
+│                       │      ├ Status          : fixed 
+│                       │      ├ Layer            ╭ Digest: sha256:e5005db9a2f95eda18f911570b68b5ea4a341cd973ed
+│                       │      │                  │         e0c2eec37e22ebf6f240 
+│                       │      │                  ╰ DiffID: sha256:588c1636bfe809e49d7d90762ee9e3d2a1cdabe17ed7
+│                       │      │                            5d28144c37dbf4bb71d7 
+│                       │      ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2026-114938 
+│                       │      ├ DataSource       ╭ ID  : alpine 
+│                       │      │                  ├ Name: Alpine Secdb 
+│                       │      │                  ╰ URL : https://secdb.alpinelinux.org/ 
+│                       │      ├ Fingerprint     : sha256:def1e586d280f7af1070c4f2f7a7d0716fbb0012d2c95671511aa
+│                       │      │                   472c78d45d2 
+│                       │      ├ Title           : OpenJDK: OpenJDK: remote code execution via memory
+│                       │      │                   corruption on x86-64 systems with AVX-512 VBMI 
+│                       │      ├ Description     : Vulnerability in the Oracle Java SE, Oracle GraalVM for JDK,
+│                       │      │                    Oracle GraalVM Enterprise Edition product of Oracle Java SE
+│                       │      │                    (component: Compiler).  Supported versions that are
+│                       │      │                   affected are Oracle Java SE: 8u511b33-perf, 17.0.21.0.3,
+│                       │      │                   21.0.13.0.3, 25.0.5.0.3, 27.0.1.0.3; Oracle GraalVM for JDK:
+│                       │      │                    17.0.21.0.3 and  21.0.13.0.3; Oracle GraalVM Enterprise
+│                       │      │                   Edition: 21.3.20.0.3. Difficult to exploit vulnerability
+│                       │      │                   allows unauthenticated attacker with network access via
+│                       │      │                   multiple protocols to compromise Oracle Java SE, Oracle
+│                       │      │                   GraalVM for JDK, Oracle GraalVM Enterprise Edition. 
+│                       │      │                   Successful attacks of this vulnerability can result in
+│                       │      │                   takeover of Oracle Java SE, Oracle GraalVM for JDK, Oracle
+│                       │      │                   GraalVM Enterprise Edition. Note: This vulnerability can
+│                       │      │                   only be exploited by supplying data to APIs in the specified
+│                       │      │                    Component without using Untrusted Java Web Start
+│                       │      │                   applications or Untrusted Java applets, such as through a
+│                       │      │                   web service. CVSS 3.1 Base Score 8.1 (Confidentiality,
+│                       │      │                   Integrity and Availability impacts).  CVSS Vector:
+│                       │      │                   (CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:H/I:H/A:H). 
+│                       │      ├ Severity        : CRITICAL 
+│                       │      ├ CweIDs                  
+│                       │      │                  ───────
+│                       │      │                  CWE-122
+│                       │      ├ VendorSeverity   ─ redhat: 4 
+│                       │      ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.0/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H
+│                       │      │                           │           /A:H 
+│                       │      │                           ╰ V3Score : 9.8 
+│                       │      ├ References                                                                    
+│                       │      │                  ─────────────────────────────────────────────────────────────
+│                       │      │                  http://www.openwall.com/lists/oss-security/2026/11/17/31     
+│                       │      │                  https://access.redhat.com/security/cve/CVE-2026-114938       
+│                       │      │                  https://access.redhat.com/security/cve/cve-2026-114938       
+│                       │      │                  https://calif.io/java4shell                                  
+│                       │      │                  https://github.com/Azure/azure-functions-java-worker/issues/9
+│                       │      │                  09                                                           
+│                       │      │                  https://github.com/chainguard-dev/cg-skills/pull/17          
+│                       │      │                                                                               
+│                       │      │                  https://github.com/corretto/corretto-27/blob/27.0.1.1.4/CHANG
+│                       │      │                  ELOG.md                                                      
+│                       │      │                  https://news.ycombinator.com/item?id=50538240                
+│                       │      │                                                                               
+│                       │      │                  https://nvd.nist.gov/vuln/detail/CVE-2026-114938             
+│                       │      │                                                                               
+│                       │      │                  https://www.cisa.gov/news-events/alerts/2026/11/17/critical-j
+│                       │      │                  ava-vulnerability-requires-immediate-patching                
+│                       │      │                  https://www.cve.org/CVERecord?id=CVE-2026-114938             
+│                       │      │                                                                               
+│                       │      │                  https://www.oracle.com/security-alerts/cspunov2026.html      
+│                       │      ├ PublishedDate   : 2026-11-17T22:18:23.777Z 
+│                       │      ╰ LastModifiedDate: 2026-11-18T13:45:37.953Z 
+│                       ├ [10] ╭ VulnerabilityID : CVE-2026-114939 
+│                       │      ├ PkgID           : openjdk21-jre-headless@21.0.13.0.3_p1-r0 
+│                       │      ├ PkgName         : openjdk21-jre-headless 
+│                       │      ├ PkgIdentifier    ╭ PURL: pkg:apk/alpine/openjdk21-jre-headless@21.0.13.0.3_p1-
+│                       │      │                  │       r0?arch=x86_64&distro=3.24.4 
+│                       │      │                  ╰ UID : b0a26b10e64e3413 
+│                       │      ├ InstalledVersion: 21.0.13.0.3_p1-r0 
+│                       │      ├ FixedVersion    : 21.0.13.1_p2-r0 
+│                       │      ├ Status          : fixed 
+│                       │      ├ Layer            ╭ Digest: sha256:e5005db9a2f95eda18f911570b68b5ea4a341cd973ed
+│                       │      │                  │         e0c2eec37e22ebf6f240 
+│                       │      │                  ╰ DiffID: sha256:588c1636bfe809e49d7d90762ee9e3d2a1cdabe17ed7
+│                       │      │                            5d28144c37dbf4bb71d7 
+│                       │      ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2026-114939 
+│                       │      ├ DataSource       ╭ ID  : alpine 
+│                       │      │                  ├ Name: Alpine Secdb 
+│                       │      │                  ╰ URL : https://secdb.alpinelinux.org/ 
+│                       │      ├ Fingerprint     : sha256:d2c38319e095fbddcfc8f58416f564de33aeb43facb035e952682
+│                       │      │                   6d23e6b2ea9 
+│                       │      ├ Title           : OpenJDK: OpenJDK: The acceptor does not properly implement
+│                       │      │                   RFC 4120 requirements for handling cross-realm tickets. 
+│                       │      ├ Description     : Vulnerability in the Oracle Java SE, Oracle GraalVM for JDK,
+│                       │      │                    Oracle GraalVM Enterprise Edition product of Oracle Java SE
+│                       │      │                    (component: JGSS).  Supported versions that are affected
+│                       │      │                   are Oracle Java SE: 8u511b33, 8u511b33-perf, 11.0.33.0.3,
+│                       │      │                   17.0.21.0.3,  21.0.13.0.3, 25.0.5.0.3, 27.0.1.0.3; Oracle
+│                       │      │                   GraalVM for JDK: 17.0.21.0.3 and  21.0.13.0.3; Oracle
+│                       │      │                   GraalVM Enterprise Edition: 21.3.20.0.3. Difficult to
+│                       │      │                   exploit vulnerability allows unauthenticated attacker with
+│                       │      │                   network access via multiple protocols to compromise Oracle
+│                       │      │                   Java SE, Oracle GraalVM for JDK, Oracle GraalVM Enterprise
+│                       │      │                   Edition.  Successful attacks of this vulnerability can
+│                       │      │                   result in  unauthorized creation, deletion or modification
+│                       │      │                   access to critical data or all Oracle Java SE, Oracle
+│                       │      │                   GraalVM for JDK, Oracle GraalVM Enterprise Edition
+│                       │      │                   accessible data as well as  unauthorized access to critical
+│                       │      │                   data or complete access to all Oracle Java SE, Oracle
+│                       │      │                   accessible data. Note: This vulnerability applies to Java
+│                       │      │                   deployments, typically in clients running sandboxed Java Web
+│                       │      │                    Start applications or sandboxed Java applets, that load and
+│                       │      │                    run untrusted code (e.g., code that comes from the
+│                       │      │                   internet) and rely on the Java sandbox for security. This
+│                       │      │                   vulnerability does not apply to Java deployments, typically
+│                       │      │                   in servers, that load and run only trusted code (e.g., code
+│                       │      │                   installed by an administrator). CVSS 3.1 Base Score 7.4
+│                       │      │                   (Confidentiality and Integrity impacts).  CVSS Vector:
+│                       │      │                   (CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:H/I:H/A:N). 
+│                       │      ├ Severity        : HIGH 
+│                       │      ├ VendorSeverity   ─ redhat: 3 
+│                       │      ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:H/I:H
+│                       │      │                           │           /A:N 
+│                       │      │                           ╰ V3Score : 7.4 
+│                       │      ├ References                                                              
+│                       │      │                  ───────────────────────────────────────────────────────
+│                       │      │                  https://access.redhat.com/security/cve/CVE-2026-114939 
+│                       │      │                  https://nvd.nist.gov/vuln/detail/CVE-2026-114939       
+│                       │      │                  https://www.cve.org/CVERecord?id=CVE-2026-114939       
+│                       │      │                  https://www.oracle.com/security-alerts/cspunov2026.html
+│                       │      ├ PublishedDate   : 2026-11-17T22:18:23.92Z 
+│                       │      ╰ LastModifiedDate: 2026-11-17T22:18:23.92Z 
+│                       ├ [11] ╭ VulnerabilityID : CVE-2026-114940 
+│                       │      ├ PkgID           : openjdk21-jre-headless@21.0.13.0.3_p1-r0 
+│                       │      ├ PkgName         : openjdk21-jre-headless 
+│                       │      ├ PkgIdentifier    ╭ PURL: pkg:apk/alpine/openjdk21-jre-headless@21.0.13.0.3_p1-
+│                       │      │                  │       r0?arch=x86_64&distro=3.24.4 
+│                       │      │                  ╰ UID : b0a26b10e64e3413 
+│                       │      ├ InstalledVersion: 21.0.13.0.3_p1-r0 
+│                       │      ├ FixedVersion    : 21.0.13.1_p2-r0 
+│                       │      ├ Status          : fixed 
+│                       │      ├ Layer            ╭ Digest: sha256:e5005db9a2f95eda18f911570b68b5ea4a341cd973ed
+│                       │      │                  │         e0c2eec37e22ebf6f240 
+│                       │      │                  ╰ DiffID: sha256:588c1636bfe809e49d7d90762ee9e3d2a1cdabe17ed7
+│                       │      │                            5d28144c37dbf4bb71d7 
+│                       │      ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2026-114940 
+│                       │      ├ DataSource       ╭ ID  : alpine 
+│                       │      │                  ├ Name: Alpine Secdb 
+│                       │      │                  ╰ URL : https://secdb.alpinelinux.org/ 
+│                       │      ├ Fingerprint     : sha256:ef4198aded758c47a31a7c239b7a857cd7e1c061c35e99caa3b55
+│                       │      │                   9d336020b7f 
+│                       │      ├ Title           : OpenJDK: OpenJDK: Improve TLS client connections 
+│                       │      ├ Description     : Vulnerability in the Oracle Java SE, Oracle GraalVM for JDK,
+│                       │      │                    Oracle GraalVM Enterprise Edition product of Oracle Java SE
+│                       │      │                    (component: JSSE).  Supported versions that are affected
+│                       │      │                   are Oracle Java SE: 8u511b33, 8u511b33-perf, 11.0.33.0.3,
+│                       │      │                   17.0.21.0.3, 21.0.13.0.3, 25.0.5.0.3, 27.0.1.0.3; Oracle
+│                       │      │                   GraalVM for JDK: 17.0.21.0.3 and  21.0.13.0.3; Oracle
+│                       │      │                   GraalVM Enterprise Edition: 21.3.20.0.3. Difficult to
+│                       │      │                   exploit vulnerability allows unauthenticated attacker with
+│                       │      │                   network access via TLS to compromise Oracle Java SE, Oracle
+│                       │      │                   GraalVM for JDK, Oracle GraalVM Enterprise Edition. 
+│                       │      │                   Successful attacks of this vulnerability can result in 
+│                       │      │                   unauthorized creation, deletion or modification access to
+│                       │      │                   critical data or all Oracle Java SE, Oracle GraalVM for JDK,
+│                       │      │                    Oracle GraalVM Enterprise Edition accessible data as well
+│                       │      │                   as  unauthorized access to critical data or complete access
+│                       │      │                   to all Oracle Java SE, Oracle GraalVM for JDK, Oracle
+│                       │      │                   GraalVM Enterprise Edition accessible data. Note: This
+│                       │      │                   vulnerability can be exploited by using APIs in the
+│                       │      │                   specified Component, e.g., through a web service which
+│                       │      │                   supplies data to the APIs. This vulnerability also applies
+│                       │      │                   to Java deployments, typically in clients running sandboxed
+│                       │      │                   Java Web Start applications or sandboxed Java applets, that
+│                       │      │                   load and run untrusted code (e.g., code that comes from the
+│                       │      │                   internet) and rely on the Java sandbox for security. CVSS
+│                       │      │                   3.1 Base Score 7.4 (Confidentiality and Integrity impacts). 
+│                       │      │                    CVSS Vector:
+│                       │      │                   (CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:H/I:H/A:N). 
+│                       │      ├ Severity        : HIGH 
+│                       │      ├ VendorSeverity   ─ redhat: 3 
+│                       │      ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:H/I:H
+│                       │      │                           │           /A:N 
+│                       │      │                           ╰ V3Score : 7.4 
+│                       │      ├ References                                                              
+│                       │      │                  ───────────────────────────────────────────────────────
+│                       │      │                  https://access.redhat.com/security/cve/CVE-2026-114940 
+│                       │      │                  https://nvd.nist.gov/vuln/detail/CVE-2026-114940       
+│                       │      │                  https://www.cve.org/CVERecord?id=CVE-2026-114940       
+│                       │      │                  https://www.oracle.com/security-alerts/cspunov2026.html
+│                       │      ├ PublishedDate   : 2026-11-17T22:18:24.05Z 
+│                       │      ╰ LastModifiedDate: 2026-11-17T22:18:24.05Z 
+│                       ├ [12] ╭ VulnerabilityID : CVE-2026-114941 
+│                       │      ├ PkgID           : openjdk21-jre-headless@21.0.13.0.3_p1-r0 
+│                       │      ├ PkgName         : openjdk21-jre-headless 
+│                       │      ├ PkgIdentifier    ╭ PURL: pkg:apk/alpine/openjdk21-jre-headless@21.0.13.0.3_p1-
+│                       │      │                  │       r0?arch=x86_64&distro=3.24.4 
+│                       │      │                  ╰ UID : b0a26b10e64e3413 
+│                       │      ├ InstalledVersion: 21.0.13.0.3_p1-r0 
+│                       │      ├ FixedVersion    : 21.0.13.1_p2-r0 
+│                       │      ├ Status          : fixed 
+│                       │      ├ Layer            ╭ Digest: sha256:e5005db9a2f95eda18f911570b68b5ea4a341cd973ed
+│                       │      │                  │         e0c2eec37e22ebf6f240 
+│                       │      │                  ╰ DiffID: sha256:588c1636bfe809e49d7d90762ee9e3d2a1cdabe17ed7
+│                       │      │                            5d28144c37dbf4bb71d7 
+│                       │      ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2026-114941 
+│                       │      ├ DataSource       ╭ ID  : alpine 
+│                       │      │                  ├ Name: Alpine Secdb 
+│                       │      │                  ╰ URL : https://secdb.alpinelinux.org/ 
+│                       │      ├ Fingerprint     : sha256:243c67265c05bd3a5c09ba66fe21f1a1d80f6d0e8b28831f2969a
+│                       │      │                   1fbb4c31955 
+│                       │      ├ Title           : OpenJDK: OpenJDK: Improve integer compression 
+│                       │      ├ Description     : Vulnerability in the Oracle Java SE, Oracle GraalVM for JDK
+│                       │      │                   product of Oracle Java SE (component: Compiler).  Supported
+│                       │      │                   versions that are affected are Oracle Java SE: 21.0.13.0.3,
+│                       │      │                   25.0.5.0.3 and  27.0.1.0.3; Oracle GraalVM for JDK:
+│                       │      │                   21.0.13.0.3. Difficult to exploit vulnerability allows
+│                       │      │                   unauthenticated attacker with network access via multiple
+│                       │      │                   protocols to compromise Oracle Java SE, Oracle GraalVM for
+│                       │      │                   JDK.  Successful attacks of this vulnerability can result in
+│                       │      │                    unauthorized ability to cause a hang or frequently
+│                       │      │                   repeatable crash (complete DOS) of Oracle Java SE, Oracle
+│                       │      │                   GraalVM for JDK as well as  unauthorized update, insert or
+│                       │      │                   delete access to some of Oracle Java SE, Oracle GraalVM for
+│                       │      │                   JDK accessible data and  unauthorized read access to a
+│                       │      │                   subset of Oracle Java SE, Oracle GraalVM for JDK accessible
+│                       │      │                   data. Note: This vulnerability can only be exploited by
+│                       │      │                   supplying data to APIs in the specified Component without
+│                       │      │                   using Untrusted Java Web Start applications or Untrusted
+│                       │      │                   Java applets, such as through a web service. CVSS 3.1 Base
+│                       │      │                   Score 7.0 (Confidentiality, Integrity and Availability
+│                       │      │                   impacts).  CVSS Vector:
+│                       │      │                   (CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:L/I:L/A:H). 
+│                       │      ├ Severity        : HIGH 
+│                       │      ├ VendorSeverity   ─ redhat: 3 
+│                       │      ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:L/I:L
+│                       │      │                           │           /A:H 
+│                       │      │                           ╰ V3Score : 7 
+│                       │      ├ References                                                              
+│                       │      │                  ───────────────────────────────────────────────────────
+│                       │      │                  https://access.redhat.com/security/cve/CVE-2026-114941 
+│                       │      │                  https://nvd.nist.gov/vuln/detail/CVE-2026-114941       
+│                       │      │                  https://www.cve.org/CVERecord?id=CVE-2026-114941       
+│                       │      │                  https://www.oracle.com/security-alerts/cspunov2026.html
+│                       │      ├ PublishedDate   : 2026-11-17T22:18:24.177Z 
+│                       │      ╰ LastModifiedDate: 2026-11-17T22:18:24.177Z 
+│                       ├ [13] ╭ VulnerabilityID : CVE-2026-114942 
+│                       │      ├ PkgID           : openjdk21-jre-headless@21.0.13.0.3_p1-r0 
+│                       │      ├ PkgName         : openjdk21-jre-headless 
+│                       │      ├ PkgIdentifier    ╭ PURL: pkg:apk/alpine/openjdk21-jre-headless@21.0.13.0.3_p1-
+│                       │      │                  │       r0?arch=x86_64&distro=3.24.4 
+│                       │      │                  ╰ UID : b0a26b10e64e3413 
+│                       │      ├ InstalledVersion: 21.0.13.0.3_p1-r0 
+│                       │      ├ FixedVersion    : 21.0.13.1_p2-r0 
+│                       │      ├ Status          : fixed 
+│                       │      ├ Layer            ╭ Digest: sha256:e5005db9a2f95eda18f911570b68b5ea4a341cd973ed
+│                       │      │                  │         e0c2eec37e22ebf6f240 
+│                       │      │                  ╰ DiffID: sha256:588c1636bfe809e49d7d90762ee9e3d2a1cdabe17ed7
+│                       │      │                            5d28144c37dbf4bb71d7 
+│                       │      ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2026-114942 
+│                       │      ├ DataSource       ╭ ID  : alpine 
+│                       │      │                  ├ Name: Alpine Secdb 
+│                       │      │                  ╰ URL : https://secdb.alpinelinux.org/ 
+│                       │      ├ Fingerprint     : sha256:ba846d07a271b46d59f2bc60911302a328177542574df6d6b8aec
+│                       │      │                   d42fa5242ab 
+│                       │      ├ Title           : OpenJDK: OpenJDK: Enhance vector masks 
+│                       │      ├ Description     : Vulnerability in the Oracle Java SE, Oracle GraalVM for JDK
+│                       │      │                   product of Oracle Java SE (component: Libraries).  Supported
+│                       │      │                    versions that are affected are Oracle Java SE: 21.0.13.0.3,
+│                       │      │                    25.0.5.0.3 and  27.0.1.0.3; Oracle GraalVM for JDK:
+│                       │      │                   21.0.13.0.3. Difficult to exploit vulnerability allows
+│                       │      │                   unauthenticated attacker with network access via multiple
+│                       │      │                   protocols to compromise Oracle Java SE, Oracle GraalVM for
+│                       │      │                   JDK.  Successful attacks of this vulnerability can result in
+│                       │      │                    unauthorized ability to cause a hang or frequently
+│                       │      │                   repeatable crash (complete DOS) of Oracle Java SE, Oracle
+│                       │      │                   GraalVM for JDK as well as  unauthorized update, insert or
+│                       │      │                   delete access to some of Oracle Java SE, Oracle GraalVM for
+│                       │      │                   JDK accessible data and  unauthorized read access to a
+│                       │      │                   subset of Oracle Java SE, Oracle GraalVM for JDK accessible
+│                       │      │                   data. Note: This vulnerability can only be exploited by
+│                       │      │                   supplying data to APIs in the specified Component without
+│                       │      │                   using Untrusted Java Web Start applications or Untrusted
+│                       │      │                   Java applets, such as through a web service. CVSS 3.1 Base
+│                       │      │                   Score 7.0 (Confidentiality, Integrity and Availability
+│                       │      │                   impacts).  CVSS Vector:
+│                       │      │                   (CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:L/I:L/A:H). 
+│                       │      ├ Severity        : HIGH 
+│                       │      ├ VendorSeverity   ─ redhat: 3 
+│                       │      ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:L/I:L
+│                       │      │                           │           /A:H 
+│                       │      │                           ╰ V3Score : 7 
+│                       │      ├ References                                                              
+│                       │      │                  ───────────────────────────────────────────────────────
+│                       │      │                  https://access.redhat.com/security/cve/CVE-2026-114942 
+│                       │      │                  https://nvd.nist.gov/vuln/detail/CVE-2026-114942       
+│                       │      │                  https://www.cve.org/CVERecord?id=CVE-2026-114942       
+│                       │      │                  https://www.oracle.com/security-alerts/cspunov2026.html
+│                       │      ├ PublishedDate   : 2026-11-17T22:18:24.297Z 
+│                       │      ╰ LastModifiedDate: 2026-11-17T22:18:24.297Z 
+│                       ├ [14] ╭ VulnerabilityID : CVE-2026-114943 
+│                       │      ├ PkgID           : openjdk21-jre-headless@21.0.13.0.3_p1-r0 
+│                       │      ├ PkgName         : openjdk21-jre-headless 
+│                       │      ├ PkgIdentifier    ╭ PURL: pkg:apk/alpine/openjdk21-jre-headless@21.0.13.0.3_p1-
+│                       │      │                  │       r0?arch=x86_64&distro=3.24.4 
+│                       │      │                  ╰ UID : b0a26b10e64e3413 
+│                       │      ├ InstalledVersion: 21.0.13.0.3_p1-r0 
+│                       │      ├ FixedVersion    : 21.0.13.1_p2-r0 
+│                       │      ├ Status          : fixed 
+│                       │      ├ Layer            ╭ Digest: sha256:e5005db9a2f95eda18f911570b68b5ea4a341cd973ed
+│                       │      │                  │         e0c2eec37e22ebf6f240 
+│                       │      │                  ╰ DiffID: sha256:588c1636bfe809e49d7d90762ee9e3d2a1cdabe17ed7
+│                       │      │                            5d28144c37dbf4bb71d7 
+│                       │      ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2026-114943 
+│                       │      ├ DataSource       ╭ ID  : alpine 
+│                       │      │                  ├ Name: Alpine Secdb 
+│                       │      │                  ╰ URL : https://secdb.alpinelinux.org/ 
+│                       │      ├ Fingerprint     : sha256:5ab3a97d071dd94ab5fb14cce1ef06ac31d02f58062682d703d51
+│                       │      │                   79aabaca291 
+│                       │      ├ Title           : OpenJDK: OpenJDK: Enhance JFR Events 
+│                       │      ├ Description     : Vulnerability in the Oracle Java SE, Oracle GraalVM for JDK,
+│                       │      │                    Oracle GraalVM Enterprise Edition product of Oracle Java SE
+│                       │      │                    (component: Hotspot).  Supported versions that are affected
+│                       │      │                    are Oracle Java SE: 8u511b33-perf, 11.0.33.0.3,
+│                       │      │                   17.0.21.0.3, 21.0.13.0.3, 25.0.5.0.3, 27.0.1.0.3; Oracle
+│                       │      │                   GraalVM for JDK: 17.0.21.0.3 and  21.0.13.0.3; Oracle
+│                       │      │                   GraalVM Enterprise Edition: 21.3.20.0.3. Difficult to
+│                       │      │                   exploit vulnerability allows unauthenticated attacker with
+│                       │      │                   network access via multiple protocols to compromise Oracle
+│                       │      │                   Java SE, Oracle GraalVM for JDK, Oracle GraalVM Enterprise
+│                       │      │                   Edition.  Successful attacks of this vulnerability can
+│                       │      │                   result in unauthorized ability to cause a hang or frequently
+│                       │      │                    repeatable crash (complete DOS) of Oracle Java SE, Oracle
+│                       │      │                   GraalVM for JDK, Oracle GraalVM Enterprise Edition as well
+│                       │      │                   as  unauthorized update, insert or delete access to some of
+│                       │      │                   Oracle Java SE, Oracle GraalVM for JDK, Oracle GraalVM
+│                       │      │                   Enterprise Edition accessible data. Note: This vulnerability
+│                       │      │                    can be exploited by using APIs in the specified Component,
+│                       │      │                   e.g., through a web service which supplies data to the APIs.
+│                       │      │                    This vulnerability also applies to Java deployments,
+│                       │      │                   typically in clients running sandboxed Java Web Start
+│                       │      │                   applications or sandboxed Java applets, that load and run
+│                       │      │                   untrusted code (e.g., code that comes from the internet) and
+│                       │      │                    rely on the Java sandbox for security. CVSS 3.1 Base Score
+│                       │      │                   6.5 (Integrity and Availability impacts).  CVSS Vector:
+│                       │      │                   (CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:N/I:L/A:H). 
+│                       │      ├ Severity        : MEDIUM 
+│                       │      ├ VendorSeverity   ─ redhat: 2 
+│                       │      ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:N/I:L
+│                       │      │                           │           /A:H 
+│                       │      │                           ╰ V3Score : 6.5 
+│                       │      ├ References                                                              
+│                       │      │                  ───────────────────────────────────────────────────────
+│                       │      │                  https://access.redhat.com/security/cve/CVE-2026-114943 
+│                       │      │                  https://nvd.nist.gov/vuln/detail/CVE-2026-114943       
+│                       │      │                  https://www.cve.org/CVERecord?id=CVE-2026-114943       
+│                       │      │                  https://www.oracle.com/security-alerts/cspunov2026.html
+│                       │      ├ PublishedDate   : 2026-11-17T22:18:24.41Z 
+│                       │      ╰ LastModifiedDate: 2026-11-17T22:18:24.41Z 
+│                       ├ [15] ╭ VulnerabilityID : CVE-2026-114944 
+│                       │      ├ PkgID           : openjdk21-jre-headless@21.0.13.0.3_p1-r0 
+│                       │      ├ PkgName         : openjdk21-jre-headless 
+│                       │      ├ PkgIdentifier    ╭ PURL: pkg:apk/alpine/openjdk21-jre-headless@21.0.13.0.3_p1-
+│                       │      │                  │       r0?arch=x86_64&distro=3.24.4 
+│                       │      │                  ╰ UID : b0a26b10e64e3413 
+│                       │      ├ InstalledVersion: 21.0.13.0.3_p1-r0 
+│                       │      ├ FixedVersion    : 21.0.13.1_p2-r0 
+│                       │      ├ Status          : fixed 
+│                       │      ├ Layer            ╭ Digest: sha256:e5005db9a2f95eda18f911570b68b5ea4a341cd973ed
+│                       │      │                  │         e0c2eec37e22ebf6f240 
+│                       │      │                  ╰ DiffID: sha256:588c1636bfe809e49d7d90762ee9e3d2a1cdabe17ed7
+│                       │      │                            5d28144c37dbf4bb71d7 
+│                       │      ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2026-114944 
+│                       │      ├ DataSource       ╭ ID  : alpine 
+│                       │      │                  ├ Name: Alpine Secdb 
+│                       │      │                  ╰ URL : https://secdb.alpinelinux.org/ 
+│                       │      ├ Fingerprint     : sha256:945ee73f05f3943fc5f6031be7976cbd927b1b8005842d41a6f6b
+│                       │      │                   9dcbe3c84ad 
+│                       │      ├ Title           : OpenJDK: OpenJDK: Enhance JMX Connections 
+│                       │      ├ Description     : Vulnerability in the Oracle Java SE, Oracle GraalVM for JDK,
+│                       │      │                    Oracle GraalVM Enterprise Edition product of Oracle Java SE
+│                       │      │                    (component: Core Java Libraries).  Supported versions that
+│                       │      │                   are affected are Oracle Java SE: 8u511b33, 8u511b33-perf,
+│                       │      │                   11.0.33.0.3, 17.0.21.0.3, 21.0.13.0.3, 25.0.5.0.3,
+│                       │      │                   27.0.1.0.3; Oracle GraalVM for JDK: 17.0.21.0.3 and 
+│                       │      │                   21.0.13.0.3; Oracle GraalVM Enterprise Edition: 21.3.20.0.3.
+│                       │      │                    Difficult to exploit vulnerability allows unauthenticated
+│                       │      │                   attacker with network access via multiple protocols to
+│                       │      │                   compromise Oracle Java SE, Oracle GraalVM for JDK, Oracle
+│                       │      │                   GraalVM Enterprise Edition.  Successful attacks of this
+│                       │      │                   vulnerability can result in  unauthorized creation, deletion
+│                       │      │                    or modification access to critical data or all Oracle Java
+│                       │      │                   SE, Oracle GraalVM for JDK, Oracle GraalVM Enterprise
+│                       │      │                   Edition accessible data. Note: This vulnerability can be
+│                       │      │                   exploited by using APIs in the specified Component, e.g.,
+│                       │      │                   through a web service which supplies data to the APIs. This
+│                       │      │                   vulnerability also applies to Java deployments, typically in
+│                       │      │                    clients running sandboxed Java Web Start applications or
+│                       │      │                   sandboxed Java applets, that load and run untrusted code
+│                       │      │                   (e.g., code that comes from the internet) and rely on the
+│                       │      │                   Java sandbox for security. CVSS 3.1 Base Score 5.9
+│                       │      │                   (Integrity impacts).  CVSS Vector:
+│                       │      │                   (CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:N/I:H/A:N). 
+│                       │      ├ Severity        : MEDIUM 
+│                       │      ├ VendorSeverity   ─ redhat: 2 
+│                       │      ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:N/I:H
+│                       │      │                           │           /A:N 
+│                       │      │                           ╰ V3Score : 5.9 
+│                       │      ├ References                                                              
+│                       │      │                  ───────────────────────────────────────────────────────
+│                       │      │                  https://access.redhat.com/security/cve/CVE-2026-114944 
+│                       │      │                  https://nvd.nist.gov/vuln/detail/CVE-2026-114944       
+│                       │      │                  https://www.cve.org/CVERecord?id=CVE-2026-114944       
+│                       │      │                  https://www.oracle.com/security-alerts/cspunov2026.html
+│                       │      ├ PublishedDate   : 2026-11-17T22:18:24.54Z 
+│                       │      ╰ LastModifiedDate: 2026-11-17T22:18:24.54Z 
+│                       ├ [16] ╭ VulnerabilityID : CVE-2026-114945 
+│                       │      ├ PkgID           : openjdk21-jre-headless@21.0.13.0.3_p1-r0 
+│                       │      ├ PkgName         : openjdk21-jre-headless 
+│                       │      ├ PkgIdentifier    ╭ PURL: pkg:apk/alpine/openjdk21-jre-headless@21.0.13.0.3_p1-
+│                       │      │                  │       r0?arch=x86_64&distro=3.24.4 
+│                       │      │                  ╰ UID : b0a26b10e64e3413 
+│                       │      ├ InstalledVersion: 21.0.13.0.3_p1-r0 
+│                       │      ├ FixedVersion    : 21.0.13.1_p2-r0 
+│                       │      ├ Status          : fixed 
+│                       │      ├ Layer            ╭ Digest: sha256:e5005db9a2f95eda18f911570b68b5ea4a341cd973ed
+│                       │      │                  │         e0c2eec37e22ebf6f240 
+│                       │      │                  ╰ DiffID: sha256:588c1636bfe809e49d7d90762ee9e3d2a1cdabe17ed7
+│                       │      │                            5d28144c37dbf4bb71d7 
+│                       │      ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2026-114945 
+│                       │      ├ DataSource       ╭ ID  : alpine 
+│                       │      │                  ├ Name: Alpine Secdb 
+│                       │      │                  ╰ URL : https://secdb.alpinelinux.org/ 
+│                       │      ├ Fingerprint     : sha256:9b8871134e1415ba2f225ee78cc722342bb3857ee79aeb7a1267a
+│                       │      │                   864363a170e 
+│                       │      ├ Title           : OpenJDK: OpenJDK: Enhance StringBuilder checks 
+│                       │      ├ Description     : Vulnerability in the Oracle Java SE, Oracle GraalVM for JDK
+│                       │      │                   product of Oracle Java SE (component: Libraries).  Supported
+│                       │      │                    versions that are affected are Oracle Java SE: 21.0.13.0.3,
+│                       │      │                    25.0.5.0.3 and  27.0.1.0.3; Oracle GraalVM for JDK:
+│                       │      │                   21.0.13.0.3. Easily exploitable vulnerability allows
+│                       │      │                   unauthenticated attacker with network access via multiple
+│                       │      │                   protocols to compromise Oracle Java SE, Oracle GraalVM for
+│                       │      │                   JDK.  Successful attacks of this vulnerability can result in
+│                       │      │                     unauthorized update, insert or delete access to some of
+│                       │      │                   Oracle Java SE, Oracle GraalVM for JDK accessible data.
+│                       │      │                   Note: This vulnerability can be exploited by using APIs in
+│                       │      │                   the specified Component, e.g., through a web service which
+│                       │      │                   supplies data to the APIs. This vulnerability also applies
+│                       │      │                   to Java deployments, typically in clients running sandboxed
+│                       │      │                   Java Web Start applications or sandboxed Java applets, that
+│                       │      │                   load and run untrusted code (e.g., code that comes from the
+│                       │      │                   internet) and rely on the Java sandbox for security. CVSS
+│                       │      │                   3.1 Base Score 5.3 (Integrity impacts).  CVSS Vector:
+│                       │      │                   (CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:L/A:N). 
+│                       │      ├ Severity        : MEDIUM 
+│                       │      ├ VendorSeverity   ─ redhat: 2 
+│                       │      ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:L
+│                       │      │                           │           /A:N 
+│                       │      │                           ╰ V3Score : 5.3 
+│                       │      ├ References                                                              
+│                       │      │                  ───────────────────────────────────────────────────────
+│                       │      │                  https://access.redhat.com/security/cve/CVE-2026-114945 
+│                       │      │                  https://nvd.nist.gov/vuln/detail/CVE-2026-114945       
+│                       │      │                  https://www.cve.org/CVERecord?id=CVE-2026-114945       
+│                       │      │                  https://www.oracle.com/security-alerts/cspunov2026.html
+│                       │      ├ PublishedDate   : 2026-11-17T22:18:24.673Z 
+│                       │      ╰ LastModifiedDate: 2026-11-17T22:18:24.673Z 
+│                       ├ [17] ╭ VulnerabilityID : CVE-2026-114946 
+│                       │      ├ PkgID           : openjdk21-jre-headless@21.0.13.0.3_p1-r0 
+│                       │      ├ PkgName         : openjdk21-jre-headless 
+│                       │      ├ PkgIdentifier    ╭ PURL: pkg:apk/alpine/openjdk21-jre-headless@21.0.13.0.3_p1-
+│                       │      │                  │       r0?arch=x86_64&distro=3.24.4 
+│                       │      │                  ╰ UID : b0a26b10e64e3413 
+│                       │      ├ InstalledVersion: 21.0.13.0.3_p1-r0 
+│                       │      ├ FixedVersion    : 21.0.13.1_p2-r0 
+│                       │      ├ Status          : fixed 
+│                       │      ├ Layer            ╭ Digest: sha256:e5005db9a2f95eda18f911570b68b5ea4a341cd973ed
+│                       │      │                  │         e0c2eec37e22ebf6f240 
+│                       │      │                  ╰ DiffID: sha256:588c1636bfe809e49d7d90762ee9e3d2a1cdabe17ed7
+│                       │      │                            5d28144c37dbf4bb71d7 
+│                       │      ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2026-114946 
+│                       │      ├ DataSource       ╭ ID  : alpine 
+│                       │      │                  ├ Name: Alpine Secdb 
+│                       │      │                  ╰ URL : https://secdb.alpinelinux.org/ 
+│                       │      ├ Fingerprint     : sha256:14b88ad0a934b6e6c76a79274efd1fffc7a187a7ccce7802d40d9
+│                       │      │                   07091fa014f 
+│                       │      ├ Title           : OpenJDK: OpenJDK: Enhance loop handling 
+│                       │      ├ Description     : Vulnerability in the Oracle Java SE, Oracle GraalVM for JDK,
+│                       │      │                    Oracle GraalVM Enterprise Edition product of Oracle Java SE
+│                       │      │                    (component: Compiler).  Supported versions that are
+│                       │      │                   affected are Oracle Java SE: 8u511b33, 8u511b33-perf,
+│                       │      │                   11.0.33.0.3, 17.0.21.0.3, 21.0.13.0.3, 25.0.5.0.3,
+│                       │      │                   27.0.1.0.3; Oracle GraalVM for JDK: 17.0.21.0.3 and 
+│                       │      │                   21.0.13.0.3; Oracle GraalVM Enterprise Edition: 21.3.20.0.3.
+│                       │      │                    Difficult to exploit vulnerability allows unauthenticated
+│                       │      │                   attacker with network access via multiple protocols to
+│                       │      │                   compromise Oracle Java SE, Oracle GraalVM for JDK, Oracle
+│                       │      │                   GraalVM Enterprise Edition.  Successful attacks of this
+│                       │      │                   vulnerability can result in  unauthorized update, insert or
+│                       │      │                   delete access to some of Oracle Java SE, Oracle GraalVM for
+│                       │      │                   JDK, Oracle GraalVM Enterprise Edition accessible data as
+│                       │      │                   well as  unauthorized read access to a subset of Oracle Java
+│                       │      │                    SE, Oracle GraalVM for JDK, Oracle GraalVM Enterprise
+│                       │      │                   Edition accessible data. Note: This vulnerability can be
+│                       │      │                   exploited by using APIs in the specified Component, e.g.,
+│                       │      │                   through a web service which supplies data to the APIs. This
+│                       │      │                   vulnerability also applies to Java deployments, typically in
+│                       │      │                    clients running sandboxed Java Web Start applications or
+│                       │      │                   sandboxed Java applets, that load and run untrusted code
+│                       │      │                   (e.g., code that comes from the internet) and rely on the
+│                       │      │                   Java sandbox for security. CVSS 3.1 Base Score 4.8
+│                       │      │                   (Confidentiality and Integrity impacts).  CVSS Vector:
+│                       │      │                   (CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:L/I:L/A:N). 
+│                       │      ├ Severity        : MEDIUM 
+│                       │      ├ VendorSeverity   ─ redhat: 2 
+│                       │      ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:L/I:L
+│                       │      │                           │           /A:N 
+│                       │      │                           ╰ V3Score : 4.8 
+│                       │      ├ References                                                              
+│                       │      │                  ───────────────────────────────────────────────────────
+│                       │      │                  https://access.redhat.com/security/cve/CVE-2026-114946 
+│                       │      │                  https://nvd.nist.gov/vuln/detail/CVE-2026-114946       
+│                       │      │                  https://www.cve.org/CVERecord?id=CVE-2026-114946       
+│                       │      │                  https://www.oracle.com/security-alerts/cspunov2026.html
+│                       │      ├ PublishedDate   : 2026-11-17T22:18:24.793Z 
+│                       │      ╰ LastModifiedDate: 2026-11-17T22:18:24.793Z 
+│                       ╰ [18] ╭ VulnerabilityID : CVE-2026-4738 
+│                              ├ PkgID           : zlib@1.3.2-r1 
+│                              ├ PkgName         : zlib 
+│                              ├ PkgIdentifier    ╭ PURL: pkg:apk/alpine/zlib@1.3.2-r1?arch=x86_64&distro=3.24.4 
+│                              │                  ╰ UID : 926381dc853769fb 
+│                              ├ InstalledVersion: 1.3.2-r1 
+│                              ├ FixedVersion    : 1.4-r0 
+│                              ├ Status          : fixed 
+│                              ├ Layer            ╭ Digest: sha256:e5005db9a2f95eda18f911570b68b5ea4a341cd973ed
+│                              │                  │         e0c2eec37e22ebf6f240 
+│                              │                  ╰ DiffID: sha256:588c1636bfe809e49d7d90762ee9e3d2a1cdabe17ed7
+│                              │                            5d28144c37dbf4bb71d7 
+│                              ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2026-4738 
+│                              ├ DataSource       ╭ ID  : alpine 
+│                              │                  ├ Name: Alpine Secdb 
+│                              │                  ╰ URL : https://secdb.alpinelinux.org/ 
+│                              ├ Fingerprint     : sha256:c6189e3817d3856b8842d64b12b6c56e39fe3ad30f050823c8067
+│                              │                   6c330c6d243 
+│                              ├ Title           : Improper Restriction of Operations within the Bounds of a
+│                              │                   Memory Buffe ... 
+│                              ├ Description     : Improper Restriction of Operations within the Bounds of a
+│                              │                   Memory Buffer vulnerability in OSGeo gdal
+│                              │                   (frmts/zlib/contrib/infback9 modules). This vulnerability is
+│                              │                    associated with program files inftree9.C‎.
+│                              │                   
+│                              │                   This issue affects gdal: before 3.11.0. 
+│                              ├ Severity        : MEDIUM 
+│                              ├ CweIDs                  
+│                              │                  ───────
+│                              │                  CWE-119
+│                              ├ VendorSeverity   ╭ bitnami: 4 
+│                              │                  ├ julia  : 4 
+│                              │                  ╰ ubuntu : 2 
+│                              ├ CVSS             ╭ bitnami ╭ V40Vector: CVSS:4.0/AV:N/AC:L/AT:N/PR:N/UI:P/VC:H
+│                              │                  │         │            /VI:H/VA:H/SC:H/SI:H/SA:H/E:A/S:P/AU:Y
+│                              │                  │         │            /R:U/V:C/RE:L/U:Amber 
+│                              │                  │         ╰ V40Score : 9.4 
+│                              │                  ╰ julia   ╭ V40Vector: CVSS:4.0/AV:N/AC:L/AT:N/PR:N/UI:P/VC:H
+│                              │                            │            /VI:H/VA:H/SC:H/SI:H/SA:H/E:A/S:P/AU:Y
+│                              │                            │            /R:U/V:C/RE:L/U:Amber 
+│                              │                            ╰ V40Score : 9.4 
+│                              ├ References                                                        
+│                              │                  ─────────────────────────────────────────────────
+│                              │                  https://github.com/OSGeo/gdal/pull/12244         
+│                              │                  https://github.com/advisories/GHSA-hp6p-5qh5-w9fj
+│                              │                  https://nvd.nist.gov/vuln/detail/CVE-2026-4738   
+│                              │                  https://www.cve.org/CVERecord?id=CVE-2026-4738   
+│                              ├ PublishedDate   : 2026-03-24T04:17:29Z 
+│                              ╰ LastModifiedDate: 2026-06-17T10:57:09.03Z 
 ╰ [1] ╭ Target  : Java 
       ├ Class   : lang-pkgs 
       ├ Type    : jar 
