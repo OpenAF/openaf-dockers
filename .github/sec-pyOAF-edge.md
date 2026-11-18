@@ -19,8 +19,8 @@
 │                             ├ DataSource       ╭ ID  : alpine 
 │                             │                  ├ Name: Alpine Secdb 
 │                             │                  ╰ URL : https://secdb.alpinelinux.org/ 
-│                             ├ Fingerprint     : sha256:910445d8feed0604bc8641d6744facd489e5931c4bf2d8da082f0f
-│                             │                   995b16aac1 
+│                             ├ Fingerprint     : sha256:c6189e3817d3856b8842d64b12b6c56e39fe3ad30f050823c80676
+│                             │                   c330c6d243 
 │                             ├ Title           : Improper Restriction of Operations within the Bounds of a
 │                             │                   Memory Buffe ... 
 │                             ├ Description     : Improper Restriction of Operations within the Bounds of a
