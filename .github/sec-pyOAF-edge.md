@@ -47,7 +47,8 @@
 │                       │      ├ CweIDs                  
 │                       │      │                  ───────
 │                       │      │                  CWE-122
-│                       │      ├ VendorSeverity   ─ redhat: 4 
+│                       │      ├ VendorSeverity   ╭ redhat: 4 
+│                       │      │                  ╰ ubuntu: 3 
 │                       │      ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.0/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H
 │                       │      │                           │           /A:H 
 │                       │      │                           ╰ V3Score : 9.8 
@@ -57,6 +58,8 @@
 │                       │      │                  https://access.redhat.com/security/cve/CVE-2026-114938       
 │                       │      │                  https://access.redhat.com/security/cve/cve-2026-114938       
 │                       │      │                  https://calif.io/java4shell                                  
+│                       │      │                  https://cert-portal.siemens.com/productcert/html/ssa-272816.h
+│                       │      │                  tml                                                          
 │                       │      │                  https://github.com/Azure/azure-functions-java-worker/issues/9
 │                       │      │                  09                                                           
 │                       │      │                  https://github.com/chainguard-dev/cg-skills/pull/17          
@@ -67,13 +70,19 @@
 │                       │      │                                                                               
 │                       │      │                  https://nvd.nist.gov/vuln/detail/CVE-2026-114938             
 │                       │      │                                                                               
+│                       │      │                  https://openjdk.org/groups/vulnerability/advisories/2026-11-1
+│                       │      │                  7                                                            
+│                       │      │                  https://shiro.apache.org/blog/2026/11/apache-shiro-java4shell
+│                       │      │                  .html                                                        
+│                       │      │                  https://ubuntu.com/security/CVE-2026-114938                  
+│                       │      │                                                                               
 │                       │      │                  https://www.cisa.gov/news-events/alerts/2026/11/17/critical-j
 │                       │      │                  ava-vulnerability-requires-immediate-patching                
 │                       │      │                  https://www.cve.org/CVERecord?id=CVE-2026-114938             
 │                       │      │                                                                               
 │                       │      │                  https://www.oracle.com/security-alerts/cspunov2026.html      
 │                       │      ├ PublishedDate   : 2026-11-17T22:18:23.777Z 
-│                       │      ╰ LastModifiedDate: 2026-11-18T13:45:37.953Z 
+│                       │      ╰ LastModifiedDate: 2026-11-18T21:17:47.25Z 
 │                       ├ [1]  ╭ VulnerabilityID : CVE-2026-114939 
 │                       │      ├ PkgID           : openjdk21-jre@21.0.13.0.3_p1-r0 
 │                       │      ├ PkgName         : openjdk21-jre 
@@ -122,16 +131,18 @@
 │                       │      │                   (Confidentiality and Integrity impacts).  CVSS Vector:
 │                       │      │                   (CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:H/I:H/A:N). 
 │                       │      ├ Severity        : HIGH 
-│                       │      ├ VendorSeverity   ─ redhat: 3 
+│                       │      ├ VendorSeverity   ╭ redhat: 3 
+│                       │      │                  ╰ ubuntu: 2 
 │                       │      ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:H/I:H
 │                       │      │                           │           /A:N 
 │                       │      │                           ╰ V3Score : 7.4 
-│                       │      ├ References                                                              
-│                       │      │                  ───────────────────────────────────────────────────────
-│                       │      │                  https://access.redhat.com/security/cve/CVE-2026-114939 
-│                       │      │                  https://nvd.nist.gov/vuln/detail/CVE-2026-114939       
-│                       │      │                  https://www.cve.org/CVERecord?id=CVE-2026-114939       
-│                       │      │                  https://www.oracle.com/security-alerts/cspunov2026.html
+│                       │      ├ References                                                                     
+│                       │      │                  ──────────────────────────────────────────────────────────────
+│                       │      │                  https://access.redhat.com/security/cve/CVE-2026-114939        
+│                       │      │                  https://nvd.nist.gov/vuln/detail/CVE-2026-114939              
+│                       │      │                  https://openjdk.org/groups/vulnerability/advisories/2026-11-17
+│                       │      │                  https://www.cve.org/CVERecord?id=CVE-2026-114939              
+│                       │      │                  https://www.oracle.com/security-alerts/cspunov2026.html       
 │                       │      ├ PublishedDate   : 2026-11-17T22:18:23.92Z 
 │                       │      ╰ LastModifiedDate: 2026-11-17T22:18:23.92Z 
 │                       ├ [2]  ╭ VulnerabilityID : CVE-2026-114940 
@@ -182,16 +193,18 @@
 │                       │      │                    CVSS Vector:
 │                       │      │                   (CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:H/I:H/A:N). 
 │                       │      ├ Severity        : HIGH 
-│                       │      ├ VendorSeverity   ─ redhat: 3 
+│                       │      ├ VendorSeverity   ╭ redhat: 3 
+│                       │      │                  ╰ ubuntu: 2 
 │                       │      ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:H/I:H
 │                       │      │                           │           /A:N 
 │                       │      │                           ╰ V3Score : 7.4 
-│                       │      ├ References                                                              
-│                       │      │                  ───────────────────────────────────────────────────────
-│                       │      │                  https://access.redhat.com/security/cve/CVE-2026-114940 
-│                       │      │                  https://nvd.nist.gov/vuln/detail/CVE-2026-114940       
-│                       │      │                  https://www.cve.org/CVERecord?id=CVE-2026-114940       
-│                       │      │                  https://www.oracle.com/security-alerts/cspunov2026.html
+│                       │      ├ References                                                                     
+│                       │      │                  ──────────────────────────────────────────────────────────────
+│                       │      │                  https://access.redhat.com/security/cve/CVE-2026-114940        
+│                       │      │                  https://nvd.nist.gov/vuln/detail/CVE-2026-114940              
+│                       │      │                  https://openjdk.org/groups/vulnerability/advisories/2026-11-17
+│                       │      │                  https://www.cve.org/CVERecord?id=CVE-2026-114940              
+│                       │      │                  https://www.oracle.com/security-alerts/cspunov2026.html       
 │                       │      ├ PublishedDate   : 2026-11-17T22:18:24.05Z 
 │                       │      ╰ LastModifiedDate: 2026-11-17T22:18:24.05Z 
 │                       ├ [3]  ╭ VulnerabilityID : CVE-2026-114941 
@@ -236,16 +249,18 @@
 │                       │      │                   impacts).  CVSS Vector:
 │                       │      │                   (CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:L/I:L/A:H). 
 │                       │      ├ Severity        : HIGH 
-│                       │      ├ VendorSeverity   ─ redhat: 3 
+│                       │      ├ VendorSeverity   ╭ redhat: 3 
+│                       │      │                  ╰ ubuntu: 2 
 │                       │      ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:L/I:L
 │                       │      │                           │           /A:H 
 │                       │      │                           ╰ V3Score : 7 
-│                       │      ├ References                                                              
-│                       │      │                  ───────────────────────────────────────────────────────
-│                       │      │                  https://access.redhat.com/security/cve/CVE-2026-114941 
-│                       │      │                  https://nvd.nist.gov/vuln/detail/CVE-2026-114941       
-│                       │      │                  https://www.cve.org/CVERecord?id=CVE-2026-114941       
-│                       │      │                  https://www.oracle.com/security-alerts/cspunov2026.html
+│                       │      ├ References                                                                     
+│                       │      │                  ──────────────────────────────────────────────────────────────
+│                       │      │                  https://access.redhat.com/security/cve/CVE-2026-114941        
+│                       │      │                  https://nvd.nist.gov/vuln/detail/CVE-2026-114941              
+│                       │      │                  https://openjdk.org/groups/vulnerability/advisories/2026-11-17
+│                       │      │                  https://www.cve.org/CVERecord?id=CVE-2026-114941              
+│                       │      │                  https://www.oracle.com/security-alerts/cspunov2026.html       
 │                       │      ├ PublishedDate   : 2026-11-17T22:18:24.177Z 
 │                       │      ╰ LastModifiedDate: 2026-11-17T22:18:24.177Z 
 │                       ├ [4]  ╭ VulnerabilityID : CVE-2026-114942 
@@ -290,16 +305,18 @@
 │                       │      │                   impacts).  CVSS Vector:
 │                       │      │                   (CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:L/I:L/A:H). 
 │                       │      ├ Severity        : HIGH 
-│                       │      ├ VendorSeverity   ─ redhat: 3 
+│                       │      ├ VendorSeverity   ╭ redhat: 3 
+│                       │      │                  ╰ ubuntu: 2 
 │                       │      ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:L/I:L
 │                       │      │                           │           /A:H 
 │                       │      │                           ╰ V3Score : 7 
-│                       │      ├ References                                                              
-│                       │      │                  ───────────────────────────────────────────────────────
-│                       │      │                  https://access.redhat.com/security/cve/CVE-2026-114942 
-│                       │      │                  https://nvd.nist.gov/vuln/detail/CVE-2026-114942       
-│                       │      │                  https://www.cve.org/CVERecord?id=CVE-2026-114942       
-│                       │      │                  https://www.oracle.com/security-alerts/cspunov2026.html
+│                       │      ├ References                                                                     
+│                       │      │                  ──────────────────────────────────────────────────────────────
+│                       │      │                  https://access.redhat.com/security/cve/CVE-2026-114942        
+│                       │      │                  https://nvd.nist.gov/vuln/detail/CVE-2026-114942              
+│                       │      │                  https://openjdk.org/groups/vulnerability/advisories/2026-11-17
+│                       │      │                  https://www.cve.org/CVERecord?id=CVE-2026-114942              
+│                       │      │                  https://www.oracle.com/security-alerts/cspunov2026.html       
 │                       │      ├ PublishedDate   : 2026-11-17T22:18:24.297Z 
 │                       │      ╰ LastModifiedDate: 2026-11-17T22:18:24.297Z 
 │                       ├ [5]  ╭ VulnerabilityID : CVE-2026-114943 
@@ -349,16 +366,18 @@
 │                       │      │                   6.5 (Integrity and Availability impacts).  CVSS Vector:
 │                       │      │                   (CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:N/I:L/A:H). 
 │                       │      ├ Severity        : MEDIUM 
-│                       │      ├ VendorSeverity   ─ redhat: 2 
+│                       │      ├ VendorSeverity   ╭ redhat: 2 
+│                       │      │                  ╰ ubuntu: 2 
 │                       │      ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:N/I:L
 │                       │      │                           │           /A:H 
 │                       │      │                           ╰ V3Score : 6.5 
-│                       │      ├ References                                                              
-│                       │      │                  ───────────────────────────────────────────────────────
-│                       │      │                  https://access.redhat.com/security/cve/CVE-2026-114943 
-│                       │      │                  https://nvd.nist.gov/vuln/detail/CVE-2026-114943       
-│                       │      │                  https://www.cve.org/CVERecord?id=CVE-2026-114943       
-│                       │      │                  https://www.oracle.com/security-alerts/cspunov2026.html
+│                       │      ├ References                                                                     
+│                       │      │                  ──────────────────────────────────────────────────────────────
+│                       │      │                  https://access.redhat.com/security/cve/CVE-2026-114943        
+│                       │      │                  https://nvd.nist.gov/vuln/detail/CVE-2026-114943              
+│                       │      │                  https://openjdk.org/groups/vulnerability/advisories/2026-11-17
+│                       │      │                  https://www.cve.org/CVERecord?id=CVE-2026-114943              
+│                       │      │                  https://www.oracle.com/security-alerts/cspunov2026.html       
 │                       │      ├ PublishedDate   : 2026-11-17T22:18:24.41Z 
 │                       │      ╰ LastModifiedDate: 2026-11-17T22:18:24.41Z 
 │                       ├ [6]  ╭ VulnerabilityID : CVE-2026-114944 
@@ -406,18 +425,23 @@
 │                       │      │                   (Integrity impacts).  CVSS Vector:
 │                       │      │                   (CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:N/I:H/A:N). 
 │                       │      ├ Severity        : MEDIUM 
-│                       │      ├ VendorSeverity   ─ redhat: 2 
+│                       │      ├ CweIDs                  
+│                       │      │                  ───────
+│                       │      │                  CWE-284
+│                       │      ├ VendorSeverity   ╭ redhat: 2 
+│                       │      │                  ╰ ubuntu: 2 
 │                       │      ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:N/I:H
 │                       │      │                           │           /A:N 
 │                       │      │                           ╰ V3Score : 5.9 
-│                       │      ├ References                                                              
-│                       │      │                  ───────────────────────────────────────────────────────
-│                       │      │                  https://access.redhat.com/security/cve/CVE-2026-114944 
-│                       │      │                  https://nvd.nist.gov/vuln/detail/CVE-2026-114944       
-│                       │      │                  https://www.cve.org/CVERecord?id=CVE-2026-114944       
-│                       │      │                  https://www.oracle.com/security-alerts/cspunov2026.html
+│                       │      ├ References                                                                     
+│                       │      │                  ──────────────────────────────────────────────────────────────
+│                       │      │                  https://access.redhat.com/security/cve/CVE-2026-114944        
+│                       │      │                  https://nvd.nist.gov/vuln/detail/CVE-2026-114944              
+│                       │      │                  https://openjdk.org/groups/vulnerability/advisories/2026-11-17
+│                       │      │                  https://www.cve.org/CVERecord?id=CVE-2026-114944              
+│                       │      │                  https://www.oracle.com/security-alerts/cspunov2026.html       
 │                       │      ├ PublishedDate   : 2026-11-17T22:18:24.54Z 
-│                       │      ╰ LastModifiedDate: 2026-11-17T22:18:24.54Z 
+│                       │      ╰ LastModifiedDate: 2026-11-18T19:17:29.283Z 
 │                       ├ [7]  ╭ VulnerabilityID : CVE-2026-114945 
 │                       │      ├ PkgID           : openjdk21-jre@21.0.13.0.3_p1-r0 
 │                       │      ├ PkgName         : openjdk21-jre 
@@ -458,16 +482,18 @@
 │                       │      │                   3.1 Base Score 5.3 (Integrity impacts).  CVSS Vector:
 │                       │      │                   (CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:L/A:N). 
 │                       │      ├ Severity        : MEDIUM 
-│                       │      ├ VendorSeverity   ─ redhat: 2 
+│                       │      ├ VendorSeverity   ╭ redhat: 2 
+│                       │      │                  ╰ ubuntu: 2 
 │                       │      ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:L
 │                       │      │                           │           /A:N 
 │                       │      │                           ╰ V3Score : 5.3 
-│                       │      ├ References                                                              
-│                       │      │                  ───────────────────────────────────────────────────────
-│                       │      │                  https://access.redhat.com/security/cve/CVE-2026-114945 
-│                       │      │                  https://nvd.nist.gov/vuln/detail/CVE-2026-114945       
-│                       │      │                  https://www.cve.org/CVERecord?id=CVE-2026-114945       
-│                       │      │                  https://www.oracle.com/security-alerts/cspunov2026.html
+│                       │      ├ References                                                                     
+│                       │      │                  ──────────────────────────────────────────────────────────────
+│                       │      │                  https://access.redhat.com/security/cve/CVE-2026-114945        
+│                       │      │                  https://nvd.nist.gov/vuln/detail/CVE-2026-114945              
+│                       │      │                  https://openjdk.org/groups/vulnerability/advisories/2026-11-17
+│                       │      │                  https://www.cve.org/CVERecord?id=CVE-2026-114945              
+│                       │      │                  https://www.oracle.com/security-alerts/cspunov2026.html       
 │                       │      ├ PublishedDate   : 2026-11-17T22:18:24.673Z 
 │                       │      ╰ LastModifiedDate: 2026-11-17T22:18:24.673Z 
 │                       ├ [8]  ╭ VulnerabilityID : CVE-2026-114946 
@@ -517,16 +543,18 @@
 │                       │      │                   (Confidentiality and Integrity impacts).  CVSS Vector:
 │                       │      │                   (CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:L/I:L/A:N). 
 │                       │      ├ Severity        : MEDIUM 
-│                       │      ├ VendorSeverity   ─ redhat: 2 
+│                       │      ├ VendorSeverity   ╭ redhat: 2 
+│                       │      │                  ╰ ubuntu: 2 
 │                       │      ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:L/I:L
 │                       │      │                           │           /A:N 
 │                       │      │                           ╰ V3Score : 4.8 
-│                       │      ├ References                                                              
-│                       │      │                  ───────────────────────────────────────────────────────
-│                       │      │                  https://access.redhat.com/security/cve/CVE-2026-114946 
-│                       │      │                  https://nvd.nist.gov/vuln/detail/CVE-2026-114946       
-│                       │      │                  https://www.cve.org/CVERecord?id=CVE-2026-114946       
-│                       │      │                  https://www.oracle.com/security-alerts/cspunov2026.html
+│                       │      ├ References                                                                     
+│                       │      │                  ──────────────────────────────────────────────────────────────
+│                       │      │                  https://access.redhat.com/security/cve/CVE-2026-114946        
+│                       │      │                  https://nvd.nist.gov/vuln/detail/CVE-2026-114946              
+│                       │      │                  https://openjdk.org/groups/vulnerability/advisories/2026-11-17
+│                       │      │                  https://www.cve.org/CVERecord?id=CVE-2026-114946              
+│                       │      │                  https://www.oracle.com/security-alerts/cspunov2026.html       
 │                       │      ├ PublishedDate   : 2026-11-17T22:18:24.793Z 
 │                       │      ╰ LastModifiedDate: 2026-11-17T22:18:24.793Z 
 │                       ├ [9]  ╭ VulnerabilityID : CVE-2026-114938 
@@ -573,7 +601,8 @@
 │                       │      ├ CweIDs                  
 │                       │      │                  ───────
 │                       │      │                  CWE-122
-│                       │      ├ VendorSeverity   ─ redhat: 4 
+│                       │      ├ VendorSeverity   ╭ redhat: 4 
+│                       │      │                  ╰ ubuntu: 3 
 │                       │      ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.0/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H
 │                       │      │                           │           /A:H 
 │                       │      │                           ╰ V3Score : 9.8 
@@ -583,6 +612,8 @@
 │                       │      │                  https://access.redhat.com/security/cve/CVE-2026-114938       
 │                       │      │                  https://access.redhat.com/security/cve/cve-2026-114938       
 │                       │      │                  https://calif.io/java4shell                                  
+│                       │      │                  https://cert-portal.siemens.com/productcert/html/ssa-272816.h
+│                       │      │                  tml                                                          
 │                       │      │                  https://github.com/Azure/azure-functions-java-worker/issues/9
 │                       │      │                  09                                                           
 │                       │      │                  https://github.com/chainguard-dev/cg-skills/pull/17          
@@ -593,13 +624,19 @@
 │                       │      │                                                                               
 │                       │      │                  https://nvd.nist.gov/vuln/detail/CVE-2026-114938             
 │                       │      │                                                                               
+│                       │      │                  https://openjdk.org/groups/vulnerability/advisories/2026-11-1
+│                       │      │                  7                                                            
+│                       │      │                  https://shiro.apache.org/blog/2026/11/apache-shiro-java4shell
+│                       │      │                  .html                                                        
+│                       │      │                  https://ubuntu.com/security/CVE-2026-114938                  
+│                       │      │                                                                               
 │                       │      │                  https://www.cisa.gov/news-events/alerts/2026/11/17/critical-j
 │                       │      │                  ava-vulnerability-requires-immediate-patching                
 │                       │      │                  https://www.cve.org/CVERecord?id=CVE-2026-114938             
 │                       │      │                                                                               
 │                       │      │                  https://www.oracle.com/security-alerts/cspunov2026.html      
 │                       │      ├ PublishedDate   : 2026-11-17T22:18:23.777Z 
-│                       │      ╰ LastModifiedDate: 2026-11-18T13:45:37.953Z 
+│                       │      ╰ LastModifiedDate: 2026-11-18T21:17:47.25Z 
 │                       ├ [10] ╭ VulnerabilityID : CVE-2026-114939 
 │                       │      ├ PkgID           : openjdk21-jre-headless@21.0.13.0.3_p1-r0 
 │                       │      ├ PkgName         : openjdk21-jre-headless 
@@ -648,16 +685,18 @@
 │                       │      │                   (Confidentiality and Integrity impacts).  CVSS Vector:
 │                       │      │                   (CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:H/I:H/A:N). 
 │                       │      ├ Severity        : HIGH 
-│                       │      ├ VendorSeverity   ─ redhat: 3 
+│                       │      ├ VendorSeverity   ╭ redhat: 3 
+│                       │      │                  ╰ ubuntu: 2 
 │                       │      ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:H/I:H
 │                       │      │                           │           /A:N 
 │                       │      │                           ╰ V3Score : 7.4 
-│                       │      ├ References                                                              
-│                       │      │                  ───────────────────────────────────────────────────────
-│                       │      │                  https://access.redhat.com/security/cve/CVE-2026-114939 
-│                       │      │                  https://nvd.nist.gov/vuln/detail/CVE-2026-114939       
-│                       │      │                  https://www.cve.org/CVERecord?id=CVE-2026-114939       
-│                       │      │                  https://www.oracle.com/security-alerts/cspunov2026.html
+│                       │      ├ References                                                                     
+│                       │      │                  ──────────────────────────────────────────────────────────────
+│                       │      │                  https://access.redhat.com/security/cve/CVE-2026-114939        
+│                       │      │                  https://nvd.nist.gov/vuln/detail/CVE-2026-114939              
+│                       │      │                  https://openjdk.org/groups/vulnerability/advisories/2026-11-17
+│                       │      │                  https://www.cve.org/CVERecord?id=CVE-2026-114939              
+│                       │      │                  https://www.oracle.com/security-alerts/cspunov2026.html       
 │                       │      ├ PublishedDate   : 2026-11-17T22:18:23.92Z 
 │                       │      ╰ LastModifiedDate: 2026-11-17T22:18:23.92Z 
 │                       ├ [11] ╭ VulnerabilityID : CVE-2026-114940 
@@ -708,16 +747,18 @@
 │                       │      │                    CVSS Vector:
 │                       │      │                   (CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:H/I:H/A:N). 
 │                       │      ├ Severity        : HIGH 
-│                       │      ├ VendorSeverity   ─ redhat: 3 
+│                       │      ├ VendorSeverity   ╭ redhat: 3 
+│                       │      │                  ╰ ubuntu: 2 
 │                       │      ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:H/I:H
 │                       │      │                           │           /A:N 
 │                       │      │                           ╰ V3Score : 7.4 
-│                       │      ├ References                                                              
-│                       │      │                  ───────────────────────────────────────────────────────
-│                       │      │                  https://access.redhat.com/security/cve/CVE-2026-114940 
-│                       │      │                  https://nvd.nist.gov/vuln/detail/CVE-2026-114940       
-│                       │      │                  https://www.cve.org/CVERecord?id=CVE-2026-114940       
-│                       │      │                  https://www.oracle.com/security-alerts/cspunov2026.html
+│                       │      ├ References                                                                     
+│                       │      │                  ──────────────────────────────────────────────────────────────
+│                       │      │                  https://access.redhat.com/security/cve/CVE-2026-114940        
+│                       │      │                  https://nvd.nist.gov/vuln/detail/CVE-2026-114940              
+│                       │      │                  https://openjdk.org/groups/vulnerability/advisories/2026-11-17
+│                       │      │                  https://www.cve.org/CVERecord?id=CVE-2026-114940              
+│                       │      │                  https://www.oracle.com/security-alerts/cspunov2026.html       
 │                       │      ├ PublishedDate   : 2026-11-17T22:18:24.05Z 
 │                       │      ╰ LastModifiedDate: 2026-11-17T22:18:24.05Z 
 │                       ├ [12] ╭ VulnerabilityID : CVE-2026-114941 
@@ -762,16 +803,18 @@
 │                       │      │                   impacts).  CVSS Vector:
 │                       │      │                   (CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:L/I:L/A:H). 
 │                       │      ├ Severity        : HIGH 
-│                       │      ├ VendorSeverity   ─ redhat: 3 
+│                       │      ├ VendorSeverity   ╭ redhat: 3 
+│                       │      │                  ╰ ubuntu: 2 
 │                       │      ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:L/I:L
 │                       │      │                           │           /A:H 
 │                       │      │                           ╰ V3Score : 7 
-│                       │      ├ References                                                              
-│                       │      │                  ───────────────────────────────────────────────────────
-│                       │      │                  https://access.redhat.com/security/cve/CVE-2026-114941 
-│                       │      │                  https://nvd.nist.gov/vuln/detail/CVE-2026-114941       
-│                       │      │                  https://www.cve.org/CVERecord?id=CVE-2026-114941       
-│                       │      │                  https://www.oracle.com/security-alerts/cspunov2026.html
+│                       │      ├ References                                                                     
+│                       │      │                  ──────────────────────────────────────────────────────────────
+│                       │      │                  https://access.redhat.com/security/cve/CVE-2026-114941        
+│                       │      │                  https://nvd.nist.gov/vuln/detail/CVE-2026-114941              
+│                       │      │                  https://openjdk.org/groups/vulnerability/advisories/2026-11-17
+│                       │      │                  https://www.cve.org/CVERecord?id=CVE-2026-114941              
+│                       │      │                  https://www.oracle.com/security-alerts/cspunov2026.html       
 │                       │      ├ PublishedDate   : 2026-11-17T22:18:24.177Z 
 │                       │      ╰ LastModifiedDate: 2026-11-17T22:18:24.177Z 
 │                       ├ [13] ╭ VulnerabilityID : CVE-2026-114942 
@@ -816,16 +859,18 @@
 │                       │      │                   impacts).  CVSS Vector:
 │                       │      │                   (CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:L/I:L/A:H). 
 │                       │      ├ Severity        : HIGH 
-│                       │      ├ VendorSeverity   ─ redhat: 3 
+│                       │      ├ VendorSeverity   ╭ redhat: 3 
+│                       │      │                  ╰ ubuntu: 2 
 │                       │      ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:L/I:L
 │                       │      │                           │           /A:H 
 │                       │      │                           ╰ V3Score : 7 
-│                       │      ├ References                                                              
-│                       │      │                  ───────────────────────────────────────────────────────
-│                       │      │                  https://access.redhat.com/security/cve/CVE-2026-114942 
-│                       │      │                  https://nvd.nist.gov/vuln/detail/CVE-2026-114942       
-│                       │      │                  https://www.cve.org/CVERecord?id=CVE-2026-114942       
-│                       │      │                  https://www.oracle.com/security-alerts/cspunov2026.html
+│                       │      ├ References                                                                     
+│                       │      │                  ──────────────────────────────────────────────────────────────
+│                       │      │                  https://access.redhat.com/security/cve/CVE-2026-114942        
+│                       │      │                  https://nvd.nist.gov/vuln/detail/CVE-2026-114942              
+│                       │      │                  https://openjdk.org/groups/vulnerability/advisories/2026-11-17
+│                       │      │                  https://www.cve.org/CVERecord?id=CVE-2026-114942              
+│                       │      │                  https://www.oracle.com/security-alerts/cspunov2026.html       
 │                       │      ├ PublishedDate   : 2026-11-17T22:18:24.297Z 
 │                       │      ╰ LastModifiedDate: 2026-11-17T22:18:24.297Z 
 │                       ├ [14] ╭ VulnerabilityID : CVE-2026-114943 
@@ -875,16 +920,18 @@
 │                       │      │                   6.5 (Integrity and Availability impacts).  CVSS Vector:
 │                       │      │                   (CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:N/I:L/A:H). 
 │                       │      ├ Severity        : MEDIUM 
-│                       │      ├ VendorSeverity   ─ redhat: 2 
+│                       │      ├ VendorSeverity   ╭ redhat: 2 
+│                       │      │                  ╰ ubuntu: 2 
 │                       │      ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:N/I:L
 │                       │      │                           │           /A:H 
 │                       │      │                           ╰ V3Score : 6.5 
-│                       │      ├ References                                                              
-│                       │      │                  ───────────────────────────────────────────────────────
-│                       │      │                  https://access.redhat.com/security/cve/CVE-2026-114943 
-│                       │      │                  https://nvd.nist.gov/vuln/detail/CVE-2026-114943       
-│                       │      │                  https://www.cve.org/CVERecord?id=CVE-2026-114943       
-│                       │      │                  https://www.oracle.com/security-alerts/cspunov2026.html
+│                       │      ├ References                                                                     
+│                       │      │                  ──────────────────────────────────────────────────────────────
+│                       │      │                  https://access.redhat.com/security/cve/CVE-2026-114943        
+│                       │      │                  https://nvd.nist.gov/vuln/detail/CVE-2026-114943              
+│                       │      │                  https://openjdk.org/groups/vulnerability/advisories/2026-11-17
+│                       │      │                  https://www.cve.org/CVERecord?id=CVE-2026-114943              
+│                       │      │                  https://www.oracle.com/security-alerts/cspunov2026.html       
 │                       │      ├ PublishedDate   : 2026-11-17T22:18:24.41Z 
 │                       │      ╰ LastModifiedDate: 2026-11-17T22:18:24.41Z 
 │                       ├ [15] ╭ VulnerabilityID : CVE-2026-114944 
@@ -932,18 +979,23 @@
 │                       │      │                   (Integrity impacts).  CVSS Vector:
 │                       │      │                   (CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:N/I:H/A:N). 
 │                       │      ├ Severity        : MEDIUM 
-│                       │      ├ VendorSeverity   ─ redhat: 2 
+│                       │      ├ CweIDs                  
+│                       │      │                  ───────
+│                       │      │                  CWE-284
+│                       │      ├ VendorSeverity   ╭ redhat: 2 
+│                       │      │                  ╰ ubuntu: 2 
 │                       │      ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:N/I:H
 │                       │      │                           │           /A:N 
 │                       │      │                           ╰ V3Score : 5.9 
-│                       │      ├ References                                                              
-│                       │      │                  ───────────────────────────────────────────────────────
-│                       │      │                  https://access.redhat.com/security/cve/CVE-2026-114944 
-│                       │      │                  https://nvd.nist.gov/vuln/detail/CVE-2026-114944       
-│                       │      │                  https://www.cve.org/CVERecord?id=CVE-2026-114944       
-│                       │      │                  https://www.oracle.com/security-alerts/cspunov2026.html
+│                       │      ├ References                                                                     
+│                       │      │                  ──────────────────────────────────────────────────────────────
+│                       │      │                  https://access.redhat.com/security/cve/CVE-2026-114944        
+│                       │      │                  https://nvd.nist.gov/vuln/detail/CVE-2026-114944              
+│                       │      │                  https://openjdk.org/groups/vulnerability/advisories/2026-11-17
+│                       │      │                  https://www.cve.org/CVERecord?id=CVE-2026-114944              
+│                       │      │                  https://www.oracle.com/security-alerts/cspunov2026.html       
 │                       │      ├ PublishedDate   : 2026-11-17T22:18:24.54Z 
-│                       │      ╰ LastModifiedDate: 2026-11-17T22:18:24.54Z 
+│                       │      ╰ LastModifiedDate: 2026-11-18T19:17:29.283Z 
 │                       ├ [16] ╭ VulnerabilityID : CVE-2026-114945 
 │                       │      ├ PkgID           : openjdk21-jre-headless@21.0.13.0.3_p1-r0 
 │                       │      ├ PkgName         : openjdk21-jre-headless 
@@ -984,16 +1036,18 @@
 │                       │      │                   3.1 Base Score 5.3 (Integrity impacts).  CVSS Vector:
 │                       │      │                   (CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:L/A:N). 
 │                       │      ├ Severity        : MEDIUM 
-│                       │      ├ VendorSeverity   ─ redhat: 2 
+│                       │      ├ VendorSeverity   ╭ redhat: 2 
+│                       │      │                  ╰ ubuntu: 2 
 │                       │      ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:L
 │                       │      │                           │           /A:N 
 │                       │      │                           ╰ V3Score : 5.3 
-│                       │      ├ References                                                              
-│                       │      │                  ───────────────────────────────────────────────────────
-│                       │      │                  https://access.redhat.com/security/cve/CVE-2026-114945 
-│                       │      │                  https://nvd.nist.gov/vuln/detail/CVE-2026-114945       
-│                       │      │                  https://www.cve.org/CVERecord?id=CVE-2026-114945       
-│                       │      │                  https://www.oracle.com/security-alerts/cspunov2026.html
+│                       │      ├ References                                                                     
+│                       │      │                  ──────────────────────────────────────────────────────────────
+│                       │      │                  https://access.redhat.com/security/cve/CVE-2026-114945        
+│                       │      │                  https://nvd.nist.gov/vuln/detail/CVE-2026-114945              
+│                       │      │                  https://openjdk.org/groups/vulnerability/advisories/2026-11-17
+│                       │      │                  https://www.cve.org/CVERecord?id=CVE-2026-114945              
+│                       │      │                  https://www.oracle.com/security-alerts/cspunov2026.html       
 │                       │      ├ PublishedDate   : 2026-11-17T22:18:24.673Z 
 │                       │      ╰ LastModifiedDate: 2026-11-17T22:18:24.673Z 
 │                       ├ [17] ╭ VulnerabilityID : CVE-2026-114946 
@@ -1043,16 +1097,18 @@
 │                       │      │                   (Confidentiality and Integrity impacts).  CVSS Vector:
 │                       │      │                   (CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:L/I:L/A:N). 
 │                       │      ├ Severity        : MEDIUM 
-│                       │      ├ VendorSeverity   ─ redhat: 2 
+│                       │      ├ VendorSeverity   ╭ redhat: 2 
+│                       │      │                  ╰ ubuntu: 2 
 │                       │      ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:L/I:L
 │                       │      │                           │           /A:N 
 │                       │      │                           ╰ V3Score : 4.8 
-│                       │      ├ References                                                              
-│                       │      │                  ───────────────────────────────────────────────────────
-│                       │      │                  https://access.redhat.com/security/cve/CVE-2026-114946 
-│                       │      │                  https://nvd.nist.gov/vuln/detail/CVE-2026-114946       
-│                       │      │                  https://www.cve.org/CVERecord?id=CVE-2026-114946       
-│                       │      │                  https://www.oracle.com/security-alerts/cspunov2026.html
+│                       │      ├ References                                                                     
+│                       │      │                  ──────────────────────────────────────────────────────────────
+│                       │      │                  https://access.redhat.com/security/cve/CVE-2026-114946        
+│                       │      │                  https://nvd.nist.gov/vuln/detail/CVE-2026-114946              
+│                       │      │                  https://openjdk.org/groups/vulnerability/advisories/2026-11-17
+│                       │      │                  https://www.cve.org/CVERecord?id=CVE-2026-114946              
+│                       │      │                  https://www.oracle.com/security-alerts/cspunov2026.html       
 │                       │      ├ PublishedDate   : 2026-11-17T22:18:24.793Z 
 │                       │      ╰ LastModifiedDate: 2026-11-17T22:18:24.793Z 
 │                       ╰ [18] ╭ VulnerabilityID : CVE-2026-4738 
