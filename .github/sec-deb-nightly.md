@@ -22,16 +22,16 @@
                               ├ InstalledVersion: v1.27.3 
                               ├ FixedVersion    : 1.26.11, 1.27.4 
                               ├ Status          : fixed 
-                              ├ Layer            ╭ Digest: sha256:c6dacedc363bb11d250758e1a628cc461d578998e767a
-                              │                  │         a1ea308e384f7a2181d 
-                              │                  ╰ DiffID: sha256:dddf3fef93c9f5de93e9cb1cef262944f208ea5648514
-                              │                            0dcc1d57ced78f0d14c 
+                              ├ Layer            ╭ Digest: sha256:b81e007bda5e55bcb3977147018af5c69863914bf520f
+                              │                  │         07d72cc075f3febe108 
+                              │                  ╰ DiffID: sha256:805325a3979f42b16195f983b6d638563f960834fe66c
+                              │                            beabbc53009537cb4f5 
                               ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2026-97054 
                               ├ DataSource       ╭ ID  : govulndb 
                               │                  ├ Name: The Go Vulnerability Database 
                               │                  ╰ URL : https://pkg.go.dev/vuln/ 
-                              ├ Fingerprint     : sha256:b8323ea8ed8eec0c6d655fb17b21fbb88655c48925af1022f38044
-                              │                   474439b93e 
+                              ├ Fingerprint     : sha256:43e4c46bcdde8ad5fd93154d6d80dd46669668324854228d0d474c
+                              │                   7fe637877b 
                               ├ Title           : For HTTP/1 servers, when MaxBytesReader's limit is exceeded,
                               │                   "Connecti ... 
                               ├ Description     : For HTTP/1 servers, when MaxBytesReader's limit is exceeded,
@@ -41,12 +41,12 @@
                               │                   server that utilizes MaxBytesReader or MaxBytesHandler can
                               │                   crash due to runtime panic if its handler reads the request
                               │                   body concurrently with writing the response header. 
-                              ├ Severity        : MEDIUM 
+                              ├ Severity        : HIGH 
                               ├ CweIDs                  
                               │                  ───────
                               │                  CWE-362
                               │                  CWE-820
-                              ├ VendorSeverity   ─ amazon: 2 
+                              ├ VendorSeverity   ─ amazon: 3 
                               ├ References                                                                
                               │                  ─────────────────────────────────────────────────────────
                               │                  https://go.dev/cl/862185                                 
