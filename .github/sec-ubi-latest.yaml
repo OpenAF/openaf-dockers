@@ -1377,6 +1377,7 @@
     CweIDs:
     - CWE-567
     VendorSeverity:
+      alma: 3
       amazon: 2
       azure: 2
       cbl-mariner: 2
@@ -1393,9 +1394,32 @@
         V3Score: 4.8
     References:
     - http://www.openwall.com/lists/oss-security/2026/01/07/3
+    - https://access.redhat.com/errata/RHSA-2026:100685
     - https://access.redhat.com/security/cve/CVE-2025-14017
+    - https://bugzilla.redhat.com/2426408
+    - https://bugzilla.redhat.com/2427870
+    - https://bugzilla.redhat.com/2446448
+    - https://bugzilla.redhat.com/2446449
+    - https://bugzilla.redhat.com/2446450
+    - https://bugzilla.redhat.com/2461202
+    - https://bugzilla.redhat.com/2461204
+    - https://bugzilla.redhat.com/2461205
+    - https://bugzilla.redhat.com/2476979
+    - https://bugzilla.redhat.com/2496758
+    - https://bugzilla.redhat.com/2496759
+    - https://bugzilla.redhat.com/2496760
+    - https://bugzilla.redhat.com/2496763
+    - https://bugzilla.redhat.com/2496764
+    - https://bugzilla.redhat.com/2496765
+    - https://bugzilla.redhat.com/2496766
+    - https://bugzilla.redhat.com/2496767
+    - https://bugzilla.redhat.com/2496768
+    - https://bugzilla.redhat.com/2496769
+    - https://bugzilla.redhat.com/2496771
+    - https://bugzilla.redhat.com/2548642
     - https://curl.se/docs/CVE-2025-14017.html
     - https://curl.se/docs/CVE-2025-14017.json
+    - https://errata.almalinux.org/10/ALSA-2026-100685.html
     - https://github.com/advisories/GHSA-jh4h-2cg6-889h
     - https://nvd.nist.gov/vuln/detail/CVE-2025-14017
     - https://ubuntu.com/security/notices/USN-8062-1
@@ -1639,6 +1663,7 @@
     - CWE-416
     VendorSeverity:
       azure: 4
+      photon: 4
       redhat: 2
       ubuntu: 1
     CVSS:
@@ -2467,6 +2492,7 @@
     - CWE-201
     VendorSeverity:
       azure: 2
+      photon: 4
       redhat: 1
       ubuntu: 1
     CVSS:
@@ -2557,6 +2583,7 @@
     - CWE-200
     VendorSeverity:
       azure: 2
+      photon: 3
       redhat: 1
       ubuntu: 1
     CVSS:
@@ -2603,6 +2630,7 @@
     - CWE-73
     VendorSeverity:
       azure: 2
+      photon: 3
       redhat: 1
       ubuntu: 1
     CVSS:
@@ -2645,6 +2673,7 @@
     - CWE-674
     VendorSeverity:
       azure: 2
+      photon: 3
       redhat: 1
       ubuntu: 1
     CVSS:
@@ -2687,6 +2716,7 @@
     - CWE-522
     VendorSeverity:
       azure: 2
+      photon: 3
       redhat: 1
       ubuntu: 1
     CVSS:
@@ -2832,6 +2862,7 @@
     CweIDs:
     - CWE-617
     VendorSeverity:
+      photon: 2
       redhat: 2
       ubuntu: 2
     CVSS:
@@ -3055,6 +3086,7 @@
       amazon: 3
       azure: 2
       julia: 2
+      photon: 2
       redhat: 2
       ubuntu: 2
     CVSS:
@@ -3097,6 +3129,7 @@
       azure: 2
       julia: 2
       nvd: 2
+      photon: 2
       redhat: 2
       ubuntu: 2
     CVSS:
@@ -3142,6 +3175,7 @@
       azure: 2
       julia: 2
       nvd: 2
+      photon: 2
       redhat: 2
       ubuntu: 2
     CVSS:
@@ -3188,6 +3222,7 @@
       azure: 2
       julia: 2
       nvd: 2
+      photon: 2
       redhat: 2
       ubuntu: 2
     CVSS:
@@ -3233,6 +3268,7 @@
       amazon: 3
       azure: 2
       julia: 2
+      photon: 2
       redhat: 2
       ubuntu: 2
     CVSS:
@@ -3274,6 +3310,7 @@
       amazon: 3
       azure: 2
       julia: 2
+      photon: 2
       redhat: 2
       ubuntu: 2
     CVSS:
@@ -3316,6 +3353,7 @@
       azure: 2
       julia: 2
       nvd: 2
+      photon: 2
       redhat: 2
       ubuntu: 2
     CVSS:
@@ -4623,7 +4661,7 @@
       PURL: pkg:rpm/redhat/gnupg2@2.3.3-5.el9_7?arch=x86_64&distro=redhat-9.9
       UID: 240a30318e9ab5ee
     InstalledVersion: 2.3.3-5.el9_7
-    Status: under_investigation
+    Status: affected
     Layer:
       Digest: sha256:137a685996b12c0e864d1a48565be2c513551d0ef17c2ff52ec9c685e2e79bec
       DiffID: sha256:612a748860498b3b9374e14e55af01f985d1d2cb74f2a3e0656c5608d08efe32
@@ -4779,7 +4817,7 @@
       PURL: pkg:rpm/redhat/gnutls@3.8.10-9.el9_8?arch=x86_64&distro=redhat-9.9
       UID: 30bdd8451b5a3325
     InstalledVersion: 3.8.10-9.el9_8
-    Status: under_investigation
+    Status: affected
     Layer:
       Digest: sha256:137a685996b12c0e864d1a48565be2c513551d0ef17c2ff52ec9c685e2e79bec
       DiffID: sha256:612a748860498b3b9374e14e55af01f985d1d2cb74f2a3e0656c5608d08efe32
@@ -4945,7 +4983,7 @@
     CweIDs:
     - CWE-125
     VendorSeverity:
-      amazon: 2
+      amazon: 3
       azure: 2
       cbl-mariner: 2
       julia: 2
@@ -5359,6 +5397,7 @@
     - CWE-400
     VendorSeverity:
       azure: 2
+      photon: 2
       redhat: 2
       ubuntu: 2
     CVSS:
@@ -5986,7 +6025,7 @@
     - https://nvd.nist.gov/vuln/detail/CVE-2026-17591
     - https://www.cve.org/CVERecord?id=CVE-2026-17591
     PublishedDate: '2026-10-16T23:17:01.42Z'
-    LastModifiedDate: '2026-11-06T19:17:46.67Z'
+    LastModifiedDate: '2026-11-21T12:16:41.727Z'
   - VulnerabilityID: CVE-2026-27456
     PkgID: libblkid@2.37.4-28.el9_9.1.x86_64
     PkgName: libblkid
@@ -6136,6 +6175,7 @@
     CweIDs:
     - CWE-567
     VendorSeverity:
+      alma: 3
       amazon: 2
       azure: 2
       cbl-mariner: 2
@@ -6152,9 +6192,32 @@
         V3Score: 4.8
     References:
     - http://www.openwall.com/lists/oss-security/2026/01/07/3
+    - https://access.redhat.com/errata/RHSA-2026:100685
     - https://access.redhat.com/security/cve/CVE-2025-14017
+    - https://bugzilla.redhat.com/2426408
+    - https://bugzilla.redhat.com/2427870
+    - https://bugzilla.redhat.com/2446448
+    - https://bugzilla.redhat.com/2446449
+    - https://bugzilla.redhat.com/2446450
+    - https://bugzilla.redhat.com/2461202
+    - https://bugzilla.redhat.com/2461204
+    - https://bugzilla.redhat.com/2461205
+    - https://bugzilla.redhat.com/2476979
+    - https://bugzilla.redhat.com/2496758
+    - https://bugzilla.redhat.com/2496759
+    - https://bugzilla.redhat.com/2496760
+    - https://bugzilla.redhat.com/2496763
+    - https://bugzilla.redhat.com/2496764
+    - https://bugzilla.redhat.com/2496765
+    - https://bugzilla.redhat.com/2496766
+    - https://bugzilla.redhat.com/2496767
+    - https://bugzilla.redhat.com/2496768
+    - https://bugzilla.redhat.com/2496769
+    - https://bugzilla.redhat.com/2496771
+    - https://bugzilla.redhat.com/2548642
     - https://curl.se/docs/CVE-2025-14017.html
     - https://curl.se/docs/CVE-2025-14017.json
+    - https://errata.almalinux.org/10/ALSA-2026-100685.html
     - https://github.com/advisories/GHSA-jh4h-2cg6-889h
     - https://nvd.nist.gov/vuln/detail/CVE-2025-14017
     - https://ubuntu.com/security/notices/USN-8062-1
@@ -6398,6 +6461,7 @@
     - CWE-416
     VendorSeverity:
       azure: 4
+      photon: 4
       redhat: 2
       ubuntu: 1
     CVSS:
@@ -7226,6 +7290,7 @@
     - CWE-201
     VendorSeverity:
       azure: 2
+      photon: 4
       redhat: 1
       ubuntu: 1
     CVSS:
@@ -7316,6 +7381,7 @@
     - CWE-200
     VendorSeverity:
       azure: 2
+      photon: 3
       redhat: 1
       ubuntu: 1
     CVSS:
@@ -7362,6 +7428,7 @@
     - CWE-73
     VendorSeverity:
       azure: 2
+      photon: 3
       redhat: 1
       ubuntu: 1
     CVSS:
@@ -7404,6 +7471,7 @@
     - CWE-674
     VendorSeverity:
       azure: 2
+      photon: 3
       redhat: 1
       ubuntu: 1
     CVSS:
@@ -7446,6 +7514,7 @@
     - CWE-522
     VendorSeverity:
       azure: 2
+      photon: 3
       redhat: 1
       ubuntu: 1
     CVSS:
@@ -7955,7 +8024,7 @@
     - https://nvd.nist.gov/vuln/detail/CVE-2026-82327
     - https://www.cve.org/CVERecord?id=CVE-2026-82327
     PublishedDate: '2026-08-28T16:18:34.067Z'
-    LastModifiedDate: '2026-11-06T08:17:36.833Z'
+    LastModifiedDate: '2026-11-21T15:17:11.02Z'
   - VulnerabilityID: CVE-2026-9149
     PkgID: libsolv@0.7.24-6.el9_8.x86_64
     PkgName: libsolv
@@ -11546,7 +11615,7 @@
     CweIDs:
     - CWE-93
     VendorSeverity:
-      amazon: 2
+      amazon: 3
       azure: 2
       bitnami: 2
       photon: 2
@@ -11737,7 +11806,7 @@
     - CWE-93
     VendorSeverity:
       alma: 3
-      amazon: 2
+      amazon: 3
       bitnami: 2
       oracle-oval: 3
       photon: 2
@@ -11831,7 +11900,7 @@
     - CWE-416
     VendorSeverity:
       alma: 3
-      amazon: 2
+      amazon: 3
       azure: 2
       bitnami: 2
       cbl-mariner: 2
@@ -11930,7 +11999,7 @@
     - CWE-93
     VendorSeverity:
       alma: 3
-      amazon: 2
+      amazon: 3
       azure: 2
       bitnami: 2
       cbl-mariner: 2
@@ -12120,6 +12189,46 @@
     - https://www.cve.org/CVERecord?id=CVE-2026-116566
     PublishedDate: '2026-10-29T18:17:24.667Z'
     LastModifiedDate: '2026-10-30T18:17:23.903Z'
+  - VulnerabilityID: CVE-2026-119170
+    PkgID: python-unversioned-command@3.9.25-16.el9_9.noarch
+    PkgName: python-unversioned-command
+    PkgIdentifier:
+      PURL: pkg:rpm/redhat/python-unversioned-command@3.9.25-16.el9_9?arch=noarch&distro=redhat-9.9
+      UID: dc4786c86d2be3
+    InstalledVersion: 3.9.25-16.el9_9
+    Status: affected
+    Layer:
+      Digest: sha256:137a685996b12c0e864d1a48565be2c513551d0ef17c2ff52ec9c685e2e79bec
+      DiffID: sha256:612a748860498b3b9374e14e55af01f985d1d2cb74f2a3e0656c5608d08efe32
+    SeveritySource: redhat
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2026-119170
+    Fingerprint: sha256:dccc30a6f9d31d068706f6d090896f4b598535732958d73509d3a4327f2e0c7f
+    Title: 'python: python: Cryptographic bypass via improper FIPS algorithm enforcement in hashlib'
+    Description: There was a regression in how FIPS algorithms were enforced for the hashlib module. Only users that are using OpenSSL in FIPS mode are affected. Only Python 3.14.10 is affected, all other Python versions are unaffected.
+    Severity: MEDIUM
+    CweIDs:
+    - CWE-693
+    VendorSeverity:
+      bitnami: 3
+      photon: 3
+      redhat: 2
+    CVSS:
+      bitnami:
+        V40Vector: CVSS:4.0/AV:N/AC:L/AT:P/PR:N/UI:N/VC:N/VI:H/VA:N/SC:N/SI:N/SA:N
+        V40Score: 8.2
+      redhat:
+        V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:N/I:H/A:N
+        V3Score: 5.9
+    References:
+    - http://www.openwall.com/lists/oss-security/2026/11/06/30
+    - https://access.redhat.com/security/cve/CVE-2026-119170
+    - https://github.com/python/cpython/issues/160923
+    - https://github.com/python/cpython/pull/160984
+    - https://mail.python.org/archives/list/security-announce@python.org/thread/PXVTTOBPUMFJSSUXN6XCS7FC5DZOSZXK/
+    - https://nvd.nist.gov/vuln/detail/CVE-2026-119170
+    - https://www.cve.org/CVERecord?id=CVE-2026-119170
+    PublishedDate: '2026-11-06T15:17:12.073Z'
+    LastModifiedDate: '2026-11-07T01:17:01.81Z'
   - VulnerabilityID: CVE-2026-11972
     PkgID: python-unversioned-command@3.9.25-16.el9_9.noarch
     PkgName: python-unversioned-command
@@ -12170,6 +12279,51 @@
     - https://www.cve.org/CVERecord?id=CVE-2026-11972
     PublishedDate: '2026-06-23T23:16:49.033Z'
     LastModifiedDate: '2026-10-25T23:10:00.167Z'
+  - VulnerabilityID: CVE-2026-124249
+    PkgID: python-unversioned-command@3.9.25-16.el9_9.noarch
+    PkgName: python-unversioned-command
+    PkgIdentifier:
+      PURL: pkg:rpm/redhat/python-unversioned-command@3.9.25-16.el9_9?arch=noarch&distro=redhat-9.9
+      UID: dc4786c86d2be3
+    InstalledVersion: 3.9.25-16.el9_9
+    Status: affected
+    Layer:
+      Digest: sha256:137a685996b12c0e864d1a48565be2c513551d0ef17c2ff52ec9c685e2e79bec
+      DiffID: sha256:612a748860498b3b9374e14e55af01f985d1d2cb74f2a3e0656c5608d08efe32
+    SeveritySource: redhat
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2026-124249
+    Fingerprint: sha256:90597a4089aee542a6324c5743e1a0169755f518586f8142c1ac185c43e7600a
+    Title: 'python: Python: Unauthorized cross-domain cookie deletion via expired Set-Cookie headers'
+    Description: |-
+      http.cookiejar.CookieJar deleted a stored cookie when a response carried an
+      already expired Set-Cookie header for it, using the Domain and Path
+      attributes from the header without consulting the cookie policy. A server
+      could therefore delete cookies belonging to other domains from a shared
+      cookie jar, such as the one used by urllib's HTTPCookieProcessor. The fix
+      consults the cookie policy before an expired cookie may delete an existing
+      one, as required by RFC 6265 section 5.3.
+    Severity: MEDIUM
+    CweIDs:
+    - CWE-346
+    VendorSeverity:
+      redhat: 2
+    CVSS:
+      redhat:
+        V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:L/A:N
+        V3Score: 5.3
+    References:
+    - http://www.openwall.com/lists/oss-security/2026/11/09/24
+    - https://access.redhat.com/security/cve/CVE-2026-124249
+    - https://github.com/python/cpython/commit/4e9d037f1cfc8e29efcb1f67bc668e06ff2b6643
+    - https://github.com/python/cpython/commit/8eb3d2c1c41ca7ce628554413981c1eb763a1494
+    - https://github.com/python/cpython/commit/ac1d49f4fbb33941475c5aa3cb663ab39d64cb73
+    - https://github.com/python/cpython/issues/161569
+    - https://github.com/python/cpython/pull/161570
+    - https://mail.python.org/archives/list/security-announce@python.org/thread/Y6IKNZ2VZUS2L6CLQICSFUEMCLT7OLTY/
+    - https://nvd.nist.gov/vuln/detail/CVE-2026-124249
+    - https://www.cve.org/CVERecord?id=CVE-2026-124249
+    PublishedDate: '2026-11-09T15:17:14.963Z'
+    LastModifiedDate: '2026-11-12T17:17:30.29Z'
   - VulnerabilityID: CVE-2026-1502
     PkgID: python-unversioned-command@3.9.25-16.el9_9.noarch
     PkgName: python-unversioned-command
@@ -12437,7 +12591,7 @@
     - CWE-116
     VendorSeverity:
       alma: 3
-      amazon: 2
+      amazon: 3
       azure: 2
       nvd: 3
       oracle-oval: 3
@@ -12535,7 +12689,7 @@
     - CWE-674
     VendorSeverity:
       alma: 3
-      amazon: 2
+      amazon: 3
       azure: 2
       bitnami: 3
       nvd: 3
@@ -12827,7 +12981,7 @@
     - CWE-116
     VendorSeverity:
       alma: 3
-      amazon: 3
+      amazon: 2
       bitnami: 2
       nvd: 2
       oracle-oval: 3
@@ -13278,7 +13432,7 @@
     CweIDs:
     - CWE-22
     VendorSeverity:
-      amazon: 3
+      amazon: 2
       photon: 3
       redhat: 1
     CVSS:
@@ -13318,7 +13472,7 @@
     CweIDs:
     - CWE-93
     VendorSeverity:
-      amazon: 2
+      amazon: 3
       azure: 2
       bitnami: 2
       photon: 2
@@ -13509,7 +13663,7 @@
     - CWE-93
     VendorSeverity:
       alma: 3
-      amazon: 2
+      amazon: 3
       bitnami: 2
       oracle-oval: 3
       photon: 2
@@ -13603,7 +13757,7 @@
     - CWE-416
     VendorSeverity:
       alma: 3
-      amazon: 2
+      amazon: 3
       azure: 2
       bitnami: 2
       cbl-mariner: 2
@@ -13702,7 +13856,7 @@
     - CWE-93
     VendorSeverity:
       alma: 3
-      amazon: 2
+      amazon: 3
       azure: 2
       bitnami: 2
       cbl-mariner: 2
@@ -13892,6 +14046,46 @@
     - https://www.cve.org/CVERecord?id=CVE-2026-116566
     PublishedDate: '2026-10-29T18:17:24.667Z'
     LastModifiedDate: '2026-10-30T18:17:23.903Z'
+  - VulnerabilityID: CVE-2026-119170
+    PkgID: python3@3.9.25-16.el9_9.x86_64
+    PkgName: python3
+    PkgIdentifier:
+      PURL: pkg:rpm/redhat/python3@3.9.25-16.el9_9?arch=x86_64&distro=redhat-9.9
+      UID: 4db1cf22ae265e23
+    InstalledVersion: 3.9.25-16.el9_9
+    Status: affected
+    Layer:
+      Digest: sha256:137a685996b12c0e864d1a48565be2c513551d0ef17c2ff52ec9c685e2e79bec
+      DiffID: sha256:612a748860498b3b9374e14e55af01f985d1d2cb74f2a3e0656c5608d08efe32
+    SeveritySource: redhat
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2026-119170
+    Fingerprint: sha256:54c27b3096d8fd2e9d8070ec7933500f039d7d95af0d39eda49e2203d4b324f8
+    Title: 'python: python: Cryptographic bypass via improper FIPS algorithm enforcement in hashlib'
+    Description: There was a regression in how FIPS algorithms were enforced for the hashlib module. Only users that are using OpenSSL in FIPS mode are affected. Only Python 3.14.10 is affected, all other Python versions are unaffected.
+    Severity: MEDIUM
+    CweIDs:
+    - CWE-693
+    VendorSeverity:
+      bitnami: 3
+      photon: 3
+      redhat: 2
+    CVSS:
+      bitnami:
+        V40Vector: CVSS:4.0/AV:N/AC:L/AT:P/PR:N/UI:N/VC:N/VI:H/VA:N/SC:N/SI:N/SA:N
+        V40Score: 8.2
+      redhat:
+        V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:N/I:H/A:N
+        V3Score: 5.9
+    References:
+    - http://www.openwall.com/lists/oss-security/2026/11/06/30
+    - https://access.redhat.com/security/cve/CVE-2026-119170
+    - https://github.com/python/cpython/issues/160923
+    - https://github.com/python/cpython/pull/160984
+    - https://mail.python.org/archives/list/security-announce@python.org/thread/PXVTTOBPUMFJSSUXN6XCS7FC5DZOSZXK/
+    - https://nvd.nist.gov/vuln/detail/CVE-2026-119170
+    - https://www.cve.org/CVERecord?id=CVE-2026-119170
+    PublishedDate: '2026-11-06T15:17:12.073Z'
+    LastModifiedDate: '2026-11-07T01:17:01.81Z'
   - VulnerabilityID: CVE-2026-11972
     PkgID: python3@3.9.25-16.el9_9.x86_64
     PkgName: python3
@@ -13942,6 +14136,51 @@
     - https://www.cve.org/CVERecord?id=CVE-2026-11972
     PublishedDate: '2026-06-23T23:16:49.033Z'
     LastModifiedDate: '2026-10-25T23:10:00.167Z'
+  - VulnerabilityID: CVE-2026-124249
+    PkgID: python3@3.9.25-16.el9_9.x86_64
+    PkgName: python3
+    PkgIdentifier:
+      PURL: pkg:rpm/redhat/python3@3.9.25-16.el9_9?arch=x86_64&distro=redhat-9.9
+      UID: 4db1cf22ae265e23
+    InstalledVersion: 3.9.25-16.el9_9
+    Status: affected
+    Layer:
+      Digest: sha256:137a685996b12c0e864d1a48565be2c513551d0ef17c2ff52ec9c685e2e79bec
+      DiffID: sha256:612a748860498b3b9374e14e55af01f985d1d2cb74f2a3e0656c5608d08efe32
+    SeveritySource: redhat
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2026-124249
+    Fingerprint: sha256:650ae9371541b338797556b566feff6dab07fba67de58331043b35344e558fb7
+    Title: 'python: Python: Unauthorized cross-domain cookie deletion via expired Set-Cookie headers'
+    Description: |-
+      http.cookiejar.CookieJar deleted a stored cookie when a response carried an
+      already expired Set-Cookie header for it, using the Domain and Path
+      attributes from the header without consulting the cookie policy. A server
+      could therefore delete cookies belonging to other domains from a shared
+      cookie jar, such as the one used by urllib's HTTPCookieProcessor. The fix
+      consults the cookie policy before an expired cookie may delete an existing
+      one, as required by RFC 6265 section 5.3.
+    Severity: MEDIUM
+    CweIDs:
+    - CWE-346
+    VendorSeverity:
+      redhat: 2
+    CVSS:
+      redhat:
+        V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:L/A:N
+        V3Score: 5.3
+    References:
+    - http://www.openwall.com/lists/oss-security/2026/11/09/24
+    - https://access.redhat.com/security/cve/CVE-2026-124249
+    - https://github.com/python/cpython/commit/4e9d037f1cfc8e29efcb1f67bc668e06ff2b6643
+    - https://github.com/python/cpython/commit/8eb3d2c1c41ca7ce628554413981c1eb763a1494
+    - https://github.com/python/cpython/commit/ac1d49f4fbb33941475c5aa3cb663ab39d64cb73
+    - https://github.com/python/cpython/issues/161569
+    - https://github.com/python/cpython/pull/161570
+    - https://mail.python.org/archives/list/security-announce@python.org/thread/Y6IKNZ2VZUS2L6CLQICSFUEMCLT7OLTY/
+    - https://nvd.nist.gov/vuln/detail/CVE-2026-124249
+    - https://www.cve.org/CVERecord?id=CVE-2026-124249
+    PublishedDate: '2026-11-09T15:17:14.963Z'
+    LastModifiedDate: '2026-11-12T17:17:30.29Z'
   - VulnerabilityID: CVE-2026-1502
     PkgID: python3@3.9.25-16.el9_9.x86_64
     PkgName: python3
@@ -14209,7 +14448,7 @@
     - CWE-116
     VendorSeverity:
       alma: 3
-      amazon: 2
+      amazon: 3
       azure: 2
       nvd: 3
       oracle-oval: 3
@@ -14307,7 +14546,7 @@
     - CWE-674
     VendorSeverity:
       alma: 3
-      amazon: 2
+      amazon: 3
       azure: 2
       bitnami: 3
       nvd: 3
@@ -14599,7 +14838,7 @@
     - CWE-116
     VendorSeverity:
       alma: 3
-      amazon: 3
+      amazon: 2
       bitnami: 2
       nvd: 2
       oracle-oval: 3
@@ -15050,7 +15289,7 @@
     CweIDs:
     - CWE-22
     VendorSeverity:
-      amazon: 3
+      amazon: 2
       photon: 3
       redhat: 1
     CVSS:
@@ -15090,7 +15329,7 @@
     CweIDs:
     - CWE-93
     VendorSeverity:
-      amazon: 2
+      amazon: 3
       azure: 2
       bitnami: 2
       photon: 2
@@ -15281,7 +15520,7 @@
     - CWE-93
     VendorSeverity:
       alma: 3
-      amazon: 2
+      amazon: 3
       bitnami: 2
       oracle-oval: 3
       photon: 2
@@ -15375,7 +15614,7 @@
     - CWE-416
     VendorSeverity:
       alma: 3
-      amazon: 2
+      amazon: 3
       azure: 2
       bitnami: 2
       cbl-mariner: 2
@@ -15474,7 +15713,7 @@
     - CWE-93
     VendorSeverity:
       alma: 3
-      amazon: 2
+      amazon: 3
       azure: 2
       bitnami: 2
       cbl-mariner: 2
@@ -15664,6 +15903,46 @@
     - https://www.cve.org/CVERecord?id=CVE-2026-116566
     PublishedDate: '2026-10-29T18:17:24.667Z'
     LastModifiedDate: '2026-10-30T18:17:23.903Z'
+  - VulnerabilityID: CVE-2026-119170
+    PkgID: python3-libs@3.9.25-16.el9_9.x86_64
+    PkgName: python3-libs
+    PkgIdentifier:
+      PURL: pkg:rpm/redhat/python3-libs@3.9.25-16.el9_9?arch=x86_64&distro=redhat-9.9
+      UID: 42940edd077fe4c3
+    InstalledVersion: 3.9.25-16.el9_9
+    Status: affected
+    Layer:
+      Digest: sha256:137a685996b12c0e864d1a48565be2c513551d0ef17c2ff52ec9c685e2e79bec
+      DiffID: sha256:612a748860498b3b9374e14e55af01f985d1d2cb74f2a3e0656c5608d08efe32
+    SeveritySource: redhat
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2026-119170
+    Fingerprint: sha256:f03f74603827a2a017ae419794f857412b79df6eedb5f042ae4d47afd3fba499
+    Title: 'python: python: Cryptographic bypass via improper FIPS algorithm enforcement in hashlib'
+    Description: There was a regression in how FIPS algorithms were enforced for the hashlib module. Only users that are using OpenSSL in FIPS mode are affected. Only Python 3.14.10 is affected, all other Python versions are unaffected.
+    Severity: MEDIUM
+    CweIDs:
+    - CWE-693
+    VendorSeverity:
+      bitnami: 3
+      photon: 3
+      redhat: 2
+    CVSS:
+      bitnami:
+        V40Vector: CVSS:4.0/AV:N/AC:L/AT:P/PR:N/UI:N/VC:N/VI:H/VA:N/SC:N/SI:N/SA:N
+        V40Score: 8.2
+      redhat:
+        V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:N/I:H/A:N
+        V3Score: 5.9
+    References:
+    - http://www.openwall.com/lists/oss-security/2026/11/06/30
+    - https://access.redhat.com/security/cve/CVE-2026-119170
+    - https://github.com/python/cpython/issues/160923
+    - https://github.com/python/cpython/pull/160984
+    - https://mail.python.org/archives/list/security-announce@python.org/thread/PXVTTOBPUMFJSSUXN6XCS7FC5DZOSZXK/
+    - https://nvd.nist.gov/vuln/detail/CVE-2026-119170
+    - https://www.cve.org/CVERecord?id=CVE-2026-119170
+    PublishedDate: '2026-11-06T15:17:12.073Z'
+    LastModifiedDate: '2026-11-07T01:17:01.81Z'
   - VulnerabilityID: CVE-2026-11972
     PkgID: python3-libs@3.9.25-16.el9_9.x86_64
     PkgName: python3-libs
@@ -15714,6 +15993,51 @@
     - https://www.cve.org/CVERecord?id=CVE-2026-11972
     PublishedDate: '2026-06-23T23:16:49.033Z'
     LastModifiedDate: '2026-10-25T23:10:00.167Z'
+  - VulnerabilityID: CVE-2026-124249
+    PkgID: python3-libs@3.9.25-16.el9_9.x86_64
+    PkgName: python3-libs
+    PkgIdentifier:
+      PURL: pkg:rpm/redhat/python3-libs@3.9.25-16.el9_9?arch=x86_64&distro=redhat-9.9
+      UID: 42940edd077fe4c3
+    InstalledVersion: 3.9.25-16.el9_9
+    Status: affected
+    Layer:
+      Digest: sha256:137a685996b12c0e864d1a48565be2c513551d0ef17c2ff52ec9c685e2e79bec
+      DiffID: sha256:612a748860498b3b9374e14e55af01f985d1d2cb74f2a3e0656c5608d08efe32
+    SeveritySource: redhat
+    PrimaryURL: https://avd.aquasec.com/nvd/cve-2026-124249
+    Fingerprint: sha256:b2d81eb4cb58ee91bf105789925b411328e516519ddc192f7283169f7876e1f7
+    Title: 'python: Python: Unauthorized cross-domain cookie deletion via expired Set-Cookie headers'
+    Description: |-
+      http.cookiejar.CookieJar deleted a stored cookie when a response carried an
+      already expired Set-Cookie header for it, using the Domain and Path
+      attributes from the header without consulting the cookie policy. A server
+      could therefore delete cookies belonging to other domains from a shared
+      cookie jar, such as the one used by urllib's HTTPCookieProcessor. The fix
+      consults the cookie policy before an expired cookie may delete an existing
+      one, as required by RFC 6265 section 5.3.
+    Severity: MEDIUM
+    CweIDs:
+    - CWE-346
+    VendorSeverity:
+      redhat: 2
+    CVSS:
+      redhat:
+        V3Vector: CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:L/A:N
+        V3Score: 5.3
+    References:
+    - http://www.openwall.com/lists/oss-security/2026/11/09/24
+    - https://access.redhat.com/security/cve/CVE-2026-124249
+    - https://github.com/python/cpython/commit/4e9d037f1cfc8e29efcb1f67bc668e06ff2b6643
+    - https://github.com/python/cpython/commit/8eb3d2c1c41ca7ce628554413981c1eb763a1494
+    - https://github.com/python/cpython/commit/ac1d49f4fbb33941475c5aa3cb663ab39d64cb73
+    - https://github.com/python/cpython/issues/161569
+    - https://github.com/python/cpython/pull/161570
+    - https://mail.python.org/archives/list/security-announce@python.org/thread/Y6IKNZ2VZUS2L6CLQICSFUEMCLT7OLTY/
+    - https://nvd.nist.gov/vuln/detail/CVE-2026-124249
+    - https://www.cve.org/CVERecord?id=CVE-2026-124249
+    PublishedDate: '2026-11-09T15:17:14.963Z'
+    LastModifiedDate: '2026-11-12T17:17:30.29Z'
   - VulnerabilityID: CVE-2026-1502
     PkgID: python3-libs@3.9.25-16.el9_9.x86_64
     PkgName: python3-libs
@@ -15981,7 +16305,7 @@
     - CWE-116
     VendorSeverity:
       alma: 3
-      amazon: 2
+      amazon: 3
       azure: 2
       nvd: 3
       oracle-oval: 3
@@ -16079,7 +16403,7 @@
     - CWE-674
     VendorSeverity:
       alma: 3
-      amazon: 2
+      amazon: 3
       azure: 2
       bitnami: 3
       nvd: 3
@@ -16371,7 +16695,7 @@
     - CWE-116
     VendorSeverity:
       alma: 3
-      amazon: 3
+      amazon: 2
       bitnami: 2
       nvd: 2
       oracle-oval: 3
@@ -16822,7 +17146,7 @@
     CweIDs:
     - CWE-22
     VendorSeverity:
-      amazon: 3
+      amazon: 2
       photon: 3
       redhat: 1
     CVSS:
@@ -17500,6 +17824,7 @@
     - CWE-787
     VendorSeverity:
       amazon: 3
+      photon: 3
       redhat: 2
     CVSS:
       redhat:
@@ -17669,6 +17994,7 @@
     - CWE-787
     VendorSeverity:
       amazon: 3
+      photon: 3
       redhat: 2
     CVSS:
       redhat:
@@ -18185,7 +18511,7 @@
     CweIDs:
     - CWE-908
     VendorSeverity:
-      amazon: 2
+      amazon: 3
       bitnami: 2
       redhat: 2
     CVSS:
@@ -18273,7 +18599,7 @@
     CweIDs:
     - CWE-416
     VendorSeverity:
-      amazon: 2
+      amazon: 3
       bitnami: 2
       redhat: 2
     CVSS:
