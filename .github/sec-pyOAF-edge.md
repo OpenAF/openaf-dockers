@@ -20,8 +20,8 @@
 │                       │      ├ DataSource       ╭ ID  : alpine 
 │                       │      │                  ├ Name: Alpine Secdb 
 │                       │      │                  ╰ URL : https://secdb.alpinelinux.org/ 
-│                       │      ├ Fingerprint     : sha256:362105d40c20a8ba37ae65b258902a566986fea7971dec6bce552
-│                       │      │                   6ea03c830b7 
+│                       │      ├ Fingerprint     : sha256:f1f2e5e340ad8f1723de282dbdd5dcde93e718aba2dbaa8c1d708
+│                       │      │                   2054d5b0f74 
 │                       │      ├ Title           : openssl: openssl: Denial of Service via crafted EC
 │                       │      │                   certificate in CMS encryption 
 │                       │      ├ Description     : Issue summary: Encrypting a CMS message to an EC certificate
@@ -120,8 +120,8 @@
 │                       │      ├ DataSource       ╭ ID  : alpine 
 │                       │      │                  ├ Name: Alpine Secdb 
 │                       │      │                  ╰ URL : https://secdb.alpinelinux.org/ 
-│                       │      ├ Fingerprint     : sha256:15c09e1c6869cd4fb6599ed40c922635503e2047a8fbf1b7ea47c
-│                       │      │                   1aff33c0792 
+│                       │      ├ Fingerprint     : sha256:2402b0170007e180d2ef2f9cf9d52ee5d9207ce1b4d3e96a11e5b
+│                       │      │                   69f05d48bca 
 │                       │      ├ Title           : openssl: openssl: Denial of Service via overlapping QUIC
 │                       │      │                   CRYPTO frame processing 
 │                       │      ├ Description     : Issue summary: A retransmitted QUIC CRYPTO frame can release
@@ -200,8 +200,8 @@
 │                       │      ├ DataSource       ╭ ID  : alpine 
 │                       │      │                  ├ Name: Alpine Secdb 
 │                       │      │                  ╰ URL : https://secdb.alpinelinux.org/ 
-│                       │      ├ Fingerprint     : sha256:2c193945f6c5b808597475514360aca642155911d2d4768aa82d5
-│                       │      │                   7a8ea26498d 
+│                       │      ├ Fingerprint     : sha256:5bb097692d473dcaf4e14b27de990da31fa691f7539b2d6afeda8
+│                       │      │                   93db4626649 
 │                       │      ├ Title           : openssl: OpenSSL: Denial of Service via out-of-bounds read
 │                       │      │                   in AES-GCM-SIV 
 │                       │      ├ Description     : Issue summary: Setting an AES-GCM-SIV IV shorter than the
@@ -300,8 +300,8 @@
 │                       │      ├ DataSource       ╭ ID  : alpine 
 │                       │      │                  ├ Name: Alpine Secdb 
 │                       │      │                  ╰ URL : https://secdb.alpinelinux.org/ 
-│                       │      ├ Fingerprint     : sha256:bb436d4868b00e56122f975924891c2e46eafbd2c9454d3199827
-│                       │      │                   6800c9e5c63 
+│                       │      ├ Fingerprint     : sha256:ed09b22e75d9be6e57dbce2c3c0688812b5fa332bec6e3c1021d1
+│                       │      │                   0d8aa395766 
 │                       │      ├ Title           : openssl: openssl: Information disclosure via uninitialized
 │                       │      │                   memory in QUIC peer detection 
 │                       │      ├ Description     : Issue summary: QUIC, when performing automated peer
@@ -385,8 +385,8 @@
 │                       │      ├ DataSource       ╭ ID  : alpine 
 │                       │      │                  ├ Name: Alpine Secdb 
 │                       │      │                  ╰ URL : https://secdb.alpinelinux.org/ 
-│                       │      ├ Fingerprint     : sha256:4ca4d24ef3b2849927a6b9aa7359e4f718e07a0d754c70bf1d72a
-│                       │      │                   2d2f87e2ca5 
+│                       │      ├ Fingerprint     : sha256:e584daf537f60ef35b200d1d1f7dea1e1d23cf593f32015e65fee
+│                       │      │                   a06d47528f7 
 │                       │      ├ Title           : openssl: OpenSSL: Message authentication bypass via
 │                       │      │                   zero-length AAD update 
 │                       │      ├ Description     : Issue summary: The AES-GCM-SIV implementation treats a
@@ -470,8 +470,8 @@
 │                       │      ├ DataSource       ╭ ID  : alpine 
 │                       │      │                  ├ Name: Alpine Secdb 
 │                       │      │                  ╰ URL : https://secdb.alpinelinux.org/ 
-│                       │      ├ Fingerprint     : sha256:1d894e38347b14d93e9c7d1360bcfb1408d8d05f848d1de32fb99
-│                       │      │                   8735c38a708 
+│                       │      ├ Fingerprint     : sha256:3f31c91bc343ee928f58c5dc24b9b25ac40b90592e10668455468
+│                       │      │                   9a239d5ca0b 
 │                       │      ├ Title           : openssl: openssl: Denial of Service via crafted EC
 │                       │      │                   certificate in CMS encryption 
 │                       │      ├ Description     : Issue summary: Encrypting a CMS message to an EC certificate
@@ -570,8 +570,8 @@
 │                       │      ├ DataSource       ╭ ID  : alpine 
 │                       │      │                  ├ Name: Alpine Secdb 
 │                       │      │                  ╰ URL : https://secdb.alpinelinux.org/ 
-│                       │      ├ Fingerprint     : sha256:8becd838e2acab2756e7c9b20444659075044e0185eabb91427ef
-│                       │      │                   ab479ff17bc 
+│                       │      ├ Fingerprint     : sha256:893b8d118f8d6fe7ef763b45994fc5a7e86fc189fca66ce17d0a0
+│                       │      │                   5f9d215af3d 
 │                       │      ├ Title           : openssl: openssl: Denial of Service via overlapping QUIC
 │                       │      │                   CRYPTO frame processing 
 │                       │      ├ Description     : Issue summary: A retransmitted QUIC CRYPTO frame can release
@@ -650,8 +650,8 @@
 │                       │      ├ DataSource       ╭ ID  : alpine 
 │                       │      │                  ├ Name: Alpine Secdb 
 │                       │      │                  ╰ URL : https://secdb.alpinelinux.org/ 
-│                       │      ├ Fingerprint     : sha256:354c93ce7a9c429490c6fffa9b10f1b275b97410661379f33d1c7
-│                       │      │                   15958e51244 
+│                       │      ├ Fingerprint     : sha256:e2d13b77cb7f0907f055fac503f0ca7595a8f3c5882871fb6686f
+│                       │      │                   efdd4dbf287 
 │                       │      ├ Title           : openssl: OpenSSL: Denial of Service via out-of-bounds read
 │                       │      │                   in AES-GCM-SIV 
 │                       │      ├ Description     : Issue summary: Setting an AES-GCM-SIV IV shorter than the
@@ -750,8 +750,8 @@
 │                       │      ├ DataSource       ╭ ID  : alpine 
 │                       │      │                  ├ Name: Alpine Secdb 
 │                       │      │                  ╰ URL : https://secdb.alpinelinux.org/ 
-│                       │      ├ Fingerprint     : sha256:3bd24d7e98ddd64f2a3145f1dfac34c279b3b711a4729893cefc2
-│                       │      │                   9c71a4af285 
+│                       │      ├ Fingerprint     : sha256:c57bf744d18c59e11e5521fb872620f3d269e388abfa6ccef9310
+│                       │      │                   7b17a9dfce6 
 │                       │      ├ Title           : openssl: openssl: Information disclosure via uninitialized
 │                       │      │                   memory in QUIC peer detection 
 │                       │      ├ Description     : Issue summary: QUIC, when performing automated peer
@@ -835,8 +835,8 @@
 │                       │      ├ DataSource       ╭ ID  : alpine 
 │                       │      │                  ├ Name: Alpine Secdb 
 │                       │      │                  ╰ URL : https://secdb.alpinelinux.org/ 
-│                       │      ├ Fingerprint     : sha256:686cd4900b595bff52ca8c88c45c630c398a966c28fd20e9dbeec
-│                       │      │                   3b73a7d7af3 
+│                       │      ├ Fingerprint     : sha256:cef8d944c4af2bc54d15e938da1c8dbbfd1d213f32a6739e07dd5
+│                       │      │                   b90666e2993 
 │                       │      ├ Title           : openssl: OpenSSL: Message authentication bypass via
 │                       │      │                   zero-length AAD update 
 │                       │      ├ Description     : Issue summary: The AES-GCM-SIV implementation treats a
@@ -920,8 +920,8 @@
 │                       │      ├ DataSource       ╭ ID  : alpine 
 │                       │      │                  ├ Name: Alpine Secdb 
 │                       │      │                  ╰ URL : https://secdb.alpinelinux.org/ 
-│                       │      ├ Fingerprint     : sha256:4411a1939141ea77893a3dffed7a45363e624b694f847b95be4eb
-│                       │      │                   7fbe7aeddd1 
+│                       │      ├ Fingerprint     : sha256:950cb54afcb607dc111b967ec9b6732f22465808ce30a700ad202
+│                       │      │                   16e80d6e446 
 │                       │      ├ Title           : openssl: openssl: Denial of Service via crafted EC
 │                       │      │                   certificate in CMS encryption 
 │                       │      ├ Description     : Issue summary: Encrypting a CMS message to an EC certificate
@@ -1020,8 +1020,8 @@
 │                       │      ├ DataSource       ╭ ID  : alpine 
 │                       │      │                  ├ Name: Alpine Secdb 
 │                       │      │                  ╰ URL : https://secdb.alpinelinux.org/ 
-│                       │      ├ Fingerprint     : sha256:d2faadb50820cc81f80faa056c844a18fabb7a351e808d5c6a5fc
-│                       │      │                   03368f9aa32 
+│                       │      ├ Fingerprint     : sha256:f585ebe70250a21b05cc1442413b7f1fc1b8d17d0a805cb984198
+│                       │      │                   a701201b275 
 │                       │      ├ Title           : openssl: openssl: Denial of Service via overlapping QUIC
 │                       │      │                   CRYPTO frame processing 
 │                       │      ├ Description     : Issue summary: A retransmitted QUIC CRYPTO frame can release
@@ -1100,8 +1100,8 @@
 │                       │      ├ DataSource       ╭ ID  : alpine 
 │                       │      │                  ├ Name: Alpine Secdb 
 │                       │      │                  ╰ URL : https://secdb.alpinelinux.org/ 
-│                       │      ├ Fingerprint     : sha256:acd7dfb79e112ab131d03d3c78ea3b08538e321e22d7dfd234414
-│                       │      │                   3d2bd5d17a3 
+│                       │      ├ Fingerprint     : sha256:8ecdcb4610081c264cbc19b0c0dab1dc356b1b87e0286977f9ddc
+│                       │      │                   6c4c0954d7e 
 │                       │      ├ Title           : openssl: OpenSSL: Denial of Service via out-of-bounds read
 │                       │      │                   in AES-GCM-SIV 
 │                       │      ├ Description     : Issue summary: Setting an AES-GCM-SIV IV shorter than the
@@ -1200,8 +1200,8 @@
 │                       │      ├ DataSource       ╭ ID  : alpine 
 │                       │      │                  ├ Name: Alpine Secdb 
 │                       │      │                  ╰ URL : https://secdb.alpinelinux.org/ 
-│                       │      ├ Fingerprint     : sha256:4b58d06780c416f511cfa80a65d38a0389a2254073829d8b36f07
-│                       │      │                   b076c5c77d5 
+│                       │      ├ Fingerprint     : sha256:e9beb57fb5a23ec54f980c257debfaf8fcb26e2b270801210943c
+│                       │      │                   76d236e3b37 
 │                       │      ├ Title           : openssl: openssl: Information disclosure via uninitialized
 │                       │      │                   memory in QUIC peer detection 
 │                       │      ├ Description     : Issue summary: QUIC, when performing automated peer
@@ -1285,8 +1285,8 @@
 │                       │      ├ DataSource       ╭ ID  : alpine 
 │                       │      │                  ├ Name: Alpine Secdb 
 │                       │      │                  ╰ URL : https://secdb.alpinelinux.org/ 
-│                       │      ├ Fingerprint     : sha256:37e983f673cc859039cd13efbd2784edcbe950198267a132579fb
-│                       │      │                   8c07d438049 
+│                       │      ├ Fingerprint     : sha256:f4664d87d738f2592b6ccf8a77bacb756ed8d1e5761ebb7021ccc
+│                       │      │                   ba0228c8980 
 │                       │      ├ Title           : openssl: OpenSSL: Message authentication bypass via
 │                       │      │                   zero-length AAD update 
 │                       │      ├ Description     : Issue summary: The AES-GCM-SIV implementation treats a
@@ -1369,8 +1369,8 @@
 │                              ├ DataSource       ╭ ID  : alpine 
 │                              │                  ├ Name: Alpine Secdb 
 │                              │                  ╰ URL : https://secdb.alpinelinux.org/ 
-│                              ├ Fingerprint     : sha256:f244c2d047a471293f095e7e1b7940d5be05183e918dc731c8ba4
-│                              │                   9faa91f0a01 
+│                              ├ Fingerprint     : sha256:1369c8cf9006a68e71e4bd184736ed44b9923804ff92237f0bd84
+│                              │                   4b5a62ac46e 
 │                              ├ Title           : Improper Restriction of Operations within the Bounds of a
 │                              │                   Memory Buffe ... 
 │                              ├ Description     : Improper Restriction of Operations within the Bounds of a
