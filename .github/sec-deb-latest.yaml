@@ -38,7 +38,7 @@
     - CWE-362
     - CWE-820
     VendorSeverity:
-      amazon: 2
+      amazon: 3
       photon: 2
       redhat: 2
     CVSS:
