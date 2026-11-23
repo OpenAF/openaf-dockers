@@ -1944,6 +1944,7 @@
 │                       │       │                  ├ julia      : 2 
 │                       │       │                  ├ photon     : 2 
 │                       │       │                  ├ redhat     : 2 
+│                       │       │                  ├ rocky      : 3 
 │                       │       │                  ╰ ubuntu     : 2 
 │                       │       ├ CVSS             ╭ julia  ╭ V3Vector: CVSS:3.1/AV:L/AC:H/PR:N/UI:R/S:U/C:H/I:
 │                       │       │                  │        │           H/A:N 
@@ -1951,40 +1952,84 @@
 │                       │       │                  ╰ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:L/I:
 │                       │       │                           │           L/A:N 
 │                       │       │                           ╰ V3Score : 4.8 
-│                       │       ├ References                                                              
-│                       │       │                  ───────────────────────────────────────────────────────
-│                       │       │                  http://www.openwall.com/lists/oss-security/2026/01/07/3
-│                       │       │                  https://access.redhat.com/errata/RHSA-2026:100685      
-│                       │       │                  https://access.redhat.com/security/cve/CVE-2025-14017  
-│                       │       │                  https://bugzilla.redhat.com/2426408                    
-│                       │       │                  https://bugzilla.redhat.com/2427870                    
-│                       │       │                  https://bugzilla.redhat.com/2446448                    
-│                       │       │                  https://bugzilla.redhat.com/2446449                    
-│                       │       │                  https://bugzilla.redhat.com/2446450                    
-│                       │       │                  https://bugzilla.redhat.com/2461202                    
-│                       │       │                  https://bugzilla.redhat.com/2461204                    
-│                       │       │                  https://bugzilla.redhat.com/2461205                    
-│                       │       │                  https://bugzilla.redhat.com/2476979                    
-│                       │       │                  https://bugzilla.redhat.com/2496758                    
-│                       │       │                  https://bugzilla.redhat.com/2496759                    
-│                       │       │                  https://bugzilla.redhat.com/2496760                    
-│                       │       │                  https://bugzilla.redhat.com/2496763                    
-│                       │       │                  https://bugzilla.redhat.com/2496764                    
-│                       │       │                  https://bugzilla.redhat.com/2496765                    
-│                       │       │                  https://bugzilla.redhat.com/2496766                    
-│                       │       │                  https://bugzilla.redhat.com/2496767                    
-│                       │       │                  https://bugzilla.redhat.com/2496768                    
-│                       │       │                  https://bugzilla.redhat.com/2496769                    
-│                       │       │                  https://bugzilla.redhat.com/2496771                    
-│                       │       │                  https://bugzilla.redhat.com/2548642                    
-│                       │       │                  https://curl.se/docs/CVE-2025-14017.html               
-│                       │       │                  https://curl.se/docs/CVE-2025-14017.json               
-│                       │       │                  https://errata.almalinux.org/10/ALSA-2026-100685.html  
-│                       │       │                  https://github.com/advisories/GHSA-jh4h-2cg6-889h      
-│                       │       │                  https://nvd.nist.gov/vuln/detail/CVE-2025-14017        
-│                       │       │                  https://ubuntu.com/security/notices/USN-8062-1         
-│                       │       │                  https://ubuntu.com/security/notices/USN-8062-2         
-│                       │       │                  https://www.cve.org/CVERecord?id=CVE-2025-14017        
+│                       │       ├ References                                                                    
+│                       │       │                  ─────────────────────────────────────────────────────────────
+│                       │       │                  http://www.openwall.com/lists/oss-security/2026/01/07/3      
+│                       │       │                  https://access.redhat.com/errata/RHSA-2026:100685            
+│                       │       │                  https://access.redhat.com/security/cve/CVE-2025-14017        
+│                       │       │                  https://bugzilla.redhat.com/2426408                          
+│                       │       │                  https://bugzilla.redhat.com/2427870                          
+│                       │       │                  https://bugzilla.redhat.com/2446448                          
+│                       │       │                  https://bugzilla.redhat.com/2446449                          
+│                       │       │                  https://bugzilla.redhat.com/2446450                          
+│                       │       │                  https://bugzilla.redhat.com/2461202                          
+│                       │       │                  https://bugzilla.redhat.com/2461204                          
+│                       │       │                  https://bugzilla.redhat.com/2461205                          
+│                       │       │                  https://bugzilla.redhat.com/2476979                          
+│                       │       │                  https://bugzilla.redhat.com/2496758                          
+│                       │       │                  https://bugzilla.redhat.com/2496759                          
+│                       │       │                  https://bugzilla.redhat.com/2496760                          
+│                       │       │                  https://bugzilla.redhat.com/2496763                          
+│                       │       │                  https://bugzilla.redhat.com/2496764                          
+│                       │       │                  https://bugzilla.redhat.com/2496765                          
+│                       │       │                  https://bugzilla.redhat.com/2496766                          
+│                       │       │                  https://bugzilla.redhat.com/2496767                          
+│                       │       │                  https://bugzilla.redhat.com/2496768                          
+│                       │       │                  https://bugzilla.redhat.com/2496769                          
+│                       │       │                  https://bugzilla.redhat.com/2496771                          
+│                       │       │                  https://bugzilla.redhat.com/2548642                          
+│                       │       │                  https://bugzilla.redhat.com/show_bug.cgi?id=2426408          
+│                       │       │                  https://bugzilla.redhat.com/show_bug.cgi?id=2427870          
+│                       │       │                  https://bugzilla.redhat.com/show_bug.cgi?id=2446448          
+│                       │       │                  https://bugzilla.redhat.com/show_bug.cgi?id=2446449          
+│                       │       │                  https://bugzilla.redhat.com/show_bug.cgi?id=2446450          
+│                       │       │                  https://bugzilla.redhat.com/show_bug.cgi?id=2461202          
+│                       │       │                  https://bugzilla.redhat.com/show_bug.cgi?id=2461204          
+│                       │       │                  https://bugzilla.redhat.com/show_bug.cgi?id=2461205          
+│                       │       │                  https://bugzilla.redhat.com/show_bug.cgi?id=2476979          
+│                       │       │                  https://bugzilla.redhat.com/show_bug.cgi?id=2496758          
+│                       │       │                  https://bugzilla.redhat.com/show_bug.cgi?id=2496759          
+│                       │       │                  https://bugzilla.redhat.com/show_bug.cgi?id=2496760          
+│                       │       │                  https://bugzilla.redhat.com/show_bug.cgi?id=2496763          
+│                       │       │                  https://bugzilla.redhat.com/show_bug.cgi?id=2496764          
+│                       │       │                  https://bugzilla.redhat.com/show_bug.cgi?id=2496765          
+│                       │       │                  https://bugzilla.redhat.com/show_bug.cgi?id=2496766          
+│                       │       │                  https://bugzilla.redhat.com/show_bug.cgi?id=2496767          
+│                       │       │                  https://bugzilla.redhat.com/show_bug.cgi?id=2496768          
+│                       │       │                  https://bugzilla.redhat.com/show_bug.cgi?id=2496769          
+│                       │       │                  https://bugzilla.redhat.com/show_bug.cgi?id=2496771          
+│                       │       │                  https://bugzilla.redhat.com/show_bug.cgi?id=2548642          
+│                       │       │                  https://creativecommons.org/licenses/by/4.0/                 
+│                       │       │                  https://curl.se/docs/CVE-2025-14017.html                     
+│                       │       │                  https://curl.se/docs/CVE-2025-14017.json                     
+│                       │       │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2025-14017
+│                       │       │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2025-14819
+│                       │       │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-10536
+│                       │       │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-11856
+│                       │       │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-12064
+│                       │       │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-1965 
+│                       │       │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-3783 
+│                       │       │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-3784 
+│                       │       │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-5545 
+│                       │       │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-6253 
+│                       │       │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-6429 
+│                       │       │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-7168 
+│                       │       │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-8286 
+│                       │       │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-8458 
+│                       │       │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-8924 
+│                       │       │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-8926 
+│                       │       │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-8927 
+│                       │       │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-8932 
+│                       │       │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-9079 
+│                       │       │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-92392
+│                       │       │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-9547 
+│                       │       │                  https://errata.almalinux.org/10/ALSA-2026-100685.html        
+│                       │       │                  https://errata.rockylinux.org/RLSA-2026:100685               
+│                       │       │                  https://github.com/advisories/GHSA-jh4h-2cg6-889h            
+│                       │       │                  https://nvd.nist.gov/vuln/detail/CVE-2025-14017              
+│                       │       │                  https://ubuntu.com/security/notices/USN-8062-1               
+│                       │       │                  https://ubuntu.com/security/notices/USN-8062-2               
+│                       │       │                  https://www.cve.org/CVERecord?id=CVE-2025-14017              
 │                       │       ├ PublishedDate   : 2026-01-08T10:15:45.667Z 
 │                       │       ╰ LastModifiedDate: 2026-09-15T07:16:23.753Z 
 │                       ├ [34]  ╭ VulnerabilityID : CVE-2026-19931 
@@ -6617,7 +6662,7 @@
 │                       │       ├ CweIDs                  
 │                       │       │                  ───────
 │                       │       │                  CWE-125
-│                       │       ├ VendorSeverity   ╭ amazon     : 3 
+│                       │       ├ VendorSeverity   ╭ amazon     : 2 
 │                       │       │                  ├ azure      : 2 
 │                       │       │                  ├ cbl-mariner: 2 
 │                       │       │                  ├ julia      : 2 
@@ -8172,6 +8217,7 @@
 │                       │       │                  ├ julia      : 2 
 │                       │       │                  ├ photon     : 2 
 │                       │       │                  ├ redhat     : 2 
+│                       │       │                  ├ rocky      : 3 
 │                       │       │                  ╰ ubuntu     : 2 
 │                       │       ├ CVSS             ╭ julia  ╭ V3Vector: CVSS:3.1/AV:L/AC:H/PR:N/UI:R/S:U/C:H/I:
 │                       │       │                  │        │           H/A:N 
@@ -8179,40 +8225,84 @@
 │                       │       │                  ╰ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:L/I:
 │                       │       │                           │           L/A:N 
 │                       │       │                           ╰ V3Score : 4.8 
-│                       │       ├ References                                                              
-│                       │       │                  ───────────────────────────────────────────────────────
-│                       │       │                  http://www.openwall.com/lists/oss-security/2026/01/07/3
-│                       │       │                  https://access.redhat.com/errata/RHSA-2026:100685      
-│                       │       │                  https://access.redhat.com/security/cve/CVE-2025-14017  
-│                       │       │                  https://bugzilla.redhat.com/2426408                    
-│                       │       │                  https://bugzilla.redhat.com/2427870                    
-│                       │       │                  https://bugzilla.redhat.com/2446448                    
-│                       │       │                  https://bugzilla.redhat.com/2446449                    
-│                       │       │                  https://bugzilla.redhat.com/2446450                    
-│                       │       │                  https://bugzilla.redhat.com/2461202                    
-│                       │       │                  https://bugzilla.redhat.com/2461204                    
-│                       │       │                  https://bugzilla.redhat.com/2461205                    
-│                       │       │                  https://bugzilla.redhat.com/2476979                    
-│                       │       │                  https://bugzilla.redhat.com/2496758                    
-│                       │       │                  https://bugzilla.redhat.com/2496759                    
-│                       │       │                  https://bugzilla.redhat.com/2496760                    
-│                       │       │                  https://bugzilla.redhat.com/2496763                    
-│                       │       │                  https://bugzilla.redhat.com/2496764                    
-│                       │       │                  https://bugzilla.redhat.com/2496765                    
-│                       │       │                  https://bugzilla.redhat.com/2496766                    
-│                       │       │                  https://bugzilla.redhat.com/2496767                    
-│                       │       │                  https://bugzilla.redhat.com/2496768                    
-│                       │       │                  https://bugzilla.redhat.com/2496769                    
-│                       │       │                  https://bugzilla.redhat.com/2496771                    
-│                       │       │                  https://bugzilla.redhat.com/2548642                    
-│                       │       │                  https://curl.se/docs/CVE-2025-14017.html               
-│                       │       │                  https://curl.se/docs/CVE-2025-14017.json               
-│                       │       │                  https://errata.almalinux.org/10/ALSA-2026-100685.html  
-│                       │       │                  https://github.com/advisories/GHSA-jh4h-2cg6-889h      
-│                       │       │                  https://nvd.nist.gov/vuln/detail/CVE-2025-14017        
-│                       │       │                  https://ubuntu.com/security/notices/USN-8062-1         
-│                       │       │                  https://ubuntu.com/security/notices/USN-8062-2         
-│                       │       │                  https://www.cve.org/CVERecord?id=CVE-2025-14017        
+│                       │       ├ References                                                                    
+│                       │       │                  ─────────────────────────────────────────────────────────────
+│                       │       │                  http://www.openwall.com/lists/oss-security/2026/01/07/3      
+│                       │       │                  https://access.redhat.com/errata/RHSA-2026:100685            
+│                       │       │                  https://access.redhat.com/security/cve/CVE-2025-14017        
+│                       │       │                  https://bugzilla.redhat.com/2426408                          
+│                       │       │                  https://bugzilla.redhat.com/2427870                          
+│                       │       │                  https://bugzilla.redhat.com/2446448                          
+│                       │       │                  https://bugzilla.redhat.com/2446449                          
+│                       │       │                  https://bugzilla.redhat.com/2446450                          
+│                       │       │                  https://bugzilla.redhat.com/2461202                          
+│                       │       │                  https://bugzilla.redhat.com/2461204                          
+│                       │       │                  https://bugzilla.redhat.com/2461205                          
+│                       │       │                  https://bugzilla.redhat.com/2476979                          
+│                       │       │                  https://bugzilla.redhat.com/2496758                          
+│                       │       │                  https://bugzilla.redhat.com/2496759                          
+│                       │       │                  https://bugzilla.redhat.com/2496760                          
+│                       │       │                  https://bugzilla.redhat.com/2496763                          
+│                       │       │                  https://bugzilla.redhat.com/2496764                          
+│                       │       │                  https://bugzilla.redhat.com/2496765                          
+│                       │       │                  https://bugzilla.redhat.com/2496766                          
+│                       │       │                  https://bugzilla.redhat.com/2496767                          
+│                       │       │                  https://bugzilla.redhat.com/2496768                          
+│                       │       │                  https://bugzilla.redhat.com/2496769                          
+│                       │       │                  https://bugzilla.redhat.com/2496771                          
+│                       │       │                  https://bugzilla.redhat.com/2548642                          
+│                       │       │                  https://bugzilla.redhat.com/show_bug.cgi?id=2426408          
+│                       │       │                  https://bugzilla.redhat.com/show_bug.cgi?id=2427870          
+│                       │       │                  https://bugzilla.redhat.com/show_bug.cgi?id=2446448          
+│                       │       │                  https://bugzilla.redhat.com/show_bug.cgi?id=2446449          
+│                       │       │                  https://bugzilla.redhat.com/show_bug.cgi?id=2446450          
+│                       │       │                  https://bugzilla.redhat.com/show_bug.cgi?id=2461202          
+│                       │       │                  https://bugzilla.redhat.com/show_bug.cgi?id=2461204          
+│                       │       │                  https://bugzilla.redhat.com/show_bug.cgi?id=2461205          
+│                       │       │                  https://bugzilla.redhat.com/show_bug.cgi?id=2476979          
+│                       │       │                  https://bugzilla.redhat.com/show_bug.cgi?id=2496758          
+│                       │       │                  https://bugzilla.redhat.com/show_bug.cgi?id=2496759          
+│                       │       │                  https://bugzilla.redhat.com/show_bug.cgi?id=2496760          
+│                       │       │                  https://bugzilla.redhat.com/show_bug.cgi?id=2496763          
+│                       │       │                  https://bugzilla.redhat.com/show_bug.cgi?id=2496764          
+│                       │       │                  https://bugzilla.redhat.com/show_bug.cgi?id=2496765          
+│                       │       │                  https://bugzilla.redhat.com/show_bug.cgi?id=2496766          
+│                       │       │                  https://bugzilla.redhat.com/show_bug.cgi?id=2496767          
+│                       │       │                  https://bugzilla.redhat.com/show_bug.cgi?id=2496768          
+│                       │       │                  https://bugzilla.redhat.com/show_bug.cgi?id=2496769          
+│                       │       │                  https://bugzilla.redhat.com/show_bug.cgi?id=2496771          
+│                       │       │                  https://bugzilla.redhat.com/show_bug.cgi?id=2548642          
+│                       │       │                  https://creativecommons.org/licenses/by/4.0/                 
+│                       │       │                  https://curl.se/docs/CVE-2025-14017.html                     
+│                       │       │                  https://curl.se/docs/CVE-2025-14017.json                     
+│                       │       │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2025-14017
+│                       │       │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2025-14819
+│                       │       │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-10536
+│                       │       │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-11856
+│                       │       │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-12064
+│                       │       │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-1965 
+│                       │       │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-3783 
+│                       │       │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-3784 
+│                       │       │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-5545 
+│                       │       │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-6253 
+│                       │       │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-6429 
+│                       │       │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-7168 
+│                       │       │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-8286 
+│                       │       │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-8458 
+│                       │       │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-8924 
+│                       │       │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-8926 
+│                       │       │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-8927 
+│                       │       │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-8932 
+│                       │       │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-9079 
+│                       │       │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-92392
+│                       │       │                  https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2026-9547 
+│                       │       │                  https://errata.almalinux.org/10/ALSA-2026-100685.html        
+│                       │       │                  https://errata.rockylinux.org/RLSA-2026:100685               
+│                       │       │                  https://github.com/advisories/GHSA-jh4h-2cg6-889h            
+│                       │       │                  https://nvd.nist.gov/vuln/detail/CVE-2025-14017              
+│                       │       │                  https://ubuntu.com/security/notices/USN-8062-1               
+│                       │       │                  https://ubuntu.com/security/notices/USN-8062-2               
+│                       │       │                  https://www.cve.org/CVERecord?id=CVE-2025-14017              
 │                       │       ├ PublishedDate   : 2026-01-08T10:15:45.667Z 
 │                       │       ╰ LastModifiedDate: 2026-09-15T07:16:23.753Z 
 │                       ├ [137] ╭ VulnerabilityID : CVE-2026-19931 
@@ -15101,7 +15191,7 @@
 │                       │       ├ CweIDs                 
 │                       │       │                  ──────
 │                       │       │                  CWE-93
-│                       │       ├ VendorSeverity   ╭ amazon : 3 
+│                       │       ├ VendorSeverity   ╭ amazon : 2 
 │                       │       │                  ├ azure  : 2 
 │                       │       │                  ├ bitnami: 2 
 │                       │       │                  ├ photon : 2 
@@ -15377,7 +15467,7 @@
 │                       │       │                  ──────
 │                       │       │                  CWE-93
 │                       │       ├ VendorSeverity   ╭ alma       : 3 
-│                       │       │                  ├ amazon     : 3 
+│                       │       │                  ├ amazon     : 2 
 │                       │       │                  ├ bitnami    : 2 
 │                       │       │                  ├ oracle-oval: 3 
 │                       │       │                  ├ photon     : 2 
@@ -15507,7 +15597,7 @@
 │                       │       │                  ───────
 │                       │       │                  CWE-416
 │                       │       ├ VendorSeverity   ╭ alma       : 3 
-│                       │       │                  ├ amazon     : 3 
+│                       │       │                  ├ amazon     : 2 
 │                       │       │                  ├ azure      : 2 
 │                       │       │                  ├ bitnami    : 2 
 │                       │       │                  ├ cbl-mariner: 2 
@@ -15641,7 +15731,7 @@
 │                       │       │                  ──────
 │                       │       │                  CWE-93
 │                       │       ├ VendorSeverity   ╭ alma       : 3 
-│                       │       │                  ├ amazon     : 3 
+│                       │       │                  ├ amazon     : 2 
 │                       │       │                  ├ azure      : 2 
 │                       │       │                  ├ bitnami    : 2 
 │                       │       │                  ├ cbl-mariner: 2 
@@ -16417,7 +16507,7 @@
 │                       │       │                  CWE-20 
 │                       │       │                  CWE-116
 │                       │       ├ VendorSeverity   ╭ alma       : 3 
-│                       │       │                  ├ amazon     : 3 
+│                       │       │                  ├ amazon     : 2 
 │                       │       │                  ├ azure      : 2 
 │                       │       │                  ├ nvd        : 3 
 │                       │       │                  ├ oracle-oval: 3 
@@ -16547,7 +16637,7 @@
 │                       │       │                  ───────
 │                       │       │                  CWE-674
 │                       │       ├ VendorSeverity   ╭ alma       : 3 
-│                       │       │                  ├ amazon     : 3 
+│                       │       │                  ├ amazon     : 2 
 │                       │       │                  ├ azure      : 2 
 │                       │       │                  ├ bitnami    : 3 
 │                       │       │                  ├ nvd        : 3 
@@ -16932,7 +17022,7 @@
 │                       │       │                  CWE-150
 │                       │       │                  CWE-116
 │                       │       ├ VendorSeverity   ╭ alma       : 3 
-│                       │       │                  ├ amazon     : 2 
+│                       │       │                  ├ amazon     : 3 
 │                       │       │                  ├ bitnami    : 2 
 │                       │       │                  ├ nvd        : 2 
 │                       │       │                  ├ oracle-oval: 3 
@@ -17550,7 +17640,7 @@
 │                       │       ├ CweIDs                 
 │                       │       │                  ──────
 │                       │       │                  CWE-22
-│                       │       ├ VendorSeverity   ╭ amazon: 2 
+│                       │       ├ VendorSeverity   ╭ amazon: 3 
 │                       │       │                  ├ photon: 3 
 │                       │       │                  ╰ redhat: 1 
 │                       │       ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:N/I:
@@ -17604,7 +17694,7 @@
 │                       │       ├ CweIDs                 
 │                       │       │                  ──────
 │                       │       │                  CWE-93
-│                       │       ├ VendorSeverity   ╭ amazon : 3 
+│                       │       ├ VendorSeverity   ╭ amazon : 2 
 │                       │       │                  ├ azure  : 2 
 │                       │       │                  ├ bitnami: 2 
 │                       │       │                  ├ photon : 2 
@@ -17880,7 +17970,7 @@
 │                       │       │                  ──────
 │                       │       │                  CWE-93
 │                       │       ├ VendorSeverity   ╭ alma       : 3 
-│                       │       │                  ├ amazon     : 3 
+│                       │       │                  ├ amazon     : 2 
 │                       │       │                  ├ bitnami    : 2 
 │                       │       │                  ├ oracle-oval: 3 
 │                       │       │                  ├ photon     : 2 
@@ -18010,7 +18100,7 @@
 │                       │       │                  ───────
 │                       │       │                  CWE-416
 │                       │       ├ VendorSeverity   ╭ alma       : 3 
-│                       │       │                  ├ amazon     : 3 
+│                       │       │                  ├ amazon     : 2 
 │                       │       │                  ├ azure      : 2 
 │                       │       │                  ├ bitnami    : 2 
 │                       │       │                  ├ cbl-mariner: 2 
@@ -18144,7 +18234,7 @@
 │                       │       │                  ──────
 │                       │       │                  CWE-93
 │                       │       ├ VendorSeverity   ╭ alma       : 3 
-│                       │       │                  ├ amazon     : 3 
+│                       │       │                  ├ amazon     : 2 
 │                       │       │                  ├ azure      : 2 
 │                       │       │                  ├ bitnami    : 2 
 │                       │       │                  ├ cbl-mariner: 2 
@@ -18920,7 +19010,7 @@
 │                       │       │                  CWE-20 
 │                       │       │                  CWE-116
 │                       │       ├ VendorSeverity   ╭ alma       : 3 
-│                       │       │                  ├ amazon     : 3 
+│                       │       │                  ├ amazon     : 2 
 │                       │       │                  ├ azure      : 2 
 │                       │       │                  ├ nvd        : 3 
 │                       │       │                  ├ oracle-oval: 3 
@@ -19050,7 +19140,7 @@
 │                       │       │                  ───────
 │                       │       │                  CWE-674
 │                       │       ├ VendorSeverity   ╭ alma       : 3 
-│                       │       │                  ├ amazon     : 3 
+│                       │       │                  ├ amazon     : 2 
 │                       │       │                  ├ azure      : 2 
 │                       │       │                  ├ bitnami    : 3 
 │                       │       │                  ├ nvd        : 3 
@@ -19435,7 +19525,7 @@
 │                       │       │                  CWE-150
 │                       │       │                  CWE-116
 │                       │       ├ VendorSeverity   ╭ alma       : 3 
-│                       │       │                  ├ amazon     : 2 
+│                       │       │                  ├ amazon     : 3 
 │                       │       │                  ├ bitnami    : 2 
 │                       │       │                  ├ nvd        : 2 
 │                       │       │                  ├ oracle-oval: 3 
@@ -20053,7 +20143,7 @@
 │                       │       ├ CweIDs                 
 │                       │       │                  ──────
 │                       │       │                  CWE-22
-│                       │       ├ VendorSeverity   ╭ amazon: 2 
+│                       │       ├ VendorSeverity   ╭ amazon: 3 
 │                       │       │                  ├ photon: 3 
 │                       │       │                  ╰ redhat: 1 
 │                       │       ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:N/I:
@@ -20107,7 +20197,7 @@
 │                       │       ├ CweIDs                 
 │                       │       │                  ──────
 │                       │       │                  CWE-93
-│                       │       ├ VendorSeverity   ╭ amazon : 3 
+│                       │       ├ VendorSeverity   ╭ amazon : 2 
 │                       │       │                  ├ azure  : 2 
 │                       │       │                  ├ bitnami: 2 
 │                       │       │                  ├ photon : 2 
@@ -20383,7 +20473,7 @@
 │                       │       │                  ──────
 │                       │       │                  CWE-93
 │                       │       ├ VendorSeverity   ╭ alma       : 3 
-│                       │       │                  ├ amazon     : 3 
+│                       │       │                  ├ amazon     : 2 
 │                       │       │                  ├ bitnami    : 2 
 │                       │       │                  ├ oracle-oval: 3 
 │                       │       │                  ├ photon     : 2 
@@ -20513,7 +20603,7 @@
 │                       │       │                  ───────
 │                       │       │                  CWE-416
 │                       │       ├ VendorSeverity   ╭ alma       : 3 
-│                       │       │                  ├ amazon     : 3 
+│                       │       │                  ├ amazon     : 2 
 │                       │       │                  ├ azure      : 2 
 │                       │       │                  ├ bitnami    : 2 
 │                       │       │                  ├ cbl-mariner: 2 
@@ -20647,7 +20737,7 @@
 │                       │       │                  ──────
 │                       │       │                  CWE-93
 │                       │       ├ VendorSeverity   ╭ alma       : 3 
-│                       │       │                  ├ amazon     : 3 
+│                       │       │                  ├ amazon     : 2 
 │                       │       │                  ├ azure      : 2 
 │                       │       │                  ├ bitnami    : 2 
 │                       │       │                  ├ cbl-mariner: 2 
@@ -21423,7 +21513,7 @@
 │                       │       │                  CWE-20 
 │                       │       │                  CWE-116
 │                       │       ├ VendorSeverity   ╭ alma       : 3 
-│                       │       │                  ├ amazon     : 3 
+│                       │       │                  ├ amazon     : 2 
 │                       │       │                  ├ azure      : 2 
 │                       │       │                  ├ nvd        : 3 
 │                       │       │                  ├ oracle-oval: 3 
@@ -21553,7 +21643,7 @@
 │                       │       │                  ───────
 │                       │       │                  CWE-674
 │                       │       ├ VendorSeverity   ╭ alma       : 3 
-│                       │       │                  ├ amazon     : 3 
+│                       │       │                  ├ amazon     : 2 
 │                       │       │                  ├ azure      : 2 
 │                       │       │                  ├ bitnami    : 3 
 │                       │       │                  ├ nvd        : 3 
@@ -21938,7 +22028,7 @@
 │                       │       │                  CWE-150
 │                       │       │                  CWE-116
 │                       │       ├ VendorSeverity   ╭ alma       : 3 
-│                       │       │                  ├ amazon     : 2 
+│                       │       │                  ├ amazon     : 3 
 │                       │       │                  ├ bitnami    : 2 
 │                       │       │                  ├ nvd        : 2 
 │                       │       │                  ├ oracle-oval: 3 
@@ -22556,7 +22646,7 @@
 │                       │       ├ CweIDs                 
 │                       │       │                  ──────
 │                       │       │                  CWE-22
-│                       │       ├ VendorSeverity   ╭ amazon: 2 
+│                       │       ├ VendorSeverity   ╭ amazon: 3 
 │                       │       │                  ├ photon: 3 
 │                       │       │                  ╰ redhat: 1 
 │                       │       ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:N/I:
@@ -24457,7 +24547,7 @@
 │                       │       ├ CweIDs                  
 │                       │       │                  ───────
 │                       │       │                  CWE-908
-│                       │       ├ VendorSeverity   ╭ amazon : 3 
+│                       │       ├ VendorSeverity   ╭ amazon : 2 
 │                       │       │                  ├ bitnami: 2 
 │                       │       │                  ╰ redhat : 2 
 │                       │       ├ CVSS             ╭ bitnami ╭ V40Vector: CVSS:4.0/AV:L/AC:L/AT:N/PR:N/UI:P/VC:
@@ -24579,7 +24669,7 @@
 │                       │       ├ CweIDs                  
 │                       │       │                  ───────
 │                       │       │                  CWE-416
-│                       │       ├ VendorSeverity   ╭ amazon : 3 
+│                       │       ├ VendorSeverity   ╭ amazon : 2 
 │                       │       │                  ├ bitnami: 2 
 │                       │       │                  ╰ redhat : 2 
 │                       │       ├ CVSS             ╭ bitnami ╭ V40Vector: CVSS:4.0/AV:L/AC:L/AT:N/PR:N/UI:P/VC:
