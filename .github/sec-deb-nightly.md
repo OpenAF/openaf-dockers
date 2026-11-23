@@ -22,18 +22,18 @@
                               ├ InstalledVersion: v1.27.3 
                               ├ FixedVersion    : 1.26.11, 1.27.4 
                               ├ Status          : fixed 
-                              ├ Layer            ╭ Digest: sha256:b81e007bda5e55bcb3977147018af5c69863914bf520f
-                              │                  │         07d72cc075f3febe108 
-                              │                  ╰ DiffID: sha256:805325a3979f42b16195f983b6d638563f960834fe66c
-                              │                            beabbc53009537cb4f5 
+                              ├ Layer            ╭ Digest: sha256:dc357cc91e037a35141a21de87d26717e626ec1134773
+                              │                  │         ea0565035a1fb4b201a 
+                              │                  ╰ DiffID: sha256:4e7ed75a3fb404f99a3fa3f038d7876367b6cae74504c
+                              │                            4d5ab13f8c288662882 
                               ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2026-97054 
                               ├ DataSource       ╭ ID  : govulndb 
                               │                  ├ Name: The Go Vulnerability Database 
                               │                  ╰ URL : https://pkg.go.dev/vuln/ 
-                              ├ Fingerprint     : sha256:43e4c46bcdde8ad5fd93154d6d80dd46669668324854228d0d474c
-                              │                   7fe637877b 
-                              ├ Title           : For HTTP/1 servers, when MaxBytesReader's limit is exceeded,
-                              │                   "Connecti ... 
+                              ├ Fingerprint     : sha256:50ae18ae35527643e41f2bb656f41b674a07908ecbcc514fef199b
+                              │                   0e48959aad 
+                              ├ Title           : net/http: golang: net/http: Denial of Service via race
+                              │                   condition when handling oversized HTTP/1 requests 
                               ├ Description     : For HTTP/1 servers, when MaxBytesReader's limit is exceeded,
                               │                   "Connection: close" header is automatically set without
                               │                   synchronization, which might race with another header being
@@ -41,18 +41,26 @@
                               │                   server that utilizes MaxBytesReader or MaxBytesHandler can
                               │                   crash due to runtime panic if its handler reads the request
                               │                   body concurrently with writing the response header. 
-                              ├ Severity        : HIGH 
+                              ├ Severity        : MEDIUM 
                               ├ CweIDs                  
                               │                  ───────
                               │                  CWE-362
                               │                  CWE-820
-                              ├ VendorSeverity   ─ amazon: 3 
+                              ├ VendorSeverity   ╭ amazon: 3 
+                              │                  ├ photon: 2 
+                              │                  ╰ redhat: 2 
+                              ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:N/I:N/
+                              │                           │           A:H 
+                              │                           ╰ V3Score : 5.9 
                               ├ References                                                                
                               │                  ─────────────────────────────────────────────────────────
+                              │                  https://access.redhat.com/security/cve/CVE-2026-97054    
                               │                  https://go.dev/cl/862185                                 
                               │                  https://go.dev/issue/82563                               
                               │                  https://groups.google.com/g/golang-announce/c/iY8TY0wWgbM
+                              │                  https://nvd.nist.gov/vuln/detail/CVE-2026-97054          
                               │                  https://pkg.go.dev/vuln/GO-2026-6859                     
+                              │                  https://www.cve.org/CVERecord?id=CVE-2026-97054          
                               ├ PublishedDate   : 2026-11-11T05:19:58.943Z 
                               ╰ LastModifiedDate: 2026-11-16T16:17:56.29Z 
 ```
