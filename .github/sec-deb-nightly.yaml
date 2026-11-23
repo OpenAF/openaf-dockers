@@ -23,14 +23,14 @@
     FixedVersion: 1.26.11, 1.27.4
     Status: fixed
     Layer:
-      Digest: sha256:eb8002ab6c15e169833e7b5bc0dc3238c7f8edecfb9fd3fa3c1d3054f37b713e
-      DiffID: sha256:c7682fe122decd4b51e06310953796f9ebbfe02407b4b085dbd51c713c4961ab
+      Digest: sha256:dc357cc91e037a35141a21de87d26717e626ec1134773ea0565035a1fb4b201a
+      DiffID: sha256:4e7ed75a3fb404f99a3fa3f038d7876367b6cae74504c4d5ab13f8c288662882
     PrimaryURL: https://avd.aquasec.com/nvd/cve-2026-97054
     DataSource:
       ID: govulndb
       Name: The Go Vulnerability Database
       URL: https://pkg.go.dev/vuln/
-    Fingerprint: sha256:8c8777f8769c163d42f6c5e7d8318c67f15b7ba384e6849a5a359879f320cf59
+    Fingerprint: sha256:50ae18ae35527643e41f2bb656f41b674a07908ecbcc514fef199b0e48959aad
     Title: 'net/http: golang: net/http: Denial of Service via race condition when handling oversized HTTP/1 requests'
     Description: 'For HTTP/1 servers, when MaxBytesReader''s limit is exceeded, "Connection: close" header is automatically set without synchronization, which might race with another header being set explicitly in the server handler. As a result, an HTTP/1 server that utilizes MaxBytesReader or MaxBytesHandler can crash due to runtime panic if its handler reads the request body concurrently with writing the response header.'
     Severity: MEDIUM
@@ -38,7 +38,7 @@
     - CWE-362
     - CWE-820
     VendorSeverity:
-      amazon: 2
+      amazon: 3
       photon: 2
       redhat: 2
     CVSS:
