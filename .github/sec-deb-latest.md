@@ -46,7 +46,7 @@
                               │                  ───────
                               │                  CWE-362
                               │                  CWE-820
-                              ├ VendorSeverity   ╭ amazon: 3 
+                              ├ VendorSeverity   ╭ amazon: 2 
                               │                  ├ photon: 2 
                               │                  ╰ redhat: 2 
                               ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:N/I:N/
