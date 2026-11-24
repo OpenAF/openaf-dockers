@@ -22,16 +22,16 @@
                               ├ InstalledVersion: v1.27.3 
                               ├ FixedVersion    : 1.26.11, 1.27.4 
                               ├ Status          : fixed 
-                              ├ Layer            ╭ Digest: sha256:dc357cc91e037a35141a21de87d26717e626ec1134773
-                              │                  │         ea0565035a1fb4b201a 
-                              │                  ╰ DiffID: sha256:4e7ed75a3fb404f99a3fa3f038d7876367b6cae74504c
-                              │                            4d5ab13f8c288662882 
+                              ├ Layer            ╭ Digest: sha256:195267e9bea14bdbbc0f57bb3414745fe8a0c307db056
+                              │                  │         fd60b8f09bd817a03e5 
+                              │                  ╰ DiffID: sha256:15ef57acbd0981180baa98ea576ce41d319bbbccd7f67
+                              │                            de07671bba04b42d406 
                               ├ PrimaryURL      : https://avd.aquasec.com/nvd/cve-2026-97054 
                               ├ DataSource       ╭ ID  : govulndb 
                               │                  ├ Name: The Go Vulnerability Database 
                               │                  ╰ URL : https://pkg.go.dev/vuln/ 
-                              ├ Fingerprint     : sha256:50ae18ae35527643e41f2bb656f41b674a07908ecbcc514fef199b
-                              │                   0e48959aad 
+                              ├ Fingerprint     : sha256:1db6203c237662a14c8149c2121b22b5f63e241d53a642e5f9b2ca
+                              │                   bf073024de 
                               ├ Title           : net/http: golang: net/http: Denial of Service via race
                               │                   condition when handling oversized HTTP/1 requests 
                               ├ Description     : For HTTP/1 servers, when MaxBytesReader's limit is exceeded,
@@ -46,7 +46,7 @@
                               │                  ───────
                               │                  CWE-362
                               │                  CWE-820
-                              ├ VendorSeverity   ╭ amazon: 3 
+                              ├ VendorSeverity   ╭ amazon: 2 
                               │                  ├ photon: 2 
                               │                  ╰ redhat: 2 
                               ├ CVSS             ─ redhat ╭ V3Vector: CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:N/I:N/
